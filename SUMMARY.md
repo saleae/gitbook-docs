@@ -3,7 +3,7 @@
 * [Getting Started with Saleae Logic](README.md)
 * [Getting Started](getting-started.md)
 * [Orders & Shipping](ordering-and-shipping/README.md)
-  * [Place an Order \(test change\)](ordering-and-shipping/how-do-i-place-an-order.md)
+  * [Place an Order](ordering-and-shipping/how-do-i-place-an-order.md)
   * [Place a Purchase Order \(PO\)](ordering-and-shipping/place-a-purchase-order-po.md)
   * [Request a Quote](ordering-and-shipping/how-do-i-get-a-quote.md)
   * [Distributors](ordering-and-shipping/distributors.md)
