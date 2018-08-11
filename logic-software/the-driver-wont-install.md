@@ -1,4 +1,4 @@
-# The Driver Won't Install
+# Driver Install
 
 **Note: if you are using any of the new products \(Logic 4, Logic 8, Pro 8, Pro 16\), you must use the latest beta version of the software since the previous releases did not include drivers for these devices. You can find the latest beta here on the support site under the SDKs and betas section.**
 
