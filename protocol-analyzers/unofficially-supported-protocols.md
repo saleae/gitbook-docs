@@ -21,7 +21,7 @@ If you have your own analyzer you would like to see featured here, please let us
 * [MIPI RFFE v2](https://github.com/blargony/RFFEAnalyzer)
 * [Clockless Parallel Analyzer](https://github.com/Zweikeks/saleae-logic-SimpleParallelNoClock-Analyzer)
 * [PJON \(Padded Jittering Operative Network\) Analyzer](https://github.com/aperepel/saleae-pjon-protocol-analyzer)
-* [QSPI](https://github.com/dedicatedcomputing/saleae_qspi)
+* [QSPI \(Quad SPI\)](https://github.com/dedicatedcomputing/saleae_qspi)
 * [SPI Flash](https://github.com/kasjer/saleae_spiflash)
 * [NEC IR Remote Control](https://github.com/LiveOverflow/NECAnalyzer)
 * [S/PDIF](https://github.com/pfrench42/saleae_spdif)

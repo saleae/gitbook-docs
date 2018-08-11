@@ -1,0 +1,102 @@
+# Supported Voltages
+
+There are two important specifications to keep in mind when determining what signals can be recorded with the Saleae products and what signals could potentially damage the device.
+
+The first is the supported IO thresholds. These define the voltage thresholds that determine what is recorded as a digital 0 and a digital 1.
+
+The second is the over-voltage protection. It determines the maximum input voltage that can be applied without risking damage to the device.
+
+These specifications are also listed on the device information tile on the Saleae home page. [https://www.saleae.com/\#DatasheetTile](https://www.saleae.com/#DatasheetTile)
+
+For all Saleae products, all inputs share the same IO threshold. For products with selectable thresholds, there is no way to assign different IO thresholds to different pins at the same time. All pins share the same threshold setting.
+
+**Logic 4**
+
+Logic 4 has a simple, fixed input voltage threshold.
+
+Voltage input low: 0.8 volts
+
+Voltage input high: 2.0 volts
+
+Over-voltage protection provides safety to +/- 25V
+
+Notes:
+
+* Over-voltage protection is sufficient to use this product safely with RS-232, RS-485, 12V TTL, and other larger swing signals inside the +/- 25 V range. No adapter or additional protection is required.
+* Because of the voltage input high threshold of 2.0 volts, this device cannot be used with 1.8V or 1.2V logic. It also cannot be directly connected to 3.3V CAN signals. Please see our article about recording CAN for more details.
+* Recommended IO standards: 5.0V, 3.3V, 2.5V
+
+**The New Logic 8**
+
+The new Logic 8 also has a fixed input voltage threshold.
+
+Voltage input low: 0.6 volts
+
+Voltage input high: 1.2 volts
+
+Over-voltage protection provides safety to +/- 25V
+
+Notes:
+
+* Over-voltage protection provides the same benefits as the other new devices, as listed in the notes for Logic 4.
+* The 1.2V input voltage high spec allows Logic 8 to be used directly with the CAN low channel of 3.3V CAN.
+* Recommended IO standards: 5.0V, 3.3V, 2.5V, 1.8V
+
+**Logic Pro 8 and Logic Pro 16**
+
+Logic Pro devices have three selectable threshold voltage options. The inputs are also implemented with comparators instead of standard CMOS buffers such as Logic 4 and the new Logic 8. That makes the input-low and input-high voltages very close to each other. The exact behavior of these comparators is not defined here.
+
+1.2V Voltage Option
+
+* Voltage threshold: 0.6V
+
+1.8V Voltage Option
+
+* Voltage threshold: 0.9V
+
++3.3V Voltage Option
+
+* Voltage threshold: 1.65V
+* Use this option for all IO standards 3.3 volts or above.
+
+Over-voltage protection provides safety to +/- 25V
+
+Notes:
+
+* Over-voltage protection provides the same benefits as the other new devices, as listed in the notes for Logic 4.
+* Recommended IO standards: 5.0V, 3.3V, 2.5V, 1.8V, 1.2V
+* The precise threshold voltage is not calibrated and may vary as much as +/- 15%. That is more than accurate enough to record standard IO families.
+
+**First-Generation Logic**
+
+The original Logic also has a fixed input voltage threshold.
+
+Voltage input low: 0.8 volts
+
+Voltage input high: 2.0 volts
+
+Over-voltage protection provides safety to +/- 15V
+
+Note: Over-voltage protection is not meant for continuous operation outside of -0.5V to 5.25V. That makes the device unsuitable for safe, direct recording of RS-232 and similar standards.
+
+The original Logic is the only Saleae device to have internally pulled up inputs. All other Saleae devices had an internal resistance to ground. The original Logic's inputs float at about 2.4 volts, with over 100 K ohms of pull-up resistance, producing a very small pull-up effect.
+
+**First-Generation Logic16**
+
+The original Logic16 had two selectable threshold settings.
+
+Lower threshold setting \(for use with IO families in the range of 1.8V to 3.6V\)
+
+* Voltage input low: 0.7V
+* Voltage input high: 1.5V Upper threshold settings \(for use with 5.0V logic or larger signals\)
+* Voltage input low: 1.4V
+* Voltage input high: 3.6V
+
+  Over-voltage protection provides safety to +/- 50V
+
+Note: Over-voltage protection not meant for continuous operation outside of -0.9V to 6V. That makes the device unsuitable for safe, direct recording of RS-232 and similar standards.
+
+**Input Threshold Variation**
+
+There might be some small variation in the precise threshold voltage channel to channel. That is most notable in the Saleae Logic Pro devices because comparators with low hysteresis are used.
+
