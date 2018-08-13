@@ -1,7 +1,14 @@
 # Table of contents
 
 * [Getting Started with Saleae Logic](README.md)
-* [Getting Started](getting-started.md)
+* [Getting Started](getting-started/README.md)
+  * [Setup](getting-started/setup.md)
+  * [Configure](getting-started/configure.md)
+  * [Record](getting-started/record.md)
+  * [Navigate](getting-started/navigate.md)
+  * [Measure](getting-started/measure.md)
+  * [Trigger](getting-started/trigger.md)
+  * [Protocols](getting-started/protocols.md)
 * [Orders & Shipping](ordering-and-shipping/README.md)
   * [Place an Order](ordering-and-shipping/how-do-i-place-an-order.md)
   * [Place a Purchase Order \(PO\)](ordering-and-shipping/place-a-purchase-order-po.md)
@@ -179,4 +186,10 @@
   * [Process a Warranty](180-day-return-policy-and-3-year-warranty/saleae-warranty-and-rma-testing-procedure.md)
 * [Ideas & Voting](ideas-and-voting.md)
 * [Contact Us](contact-us.md)
+* [Examples](examples/README.md)
+  * [How to Measure Digital Logic](examples/how-to-measure-digital-logic.md)
+  * [How to Measure Analog Signals](examples/how-to-measure-analog-signals.md)
+  * [How to Analyze UART](examples/how-to-analyze-uart.md)
+  * [How to Analyze SPI](examples/how-to-analyze-spi.md)
+  * [How to Analyze I2C](examples/how-to-analyze-i2c.md)
 
