@@ -1,3 +1,7 @@
+---
+description: Saleae Warranty & RMA Testing Procedure
+---
+
 # Process a Warranty
 
 ### Troubleshooting Steps
