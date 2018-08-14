@@ -48,7 +48,9 @@ To access device settings, click the up or down arrow in the top-left of the sof
 
 **LED Settings and Color**
 
-You can enable/disable the LED, or change its color, here - just click the gear icon. ![](https://trello-attachments.s3.amazonaws.com/57215c9235e35b9ed39e9b66/627x95/81815d87a1783f5e6522c3d8f7a64c64/led.png)
+You can enable/disable the LED, or change its color, here - just click the gear icon. 
+
+![](https://trello-attachments.s3.amazonaws.com/57215c9235e35b9ed39e9b66/627x95/81815d87a1783f5e6522c3d8f7a64c64/led.png)
 
 **Closing the Device Settings Popover**
 
@@ -58,5 +60,7 @@ To close the Device Settings, click on something outside the popover.
 
 For easy of readability, the digital trace color can match the channel color. To set this, click _Options -&gt; Preferences -&gt; Interaction tab -&gt; Use color_. 
 
-![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/57215c9235e35b9ed39e9b66/3a0ad36c4073896c93a4bcdaed1c6004/use-color.png) ![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/57215c9235e35b9ed39e9b66/2734577c8ed4c926e544e173fbb27fe5/dig-color.png)
+![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/57215c9235e35b9ed39e9b66/3a0ad36c4073896c93a4bcdaed1c6004/use-color.png)
+
+![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/57215c9235e35b9ed39e9b66/2734577c8ed4c926e544e173fbb27fe5/dig-color.png)
 
