@@ -8,13 +8,13 @@ To use the parallel analyzer, first make sure you record all of the data signals
 
 Once you have captured your data, add the simple parallel analyzer using the "+" button on the analyzer panel.
 
-The settings for the parallel analyzer are very important. First, for all unused data bits, change the selected channel to "None". For instance, if you're using a 4-bit data bus, change D4-D15 to "None" in the settings as shown below. ![4-bit settings](https://trello-attachments.s3.amazonaws.com/55f0a61a10f9f592573a4205/593aee5a8504a595d393ee06/feeaa45c0a33a9ebc91a6433b062af5c/simple-parallel-settings.png)
+The settings for the parallel analyzer are very important. First, for all unused data bits, change the selected channel to "None". For instance, if you're using a 4-bit data bus, change D4-D15 to "None" in the settings as shown below.
+
+![4-bit settings](https://trello-attachments.s3.amazonaws.com/55f0a61a10f9f592573a4205/593aee5a8504a595d393ee06/feeaa45c0a33a9ebc91a6433b062af5c/simple-parallel-settings.png)
 
 Then, correctly assign the data bits you are using to the corresponding channels.
 
 Finally, set the clock channel and the clock edge correctly and press Save.
-
-For more information about exporting protocol analyzers and analyzer display base \(hex, ascii, etc.\), see this section of the user manual: [https://trello.com/c/rOusLFdv](https://trello.com/c/rOusLFdv).
 
 **Decoding the Parallel Data**
 
@@ -40,10 +40,4 @@ Time [s],Value
 0.000120000000000,0x0005
 0.000140000000000,0x0006
 ```
-
-**Common Issues**
-
-Older versions of the software would not decode the last valid clock edge if there were no more transitions on the clock channel. For instance, if data were valid on the rising edge of the clock, then the analyzer would ignore that last rising edge if it was not followed by a falling edge, and the clock channel just held the state for the rest of the capture.
-
-This issue is fixed in the latest beta software, which can be downloaded here: [https://trello.com/c/0NFUpiUZ](https://trello.com/c/0NFUpiUZ).
 

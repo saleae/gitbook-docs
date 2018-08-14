@@ -1,6 +1,6 @@
 # Decode Differential and High Voltage Data
 
-First, review the supported IO thresholds of the product you are using as well as its over-voltage protection. These details for each product can be found here: [https://trello.com/c/QJAYu6SN](https://trello.com/c/QJAYu6SN)
+First, review the supported IO thresholds of the product you are using as well as its over-voltage protection. These details for each product can be found here: [supported-voltages](https://saleae.gitbook.io/docs/~/edit/drafts/-LJtz6oLoorv0m1D_LFm/user-guide/supported-voltages)
 
 **12V and 24V TTL Logic**
 

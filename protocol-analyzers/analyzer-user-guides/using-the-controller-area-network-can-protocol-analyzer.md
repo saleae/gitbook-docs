@@ -6,7 +6,7 @@ The Saleae CAN protocol analyzer supports standard and extended CAN identifiers.
 
 Since the Saleae devices only have single-ended inputs and not differential inputs, the ideal way to record a CAN signal is after it has been converted to single-ended. If your design already includes CAN transceivers, you might be able to simply attach the probe on the single-ended side.
 
-If you are unable to convert the CAN bus to single-ended, you may still be able to record one side of the CAN pair directly. See here for details: [https://trello.com/c/g28UnWCh](https://trello.com/c/g28UnWCh)
+If you are unable to convert the CAN bus to single-ended, you may still be able to record one side of the CAN pair directly. See here for details: [decode-differential-and-high-voltage-data](https://saleae.gitbook.io/docs/~/edit/drafts/-LJtz6oLoorv0m1D_LFm/protocol-analyzers/analyzer-user-guides/decode-differential-and-high-voltage-data)
 
 Once you have recorded the CAN signal and have added the CAN analyzer, there are three settings to select.
 
@@ -21,6 +21,4 @@ Once these settings are correct, save the settings and check the results. You sh
 If you zoom in, you should see white dots in the center of each bit frame. These are added by the analyzer so you can see where an ideal CAN receiver set to the specified bit rate would sample the bus. It's most helpful when debugging baud rate error related issues.
 
 The red X marks indicate stuffed bits. They are supposed to be there. The X simply lets you know that the bit is not included in the data and is only added for bit stuffing.
-
-If you have any trouble with the CAN analyzer or suspect there is an issue with the decoded values, please see this article: [https://trello.com/c/zWVYAw0l](https://trello.com/c/zWVYAw0l)
 

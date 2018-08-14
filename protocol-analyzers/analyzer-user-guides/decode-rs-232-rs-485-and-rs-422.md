@@ -6,9 +6,9 @@ Our older Logic products \(Original Logic, Logic16\) have a 0V to 5V absolute ma
 
 **Precautions to Avoid Damage to Saleae Logic**
 
-These protocols typically operate at higher voltages, sometimes up to +/- 25V. For this reason, there are several precautions and setup requirements to consider beforehand, which you can read more about here: [https://trello.com/c/g28UnWCh](https://trello.com/c/g28UnWCh)
+These protocols typically operate at higher voltages, sometimes up to +/- 25V. For this reason, there are several precautions and setup requirements to consider beforehand, which you can read more about here: [decode-differential-and-high-voltage-data](https://saleae.gitbook.io/docs/~/edit/drafts/-LJtz6oLoorv0m1D_LFm/protocol-analyzers/analyzer-user-guides/decode-differential-and-high-voltage-data)
 
 **Use the Async Serial Analyzer**
 
-RS-232, RS-485, and RS-422 transmit data via asynchronous serial communication. For this reason, you can use our Async Serial Analyzer to decode the data. You can view our setup guide here: [https://trello.com/c/Becl3DBL](https://trello.com/c/Becl3DBL)
+RS-232, RS-485, and RS-422 transmit data via asynchronous serial communication. For this reason, you can use our Async Serial Analyzer to decode the data. You can view our setup guide here: [using-the-async-serial-analyzer](https://saleae.gitbook.io/docs/~/edit/drafts/-LJtz6oLoorv0m1D_LFm/protocol-analyzers/analyzer-user-guides/using-the-async-serial-analyzer)
 

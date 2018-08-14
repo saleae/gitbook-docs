@@ -11,10 +11,14 @@ The Logic software user interface consists of the following basic sections.
 1. The _Start Simulation_ or _Start_ Button Generates simulation data, as if the logic analyzer was collecting real world data. If a Saleae Logic was connected to the PC, then this button would say Start. More information on simulation data can be found in **\_**. After the capture has started, you can stop it before it finishes, which will retain the data to that point. If the Start button is gray and cannot be clicked, that means you are not on the capture tab \(_See \#4_\). Ensure you are on the capture tab so you can take a capture.
 2. Device Settings Button Opens the Device Settings window. This window allows you to modify capture settings, such as sampling rate, capture duration, enabled channels \(digital and analog\), voltage, and performance.
 3. Options Button Opens system-wide settings for the Logic software, which allows you to save captures, export data, and modify various settings for the Logic software.
-4. Capture tab You can save previous captures so you can refer to it later. The example image below shows 3 tabs \(the current capture tab on the left, and 2 previously saved capture tabs\). ![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/5ae1f9f79107b39ac226e523/748035442cfeac65bfb1826a072ca34b/cap-tabs.png)
+4. Capture tab You can save previous captures so you can refer to it later. The example image below shows 3 tabs \(the current capture tab on the left, and 2 previously saved capture tabs\). 
+
+   ![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/5ae1f9f79107b39ac226e523/748035442cfeac65bfb1826a072ca34b/cap-tabs.png)
+
    * The Capture tab is your current capture. 
    * The &gt;&gt; button allows you to save the current capture into a new tab. 
    * The _gear_ icon on the previously saved capture tabs allow you to close or copy the tab.
+
 5. Enabled Channels Currently enabled channels are shown here. Use the Device Settings button to enable and disable channels \(_See \#2_\). If a channel is enabled but cannot be seen, it may be hidden. Click the _gear_ icon on any of the channels and click _Reset All Channels_ to reset all channel settings and bring them all back into view.
 6. Software Version and Logic connection status
    * If status is \[Disconnected\], the green button will display _Start Simulation_
