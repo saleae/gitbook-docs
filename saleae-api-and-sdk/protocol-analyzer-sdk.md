@@ -32,6 +32,58 @@ The documentation for the Analyzer SDK can be found in the pdf and on GitHub. Th
 
 * \[Saleae Analyzer SDK Documentation\]\([https://github.com/saleae/SampleAnalyzer/blob/master/docs/Saleae Analyzer SDK \(older\).pdf](https://github.com/saleae/SampleAnalyzer/blob/master/docs/Saleae%20Analyzer%20SDK%20%28older%29.pdf)\)
 
+### Protocol Analyzers Source Code Github
+
+[Async RGB LED Analyzer](https://www.github.com/saleae/async-rgb-led-analyzer)
+
+[Atmel SWI Analyzer](https://www.github.com/saleae/atmel-swi-analyzer)
+
+[BISS Analyzer](https://www.github.com/saleae/biss-analyzer)
+
+[CAN Analyzer](https://www.github.com/saleae/can-analyzer)
+
+[DMX-512 Analyzer](https://www.github.com/saleae/dmx-512-analyzer)
+
+[HD44780 Analyzer](https://www.github.com/saleae/hd44780-analyzer) 
+
+[HDLC Analyzer](https://www.github.com/saleae/hdlc-analyzer) 
+
+[HDMI-CEC Analyzer](https://www.github.com/saleae/hdmi-cec-analyzer) 
+
+[I2C Analyzer](https://www.github.com/saleae/i2c-analyzer) 
+
+[I2S Analyzer](https://www.github.com/saleae/i2s-analyzer) 
+
+[JTAG Analyzer](https://www.github.com/saleae/jtag-analyzer) 
+
+[LIN Analyzer](https://www.github.com/saleae/lin-analyzer)
+
+[Manchester Analyzer](https://www.github.com/saleae/manchester-analyzer) 
+
+[MDIO Analyzer](https://www.github.com/saleae/mdio-analyzer) 
+
+[MIDI Analyzer](https://www.github.com/saleae/midi-analyzer) 
+
+[Modbus Analyzer](https://www.github.com/saleae/modbus-analyzer) 
+
+[1-Wire Analyzer](https://www.github.com/saleae/one-wire-analyzer) 
+
+[PS2 Keyboard Analyzer](https://www.github.com/saleae/ps2-keyboard-analyzer) 
+
+[Async Serial Analyzer](https://www.github.com/saleae/serial-analyzer) 
+
+[Simple Parallel Analyzer](https://www.github.com/saleae/simple-parallel-analyzer) 
+
+[SMBus Analyzer](https://www.github.com/saleae/smbus-analyzer) 
+
+[SPI Analyzer](https://www.github.com/saleae/spi-analyzer) 
+
+[SWD Analyzer](https://www.github.com/saleae/swd-analyzer) 
+
+[UNI/O Analyzer](https://www.github.com/saleae/unio-analyzer) 
+
+[USB Analyzer](https://www.github.com/saleae/usb-analyzer)
+
 **Older 1.1.14 Release**
 
 * [Saleae Analyzer SDK 1.1.14](http://downloads.saleae.com/SDK/SaleaeAnalyzerSdk-1.1.14.zip) \(includes User's Guide\)
