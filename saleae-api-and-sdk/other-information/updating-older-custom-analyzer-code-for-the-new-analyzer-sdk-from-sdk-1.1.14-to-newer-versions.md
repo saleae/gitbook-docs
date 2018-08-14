@@ -7,7 +7,7 @@ However, code changes required to be made with the new SDK will include the anal
 
 Below is a description of the changes required to include an analyzer's data into the search results. The example below is based on Serial Analyzer's source code.
 
-The latest source code to all analyzers can be found here: [https://trello.com/c/YHJKmcns](https://trello.com/c/YHJKmcns)
+The latest source code to all analyzers can be found here: [Custom Protocol Analyzers](https://saleae.gitbook.io/docs/~/edit/drafts/-LJtrnKeYdvZQmbbuVU1/saleae-api-and-sdk/protocol-analyzer-sdk)
 
 **Update Steps**
 

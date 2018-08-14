@@ -10,9 +10,11 @@
 
 **To Get a PDF/Printable Quotation**
 
-* [https://trello.com/c/gTDZ5GMx](https://trello.com/c/gTDZ5GMx)
+* [Quote Request Form](https://goo.gl/forms/da0exAsL1DZlQeoW2)
 
 **To Place a Purchase Order \(PO\)**
 
-* Please refer to the instructions here: [https://trello.com/c/bUZ6nRux](https://trello.com/c/bUZ6nRux)
+* Please refer to the instructions here: [Place a Purchase Order \(PO\)](https://saleae.gitbook.io/docs/~/edit/drafts/-LJtrnKeYdvZQmbbuVU1/ordering-and-shipping/place-a-purchase-order-po)
+
+
 

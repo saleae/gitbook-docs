@@ -1,4 +1,4 @@
-# What Accessories, If Any, Should I Purchase with My Device?
+# What Accessories Should I Purchase with My Device?
 
 Each Saleae logic analyzer comes complete with the accessories needed—wire harnesses, clips, a USB cable, and a carry case.
 

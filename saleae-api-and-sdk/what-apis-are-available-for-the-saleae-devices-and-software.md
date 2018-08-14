@@ -4,13 +4,13 @@ Saleae provides two APIs for the Saleae devices. They are not sold separately an
 
 First is the socket API, which is intended to make it easy for the existing Saleae desktop software to be controlled by third-party applications or scripts for the purpose of automation.
 
-You can find more details on the socket API here: [https://trello.com/c/FueLhKZ8](https://trello.com/c/FueLhKZ8)
+You can find more details on the socket API here: [Automation Scripting](https://saleae.gitbook.io/docs/~/edit/drafts/-LJtrnKeYdvZQmbbuVU1/saleae-api-and-sdk/socket-api)
 
 Because the socket API relies on simple text commands sent and received through sockets, any programming language can support it. There are no DLLs or required libraries. We provide a C\# client library as well as a C\# sample application.
 
 Existing customers have also used the socket API with Python, Labview, C++, and other environments and programming languages.
 
-Second, the Analyzer SDK allows for third parties to develop their own protocol analyzer plugins, such as the included SPI or I2C analyzers. You can find more information about the SDK here: [https://trello.com/c/YHJKmcns](https://trello.com/c/YHJKmcns)
+Second, the Analyzer SDK allows for third parties to develop their own protocol analyzer plugins, such as the included SPI or I2C analyzers. You can find more information about the SDK here: [Custom Protocol Analyzers](https://saleae.gitbook.io/docs/~/edit/drafts/-LJtrnKeYdvZQmbbuVU1/saleae-api-and-sdk/protocol-analyzer-sdk)
 
 Neither API provides real-time access to the raw data, and neither API can interact with the hardware without the Saleae Logic software running.
 

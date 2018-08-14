@@ -30,7 +30,7 @@ And then read the Setup documentation:
 
 The documentation for the Analyzer SDK can be found in the pdf and on GitHub. This document still needs to be updated and migrated to markdown, but the documentation for the C++ SDK is largely up-to-date, although it is missing details on the Protocol Search system. Please do not use the first section of this for the setup instructions since they are outdated.
 
-* \[Saleae Analyzer SDK Documentation\]\([https://github.com/saleae/SampleAnalyzer/blob/master/docs/Saleae Analyzer SDK \(older\).pdf](https://github.com/saleae/SampleAnalyzer/blob/master/docs/Saleae%20Analyzer%20SDK%20%28older%29.pdf)\)
+* [Saleae Analyzer SDK Documentation](https://github.com/saleae/SampleAnalyzer/blob/master/docs/Saleae%20Analyzer%20SDK%20%28older%29.pdf)
 
 ### Protocol Analyzers Source Code Github
 

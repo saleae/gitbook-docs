@@ -11,7 +11,7 @@ For each item, first perform the test. If the test result is positive \(the test
 
 **Proper OS Used**
 
-* Test: Are you using an unsupported operating system? [https://trello.com/c/CRFmqCP3](https://trello.com/c/CRFmqCP3)
+* Test: Are you using an unsupported operating system? [Supported Operating Systems](https://saleae.gitbook.io/docs/~/edit/drafts/-LJtrnKeYdvZQmbbuVU1/logic-software/supported-operating-systems)
 * Corrective Action: Use a supported operating system.
 
 **Wrong Installer Downloaded**
@@ -39,9 +39,7 @@ For each item, first perform the test. If the test result is positive \(the test
 
     Please note that the installer normally handles driver installation. You may need to manually install the driver if you use the standalone version. The driver files are included with the standalone download.
 
-    You can find all the download links for the latest beta, including the standalone releases, here:
-
-    [https://trello.com/c/0NFUpiUZ](https://trello.com/c/0NFUpiUZ)
+    You can find all the download links for the latest beta, including the standalone releases, here: [Latest Beta Release](https://saleae.gitbook.io/docs/~/edit/drafts/-LJtrnKeYdvZQmbbuVU1/logic-software/latest-beta-release)
 
 **The Saleae Drivers Are Preventing the Software from Installing**
 
@@ -72,7 +70,7 @@ For each item, first perform the test. If the test result is positive \(the test
 
 **The Software Will Not Launch on Windows**
 
-* Please see this article for tests on details of issues that specifically apply to the software failing to launch on Windows after a successful installation: [https://trello.com/c/EFEu0QEm](https://trello.com/c/EFEu0QEm)
+* Please see this article for tests on details of issues that specifically apply to the software failing to launch on Windows after a successful installation: [The Logic Software Fails to Launch on Windows](https://saleae.gitbook.io/docs/~/edit/drafts/-LJtrnKeYdvZQmbbuVU1/troubleshooting/the-logic-software-fails-to-launch-on-windows)
 
 **Linux – Write Permissions for settings.xml**
 

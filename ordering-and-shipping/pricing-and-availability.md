@@ -2,7 +2,7 @@
 
 ### Pricing
 
-You can find the pricing and part numbers for all of our products here: [https://trello.com/c/7vFfIlvv](https://trello.com/c/7vFfIlvv)
+You can find the pricing and part numbers for all of our products here: [Saleae Part Numbers, ECCN, and Harmonized System \(HS\) Codes](https://saleae.gitbook.io/docs/~/edit/drafts/-LJtrnKeYdvZQmbbuVU1/ordering-and-shipping/faq/saleae-part-numbers-eccn-and-harmonized-system-hs-codes)
 
 To check the cost of shipping, simply add the product to your cart on www.saleae.com, select your country, and enter your postal code.
 

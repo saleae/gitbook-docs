@@ -22,13 +22,13 @@
 ### Two Methods for Processing a PO Payment
 
 * Method 1 – Prepayment
-  * Generate a quote \(optional step\) – Instructions: [https://trello.com/c/gTDZ5GMx](https://trello.com/c/gTDZ5GMx)
+  * Generate a quote \(optional step\) – Instructions: [Quote Request Form](https://goo.gl/forms/da0exAsL1DZlQeoW2)
   * Create a PO and send it to us by [writing to support](http://support.saleae.com/hc/en-us/requests/new).
   * We will reply with a Proforma Invoice, including our bank information.
   * Send the payment to Saleae.
   * We will ship the order on the first business day after the payment is received.
 * Method 2 – NET30 Payment Terms \(for existing customers only\)
-  * Generate a quote \(optional step\) – Instructions: [https://trello.com/c/gTDZ5GMx](https://trello.com/c/gTDZ5GMx)
+  * Generate a quote \(optional step\) – Instructions: [Quote Request Form](https://goo.gl/forms/da0exAsL1DZlQeoW2)
   * Create a PO and send it to us by [writing to support](http://support.saleae.com/hc/en-us/requests/new)
   * We will reply with an Invoice, and the order will ship.
   * Send the payment to Saleae.
