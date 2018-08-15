@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Getting Started with Saleae Logic](README.md)
+* [Docs](README.md)
 * [Orders & Shipping](ordering-and-shipping/README.md)
   * [Place an Order](ordering-and-shipping/how-do-i-place-an-order.md)
   * [Request a Quote](ordering-and-shipping/how-do-i-get-a-quote.md)
