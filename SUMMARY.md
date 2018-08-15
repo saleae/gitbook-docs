@@ -274,5 +274,4 @@
   * [3-Year Warranty](180-day-return-policy-and-3-year-warranty/3-year-warranty.md)
   * [Process a Warranty](180-day-return-policy-and-3-year-warranty/saleae-warranty-and-rma-testing-procedure.md)
 * [Ideas & Voting](ideas-and-voting.md)
-* [Contact Us](contact-us.md)
 
