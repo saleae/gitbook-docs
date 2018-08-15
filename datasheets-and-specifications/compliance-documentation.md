@@ -1,7 +1,5 @@
 # Compliance Documents
 
-
-
 ### Certificate of Conformity \(CoC\) – Rohs and CE Compliance
 
 All Saleae products listed below are in compliance with the European Community EMC Directive 2004/108/EC and the RoHs Directive.
