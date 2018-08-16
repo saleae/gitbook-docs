@@ -2,7 +2,8 @@
 
 **To Place an Order Online**
 
-* **Click the Products link** at the top of any page.
+* **Navigate** to our[ Home page here](https://www.saleae.com/).
+* **Click the Products link** at the top of the page.
 * **Click Buy** on the product you would like. That will take you to the shopping cart.
 * To add additional items, click Products at the top of the page.
 * To order accessories, click the Accessories link at the bottom left of any page.
