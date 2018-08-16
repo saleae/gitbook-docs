@@ -30,4 +30,7 @@ If you have your own analyzer you would like to see featured here, please let us
 * [Digital Command Control](https://www.ejberg.dk/portfolio/saleae-dcc-decoder/)
 * [SDQ for Apple Lightning, MagSafe, and Battery](https://github.com/nezza/SDQAnalyzer)  
 * [PWM Analyzer](https://github.com/dustin/logic-pwm)
+* [SENT Analyzer](https://github.com/melexis/SENTAnalyzer)
+
+
 
