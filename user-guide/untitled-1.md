@@ -8,7 +8,9 @@ The input channels on Saleae Logic analyzers are not electrically isolated from 
 
 **High Voltage Safety**
 
-Absolute Maximum Voltage Range: ![](https://trello-attachments.s3.amazonaws.com/5adfc3ad102e6f57c8df3623/5ae119765fd7f09a91783330/34ebd9b737129ada4ac954088a45d64a/absmax.png)
+Absolute Maximum Voltage Range:
+
+![](https://trello-attachments.s3.amazonaws.com/5adfc3ad102e6f57c8df3623/5ae119765fd7f09a91783330/34ebd9b737129ada4ac954088a45d64a/absmax.png)
 
 _Caution:_ Connecting one of the input channels to voltages outside this range, even for a very short time, can result in damage to the device.
 
