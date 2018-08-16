@@ -269,6 +269,7 @@
     * [How Do I Get More Help on an Issue That's Outside the Scope of Saleae Support?](faq/general-faq/how-do-i-get-more-help-on-an-issue-thats-outside-the-scope-of-saleae-support.md)
     * [How to Identify Each Saleae Device](faq/general-faq/how-to-identify-each-saleae-device.md)
     * [What Is the License on the Saleae Software and SDK? Where Can This Be Found?](faq/general-faq/what-is-the-license-on-the-saleae-software-and-sdk-where-can-this-be-found.md)
+    * [Discontinued Products](faq/general-faq/discontinued-products.md)
 * [Returns & Warranty](180-day-return-policy-and-3-year-warranty/README.md)
   * [180-Day Return Policy](180-day-return-policy-and-3-year-warranty/180-day-return-policy.md)
   * [3-Year Warranty](180-day-return-policy-and-3-year-warranty/3-year-warranty.md)
