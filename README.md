@@ -1,6 +1,6 @@
 # Saleae Support Documentation
 
-Welcome to Saleae's support site!
+Welcome to Saleae's support site! Quickly find information using the **search bar** on the top-right.
 
 Whether you own the Saleae Logic or not, the best way to discover Saleae Logic would be to **get started with our software for free** using the following User Guide. [Download the software for free here!](https://www.saleae.com/downloads/)
 
