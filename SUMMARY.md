@@ -213,7 +213,7 @@
     * [How to Export Serial Protocol Results to a Raw Binary File](faq/technical-faq/how-to-export-serial-protocol-results-to-a-raw-binary-file.md)
     * [Third-Party RFFE Analyzer Binaries](faq/technical-faq/third-party-rffe-analyzer-binaries-1.md)
     * [How to Trigger On a Pulse with No Maximum Time Limit](faq/technical-faq/how-to-trigger-on-a-pulse-with-no-maximum-time-limit.md)
-    * [What USB 3.0 Host Controller\(s\) and Other Driver Version\(s\) Are Installed on My M](faq/technical-faq/what-usb-3.0-host-controller-s-and-other-driver-version-s-are-installed-on-my-m.md)
+    * [Finding Your USB 3.0 Host Controller Information](faq/technical-faq/finding-your-usb-3.0-host-controller-information.md.md)
     * [Why Does the Logic Analyzer Report Different USB Current Requirements when Not Connected to the Logi](faq/technical-faq/why-does-the-logic-analyzer-report-different-usb-current-requirements-when-not-connected-to-the-logi.md)
     * [Is It Possible to Adjust the Logic Thresholds for the Digital Inputs?](faq/technical-faq/is-it-possible-to-adjust-the-logic-thresholds-for-the-digital-inputs.md)
     * [Why Does Channel 0 Use a Black Wire, Which Can Be Confused with Ground?](faq/technical-faq/why-does-channel-0-use-a-black-wire-which-can-be-confused-with-ground.md)

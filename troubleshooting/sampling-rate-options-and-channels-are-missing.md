@@ -1,7 +1,3 @@
----
-description: Limitations of Using Logic Pro 8 and Logic Pro 16 on USB 2.0 Ports
----
-
 # Sampling Rate Options and Channels are Missing
 
 Logic Pro 8 and Logic Pro 16 can both be used with USB 2.0 or USB 3.0 ports. However, there are some restrictions when using them with USB 2.0 ports.
