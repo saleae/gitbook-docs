@@ -1,4 +1,4 @@
-# What USB 3.0 Host Controller\(s\) and Other Driver Version\(s\) Are Installed on My M
+# Finding Your USB 3.0 Host Controller Information
 
 On Windows, the latest Saleae software has a feature to automatically retrieve this information.
 
@@ -25,4 +25,14 @@ On OSX and Linux, the USB host controller drivers are included with the operatin
 On OSX, components of the USB 3.0 stack are frequently updated with other operating system updates. We recommend keeping your OS X installation fully up-to-date, including using the latest release of OS X.
 
 On Linux, the xhci\_hcd kernel module is released with the kernel and can only be realistically updated by updating the kernel. If requesting driver information for Linux, please provide the kernel version with "uname -r" and the list of installed host controllers with "lspci -k".
+
+
+
+
+
+
+
+
+
+
 
