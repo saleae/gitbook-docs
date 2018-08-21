@@ -6,7 +6,17 @@ The LED is first turned on by the software once the device has connected to the 
 
 To turn off the LED, you can either directly turn it off in the software or remove the device.
 
-Changing the LED color and turning off the LED: [https://trello.com/c/6WJBq7Xq](https://trello.com/c/6WJBq7Xq)
+Changing the LED color and turning off the LED below:
 
-In the future, we would like to automatically turn off the LED when the software is closed.
+{% page-ref page="../../user-guide/using-logic/collecting-data-and-device-settings.md" %}
+
+
+
+
+
+
+
+
+
+
 

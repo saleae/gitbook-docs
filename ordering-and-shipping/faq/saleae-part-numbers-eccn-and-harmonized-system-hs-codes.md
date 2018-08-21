@@ -4,8 +4,6 @@ This list provides the Saleae part numbers, Export Classification Numbers \(ECCN
 
 The United States defines products using its Harmonized Tariff Schedule \(HTS\). An HS code, or HTS code, stands for Harmonized System or Harmonized Tariff Schedule. These codes are listed below.
 
-Please [contact support](https://support.saleae.com/hc/en-us/requests/new) if you require additional information.
-
 **For all Saleae Products**
 
 * Origin of manufacture is USA.

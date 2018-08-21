@@ -23,7 +23,21 @@ The card we link specifically advertises on using the Renesas controller, which 
 
 We have not yet performed a full evaluation on "ExpressCard" Laptop add on cards. Once we have done so, we will post a recommendation for that, too. In the meantime, we recommend looking for a Renesas-based express card.
 
-Instructions to identify currently installed host controllers: [https://trello.com/c/3NTCLDM2](https://trello.com/c/3NTCLDM2)
+Instructions to identify currently installed host controllers:
 
-Latest driver information: [https://trello.com/c/O0hA3XAF](https://trello.com/c/O0hA3XAF)
+{% page-ref page="../../faq/technical-faq/what-usb-3.0-host-controller-s-and-other-driver-version-s-are-installed-on-my-m.md" %}
+
+Latest driver information:
+
+{% page-ref page="../../logic-software/latest-usb-3.0-host-controller-drivers.md" %}
+
+
+
+
+
+
+
+
+
+
 
