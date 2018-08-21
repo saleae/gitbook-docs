@@ -11,11 +11,11 @@
 
 **To Get a PDF/Printable Quotation**
 
-* [Quote Request Form](https://goo.gl/forms/da0exAsL1DZlQeoW2)
+{% page-ref page="how-do-i-get-a-quote.md" %}
 
 **To Place a Purchase Order \(PO\)**
 
-* Please refer to the instructions here: [Place a Purchase Order \(PO\)](https://saleae.gitbook.io/docs/~/edit/drafts/-LJtrnKeYdvZQmbbuVU1/ordering-and-shipping/place-a-purchase-order-po)
+{% page-ref page="place-a-purchase-order-po.md" %}
 
 
 
