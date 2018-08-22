@@ -1,6 +1,6 @@
 # Navigating Your Data
 
-**Zooming In and Out**
+### **Zooming In and Out**
 
 To zoom in and out, use your mouse wheel.
 
@@ -10,7 +10,7 @@ You can also use the up/down arrow keys or the plus/minus keys.
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c93d776ced6a7215d8a/273x188/a9bac0dbe79f297950035a106b0eefbf/up_down_buttons.png)
 
-**Panning Left and Right**
+### **Panning Left and Right**
 
 To pan left and right, click and drag the display.
 
@@ -20,7 +20,7 @@ You can also use the left/right arrow keys or the scroll bar at the bottom of th
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c93d776ced6a7215d8a/273x188/87df6478443d7b156737342fa1a7e6ce/left_right_buttons.png)
 
-**Jumping between Digital Edges**
+### **Jumping between Digital Edges**
 
 Sometimes digital data come in packets with long periods of idle in between.
 
@@ -34,7 +34,7 @@ You can also use the keyboard shortcuts N and P \("next" and "previous"\). The k
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c93d776ced6a7215d8a/420x295/95f1512239d9b22d4ad60a3471fb36cd/next_previous_keys.png)
 
-**Scrolling through Channels**
+### **Scrolling through Channels**
 
 Sometimes you may have more channels displayed than can fit on the screen at the same time.
 

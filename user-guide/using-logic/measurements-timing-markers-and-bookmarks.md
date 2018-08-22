@@ -1,22 +1,22 @@
 # Measurements, Timing Markers, and Bookmarks
 
-**Digital Instantaneous Measurements**
+### **Digital Instantaneous Measurements**
 
 To see instantaneous measurements while hovering over a digital channel recording, right-click the digital waveform and make sure "Show Digital Instantaneous Measurement" is checked. You can also select which measurements are made, and you can save the measurement so it stays persistent on the waveform, even when the mouse is not hovering over it. ![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/57215c94193354bad34d58af/17b0f509242eea07cc04048162ea0e88/dig-meas.png)
 
-**Analog Instantaneous Measurements**
+### **Analog Instantaneous Measurements**
 
 To see instantaneous measurements while hovering over an analog channel recording, right-click the analog waveform and make sure "Show Analog Instantaneous Measurement" is checked. You can also select which measurements are made, and you can save the measurement so it stays persistent on the waveform, even when the mouse is not hovering over it. ![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/57215c94193354bad34d58af/1206a7bb64453f2dca1e60b35a26dcb7/ana-instant-meas-set.png)
 
 ![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/57215c94193354bad34d58af/3b0721cd5a36517d859e980e95d744ef/ana-meas.png)
 
-**Using Annotations**
+### **Using Annotations**
 
 All annotations are listed in the Annotations sidebar at the top right of the software. By default, the Annotations sidebar will contain a Timing Marker annotation.
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c94193354bad34d58af/242x62/d67d32f55f520aca2791e09ff082c305/annotations_sidebar.png)
 
-**Using Timing Markers**
+### **Using Timing Markers**
 
 Timing markers can be used to measure elapsed time between any two locations in your data. By default, the Annotations sidebar will contain a Timing Marker annotation.
 
@@ -46,7 +46,7 @@ To delete a timing marker, select its settings icon \(gear\) and choose Delete A
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c94193354bad34d58af/243x133/14ae837e540d0eda485ef9f22a36caef/delete_annotation.png)
 
-**Using Bookmarks**
+### **Using Bookmarks**
 
 A Bookmark is simply a recording of your exact position and zoom level in your data. By making a bookmark, you can quickly zoom back to this area again later.
 
@@ -66,7 +66,7 @@ To delete a bookmark, select its settings icon \(gear\) and choose Delete Annota
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c94193354bad34d58af/243x104/6c919f2373c34994277c6119c1e16129/delete_bookmark.png)
 
-**Using Measurements \(Persistent\)**
+### **Using Measurements \(Persistent\)**
 
 Adding a Measurement allows you to add a permanent annotation to your data for later reference. In addition, Measurement Annotations allow for more sophisticated computations than the temporary measurements that always appear at the mouse cursor. For example, you can compute the average duty cycle across thousands of pulses.
 
@@ -106,7 +106,7 @@ You can also delete a Measurement by right-clicking anywhere in the Measurement 
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c94193354bad34d58af/222x73/25fdb5af7493e4b2d05d7943508c9fe7/measurement_delete_2.png)
 
-**Supported digital measurement calculations:**
+### **Supported digital measurement calculations:**
 
 * Width \(for persistent measurements, this is the time span of the measurement\)
 * Frequency \(this is just 1/width\)
@@ -124,7 +124,7 @@ You can also delete a Measurement by right-clicking anywhere in the Measurement 
 * Average Period \(average period of each complete cycle in the range\)
 * Count of Complete Periods \(Cycles\)
 
-**Supported analog measurement calculations:**
+### **Supported analog measurement calculations:**
 
 * Width \(for persistent measurements, this is the time span of the measurement\)
 * Frequency \(this is just 1/width\)
