@@ -6,8 +6,6 @@ The first is the supported IO thresholds. These define the voltage thresholds th
 
 The second is the over-voltage protection. It determines the maximum input voltage that can be applied without risking damage to the device.
 
-These specifications are also listed on the device information tile on the Saleae home page. [https://www.saleae.com/\#DatasheetTile](https://www.saleae.com/#DatasheetTile)
-
 For all Saleae products, all inputs share the same IO threshold. For products with selectable thresholds, there is no way to assign different IO thresholds to different pins at the same time. All pins share the same threshold setting.
 
 **Logic 4**
@@ -26,7 +24,7 @@ Notes:
 * Because of the voltage input high threshold of 2.0 volts, this device cannot be used with 1.8V or 1.2V logic. It also cannot be directly connected to 3.3V CAN signals. Please see our article about recording CAN for more details.
 * Recommended IO standards: 5.0V, 3.3V, 2.5V
 
-**The New Logic 8**
+**Logic 8**
 
 The new Logic 8 also has a fixed input voltage threshold.
 

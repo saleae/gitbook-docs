@@ -6,11 +6,11 @@ The Saleae Logic software is available free of charge, and can be installed on a
 
 The latest stable release of the Saleae Logic software can be downloaded below:
 
-* [Latest Stable Release](https://www.saleae.com/downloads)
+{% page-ref page="../../logic-software/latest-stable-release-download.md" %}
 
 The latest Saleae Logic Beta software can be downloaded below. We've started releasing beta versions of the software to test new features and bug fixes. Once we can verify its stability, we will make it available as a stable release download.
 
-* [Latest Beta Release](https://support.saleae.com/hc/en-us/articles/115005972023-saleae-logic-beta-software)
+{% page-ref page="../../logic-software/latest-beta-release.md" %}
 
 **Installing for Windows**
 
@@ -18,7 +18,7 @@ Simply download and run the installer. It is the same as other software you have
 
 **If the Installer fails with an Error on Windows**
 
-You can try running the standalone version of the software \([download link here](https://support.saleae.com/hc/en-us/articles/115005972023-saleae-logic-beta-software)\), which does not need to be installed. Simply extract it and run Logic.exe. Since the installer normally handles driver installation, you may need to manually install the driver if you use the standalone version. The driver files are included with the standalone download.
+You can try running the standalone version of the software, which does not need to be installed. Simply extract it and run Logic.exe. Since the installer normally handles driver installation, you may need to manually install the driver if you use the standalone version. The driver files are included with the standalone download. The standalone version can be downloaded from the software release links above.
 
 **Installing for Mac**
 
