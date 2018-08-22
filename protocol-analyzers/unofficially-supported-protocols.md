@@ -1,10 +1,14 @@
 # Unofficially Supported Protocols
 
-A number of Logic users have created their own protocol analyzers. The following analyzers are not officially supported by Saleae. Some are distributed as a source and will require the [https://trello.com/c/YHJKmcns](https://trello.com/c/YHJKmcns) to compile. Please [contact us](http://support.saleae.com/hc/en-us/requests/new) if you need any help.
+{% hint style="info" %}
+The following analyzers are not officially supported by Saleae, but instead, were kindly shared by our community of users. Some are distributed as source code and will require our Protocol Analyzer SDK in the article below to compile.
+{% endhint %}
 
-If you have your own analyzer you would like to see featured here, please let us know.
+{% page-ref page="../saleae-api-and-sdk/protocol-analyzer-sdk.md" %}
 
-**Protocols**
+Please [contact us](http://support.saleae.com/hc/en-us/requests/new) if you need any help. Also, If you have your own analyzer you would like to see featured here, please let us know.
+
+### **List of Unofficially Supported Protocols**
 
 * [Smart Cards and SIM cards](https://github.com/dirkx/saleae-logic-ISO7816-smartcard-Analyser)
 * [Smart Cards and SIM cards \(with added features\)](https://github.com/watsug/saleae-logic-ISO7816-smartcard-Analyser)

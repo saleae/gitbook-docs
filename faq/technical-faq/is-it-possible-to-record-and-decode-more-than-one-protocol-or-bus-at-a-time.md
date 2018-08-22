@@ -1,4 +1,4 @@
-# Is It Possible to Record and Decode More Than One Protocol or Bus at a Time?
+# Recording Multiple Protocols at the Same Time
 
 The Saleae Logic software allows you to add as many protocol decoders as you like. Protocol decoders can share channels, even though once a channel is used by one analyzer, it will appear in light grey for other analyzer settings.
 
