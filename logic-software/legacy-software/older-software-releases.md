@@ -1,6 +1,6 @@
 # Older Software Releases
 
-**1.2.28 download links:**
+### **1.2.28 Download**
 
 Windows \(32 bit and 64 bit\):  
 [http://downloads.saleae.com/logic/1.2.28/Logic+Setup+1.2.28.exe](http://downloads.saleae.com/logic/1.2.28/Logic+Setup+1.2.28.exe)
@@ -20,7 +20,7 @@ Windows 32 bit \(no installer\):
 Windows 64 bit \(no installer\):  
 [http://downloads.saleae.com/logic/1.2.28/Logic+1.2.28+Win+64+Standalone.zip](http://downloads.saleae.com/logic/1.2.28/Logic+1.2.28+Win+64+Standalone.zip)
 
-**1.2.27 download links:**
+### **1.2.27 Download**
 
 Windows \(32 bit and 64 bit\):  
 [http://downloads.saleae.com/logic/1.2.27/Logic+Setup+1.2.27.exe](http://downloads.saleae.com/logic/1.2.27/Logic+Setup+1.2.27.exe)
@@ -40,7 +40,7 @@ Windows 32 bit \(no installer\):
 Windows 64 bit \(no installer\):  
 [http://downloads.saleae.com/logic/1.2.27/Logic+1.2.27+Win+64+Standalone.zip](http://downloads.saleae.com/logic/1.2.27/Logic+1.2.27+Win+64+Standalone.zip)
 
-**1.2.26 download links:**
+### **1.2.26 Download**
 
 Windows \(32 bit and 64 bit\):  
 [http://downloads.saleae.com/logic/1.2.26/Logic+Setup+1.2.26.exe](http://downloads.saleae.com/logic/1.2.26/Logic+Setup+1.2.26.exe)
@@ -60,7 +60,7 @@ Windows 32 bit \(no installer\):
 Windows 64 bit \(no installer\):  
 [http://downloads.saleae.com/logic/1.2.26/Logic+1.2.26+Win+64+Standalone.zip](http://downloads.saleae.com/logic/1.2.26/Logic+1.2.26+Win+64+Standalone.zip)
 
-**1.2.25 download links:**
+### **1.2.25 Download**
 
 Windows \(32 bit and 64 bit\):  
 [http://downloads.saleae.com/logic/1.2.25/Logic+Setup+1.2.25.exe](http://downloads.saleae.com/logic/1.2.25/Logic+Setup+1.2.25.exe)
@@ -80,7 +80,7 @@ Windows 32 bit \(no installer\):
 Windows 64 bit \(no installer\):  
 [http://downloads.saleae.com/logic/1.2.25/Logic+1.2.25+Win+64+Standalone.zip](http://downloads.saleae.com/logic/1.2.25/Logic+1.2.25+Win+64+Standalone.zip)
 
-**1.2.24 download links:**
+### **1.2.24 Download**
 
 Windows \(32 bit and 64 bit\):  
 [http://downloads.saleae.com/logic/1.2.24/Logic+Setup+1.2.24.exe](http://downloads.saleae.com/logic/1.2.24/Logic+Setup+1.2.24.exe)
@@ -100,7 +100,7 @@ Windows 32 bit \(no installer\):
 Windows 64 bit \(no installer\):  
 [http://downloads.saleae.com/logic/1.2.24/Logic+1.2.24+Win+64+Standalone.zip](http://downloads.saleae.com/logic/1.2.24/Logic+1.2.24+Win+64+Standalone.zip)
 
-**1.2.23 download links:**
+### **1.2.23 Download**
 
 Windows \(32 bit and 64 bit\):  
 [http://downloads.saleae.com/logic/1.2.23/Logic+Setup+1.2.23.exe](http://downloads.saleae.com/logic/1.2.23/Logic+Setup+1.2.23.exe)
@@ -120,7 +120,7 @@ Windows 32 bit \(no installer\):
 Windows 64 bit \(no installer\):  
 [http://downloads.saleae.com/logic/1.2.23/Logic+1.2.23+Win+64+Standalone.zip](http://downloads.saleae.com/logic/1.2.23/Logic+1.2.23+Win+64+Standalone.zip)
 
-**1.2.22 download links:**
+### **1.2.22 Download**
 
 Windows \(32 bit and 64 bit\):  
 [http://downloads.saleae.com/logic/1.2.22/Logic+Setup+1.2.22.exe](http://downloads.saleae.com/logic/1.2.22/Logic+Setup+1.2.22.exe)
@@ -140,7 +140,7 @@ Windows 32 bit \(no installer\):
 Windows 64 bit \(no installer\):  
 [http://downloads.saleae.com/logic/1.2.22/Logic+1.2.22+Win+64+Standalone.zip](http://downloads.saleae.com/logic/1.2.22/Logic+1.2.22+Win+64+Standalone.zip)
 
-**1.2.20 download links:**
+### **1.2.20 Download**
 
 Windows \(32 bit and 64 bit\):  
 [http://downloads.saleae.com/logic/1.2.20/Logic+Setup+1.2.20.exe](http://downloads.saleae.com/logic/1.2.20/Logic+Setup+1.2.20.exe)
@@ -160,7 +160,7 @@ Windows 32 bit \(no installer\):
 Windows 64 bit \(no installer\):  
 [http://downloads.saleae.com/logic/1.2.20/Logic+1.2.20+Win+64+Standalone.zip](http://downloads.saleae.com/logic/1.2.20/Logic+1.2.20+Win+64+Standalone.zip)
 
-**1.2.19 download links:**
+### **1.2.19 Download**
 
 Windows \(32 bit and 64 bit\):  
 [http://downloads.saleae.com/logic/1.2.19/Logic+Setup+1.2.19.exe](http://downloads.saleae.com/logic/1.2.19/Logic+Setup+1.2.19.exe)
@@ -180,7 +180,7 @@ Windows 32 bit \(no installer\):
 Windows 64 bit \(no installer\):  
 [http://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+Win+64+Standalone.zip](http://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+Win+64+Standalone.zip)
 
-**1.2.18 download links:**
+### **1.2.18 Download**
 
 Windows \(32 bit and 64 bit\):  
 [http://downloads.saleae.com/logic/1.2.18/Logic+Setup+1.2.18.exe](http://downloads.saleae.com/logic/1.2.18/Logic+Setup+1.2.18.exe)
@@ -200,7 +200,7 @@ Windows 32 bit \(no installer\):
 Windows 64 bit \(no installer\):  
 [http://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+Win+64+Standalone.zip](http://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+Win+64+Standalone.zip)
 
-**1.2.17 download links:**
+### **1.2.17 Download**
 
 Windows \(32 bit and 64 bit\):  
 [http://downloads.saleae.com/logic/1.2.17/Logic+Setup+1.2.17.exe](http://downloads.saleae.com/logic/1.2.17/Logic+Setup+1.2.17.exe)
@@ -220,7 +220,7 @@ Windows 32 bit \(no installer\):
 Windows 64 bit \(no installer\):  
 [http://downloads.saleae.com/logic/1.2.17/Logic+1.2.17+Win+64+Standalone.zip](http://downloads.saleae.com/logic/1.2.17/Logic+1.2.17+Win+64+Standalone.zip)
 
-**1.2.16 download links:**
+### **1.2.16 Download**
 
 Windows \(32 bit and 64 bit\):  
 [http://downloads.saleae.com/logic/1.2.16/Logic+Setup+1.2.16.exe](http://downloads.saleae.com/logic/1.2.16/Logic+Setup+1.2.16.exe)
@@ -240,7 +240,7 @@ Windows 32 bit \(no installer\):
 Windows 64 bit \(no installer\):  
 [http://downloads.saleae.com/logic/1.2.16/Logic+1.2.16+Win+64+Standalone.zip](http://downloads.saleae.com/logic/1.2.16/Logic+1.2.16+Win+64+Standalone.zip)
 
-**1.2.15 download links:**
+### **1.2.15 Download**
 
 Windows \(32 bit and 64 bit\):  
 [http://downloads.saleae.com/logic/1.2.15/Logic+Setup+1.2.15.exe](http://downloads.saleae.com/logic/1.2.15/Logic+Setup+1.2.15.exe)
@@ -260,7 +260,7 @@ Windows 32 bit \(no installer\):
 Windows 64 bit \(no installer\):  
 [http://downloads.saleae.com/logic/1.2.15/Logic+1.2.15+Win+64+Standalone.zip](http://downloads.saleae.com/logic/1.2.15/Logic+1.2.15+Win+64+Standalone.zip)
 
-**1.2.14 download links:**
+### **1.2.14 Download**
 
 Windows \(32 bit and 64 bit\):  
 [http://downloads.saleae.com/logic/1.2.14/Logic+Setup+1.2.14.exe](http://downloads.saleae.com/logic/1.2.14/Logic+Setup+1.2.14.exe)
@@ -280,7 +280,7 @@ Windows 32 bit \(no installer\):
 Windows 64 bit \(no installer\):  
 [http://downloads.saleae.com/logic/1.2.14/Logic+1.2.14+Win+64+Standalone.zip](http://downloads.saleae.com/logic/1.2.14/Logic+1.2.14+Win+64+Standalone.zip)
 
-**1.2.13 download links:**
+### **1.2.13 Download**
 
 Windows \(32 bit and 64 bit\):  
 [http://downloads.saleae.com/logic/1.2.13/Logic+Setup+1.2.13.exe](http://downloads.saleae.com/logic/1.2.13/Logic+Setup+1.2.13.exe)
@@ -300,7 +300,7 @@ Windows 32 bit \(no installer\):
 Windows 64 bit \(no installer\):  
 [http://downloads.saleae.com/logic/1.2.13/Logic+1.2.13+Win+64+Standalone.zip](http://downloads.saleae.com/logic/1.2.13/Logic+1.2.13+Win+64+Standalone.zip)
 
-**1.2.12 download links:**
+### **1.2.12 Download**
 
 Windows \(32 bit and 64 bit\):  
 [http://downloads.saleae.com/logic/1.2.12/Logic+Setup+1.2.12.exe](http://downloads.saleae.com/logic/1.2.12/Logic+Setup+1.2.12.exe)
@@ -320,7 +320,7 @@ Windows 32 bit \(no installer\):
 Windows 64 bit \(no installer\):  
 [http://downloads.saleae.com/logic/1.2.12/Logic+1.2.12+Win+64+Standalone.zip](http://downloads.saleae.com/logic/1.2.12/Logic+1.2.12+Win+64+Standalone.zip)
 
-**1.2.11 download links:**
+### **1.2.11 Download**
 
 Windows \(32 bit and 64 bit\):  
 [http://downloads.saleae.com/logic/1.2.11/Logic+Setup+1.2.11.exe](http://downloads.saleae.com/logic/1.2.11/Logic+Setup+1.2.11.exe)
@@ -340,7 +340,7 @@ Windows 32 bit \(no installer\):
 Windows 64 bit \(no installer\):  
 [http://downloads.saleae.com/logic/1.2.11/Logic+1.2.11+Win+64+Standalone.zip](http://downloads.saleae.com/logic/1.2.11/Logic+1.2.11+Win+64+Standalone.zip)
 
-**1.2.10 download links:**
+### **1.2.10 Download**
 
 Windows \(32 bit and 64 bit\):  
 [http://downloads.saleae.com/logic/1.2.10/Logic+Setup+1.2.10.exe](http://downloads.saleae.com/logic/1.2.10/Logic+Setup+1.2.10.exe)
@@ -367,7 +367,7 @@ Windows 32 bit \(no installer\):
 Windows 64 bit \(no installer\):  
 [http://downloads.saleae.com/logic/1.2.10/Logic+1.2.10+Win+64+Standalone.zip](http://downloads.saleae.com/logic/1.2.10/Logic+1.2.10+Win+64+Standalone.zip)
 
-**1.2.9 download links:**
+### **1.2.9 Download**
 
 Windows \(32 bit and 64 bit\):  
 [http://downloads.saleae.com/logic/1.2.9/Logic+Setup+1.2.9.exe](http://downloads.saleae.com/logic/1.2.9/Logic+Setup+1.2.9.exe)
@@ -394,7 +394,7 @@ Windows 32 bit \(no installer\):
 Windows 64 bit \(no installer\):  
 [http://downloads.saleae.com/logic/1.2.9/Logic+1.2.9+Win+64+Standalone.zip](http://downloads.saleae.com/logic/1.2.9/Logic+1.2.9+Win+64+Standalone.zip)
 
-**1.2.8 download links:**
+### **1.2.8 Download**
 
 Windows \(32 bit and 64 bit\):  
 [http://downloads.saleae.com/betas/1.2.8/Logic+Setup+1.2.8.exe](http://downloads.saleae.com/betas/1.2.8/Logic+Setup+1.2.8.exe)
@@ -420,4 +420,253 @@ Windows 32 bit \(no installer\):
 [http://downloads.saleae.com/betas/1.2.8/Logic+1.2.8+Beta+Win+32+Standalone.zip](http://downloads.saleae.com/betas/1.2.8/Logic+1.2.8+Beta+Win+32+Standalone.zip)  
 Windows 64 bit \(no installer\):  
 [http://downloads.saleae.com/betas/1.2.8/Logic+1.2.8+Beta+Win+64+Standalone.zip](http://downloads.saleae.com/betas/1.2.8/Logic+1.2.8+Beta+Win+64+Standalone.zip)
+
+### **1.2.7 Download**
+
+Windows \(32 bit and 64 bit\):  
+[http://downloads.saleae.com/betas/1.2.7/Logic+Setup+1.2.7.exe](http://downloads.saleae.com/betas/1.2.7/Logic+Setup+1.2.7.exe)
+
+OSX 10.7+:  
+[http://downloads.saleae.com/betas/1.2.7/Logic-1.2.7-Darwin.dmg](http://downloads.saleae.com/betas/1.2.7/Logic-1.2.7-Darwin.dmg)
+
+Linux 32 bit:   
+[http://downloads.saleae.com/betas/1.2.7/Logic+1.2.7+\(32-bit\).zip](http://downloads.saleae.com/betas/1.2.7/Logic+1.2.7+%2832-bit%29.zip)  
+Linux 64 bit:   
+[http://downloads.saleae.com/betas/1.2.7/Logic+1.2.7+\(64-bit\).zip](http://downloads.saleae.com/betas/1.2.7/Logic+1.2.7+%2864-bit%29.zip)
+
+Linux Compatibility release, for users with older libraries:
+
+Linux 32 bit:   
+[http://downloads.saleae.com/betas/1.2.7/Logic+1.2.7+\(32-bit\)+compatibility\_release.zip](http://downloads.saleae.com/betas/1.2.7/Logic+1.2.7+%2832-bit%29+compatibility_release.zip)  
+Linux 64 bit:   
+[http://downloads.saleae.com/betas/1.2.7/Logic+1.2.7+\(64-bit\)+compatibility\_release.zip](http://downloads.saleae.com/betas/1.2.7/Logic+1.2.7+%2864-bit%29+compatibility_release.zip)
+
+Widows Standalone Releases:
+
+Windows 32 bit \(no installer\):  
+[http://downloads.saleae.com/betas/1.2.7/Logic+1.2.7+Beta+Win+32+Standalone.zip](http://downloads.saleae.com/betas/1.2.7/Logic+1.2.7+Beta+Win+32+Standalone.zip)  
+Windows 64 bit \(no installer\):  
+[http://downloads.saleae.com/betas/1.2.7/Logic+1.2.7+Beta+Win+64+Standalone.zip](http://downloads.saleae.com/betas/1.2.7/Logic+1.2.7+Beta+Win+64+Standalone.zip)
+
+### **1.2.5 Download**
+
+Windows \(32 bit and 64 bit\):  
+[http://downloads.saleae.com/betas/1.2.5/Logic+Setup+1.2.5.exe](http://downloads.saleae.com/betas/1.2.5/Logic+Setup+1.2.5.exe)
+
+OSX 10.7+:  
+[http://downloads.saleae.com/betas/1.2.5/Logic-1.2.5-Darwin.dmg](http://downloads.saleae.com/betas/1.2.5/Logic-1.2.5-Darwin.dmg)
+
+Linux 32 bit:   
+[http://downloads.saleae.com/betas/1.2.5/Logic+1.2.5+\(32-bit\).zip](http://downloads.saleae.com/betas/1.2.5/Logic+1.2.5+%2832-bit%29.zip)  
+Linux 64 bit:   
+[http://downloads.saleae.com/betas/1.2.5/Logic+1.2.5+\(64-bit\).zip](http://downloads.saleae.com/betas/1.2.5/Logic+1.2.5+%2864-bit%29.zip)
+
+Linux Compatibility release, for users with older libraries:
+
+Linux 32 bit:   
+[http://downloads.saleae.com/betas/1.2.5/Logic+1.2.5+\(32-bit\)+compatibility\_release.zip](http://downloads.saleae.com/betas/1.2.5/Logic+1.2.5+%2832-bit%29+compatibility_release.zip)  
+Linux 64 bit:   
+[http://downloads.saleae.com/betas/1.2.5/Logic+1.2.5+\(64-bit\)+compatibility\_release.zip](http://downloads.saleae.com/betas/1.2.5/Logic+1.2.5+%2864-bit%29+compatibility_release.zip)
+
+Widows Standalone Releases:
+
+Windows 32 bit \(no installer\):  
+[http://downloads.saleae.com/betas/1.2.5/Logic+1.2.5+standalone+32+bit.zip](http://downloads.saleae.com/betas/1.2.5/Logic+1.2.5+standalone+32+bit.zip)  
+Windows 64 bit \(no installer\):  
+[http://downloads.saleae.com/betas/1.2.5/Logic+1.2.5+standalone+64+bit.zip](http://downloads.saleae.com/betas/1.2.5/Logic+1.2.5+standalone+64+bit.zip)
+
+### **1.2.4 Download**
+
+Windows \(32 bit and 64 bit\):  
+[http://downloads.saleae.com/betas/1.2.4/Logic+Setup+1.2.4.exe](http://downloads.saleae.com/betas/1.2.4/Logic+Setup+1.2.4.exe)
+
+OSX 10.7+:  
+[http://downloads.saleae.com/betas/1.2.4/Logic-1.2.4-Darwin.dmg](http://downloads.saleae.com/betas/1.2.4/Logic-1.2.4-Darwin.dmg)
+
+Linux 32 bit:   
+[http://downloads.saleae.com/betas/1.2.4/Logic+1.2.4+\(32-bit\).zip](http://downloads.saleae.com/betas/1.2.4/Logic+1.2.4+%2832-bit%29.zip)  
+Linux 64 bit:   
+[http://downloads.saleae.com/betas/1.2.4/Logic+1.2.4+\(64-bit\).zip](http://downloads.saleae.com/betas/1.2.4/Logic+1.2.4+%2864-bit%29.zip)
+
+Linux Compatibility release, for users with older libraries:
+
+Linux 32 bit:   
+[http://downloads.saleae.com/betas/1.2.4/Logic+1.2.4+\(32-bit\)+compatibility\_release.zip](http://downloads.saleae.com/betas/1.2.4/Logic+1.2.4+%2832-bit%29+compatibility_release.zip)  
+Linux 64 bit:   
+[http://downloads.saleae.com/betas/1.2.4/Logic+1.2.4+\(64-bit\)+compatibility\_release.zip](http://downloads.saleae.com/betas/1.2.4/Logic+1.2.4+%2864-bit%29+compatibility_release.zip)
+
+### **1.2.3 Download**
+
+Windows \(32 bit and 64 bit\):  
+[http://downloads.saleae.com/betas/1.2.3/Logic+Setup+1.2.3.exe](http://downloads.saleae.com/betas/1.2.3/Logic+Setup+1.2.3.exe)
+
+OSX 10.7+:  
+[http://downloads.saleae.com/betas/1.2.3/Logic-1.2.3-Darwin.dmg](http://downloads.saleae.com/betas/1.2.3/Logic-1.2.3-Darwin.dmg)
+
+Linux 32 bit:   
+[http://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+\(32-bit\).zip](http://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+%2832-bit%29.zip)  
+Linux 64 bit:   
+[http://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+\(64-bit\).zip](http://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+%2864-bit%29.zip)
+
+Linux Compatibility release"  
+Linux 32 bit:   
+[http://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+\(32-bit\)+compatibility\_release.zip](http://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+%2832-bit%29+compatibility_release.zip)  
+Linux 64 bit:   
+[http://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+\(64-bit\)+compatibility\_release.zip](http://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+%2864-bit%29+compatibility_release.zip)
+
+Standalone Windows \(no installer\):
+
+Windows 32 bit:   
+[http://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+Windows+32+bit+Standalone.zip](http://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+Windows+32+bit+Standalone.zip)  
+Windows 64 bit:   
+[http://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+Windows+64+bit+Standalone.zip](http://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+Windows+64+bit+Standalone.zip)
+
+### **1.2.2 Download**
+
+Windows \(32 bit and 64 bit\)  
+[http://downloads.saleae.com/betas/1.2.2/Logic+Setup+1.2.2.exe](http://downloads.saleae.com/betas/1.2.2/Logic+Setup+1.2.2.exe)
+
+osx 10.7+  
+[http://downloads.saleae.com/betas/1.2.2/Logic-1.2.2-Darwin.dmg](http://downloads.saleae.com/betas/1.2.2/Logic-1.2.2-Darwin.dmg)
+
+Linux 32 bit:   
+[http://downloads.saleae.com/betas/1.2.2/Logic+1.2.2+\(32-bit\).zip](http://downloads.saleae.com/betas/1.2.2/Logic+1.2.2+%2832-bit%29.zip)
+
+Linux 64 bit:   
+[http://downloads.saleae.com/betas/1.2.2/Logic+1.2.2+\(64-bit\).zip](http://downloads.saleae.com/betas/1.2.2/Logic+1.2.2+%2864-bit%29.zip)
+
+Linux 32 bit compatibility release:   
+[http://downloads.saleae.com/betas/1.2.2/Logic+1.2.2+\(32-bit\)+compatibility\_release.zip](http://downloads.saleae.com/betas/1.2.2/Logic+1.2.2+%2832-bit%29+compatibility_release.zip)
+
+Linux 64 bit compatibility release:   
+[http://downloads.saleae.com/betas/1.2.2/Logic+1.2.2+\(64-bit\)+compatibility\_release.zip](http://downloads.saleae.com/betas/1.2.2/Logic+1.2.2+%2864-bit%29+compatibility_release.zip)
+
+### **1.2.1 Download** \(Linux and OSX only\)
+
+OSX 10.7+
+
+[http://downloads.saleae.com/betas/1.2.1/Logic-1.2.1-Darwin.dmg](http://downloads.saleae.com/betas/1.2.1/Logic-1.2.1-Darwin.dmg)
+
+Linux 32 bit:
+
+[http://downloads.saleae.com/betas/1.2.1/Logic+1.2.1+\(32-bit\).zip](http://downloads.saleae.com/betas/1.2.1/Logic+1.2.1+%2832-bit%29.zip)
+
+Linux 64 bit:
+
+[http://downloads.saleae.com/betas/1.2.1/Logic+1.2.1+\(64-bit\).zip](http://downloads.saleae.com/betas/1.2.1/Logic+1.2.1+%2864-bit%29.zip)
+
+### **1.1.34 Download**
+
+Windows: \(32 bit and 64 bit\)
+
+[http://downloads.saleae.com/betas/1.1.34/Logic+Setup+1.1.34.exe](http://downloads.saleae.com/betas/1.1.34/Logic+Setup+1.1.34.exe)
+
+OSX:
+
+[http://downloads.saleae.com/betas/1.1.34/Logic-1.1.34-Darwin.dmg](http://downloads.saleae.com/betas/1.1.34/Logic-1.1.34-Darwin.dmg)
+
+Linux 32 bit:
+
+[http://downloads.saleae.com/betas/1.1.34/Logic+1.1.34+\(32-bit\).zip](http://downloads.saleae.com/betas/1.1.34/Logic+1.1.34+%2832-bit%29.zip)
+
+Linux 64 bit:
+
+[http://downloads.saleae.com/betas/1.1.34/Logic+1.1.34+\(64-bit\).zip](http://downloads.saleae.com/betas/1.1.34/Logic+1.1.34+%2864-bit%29.zip)
+
+Linux 32 bit compatibility release:
+
+[http://downloads.saleae.com/betas/1.1.34/Logic+1.1.34+\(32-bit\)+compatibility\_release.zip](http://downloads.saleae.com/betas/1.1.34/Logic+1.1.34+%2832-bit%29+compatibility_release.zip)
+
+Linux 64 bit compatibility release:
+
+[http://downloads.saleae.com/betas/1.1.34/Logic+1.1.34+\(64-bit\)+compatibility\_release.zip](http://downloads.saleae.com/betas/1.1.34/Logic+1.1.34+%2864-bit%29+compatibility_release.zip)
+
+Windows 32 bit standalone:
+
+[http://downloads.saleae.com/standalone/Saleae+LLC+v1.1.34+x32+standalone.zip](http://downloads.saleae.com/standalone/Saleae+LLC+v1.1.34+x32+standalone.zip)
+
+Windows 64 bit standalone:
+
+[http://downloads.saleae.com/standalone/Saleae+LLC+v1.1.34+x64+standalone.zip](http://downloads.saleae.com/standalone/Saleae+LLC+v1.1.34+x64+standalone.zip)
+
+### **1.1.20 Download**
+
+Windows 32:   
+[http://downloads.saleae.com/betas/1.1.20/Logic+Setup+1.1.20+\(32-bit\).exe](http://downloads.saleae.com/betas/1.1.20/Logic+Setup+1.1.20+%2832-bit%29.exe)  
+Windows 64:   
+[http://downloads.saleae.com/betas/1.1.20/Logic+Setup+1.1.20+\(64-bit\).exe](http://downloads.saleae.com/betas/1.1.20/Logic+Setup+1.1.20+%2864-bit%29.exe)
+
+Linux 32:   
+[http://downloads.saleae.com/betas/1.1.20/Logic+1.1.20+\(32-bit\).zip](http://downloads.saleae.com/betas/1.1.20/Logic+1.1.20+%2832-bit%29.zip)  
+Linux 64:   
+[http://downloads.saleae.com/betas/1.1.20/Logic+1.1.20+\(64-bit\).zip](http://downloads.saleae.com/betas/1.1.20/Logic+1.1.20+%2864-bit%29.zip)
+
+OSX 10.6+  
+[http://downloads.saleae.com/betas/1.1.20/Logic-1.1.20-Darwin.dmg](http://downloads.saleae.com/betas/1.1.20/Logic-1.1.20-Darwin.dmg)
+
+### **1.1.19 Download**
+
+Linux 32 bit:
+
+[http://downloads.saleae.com/betas/1.1.19/Logic+1.1.19+\(32-bit\).zip](http://downloads.saleae.com/betas/1.1.19/Logic+1.1.19+%2832-bit%29.zip)
+
+Linux 64 bit:   
+[http://downloads.saleae.com/betas/1.1.19/Logic+1.1.19+\(64-bit\).zip](http://downloads.saleae.com/betas/1.1.19/Logic+1.1.19+%2864-bit%29.zip)
+
+Windows 32 bit:   
+[http://downloads.saleae.com/betas/1.1.19/Logic+Setup+1.1.19+\(32-bit\).exe](http://downloads.saleae.com/betas/1.1.19/Logic+Setup+1.1.19+%2832-bit%29.exe)
+
+Windows 64 bit:   
+[http://downloads.saleae.com/betas/1.1.19/Logic+Setup+1.1.19+\(64-bit\).exe](http://downloads.saleae.com/betas/1.1.19/Logic+Setup+1.1.19+%2864-bit%29.exe)
+
+OSX 10.6+  
+[http://downloads.saleae.com/betas/1.1.19/Logic-1.1.19-Darwin.dmg](http://downloads.saleae.com/betas/1.1.19/Logic-1.1.19-Darwin.dmg)
+
+### **1.1.18 Linux interim Download**
+
+**\(released after 1.1.18 with Linux specific USB fixes\)**
+
+Linux 32 bit
+
+[downloads.saleae.com/Logic+Socket+Beta+Update/Logic+1.1.18+-+beta+update+\(32-bit\).zip](http://downloads.saleae.com/Logic+Socket+Beta+Update/Logic+1.1.18+-+beta+update+/%2832-bit/%29.zip)
+
+Linux 64 bit
+
+[downloads.saleae.com/Logic+Socket+Beta+Update/Logic+1.1.18+-+beta+update+\(64-bit\).zip](http://downloads.saleae.com/Logic+Socket+Beta+Update/Logic+1.1.18+-+beta+update+/%2864-bit/%29.zip)
+
+### **1.1.18 Download**
+
+Windows:
+
+[Logic 1.1.18 Beta - Windows 32 bit](http://downloads.saleae.com/betas/1.1.18/Logic+Setup+1.1.18+/%2832-bit/%29.exe)
+
+[Logic 1.1.18 Beta - Windows 64 bit](http://downloads.saleae.com/betas/1.1.18/Logic+Setup+1.1.18+/%2864-bit/%29.exe)
+
+OS X:
+
+[Logic 1.1.18 Beta - OSX 10.6+](http://downloads.saleae.com/betas/1.1.18/Logic-1.1.18-Darwin.dmg)
+
+Linux:
+
+[Logic 1.1.18 Beta - Ubuntu 32 bit](http://downloads.saleae.com/betas/1.1.18/Logic+1.1.18+/%2832-bit/%29.zip)
+
+[Logic 1.1.18 Beta - Ubuntu 64 bit](http://downloads.saleae.com/betas/1.1.18/Logic+1.1.18+/%2864-bit/%29.zip)
+
+Windows Standalone:
+
+32 bit:
+
+[http://downloads.saleae.com/betas/1.1.18/Logic1.1.18BetaWin32Standalone.zip](http://downloads.saleae.com/betas/1.1.18/Logic1.1.18BetaWin32Standalone.zip)
+
+64 bit:
+
+[http://downloads.saleae.com/betas/1.1.18/Logic1.1.18betaWin64Standalone.zip](http://downloads.saleae.com/betas/1.1.18/Logic1.1.18betaWin64Standalone.zip)
+
+### **1.1.15 Download**
+
+Windows standalone release:
+
+[http://downloads.saleae.com/standalone/Logic+1.1.15+standalone.zip](http://downloads.saleae.com/standalone/Logic+1.1.15+standalone.zip)
+
+Note, 1.1.15 was the last 32 bit only release. There is only 1 version for both 32 bit and 64 bit versions of windows. The reason there are two installers for 1.1.15 is to simply support installing the different drivers for 32 bit and 64 bit windows, both of which are included in this one standalone release.
 

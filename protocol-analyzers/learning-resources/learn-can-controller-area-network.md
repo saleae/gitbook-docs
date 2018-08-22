@@ -2,7 +2,7 @@
 
 CAN \(controller area network\) is a differential serial bus typically used in automotive and industrial applications for sensor data collection and system control.
 
-**Topology**
+### **Topology**
 
 The Controller Area Network is a bus that can connect many devices, called nodes. When a node sends data on the bus, it broadcasts it. It identifies itself, but not the recipient. Only one node may be transmitted on the bus at a time.
 
@@ -18,7 +18,7 @@ No:
 
 ![](https://trello-attachments.s3.amazonaws.com/57215d59658a3abf8cf6f277/957x459/1c35102812d414fbdac740293d213673/No.png)
 
-**Electrical**
+### **Electrical**
 
 The cable consists of a single differential pair, typically twisted, with a characteristic impedance of 120 ohms. The far ends of the cable are terminated with 120-ohm resistors.
 
@@ -26,7 +26,7 @@ The cable consists of a single differential pair, typically twisted, with a char
 
 Typically, a ground wire is also provided. To prevent ground loops and reference voltage differences, it should be the only ground reference used. Some CAN transceivers are isolated to get around this limitation. Power is also commonly provided. A connector is not part of the physical layer specification, but the DB9 connector is common.
 
-**Electrical States**
+### **Electrical States**
 
 There are two electrical states—recessive and dominant.
 
@@ -40,11 +40,11 @@ In the dominant state, one end of the differential pair, called CANL, is pulled 
 
 ![](https://trello-attachments.s3.amazonaws.com/57215d59658a3abf8cf6f277/1065x120/0b69f4e1d832b9ce270c969c440cbbb5/Dominant.png)
 
-**Similarity to Single-Ended, Pulled-Up Bus**
+### **Similarity to Single-Ended, Pulled-Up Bus**
 
 This situation is somewhat analogous to a single wire bus where the bus is pulled up with a resistor \(recessive\) or pulled down by a device \(dominant\). Its purpose is to provide access to a shared medium in such a way that multiple devices with conflicting bit states will not short each other.
 
-**CAN Transceivers**
+### **CAN Transceivers**
 
 Since the CAN bus is a differential pair, typically a CAN transceiver is employed between a microcontroller \(FPGA, ASIC, etc.\) and the CAN bus.
 
@@ -52,7 +52,7 @@ On the microcontroller side, there are typically two connections: an input and a
 
 The CAN transceiver's input is how you tell the transceiver to actually talk on the bus. A 0 will cause the transceiver to assert a dominant state on the bus, and a 1 will cause a recessive state.
 
-**Logic States**
+### **Logic States**
 
 The recessive state on the can bus is where the voltage across the differential pair \(CANH - CANL = 0V\) is 0. This corresponds to the logic 1 state.
 
@@ -60,9 +60,13 @@ The dominant state on the CAN bus is there where there is voltage \(5 or 3.3V\) 
 
 Notice that once you are on the microcontroller side, the IO voltages do match the logical states \(positive logic\). In other words, on the microcontroller side, 0V is logic 0, and 5/3.3V is logic 1. It looks very similar to the CMOS-level serial since the idle state is 1.
 
-![](https://trello-attachments.s3.amazonaws.com/57215d59658a3abf8cf6f277/1015x167/7cd780aa5b3632d4a7845f313cf35988/States1.png) ![](https://trello-attachments.s3.amazonaws.com/57215d59658a3abf8cf6f277/1095x179/f7c74368cc3b3dc2908bad676187a651/States2.png)
+![](https://trello-attachments.s3.amazonaws.com/57215d59658a3abf8cf6f277/1015x167/7cd780aa5b3632d4a7845f313cf35988/States1.png)
 
-**Bits on the Bus**
+ 
+
+![](https://trello-attachments.s3.amazonaws.com/57215d59658a3abf8cf6f277/1095x179/f7c74368cc3b3dc2908bad676187a651/States2.png)
+
+### **Bits on the Bus**
 
 Bits are put on the bus in the same manner as RS-232 style asynchronous serial—each bit has a certain time on the bus before the next one's turn. The bit rate can vary, but 1Mbit is common \(1µs per bit\).
 

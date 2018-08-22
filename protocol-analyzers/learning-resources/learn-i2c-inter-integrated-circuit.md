@@ -2,7 +2,7 @@
 
 I2C is a very common communication protocol typically used by microcontrollers to communicate with various peripheral ICs, typically on the same PCB. I2C has two wires: a data \(SDA\) line and a clock \(SCL\) line. Peripherals on the bus each have their own address. Among other reasons, I2C is attractive because it is highly standardized.
 
-**Topology**
+### **Topology**
 
 ![](https://trello-attachments.s3.amazonaws.com/57215d40ae455476e81933b1/278x145/120ff9a57c6495539b2dde56257ee5ce/Topology.png)
 
@@ -16,7 +16,7 @@ If using a microcontroller GPIO pin, change the pin to input mode to produce a 1
 
 The voltage used in I2C can be any logic level \(e.g., 3.3V\) that all the participants can tolerate.
 
-**Synchronization Without Enable Lines**
+### **Synchronization Without Enable Lines**
 
 Recall that SPI enable lines provide synchronization. When the enable line transitions from inactive to active, this event establishes the beginning of a data transfer. How does I2C produce a synchronization event from only two wires?
 
@@ -30,7 +30,7 @@ Since changing the data line when the clock is high is not allowed during normal
 
 There are two ways the data line can change while the clock is high. It can transition from 0 to 1 while the clock is high, or it can transition from 1 to 0. In I2C, these each mean something specific.
 
-**START and STOP – I2C's Synchronization Events**
+### **START and STOP – I2C's Synchronization Events**
 
 A START event occurs when the CLK \(clock\) is high and SDL \(data line\) falls \(1 to 0\).
 
@@ -40,7 +40,7 @@ A STOP event occurs when the CLK \(clock\) is high and SDL \(data line\) rises \
 
 ![](https://trello-attachments.s3.amazonaws.com/57215d40ae455476e81933b1/180x161/8765b7ac05e8c05a5da8472f2f72bb7d/Start.png)
 
-**Selecting a Slave to Talk To – Without Enable Lines**
+### **Selecting a Slave to Talk To – Without Enable Lines**
 
 With the SPI bus, the master has individual enable lines for each slave, allowing it to specify exactly which one it wanted to talk with.
 
@@ -50,7 +50,7 @@ Every slave device on the bus has an address. These addresses are assigned by NX
 
 In I2C, addresses are 7-bits long.
 
-**Writing a Bit on the Bus**
+### **Writing a Bit on the Bus**
 
 As long as SDA \(data\) does not change when CLK \(clock\) is high, data can be sent on the bus. CLK will go low, SDA will change to a 1 or 0 if it needs to, and then the clock will go high. In I2C, a clock rising edge means that the data line is valid.
 
@@ -60,7 +60,7 @@ CLK then goes low again, and the process repeats. During the time that SCK is hi
 
 Bits are written with the most significant bit first.
 
-**A Step-by-Step I2C Transaction**
+### **A Step-by-Step I2C Transaction**
 
 **Idle**
 
@@ -128,15 +128,22 @@ If there is only one master, then STOP and repeated START are functionally ident
 
 The only reason the STOP event is needed is to tell other master devices that the current master is done using the bus. We'll discuss multiple masters a little further on.
 
-**The I2C Transaction, Summarized**
+### **The I2C Transaction, Summarized**
 
-1. The master performs a START \(or repeated START\). 2. The master writes out 7 bits \(the address of the slave it wants to talk to\). 3. The master writes out one bit, indicating if it wants to write to or read from the slave \(0=write to slave, 1=read from slave\). 4. The slave, if it exists and is working, replies with an ACK. If the master gets a NAK, it must restart the process \(go to step 1\). 5. The master, at its leisure, then reads \(or writes\) data to/from the slave.
+1. The master performs a START \(or repeated START\). 
+2. The master writes out 7 bits \(the address of the slave it wants to talk to\). 
+3. The master writes out one bit, indicating if it wants to write to or read from the slave \(0=write to slave, 1=read from slave\). 
+4. The slave, if it exists and is working, replies with an ACK. If the master gets a NAK, it must restart the process \(go to step 1\). 
+5. The master, at its leisure, then reads \(or writes\) data to/from the slave.
+   * Data are always sent MSB first, 8 bits at a time, followed by 1 acknowledge bit. 
+   * If the master is writing to the slave, it controls both the clock and the data line.
+   * If the master is reading from the slave, it controls the clock line and lets the slave control the data line. 
+   * If the master received a NAK as the acknowledge bit, it must restart the process \(go to step 1\). 
+   * If the slave wants more time, it may hold the clock line low after the master has pulled it low following the acknowledge bit. When the master subsequently releases \(floats\) the clock line, it must notice that the clock line does not float high and must then wait until the slave releases it and it does become high.
+6. Communication continues, one byte at a time, with the addressed slave and in the direction indicated. To communicate with a different slave or change the direction of data transfer, the master must restart the procedure \(go to step 1\).
+7. If the master is completely done and wishes to allow other master devices access to the bus, it issues the STOP event.
 
-\(a\) Data are always sent MSB first, 8 bits at a time, followed by 1 acknowledge bit. \(b\) If the master is writing to the slave, it controls both the clock and the data line. \(c\) If the master is reading from the slave, it controls the clock line and lets the slave control the data line. \(d\) If the master received a NAK as the acknowledge bit, it must restart the process \(go to step 1\). \(e\) If the slave wants more time, it may hold the clock line low after the master has pulled it low following the acknowledge bit. When the master subsequently releases \(floats\) the clock line, it must notice that the clock line does not float high and must then wait until the slave releases it and it does become high.
-
-6. Communication continues, one byte at a time, with the addressed slave and in the direction indicated. To communicate with a different slave or change the direction of data transfer, the master must restart the procedure \(go to step 1\). 7. If the master is completely done and wishes to allow other master devices access to the bus, it issues the STOP event.
-
-**Multiple Masters**
+### **Multiple Masters**
 
 In some situations, such as when devices can be "hot plugged" into a bus, there may be multiple masters on the same bus.
 
@@ -144,17 +151,17 @@ Masters monitor start and stop conditions on the bus and know not to use the bus
 
 In the rare \(but possible\) event that two or more masters begin talking at the same time, a process of arbitration occurs. This is actually quite simple. Since the I2C bus is pulled up, any master writing a 0 will win out over any master attempting to write a 1. After attempting to write a 1, each master checks to make sure the bus actually has a 1 on it. If not, it knows that it has lost arbitration with another master and must wait for a STOP event.
 
-**Variations and Settings**
+### **Variations and Settings**
 
 A significant difference between the different low-level protocols \(SPI, serial, I2C, etc.\) is the level of variation there can be in exactly how it operates.
 
 One of the advantages of I2C \(or disadvantages, depending on your point of view\) is that it is fairly rigid in its specification.
 
-**Data Rates**
+### **Data Rates**
 
 Since I2C is a synchronous serial implementation, it can operate at a variety of clock speeds. Generally, I2C runs in the range of 100kbit to 400kbit. Speeds up to 3.4Mbit are possible, but a special, master-controlled pull-up is generally required to speed up the CLK rise time.
 
-**10-Bit Addresses**
+### **10-Bit Addresses**
 
 The I2C specification was extended to allow 10-bit addresses since, due to its popularity, more addresses were needed. 10-bit devices can co-exist with 7-bit devices on the same bus.
 
@@ -166,7 +173,7 @@ Here is how 10-bit addresses are used:
 * The two XX bits in the address byte above specify the most significant bits of the 10-bit address.
 * Next, the master sends a 2nd byte, 0b XXXX XXXX, which comprises the least significant 8 bits of the 10-bit address.
 
-**How 7-Bit Addresses Are Listed in Datasheets**
+### **How 7-Bit Addresses Are Listed in Datasheets**
 
 Imagine you are using a microcontroller to write out the 7-bit address and direction bit to initiate talking with a slave device. If using a I2C peripheral \(or subroutine\), you would load it with a single byte, with the address and direction bit combined.
 
