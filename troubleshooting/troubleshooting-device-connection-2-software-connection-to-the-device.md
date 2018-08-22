@@ -1,4 +1,4 @@
-# Troubleshooting Device Connection 2: Software Connection to the Device
+# Troubleshooting the Software Connection to the Device
 
 ## Software Connection to the Device
 

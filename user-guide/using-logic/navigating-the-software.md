@@ -2,39 +2,54 @@
 
 This section will guide you through the features of the Logic software. This is a great first step to take to familiarize yourself with the features of the software. When no Logic device is connected, the software will work in demo mode, which is virtually identical to how it will function when a device is connected. The demo will help you become familiar with the software before your Logic device arrives.
 
-**Navigating the Logic Software**
+### **Navigating the Logic Software**
 
 The Logic software user interface consists of the following basic sections.
 
 ![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/5ae1f9f79107b39ac226e523/e3f9f9eecf3dc8bcd61877c8b37c6998/sw-UI.png)
 
-1. The _Start Simulation_ or _Start_ Button Generates simulation data, as if the logic analyzer was collecting real world data. If a Saleae Logic was connected to the PC, then this button would say Start. More information on simulation data can be found in **\_**. After the capture has started, you can stop it before it finishes, which will retain the data to that point. If the Start button is gray and cannot be clicked, that means you are not on the capture tab \(_See \#4_\). Ensure you are on the capture tab so you can take a capture.
-2. Device Settings Button Opens the Device Settings window. This window allows you to modify capture settings, such as sampling rate, capture duration, enabled channels \(digital and analog\), voltage, and performance.
-3. Options Button Opens system-wide settings for the Logic software, which allows you to save captures, export data, and modify various settings for the Logic software.
-4. Capture tab You can save previous captures so you can refer to it later. The example image below shows 3 tabs \(the current capture tab on the left, and 2 previously saved capture tabs\). 
+1. _**Start Simulation**_ **or** _**Start**_ **Button** 
 
-   ![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/5ae1f9f79107b39ac226e523/748035442cfeac65bfb1826a072ca34b/cap-tabs.png)
+   * Generates simulation data, as if the logic analyzer was collecting real world data. If a Saleae Logic was connected to the PC, then this button would say Start. After the capture has started, you can stop it before it finishes, which will retain the data to that point. If the Start button is gray and cannot be clicked, that means you are not on the capture tab \(_See \#4_\). Ensure you are on the capture tab so you can take a capture.
 
+2. **Device Settings Button** 
+
+   * Opens the Device Settings window. This window allows you to modify capture settings, such as sampling rate, capture duration, enabled channels \(digital and analog\), voltage, and performance.
+
+3. **Options Button** 
+
+   * Opens system-wide settings for the Logic software, which allows you to save captures, export data, and modify various settings for the Logic software.
+
+4. **Capture tab** 
+
+   * You can save previous captures so you can refer to it later.
    * The Capture tab is your current capture. 
    * The &gt;&gt; button allows you to save the current capture into a new tab. 
    * The _gear_ icon on the previously saved capture tabs allow you to close or copy the tab.
 
-5. Enabled Channels Currently enabled channels are shown here. Use the Device Settings button to enable and disable channels \(_See \#2_\). If a channel is enabled but cannot be seen, it may be hidden. Click the _gear_ icon on any of the channels and click _Reset All Channels_ to reset all channel settings and bring them all back into view.
-6. Software Version and Logic connection status
+5. **Enabled Channels** 
+
+   * Currently enabled channels are shown here. Use the Device Settings button to enable and disable channels \(_See \#2_\). If a channel is enabled but cannot be seen, it may be hidden. Click the _gear_ icon on any of the channels and click _Reset All Channels_ to reset all channel settings and bring them all back into view.
+
+6. **Software Version and Logic connection status**
+
    * If status is \[Disconnected\], the green button will display _Start Simulation_
    * If status is \[Connected\], the green button will display _Start_
-7. Annotations, Analyzers, and Decoded Protocols
+
+   \_\_
+
+7. **Annotations, Analyzers, and Decoded Protocols**
    * The Annotations window lets you add bookmarks, timing markers, and various measurements to your capture.
    * The Analyzers window lets you add one of our many protocol analyzers to your digital channels. The _+_ icon will only be clickable if there are digital channels enabled.
    * The Decoded Protocols window shows the decoded results of the protocol analyzers once the capture is complete and the data has been processed.
 
-**Renaming Tabs**
+### **Renaming Tabs**
 
 To edit the text shown on a tab, click the text.
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c93d776ced6a7215d8a/349x100/4ce456d907ecbd65365c859d3cbd2765/edit_tab_label.png)
 
-**Rearranging Channels**
+### **Rearranging Channels**
 
 To rearrange channels, drag them by their grip icon at the far left of the channel.
 
@@ -52,7 +67,7 @@ To reset the channel order, click the channel settings icon \(gear\) on any chan
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c93d776ced6a7215d8a/331x212/a5375cb27170883d6937354a858bcc8b/reset_channel_order.png)
 
-**Changing Channel Size**
+### **Changing Channel Size**
 
 To change the channel size, click the channel settings icon \(gear\) on the desired channel and select a new size.
 
@@ -64,7 +79,7 @@ To change multiple channels to the same size, select them \(control-click\) and 
 
 To select all channels, select one and then press CTRL-A.
 
-**Hiding Channels**
+### **Hiding Channels**
 
 To hide a channel, click the channel settings icon \(gear\) and select Hide Channel.
 
@@ -76,7 +91,7 @@ To restore this and other hidden channels, click on a channel's settings icon an
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c93d776ced6a7215d8a/350x231/e6bfbd778f94a38bad39012eb4fe6df1/reset_all_channels.png)
 
-**Editing Channel Labels**
+### **Editing Channel Labels**
 
 By default, channels are labeled Channel N where _N_ is the channel number. To make it easier to remember which channel is connected to what, these labels are user-editable.
 

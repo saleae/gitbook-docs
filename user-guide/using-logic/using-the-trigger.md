@@ -50,7 +50,9 @@ You can skip the trigger by clicking "skip trigger" if you would like to force t
 
 **Stopping the Capture**
 
-If the trigger condition is identified, data collection will start. You can stop the capture at any point in time by clicking "Stop". This will stop the recording and will keep any data that has already been recorded. ![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/57215c94100b0aa15070d6f0/10ee05126a3158cbc43b8457209c1e20/stop-trig.png)
+If the trigger condition is identified, data collection will start. You can stop the capture at any point in time by clicking "Stop". This will stop the recording and will keep any data that has already been recorded. 
+
+![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/57215c94100b0aa15070d6f0/10ee05126a3158cbc43b8457209c1e20/stop-trig.png)
 
 **Searching with a Trigger**
 
