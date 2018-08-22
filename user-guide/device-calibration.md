@@ -6,7 +6,7 @@ The 2nd Generation of Saleae products \(Logic 4, Logic 8, Logic Pro 8, & Logic P
 
 This calibration data is not stored on the device. Instead, it is stored on our servers, and the software automatically downloads this calibration data as well as checks for updates when a device is connected.
 
-**Check Calibration Status**
+### **Check Calibration Status**
 
 1. Open the latest version of the software.
 2. Connect the Logic device and wait for the software to connect to it.
@@ -26,7 +26,7 @@ The last updated date is the date we uploaded your calibration file to the Web. 
 
 There is a minimum software version required with a calibration file. Please keep your software up to date.
 
-**Manually Download the Calibration File**
+### **Manually Download the Calibration File**
 
 The Logic software will automatically handle downloading the calibration file. In rare cases, users may need to download the file manually if the software is not able to download it on its own. Follow the steps below.
 
@@ -41,7 +41,7 @@ The Logic software will automatically handle downloading the calibration file. I
    * Linux: Calibration folder alongside Logic executable
 3. Check your Calibration Status \(steps above\), to ensure the calibration loaded properly.
 
-**Transferring the Calibration File from One PC to Another**
+### **Transferring the Calibration File from One PC to Another**
 
 1. Install the latest Logic software on a machine with Internet access.
 2. Open the software and connect the Logic device.
@@ -52,11 +52,11 @@ The Logic software will automatically handle downloading the calibration file. I
 
 Each .cal file is specific to a single device, but the .cal files are saved with the device ID in decimal and not hex, making it hard to tell which is which. If only one device has ever been connected, there will only be one .cal file.
 
-**Is Periodic Recalibration Required?**
+### **Is Periodic Recalibration Required?**
 
 Our devices do not require periodic recalibration.
 
-**Having Trouble?**
+### **Having Trouble?**
 
 If you are having trouble manually downloading the calibration file, we can send it to you. Please [contact support](http://support.saleae.com/hc/en-us/requests/new), and we can make sure your calibration data gets updated.
 
