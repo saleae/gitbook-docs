@@ -4,7 +4,7 @@
 
 You can find the pricing and part numbers for all of our products below:
 
-{% page-ref page="faq/saleae-part-numbers-eccn-and-harmonized-system-hs-codes.md" %}
+{% page-ref page="faq/saleae-part-numbers.md" %}
 
 To check the cost of shipping, simply add the product to your cart on www.saleae.com, select your country, and enter your postal code.
 
