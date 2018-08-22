@@ -195,7 +195,7 @@
     * [What Is the Resolution of the Analog Inputs on Saleae Products?](faq/technical-faq/what-is-the-resolution-of-the-analog-inputs-on-saleae-products.md)
     * [Definitions of Terms for the Saleae Products and Software](faq/technical-faq/definitions-of-terms-for-the-saleae-products-and-software.md)
     * [How Can I Analyze the USB Power Delivery Communication Protocol?](faq/technical-faq/how-can-i-analyze-the-usb-power-delivery-communication-protocol.md)
-    * [What Sample Rate Is Required for a Given Signal, and Which Products Are Capable of Recording It?](faq/technical-faq/what-sample-rate-is-required-for-a-given-signal-and-which-products-are-capable-of-recording-it.md)
+    * [What Sample Rate Is Required for a Given Signal?](faq/technical-faq/what-sample-rate-is-required.md)
     * [How Can I Send a Capture Taken with Logic with Someone Else?](faq/technical-faq/how-can-i-send-a-capture-taken-with-logic-with-someone-else.md)
     * [Binary Data Export Format Description](faq/technical-faq/binary-data-export-format-description.md)
     * [MATLAB Data Export Format Description](faq/technical-faq/matlab-data-export-format-description.md)
