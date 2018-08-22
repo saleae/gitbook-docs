@@ -73,7 +73,7 @@ The measurement feature also lets you find the narrowest pulse width over a rang
 
 * How do I decode more than one channel of serial at once, such as RX and TX signals? To do this, add two instances of the Async Serial analyzer. More information on using multiple analyzers can be found below.
 
-{% page-ref page="../../faq/technical-faq/is-it-possible-to-record-and-decode-more-than-one-protocol-or-bus-at-a-time.md" %}
+{% page-ref page="../../faq/technical-faq/recording-multiple-protocols.md" %}
 
 * How can I set the Async Serial analyzer to decode the parity and stop bits separately from the data bits? To do this, you will need to use our Protocol Analyzer SDK to modify the behavior of the Async Serial analyzer. Currently, the software will decode an entire serial word as a single frame. The SDK can be downloaded below.
 

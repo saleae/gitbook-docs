@@ -199,7 +199,7 @@
     * [How Can I Send a Capture Taken with Logic with Someone Else?](faq/technical-faq/how-can-i-send-a-capture-taken-with-logic-with-someone-else.md)
     * [Binary Data Export Format Description](faq/technical-faq/binary-data-export-format-description.md)
     * [MATLAB Data Export Format Description](faq/technical-faq/matlab-data-export-format-description.md)
-    * [Recording Multiple Protocols at the Same Time](faq/technical-faq/is-it-possible-to-record-and-decode-more-than-one-protocol-or-bus-at-a-time.md)
+    * [Recording Multiple Protocols at the Same Time](faq/technical-faq/recording-multiple-protocols.md)
     * [Educational Discount Information](faq/technical-faq/educational-discount-information.md)
     * [How to Change the Display Radix \(Base\) of an Analyzer, Export Mode, or Other Numeric Display](faq/technical-faq/how-to-change-the-display-radix-base-of-an-analyzer-export-mode-or-other-numeric-display.md)
     * [How Do I Know Which Logic Analyzer to Get?](faq/technical-faq/how-do-i-know-which-logic-analyzer-to-get.md)
