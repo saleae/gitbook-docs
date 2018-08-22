@@ -6,7 +6,9 @@ The Saleae CAN protocol analyzer supports standard and extended CAN identifiers.
 
 Since the Saleae devices only have single-ended inputs and not differential inputs, the ideal way to record a CAN signal is after it has been converted to single-ended. If your design already includes CAN transceivers, you might be able to simply attach the probe on the single-ended side.
 
-If you are unable to convert the CAN bus to single-ended, you may still be able to record one side of the CAN pair directly. See here for details: [decode-differential-and-high-voltage-data](https://saleae.gitbook.io/docs/~/edit/drafts/-LJtz6oLoorv0m1D_LFm/protocol-analyzers/analyzer-user-guides/decode-differential-and-high-voltage-data)
+If you are unable to convert the CAN bus to single-ended, you may still be able to record one side of the CAN pair directly. See below.
+
+{% page-ref page="decode-differential-and-high-voltage-data.md" %}
 
 Once you have recorded the CAN signal and have added the CAN analyzer, there are three settings to select.
 

@@ -1,4 +1,4 @@
-# How to Change the Display Radix \(Base\) of an Analyzer, Export Mode, or Other Numeric Display
+# Changing the Display Radix \(Base\)
 
 Just about every part of the software that displays a number can display it in a number of display radices. The software supports the following radices.
 

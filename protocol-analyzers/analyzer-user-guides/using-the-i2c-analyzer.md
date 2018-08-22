@@ -16,13 +16,13 @@ However, when working on firmware without a I2C specific peripheral, either by b
 
 The 8-bit mode displays the address left shifted one bit, as it is reflected on the bus. The 7-bit mode shows the actual 7-bit address, which takes the data from the bus and right shifts it one bit.
 
-**Issues with Noise Around Clock Edges**
+### **Issues with Noise Around Clock Edges**
 
 You may notice where the analyzer seems to decode less than 9 bits per frame, or incorrect results. If you notice this, carefully zoom in around each clock edge in the problem frame and check to see if there is a "glitch" or narrow pulse present next to the clock transition that is causing a clock edge to be detected as two edges.
 
 This can happen for several reasons, and we've added a software feature to allow these "glitches" to be filtered out. See this article for instructions.
 
-[https://trello.com/c/sazcP6WO](https://trello.com/c/sazcP6WO)
+{% page-ref page="../../faq/technical-faq/how-to-use-the-software-glitch-filter.md" %}
 
 You may want to try reducing the sample rate of the capture using a different IO voltage option, if supported by your logic analyzer, or filtering the electrical signal.
 
@@ -30,14 +30,14 @@ I2C is particularly vulnerable to this issue due to the slow rise times caused b
 
 If you are unable to work around the problem using the above suggestions, please [contact support](https://support.saleae.com/hc/en-us/requests/new).
 
-**Common Issues**
+### **Common Issues**
 
 * Why does every read transaction get preceded by a write transaction?
 
   If you're new to I2C, you may notice that a read operation may be preceded by a write transaction when one was not expected. That is most likely because the I2C slave you are using first expects the master to write the desired address that should be read back later. Since a read transaction is only unidirectional, the read transaction can't be used to inform the slave of the read address. In many cases, this is done by the master first starting with a write transaction where the target read address is sent to the slave, followed by a I2C "re-start" condition, which then allows the master to begin a read transaction. Now that the slave device is aware of the desired read address, it can transmit this data back to the master.
 
-**Other Notes**
+### **Other Notes**
 
-* The I2C protocol analyzer does not support a 10-bit address mode and can only display data as 8-bit words. If you need 10-bit I2C address support or would like to see this feature added in the future, [please vote for it on ideas.saleae.com.](http://ideas.saleae.com/forums/214303-saleae-ideas/suggestions/8746756-i2c-analyzer-should-include-10-bit-address)
+* The I2C protocol analyzer does not support a 10-bit address mode and can only display data as 8-bit words.
 * The I2C analyzer does not support viewing data transfers in any other format than 8-bit words. If you are looking to display I2C data in larger word sizes, we suggest exporting the I2C results and combining 8-bit words into N-bit words in Excel.
 
