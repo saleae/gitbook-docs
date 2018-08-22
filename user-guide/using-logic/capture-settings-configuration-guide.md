@@ -4,9 +4,9 @@ The new Saleae devices are considerably more capable than the first generation \
 
 Because if this, we get a fair number of customer support questions about how to choose the optimal capture configuration for an application. To help users determine the best setup for them, we're creating this guide. The guide also contains a number of tips for recording with more complex requirements.
 
-Please first review the Getting Started section, including the article on device settings:
+Before moving on with this configuration guide, please first review the article below on device settings:
 
-[https://trello.com/c/6WJBq7Xq](https://trello.com/c/6WJBq7Xq)
+{% page-ref page="collecting-data-and-device-settings.md" %}
 
 Generally, when starting a capture, make sure you record all the channels you have connected in the correct mode \(analog or digital\). You also need to make sure you record sufficiently fast in order to accurately record the signal and record long enough to locate the event\(s\) you are interested in.
 

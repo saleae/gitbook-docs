@@ -14,12 +14,24 @@ When saving a setup, the active tab's settings will be saved. When loading a set
 
 Also, when loading a setup, if the setup was saved when a different type of device other than the current one was active, some settings, such as the sample rate and active channels, will not load. However, channel settings, analyzers, and other settings will still load properly.
 
-**Troubleshooting Issues when Loading a Logic Setup File**
+### **Troubleshooting Issues when Loading a Logic Setup File**
 
 If a saved setup file does not appear to be loading, it could be a bug. However, please check the following first:
 
 * Make sure the tab into which you would like to load the settings is open when you load the setup file.
 * Try changing a channel label and then reloading the file. Did the channel label change back? If so, the setup file is probably loading, but it does not contain the settings you're looking for.
 
-If nothing is happening at all, please report this and include the information requested here: [https://trello.com/c/no5pJ8YB](https://trello.com/c/no5pJ8YB)
+If nothing is happening at all, please report this and include the information requested below.
+
+{% page-ref page="../../troubleshooting/the-software-has-crashed-or-i-have-discovered-a-bug.md" %}
+
+
+
+
+
+
+
+
+
+
 

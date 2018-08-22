@@ -1,6 +1,6 @@
 # Saving, Loading, and Exporting Data
 
-**Saving Captures**
+### **Saving Captures**
 
 _Note: Saving a capture only saves the currently selected tab._
 
@@ -8,7 +8,7 @@ To save your current capture, click the Options menu on the top right of the sof
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c974c95a4ba028d9906/412x116/9f724212fc2945aed70e244be2562501/save_capture.png)
 
-**Opening Captures**
+### **Opening Captures**
 
 To open a previously saved capture, click the Options menu on the top right of the software and select Open Capture. You can also press CTRL-O.
 
@@ -18,7 +18,7 @@ You can also drag a capture file into the Logic software.
 
 On Windows, you can double-click a capture file to open it in the Logic software.
 
-**Exporting Data**
+### **Exporting Data**
 
 If you need to view, manipulate, or process data in another application, you can export it.
 
@@ -26,17 +26,21 @@ To begin exporting, click the Options button at the top right of the software an
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c974c95a4ba028d9906/412x144/48a478ccdb97958254eb0b96d6ce20be/export_data.png)
 
-_Note: For exporting protocol analyzer data, see the Protocol Analyzer section._
+For exporting protocol analyzer data, see the Protocol Analyzers section below.
 
-**Export Settings**
+{% page-ref page="../../protocol-analyzers/" %}
+
+### **Export Settings**
 
 To export your setting, click the Options button at the top right and select Save Setup. From there, you will be prompted to save a .logicsettings file. The .logicsettings file will save the settings associated with the current active tab. You can find the tabs at the bottom of the software UI.
 
 ![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/57215c974c95a4ba028d9906/d5d730c5485a077f0b745792e7b18e5c/save-setup.png)
 
-More details on saving settings are described here: [https://trello.com/c/MFOJEAeb](https://trello.com/c/MFOJEAeb).
+More details on saving settings are described below:
 
-**Exporting in CSV Format**
+{% page-ref page="saving-and-loading-software-settings.md" %}
+
+### **Exporting in CSV Format**
 
 CSV format is a text format suitable for opening in a spreadsheet application or loading from a script. You can choose to include column headings and choose commas or tabs as the delimiter.
 
@@ -44,25 +48,25 @@ When exporting digital data only, you can choose to use timestamps or sample num
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c974c95a4ba028d9906/300x232/9ff47b68b4a4b5ea8cf950775704f6f0/csv_settings.png)
 
-**Exporting in VCD Format**
+### **Exporting in VCD Format**
 
 VCD stands for value change dump. It is a text-based format used for saving digital data \(it can't be used with analog data\).
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c974c95a4ba028d9906/300x71/8797654a7acaaab778ef265f59cced8d/vcd.png)
 
-**Exporting in Binary Format**
+### **Exporting in Binary Format**
 
 A binary format is provided primarily for those interested in loading data into a script or custom application. You can choose to export every sample or only record when the value changes. You can also select the number of bytes used per sample.
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c974c95a4ba028d9906/484x150/9e9e6b086c0644ca4b34052f473cd598/binary.png)
 
-**Exporting in MATLAB Format**
+### **Exporting in MATLAB Format**
 
 To use data in MATLAB, you can export a .mat file, which can be loaded by MATLAB.
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c974c95a4ba028d9906/300x63/a22d27e1abf803b99b9f66a0f9f8c780/matlab.png)
 
-**Additional Data Export Notes**
+### **Additional Data Export Notes**
 
 Some export formats have different options when exporting a mix of digital and analog channels or exporting only analog channels. Not all export options are available in some cases.
 
@@ -74,7 +78,7 @@ VCD only supports digital channels.
 
 Matlab supports exporting digital channels, analog channels, and a mix of analog and digital channels.
 
-**Exporting Analyzer Results**
+### **Exporting Analyzer Results**
 
 To export the results of a particular protocol analyzer, click the gear button on that analyzer and select Export as text/csv file.
 

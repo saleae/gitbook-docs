@@ -2,13 +2,13 @@
 
 Protocol Analyzers decode data that have been encoded according to a particular protocol such as SPI or I2C. The Logic software currently offers 23 protocol analyzers.
 
-**Adding Protocol Analyzers**
+### **Adding Protocol Analyzers**
 
 To add a Protocol Analyzer, click the Plus button on the Analyzers sidebar on the right of the software.
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c96cb44251902be82bf/241x155/1bac39c75e3f567a77f3758599e87716/analyzer_add.png)
 
-**Analyzer Settings**
+### **Analyzer Settings**
 
 Different analyzers require different settings.
 
@@ -26,7 +26,7 @@ To edit the settings for an existing analyzer, find that analyzer in the Analyze
 
 After editing your analyzer settings, the analyzer will rerun against any data you have collected and will update all results.
 
-**Changing the Global Radix \(Hex, Decimal, etc\)**
+### **Changing the Global Radix \(Hex, Decimal, etc\)**
 
 By default, all protocol analyzers will use the global radix settings.
 
@@ -36,19 +36,19 @@ To change the global radix, click the Options button at the top right of the sof
 
 You can also use the keyboard shortcuts **CTRL-A**, **CTRL-B**, **CTRL-D**, or **CTRL-H** for Ascii, Binary, Decimal, or Hexadecimal, respectively.
 
-**Changing Analyzer-Specific Radix \(Hex, Decimal, etc.\)**
+### **Changing Analyzer-Specific Radix \(Hex, Decimal, etc.\)**
 
 Sometimes you need to specify a different radix for different analyzers. To do that, locate the analyzer you would like to change in the Analyzers panel on the right of the software. Click the gear button and select the desired radix button.
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c96cb44251902be82bf/305x238/6c8e383d6fa5006382fab7d6a34c5b00/analyzer_specific_radix.png)
 
-**Edit the Analyzer Name**
+### **Edit the Analyzer Name**
 
 If you like, you can edit the name of the analyzer to help keep track of what it is connected to. On the desired analyzer, click on the text to rename.
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c96cb44251902be82bf/245x62/6c5e020e3f630af9485610f8f6d06f98/analyzer_rename.png)
 
-**Starting an Analyzer at a Specific Point in the Software**
+### **Starting an Analyzer at a Specific Point in the Software**
 
 Sometimes it is desirable to start the analyzer only at a specified location in your data. A common use for this is if you are using SPI without an enable line. A transition on the enable line is normally required to synchronize the analyzer and allow it to start decoding.
 
@@ -60,7 +60,7 @@ Then click the Analyzer's gear button and select Re-run starting at the timing m
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c96cb44251902be82bf/305x172/b52987848f995985e2875de17b46dd12/analyzer_re-run.png)
 
-**Viewing Protocol Analyzer Results**
+### **Viewing Protocol Analyzer Results**
 
 When a protocol analyzer successfully decodes data, colored regions will appear above the digital waveform where a byte or other bit-field is transmitted. Be sure to zoom in far enough to see the transitions making up a particular byte or bit-field.
 
@@ -72,13 +72,13 @@ In addition to displaying results over the digital waveform \(in context\), resu
 
 Clicking an individual item in this list will zoom to that location in the digital waveform.
 
-**Searching Analyzer Results**
+### **Searching Analyzer Results**
 
 To search for a specific result, type the exact text you would like to match. For example, if you would like to find transactions involving the I2C address 0x42, type 0x42 \(assuming the display radix is hexadecimal\).
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c96cb44251902be82bf/241x129/5d726e04c43bf0368ca73cedaed9f838/protocol_search.png)
 
-**Filter Analyzer Results to a Specific Range**
+### **Filter Analyzer Results to a Specific Range**
 
 To limit the protocol results to a specific range, first add a timing marker pair with marker 1 and marker 2 placed at the beginning and end of the area on the graph you would like to search.
 

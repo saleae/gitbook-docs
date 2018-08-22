@@ -2,11 +2,15 @@
 
 ### **Digital Instantaneous Measurements**
 
-To see instantaneous measurements while hovering over a digital channel recording, right-click the digital waveform and make sure "Show Digital Instantaneous Measurement" is checked. You can also select which measurements are made, and you can save the measurement so it stays persistent on the waveform, even when the mouse is not hovering over it. ![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/57215c94193354bad34d58af/17b0f509242eea07cc04048162ea0e88/dig-meas.png)
+To see instantaneous measurements while hovering over a digital channel recording, right-click the digital waveform and make sure "Show Digital Instantaneous Measurement" is checked. You can also select which measurements are made, and you can save the measurement so it stays persistent on the waveform, even when the mouse is not hovering over it. 
+
+![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/57215c94193354bad34d58af/17b0f509242eea07cc04048162ea0e88/dig-meas.png)
 
 ### **Analog Instantaneous Measurements**
 
-To see instantaneous measurements while hovering over an analog channel recording, right-click the analog waveform and make sure "Show Analog Instantaneous Measurement" is checked. You can also select which measurements are made, and you can save the measurement so it stays persistent on the waveform, even when the mouse is not hovering over it. ![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/57215c94193354bad34d58af/1206a7bb64453f2dca1e60b35a26dcb7/ana-instant-meas-set.png)
+To see instantaneous measurements while hovering over an analog channel recording, right-click the analog waveform and make sure "Show Analog Instantaneous Measurement" is checked. You can also select which measurements are made, and you can save the measurement so it stays persistent on the waveform, even when the mouse is not hovering over it. 
+
+![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/57215c94193354bad34d58af/1206a7bb64453f2dca1e60b35a26dcb7/ana-instant-meas-set.png)
 
 ![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/57215c94193354bad34d58af/3b0721cd5a36517d859e980e95d744ef/ana-meas.png)
 
