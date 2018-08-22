@@ -1,14 +1,24 @@
 # Driver Install
 
-**Note: if you are using any of the new products \(Logic 4, Logic 8, Pro 8, Pro 16\), you must use the latest beta version of the software since the previous releases did not include drivers for these devices. You can find the latest beta here on the support site under the SDKs and betas section.**
-
-**If you have already manually installed the Logic or Logic16 driver for one of the new devices, you will need to update to the latest software and then manually install the correct driver again.**
-
 Normally, the USB drivers for Windows install when the Logic software is installed, and the product should work when connected. In other cases, such as when using the standalone version of the software, the drivers must be installed manually.
+
+{% hint style="info" %}
+If you are using any of the 2nd generation products \(Logic 4, Logic 8, Pro 8, Pro 16\), you must use the latest version of the software \(1.2.xx\) since the previous releases \(1.1.xx\) did not include drivers for these devices. You can download the latest stable or beta release below.
+{% endhint %}
+
+{% page-ref page="latest-beta-release.md" %}
+
+{% page-ref page="latest-beta-release.md" %}
+
+{% hint style="info" %}
+If you have manually installed the 1st generation Logic or Logic16 drivers in the past, you will need to update to the latest software and then manually install the correct driver again.
+{% endhint %}
 
 The first thing to try is manually installing the drivers, if you haven't already. After that, let's try a "have-disk" manual install.
 
 If that doesn't work, please write us and send an install log along with details about your computer. The information we'll need is at the bottom of this article.
+
+### Method 1: New Hardware Wizard Installation
 
 For the first part, we want to get to the new-hardware wizard for Logic. Please connect Logic and then open the Device Manager.
 
@@ -31,13 +41,15 @@ Use the Browse button to direct the driver wizard to the Drivers folder, which i
 
   \Drivers\Windows
 
-Click Next. If this fails, continue to Part 2 below. If using the standalone software, this step should have succeeded. Otherwise, please [contact support](http://support.saleae.com/hc/en-us/requests/new) if using the standalone software.
+Click Next. If this fails, continue to the "Have-Disk" method below. If using the standalone software, this step should have succeeded. Otherwise, please [contact support](http://support.saleae.com/hc/en-us/requests/new) if using the standalone software.
 
-### Part 2: "Have-Disk" Manual Installation
+### Method 2: "Have-Disk" Manual Installation
 
 Next, let's try the "have-disk" method. Close the new hardware wizard, go back to device manager, and start it again.
 
-**Warning: Please make sure you have software 1.1.34 beta or newer installed before continuing. If you are using an older version such as 1.1.15, the below steps will create additional problems. Please contact support if you are unsure if you have the correct software installed or if you have any trouble with the drivers.**
+{% hint style="info" %}
+Before continuing, please make sure you have the latest Logic software version installed. If you are using an older version, such as 1.1.15, the below steps will create additional problems. Please contact support if you are unsure if you have the correct software installed.
+{% endhint %}
 
 Again, click "Browse my computer for driver software."
 
@@ -77,7 +89,9 @@ Saleae Logic Start USB Logic Analyzer
 Saleae Logic USB Logic Analyzer  
 Saleae Logic 16 USB Logic Analyzer
 
-**It's VERY important to select the correct product. Selecting the wrong product will cause our software to download the wrong firmware image, causing undefined behavior.**
+{% hint style="info" %}
+It's VERY important to select the correct product. Selecting the wrong product will cause our software to download the wrong firmware image, causing undefined behavior.
+{% endhint %}
 
 There is some naming confusion here that I would like to clear up.
 
@@ -87,22 +101,19 @@ If you purchased the new Logic 8, our logic 8 channel logic analyzer with digita
 
 The original Logic 16, also discontinued in 2014, uses the "Saleae Logic 16 USB Logic Analyzer" driver and NOT the pro version.
 
-If at the end of this process you still get an error, please contact us. Include the following information:  
-What OS and OS version you are using and if it is 32-bit or 64-bit.
+### Contacting Us for Further Support
 
-If the device has worked on this PC before.
+If at the end of this process you still get an error, please [contact support](http://support.saleae.com/hc/en-us/requests/new) and include the following information:
 
-If the device has worked on other PCs before.
+* What OS and OS version you are using and if it is 32-bit or 64-bit.
+* If the device has worked on this PC before.
+* If the device has worked on other PCs before.
+* Any information that may have been displayed when the drivers failed to install.
+* The driver install logs locations are described below.
+  * On XP, these are located here: 
+    * C:\Windows\setupapi.log
+  * On newer versions of Windows, it should be here: 
+    * C:\WINDOWS\INF\setupapi.dev.log
 
-Any information that may have been displayed when the drivers failed to install.
 
-The driver install logs.
-
-On XP, these are located here:
-
-C:\Windows\setupapi.log
-
-On newer versions of Windows, it should be here:
-
-C:\WINDOWS\INF\setupapi.dev.log
 

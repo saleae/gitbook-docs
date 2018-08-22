@@ -20,7 +20,9 @@ We used patchelf to modify the binary to use the included copy of ld and the oth
 
 We will continue to update and test this as we release new versions of the software.
 
-The compatibility release download links are included with the main beta download links here:
+The compatibility release download links are included with the main beta download links below.
 
-[https://trello.com/c/0NFUpiUZ](https://trello.com/c/0NFUpiUZ)
+{% page-ref page="../latest-beta-release.md" %}
+
+
 

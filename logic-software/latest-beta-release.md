@@ -1,16 +1,23 @@
 # Latest Beta Release
 
+{% hint style="info" %}
+When using the standalone version of the software, the drivers must be installed manually. Refer to the link below for instructions.
+{% endhint %}
+
+{% page-ref page="the-driver-wont-install.md" %}
+
 ### Saleae Logic 1.2.29 Beta
 
 We've started releasing beta versions of the software again, starting with 1.2.19. The latest production release is 1.2.18 and can be downloaded [here](https://www.saleae.com/downloads).
 
-**Windows**
-
+**Windows**  
 [Logic Setup 1.2.29.exe](http://downloads.saleae.com/logic/1.2.29/Logic+Setup+1.2.29.exe)
 
-**Mac OS X 10.8+** [Logic-1.2.29-Darwin.dmg](http://downloads.saleae.com/logic/1.2.29/Logic-1.2.29-Darwin.dmg)
+**Mac OS X 10.8+**   
+[Logic-1.2.29-Darwin.dmg](http://downloads.saleae.com/logic/1.2.29/Logic-1.2.29-Darwin.dmg)
 
-**Linux 64-Bit** \[Logic 1.2.29 \(64-bit\).zip\]\([http://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+\(64-bit\).zip](http://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+%2864-bit%29.zip)\)
+**Linux 64-Bit**  
+[http://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+\(64-bit\).zip](http://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+%2864-bit%29.zip)
 
 **Windows Standalone releases:**
 
@@ -22,9 +29,13 @@ Note: These releases include the newly required Microsoft Visual Studio 2015 run
 
 If you have any trouble with the 1.2.29 software, please report it. We would like to get any issues resolved before posting this to the main download page.
 
-The release notes can be found here: [https://trello.com/c/Xw90dCqP](https://trello.com/c/Xw90dCqP)
+The release notes can be found below.
 
-Older versions of the software can be found here: [https://trello.com/c/A5xo3zNr](https://trello.com/c/A5xo3zNr)
+{% page-ref page="changelog.md" %}
+
+Older versions of the software can be found below.
+
+{% page-ref page="legacy-software/older-software-releases.md" %}
 
 ### Real-Time Display Technical Details
 

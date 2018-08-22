@@ -1,6 +1,6 @@
 # Supported Operating Systems
 
-**Microsoft Windows**
+### **Microsoft Windows**
 
 * Windows XP 32 bit \(Service Pack 3 required\)
 * Windows Vista 32 bit and 64 bit
@@ -21,11 +21,11 @@ Windows XP 64-bit is also not supported.
 
 For several months, we have received reports that all recent versions of the Logic software failed to launch on Windows 10 insider builds. However, we have recently received a report that this issue is no longer present in the latest insider build. If you experience problems running the Logic software on the latest insider build, please contact support. Saleae does not officially support pre-release versions of Windows, but we will still provide support when possible.
 
-**OSX**
+### **OSX**
 
 OS X 10.8+ is supported.
 
-**Linux**
+### **Ubuntu Linux**
 
 We build and test on Ubuntu 14.04, and we will periodically update our build systems.
 

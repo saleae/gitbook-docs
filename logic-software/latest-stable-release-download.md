@@ -1,5 +1,11 @@
 # Latest Stable Release
 
+{% hint style="info" %}
+When using the standalone version of the software, the drivers must be installed manually. Refer to the link below for instructions.
+{% endhint %}
+
+{% page-ref page="the-driver-wont-install.md" %}
+
 **1.2.18 download links:**
 
 Windows \(32 bit and 64 bit\):  

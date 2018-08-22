@@ -4,13 +4,13 @@ Most common problems with Logic Pro 8 and Logic Pro 16 on Windows 7 can be solve
 
 If you are unsure which driver you need or would like to verify that you are downloading the correct driver, feel free to collect the information about your host controller and contact [Saleae support](https://support.saleae.com/hc/en-us/requests/new).
 
-First, identify which USB 3.0 host controller\(s\) is installed on your system. Most machines will have a single USB 3.0 host controller and two USB 2.0 host controllers. To find the installed host controller\(s\), please follow these instructions.
+First, identify which USB 3.0 host controller\(s\) is installed on your system. Most machines will have a single USB 3.0 host controller and two USB 2.0 host controllers. To find the installed host controller\(s\), please follow the instructions below.
 
-[https://trello.com/c/3NTCLDM2](https://trello.com/c/3NTCLDM2)
+{% page-ref page="../faq/technical-faq/finding-your-usb-3.0-host-controller-information.md" %}
 
 Below are the latest driver versions and download links for each host controller.
 
-#### Windows 7
+### Windows 7
 
 These driver links should only be used if you are using Windows 7. Not all drivers are available directly from the host controller vendor and are instead distributed by the PCI express card or motherboard vendor that integrated that host controller. In most cases, it is just fine to use a driver download from a different website than the one that sold you the card, as long as it uses the same host controller. It is also okay to download the driver directly from the company where you purchased the card. In that case, please verify that the driver version is the same or newer than the one mentioned below. We recommend that you use drivers available directly from the host controller manufacturer.
 
@@ -23,7 +23,7 @@ These driver links should only be used if you are using Windows 7. Not all drive
 * **Host: VIA** Source: Direct \(Via\) Version: 4.90 A \(6.1.7600.4903\) Link: [http://www.via-labs.com/driver.php](http://www.via-labs.com/driver.php) Note: WHQL Driver for VL800/801 & 805/806 USB 3.0 Host Controller. Compatible with Windows XP/Vista/7/8 32-bit and 64-bit.
 * **Host: Fresco Logic** Source: Direct \(Fresco Logic\) Version: 3.6.8.0 Link: [http://www.frescologic.com/support.php](http://www.frescologic.com/support.php) Note: USB3.0 Host Driver HostDriver\_V3.6.8.0
 
-#### Windows 8, 8.1, and 10
+### Windows 8, 8.1, and 10
 
 Windows 8 and later Microsoft operating systems use a new Microsoft-created USB 3.0 driver that supports all USB 3.0 host controllers. This driver works extremely well, and it is the recommended driver for all USB 3.0 host controllers with the single exception of ASMedia.
 
@@ -39,7 +39,7 @@ Windows 8 and later Microsoft operating systems use a new Microsoft-created USB 
 
 For other host controllers, there is no need to perform any kind of driver update when you are on one of these releases of Windows.
 
-#### OS X
+### OS X
 
 USB 3.0 host controller drivers are part of the OS X operating system and are not updated separately. Updates to different parts of the USB stack are frequently included in Apple updates, so it is highly recommended that you keep your OS up to date and running the latest OS X release.
 
@@ -51,7 +51,7 @@ If you are running Windows on Apple hardware, be sure to update the bootcamp sof
 
 Run that application and reboot your computer to install the Intel USB 3.0 host controller drivers.
 
-#### Linux
+### Linux
 
 On Linux, all USB 3.0 host controllers use the xhci\_hcd kernel module, which cannot be updated separately from the Linux kernel. In general, we recommend using kernel 3.4 or later \(Ubuntu 14.04.1 or newer\). Although the products do work on older kernels, we do not officially support those use cases.
 
