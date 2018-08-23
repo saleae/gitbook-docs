@@ -105,7 +105,7 @@
     * [Older Linux glibc Support](logic-software/legacy-software/older-linux-glibc-support.md)
     * [Legacy .logicsession Files](logic-software/legacy-software/legacy-.logicsession-files.md)
 * [Automation & SDK](saleae-api-and-sdk/README.md)
-  * [What Saleae APIs are Available?](saleae-api-and-sdk/what-apis-are-available-for-the-saleae-devices-and-software.md)
+  * [What Saleae APIs are Available?](saleae-api-and-sdk/what-apis-are-available.md)
   * [Automation Scripting](saleae-api-and-sdk/socket-api.md)
   * [Custom Protocol Analyzers](saleae-api-and-sdk/protocol-analyzer-sdk.md)
   * [More Information](saleae-api-and-sdk/other-information/README.md)
