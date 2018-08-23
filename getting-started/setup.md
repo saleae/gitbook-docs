@@ -2,7 +2,7 @@
 
 The Saleae Logic Analyzer is a powerful tool capable of capturing multiple signals from a digital circuit and displaying that information in the form of timing diagrams. Saleae’s _Logic_ software can help you decode a variety of digital protocols, including UART, SPI, I2C, 1-Wire, I2S, CAN, USB, and many more. These features can make debugging your embedded designs much simpler.
 
-To begin, download and install the _Logic_ software from [Saleae's downloads page](https://www.saleae.com/downloads/). If you need help with the installation process, refer to the [Software Download & Installation](https://saleae.gitbook.io/docs/~/edit/drafts/-LJeeG9zi2cw3l7lNm3x/user-guide/using-logic/untitled-2) section of the User Guide.
+To begin, download and install the _Logic_ software from [Saleae's downloads page](https://www.saleae.com/downloads/).
 
 If you do not have a logic analyzer, you can still try out the _Logic_ software with simulated data. Once _Logic_ starts, simply click **Start Simulation**.
 
