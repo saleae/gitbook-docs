@@ -283,4 +283,10 @@
   * [3-Year Warranty](180-day-return-policy-and-3-year-warranty/3-year-warranty.md)
   * [Process a Warranty](180-day-return-policy-and-3-year-warranty/saleae-warranty-and-rma-testing-procedure.md)
 * [Ideas & Voting](ideas-and-voting.md)
+* [Example Projects](example-projects/README.md)
+  * [How to Measure Digital Logic](example-projects/how-to-measure-digital-logic.md)
+  * [How to Measure Analog Signals](example-projects/how-to-measure-analog-signals.md)
+  * [How to Analyze UART](example-projects/how-to-analyze-uart.md)
+  * [How to Analyze SPI](example-projects/how-to-analyze-spi.md)
+  * [How to Analyze I2C](example-projects/how-to-analyze-i2c.md)
 
