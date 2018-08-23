@@ -6,7 +6,5 @@ We do not intend to support CPUs without SSE2. In the future, we do plan to supp
 
 Unfortunately, it's a non-trivial change. Significant changes would need to be made to support falling back. It would not simply be a compiler settings change.
 
-The system requirements have been updated to reflect this:
 
-[https://trello.com/c/xs0Qv8SC/139-what-are-the-system-requirements-for-the-saleae-products](https://trello.com/c/xs0Qv8SC/139-what-are-the-system-requirements-for-the-saleae-products)
 

@@ -2,7 +2,9 @@
 
 The Saleae software now includes a feature to suppress short digital pulses in the recorded data. It is designed to help remove noise picked up in the digital recording.
 
-There are several sources of noise in digital captures. You can learn more about them here: [https://trello.com/c/JTGRz6nm](https://trello.com/c/JTGRz6nm)
+There are several sources of noise in digital captures. You can learn more about them below.
+
+{% page-ref page="../../troubleshooting/seeing-spikes-in-digital-capture.md" %}
 
 In particular, the Logic Pro devices have narrow hysteresis thresholds, which can cause noise around transitions in some cases. When using lower voltage thresholds with larger swing signals, noise on the signal when it is in the low state can easily be picked up by the Saleae devices, even when the normal receiver of the signal rejects it.
 
