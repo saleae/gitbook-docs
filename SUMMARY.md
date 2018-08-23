@@ -1,6 +1,14 @@
 # Table of contents
 
 * [Saleae Support Documentation](README.md)
+* [Getting Started](getting-started/README.md)
+  * [Setup](getting-started/setup.md)
+  * [Configure](getting-started/configure.md)
+  * [Record](getting-started/record.md)
+  * [Navigate](getting-started/navigate.md)
+  * [Measure](getting-started/measure.md)
+  * [Trigger](getting-started/trigger.md)
+  * [Protocols](getting-started/protocols.md)
 * [Orders & Shipping](ordering-and-shipping/README.md)
   * [Place an Order](ordering-and-shipping/how-do-i-place-an-order.md)
   * [Request a Quote](ordering-and-shipping/how-do-i-get-a-quote.md)
