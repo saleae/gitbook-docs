@@ -67,7 +67,9 @@ If the above steps did not resolve the issue, we need to determine if the PC can
 
 {% page-ref page="../troubleshooting/troubleshooting-the-software-connection.md" %}
 
+### 
+
 ### PC Fails to Detect Logic
 
-If all tests above have failed, please submit a [Warranty Request](https://goo.gl/forms/1NEjPF4g4eXeJnbf2).
+If all tests above have failed, please submit a [Warranty Request](https://goo.gl/forms/1NEjPF4g4eXeJnbf2) and provide the results of the tests performed above.
 

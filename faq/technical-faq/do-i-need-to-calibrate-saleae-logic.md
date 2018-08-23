@@ -4,5 +4,7 @@ No calibration is required for the Saleae devices. You can download our statemen
 
 [Statement of No Calibration Required](http://downloads.saleae.com/specs/No+Calibration+Required+Statement.pdf)
 
-Specifically, there is no calibration certificate, and periodic recalibration is not required. The devices do undergo a one-time factory calibration process. More information about calibration can be found here: [https://trello.com/c/jN1IJCcQ](https://trello.com/c/jN1IJCcQ).
+Specifically, there is no calibration certificate, and periodic recalibration is not required. The devices do undergo a one-time factory calibration process. More information about calibration can be found below.
+
+{% page-ref page="../../user-guide/device-calibration.md" %}
 

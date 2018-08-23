@@ -1,16 +1,14 @@
 # How to Identify Each Saleae Device
 
-Saleae currently sells 4 devices and has discontinued two models in the past.
-
 The current products:
 
-* Logic 4
 * Logic 8
 * Logic Pro 8
 * Logic Pro 16
 
 The discontinued products:
 
+* Logic 4
 * Logic
 * Logic16
 
@@ -45,10 +43,12 @@ The official Saleae part number is not listed on the device. Just the device's n
 
 Note: "Red" or "Black" is not written on the device. This refers to the enclosure cover of the device.
 
-* SALEAE001    Logic \(original, discontinued\)
-* SALEAE009    Logic16 \(original, discontinued\)
+* SALEAE001    Logic \(original\)
+* SALEAE009    Logic16 \(original\)
 
-A complete list of product numbers and names, including accessories, can be found here: [https://trello.com/c/7vFfIlvv](https://trello.com/c/7vFfIlvv)
+A complete list of product numbers and names, including accessories, can be found below.
+
+{% page-ref page="../../ordering-and-shipping/faq/saleae-part-numbers.md" %}
 
 **Product Images**
 
@@ -68,11 +68,11 @@ A complete list of product numbers and names, including accessories, can be foun
 
 ![Logic Pro 16](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/564d05d539a3f7b98f1e72fc/79923d0a1ae509df2a238f53b342d111/LogicPro16.jpg)
 
-**Original Logic \(Discontinued\)**
+**Original Logic**
 
 ![Original Logic](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/564d05d539a3f7b98f1e72fc/f3bb49af490139d6d074ee6375046d4b/Logic.jpg)
 
-**Original Logic16 \(Discontinued\)**
+**Original Logic16**
 
 ![Logic16](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/564d05d539a3f7b98f1e72fc/6073e48a297cdc86766c3c242f4197e2/Logic16.jpg)
 

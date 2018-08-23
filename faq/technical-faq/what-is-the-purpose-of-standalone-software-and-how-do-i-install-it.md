@@ -1,12 +1,16 @@
 # What Is the Purpose of Standalone Software and How Do I Install It?
 
-The standalone version of our software can be useful in many different situations and can be downloaded here: [https://trello.com/c/0NFUpiUZ](https://trello.com/c/0NFUpiUZ).
+The standalone version of our software can be useful in many different situations and can be downloaded below.
+
+{% page-ref page="../../logic-software/latest-stable-release-download.md" %}
+
+{% page-ref page="../../logic-software/latest-beta-release.md" %}
 
 It does not need to be installed and can be run directly by executing Logic.exe from inside of the standalone folder.
 
 The following list shares some use cases where our standalone software can provide a solution:
 
-* The Logic software installer fails with an error on Windows. In this case, the standalone version might provide a working alternative solution since it does not need to be installed. You can read more about this and other possible solutions in this article: [https://trello.com/c/kEK01Tef](https://trello.com/c/kEK01Tef)
+* The Logic software installer fails with an error on Windows. In this case, the standalone version might provide a working alternative solution since it does not need to be installed.
 * Multiple versions of the Logic software need to be installed with the ability to switch versions easily. In this case, you can have multiple standalone versions saved on your computer without conflict since they are not installed. When switching versions, please make sure to unplug and reconnect the device.
 
 In any event, please be aware of the following requirements when deciding to use the standalone software:
