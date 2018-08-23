@@ -12,13 +12,13 @@ Further, by default, you will start out with a fully featured and maximally simp
 
 Let us know what you think.
 
-**Latest SDK Release Works with All Software from 1.1.32 and Newer**
+### **Latest SDK Release Works with All Software from 1.1.32 and Newer**
 
 * [Sample Analyzer, Analyzer SDK, and Documentation on Github](https://github.com/saleae/SampleAnalyzer)
 * [Source Code to all Saleae Analyzers, from release 1.2.17](http://downloads.saleae.com/SDK/SaleaeAnalyzerSource-1.2.17.zip) \(the source code for all our analyzers\) These don't change frequently, but updated copies are available on request.
 * [Older zip file release. For reference only.](http://downloads.saleae.com/betas/1.1.32/SaleaeAnalyzerSdk-1.1.32.zip)
 
-**Documentation and Getting Started**
+### **Documentation and Getting Started**
 
 To get started, please first read the readme file for the SampleAnalyzer repository:
 
@@ -34,57 +34,33 @@ The documentation for the Analyzer SDK can be found in the pdf and on GitHub. Th
 
 ### Protocol Analyzers Source Code Github
 
-[Async RGB LED Analyzer](https://www.github.com/saleae/async-rgb-led-analyzer)
+* [Async RGB LED Analyzer](https://www.github.com/saleae/async-rgb-led-analyzer)
+* [Atmel SWI Analyzer](https://www.github.com/saleae/atmel-swi-analyzer)
+* [BISS Analyzer](https://www.github.com/saleae/biss-analyzer)
+* [CAN Analyzer](https://www.github.com/saleae/can-analyzer)
+* [DMX-512 Analyzer](https://www.github.com/saleae/dmx-512-analyzer)
+* [HD44780 Analyzer](https://www.github.com/saleae/hd44780-analyzer) 
+* [HDLC Analyzer](https://www.github.com/saleae/hdlc-analyzer) 
+* [HDMI-CEC Analyzer](https://www.github.com/saleae/hdmi-cec-analyzer) 
+* [I2C Analyzer](https://www.github.com/saleae/i2c-analyzer) 
+* [I2S Analyzer](https://www.github.com/saleae/i2s-analyzer) 
+* [JTAG Analyzer](https://www.github.com/saleae/jtag-analyzer) 
+* [LIN Analyzer](https://www.github.com/saleae/lin-analyzer)
+* [Manchester Analyzer](https://www.github.com/saleae/manchester-analyzer) 
+* [MDIO Analyzer](https://www.github.com/saleae/mdio-analyzer) 
+* [MIDI Analyzer](https://www.github.com/saleae/midi-analyzer) 
+* [Modbus Analyzer](https://www.github.com/saleae/modbus-analyzer) 
+* [1-Wire Analyzer](https://www.github.com/saleae/one-wire-analyzer) 
+* [PS2 Keyboard Analyzer](https://www.github.com/saleae/ps2-keyboard-analyzer) 
+* [Async Serial Analyzer](https://www.github.com/saleae/serial-analyzer) 
+* [Simple Parallel Analyzer](https://www.github.com/saleae/simple-parallel-analyzer) 
+* [SMBus Analyzer](https://www.github.com/saleae/smbus-analyzer) 
+* [SPI Analyzer](https://www.github.com/saleae/spi-analyzer) 
+* [SWD Analyzer](https://www.github.com/saleae/swd-analyzer) 
+* [UNI/O Analyzer](https://www.github.com/saleae/unio-analyzer) 
+* [USB Analyzer](https://www.github.com/saleae/usb-analyzer)
 
-[Atmel SWI Analyzer](https://www.github.com/saleae/atmel-swi-analyzer)
-
-[BISS Analyzer](https://www.github.com/saleae/biss-analyzer)
-
-[CAN Analyzer](https://www.github.com/saleae/can-analyzer)
-
-[DMX-512 Analyzer](https://www.github.com/saleae/dmx-512-analyzer)
-
-[HD44780 Analyzer](https://www.github.com/saleae/hd44780-analyzer) 
-
-[HDLC Analyzer](https://www.github.com/saleae/hdlc-analyzer) 
-
-[HDMI-CEC Analyzer](https://www.github.com/saleae/hdmi-cec-analyzer) 
-
-[I2C Analyzer](https://www.github.com/saleae/i2c-analyzer) 
-
-[I2S Analyzer](https://www.github.com/saleae/i2s-analyzer) 
-
-[JTAG Analyzer](https://www.github.com/saleae/jtag-analyzer) 
-
-[LIN Analyzer](https://www.github.com/saleae/lin-analyzer)
-
-[Manchester Analyzer](https://www.github.com/saleae/manchester-analyzer) 
-
-[MDIO Analyzer](https://www.github.com/saleae/mdio-analyzer) 
-
-[MIDI Analyzer](https://www.github.com/saleae/midi-analyzer) 
-
-[Modbus Analyzer](https://www.github.com/saleae/modbus-analyzer) 
-
-[1-Wire Analyzer](https://www.github.com/saleae/one-wire-analyzer) 
-
-[PS2 Keyboard Analyzer](https://www.github.com/saleae/ps2-keyboard-analyzer) 
-
-[Async Serial Analyzer](https://www.github.com/saleae/serial-analyzer) 
-
-[Simple Parallel Analyzer](https://www.github.com/saleae/simple-parallel-analyzer) 
-
-[SMBus Analyzer](https://www.github.com/saleae/smbus-analyzer) 
-
-[SPI Analyzer](https://www.github.com/saleae/spi-analyzer) 
-
-[SWD Analyzer](https://www.github.com/saleae/swd-analyzer) 
-
-[UNI/O Analyzer](https://www.github.com/saleae/unio-analyzer) 
-
-[USB Analyzer](https://www.github.com/saleae/usb-analyzer)
-
-**Older 1.1.14 Release**
+### **Older 1.1.14 Release**
 
 * [Saleae Analyzer SDK 1.1.14](http://downloads.saleae.com/SDK/SaleaeAnalyzerSdk-1.1.14.zip) \(includes User's Guide\)
 * [Saleae Analyzer Source Code 1.1.14](http://downloads.saleae.com/SDK/Saleae%20Analyzer%20Source%201.1.14.zip) \(the source code for all our analyzers\)

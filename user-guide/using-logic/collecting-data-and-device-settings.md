@@ -20,7 +20,7 @@ If the _Start Simulation_ appears instead of _Start_, it means the Logic hardwar
 
 If the software incorrectly reports _Disconnected_, please follow this troubleshooting guide.
 
-{% page-ref page="../../troubleshooting/troubleshooting-device-connection-2-software-connection-to-the-device.md" %}
+{% page-ref page="../../troubleshooting/troubleshooting-the-software-connection.md" %}
 
 ### \*\*\*\*
 

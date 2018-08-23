@@ -115,7 +115,7 @@
   * [The Logic Software Fails to Launch on Windows](troubleshooting/the-logic-software-fails-to-launch-on-windows.md)
   * [The Device Is Not Connecting Properly to Either the Computer or the Software](troubleshooting/the-device-is-not-connecting-properly-to-either-the-computer-or-the-software.md)
   * [Troubleshooting Device Connection 1: PC Detection of the Device over USB](troubleshooting/troubleshooting-device-connection-1-pc-detection-of-the-device-over-usb.md)
-  * [Troubleshooting the Software Connection to the Device](troubleshooting/troubleshooting-device-connection-2-software-connection-to-the-device.md)
+  * [Troubleshooting the Software Connection to the Device](troubleshooting/troubleshooting-the-software-connection.md)
   * [The Device Does Not Connect to the Software \(Depreciated\)](troubleshooting/the-device-does-not-connect-to-the-software-depreciated.md)
   * [An Error Message Appears: 'We're Sorry, but the Device Was Not Able to Keep Up with This Sample Rate](troubleshooting/an-error-message-appears-were-sorry-but-the-device-was-not-able-to-keep-up-with-this-sample-rate.md)
   * [The Device and Software Are Able to Record Captures, but the Contents of the Capture Does Not Appear](troubleshooting/the-device-and-software-are-able-to-record-captures-but-the-contents-of-the-capture-does-not-appear.md)
