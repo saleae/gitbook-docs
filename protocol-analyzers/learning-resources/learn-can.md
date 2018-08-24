@@ -249,7 +249,6 @@ Note that that the frame identifier is thus related to the priority of the frame
 **Top Resources**
 
 * [Wikipedia](http://en.wikipedia.org/wiki/Controller_area_network)
-* [https://trello.com/c/I717iwSy](https://trello.com/c/I717iwSy)
 * [Bosch CAN Specification 2.0](http://esd.cs.ucr.edu/webres/can20.pdf)
 
 **Example CAN Parts**

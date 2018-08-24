@@ -203,7 +203,6 @@ Not surprisingly, there is some disagreement as to how the address and direction
 
 * [Wikipedia](http://en.wikipedia.org/wiki/I²C)
 * [I2C Specification 2.1](http://www.nxp.com/documents/user_manual/UM10204.pdf)
-* [https://trello.com/c/0Z4FNRVa](https://trello.com/c/0Z4FNRVa)
 * [SparkFun Tutorial](https://learn.sparkfun.com/tutorials/i2c/introduction)
 * [NXP I2C Overview \(video\)](http://www.youtube.com/watch?v=BcWixZcZ6JY&list=PLB1BE22BA36431CFD)
 

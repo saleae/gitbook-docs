@@ -4,7 +4,7 @@ There are several reasons that noise may appear in your capture. In some cases, 
 
 The rest of this article discusses different noise sources and potential solutions to remove it. You can learn more about the software glitch filter below.
 
-{% page-ref page="../faq/technical-faq/how-to-use-the-software-glitch-filter.md" %}
+{% page-ref page="../faq/technical-faq/software-glitch-filter.md" %}
 
 **Sources of Noise**
 

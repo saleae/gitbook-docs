@@ -213,7 +213,7 @@
     * [How to View and Debug Firmware Variables, State, and Function Calls Using a Logic Analyzer](faq/technical-faq/how-to-view-and-debug-firmware-variables-state-and-function-calls-using-a-logic-analyzer.md)
     * [Using Saleae Logic Devices with Third-Party Pattern Generators](faq/technical-faq/using-saleae-logic-devices-with-third-party-pattern-generators.md)
     * [How to Install the Saleae Software from a Script Automatically](faq/technical-faq/how-to-install-the-saleae-software-from-a-script-automatically.md)
-    * [How to Use the Software Glitch Filter](faq/technical-faq/how-to-use-the-software-glitch-filter.md)
+    * [How to Use the Software Glitch Filter](faq/technical-faq/software-glitch-filter.md)
     * [Can the Saleae Devices Operate over USB Full Speed, as When Used with a Full-Speed USB Isolator?](faq/technical-faq/can-the-saleae-devices-operate-over-usb-full-speed-as-when-used-with-a-full-speed-usb-isolator.md)
     * [Which Saleae Devices Support Analog Recording?](faq/technical-faq/which-saleae-devices-support-analog-recording.md)
     * [How to Manage Protocol Analyzers when Using the Socket API](faq/technical-faq/how-to-manage-protocol-analyzers-when-using-the-socket-api.md)

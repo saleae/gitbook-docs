@@ -22,13 +22,11 @@ You may notice where the analyzer seems to decode less than 9 bits per frame, or
 
 This can happen for several reasons, and we've added a software feature to allow these "glitches" to be filtered out. See this article for instructions.
 
-{% page-ref page="../../faq/technical-faq/how-to-use-the-software-glitch-filter.md" %}
+{% page-ref page="../../faq/technical-faq/software-glitch-filter.md" %}
 
 You may want to try reducing the sample rate of the capture using a different IO voltage option, if supported by your logic analyzer, or filtering the electrical signal.
 
 I2C is particularly vulnerable to this issue due to the slow rise times caused by the open drain bus topology. The relatively slow signal rise time through the threshold region of the logic analyzer input buffer can sometimes cause these glitches to occur.
-
-If you are unable to work around the problem using the above suggestions, please [contact support](https://support.saleae.com/hc/en-us/requests/new).
 
 ### **Common Issues**
 

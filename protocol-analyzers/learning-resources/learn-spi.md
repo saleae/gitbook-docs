@@ -178,7 +178,6 @@ SPI applications typically use logic 0 as the active state for the enable line. 
 
 * [Wikipedia](http://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
 * [Microchip SPI Presentation](http://ww1.microchip.com/downloads/en/devicedoc/spi.pdf)
-* [https://trello.com/c/t9Mamxvi](https://trello.com/c/t9Mamxvi)
 
 **Example SPI Parts**
 

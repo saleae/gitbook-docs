@@ -189,7 +189,6 @@ To make things simple, we'll assume that our function is called when the bus is 
 
 **Top Resources**
 
-* [https://trello.com/c/rI0wtXgS](https://trello.com/c/rI0wtXgS)
 * [Tal Tech Tutorial](http://www.taltech.com/datacollection/articles/serial_intro)
 * [SparkFun Tutorial](https://learn.sparkfun.com/tutorials/serial-communication)
 * [Wikipedia](http://en.wikipedia.org/wiki/Asynchronous_serial_communication)
