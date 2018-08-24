@@ -18,7 +18,7 @@ All physically connected devices will be displayed here, calibrated or not.
 
 The device ID is the unique 64-bit ID of your device.
 
-_Calibration Type_ should read _DC and frequency response_. If you see _DC Only_ here, please [contact support](http://support.saleae.com/hc/en-us/requests/new) as this is an error. A _Calibration Type_ of _DC and frequency response_ indicates that the DC voltages will be correct. The frequency response will be flat with a smooth falloff at the bandwidth for any particular sample rate.
+_Calibration Type_ should read _DC and frequency response_. If you see _DC Only_ here, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) as this is an error. A _Calibration Type_ of _DC and frequency response_ indicates that the DC voltages will be correct. The frequency response will be flat with a smooth falloff at the bandwidth for any particular sample rate.
 
 The calibration date is the last time the captures created from your device were processed to produce the calibration data sets. As you may notice, that date can be after your product arrived. That’s just because whenever we make a change to the calibration constant generation code, we have to reprocess the captures we took from every device we’ve ever shipped.
 
@@ -58,5 +58,5 @@ Our devices do not require periodic recalibration.
 
 ### **Having Trouble?**
 
-If you are having trouble manually downloading the calibration file, we can send it to you. Please [contact support](http://support.saleae.com/hc/en-us/requests/new), and we can make sure your calibration data gets updated.
+If you are having trouble manually downloading the calibration file, we can send it to you. Please [contact support](https://contact.saleae.com/hc/en-us/requests/new), and we can make sure your calibration data gets updated.
 

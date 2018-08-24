@@ -31,7 +31,9 @@ The Saleae Logic software includes the following protocol analyzers:
 
 ### **More Protocol Analyzers**
 
-Some Logic users have created their own protocol analyzers. The following list of analyzers are available but not officially supported by Saleae: [https://trello.com/c/lzSifL1x](https://trello.com/c/lzSifL1x)
+Some Logic users have created their own protocol analyzers. The following list of analyzers are available but not officially supported by Saleae.
+
+{% page-ref page="unofficially-supported-protocols.md" %}
 
 ### **Do all Saleae logic analyzer models support these protocols?**
 

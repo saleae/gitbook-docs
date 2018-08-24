@@ -106,7 +106,7 @@ This occurs when the clock polarity setting is not set properly. For instance, i
 
 If you are considering purchasing a Saleae logic analyzer to record and decode SPI data but you are not sure which unit to purchase, please first see these articles:
 
-{% page-ref page="../../faq/technical-faq/how-do-i-know-which-logic-analyzer-to-get.md" %}
+{% page-ref page="../../faq/technical-faq/which-logic-analyzer-to-get.md" %}
 
 {% page-ref page="../../faq/technical-faq/what-sample-rate-is-required.md" %}
 

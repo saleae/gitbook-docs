@@ -209,7 +209,7 @@
     * [Recording Multiple Protocols at the Same Time](faq/technical-faq/recording-multiple-protocols.md)
     * [Educational Discount Information](faq/technical-faq/educational-discount-information.md)
     * [Changing the Display Radix \(Base\)](faq/technical-faq/changing-the-display-radix.md)
-    * [How Do I Know Which Logic Analyzer to Get?](faq/technical-faq/how-do-i-know-which-logic-analyzer-to-get.md)
+    * [How Do I Know Which Logic Analyzer to Get?](faq/technical-faq/which-logic-analyzer-to-get.md)
     * [How to View and Debug Firmware Variables, State, and Function Calls Using a Logic Analyzer](faq/technical-faq/how-to-view-and-debug-firmware-variables-state-and-function-calls-using-a-logic-analyzer.md)
     * [Using Saleae Logic Devices with Third-Party Pattern Generators](faq/technical-faq/using-saleae-logic-devices-with-third-party-pattern-generators.md)
     * [How to Install the Saleae Software from a Script Automatically](faq/technical-faq/how-to-install-the-saleae-software-from-a-script-automatically.md)

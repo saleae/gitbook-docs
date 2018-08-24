@@ -6,7 +6,7 @@ The following analyzers are not officially supported by Saleae, but instead, wer
 
 {% page-ref page="../saleae-api-and-sdk/protocol-analyzer-sdk.md" %}
 
-Please [contact us](http://support.saleae.com/hc/en-us/requests/new) if you need any help. Also, If you have your own analyzer you would like to see featured here, please let us know.
+Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you need any help. Also, If you have your own analyzer you would like to see featured here, please let us know.
 
 ### **List of Unofficially Supported Protocols**
 
