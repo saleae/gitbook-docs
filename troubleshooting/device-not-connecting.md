@@ -1,8 +1,8 @@
-# The Device Is Not Connecting Properly to Either the Computer or the Software
+# The Device Is Not Connecting
 
-
-
-**Update: We've recently seen a number of reports about issues with the USB 3.0 cables shipped recently with the Logic Pro 8 and Logic Pro 16. If possible, please make sure to run the tests that are relevant to this issue, as well as the other tests in this guide.**
+{% hint style="info" %}
+Update: We've recently seen a number of reports about issues with the USB 3.0 cables shipped recently with the Logic Pro 8 and Logic Pro 16. If possible, please make sure to run the tests that are relevant to this issue, as well as the other tests in this guide.
+{% endhint %}
 
 We're working on finding a new cable provider now, as well as the necessary testing to ensure that the cables are high quality and meet the USB 3.0 requirements.
 
@@ -10,29 +10,29 @@ Below is a comprehensive troubleshooting guide for this particular issue. Please
 
 Before proceeding with the in-depth troubleshooting guide, please perform the following quick troubleshooting steps:
 
-1. If you are on Windows and have USB 3.0 ports on your PC, please check your current host controller drivers and update them to the latest version. Detailed information can be found here: [https://trello.com/c/O0hA3XAF](https://trello.com/c/O0hA3XAF).
+1. If you are on Windows and have USB 3.0 ports on your PC, please check your current host controller drivers and update them to the latest version. Detailed information can be found below.
 
-Note: The windows driver update check will NOT update USB 3.0 host controller drivers. These are not included in the Windows update driver database and must be manually updated.
+{% page-ref page="../logic-software/usb-3.0-host-controller-drivers.md" %}
 
-1. Test the device with another USB cable. If you have a Logic Pro 8 or a Logic Pro 16, test them with a second USB 3.0 cable if you have one.
+{% hint style="info" %}
+The windows driver update check will NOT update USB 3.0 host controller drivers. These are not included in the Windows update driver database and must be manually updated.
+{% endhint %}
 
-   If the replacement cable works, then the original cable is bad. Contact Saleae for a replacement.
+2. Test the device with another USB cable. If you have a Logic Pro 8 or a Logic Pro 16, test them with a second USB 3.0 cable if you have one. If the replacement cable works, then the original cable is bad.
 
-2. Test the device on a second PC, preferably with a different USB cable. Also test on both computers with USB 2.0 and USB 3.0 ports.
+3. Test the device on a second PC, preferably with a different USB cable. Also test on both computers with USB 2.0 and USB 3.0 ports. If the device does not work on either computer with either cable on any port, **it may need to be replaced**.
 
-If the device does not work on either computer with either cable on any port, it may need to be replaced. Please still follow the steps below to determine at what point the device fails.
+4. If the device works at least once, it may be a problem that's **solvable with software or driver updates** or with a new cable.
 
-1. If the device works at least once, it may be a problem that's solvable with software or driver updates or with a new cable. Please follow the below detailed guide.
+## Troubleshooting the Hardware and Software
 
-If you still need to contact support, be sure to include all of the information requested at the end of this article.
+**Part 1: Troubleshooting the Hardware for Issues**
 
-**Part 1**
+{% page-ref page="../180-day-return-policy-and-3-year-warranty/process-a-warranty.md" %}
 
-* [https://trello.com/c/4C9xOQnG](https://trello.com/c/4C9xOQnG)
+**Part 2: Troubleshooting the Connection to the Software**
 
-**Part 2**
-
-* [https://trello.com/c/PHcbChLC](https://trello.com/c/PHcbChLC)
+{% page-ref page="troubleshooting-the-software-connection.md" %}
 
 ## Contacting Support
 

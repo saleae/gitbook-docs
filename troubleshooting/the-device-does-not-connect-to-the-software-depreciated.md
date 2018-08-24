@@ -1,7 +1,5 @@
 # The Device Does Not Connect to the Software \(Depreciated\)
 
-
-
 Below is a list of all known reasons and corresponding solutions or next steps that can cause this particular issue. Please check each one, skipping any items that are not relevant \(such as issues specific to an operating system you are not using, or USB 3.0 issues when you are using a USB 2.0 product\).
 
 For each item, first perform the test. If the test result is positive \(the test condition was met\), then attempt the corrective action.

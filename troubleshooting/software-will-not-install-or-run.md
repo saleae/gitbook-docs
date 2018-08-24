@@ -77,7 +77,7 @@ For each item, first perform the test. If the test result is positive \(the test
 
 * Please see this article for tests on details of issues that specifically apply to the software failing to launch on Windows after a successful installation.
 
-{% page-ref page="the-logic-software-fails-to-launch-on-windows.md" %}
+{% page-ref page="fails-to-launch-on-windows.md" %}
 
 ### **Linux – Write Permissions for settings.xml**
 

@@ -1,10 +1,12 @@
-# The Device and Software Are Able to Record Captures, but the Contents of the Capture Does Not Appear
+# The Captured Data Looks Incorrect
 
 Below is a list of all known reasons and corresponding solutions or next steps that can cause this particular issue. Please check each one, skipping any items that are not relevant \(such as issues specific to an operating system you are not using\).
 
 For each item, first perform the test. If the test result is positive \(the test condition was met\), then attempt the corrective action.
 
-If the issue you are experiencing is that some or all of your capture attempts immediately fail, please see this: [https://trello.com/c/dU1FgSAN](https://trello.com/c/dU1FgSAN).
+If the issue you are experiencing is that some or all of your capture attempts immediately fail, please see below.
+
+{% page-ref page="device-not-able-to-keep-up.md" %}
 
 **Check the Ground Connection**
 
@@ -23,7 +25,7 @@ Please verify the following:
 
     All analog channels should be approximately 0 volts, +/- 0.02 volts. If any of the signals are off by as much as 0.2 volts, that could mean a calibration problem. If any analog signal is off by more than 0.2 volts, it could indicate device failure.
 
-* Corrective Action: [Contact support](http://support.saleae.com) about a warranty repair or replacement. 
+* Corrective Action: [Contact support](https://contact.saleae.com/hc/en-us/requests/new) about a warranty repair or replacement. 
 
 **Perform a Basic Channel Functional Test**
 
@@ -39,7 +41,7 @@ Please verify the following:
 
     In the capture, verify that each channel is initially low \(high in the case of the original Logic.\) Verify that only one channel goes high at a time and that the channels go high in order from 0 to the last channel. Make sure that none of the high pulses are out of order, such as channel 2 going high before channel 1. Note that since the original Logic's inputs are pulled up internally and the test is performed with ground, the pulses in question should be low and not high. If the device used has analog channels, make sure the analog channels display the same behavior.
 
-* Corrective Action: Any issues in the recorded capture could indicate damaged input buffers, shorted channels, or other problems. If any results found are unexpected, please [contact support](http://support.saleae.com) about a warranty repair or replacement. 
+* Corrective Action: Any issues in the recorded capture could indicate damaged input buffers, shorted channels, or other problems. If any results found are unexpected, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) about a warranty repair or replacement. 
 
 **Verify That the Load Impedance of the Logic Analyzer Will Not Interfere with Your Circuit**
 
@@ -84,25 +86,25 @@ Please verify the following:
 
 **Verify That the IO Voltages Used Are Compatible with the Logic Analyzer**
 
-* Test: First, check the supported IO standards for the Logic analyzer that you are using: [https://trello.com/c/QJAYu6SN](https://trello.com/c/QJAYu6SN)
+* Test: First, check the supported IO standards for the Logic analyzer that you are using below.
 
-    Verify that the logic high voltage is above the logic high threshold, and make sure that the logic low voltage \(usually 0 volts\) is below the logic low threshold voltage of the device.
+{% page-ref page="../user-guide/supported-voltages.md" %}
 
-    Some of the Saleae devices have selectable IO thresholds. First, try the IO threshold that best matches your application, but if it does not appear correct, also try other threshold settings.
-
+* Verify that the logic high voltage is above the logic high threshold, and make sure that the logic low voltage \(usually 0 volts\) is below the logic low threshold voltage of the device.
+* Some of the Saleae devices have selectable IO thresholds. First, try the IO threshold that best matches your application, but if it does not appear correct, also try other threshold settings.
 * Corrective Action: You may need to level shift your signal before it reaches the logic analyzer or provide additional over-voltage protection. In the case of the original Logic, you should not connect RS-232 signals directly to the device.
 
 **Verify That the Bandwidth of Your Sample Rate Is Fast Enough to Properly Capture Your Signal**
 
 If your digital capture looks correct but the analog capture does not, please see this article:
 
-[https://trello.com/c/Iw0zqJLT](https://trello.com/c/Iw0zqJLT)
+{% page-ref page="digital-and-analog-appear-different.md" %}
 
 See this article for more information about the maximum digital and analog bandwidth for each device:
 
-[https://trello.com/c/5PpYsCpK](https://trello.com/c/5PpYsCpK)
+{% page-ref page="../faq/technical-faq/what-is-the-maximum-bandwidth.md" %}
 
 For more information about the bandwidth requirements for any given signal, please see this article:
 
-[https://trello.com/c/L2zkBC9H](https://trello.com/c/L2zkBC9H)
+{% page-ref page="../faq/technical-faq/what-sample-rate-is-required.md" %}
 

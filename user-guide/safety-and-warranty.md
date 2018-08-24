@@ -102,7 +102,7 @@ Saleae products are covered by a 3-year warranty, regardless of where you purcha
 
 If you believe your Logic hardware is broken, please follow the troubleshooting steps in the article below.
 
-{% page-ref page="../180-day-return-policy-and-3-year-warranty/saleae-warranty-and-rma-testing-procedure.md" %}
+{% page-ref page="../180-day-return-policy-and-3-year-warranty/process-a-warranty.md" %}
 
 
 

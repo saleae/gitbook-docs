@@ -9,7 +9,7 @@
 
 1. The software detects that the device is connected.
    * On Windows, the Saleae driver must be installed, as the software looks for devices using the Saleae driver.
-   * On OSX and Linux, the software searches for USB devices attached that use Saleae USB Vendor and Product IDs. [https://trello.com/c/q2rMixk6](https://trello.com/c/q2rMixk6)
+   * On OSX and Linux, the software searches for USB devices attached that use Saleae USB VID \(Vendor ID\) and PID \(Product ID\).
 2. The software asks the OS for access to the device.
 3. The software downloads the firmware to the device. Before this point, the device is acting as a simple bootloader.
 4. The device resets, and the USB connection disconnects and reconnects.
@@ -74,7 +74,9 @@ If the device fails to re-enumerate after the firmware download completes, the s
 
     If the device only works over USB 3.0, or if on one or more computers it does not work over USB 2.0, please contact support, as this may be a new issue.
 
-* Collect more information. Follow the instructions in the article [https://trello.com/c/no5pJ8YB](https://trello.com/c/no5pJ8YB) titled "Steps to Collect Additional Data" to capture the console output of the software, which may contain more information of the issue preventing the device from reconnecting.
+* Collect more information. Follow the instructions in the article below in the section titled "Steps to Collect Additional Data" to capture the console output of the software, which may contain more information of the issue preventing the device from reconnecting.
+
+{% page-ref page="software-has-crashed.md" %}
 
 **The Device Re-enumerates after Firmware Download, but an Error Immediately Occurs**
 
@@ -84,9 +86,13 @@ Example: You connect the device and then start the software. The software then s
 
 This could indicate a bad USB cable, a problem with the Logic analyzer, a ground loop problem, or an issue with the host controller or host controller driver.
 
-If the Logic analyzer is connected to a device under test, disconnect it. This will rule out the possibility of a common mode ground current interfering with the device. More info here: [https://trello.com/c/zcat9hME](https://trello.com/c/zcat9hME)
+If the Logic analyzer is connected to a device under test, disconnect it. This will rule out the possibility of a common mode ground current interfering with the device. More info below.
+
+{% page-ref page="../user-guide/safety-and-warranty.md" %}
 
 **The Device Successfully Connects to the Software, but There Are Capture Problems**
 
-See this guide: [https://trello.com/c/dU1FgSAN](https://trello.com/c/dU1FgSAN)
+See the guide below.
+
+{% page-ref page="device-not-able-to-keep-up.md" %}
 

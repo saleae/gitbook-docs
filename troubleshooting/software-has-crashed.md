@@ -6,13 +6,13 @@ Please make sure you are using the [latest version of the Saleae software](https
 
 If the software crashed, the next time you run the software, you should see a dialog asking to upload the crash report. Please do! We automatically download and scan these crash reports to find new problems and track and fix issues, often in the order of prevalence. Please upload crash reports every time!
 
-Hopefully, if the software crashes at all, it's a rare occurrence. However, if you're seeing frequent crashes, either randomly occurring or in a repeatable manner, please [write to support](http://support.saleae.com).
+Hopefully, if the software crashes at all, it's a rare occurrence. However, if you're seeing frequent crashes, either randomly occurring or in a repeatable manner, please [write to support](https://contact.saleae.com/hc/en-us/requests/new).
 
 If the software is crashing on launch, please review these articles:
 
-[https://trello.com/c/kEK01Tef](https://trello.com/c/kEK01Tef)
+{% page-ref page="software-will-not-install-or-run.md" %}
 
-[https://trello.com/c/EFEu0QEm](https://trello.com/c/EFEu0QEm)
+{% page-ref page="fails-to-launch-on-windows.md" %}
 
 **When Contacting Support, Please Provide the Following Information**
 
@@ -57,9 +57,11 @@ Inside the folder with the Logic executable in the Errors folder.
 * If you have any channels active that you are not using \(such as unused analog inputs\), try disabling them.
 * Try disabling the protocol search feature in the software's preferences if you are not using it \(software restart required\).
 * Try running the Logic software as administrator.
-* Try deleting the settings.xml file. A corrupt file could cause a consistent crash when accessing a specific feature. See this article for instructions: [https://trello.com/c/kEK01Tef](https://trello.com/c/kEK01Tef) \(search for settings.xml\).
+* Try deleting the settings.xml file. A corrupt file could cause a consistent crash when accessing a specific feature. See the article below for instructions.
 
-Please send all this information and any other information that might seem relevant to [support](http://support.saleae.com). If you have already initially contacted support but have not provided all the information listed above, send it in a follow-up.
+{% page-ref page="software-will-not-install-or-run.md" %}
+
+Please send all this information and any other information that might seem relevant to [support](https://contact.saleae.com/hc/en-us/requests/new). If you have already initially contacted support but have not provided all the information listed above, send it in a follow-up.
 
 **Steps to Collect Additional Data**
 

@@ -23,7 +23,7 @@ If a saved setup file does not appear to be loading, it could be a bug. However,
 
 If nothing is happening at all, please report this and include the information requested below.
 
-{% page-ref page="../../troubleshooting/the-software-has-crashed-or-i-have-discovered-a-bug.md" %}
+{% page-ref page="../../troubleshooting/software-has-crashed.md" %}
 
 
 

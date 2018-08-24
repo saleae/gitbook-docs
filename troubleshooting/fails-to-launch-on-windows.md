@@ -1,14 +1,16 @@
 # The Logic Software Fails to Launch on Windows
 
-This article covers a very specific set of potential issues. Specifically, it covers issues that prevent the Logic software from launching on Windows computers. For issues related to the software crashing after launch, installation or driver problems, or issues on other operating systems, please see the main support article about problems running the software:
+This article covers a very specific set of potential issues. Specifically, it covers issues that prevent the Logic software from launching on Windows computers. For issues related to the software crashing after launch, installation or driver problems, or issues on other operating systems, please see the main support article about problems running the software below.
 
-[The Software Will Not Install or Run Properly](https://saleae.gitbook.io/docs/~/edit/drafts/-LJtrnKeYdvZQmbbuVU1/troubleshooting/the-software-will-not-install-or-run-properly)
+{% page-ref page="software-will-not-install-or-run.md" %}
 
 **The software downloaded and installed successfully. I see shortcuts to the Logic software on my desktop and start menu. However, when I try to open the software, nothing happens, or I see a Windows error message, not the Saleae software error reporter dialog.**
 
 ![Saleae error reporter](https://trello-attachments.s3.amazonaws.com/566f6b55b646f22a96776611/482x136/0a4c4435f07304337d40b8ed2874da14/error_reporter.png)
 
-**Normal Saleae software error uploader. If you see this, then this is not the correct support article for your issue. Please see this article:** [The Software has Crashed or I Have Discovered a Bug](https://saleae.gitbook.io/docs/~/edit/drafts/-LJtrnKeYdvZQmbbuVU1/troubleshooting/the-software-has-crashed-or-i-have-discovered-a-bug)
+**Normal Saleae software error uploader. If you see this, then this is not the correct support article for your issue. Please see the article below.**
+
+{% page-ref page="software-has-crashed.md" %}
 
 Please check before continuing:
 
@@ -62,7 +64,10 @@ Below is a list of potential issues and solutions to those issues. Please evalua
 
 **Test Older Releases of the Saleae Logic Software**
 
-* All older release download links can be found here: [Older Software Releases](https://saleae.gitbook.io/docs/~/edit/drafts/-LJtrnKeYdvZQmbbuVU1/logic-software/legacy-software/older-software-releases)
+* All older release download links can be found below.
+
+{% page-ref page="../logic-software/legacy-software/older-software-releases.md" %}
+
 * Try the following versions. Please use the standalone versions to avoid the need to uninstall and reinstall the software. Just extract each standalone version to a separate folder and attempt running Logic.exe. Also try the command line launch, as mentioned in the above section. 
 * 1.1.34, both the 32-bit and the 64-bit standalone versions
 * 1.1.28, both the 32-bit and the 64-bit standalone versions
