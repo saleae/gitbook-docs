@@ -10,5 +10,5 @@ Typically, the serial data are organized in the following format:
 
 The Async Serial Analyzer in the Logic software can be configured for various data sizes, stop bits, and parity settings. For details on setting this up, please see the article below.
 
-{% page-ref page="using-the-async-serial-analyzer.md" %}
+{% page-ref page="using-async-serial.md" %}
 

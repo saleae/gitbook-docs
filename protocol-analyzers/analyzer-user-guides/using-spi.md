@@ -116,7 +116,7 @@ However, if there are multiple slave devices on the bus, keep in mind you will n
 
 Also, in some cases, there may be more than 2 data channels. Although our SPI analyzer does not support this, you can partially decode the traffic using the parallel analyzer.
 
-{% page-ref page="using-the-simple-parallel-analyzer.md" %}
+{% page-ref page="using-simple-parallel.md" %}
 
 
 

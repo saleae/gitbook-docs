@@ -14,5 +14,5 @@ These protocols typically operate at higher voltages, sometimes up to +/- 25V. F
 
 RS-232, RS-485, and RS-422 transmit data via asynchronous serial communication. For this reason, you can use our Async Serial Analyzer to decode the data. You can view our setup guide below.
 
-{% page-ref page="using-the-async-serial-analyzer.md" %}
+{% page-ref page="using-async-serial.md" %}
 
