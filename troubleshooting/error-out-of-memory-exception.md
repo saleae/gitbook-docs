@@ -1,4 +1,4 @@
-# What to Do When You See the "Out of Memory Exception Was Thrown" Warning During or After a Capture
+# Error Message: Out of Memory Exception Was Thrown
 
 The Logic devices and software use your computer's memory as the main sample buffer when recording. Because of this, the software can use large amounts of memory, especially while recording high-speed signals or analog data.
 

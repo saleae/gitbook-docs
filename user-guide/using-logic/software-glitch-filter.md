@@ -1,6 +1,6 @@
-# How to Use the Software Glitch Filter
+# Software Glitch Filter
 
-The Saleae software now includes a feature to suppress short digital pulses in the recorded data. It is designed to help remove noise picked up in the digital recording.
+The Saleae software includes a feature to suppress short digital pulses in the recorded data. It is designed to help remove noise picked up in the digital recording.
 
 There are several sources of noise in digital captures. You can learn more about them below.
 
@@ -55,12 +55,4 @@ The logic analyzer seems to miss samples or samples on the wrong clock edge.
 ![Glitch zoomed in](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/5628391f86a6bc55696355f0/097fd679a08596e414cb836d8f9eb9f7/glitch-zoomed-in.png)
 
 * If the analyzer exhibits the behavior above, then there may be glitches in the clock edges. In this case, some of your clock edges won't have the arrow symbol, or the sampling may look like it is occurring at the wrong clock edge. If you zoom in very closely, you will see the glitch, and the Logic software will treat this as multiple clock edges. In this situation, enabling the glitch filter can help with proper decoding of the signal.
-
-**Reporting a Problem with the Glitch Filter**
-
-The glitch filter is a new feature recently released. Internally, it passes all of our unit tests and QA tests. If you suspect you have found a problem with the glitch filter, please report it. Please include the following:
-
-* A copy of the saved capture so we can load it here. You can save the capture from the main options menu.
-* The type of device used to make the recording and all the sample rate and channel settings used to make the capture.
-* If you observe anything else required to repeat the problem, please let us know.
 

@@ -1,4 +1,4 @@
-# The Software or Device Appears to Be Interfering with the Performance of My PC or Interfering with O
+# PC Performance Issues with Logic
 
 Under normal operation, the Logic software and device should not interfere with other applications or devices on the system, with a few exceptions:
 
@@ -22,9 +22,9 @@ If the PC is slowing down due to high memory consumption and caching, try the fo
 * Disable all channels you're not using.
 * If you're using one or more analyzers, remove them during the capture. Once the capture is complete, save the capture and then apply the analyzer.
 * If you're using more than one analyzer, try using only one at a time. Saving Logic setups is an easy way to change analyzers and settings.
-* Record for shorter time spans. See information about capture length here: [https://trello.com/c/FBoVtnEK](https://trello.com/c/FBoVtnEK).
+* Record for shorter time spans.
 * If you're recording analog, turn off the up-sample option in the software preferences. This causes a very minor visual downgrade in the analog data but reduces analog memory usage by 3x.
-* Break up long captures into a series of short captures. Consider automating this: [https://trello.com/c/tZwab8YF](https://trello.com/c/tZwab8YF).
+* Break up long captures into a series of short captures.
 * Buy more RAM—a LOT more RAM.
 
 **More Serious Issues**
@@ -34,6 +34,4 @@ Under normal operation, you should not experience any more issues. However, if y
 * In task manager, watch the CPU usage and memory usage of the Logic software. Is it abnormally high?
 * Remove Logic from the USB port. Did the problem go away? Test logic on other USB ports and on other USB hubs. There could be an issue with interference from other USB devices if these devices do not properly handle USB traffic.
 * Close the software and re-open it. Did the performance of other applications return to normal?
-
-If you suspect that there is a bug with the Logic software or have found a way to reliably reproduce the issue you are experiencing, please review this article and then report a bug: [https://trello.com/c/no5pJ8YB](https://trello.com/c/no5pJ8YB).
 

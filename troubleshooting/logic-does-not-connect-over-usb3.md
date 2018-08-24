@@ -1,4 +1,4 @@
-# The Saleae Logic Pro 8 or Logic Pro 16 Is Only Operating over USB 2.0 on a USB 3.0 Port, or Any Sale
+# Logic Does Not Connect over USB 3.0
 
 The Saleae Logic Pro 8 and Logic Pro 16 are designed to operate over USB 3.0 but can also operate over USB 2.0 at slower speeds. However, when connected to USB 3.0 ports with USB 3.0 cables, they should operate at higher speeds.
 
@@ -34,11 +34,11 @@ If you are unable to use the Logic Pro 8 or Logic Pro 16 on USB 3.0 ports at USB
 
 Locate your installed host controller and driver version:
 
-[https://trello.com/c/3NTCLDM2](https://trello.com/c/3NTCLDM2)
+{% page-ref page="../faq/technical-faq/usb-3.0-host-controller-info.md" %}
 
 Check for driver updates:
 
-[https://trello.com/c/O0hA3XAF](https://trello.com/c/O0hA3XAF)
+{% page-ref page="../logic-software/usb-3.0-host-controller-drivers.md" %}
 
 Original instructions \(pre 1.2.5\):
 

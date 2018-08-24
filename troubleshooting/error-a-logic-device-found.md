@@ -1,4 +1,7 @@
-# When I Connect the Device on Windows, I See This Message: 'A Logic Device Was Found, but There Was a
+# Error Message: A Logic Device Was Found, but There Was a Problem Connecting to It
+
+When connecting the device on Windows, the following error message appears:   
+"A Logic Device Was Found, but There Was a Problem Connecting to It. Another Application May Be Using It"
 
 Normally, this message shows up when another instance of the Logic software is already running and connected to the device. You can use task manager to see if another instance is still running, even if there are no other windows open.
 
@@ -8,5 +11,5 @@ For a small number of users, this error is shown incorrectly. It is displayed ev
 
 If the title bar says "Connected" after closing this error message, the device and software are actually working normally.
 
-If the title bar says "Disconnected" after closing the error message, then something is wrong. Check for other instances of Logic.exe and close them. Then remove and reconnect the device. If no other instances of Logic.exe are running, you may want to try restarting your computer and then [contact support](https://support.saleae.com/hc/en-us/requests/new).
+If the title bar says "Disconnected" after closing the error message, then something is wrong. Check for other instances of Logic.exe and close them. Then remove and reconnect the device. If no other instances of Logic.exe are running, you may want to try restarting your computer and then [contact support](https://contact.saleae.com/hc/en-us/requests/new).
 

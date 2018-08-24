@@ -4,7 +4,7 @@ There are several reasons that noise may appear in your capture. In some cases, 
 
 The rest of this article discusses different noise sources and potential solutions to remove it. You can learn more about the software glitch filter below.
 
-{% page-ref page="../faq/technical-faq/software-glitch-filter.md" %}
+{% page-ref page="../user-guide/using-logic/software-glitch-filter.md" %}
 
 **Sources of Noise**
 
@@ -26,7 +26,9 @@ The analog inputs are filtered at a much lower bandwidth through an anti-aliasin
 * Use shorter logic probes. If you can make your own leads connect to the logic analyzer, you could dramatically shorten the wire between the signal source and the logic analyzer.
 * Slow the sample rate. Generally, the glitches on the bus are actually much smaller than 1 sample. Sampling slower dramatically reduces the probability that a glitch will be recorded when sampling, but it will not completely eliminate it.
 * For especially noisy signals, you can create your own analog low pass filter network and place it before the input of the logic analyzer.
-* The current software includes a user selectable glitch filter.[https://trello.com/c/sazcP6WO](https://trello.com/c/sazcP6WO). You can enter the width of the smallest allowable event, and all smaller events will be filtered out. Generally, noise and glitches picked up by the units is only 1 sample wide, which is actually above the maximum rated bandwidth for any given sample rate, making it particularly easy to filter out without affecting your data. 
+* The current software includes a user selectable glitch filter. You can enter the width of the smallest allowable event, and all smaller events will be filtered out. Generally, noise and glitches picked up by the units is only 1 sample wide, which is actually above the maximum rated bandwidth for any given sample rate, making it particularly easy to filter out without affecting your data. See below.
+
+{% page-ref page="../user-guide/using-logic/software-glitch-filter.md" %}
 
 **What to Do If Cross Talk or Noise Is Still Present after the Above Steps**
 

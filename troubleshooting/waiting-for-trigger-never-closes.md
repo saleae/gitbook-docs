@@ -1,4 +1,4 @@
-# I'm Trying to Capture Using a Trigger, but It Always Says 'Waiting for Trigger'
+# The 'Waiting for Trigger' Window Never Closes
 
 If the software never sees your trigger, then it might be set up incorrectly.
 

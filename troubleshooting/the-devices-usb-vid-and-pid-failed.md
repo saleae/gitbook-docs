@@ -1,4 +1,4 @@
-# The Device's USB VID and PID Failed
+# Device USB VID and PID Information
 
 Each Logic analyzer contains USB device identification information. If the memory that holds that information fails, the device will start to enumerate as a Cypress development kit with the default Cypress VID and PID for that part.
 
@@ -19,5 +19,5 @@ Here are the correct VID and PID pairs for each products found in the Saleae dri
 
 Make sure you have selected the Logic device. You may want to remove it and reconnect it to verify that the entry correctly disappears and then comes back.
 
-If your device no longer identifies properly, please [contact support](https://support.saleae.com/hc/en-us/requests/new) about a replacement.
+If your device no longer identifies properly, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) about a replacement.
 

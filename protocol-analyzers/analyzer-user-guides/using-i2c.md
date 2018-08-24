@@ -22,7 +22,7 @@ You may notice where the analyzer seems to decode less than 9 bits per frame, or
 
 This can happen for several reasons, and we've added a software feature to allow these "glitches" to be filtered out. See this article for instructions.
 
-{% page-ref page="../../faq/technical-faq/software-glitch-filter.md" %}
+{% page-ref page="../../user-guide/using-logic/software-glitch-filter.md" %}
 
 You may want to try reducing the sample rate of the capture using a different IO voltage option, if supported by your logic analyzer, or filtering the electrical signal.
 

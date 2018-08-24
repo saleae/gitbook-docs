@@ -1,6 +1,4 @@
-# A Protocol Analyzer or an Analyzer Export Produces Unexpected Results
-
-
+# A Protocol Analyzer Produces Unexpected Results
 
 If you suspect that there is a problem with the protocol analyzer, please report it.
 
@@ -18,13 +16,13 @@ Once you have finished reviewing the common issues section and the issue still p
 
 Before submitting the issue, we suggest that you also test the analyzer in simulation mode. That will cause the software to produce sample data for that analyzer. You can compare the sample data to your own, which might help explain the issue. To generate simulation data, simply remove any attached logic analyzer\(s\). Then make sure you have an analyzer added on the capture tab with the settings you were using. Then press Start Simulation. That will produce simulated protocol data.
 
-Finally, submit all this to [support](http://support.saleae.com/). Our online form supports attachments. If the capture is too large to attach, even compressed, please write support, and we can arrange a dropbox upload link.
+Finally, submit all this to [support](https://contact.saleae.com/hc/en-us/requests/new). Our online form supports attachments. If the capture is too large to attach, even compressed, please write support, and we can arrange a dropbox upload link.
 
 **Common Causes of Protocol Result Errors**
 
 * Incorrect baud rate setting
 
-    For asynchronous protocols such as async serial, CAN, HDLC, LIN, Manchester, and ModBus, the bit rate needs to be set accurately in order for the analyzer to produce valid results. Only async serial includes an autobaud feature, and even that is not necessarily accurate. More information on manually measuring baud rates can be found here: [https://trello.com/c/Becl3DBL](https://trello.com/c/Becl3DBL) \(not just for serial but for other protocols, too\).
+    For asynchronous protocols such as async serial, CAN, HDLC, LIN, Manchester, and ModBus, the bit rate needs to be set accurately in order for the analyzer to produce valid results. Only async serial includes an autobaud feature, and even that is not necessarily accurate.
 
 * Other incorrect analyzer settings
 
@@ -32,7 +30,9 @@ Finally, submit all this to [support](http://support.saleae.com/). Our online fo
 
 * Glitches near clock edges
 
-    Looking at a clocked \(synchronous\) protocol? If you see missing decoded words or the byte alignment gets offset \(words are not starting/stopping on the correct bit\), there could be single sample wide glitches appearing near the clock edges. Check all the edges to see if they have clock arrow markers on them. If one clock edge is missing the arrow marker, zoom in on that edge as far as it will go. You might find two clock edges right next to each other, causing an offset in the results. That can be resolved using the new software glitch filter: [https://trello.com/c/JTGRz6nm](https://trello.com/c/JTGRz6nm).
+    Looking at a clocked \(synchronous\) protocol? If you see missing decoded words or the byte alignment gets offset \(words are not starting/stopping on the correct bit\), there could be single sample wide glitches appearing near the clock edges. Check all the edges to see if they have clock arrow markers on them. If one clock edge is missing the arrow marker, zoom in on that edge as far as it will go. You might find two clock edges right next to each other, causing an offset in the results. That can be resolved using the software glitch filter below.
+
+{% page-ref page="../user-guide/using-logic/software-glitch-filter.md" %}
 
 * Logic analyzer capture begins after communication starts, and protocol analyzer is unable to re-synchronize.
 
