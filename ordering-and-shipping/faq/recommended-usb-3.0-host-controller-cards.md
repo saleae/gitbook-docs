@@ -29,7 +29,7 @@ Instructions to identify currently installed host controllers:
 
 Latest driver information:
 
-{% page-ref page="../../logic-software/latest-usb-3.0-host-controller-drivers.md" %}
+{% page-ref page="../../logic-software/usb-3.0-host-controller-drivers.md" %}
 
 
 

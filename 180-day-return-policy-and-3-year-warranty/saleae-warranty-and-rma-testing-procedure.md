@@ -14,7 +14,7 @@ If you believe your Logic hardware is broken, please completely perform the trou
 
 {% page-ref page="../logic-software/latest-beta-release.md" %}
 
-{% page-ref page="../logic-software/the-driver-wont-install.md" %}
+{% page-ref page="../logic-software/driver-install.md" %}
 
 
 
@@ -49,7 +49,7 @@ If you believe your Logic hardware is broken, please completely perform the trou
 * Update the driver, if possible, and run the tests again. The latest host controller drivers are provided in the link below.
 * The windows driver update check will NOT update USB 3.0 host controller drivers. These are not included in the Windows update driver database and must be manually updated.
 
-{% page-ref page="../logic-software/latest-usb-3.0-host-controller-drivers.md" %}
+{% page-ref page="../logic-software/usb-3.0-host-controller-drivers.md" %}
 
 ### 
 

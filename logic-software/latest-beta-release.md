@@ -1,10 +1,10 @@
 # Latest Beta Release
 
 {% hint style="info" %}
-When using the standalone version of the software, the drivers must be installed manually. Refer to the link below for instructions.
+When using the standalone version of the software, the drivers must be installed manually. Refer to the Driver Install link below for instructions.
 {% endhint %}
 
-{% page-ref page="the-driver-wont-install.md" %}
+{% page-ref page="driver-install.md" %}
 
 ### Saleae Logic 1.2.29 Beta
 

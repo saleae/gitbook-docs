@@ -1,4 +1,4 @@
-# Changelog v2
+# Changelog
 
 Changes in 1.2.29 Beta:
 

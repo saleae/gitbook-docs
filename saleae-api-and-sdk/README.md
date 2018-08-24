@@ -1,6 +1,6 @@
 # Automation & SDK
 
-For instructions on how to **automate Saleae Logic functions**, check out our Socket API below.
+For instructions on **automating Saleae Logic functions**, check out our Socket API below.
 
 {% page-ref page="socket-api.md" %}
 

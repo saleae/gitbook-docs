@@ -74,5 +74,5 @@ ClearTabularText();
 
 at the start of this function. The software will crash without this.
 
-This should update your code to include results in search. Please do write to [Saleae Support](https://support.saleae.com/hc/en-us/requests/new) if you have more questions regarding this.
+This should update your code to include results in search.
 
