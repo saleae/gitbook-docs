@@ -1,4 +1,4 @@
-# How to Move Logic to Its Own Host Controller
+# Moving Logic to Its Own Host Controller
 
 This details a procedure mentioned in the main article about sampling issues: [https://trello.com/c/dU1FgSAN](https://trello.com/c/dU1FgSAN)
 

@@ -6,7 +6,7 @@ If you are unsure which driver you need or would like to verify that you are dow
 
 First, identify which USB 3.0 host controller\(s\) is installed on your system. Most machines will have a single USB 3.0 host controller and two USB 2.0 host controllers. To find the installed host controller\(s\), please follow the instructions below.
 
-{% page-ref page="../faq/technical-faq/finding-your-usb-3.0-host-controller-information.md" %}
+{% page-ref page="../faq/technical-faq/usb-3.0-host-controller-info.md" %}
 
 Below are the latest driver versions and download links for each host controller.
 

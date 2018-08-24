@@ -25,7 +25,7 @@ We have not yet performed a full evaluation on "ExpressCard" Laptop add on cards
 
 Instructions to identify currently installed host controllers:
 
-{% page-ref page="../../faq/technical-faq/finding-your-usb-3.0-host-controller-information.md" %}
+{% page-ref page="../../faq/technical-faq/usb-3.0-host-controller-info.md" %}
 
 Latest driver information:
 
