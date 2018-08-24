@@ -1,10 +1,10 @@
-# api-ms-win-crt-runtime-l1-1-0.dll or msvcp140.dll Is Missing or the MSVC 2015 Runtime Cannot Be Inst
+# api-ms-win-crt-runtime-l1-1-0.dll or msvcp140.dll Is Missing
 
 Versions of the Saleae Logic Windows software starting with 1.2.11 require the Microsoft Visual Studio 2015 runtime to be installed in order to work. This is installed automatically when the software is installed. If you are using the standalone version of the software on Windows, it needs to be installed manually.
 
 Details for the standalone installation can be found here:
 
-[https://trello.com/c/AyAKA7a5](https://trello.com/c/AyAKA7a5)
+{% page-ref page="../faq/technical-faq/standalone-software-info.md" %}
 
 If you see either of the below errors, it is possible that the runtime is not installed properly.
 
@@ -22,11 +22,13 @@ If you see either of the below errors, it is possible that the runtime is not in
 
    After you have installed the runtime, try restarting the computer and running Logic again.
 
-3. If the above steps don't solve the issue, please try installing and running version 1.2.10 of our software. You can find it here: [https://trello.com/c/A5xo3zNr](https://trello.com/c/A5xo3zNr)
+3. If the above steps don't solve the issue, please try installing and running version 1.2.10 of our software. You can find it below.
+
+{% page-ref page="../logic-software/legacy-software/older-software-releases.md" %}
 
 **Contacting Support for Additional Help**
 
-If the software still does not launch after trying the troubleshooting steps, please [contact support](https://support.saleae.com/hc/en-us/requests/new) with the following information:
+If the software still does not launch after trying the troubleshooting steps, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) with the following information:
 
 1. The version of Windows you are using and if it is 32-bit or 64-bit.
 2. A screenshot of the error message you are seeing

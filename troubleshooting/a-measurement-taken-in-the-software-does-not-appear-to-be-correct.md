@@ -1,7 +1,5 @@
 # A Measurement Taken in the Software Does Not Appear to Be Correct
 
-
-
 This is either a bug in the measurement code in the Saleae software or the measurement is not configured properly.
 
 The software has four main types of measurements:

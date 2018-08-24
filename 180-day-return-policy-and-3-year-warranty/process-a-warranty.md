@@ -32,7 +32,7 @@ If you believe your Logic hardware is broken, please completely perform the trou
 
 **4. Test with another USB cable**
 
-* If another USB cable works, then your original USB cable may be faulty. If so, stop here and [Contact Support](https://support.saleae.com/hc/en-us/requests/new) for help. Otherwise, continue with the steps below.
+* If another USB cable works, then your original USB cable may be faulty. If so, stop here and [Contact Support](https://contact.saleae.com/hc/en-us/requests/new) for help. Otherwise, continue with the steps below.
 
 
 

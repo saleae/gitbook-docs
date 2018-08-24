@@ -4,8 +4,6 @@ This issue only affects some customers working on IT-managed company computers r
 
 **Do not attempt this solution unless the description here matches the log file "C:\Windows\setupapi.log." This only applies to Windows XP.**
 
-Make sure you have seen the details in the general purpose article here: [https://trello.com/c/kEK01Tef](https://trello.com/c/kEK01Tef)
-
 Check if the driver install for all Saleae products is failing and the setupapi.log file contains these lines:
 
 * "\#E008 Setting registry value HKLM\SOFTWARE\Microsoft\Windows NT\CurrentVersion\svchost\WudfServiceGroup"

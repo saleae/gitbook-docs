@@ -26,7 +26,7 @@ If you are located outside the US and did not purchase the unit directly from us
 
 If you are located outside the US but cannot easily purchase a cable from a local distributor, we can still ship you a replacement cable directly.
 
-**To get a replacement USB 3.0 cable directly from US, please send your shipping address and telephone number to** [**Saleae support**](https://support.saleae.com/hc/en-us/requests/new)**.**
+**To get a replacement USB 3.0 cable directly from US, please send your shipping address and telephone number to** [**Saleae support**](https://contact.saleae.com/hc/en-us/requests/new)**.**
 
 We are currently recommending this replacement cable from Amazon: [http://www.amazon.com/AmazonBasics-USB-3-0-Cable-Micro-B/dp/B00NH12R1O](http://www.amazon.com/AmazonBasics-USB-3-0-Cable-Micro-B/dp/B00NH12R1O)
 

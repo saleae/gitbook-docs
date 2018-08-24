@@ -20,7 +20,7 @@ This backlog of data is data that has been recorded from the logic analyzer and 
 
 There is no limit on this. The longer the software continues to search for the trigger, the more the backlog will grow and the more the memory usage will increase until the computer runs out of memory and the disk is no longer able to swap fast enough. In this case, our software tries to detect that the system is out of memory and stop the capture with the "out of memory exception was thrown" and automatically end the capture.
 
-[https://trello.com/c/GDC66VkO](https://trello.com/c/GDC66VkO)
+{% page-ref page="error-out-of-memory-exception.md" %}
 
 However, not all computers and operating systems behave the same way. In the worst case, the software will become unresponsive and will need to be manually halted.
 

@@ -1,4 +1,4 @@
-# What Is the Purpose of Standalone Software and How Do I Install It?
+# Standalone Software Information
 
 The standalone version of our software can be useful in many different situations and can be downloaded below.
 

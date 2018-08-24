@@ -1,18 +1,10 @@
-# An APPCRASH Error Message Appears: 'The application was unable to start correctly \(0xc0000005\)'
+# Error Message: The application was unable to start correctly \(0xc0000005\)
 
 
 
 This article addresses a specific issue that affects a small number of Windows users. Specifically, the software will crash on launch, generating an "APPCRASH" error message. On launch, a Windows error report window will appear with the heading "Saleae Logic Software has stopped working." This window has an option to expand problem details. There, the "Problem Event Name" will be set to "APPCRASH," and the "Exception Code" will likely be 0xc0000005.
 
-Before continuing, if you haven't already, please review our more general software crash articles.
-
-[https://trello.com/c/no5pJ8YB](https://trello.com/c/no5pJ8YB)
-
-[https://trello.com/c/kEK01Tef](https://trello.com/c/kEK01Tef)
-
-[https://trello.com/c/EFEu0QEm](https://trello.com/c/EFEu0QEm)
-
-If none of the above articles solve this issue, then the problem is most likely caused by a compatibility issue with another installed program, possibly one of the following:
+The problem is most likely caused by a compatibility issue with another installed program, possibly one of the following:
 
 * Anti-virus software
 * Disk encryption software
@@ -24,9 +16,9 @@ Specifically, our software will crash on launch with APPCRASH if a debugger is a
 
 This affects all releases of our software after and including version 1.1.21. Releases up to and including 1.1.20 are not affected.
 
-Version 1.1.20 is very old and does not support the current hardware products \(Logic 4, Logic 8, Logic Pro 8, Logic Pro 16\). Older versions of our software can be downloaded here:
+Version 1.1.20 is very old and does not support the current hardware products \(Logic 4, Logic 8, Logic Pro 8, Logic Pro 16\). Older versions of our software can be downloaded below.
 
-[https://trello.com/c/A5xo3zNr](https://trello.com/c/A5xo3zNr)
+{% page-ref page="../logic-software/legacy-software/older-software-releases.md" %}
 
 **Steps to Verify That a Compatability Issue Is Preventing the Software to Launch**
 
@@ -43,7 +35,7 @@ If the 1.1.20 software runs but the 1.1.34 software does not, that indicates tha
 4. Try running the software as the administrator.
 5. Download the "Windows 32 bit standalone" version of the latest software here and test it. Before running Logic.exe, you will need to install the included Microsoft visual studio runtime.
 
-[https://trello.com/c/0NFUpiUZ](https://trello.com/c/0NFUpiUZ)
+{% page-ref page="../logic-software/latest-beta-release.md" %}
 
 **Contacting Support for Additional Help**
 

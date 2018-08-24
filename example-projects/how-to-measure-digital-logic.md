@@ -69,5 +69,5 @@ Press the **Start** button and wait while the logic analyzers captures and proce
 
 If you pan left on the waveforms, you should see that the Logic Analyzer is capable of capturing up to about 0.5 ms prior to the trigger point.
 
-If you zoom in around the trigger point, you should see that not all pins on the microcontroller are capable of toggling at the exact same time. If you're curious about how to measure that time difference, see [How to Measure Analog Signals](https://saleae.gitbook.io/docs/~/edit/drafts/-LJeeG9zi2cw3l7lNm3x/examples/how-to-measure-analog-signals).
+If you zoom in around the trigger point, you should see that not all pins on the microcontroller are capable of toggling at the exact same time.
 
