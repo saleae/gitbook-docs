@@ -1,6 +1,6 @@
 # Place an Order
 
-### **Place an Order Online**
+## Place an Order Online
 
 * **Navigate** to our[ Home page here](https://www.saleae.com/).
 * **Click the Products link** at the top of the page.

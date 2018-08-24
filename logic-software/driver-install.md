@@ -16,7 +16,7 @@ If you have manually installed the 1st generation Logic or Logic16 drivers in th
 
 The first thing to try is manually installing the drivers, if you haven't already. After that, let's try a "have-disk" manual install.
 
-If that doesn't work, please write us and send an install log along with details about your computer. The information we'll need is at the bottom of this article.
+If that doesn't work, please contact us and send an install log along with details about your computer. The information we'll need is at the bottom of this article.
 
 ### Method 1: New Hardware Wizard Installation
 
@@ -41,7 +41,7 @@ Use the Browse button to direct the driver wizard to the Drivers folder, which i
 
   \Drivers\Windows
 
-Click Next. If this fails, continue to the "Have-Disk" method below. If using the standalone software, this step should have succeeded. Otherwise, please [contact support](http://support.saleae.com/hc/en-us/requests/new) if using the standalone software.
+Click Next. If this fails, continue to the "Have-Disk" method below. If using the standalone software, this step should have succeeded. Otherwise, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) if using the standalone software.
 
 ### Method 2: "Have-Disk" Manual Installation
 
@@ -103,7 +103,7 @@ The original Logic 16, also discontinued in 2014, uses the "Saleae Logic 16 USB 
 
 ### Contacting Us for Further Support
 
-If at the end of this process you still get an error, please [contact support](http://support.saleae.com/hc/en-us/requests/new) and include the following information:
+If at the end of this process you still get an error, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) and include the following information:
 
 * What OS and OS version you are using and if it is 32-bit or 64-bit.
 * If the device has worked on this PC before.

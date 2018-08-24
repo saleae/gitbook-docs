@@ -1,5 +1,7 @@
 # Distributors
 
+## Distributors
+
 This list contains every distributor currently selling Saleae devices. Please note that most listed distributors ship worldwide. The country shown refers to each company's main office.
 
 * [Amazon USA](https://www.amazon.com/Logic-Black-Saleae-8-Channel-Analyzer/dp/B0749G85W2/ref=sr_1_1?s=hi&ie=UTF8&qid=1516658879&sr=1-1&keywords=saleae) - US

@@ -1,6 +1,6 @@
 # Place a Purchase Order \(PO\)
 
-### To Place a Purchase Order \(PO\)
+## Place a Purchase Order \(PO\)
 
 * This is recommended for companies who cannot place an order through our website by credit/purchasing card or PayPal.
 * Order total must be at least USD $699.
