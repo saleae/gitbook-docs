@@ -1,5 +1,7 @@
 # Decode Differential and High Voltage Data
 
+## Decode Differential and High Voltage Data
+
 {% hint style="info" %}
 Please review the supported IO voltage thresholds of the product you are using as well as its over-voltage protection. The details for each product can be found below.
 {% endhint %}

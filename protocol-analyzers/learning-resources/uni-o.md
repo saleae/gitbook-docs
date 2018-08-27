@@ -1,5 +1,7 @@
 # UNI/O
 
+## UNI/O
+
 The UNI/O bus is a single-wire asynchronous bus created by Microchip for low-speed communication in embedded systems—typically between a microcontoller master and one or more peripherals. Data bits themselves are Manchester encoded.
 
 **Top Resources**

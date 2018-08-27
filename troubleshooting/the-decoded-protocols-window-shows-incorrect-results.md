@@ -1,5 +1,7 @@
 # The Decoded Protocols Window Shows Incorrect Results
 
+## The Decoded Protocols Window Shows Incorrect Results
+
 First, we are extremely sorry for this bug. We have received reports that when more than one protocol analyzer is active, the results in the Decoded Protocols window may show up incorrectly.
 
 This bug introduces the following issues:

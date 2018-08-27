@@ -1,6 +1,6 @@
 # Custom Protocol Analyzers
 
-### Protocol Analyzer SDK for Custom Protocol Analyzers
+## Protocol Analyzer SDK for Custom Protocol Analyzers
 
 The Saleae Analyzer SDK lets you make your own custom protocol analyzers. The framework is very flexible. You can do everything we can do \(we use the same SDK\). You'll be creating a shared library \(.dll, .so, or .dylib\) that will be loaded by the Logic software as a plugin.
 

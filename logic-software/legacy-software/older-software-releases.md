@@ -1,5 +1,7 @@
 # Older Software Releases
 
+## Older Software Releases
+
 ### **1.2.28 Download**
 
 Windows \(32 bit and 64 bit\):  

@@ -1,6 +1,8 @@
-# The Software Fails to Launch on Fedora 26 and 27
+# The Software Fails to Launch on Fedora
 
-This article covers the situation where the Saleae Logic software crashes on launch on Fedora 26 and 27. The issue is still open, and we are working on resolving it. Currently, we would like to collect information from individuals who are able to reproduce the problem.
+## The Software Fails to Launch on Fedora
+
+This article covers the situation where the Saleae Logic software crashes on launch on Linux Fedora 26 and 27. The issue is still open, and we are working on resolving it. Currently, we would like to collect information from individuals who are able to reproduce the problem.
 
 The Saleae Logic software uses QT 5.7, which is included with the download. The QT framework is not currently compatible with the newest version of OpenSSL, 1.1.
 

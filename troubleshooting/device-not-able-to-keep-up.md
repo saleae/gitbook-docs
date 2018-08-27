@@ -1,5 +1,7 @@
 # Error Message: We're Sorry, but the Device Was Not Able to Keep Up with This Sample Rate
 
+## Error Message: We're Sorry, but the Device Was Not Able to Keep Up with This Sample Rate
+
 When attempting to capture data, you may encounter the following error message: "We're sorry, but the device was not able to keep up with this sample rate. If you continue to see this message, please contact Saleae technical support."
 
 ![Logic can&apos;t keep up](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/55f0e75a10f9f592573a8232/035ff5a3b79830f7bcd2dccca570674f/logic_cant_keep_up.png)

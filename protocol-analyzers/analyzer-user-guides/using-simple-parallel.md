@@ -1,5 +1,7 @@
 # Using the Simple Parallel Analyzer
 
+## Using the Simple Parallel Analyzer
+
 The Saleae Logic software includes a protocol decoder to read clocked \(synchronous\) parallel bus data. The analyzer supports between 1 and 16 bits of data bus, although realistically, only 15 bits are possible.
 
 Keep in mind that this isn't the "state" mode you may have seen in other logic analyzers. All Saleae units operate by over-sampling only and do not support a state/external clock mode. That means you will need to sample at least 4 times faster than the parallel clock frequency.

@@ -1,4 +1,8 @@
-# Best Practices for Sharing Custom Analyzer Projects with the Community and with Saleae Support
+# Sharing Custom Analyzer Code
+
+## Sharing Custom Analyzer Code
+
+Here are some best practices for sharing your custom analyzer code.
 
 If you are currently developing a custom analyzer and would like to share the project in order to receive help with it, or if you have finished a custom analyzer and would like to make it available to others, we recommend posting your analyzer source code to GitHub, organizing it as follows:
 

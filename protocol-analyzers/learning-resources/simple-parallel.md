@@ -1,5 +1,7 @@
 # Simple Parallel
 
+## Simple Parallel
+
 Generally speaking, a parallel bus has multiple data lines and a single clock line. Data is valid—and sampled—on a specified edge \(typically rising or falling\) of the clock line.
 
 **Top Resources**

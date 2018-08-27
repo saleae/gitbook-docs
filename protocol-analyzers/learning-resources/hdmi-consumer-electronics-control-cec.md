@@ -1,5 +1,7 @@
 # HDMI Consumer Electronics Control \(CEC\)
 
+## HDMI Consumer Electronics Control \(CEC\)
+
 CEC \(Consumer Electronics Control\) is a one-wire serial bus connected via HDMI and used to perform remote control functions across multiple devices.
 
 **Top Resources**

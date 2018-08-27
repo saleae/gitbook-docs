@@ -1,4 +1,6 @@
-# How to Check for Other Drivers Interfering with the Operation of a Saleae Device
+# Other Drivers Interfere with Logic's Operation
+
+## Other Drivers Interfere with Logic's Operation
 
 It is possible for other drivers to associate themselves with a Saleae device. This won't necessarily cause problems, but we have seen at least one issue in the past where a conflict prevented proper operation of the device.
 

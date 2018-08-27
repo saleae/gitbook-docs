@@ -1,5 +1,7 @@
 # The Logic Software Fails to Launch on Windows
 
+## The Logic Software Fails to Launch on Windows
+
 This article covers a very specific set of potential issues. Specifically, it covers issues that prevent the Logic software from launching on Windows computers. For issues related to the software crashing after launch, installation or driver problems, or issues on other operating systems, please see the main support article about problems running the software below.
 
 {% page-ref page="software-will-not-install-or-run.md" %}

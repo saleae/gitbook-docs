@@ -1,5 +1,7 @@
 # Driver Install
 
+## Driver Install
+
 Normally, the USB drivers for Windows install when the Logic software is installed, and the product should work when connected. In other cases, such as when using the standalone version of the software, the drivers must be installed manually.
 
 {% hint style="info" %}

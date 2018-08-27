@@ -1,4 +1,6 @@
-# api-ms-win-crt-runtime-l1-1-0.dll or msvcp140.dll Is Missing
+# Missing Files: api-ms-win-crt-runtime-l1-1-0.dll or msvcp140.dll
+
+## Missing Files: api-ms-win-crt-runtime-l1-1-0.dll or msvcp140.dll
 
 Versions of the Saleae Logic Windows software starting with 1.2.11 require the Microsoft Visual Studio 2015 runtime to be installed in order to work. This is installed automatically when the software is installed. If you are using the standalone version of the software on Windows, it needs to be installed manually.
 

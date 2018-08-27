@@ -1,5 +1,7 @@
 # The Maximum Sample Rate is Not Selectable
 
+## The Maximum Sample Rate is Not Selectable
+
 For some Saleae devices, the maximum sample rates are only available in certain configurations:
 
 For Logic Pro 8 and Logic Pro 16, the maximum digital sample rate \(500 MSPS\) can only be selected when 4 or fewer digital channels are active and all analog channels are disabled.

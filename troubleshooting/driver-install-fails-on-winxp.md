@@ -1,4 +1,6 @@
-# Driver Install Fails on Windows XP with '\#E033 Error 5: Access Is Denied' in setupapi.log
+# Driver Install Fails on Windows XP
+
+## Driver Install Fails on Windows XP
 
 This issue only affects some customers working on IT-managed company computers running Windows XP and is related to custom security policy settings. This should not happen on a standard install of Windows XP.
 

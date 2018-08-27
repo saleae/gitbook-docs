@@ -1,5 +1,7 @@
 # Latest USB 3.0 Host Controller Drivers
 
+## Latest USB 3.0 Host Controller Drivers
+
 Most common problems with Logic Pro 8 and Logic Pro 16 on Windows 7 can be solved by simply updating the USB 3.0 host controller drivers manually.
 
 If you are unsure which driver you need or would like to verify that you are downloading the correct driver, feel free to collect the information about your host controller and contact [Saleae support](https://contact.saleae.com/hc/en-us/requests/new).

@@ -1,5 +1,7 @@
 # Using the Controller Area Network \(CAN\) Protocol Analyzer
 
+## Using the Controller Area Network \(CAN\) Protocol Analyzer
+
 The Saleae Logic software includes a software protocol analyzer for the CAN protocol.
 
 The Saleae CAN protocol analyzer supports standard and extended CAN identifiers.

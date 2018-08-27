@@ -1,5 +1,7 @@
 # What Saleae APIs are Available?
 
+## What Saleae APIs are Available?
+
 Saleae provides two APIs for the Saleae devices. They are not sold separately and are available for download at no additional cost.
 
 First is the socket API, which is intended to make it easy for the existing Saleae desktop software to be controlled by third-party applications or scripts for the purpose of automation.

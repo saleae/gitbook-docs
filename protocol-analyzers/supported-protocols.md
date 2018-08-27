@@ -1,6 +1,6 @@
 # Supported Protocols
 
-### List of Supported Protocols
+## Supported Protocols
 
 The Saleae Logic software includes the following protocol analyzers:
 

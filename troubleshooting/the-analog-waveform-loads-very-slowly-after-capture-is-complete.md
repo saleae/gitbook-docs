@@ -1,5 +1,7 @@
 # The Analog Waveform Loads Very Slowly after Capture Is Complete
 
+## The Analog Waveform Loads Very Slowly after Capture Is Complete
+
 You can speed this up by turning off the Upsampled Pipeline feature in the Logic software settings.
 
 Upsampled Pipeline is responsible for the look and feel of the recorded analog waveforms. After analog data is captured, the data goes through a series of pre-processing steps that reconstruct the waveform and improve its visual fidelity before displaying it to the screen.

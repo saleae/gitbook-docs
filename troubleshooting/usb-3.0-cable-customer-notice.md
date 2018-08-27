@@ -1,6 +1,10 @@
 # USB 3.0 Cable Customer Notice
 
+## USB 3.0 Cable Customer Notice
+
+{% hint style="info" %}
 We've recently discovered a problem with the USB 3.0 cables that we have been shipping to customers with their Logic Pro 8 and Logic Pro 16 units.
+{% endhint %}
 
 **We're shipping replacement cables to customers with problem cables. Instructions on how to get your replacement cable are at the bottom of this page.**
 

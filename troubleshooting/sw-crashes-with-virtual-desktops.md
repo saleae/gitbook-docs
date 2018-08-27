@@ -1,4 +1,6 @@
-# Logic Software Crashes When Used with 3rd-Party Programs Such As Dexpot
+# Software Crashes with Virtual Desktops
+
+## Software Crashes with Virtual Desktops
 
 We have recently been hearing from customers that our Logic software can have issues when used with 3rd-party virtual desktop software like Dexpot. In short, the Logic software can become unresponsive after switching between virtual desktops.
 

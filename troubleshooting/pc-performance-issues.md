@@ -1,5 +1,7 @@
 # PC Performance Issues with Logic
 
+## PC Performance Issues with Logic
+
 Under normal operation, the Logic software and device should not interfere with other applications or devices on the system, with a few exceptions:
 
 * The software can consume a lot of memory after recording for long captures or at high sample rates. When a computer runs low on memory, all applications may respond slower since the system needs to constantly swap memory to and from the page file.

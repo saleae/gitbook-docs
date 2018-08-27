@@ -1,6 +1,6 @@
 # Troubleshooting the Software Connection to the Device
 
-## Software Connection to the Device
+## Troubleshooting the Software Connection to the Device
 
 * With the device connected, after verifying that the OS can detect the device by following the procedure in the previous article, open the software.
 * If the software shows "Connected" in the title bar, then the software has connected to the device, and you can skip this section. If that does not happen consistently, then stay in this section.

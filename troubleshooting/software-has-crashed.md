@@ -1,5 +1,7 @@
 # The Software Has Crashed, or I Have Discovered a Bug
 
+## The Software Has Crashed, or I Have Discovered a Bug
+
 First, sorry about this. It's probably my fault. I apologize.
 
 Please make sure you are using the [latest version of the Saleae software](https://www.saleae.com/downloads).

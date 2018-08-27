@@ -1,4 +1,8 @@
-# Updating Older Custom Analyzer Code for the New Analyzer SDK \(from SDK 1.1.14 to Newer Versions\)
+# Migrate Code to the New Analyzer SDK
+
+## Migrate Code to the New Analyzer SDK 
+
+\(from SDK 1.1.14 to Newer Versions\)
 
 Current custom analyzer code should work with the software without any changes to it.  
 It only has to be built against the new analyzer library shipped with the new software.

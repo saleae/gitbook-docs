@@ -1,5 +1,7 @@
 # PS/2 Keyboard/Mouse
 
+## PS/2 Keyboard/Mouse
+
 PS/2 is a serial protocol used for communication between a computer and a keyboard and mouse. While PS/2 has been largely replaced by USB in consumer applications, it is very easy to interface with a microcontroller.
 
 **Top Resources**

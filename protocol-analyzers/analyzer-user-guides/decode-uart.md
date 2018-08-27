@@ -1,5 +1,7 @@
 # Decode UART
 
+## Decode UART
+
 The Saleae Logic software supports decoding UART communications using the provided Async Serial Analyzer in the Logic software.
 
 A UART \(Universal Asynchronous Receiver/Transmitter\) is a hardware block most commonly found in microcontrollers and processors. Its primary job is to send and receive asynchronous serial data to and from other UART devices via two data lines: TX and RX.

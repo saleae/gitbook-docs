@@ -1,6 +1,6 @@
 # Automation Scripting
 
-### Socket API Automation Scripting
+## Socket API Automation Scripting
 
 The scripting API allows users to programmatically configure our software and trigger captures.
 

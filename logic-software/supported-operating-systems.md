@@ -1,5 +1,7 @@
 # Supported Operating Systems
 
+## Supported Operating Systems
+
 ### **Microsoft Windows**
 
 * Windows XP 32 bit \(Service Pack 3 required\)

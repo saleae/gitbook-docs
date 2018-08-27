@@ -1,5 +1,7 @@
 # Changelog
 
+## Changelog
+
 Changes in 1.2.29 Beta:
 
 1. New calibration filter implementation, should speed up analog processing by about 2.5x

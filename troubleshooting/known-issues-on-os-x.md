@@ -1,6 +1,10 @@
 # Known Issues on OS X
 
-Update: While testing these issues during the development between 1.2.3 and 1.2.5, we noticed that some of these issues dissipated after updating to OS X 10.10.5 and 10.11. The software release 1.2.5 also goes a long way to improve the reliability of the new products. The OS X update had the biggest impact on the original Logic's maximum sample rate, allowing us to reliably capture for more than 10 seconds on the original Logic at 24 MSPS. Some captures for 60 seconds did fail early, but most completed, which is the expected performance.
+## Known Issues on OS X
+
+{% hint style="info" %}
+While testing these issues during the development between 1.2.3 and 1.2.5, we noticed that some of these issues dissipated after updating to OS X 10.10.5 and 10.11. The software release 1.2.5 also goes a long way to improve the reliability of the new products. The OS X update had the biggest impact on the original Logic's maximum sample rate, allowing us to reliably capture for more than 10 seconds on the original Logic at 24 MSPS. Some captures for 60 seconds did fail early, but most completed, which is the expected performance.
+{% endhint %}
 
 We've recently noticed a spike in crashes or sampling errors on our OSX software, which we are working on fixing now.
 

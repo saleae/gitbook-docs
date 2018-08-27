@@ -1,5 +1,7 @@
 # Why Am I Seeing Spikes in the Digital Capture?
 
+## Why Am I Seeing Spikes in the Digital Capture?
+
 There are several reasons that noise may appear in your capture. In some cases, real noise on the bus is being captured. In other cases, cross talk could be picked up, or noise that is too insignificant to be detected by the other devices on the bus could be picked up by the logic analyzers if it is using a different IO standard than the bus.
 
 The rest of this article discusses different noise sources and potential solutions to remove it. You can learn more about the software glitch filter below.

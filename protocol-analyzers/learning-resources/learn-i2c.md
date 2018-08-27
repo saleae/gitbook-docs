@@ -1,5 +1,7 @@
 # Learn I2C - Inter-Integrated Circuit
 
+## Learn I2C - Inter-Integrated Circuit
+
 I2C is a very common communication protocol typically used by microcontrollers to communicate with various peripheral ICs, typically on the same PCB. I2C has two wires: a data \(SDA\) line and a clock \(SCL\) line. Peripherals on the bus each have their own address. Among other reasons, I2C is attractive because it is highly standardized.
 
 ### **Topology**

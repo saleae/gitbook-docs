@@ -1,5 +1,7 @@
 # Error Message: A Logic Device Was Found, but There Was a Problem Connecting to It
 
+## Error Message: A Logic Device Was Found, but There Was a Problem Connecting to It
+
 When connecting the device on Windows, the following error message appears:   
 "A Logic Device Was Found, but There Was a Problem Connecting to It. Another Application May Be Using It"
 

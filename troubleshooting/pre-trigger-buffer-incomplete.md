@@ -1,4 +1,6 @@
-# Why Is My Pre-Trigger Buffer Incomplete?
+# Pre-Trigger Buffer is Incomplete
+
+## Pre-Trigger Buffer is Incomplete
 
 When the Start button is clicked, the Logic software begins recording data into the pre-trigger buffer until the trigger event occurs.
 

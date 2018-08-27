@@ -1,5 +1,7 @@
 # The Digital and Analog Recording on the Same Channel Appear Different
 
+## The Digital and Analog Recording on the Same Channel Appear Different
+
 Although the digital and analog inputs for each channel share the same input signal, several things happen to the signal before it is recorded, which can cause the two signals to appear differently.
 
 Logic Pro 8 and Logic Pro 16 use comparators in the digital signal path. The Logic 8 and Logic 4 use simpler buffer chips and do not have selectable voltage thresholds.

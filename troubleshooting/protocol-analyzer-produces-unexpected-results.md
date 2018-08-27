@@ -1,5 +1,7 @@
 # A Protocol Analyzer Produces Unexpected Results
 
+## A Protocol Analyzer Produces Unexpected Results
+
 If you suspect that there is a problem with the protocol analyzer, please report it.
 
 First, check below in the common issues section.

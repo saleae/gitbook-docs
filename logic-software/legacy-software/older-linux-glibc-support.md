@@ -1,5 +1,7 @@
 # Older Linux glibc Support
 
+## Older Linux glibc Support
+
 Our latest beta software for Linux has some dependencies that are not present on all Linux releases.
 
 To accommodate these releases, we’re providing a compatibility release that includes the missing dependencies from a recent release of Ubuntu. We’ve also modified the included version of our application to link against these libraries instead of the libraries installed on your system.

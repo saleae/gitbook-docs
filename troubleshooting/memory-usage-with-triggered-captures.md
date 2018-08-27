@@ -1,5 +1,7 @@
 # Memory Usage with Triggered Captures
 
+## Memory Usage with Triggered Captures
+
 This article describes how the software buffers data and uses memory when taking captures that have a trigger enabled.
 
 **Background**

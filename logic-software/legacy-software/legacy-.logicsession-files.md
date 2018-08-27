@@ -1,5 +1,7 @@
 # Legacy .logicsession Files
 
+## Legacy .logicsession Files
+
 Original versions of the software were written in .NET and were Windows only. Back then, we used Windows serialization to save .logicdata files. Since then, we have moved to cross-platform software using Boost for serialization. These two serializations are not compatible and require different versions of the software to open. Unfortunately, there is no way to convert from one version to the other, making the older versions impossible to open in new versions of the software.
 
 To open any files saved with version v1.0.34 or older, you can still open the files with an older version of the software. Below are links to an older version of the software that should open them just fine.

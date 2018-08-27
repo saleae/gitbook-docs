@@ -1,5 +1,7 @@
 # Latest Stable Release
 
+## Latest Stable Release
+
 {% hint style="info" %}
 When using the standalone version of the software, the drivers must be installed manually. Refer to the Driver Install link below for instructions.
 {% endhint %}

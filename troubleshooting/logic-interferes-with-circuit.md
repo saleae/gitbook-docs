@@ -1,5 +1,7 @@
 # Logic Interferes with My Circuit Operation
 
+## Logic Interferes with My Circuit Operation
+
 All test equipment will have some effect on the signal that it's recording. This effect is usually referred to as loading.
 
 In addition to probe loading, certain types of device failure or partial device failure can cause significantly higher than normal loading. This type of failure is usually limited to only one channel on the device and is covered under the Saleae 3-year warranty.

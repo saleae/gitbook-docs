@@ -1,5 +1,7 @@
 # Trouble Downloading the Latest Software
 
+## Trouble Downloading the Latest Software
+
 Our software is hosted on Amazon S3, a simple online storage provider. If the links to download the software are not working properly, then the issue could be anywhere between your browser and Amazon's servers.
 
 Here's one quick thing to try. Use the Amazon download links directly instead of the links to downloads.saleae.com, which rely on our DNS record to reach Amazon.

@@ -1,5 +1,7 @@
 # Device USB VID and PID Information
 
+## Device USB VID and PID Information
+
 Each Logic analyzer contains USB device identification information. If the memory that holds that information fails, the device will start to enumerate as a Cypress development kit with the default Cypress VID and PID for that part.
 
 Here are the correct VID and PID pairs for each products found in the Saleae drivers:

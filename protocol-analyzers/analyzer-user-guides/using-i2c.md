@@ -1,5 +1,7 @@
 # Using the I2C Analyzer
 
+## Using the I2C Analyzer
+
 The Saleae software includes a protocol analyzer for the I2C protocol.
 
 The I2C protocol is a synchronous serial interface that uses one clock channel \(SCL\) and one data channel \(SDA\).

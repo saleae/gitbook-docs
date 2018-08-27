@@ -1,6 +1,6 @@
 # All Known Issues
 
-#### Known Issues in the Latest Logic Software
+## All Known Issues in the Latest Logic Software
 
 * On XMonad, on Linux, popovers stop working properly.
 * Pressing and holding command + R on OSX causes the software to crash because consecutive captures do not completely finish before the next tries to start.

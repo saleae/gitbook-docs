@@ -1,5 +1,7 @@
 # The Device Is Not Connecting
 
+## The Device Is Not Connecting
+
 {% hint style="info" %}
 Update: We've recently seen a number of reports about issues with the USB 3.0 cables shipped recently with the Logic Pro 8 and Logic Pro 16. If possible, please make sure to run the tests that are relevant to this issue, as well as the other tests in this guide.
 {% endhint %}

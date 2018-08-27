@@ -1,5 +1,7 @@
 # Learn SPI - Serial Peripheral Interface
 
+## Learn SPI - Serial Peripheral Interface
+
 SPI \(serial peripheral interface\) is a common application of synchronous serial—where a dedicated clock line indicates when to read one or more data lines. Generally, SPI consists of a single master \(typically a microcontroller\) and one or more slave devices. In a typical application, there are 4 wires: A clock line, an enable line, a dedicated master-to-slave data line, and a dedicated slave-to-master data line.
 
 ### **SPI and Synchronous Serial**

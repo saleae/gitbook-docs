@@ -1,5 +1,7 @@
 # Decode RS-232, RS-485, & RS-422
 
+## Decode RS-232, RS-485, & RS-422
+
 The new Saleae Logic products \(Logic 4, Logic 8, Logic Pro 8, Logic Pro 16\) can be used to read and decode RS-232, RS-485, and RS-422 data up to +/- 25V.
 
 Our older Logic products \(Original Logic, Logic16\) have a 0V to 5V absolute maximum range. Therefore, neither product can be used to measure signals outside of this range. That limits its usage for directly recording RS-232, RS-485, and RS-422, which exceed this range in many cases.

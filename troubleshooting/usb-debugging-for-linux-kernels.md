@@ -1,5 +1,7 @@
 # Advanced USB Debugging for USB 3.0 Users with Linux Kernels 3.3 and Older
 
+## Advanced USB Debugging for USB 3.0 Users with Linux Kernels 3.3 and Older
+
 This article discusses how to control the maximum USB transfer size to troubleshoot two very specific issues that affect certain hardware/driver combinations.
 
 The most common case to use this guide is if you are using the Linux kernel version 3.3 or older. To check what version of the kernel you are using, just run:

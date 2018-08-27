@@ -1,5 +1,7 @@
 # Digital MultipleX \(DMX512\)
 
+## Digital MultipleX \(DMX512\)
+
 DMX512 \(Digital MultipleX\) is a protocol used to control lighting and special effects. A DMX512 network contains a single DMX512 controller and one or more slave devices.
 
 **Top Resources**

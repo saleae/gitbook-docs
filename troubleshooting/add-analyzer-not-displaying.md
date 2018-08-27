@@ -1,4 +1,6 @@
-# The Add Analyzer Menu Is Not Displaying When No Digital Channels Are Enabled
+# The Add Analyzer Menu Is Not Displaying
+
+## The Add Analyzer Menu Is Not Displaying
 
 The add analyzer menu will not appear if no digital channels are enabled for the active device or if you are on a different, previously captured tab which has no digital channels present.
 

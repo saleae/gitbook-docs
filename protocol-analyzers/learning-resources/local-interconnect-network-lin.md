@@ -1,5 +1,7 @@
 # Local Interconnect Network \(LIN\)
 
+## Local Interconnect Network \(LIN\)
+
 LIN \(Local Interconnect Network\) is used for communication between components in vehicles. Used to complement the existing CAN network, LIN is an inexpensive alternative for certain remote components.
 
 **Top Resources**

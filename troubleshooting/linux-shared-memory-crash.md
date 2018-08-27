@@ -1,5 +1,7 @@
 # Linux Shared Memory Crash
 
+## Linux Shared Memory Crash
+
 This article specifically addresses a Linux crash bug that causes the software to crash on launch, usually until the system is restarted.
 
 Error message in log file: "Error: Unable to create shared memory to hold instance number, Qt error code: 1, Qt error string: QSharedMemoryPrivate::initKey: unable to set key on lock"

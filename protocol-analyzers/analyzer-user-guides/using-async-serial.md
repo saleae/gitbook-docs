@@ -1,5 +1,7 @@
 # Using the Async Serial Analyzer
 
+## Using the Async Serial Analyzer
+
 The Saleae software includes a protocol analyzer for serial communication.
 
 Serial communication is a very generic term that means any data that is transmitted serially \(i.e., one bit at a time\). The serial analyzer in the Saleae software is flexible, but it's ultimately designed to only decode serial data that uses the standard start bit and stop bit format. Many other features of the serial analyzer are flexible, though.

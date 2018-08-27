@@ -1,5 +1,7 @@
 # Management Data Input/Output \(MDIO\)
 
+## Management Data Input/Output \(MDIO\)
+
 MDIO is a two-wire serial used to read and write the contents of registers in a specific device. MDIO is used in conjunction with a much higher-speed protocol called Media Independent Interface \(MII\). MDIO and MII are used primarily in network interfaces to connect the Media Access Control \(MAC\) device to the Ethernet Physical Layer \(PHY\) device. MDIO acts as the high-level control, while MII provides the high-speed data throughput.
 
 **Top Resources**

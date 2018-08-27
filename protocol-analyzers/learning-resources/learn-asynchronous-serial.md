@@ -1,5 +1,7 @@
 # Learn Asynchronous Serial
 
+## Learn Asynchronous Serial
+
 Asynchronous serial \(often called simply "serial"\) generally refers to single-wire, half-duplex communication where data bits are located at fixed time intervals after a start bit. Instead of using a dedicated clock line, asynchronous serial requires the receiver to sample the incoming signal at specific time intervals after a start bit's leading edge.
 
 ### **Topology – Where Do the Wires Go?**

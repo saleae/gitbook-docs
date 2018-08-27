@@ -1,5 +1,7 @@
 # Using the SPI Analyzer
 
+## Using the SPI Analyzer
+
 The Saleae software includes a protocol analyzer for the Serial Peripheral Interface \(SPI\) bus.
 
 SPI is a specification that is based on synchronous serial communication.

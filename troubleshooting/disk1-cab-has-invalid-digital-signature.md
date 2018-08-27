@@ -1,4 +1,6 @@
-# The Cabinet File disk1.cab Has an Invalid Digital Signature
+# The Cabinet File disk1.cab has an Invalid Digital Signature
+
+## The Cabinet File disk1.cab has an Invalid Digital Signature
 
 When installing the Saleae software, the following error message may appear: "A file that is required cannot be installed because the cabinet file \[...\]\disk1.cab has an invalid digital signature. This may indicate that the cabinet file is corrupt."
 

@@ -1,5 +1,7 @@
 # Logic Does Not Connect over USB 3.0
 
+## Logic Does Not Connect over USB 3.0
+
 The Saleae Logic Pro 8 and Logic Pro 16 are designed to operate over USB 3.0 but can also operate over USB 2.0 at slower speeds. However, when connected to USB 3.0 ports with USB 3.0 cables, they should operate at higher speeds.
 
 In some cases, even the USB 2.0 Saleae devices will not operate properly over USB 3.0 ports. In this situation, please provide the information requested in "Windows USB 3.0 Host Controller Driver Information."

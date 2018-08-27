@@ -1,5 +1,7 @@
 # The Captured Data Looks Incorrect
 
+## The Captured Data Looks Incorrect
+
 Below is a list of all known reasons and corresponding solutions or next steps that can cause this particular issue. Please check each one, skipping any items that are not relevant \(such as issues specific to an operating system you are not using\).
 
 For each item, first perform the test. If the test result is positive \(the test condition was met\), then attempt the corrective action.

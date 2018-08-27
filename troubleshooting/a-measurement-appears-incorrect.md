@@ -1,4 +1,6 @@
-# A Measurement Taken in the Software Does Not Appear to Be Correct
+# A Measurement Appears Incorrect
+
+## A Measurement Appears Incorrect
 
 This is either a bug in the measurement code in the Saleae software or the measurement is not configured properly.
 

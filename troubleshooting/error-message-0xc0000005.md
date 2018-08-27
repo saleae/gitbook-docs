@@ -1,6 +1,6 @@
 # Error Message: The application was unable to start correctly \(0xc0000005\)
 
-
+## Error Message: The application was unable to start correctly \(0xc0000005\)
 
 This article addresses a specific issue that affects a small number of Windows users. Specifically, the software will crash on launch, generating an "APPCRASH" error message. On launch, a Windows error report window will appear with the heading "Saleae Logic Software has stopped working." This window has an option to expand problem details. There, the "Problem Event Name" will be set to "APPCRASH," and the "Exception Code" will likely be 0xc0000005.
 
