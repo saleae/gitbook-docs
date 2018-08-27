@@ -1,5 +1,7 @@
 # How to Install the Saleae Software from a Script Automatically
 
+## How to Install the Saleae Software from a Script Automatically
+
 The Saleae Software for Windows is packaged using the software tool from [Advanced Installer](http://www.advancedinstaller.com/).
 
 Installers produced with Advanced Installer all respect a number of command line options. The installer \*.exe file can be used with command line options documented here: [http://www.advancedinstaller.com/user-guide/exe-setup-file.html](http://www.advancedinstaller.com/user-guide/exe-setup-file.html)

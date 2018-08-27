@@ -1,4 +1,6 @@
-# How Do I Know Which Logic Analyzer to Get?
+# Which Logic Analyzer Should I Get?
+
+## Which Logic Analyzer Should I Get?
 
 Saleae produces four logic analyzers with a range of capabilities. If you are unsure of which one you will need based on the technical specifications alone, you can find common applications and recommendations here.
 

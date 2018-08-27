@@ -1,6 +1,8 @@
 # Saleae Open Source Support
 
-Good question. I'm generally a fan of community developed software, especially when it's hosted on GitHub. However, this is not a good option in our case.
+## Saleae Open Source Support
+
+I'm generally a fan of community developed software, especially when it's hosted on GitHub. However, this is not a good option in our case.
 
 First and foremost, we believe that the software provides the biggest value of the Saleae products. When you buy a product, the price includes the software. The software is one of the main things that sets us apart from the competition. Open-sourcing the software would give that edge away, and we think it could possibly even end our business.
 

@@ -1,5 +1,7 @@
 # Common Acronyms and Definitions
 
+## Common Acronyms and Definitions
+
 * MSPS 
 
     or MS/s
@@ -122,11 +124,19 @@
 
     additional information added to the data to provide error detection information
 
-* processing backlog
+* Processing backlog
 
     In the Saleae software, the data recorded from the device is transformed to the storage format as it is recorded, in near-real time. If the process is unable to keep up with the recording in real time, the processing backlog will grow as unprocessed data are buffered.
 
-* trigger backlog
+* Trigger backlog
 
     In the Saleae software, when the trigger is used, the processed data are then fed into the trigger in near real-time. If the trigger thread is unable to process the already transformed data in real time, the trigger backlog will grow as processed \(but not yet searched\) data are buffered.
+
+* MHz \(Megahertz\) 
+
+    Millions of cycles per second. It is a measure of frequency, usually in reference to bandwidth.
+
+* Protocol Analyzer
+
+    A software plugin for the Saleae software that will decode standardized signals into bytes.
 

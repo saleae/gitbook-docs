@@ -1,4 +1,6 @@
-# What Is the Maximum Bandwidth?
+# What Is the Maximum Bandwidth of Logic?
+
+## What Is the Maximum Bandwidth of Logic?
 
 The maximum bandwidth of a signal you can record with a logic analyzer depends on the sample rate.
 

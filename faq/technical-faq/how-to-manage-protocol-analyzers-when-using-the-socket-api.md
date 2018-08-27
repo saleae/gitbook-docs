@@ -1,5 +1,7 @@
 # How to Manage Protocol Analyzers when Using the Socket API
 
+## How to Manage Protocol Analyzers when Using the Socket API
+
 The socket API can be used to automate the process of taking a capture, saving it, and exporting protocol results. However, it cannot be used to add, remove, or configure protocol analyzers.
 
 In order to manage protocol analyzers using the socket API, \*.logicsettings files must be used.

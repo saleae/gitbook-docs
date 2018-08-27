@@ -1,5 +1,7 @@
 # How Long Can I Record Data?
 
+## How Long Can I Record Data?
+
 That depends on the capture settings you are using, the amount of memory in your computer, and the nature of the data you are recording.
 
 All our products stream data over USB to the PC in real time. That way, your installed memory acts as the sample buffer.

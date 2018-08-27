@@ -1,5 +1,7 @@
 # How to Trigger the End of a Capture Instead of the Start
 
+## How to Trigger the End of a Capture Instead of the Start
+
 Unfortunately, the Logic software does not support the ability to trigger both the beginning of a capture and the end of the capture at the same time.
 
 However, if you are looking for an event but only can trigger on a pattern that occurs after that event, there is a system for handling this.

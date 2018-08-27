@@ -1,5 +1,7 @@
 # What is Asynchronous Sampling?
 
+## What is Asynchronous Sampling?
+
 Asynchronous sampling means that the timing of when a signal is sampled is independent of the recorded signal.
 
 Saleae Logic Analyzers use asynchronous sampling. They record signals at the sample rate specified by the user.

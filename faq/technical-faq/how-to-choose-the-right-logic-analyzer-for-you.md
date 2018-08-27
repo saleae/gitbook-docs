@@ -1,8 +1,12 @@
 # How to Choose the Right Logic Analyzer for You
 
+## How to Choose the Right Logic Analyzer for You
+
 When choosing a logic analyzer to purchase, there are some capabilities and specifications to keep in mind.
 
-You can find datasheets for the Saleae logic analyzers here: [https://trello.com/c/KXCTCVvG](https://trello.com/c/KXCTCVvG), and you can find a technical comparison between the Saleae products here: [https://www.saleae.com/\#DatasheetTile](https://www.saleae.com/#DatasheetTile).
+You can find datasheets for the Saleae logic analyzers below.
+
+{% page-ref page="../../datasheets-and-specifications/datasheets.md" %}
 
 We encourage you to look online for more information and compare the Saleae products against other available logic analyzers.
 

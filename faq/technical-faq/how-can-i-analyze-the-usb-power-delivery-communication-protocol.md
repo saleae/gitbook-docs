@@ -1,5 +1,7 @@
 # How Can I Analyze the USB Power Delivery Communication Protocol?
 
+## How Can I Analyze the USB Power Delivery Communication Protocol?
+
 Our software unfortunately does not include a decoder for USB PD.
 
 If you're using Biphase Mark Coding, you can use our Manchester analyzer in the Biphase mark mode \(FM1\).

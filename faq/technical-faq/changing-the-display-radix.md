@@ -1,5 +1,7 @@
 # Changing the Display Radix \(Base\)
 
+## Changing the Display Radix \(Base\)
+
 Just about every part of the software that displays a number can display it in a number of display radices. The software supports the following radices.
 
 * Hexadecimal \(base 16\)

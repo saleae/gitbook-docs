@@ -1,10 +1,14 @@
 # Moving Logic to Its Own Host Controller
 
-This details a procedure mentioned in the main article about sampling issues: [https://trello.com/c/dU1FgSAN](https://trello.com/c/dU1FgSAN)
+## Moving Logic to Its Own Host Controller
+
+You may want to move Logic to its own host controller when running into the issue described in the below article.
+
+{% page-ref page="../../troubleshooting/device-not-able-to-keep-up.md" %}
 
 To move the logic analyzer to its own host controller, with no other devices on that host controller, your PC will need at least 2 host controllers. Some laptops will only have one. Follow the steps below for your specific operating system.
 
-**Windows**
+### **Windows**
 
 1. Determine what host controllers are installed on your PC.
 
@@ -37,7 +41,7 @@ To move the logic analyzer to its own host controller, with no other devices on 
 5. You can now see which host each USB device is connected to. You can move devices from port to port until they appear on the other host controller. The easiest way to do this is to attach all non-logic analyzers to a single hub and move that port to port until it's on the other host controller.
 6. Test Logic performance. Optionally, repeat, putting Logic on the other host\(s\).
 
-**OS X**
+### **OS X**
 
 1. Open System report. Apple menu -&gt; About this Mac -&gt; System Report.
 
@@ -54,7 +58,7 @@ To move the logic analyzer to its own host controller, with no other devices on 
 
 4. Test Logic performance. Optionally, repeat, putting Logic on the other host\(s\).
 
-**Linux**
+### **Linux**
 
 1. Run lsusb -t. That will show all devices and hosts as a simple tree view.
 2. Locate Logic. Note: The original Logic may appear as Lakewood Research.

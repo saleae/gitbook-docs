@@ -1,5 +1,7 @@
 # How Long Does It Take to Save a File?
 
+## How Long Does It Take to Save a File?
+
 Sometimes the software can take quite a while to save a file. The time it takes to save a file depends on the size of the capture and the performance of your PC, mainly the disk drive performance. Saving to a network location could be considerably slower.
 
 If the software is not saving files instantly or in under a second, here is a quick way to estimate how long it will take to save a file.

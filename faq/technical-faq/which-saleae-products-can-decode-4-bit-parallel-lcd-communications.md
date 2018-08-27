@@ -1,5 +1,7 @@
 # Which Saleae Products Can Decode 4-Bit Parallel LCD Communications?
 
+## Which Saleae Products Can Decode 4-Bit Parallel LCD Communications?
+
 The 4-bit parallel LCD protocol uses 7 digital signals—4 data channels, an enable signal, a register select signal, and a read/write control signal.
 
 Any Saleae product with 7 or more digital channels can record 4-bit parallel LCD data, which the software can then decode.

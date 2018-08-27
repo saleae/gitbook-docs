@@ -1,5 +1,7 @@
 # Using Saleae Logic Devices with Third-Party Pattern Generators
 
+## Using Saleae Logic Devices with Third-Party Pattern Generators
+
 The Saleae logic analyzers only support data recording and do not have any output mode capability. For application where digital output is required, you will need another device called a digital pattern generator. These devices are used to output pre-defined digital signals on one or more digital channels.
 
 There are many situations where using a pattern generator along with a logic analyzer is beneficial. In general, there are two ways to do this.
@@ -13,8 +15,6 @@ The first case does not require any special support. Each pattern generator on t
 In the second case, it's necessary to export the data from the logic analyzer capture and then import it into the pattern generator software.
 
 Below we describe one possible method for exporting data from the Saleae Logic software for use with the [Byte Paradigm Wave Gen Xpress Digital Pattern Generator](http://www.byteparadigm.com/products/wave-gen-xpress/).
-
-[Users guide](http://www.byteparadigm.com/products/wave-gen-xpress/) \(See section 4.6.2 data sample file for information on supported data formats.\)
 
 The only export format directly compatible from the Saleae software is the binary digital export format with the settings "Output data for each sample" and "Output each sample in a 16-bit word." These settings should produce a file directly compatible with the Byte Paradigm "binary file" format.
 

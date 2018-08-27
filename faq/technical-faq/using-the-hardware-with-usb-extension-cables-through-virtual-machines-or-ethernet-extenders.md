@@ -1,6 +1,6 @@
-# Using the Hardware with USB Extension Cables Through Virtual Machines or Ethernet Extenders
+# Using the Hardware with USB Extension Cables, Through Virtual Machines, or Ethernet Extenders
 
-For more general device connectivity troubleshooting, see this guide: [https://trello.com/c/7vudWNHG](https://trello.com/c/7vudWNHG)
+## Using the Hardware with USB Extension Cables, Through Virtual Machines, or Ethernet Extenders
 
 The Saleae Logic devices have unique USB requirements that can make them hard to use in situations more complex than a basic USB cable connecting the device to the PC.
 

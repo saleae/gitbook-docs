@@ -1,5 +1,7 @@
 # What Sample Rate Is Required for a Given Signal?
 
+## What Sample Rate Is Required for a Given Signal?
+
 As a rule of thumb, you will need to sample digital signals at least 4 times faster than their bandwidth. There is generally no harm in sampling significantly faster than this, and sampling faster improves timing resolution.
 
 Analog signals must be sampled at least 10 times faster than their bandwidth. Sampling faster than this is not recommended for longer captures \(over 100 million analog samples\) due to the higher memory and CPU consumption of faster sample rates.
@@ -8,13 +10,17 @@ First, determine the bandwidths of the signal\(s\) you will record. Signals like
 
 Audio signals have a minimum bandwidth of 22 kHz. When measuring things like battery voltage over time, usually very low bandwidths are required \(less than 1 Hz\). Switching power supplies usually lie in the 10s of kHz to 1 MHz range.
 
-Once you have identified the bandwidth requirements, multiply them by the above factors to determine the minimum sample rates. Then consult the following document to determine which product is capable of these sample rates: [https://trello.com/c/5PpYsCpK](https://trello.com/c/5PpYsCpK)
+Once you have identified the bandwidth requirements, multiply them by the above factors to determine the minimum sample rates. Then understand which product is capable of these sample rates. Don't forget to take into account the number of signals you will need to record at once. Most of the Saleae devices have a trade-off for higher sample rates on fewer channels, so if you need to record a large number of signals at once, make sure you verify the sample rate options with that channel count below.
 
-Also, don't forget to check the digital IO voltage levels and the analog input voltage range of each product: [https://trello.com/c/QJAYu6SN](https://trello.com/c/QJAYu6SN)
+{% page-ref page="what-is-the-maximum-bandwidth.md" %}
 
-Don't forget to take into account the number of signals you will need to record at once. Most of the Saleae devices have a trade-off for higher sample rates on fewer channels, so if you need to record a large number of signals at once, make sure you verify the sample rate options with that channel count, also explained here: [https://trello.com/c/5PpYsCpK](https://trello.com/c/5PpYsCpK)
+Also, don't forget to check the digital IO voltage levels and the analog input voltage range of each product below.
 
-Finally, if you need to record for more than 30 seconds at a time, consult this article regarding maximum buffer size: [https://trello.com/c/FBoVtnEK](https://trello.com/c/FBoVtnEK)
+{% page-ref page="../../user-guide/supported-voltages.md" %}
+
+Finally, if you need to record for more than 30 seconds at a time, consult this article regarding maximum buffer size below.
+
+{% page-ref page="how-long-can-i-record-data.md" %}
 
 **Examples**
 
