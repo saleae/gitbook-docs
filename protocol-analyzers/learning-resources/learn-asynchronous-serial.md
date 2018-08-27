@@ -185,6 +185,113 @@ Let's take a moment to look at how we would pull off reading serial if we didn't
 
 To make things simple, we'll assume that our function is called when the bus is idle \(not right in the middle of some serial data\).
 
+**An Example of Receiving Serial Data on a Microcontroller**
+
+```text
+U8 GetSerialByte()
+
+{
+    U8 serial_byte = 0;  //we'll save our result here.
+    U8 i;
+
+    while ( serial_input == high );  // wait until the start bit
+
+    wait( 1.5_bit_periods ); // wait until we're in the middle of the first bit.
+
+    if ( serial_input == high )
+
+        serial_byte |= 0x80;
+
+    //if the first (in our case least signifincat) bit is high, 
+
+    //we'll need to set the most significant bit.
+
+    //we'll be rotating this to the right, so this bit will 
+
+    //eventually be in the least significant position
+
+    for ( i = 0; i < 7; i++ )
+
+    {
+        serial_byte >>= 1; // shift your result byte to the left by one.  
+
+                           // We'll do this a total of 7 times.
+
+        wait( 1_bit_period );
+
+        if ( serial_input == high )
+            serial_byte |= 0x80;
+
+    }
+
+    //we could also check the stop bits, to see if there is a framing error.
+
+    return serial_byte;
+}
+```
+
+When doing this sort of thing in code, be aware that all operations such as looping, testing bits, setting bits, and so on take time. Note that in the sample above, we have branches that take different amounts of time, depending on conditions. We would want to balance that:
+
+```text
+if( serial_input == high ) serial_byte |= 0x80; else serial_byte |= 0x00;
+```
+
+Even though the 2nd operation does nothing, it will burn the same amount of time as in the opposite case.
+
+If you use loops for timing \(they usually do not behave ideally\), there will be an extra delay in the call and return, for instance.
+
+While you can, in principle, use the microcontroller's data sheet to exactly predict the timing everything takes, it generally is easier to tweak your algorithm using a logic analyzer. For example, you could toggle a pin whenever you read the serial input. You could then look at this pin and compare it with the real serial data, tweaking where needed to make the timing perfect. When you take out the pin toggle code, you'll want to replace it with some NOPs that take the same amount of time. \(Or you can leave it in but change it to operate on a pin that doesn't really exist.\)
+
+### **What Are the Settings for the Saleae Serial Analyzer?**
+
+**Bit Rate**
+
+Bit rate is the number of bits per second being sent. Note: This is also often called baud rate, but that is a term that actually is more relevant to modems and typically misused. It does not actually mean bits per second \([http://en.wikipedia.org/wiki/Baud](http://en.wikipedia.org/wiki/Baud)\).
+
+You can figure out what the bit rate is by recording some data and then measuring how wide the stop bit is.
+
+In the example above, the pulse width of a single bit is measured at about 0.104ms. That is the "bit period," or how long each bit is on the bus. Taking 1/period gives us the frequency and, in this case, yields 9592 bps \(ah hah! probably 9600 bps is what they're going for\).
+
+Once you know the bit rate, you can enter it into the serial analyzer settings.
+
+**Common Serial Bit Rates**
+
+You may notice that there are a lot of serial bit rates that seem very common, such as 9600 bps. This is a legacy of the early serial controllers and reflects the various multiples they were able to produce with their hardware—300, 1200, 9600, 14400, 28800, 57600, 115200. These probably ring a bell. You don't need to limit yourself to these, however; any bit rate is fine. The main thing is that the devices agree to use the same bit rate.
+
+**Bits per Transfer**
+
+Bits per transfer is usually 8, as you might imagine. However, custom serial implementations could easily use a different number of bits per transfer, such as 16 or 32.
+
+**Stop Bits**
+
+The only thing the Saleae analyzer does with the stop bits setting is check for framing errors.
+
+**Parity Bits**
+
+If your application uses the parity bit, here's where you can specify whether the Saleae serial analyzer should check for an even or odd parity. The analyzer will report parity errors if they occur.
+
+**Bit Order**
+
+You can specify if bits arrive—most significant bit first or least significant bit first.
+
+**Inverted**
+
+Sometimes, serial can be inverted logic high means 0 and logic low means 1. If the data look like the idle level is low \(rather than the more common high\), then it might be inverted.
+
+**MP Mode**
+
+MP Mode \(also called multiprocessor mode, muti-drop, or 9-bit serial\) is a version of serial where the most significant data bit \(almost always the last bit\) indicates if the preceding 8 bits are data or an address.
+
+**Serial Data as Displayed on Saleae Logic Analyzers**
+
+**Sampling Dots**
+
+Little white dots are displayed at the location where the analyzer thought they were the correct locations to sample the bits. If that doesn't appear to be lined up properly with the bits, it’s most likely that the sample rate setting doesn't match the real data.
+
+**Error Dots**
+
+If there is a framing error or parity error detected, a red dot will appear where the data were sampled, and the text in the bubble will indicate what the error is.
+
 ### **Further Reading**
 
 **Top Resources**
