@@ -1,5 +1,7 @@
 # International Customs and Duty Information
 
+## International Customs and Duty Information
+
 Saleae ships all international orders via FedEx.
 
 For some countries, mainly EU member countries, Saleae offers the ability to pre-pay customs, which is usually VAT.

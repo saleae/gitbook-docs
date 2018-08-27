@@ -1,5 +1,7 @@
 # Discounts
 
+## Discounts
+
 ### Saleae Discounts
 
 We offer various discount options for our Logic products. For more details and to check if you qualify, [click here](https://blog.saleae.com/saleae-discounts/).

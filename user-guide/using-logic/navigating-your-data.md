@@ -1,5 +1,7 @@
 # Navigating Your Data
 
+## Navigating Your Data
+
 ### **Zooming In and Out**
 
 To zoom in and out, use your mouse wheel.

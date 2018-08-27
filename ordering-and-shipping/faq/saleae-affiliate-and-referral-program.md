@@ -1,5 +1,7 @@
 # Saleae Affiliate and Referral Program
 
+## Saleae Affiliate and Referral Program
+
 #### Saleae Referral Program
 
 Give your colleagues and friends a $50.00 discount when they purchase a Saleae device at full price, and receive $50.00 when they complete their purchase!

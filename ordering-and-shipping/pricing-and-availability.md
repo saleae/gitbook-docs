@@ -1,5 +1,7 @@
 # Pricing and Availability
 
+## Pricing and Availability
+
 ### Pricing
 
 You can find the pricing and part numbers for all of our products below:

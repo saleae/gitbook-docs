@@ -1,5 +1,7 @@
 # Connecting Accessories
 
+## Connecting Accessories
+
 ### **Wire Harness**
 
 There are two types of wire harnesses. A 1x9 wire harness is used by Logic and Logic 16 \(1st-generation products\). A 2x4 wire harness is used by Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16 \(2nd-generation products\).

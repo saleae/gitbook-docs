@@ -1,5 +1,7 @@
 # Using Protocol Analyzers
 
+## Using Protocol Analyzers
+
 Protocol Analyzers decode data that have been encoded according to a particular protocol such as SPI or I2C. The Logic software currently offers 23 protocol analyzers.
 
 ### **Adding Protocol Analyzers**

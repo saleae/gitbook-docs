@@ -1,5 +1,7 @@
 # Recommended USB 3.0 Host Controller Cards
 
+## Recommended USB 3.0 Host Controller Cards
+
 We've tested the following USB 3.0 chipsets:
 
 * Intel 7, 8, and 9 series

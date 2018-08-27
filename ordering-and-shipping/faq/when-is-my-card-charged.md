@@ -1,4 +1,6 @@
-# When Is My Card Charged? Why Did the Authorization Expire Before My Order Shipped?
+# When Is My Card Charged?
+
+## When Is My Card Charged?
 
 There are two ways to pay for orders placed directly on our website, www.saleae.com.
 

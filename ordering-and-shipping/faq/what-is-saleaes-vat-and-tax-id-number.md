@@ -1,10 +1,10 @@
 # What is Saleae's VAT & Tax ID Number?
 
+## What is Saleae's VAT & Tax ID Number?
+
 ### Saleae's USA Tax ID Number
 
 * 35-2530870
-
-
 
 ### Saleae's GB \(United Kingdom\) VAT
 

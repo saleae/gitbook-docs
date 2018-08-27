@@ -1,5 +1,7 @@
 # Collecting Data & Device Settings
 
+## Collecting Data & Device Settings
+
 ### **Collecting Data**
 
 To start collecting data, press the _Start_ button. 

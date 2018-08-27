@@ -1,5 +1,7 @@
 # How Can I Find the Current Status of My Order?
 
+## How Can I Find the Current Status of My Order?
+
 To get updates on an order, [please contact Saleae support](https://contact.saleae.com/hc/en-us/requests/new) and include the order ID number, PO number, or any other identifying information so we can look it up.
 
 Orders placed online at www.saleae.com usually ship within one business day, unless one or more of the items in the order are out of stock. If any items are out of stock, you should have been required to check a box on the cart page acknowledging this.

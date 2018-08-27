@@ -1,5 +1,7 @@
 # Saving, Loading, and Exporting Data
 
+## Saving, Loading, and Exporting Data
+
 ### **Saving Captures**
 
 _Note: Saving a capture only saves the currently selected tab._

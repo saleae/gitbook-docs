@@ -1,5 +1,7 @@
 # Navigating the Software
 
+## Navigating the Software
+
 This section will guide you through the features of the Logic software. This is a great first step to take to familiarize yourself with the features of the software. When no Logic device is connected, the software will work in demo mode, which is virtually identical to how it will function when a device is connected. The demo will help you become familiar with the software before your Logic device arrives.
 
 ### **Navigating the Logic Software**

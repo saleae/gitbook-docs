@@ -1,6 +1,6 @@
 # Using the Trigger
 
-### **Using the Trigger**
+## **Using the Trigger**
 
 The trigger can be used to start capturing data after a specified digital event occurs.
 

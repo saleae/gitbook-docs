@@ -1,5 +1,7 @@
 # Software Glitch Filter
 
+## Software Glitch Filter
+
 The Saleae software includes a feature to suppress short digital pulses in the recorded data. It is designed to help remove noise picked up in the digital recording.
 
 There are several sources of noise in digital captures. You can learn more about them below.

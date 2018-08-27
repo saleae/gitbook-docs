@@ -1,5 +1,7 @@
 # Time & Memory Saving Tools
 
+## Time & Memory Saving Tools
+
 ### **Faster post-processing of analog captures**
 
 After a capture, analog data can be processed faster if Upsampled Pipeline is disabled. 

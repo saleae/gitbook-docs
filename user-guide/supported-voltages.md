@@ -1,5 +1,7 @@
 # Supported Voltages
 
+## Supported Voltages
+
 There are two important specifications to keep in mind when determining what signals can be recorded with the Saleae products and what signals could potentially damage the device.
 
 The first is the supported IO thresholds. These define the voltage thresholds that determine what is recorded as a digital 0 and a digital 1.

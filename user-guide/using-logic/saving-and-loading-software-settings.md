@@ -1,5 +1,7 @@
 # Saving and Loading Software Settings
 
+## Saving and Loading Software Settings
+
 The Saleae software includes two features to save and reload your work. The first is the ability to save and reload the entire capture, complete with settings, analyzers, and the captured data. The second is the ability to save the setup without captured data.
 
 The saved setup file contains the following information:

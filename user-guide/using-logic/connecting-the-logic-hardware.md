@@ -1,6 +1,6 @@
 # Connecting the Logic Hardware
 
-### **Connecting Logic to the PC**
+## Connecting the Logic Hardware
 
 1. Open the Logic software
 2. Connect one end of the included USB cable to the Logic analyzer

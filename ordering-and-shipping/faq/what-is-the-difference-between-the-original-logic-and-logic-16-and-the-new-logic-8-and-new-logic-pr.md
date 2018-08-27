@@ -1,5 +1,7 @@
 # What Is the Difference Logic/Logic16 and Logic 8/Pro 8/Pro 16?
 
+## What Is the Difference Logic/Logic16 and Logic 8/Pro 8/Pro 16?
+
 The original Logic and Logic 16 were discontinued in mid-2014 when they were replaced with a new line of products—Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16.
 
 The new Logic 8 is significantly more advanced than the original Logic device.

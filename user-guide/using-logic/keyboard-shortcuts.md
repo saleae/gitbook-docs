@@ -1,5 +1,7 @@
 # Keyboard Shortcuts
 
+## Keyboard Shortcuts
+
 \(On OSX, CTRL is replaced by Command\)
 
 **Start a Capture**: CTRL-R

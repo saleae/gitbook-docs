@@ -1,6 +1,6 @@
 # Simulation Mode
 
-### **Simulation Mode**
+## **Simulation Mode**
 
 When the software is not connected to a Saleae Logic device, it switches into simulation mode so potential users can explore the features of the software before deciding to buy the unit.
 

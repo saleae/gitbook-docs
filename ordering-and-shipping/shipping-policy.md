@@ -1,5 +1,7 @@
 # Shipping Policy
 
+## Shipping Policy
+
 We primarily ship with FedEx. To check which options are available in your country, simply add an item to the cart on www.saleae.com and select your country. In the United States, you need to first enter your zip code to see the available shipping options. You can find the price of shipping at the same time.
 
 If you are shipping to a country outside the US, there will likely be additional charges for duty and tax, due on receipt. In some locations \(i.e., most of the EU\), we offer the ability to pre-pay import taxes such as VAT. You will see what options are available on the cart page.

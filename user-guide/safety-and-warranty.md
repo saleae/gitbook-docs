@@ -1,5 +1,7 @@
 # Safety & Warranty
 
+## Safety & Warranty
+
 {% hint style="info" %}
 Before operating your Saleae Logic product for the first time, please carefully review the safety guidelines below to avoid any injury and damage.
 {% endhint %}

@@ -1,5 +1,7 @@
 # Software Download & Installation
 
+## Software Download & Installation
+
 ### **Downloading the Latest Software**
 
 The Saleae Logic software is available free of charge, and can be installed on as many machines as you like.

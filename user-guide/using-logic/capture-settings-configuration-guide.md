@@ -1,5 +1,7 @@
 # Capture Settings Configuration Guide
 
+## Capture Settings Configuration Guide
+
 The new Saleae devices are considerably more capable than the first generation \(Logic and Logic16\). The new products have inputs that can be used to record analog, digital, or both. On all but Logic 4, this is applicable to every channel on the device. That leads to many more sample rate options, which can be confusing. In some cases, it makes it harder to decide the optimal capture configuration for your application.
 
 Because if this, we get a fair number of customer support questions about how to choose the optimal capture configuration for an application. To help users determine the best setup for them, we're creating this guide. The guide also contains a number of tips for recording with more complex requirements.

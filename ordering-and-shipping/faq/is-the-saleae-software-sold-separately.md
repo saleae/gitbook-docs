@@ -1,5 +1,7 @@
 # Is the Saleae Software Sold Separately?
 
+## Is the Saleae Software Sold Separately?
+
 The Saleae software is not sold separately. The cost of the software is included in the cost of the product and can be downloaded directly from our website here:
 
 [https://www.saleae.com/downloads](https://www.saleae.com/downloads)

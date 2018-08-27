@@ -1,4 +1,6 @@
-# What Is Included with the Product? Do I Need to Purchase Any Additional Accessories to Use the Unit?
+# What Is Included with the Product?
+
+## What Is Included with the Product?
 
 Each Saleae unit comes with all the necessary probes, wire harnesses, and a USB cable to use the unit. In addition, it comes in a custom neoprene zippered carrying case.
 
