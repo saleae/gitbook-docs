@@ -30,6 +30,10 @@ The windows driver update check will NOT update USB 3.0 host controller drivers.
 
 **Part 1: Troubleshooting the Hardware for Issues**
 
+If you are troubleshooting Logic Pro 8 or Logic Pro 16, please check the link below to double check its connection to your PC via USB 3.0. Otherwise, move straight to Process a Warranty.
+
+{% page-ref page="logic-does-not-connect-over-usb3.md" %}
+
 {% page-ref page="../180-day-return-policy-and-3-year-warranty/process-a-warranty.md" %}
 
 **Part 2: Troubleshooting the Connection to the Software**

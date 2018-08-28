@@ -58,7 +58,16 @@ For each item, first perform the test. If the test result is positive \(the test
 ### **The Software Will Not Launch \(All Platforms\)**
 
 * Test: When trying to run the software, nothing happens. The software does not appear. No error message is displayed.
-* Corrective Action: Try deleting settings.xml, which may have become corrupt. It can be located here:  
+* Corrective Action: Try deleting the settings file called settings.xml, which may have become corrupt.
+
+{% hint style="info" %}
+Before you can find and delete settings.xml...
+
+* On Windows - Showing hidden files and folders should be enabled. [Instructions Here](https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files)
+* On OSX - Showing the Library folder should be enabled. [Instructions Here](https://helpx.adobe.com/x-productkb/global/access-hidden-user-library-files.html)
+{% endhint %}
+
+* It can be located here:  
   On Vista/7/8/10:
 
   > C:\Users\YourUserName\AppData\Roaming\Saleae LLC\Logic\settings.xml

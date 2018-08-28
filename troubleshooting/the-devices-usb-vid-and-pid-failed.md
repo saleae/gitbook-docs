@@ -6,12 +6,14 @@ Each Logic analyzer contains USB device identification information. If the memor
 
 Here are the correct VID and PID pairs for each products found in the Saleae drivers:
 
-* Logic:             VID 0x0925 PID 0x3881
-* Logic 16:     VID 0x21A9 PID 0x1001
-* Logic 4:     VID 0x21A9 PID 0x1003
-* Logic 8:     VID 0x21A9 PID 0x1004
-* Logic Pro 8:     VID 0x21A9 PID 0x1005
-* Logic Pro 16: VID 0x21A9 PID 0x1006
+| Device | VID & PID |
+| :--- | :--- |
+| Original Logic | VID 0x0925, PID 0x3881 |
+| Logic16 | VID 0x21A9, PID 0x1001 |
+| Logic 4 | VID 0x21A9, PID 0x1003 |
+| Logic 8 | VID 0x21A9, PID 0x1004 |
+| Logic Pro 8 | VID 0x21A9, PID 0x1005 |
+| Logic Pro 16 | VID 0x21A9, PID 0x1006 |
 
 **How to Check the VID and PID Pair**
 
