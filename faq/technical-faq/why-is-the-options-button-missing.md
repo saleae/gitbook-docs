@@ -1,4 +1,6 @@
-# Where is the Options Button?
+# The Options Button is Missing
+
+## The Options Button is Missing
 
 On Windows Vista through Windows 10, the older software \(up to and including 1.1.18\) uses a theme that causes the software background to match the system color scheme. However, the options menu and timing display are always white, which can be very hard to see when the system window color is very light.
 

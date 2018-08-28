@@ -1,5 +1,7 @@
 # Packet Level Decoding Support in the Analyzer SDK
 
+## Packet Level Decoding Support in the Analyzer SDK
+
 Many protocol analyzers could benefit from multiple layers of protocol analysis—from the symbol level for odd line encoding formats to packet levels for more complex protocols such as USB.
 
 Ultimately, we would like to add built-in support for these extra layers in the Saleae analyzer SDK. However, that is not currently possible with the existing SDK. Instead, we suggest the following pattern to implement this support now.

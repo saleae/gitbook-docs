@@ -1,8 +1,10 @@
 # How Can I Compare Signals from Different Captures?
 
+## How Can I Compare Signals from Different Captures?
+
 Currently, the software does not contain specific features for comparing data between captures. You can comment on and vote for these features here:
 
-[http://ideas.saleae.com/forums/214303-saleae-ideas/suggestions/5741176-be-able-to-compare-waveforms](http://ideas.saleae.com/forums/214303-saleae-ideas/suggestions/5741176-be-able-to-compare-waveforms)
+[https://ideas.saleae.com/ideas/SALEAE-I-468](https://ideas.saleae.com/ideas/SALEAE-I-468)
 
 Currently, the best way to compare signals from two or more captures is as follows:
 

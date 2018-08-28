@@ -1,5 +1,7 @@
 # Why is the Length of my Capture Incorrect?
 
+## Why is the Length of my Capture Incorrect?
+
 The Saleae logic devices usually capture data in buffers of 1/30th of a second \(or about 33 ms\), sometimes smaller. The capture time specified is then rounded up to this number.
 
 When using a trigger, it is possible that the software will even record more than this number of post-trigger samples if the trigger processing process gets backlogged and is unable to run in real time.

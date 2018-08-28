@@ -1,5 +1,7 @@
 # Do I Have a USB 3.0 Port?
 
+## Do I Have a USB 3.0 Port?
+
 Usually, if the interior of the port is blue in color or there is a USB SS logo on the port, it's a USB 3.0 port. However, there are some exceptions to that:
 
 * Custom built PCs: If the computer was built with an aftermarket computer chassis, then there is no guarantee that the blue ports on the case are USB 3.0.

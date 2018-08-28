@@ -1,5 +1,7 @@
 # Support for USB 3.0 and USB 3.1
 
+## Support for USB 3.0 and USB 3.1
+
 All Saleae Logic devices will work properly when connected to a USB 3.0 port, a USB 3.1 gen 1 port, or a USB 3.1 gen 2 port.
 
 The Saleae USB 2.0 devices will operate at USB 2.0 speeds \(called high speed\), and the USB 3.0 devices will operate at USB 3.0 speeds \(called super speed\).
