@@ -1,5 +1,7 @@
 # Finding Your USB 3.0 Host Controller Information
 
+## Finding Your USB 3.0 Host Controller Information
+
 On Windows, the latest Saleae software has a feature to automatically retrieve this information.
 
 First, open the options menu and select Preferences.

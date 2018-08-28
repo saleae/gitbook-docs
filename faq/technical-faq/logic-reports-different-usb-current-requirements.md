@@ -1,4 +1,6 @@
-# Why Does the Logic Analyzer Report Different USB Current Requirements when Not Connected to the Logi
+# Logic Reports Different USB Current Requirements
+
+## Logic Reports Different USB Current Requirements
 
 All Saleae devices are powered from USB.
 

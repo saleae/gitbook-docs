@@ -1,5 +1,7 @@
 # How to Trigger On a Pulse with No Maximum Time Limit
 
+## How to Trigger On a Pulse with No Maximum Time Limit
+
 The pulse width trigger in the Saleae Logic software has extra features to allow it to be used to detect events other than pulses.
 
 Specifically, the maximum pulse length time can be set to "n/a", and in that mode, the trigger will automatically fire when it detects the following: 1. The pulse has started \(e.g., a negative edge occurs while a negative pulse trigger is active\). 2. The channels maintain state for the minimum trigger pulse width time.
