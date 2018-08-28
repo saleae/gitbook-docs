@@ -1,6 +1,6 @@
 # 180-Day Return Policy
 
-### 180-Day Return Policy
+## 180-Day Return Policy
 
 The 180-day return policy only applies to products purchased directly from Saleae, either from our website, www.saleae.com, or on a purchase order directly with Saleae.
 

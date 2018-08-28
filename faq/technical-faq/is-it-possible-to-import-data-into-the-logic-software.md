@@ -1,5 +1,7 @@
 # Is It Possible to Import Data into the Logic Software?
 
+## Is It Possible to Import Data into the Logic Software?
+
 It is not possible to import data into the Logic software. It can only take captures or open captures that were saved with the Logic software.
 
 It is also not possible to import a previously exported CSV file back into the Logic software.

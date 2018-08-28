@@ -1,5 +1,7 @@
 # What Is the Best Way to Compare Similar Sequences of Protocol Data?
 
+## What Is the Best Way to Compare Similar Sequences of Protocol Data?
+
 The Saleae software does not have a built-in tool for comparing sequences of protocol data. Instead, we offer the following recommendations.
 
 **Basic Comparisons** First, for rough, quick comparisons between captures with relatively short bursts of repeating protocol data, we recommend saving several sample captures. It's okay if the sequences you want to compare are in the same capture. Then open two or more instances of the Saleae software. Note that there are not currently any features to synchronize viewing multiple captures, so it's probably best to only use two instances. Open a sample capture in each so you have at least one copy of the sequence in each instance. From there, you can view both sequences simultaneously.
@@ -17,9 +19,13 @@ _Suggestions to Match the Displays_
 
 If the sequence you're trying to compare is longer in length or is more complex than a simple repeating sequence, or if you need to compare a large number of instances of that sequence, then the best option is to export to CSV and then perform the comparison in Excel.
 
-For details on how to export to CSV, see this guide: [https://trello.com/c/rOusLFdv](https://trello.com/c/rOusLFdv)
+For details on how to export to CSV, see this guide:
 
-Also, be sure to use a display base that is best suited for your data \(usually either Hex or ASCII\). [https://trello.com/c/rNmkwkmP](https://trello.com/c/rNmkwkmP)
+{% page-ref page="../../user-guide/using-logic/saving-loading-and-exporting-data.md" %}
+
+Also, be sure to use a display base that is best suited for your data \(usually either Hex or ASCII\).
+
+{% page-ref page="changing-the-display-radix.md" %}
 
 I recommend copying the contents from each export file into a master Excel document. You may want to start with 1 sheet per export, but eventually, you will want to move many instances of the sequence into the same sheet.
 

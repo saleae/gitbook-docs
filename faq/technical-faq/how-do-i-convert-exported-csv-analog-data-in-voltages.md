@@ -1,6 +1,6 @@
 # How Do I Convert Exported CSV Analog Data in Voltages?
 
-
+## How Do I Convert Exported CSV Analog Data in Voltages?
 
 When exporting analog data to CSV with the setting 'Output Array of Raw ADC Samples', samples exported in this mode have not been adjusted for DC gain and shift. In order to convert these to voltages, you need to extract the correct coefficients from the Saleae calibration file.
 

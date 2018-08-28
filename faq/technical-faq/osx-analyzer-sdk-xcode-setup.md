@@ -1,5 +1,7 @@
 # OSX Analyzer SDK Xcode Setup
 
+## OSX Analyzer SDK Xcode Setup
+
 This guide was written using the 1.1.32 Analyzer SDK, Xcode version 7.2.1, and OSX 10.10.5. However, it is likely to work with other versions as well.
 
 * Start Xcode
@@ -140,7 +142,10 @@ This guide was written using the 1.1.32 Analyzer SDK, Xcode version 7.2.1, and O
 
 ![18](https://trello-attachments.s3.amazonaws.com/56b91491ba4869819221c3a5/1400x960/3b2d436bb20fba165f0b8713f9ebb11e/18_-_breakpoint_set.png)
 
-* Before proceeding, see this article with instructions to configure the software to load your new analyzer: [https://trello.com/c/LEFlqhlL](https://trello.com/c/LEFlqhlL).
+* Before proceeding, see this article with instructions to configure the software to load your new analyzer.
+
+{% page-ref page="setting-up-developer-directory.md" %}
+
 * Be sure to select the folder where the debug version of the custom analyzer is saved.
 * Once the Saleae logic software has been configured and has been closed, click Run from Xcode.
 * The Saleae software should launch a few seconds later. Click the "+" button on the analyzers panel and then select your analyzer. In this case, the user facing name of the analyzer was set by the Python script to "Xcode Analyzer". Yours may be different.

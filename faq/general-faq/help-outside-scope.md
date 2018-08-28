@@ -1,5 +1,7 @@
 # How Do I Get More Help on an Issue That's Outside the Scope of Saleae Support?
 
+## How Do I Get More Help on an Issue That's Outside the Scope of Saleae Support?
+
 We occasionally receive technical support requests that are either tangentially related to our products or even unrelated to our products.
 
 I thoroughly enjoy answering these questions to the best of my ability, providing the best advice I can, even if the solution does not involve our product. However, we're not always able to help as much as I would like, and our support system really isn't the ideal place for us to provide this kind of support.

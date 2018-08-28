@@ -1,5 +1,7 @@
 # File Format Description for Exporting Protocol Analyzer Results
 
+## File Format Description for Exporting Protocol Analyzer Results
+
 The Saleae Logic software includes about two dozen or more protocol analyzers. These analyzers are used to decode protocol data from a capture.
 
 Each protocol analyzer supports exporting its results to a text or CSV file. More information on using protocol analyzers and exporting results can be found in the user's guide below.

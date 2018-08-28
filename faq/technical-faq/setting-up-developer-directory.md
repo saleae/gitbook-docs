@@ -1,4 +1,6 @@
-# How to Set the Developer Directory in the Saleae Software to Use Third-Party or User-Created Analyze
+# Setting Up the Developer Directory to Use Custom Analyzers
+
+## Setting Up the Developer Directory to Use Custom Analyzers
 
 These instructions show how to set up the Saleae software to load custom protocol analyzers.
 

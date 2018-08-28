@@ -1,5 +1,7 @@
 # How to Identify Each Saleae Device
 
+## How to Identify Each Saleae Device
+
 The current products:
 
 * Logic 8

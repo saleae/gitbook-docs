@@ -1,5 +1,7 @@
 # Ideas & Voting
 
+## Ideas & Voting
+
 Want to **share an idea for a new feature**? Post your idea on our ideas site below! 
 
 ### [Saleae Ideas Site](https://ideas.saleae.com/)

@@ -1,5 +1,7 @@
 # What Options Are There to Export Multiple Protocol Analyzer Results into the Same File?
 
+## What Options Are There to Export Multiple Protocol Analyzer Results into the Same File?
+
 The Saleae software has two protocol export systems as detailed at the end of the article below. 
 
 {% page-ref page="../../user-guide/using-logic/using-protocol-analyzers.md" %}

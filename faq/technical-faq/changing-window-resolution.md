@@ -1,4 +1,6 @@
-# Is There a Way to Change the Window Resolution? I Have a 4k Display, and the Window and Font Sizes A
+# Is There a Way to Change the Window Resolution?
+
+## Is There a Way to Change the Window Resolution?
 
 With high dpi monitors, applications can be difficult to see and read.
 

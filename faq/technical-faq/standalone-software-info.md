@@ -1,5 +1,7 @@
 # Standalone Software Information
 
+## Standalone Software Information
+
 The standalone version of our software can be useful in many different situations and can be downloaded below.
 
 {% page-ref page="../../logic-software/latest-stable-release-download.md" %}

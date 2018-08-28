@@ -32,6 +32,10 @@ The documentation for the Analyzer SDK can be found in the pdf and on GitHub. Th
 
 * [Saleae Analyzer SDK Documentation](https://github.com/saleae/SampleAnalyzer/blob/master/docs/Saleae%20Analyzer%20SDK%20%28older%29.pdf)
 
+### Point Logic Software to your Custom Analyzers
+
+{% page-ref page="../faq/technical-faq/setting-up-developer-directory.md" %}
+
 ### Protocol Analyzers Source Code Github
 
 * [Async RGB LED Analyzer](https://www.github.com/saleae/async-rgb-led-analyzer)

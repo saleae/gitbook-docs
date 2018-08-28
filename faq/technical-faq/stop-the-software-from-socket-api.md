@@ -1,4 +1,6 @@
-# How Can I Stop a Capture or Close the Software from the Socket API or the Command Line?
+# Stop a Capture or Close the Software from the Socket API or the Command Line
+
+## Stop a Capture or Close the Software from the Socket API or the Command Line
 
 Yes, the socket API has a command to stop a capture: "STOP\_CAPTURE". This is documented in the socket API documentation.
 

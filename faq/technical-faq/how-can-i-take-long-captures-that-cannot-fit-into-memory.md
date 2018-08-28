@@ -1,5 +1,7 @@
 # How Can I Take Long Captures That Cannot Fit into Memory?
 
+## How Can I Take Long Captures That Cannot Fit into Memory?
+
 **Managing Memory Usage in the Saleae Application**
 
 The Saleae software does not support streaming captured data to disk. Instead, a single capture has to reside in memory until it is saved and closed.

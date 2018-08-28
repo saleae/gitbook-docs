@@ -1,5 +1,7 @@
 # Suggestions for Capturing Multiple Instances of a Triggered Event Automatically
 
+## Suggestions for Capturing Multiple Instances of a Triggered Event Automatically
+
 Unfortunately, the software does not currently have a feature to automatically capture, save, and start a new capture. However, there are several possible alternatives.
 
 ### **Use a Single, Long Duration Capture**

@@ -1,5 +1,7 @@
 # Is There a Newer Version of the Software Available?
 
+## Is There a Newer Version of the Software Available?
+
 Normally, when connected to the Internet, the software will inform you when a newer version of the software is available by displaying the latest version available near the bottom of the Options menu.
 
 Example:

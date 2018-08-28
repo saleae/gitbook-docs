@@ -1,4 +1,6 @@
-# Why Are the Options 'Save Capture' and 'Export Data' Disabled in the Logic Software?
+# 'Save Capture' and 'Export Data' is Disabled in the Software
+
+## 'Save Capture' and 'Export Data' is Disabled in the Software
 
 There are two reasons these two options could be disabled.
 

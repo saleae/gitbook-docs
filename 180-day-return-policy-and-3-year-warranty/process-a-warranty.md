@@ -1,12 +1,10 @@
 # Process a Warranty
 
-### Troubleshooting Steps
+## Process a Warranty - Troubleshooting Steps
 
 {% hint style="info" %}
 If you believe your Logic hardware is broken, please completely perform the troubleshooting steps below and take note of the results so we can verify the source of the problem.
 {% endhint %}
-
-
 
 **1. Test with the Latest Beta Software. Download link is below.**
 

@@ -1,5 +1,7 @@
 # Discontinued Products
 
+## Discontinued Products
+
 {% hint style="info" %}
 Have no fear! Our discontinued products will continue to work with the latest version of the software and are still supported! We have simply stopped selling them.
 {% endhint %}

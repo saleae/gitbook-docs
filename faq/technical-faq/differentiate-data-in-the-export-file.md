@@ -1,5 +1,7 @@
 # How Do I Differentiate Data in the Export File when Duplicate Analyzers Are Used?
 
+## How Do I Differentiate Data in the Export File when Duplicate Analyzers Are Used?
+
 At times, you might want to use duplicate analyzers. For example, two I2C analyzers might be enabled within a single capture, as shown below.
 
 ![Duplicate analyzers](https://trello-attachments.s3.amazonaws.com/55f0a61a10f9f592573a4205/5931def5dd8c0584df677907/8579c2783b030636e5199c431ccd6cec/duplicate_analyzers.png)
