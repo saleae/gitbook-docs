@@ -64,7 +64,7 @@ For each item, first perform the test. If the test result is positive \(the test
 Before you can find and delete settings.xml...
 
 * On Windows - Showing hidden files and folders should be enabled. [Instructions Here](https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files)
-* On OSX - Showing the Library folder should be enabled. [Instructions Here](https://helpx.adobe.com/x-productkb/global/access-hidden-user-library-files.html)
+* On OSX - Showing the Library folder should be enabled. [Instructions Here](https://discussions.apple.com/thread/8137224?answerId=8137224021#8137224021)
 {% endhint %}
 
 * It can be located here:  
