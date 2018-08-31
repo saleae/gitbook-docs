@@ -8,7 +8,7 @@
 
 ### Saleae's GB \(United Kingdom\) VAT
 
-* GB-281123235
+* GB281123235
 * [Verify our VAT number here](http://ec.europa.eu/taxation_customs/vies/vatResponse.html)
 
 
