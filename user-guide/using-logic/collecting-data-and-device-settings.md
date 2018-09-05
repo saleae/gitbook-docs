@@ -26,7 +26,7 @@ If the software incorrectly reports _Disconnected_, please follow this troublesh
 
 ### \*\*\*\*
 
-### **'Device Settings**
+### **Device Settings**
 
 To access device settings, click the up or down arrow in the top-left of the software. To close the Device Settings, click on something outside the popover. The Device Settings pop-up consists of the following sections.
 
