@@ -12,6 +12,8 @@ When using the standalone version of the software, the drivers must be installed
 
 We've started releasing beta versions of the software again, starting with 1.2.19. The latest production release is 1.2.18 and can be downloaded [here](https://www.saleae.com/downloads).
 
+There is also a more recent alpha release available - however it is not intended for heavy use, and is very much an in-progress build. [Alpha Release](alpha-release.md)
+
 **Windows**  
 [Logic Setup 1.2.29.exe](http://downloads.saleae.com/logic/1.2.29/Logic+Setup+1.2.29.exe)
 
