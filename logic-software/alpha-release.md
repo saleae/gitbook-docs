@@ -1,12 +1,12 @@
 # Alpha Release
 
-Hello! Alpha releases are in-progress builds of the Logic software while new features are largely incomplete. This allows us to get incremental feedback while we're still far from what we would consider a polished, stable, release. The alpha release software is not meant for intense use. We recommend using the production or beta release for actual work.
+Hello! Alpha releases are in-progress builds of the Logic software while new features are largely incomplete. This allows us to get incremental feedback while we're still far from what we would consider a polished, stable release. The alpha release software is not meant for intense use. We recommend using the production or beta release for actual work.
 
 ### What's going on?
 
 For the last few months, we've been hard at work on several areas of the software.
 
-The HTML UI migration
+**The HTML UI migration**
 
 We're working on migrating the UI of the application from the C++ framework we've used in the past to a HTML & javascript UI. This makes it easy to develop cross platform user interfaces while also allowing us to use the most modern UI development ecosystem available. The back end of the application, everything from device communication and data capture to processing and rendering is still done in C++ of course.
 
