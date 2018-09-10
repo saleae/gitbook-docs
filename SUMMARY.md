@@ -105,6 +105,7 @@
     * [Legacy Software for OSX 10.4 and 10.5](logic-software/legacy-software/legacy-software-for-osx-10.4-and-10.5.md)
     * [Older Linux glibc Support](logic-software/legacy-software/older-linux-glibc-support.md)
     * [Legacy .logicsession Files](logic-software/legacy-software/legacy-.logicsession-files.md)
+  * [Alpha Release](logic-software/alpha-release.md)
 * [Automation & SDK](saleae-api-and-sdk/README.md)
   * [What Saleae APIs are Available?](saleae-api-and-sdk/what-apis-are-available.md)
   * [Automation Scripting](saleae-api-and-sdk/socket-api.md)
