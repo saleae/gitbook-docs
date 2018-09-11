@@ -16,9 +16,15 @@ Although this won't be immediately obvious to users, and is not present in the 1
 
 ### Saleae Logic 1.2.30 Alpha
 
-We're still working on the Windows packaging of the 1.2.30 alpha release, but in the mean time, here are the MacOS and Linux releases.
+Windows 64 bit:
+
+[https://downloads.saleae.com/betas/1.2.30/Logic-1.2.30-win64.zip](https://downloads.saleae.com/betas/1.2.30/Logic-1.2.30-win64.zip)
+
+MacOS:
 
 [https://downloads.saleae.com/betas/1.2.30/Logic-1.2.30-MacOS.dmg](https://downloads.saleae.com/betas/1.2.30/Logic-1.2.30-MacOS.dmg)
+
+Linux 64 bit:
 
 [https://downloads.saleae.com/betas/1.2.30/Logic-1.2.30.AppImage](https://downloads.saleae.com/betas/1.2.30/Logic-1.2.30.AppImage)
 
