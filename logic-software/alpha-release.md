@@ -22,7 +22,7 @@ We're still working on the Windows packaging of the 1.2.30 alpha release, but in
 
 [https://downloads.saleae.com/betas/1.2.30/Logic-1.2.30.AppImage](https://downloads.saleae.com/betas/1.2.30/Logic-1.2.30.AppImage)
 
-For the best experience, be sure to have Google Chrome installed. Otherwise the application will fall back to the default browser on your system. 
+Google Chrome needs to be installed for the html UI to work. If the application is unable to locate Google Chrome, the web interface will not be displayed.
 
 **What's different about 1.2.30?**
 
