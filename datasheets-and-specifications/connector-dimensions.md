@@ -6,6 +6,12 @@ Below are several recommendations for integrating the Saleae devices into new de
 
 1\) Add 4x2 male headers to your PCB and use the Saleae accessory cable "Logic-to-2x4 Header \(Gen 2\)" to connect any of the current Saleae logic analyzers to your circuit. [Accessories can be purchased here](https://www.saleae.com/accessories).
 
+Our 4x2 connectors are comprised of:
+
+* Black plastic housing which dictates the pitch \(2.54mm/.100in pitch\)
+* 8 crimps
+* Datasheet for the crimps: [https://www.mouser.com/datasheet/2/276/0016020086\_CRIMP\_TERMINALS-158329.pdf](https://www.mouser.com/datasheet/2/276/0016020086_CRIMP_TERMINALS-158329.pdf)
+
 The Gen 2 accessories are compatible with these devices:
 
 * Logic 4
