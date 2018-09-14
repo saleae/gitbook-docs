@@ -1,5 +1,7 @@
 # How to Analyze I2C
 
+## How to Analyze I2C
+
 Inter-Integrated Circuit \(I2C or IIC\) is a 2-wire communication protocol that allows multiple low-speed peripherals, such as sensors, to be attached to the same bus. Normally, a single microprocessor or microcontroller is configured as the master, which initiates all communication on the bus.
 
 The 2 lines used in I2C are Serial Data Line \(SDA\) and Serial Clock Line \(SCL\). The lines are [open collector or open drain](https://en.wikipedia.org/wiki/Open_collector), which means the drivers on the master or devices can pull the lines low but cannot pull them high. This configuration prevents damage to the drivers when more than one device attempts to communicate on the bus at the same time.

@@ -1,5 +1,7 @@
 # How to Analyze SPI
 
+## How to Analyze SPI
+
 Serial Peripheral Interface \(SPI\) is a communication protocol often used between processors and devices that require a relatively fast interface, such as shift registers, flash memory, and some sensors. It is a _synchronous_ protocol, which means it requires a separate clock line so that the transmitter can tell the receiver when to sample the data line.
 
 Interestingly, SPI connections often rely on two data lines: MISO and MOSI. Because of this, data can be sent between the master and device at the same time \(_full duplex_\).

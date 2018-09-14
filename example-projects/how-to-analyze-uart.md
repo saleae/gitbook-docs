@@ -1,5 +1,7 @@
 # How to Analyze UART
 
+## How to Analyze UART
+
 Universal Asynchronous Receiver/Transmitter \(UART\) is a fairly simple protocol with two lines \(transmit and receive\) going between two devices. The lines are normally held high until one of the devices wishes to communicate. At which point, the transmitting device pulls its transmit line low and sends out data with logic high being 1 and logic low being 0.
 
 Example code is provided below for [Arduino](https://www.arduino.cc/), [mbed](https://os.mbed.com/), or [AC6 System Workbench for STM32 \(SW4STM32\)](http://www.openstm32.org/).

@@ -1,5 +1,7 @@
 # How to Measure Digital Logic
 
+## How to Measure Digital Logic
+
 The easiest way to test your Logic Analyzer is to use it to measure digital signals, that is, voltages that transition between two discrete values, such as 0 V and 3.3 V.
 
 To demonstrate this, the example code \(see below\) for the STM32 Nucleo-F446RE can be uploaded via [Arduino](https://www.arduino.cc/), [mbed](https://os.mbed.com/), or as a project for the [AC6 System Workbench for STM32 \(SW4STM32\)](http://www.openstm32.org/) integrated development environment \(IDE\).

@@ -1,5 +1,7 @@
 # How to Measure Analog Signals
 
+## How to Measure Analog Signals
+
 One useful feature of your Saleae Logic Analyzer is its ability to measure analog signals \(from 0 to 5 V\). As such, it can function as an oscilloscope with up to 8 channels \(for the Logic 8 and Logic Pro 8\) or 16 channels \(for the Logic Pro 16\).
 
 Depending on the number of channels you use, the Logic 8 can sample up to 10 MS/s \(bandwidth of 1 MHz\). The Logic Pro 8 and Logic Pro 16 can sample up to 50 MS/s \(bandwidth of 5 MHz\).
