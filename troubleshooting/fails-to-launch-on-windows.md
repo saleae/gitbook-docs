@@ -8,7 +8,7 @@ This article covers a very specific set of potential issues. Specifically, it co
 
 **The software downloaded and installed successfully. I see shortcuts to the Logic software on my desktop and start menu. However, when I try to open the software, nothing happens, or I see a Windows error message, not the Saleae software error reporter dialog.**
 
-![Saleae error reporter](https://trello-attachments.s3.amazonaws.com/566f6b55b646f22a96776611/482x136/0a4c4435f07304337d40b8ed2874da14/error_reporter.png)
+![Saleae Error Reporter](https://trello-attachments.s3.amazonaws.com/566f6b55b646f22a96776611/482x136/0a4c4435f07304337d40b8ed2874da14/error_reporter.png)
 
 **Normal Saleae software error uploader. If you see this, then this is not the correct support article for your issue. Please see the article below.**
 
