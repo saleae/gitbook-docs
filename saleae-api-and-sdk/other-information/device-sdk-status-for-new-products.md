@@ -2,6 +2,10 @@
 
 ## Device SDK Status for New Products
 
+{% hint style="info" %}
+Please note that the Device SDK \(used to access raw data in real time\) is not supported by Saleae at this time. We still provide the Device SDK for download for those who have it already running with our Original Logic and Logic16. The Device SDK is not compatible with Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16.
+{% endhint %}
+
 Saleae currently offers 3 APIs for interfacing with our products.
 
 1. Analyzer SDK, used for creating custom analyzer plugins for use with the Logic software
