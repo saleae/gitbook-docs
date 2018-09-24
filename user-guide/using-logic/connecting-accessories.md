@@ -1,6 +1,6 @@
-# Connecting Accessories
+# Logic Accessories
 
-## Connecting Accessories
+## Connecting Logic Accessories
 
 ### **Wire Harness**
 
@@ -49,4 +49,24 @@ If your PCB has .100-inch headers that break out signals you need to examine, yo
 ### **Ultra-Fine Pitch and Other Difficulties**
 
 In many situations, it may be difficult to connect Logic directly to your signal. Generally, in these situations, you'll want to solder a wire \(typically wire-wrap wire\) to an exposed pin, trace, or via, and then use Logic's test clip to connect to that wire. Alternately, you can invest in some extremely small pitch test clips such as these: [Test clips - Grabbers, Hooks](https://www.digikey.com/products/en/test-and-measurement/test-clips-grabbers-hooks/620?k=micro%20gripper)
+
+## 3D Printed Accessories
+
+Several 3D printable Saleae Logic accessories have been made available by our community of users. They are available for download below.
+
+### Saleae Logic Pro 16 Analyzer Dock Station
+
+* by [earlynerd](https://www.thingiverse.com/earlynerd/about)
+* Thingiverse Download: [https://www.thingiverse.com/thing:3112823](https://www.thingiverse.com/thing:3112823)
+
+![Saleae Logic Pro 16 Analyzer Dock Station by earlynerd](../../.gitbook/assets/2018-09-24_1000.png)
+
+### Saleae Logic Holder
+
+* by [PCBGRIP](https://www.thingiverse.com/PCBGRIP/about)
+* Thingiverse Download: [https://www.thingiverse.com/thing:735911](https://www.thingiverse.com/thing:735911)
+
+![Saleae Logic Holder by PCBGRIP](../../.gitbook/assets/2018-09-24_1026.png)
+
+
 

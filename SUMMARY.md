@@ -45,7 +45,7 @@
     * [Software Download & Installation](user-guide/using-logic/untitled-2.md)
     * [Navigating the Software](user-guide/using-logic/navigating-the-software.md)
     * [Connecting the Logic Hardware](user-guide/using-logic/connecting-the-logic-hardware.md)
-    * [Connecting Accessories](user-guide/using-logic/connecting-accessories.md)
+    * [Logic Accessories](user-guide/using-logic/connecting-accessories.md)
     * [Collecting Data & Device Settings](user-guide/using-logic/collecting-data-and-device-settings.md)
     * [Using the Trigger](user-guide/using-logic/using-the-trigger.md)
     * [Real-Time View \(In Beta\)](user-guide/using-logic/real-time-view-in-beta.md)
