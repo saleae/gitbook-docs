@@ -115,3 +115,21 @@ The United States defines products using its Harmonized Tariff Schedule \(HTS\).
 * HS Code: 8546.90.0000
 * Price \(USD\): $19.95
 
+### Discontinued Products
+
+#### Saleae Logic 4 Black
+
+* SAL-00109
+
+#### **Saleae Logic 4** **Red**
+
+* SAL-00110
+
+#### **Saleae Original Logic**
+
+* SALEAE001
+
+#### Saleae Logic16
+
+* SALEAE009
+
