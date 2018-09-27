@@ -14,3 +14,6 @@ Look for stand-alone versions of the current software and older versions here:
 
 
 
+<script>
+  console.log("test");
+</script>
