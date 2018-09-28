@@ -32,7 +32,7 @@ Linux 64 bit:
 
 **What's different about 1.2.31?**
 
-1.2.20 included just the very first HTML component, but no new data processing back end. 1.2.31 adds a few new back-end components, mainly to support new analog data storage and rendering. These were added to a new layer of the application, along side the existing implementation. It will be a while before we're able to finally remove the previous data processing system.
+1.2.30 included just the very first HTML component, but no new data processing back end. 1.2.31 adds a few new back-end components, mainly to support new analog data storage and rendering. These were added to a new layer of the application, along side the existing implementation. It will be a while before we're able to finally remove the previous data processing system.
 
 This release also includes new analog graphs in the new UI, including the ability to pan and zoom analog channels up and down!
 
