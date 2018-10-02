@@ -2,14 +2,17 @@
 
 ## **Datasheets**
 
-Logic 8:  
-[http://downloads.saleae.com/specs/Logic+8+Data+Sheet.pdf](http://downloads.saleae.com/specs/Logic+8+Data+Sheet.pdf)
+Logic 8:
 
-Logic Pro 8:  
-[http://downloads.saleae.com/specs/Logic+Pro+8+Data+Sheet.pdf](http://downloads.saleae.com/specs/Logic+Pro+8+Data+Sheet.pdf)
+{% file src="../.gitbook/assets/logic-8-data-sheet.pdf" %}
 
-Logic Pro 16:  
-[http://downloads.saleae.com/specs/Logic+Pro+16+Data+Sheet.pdf](http://downloads.saleae.com/specs/Logic+Pro+16+Data+Sheet.pdf)
+Logic Pro 8:
+
+{% file src="../.gitbook/assets/logic-pro-8-data-sheet.pdf" %}
+
+Logic Pro 16:
+
+{% file src="../.gitbook/assets/logic-pro-16-data-sheet.pdf" %}
 
 ## **Fact Sheets / Brochures**
 
@@ -24,8 +27,9 @@ Logic Pro 16:
 
 ## **Datasheets and Fact Sheets for Discontinued Products**
 
-Logic 4 Datasheet:  
-[http://downloads.saleae.com/specs/Logic+4+Data+Sheet.pdf](http://downloads.saleae.com/specs/Logic+4+Data+Sheet.pdf)
+Logic 4 Datasheet:
+
+{% file src="../.gitbook/assets/logic-4-data-sheet.pdf" %}
 
 Logic Datasheet:  
 [http://downloads.saleae.com/specs/Logic+Tech+Specs.pdf](http://downloads.saleae.com/specs/Logic+Tech+Specs.pdf)
