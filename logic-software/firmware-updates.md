@@ -1,5 +1,7 @@
 # Firmware Updates
 
+## Firmware Updates
+
 There is no need to manage downloading firmware updates to Saleae Logic products. As long as the latest Logic software is used, your Logic hardware will continue to run on the latest firmware.
 
 Please just ensure you are running either the latest stable or latest beta release below.
