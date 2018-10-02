@@ -1,4 +1,4 @@
-# Saleae Support Home
+# Saleae Support
 
 {% hint style="info" %}
 Our support articles are now hosted on GitHub! If you find any **issues, misinformation, or typos** with any of the articles, click _**Edit on GitHub**_ at the top and submit an _Issue_, or submit your proposed changes via _Pull Request_. We appreciate the help!

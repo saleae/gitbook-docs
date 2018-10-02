@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Saleae Support Home](README.md)
+* [Saleae Support](README.md)
 * [Getting Started](getting-started/README.md)
   * [Setup](getting-started/setup.md)
   * [Configure](getting-started/configure.md)
@@ -98,6 +98,7 @@
   * [Latest Stable Release](logic-software/latest-stable-release-download.md)
   * [Latest Beta Release](logic-software/latest-beta-release.md)
   * [Alpha Release](logic-software/alpha-release.md)
+  * [Firmware Download](logic-software/firmware-download.md)
   * [Changelog](logic-software/changelog.md)
   * [Driver Install](logic-software/driver-install.md)
   * [Latest USB 3.0 Host Controller Drivers](logic-software/usb-3.0-host-controller-drivers.md)
