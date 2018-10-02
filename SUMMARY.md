@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Saleae Support Documentation](README.md)
+* [Saleae Support Home](README.md)
 * [Getting Started](getting-started/README.md)
   * [Setup](getting-started/setup.md)
   * [Configure](getting-started/configure.md)
