@@ -3,10 +3,12 @@
 ## XMonad on Linux Causes Issues
 
 {% hint style="info" %}
-Update: A customer was able to customize the XMonad configuration to fix this. Please contact us for details.
-{% endhint %}
+Update: A customer was able to customize the XMonad configuration to fix this. The solution was to add the appropriate rule to the window hooks as per below:
 
-A customer was able to customize the XMonad configuration to fix this. Please contact us for details.
+```
+className =? "Logic" --> doIgnore
+```
+{% endhint %}
 
 ### Issue summary in the past:
 
