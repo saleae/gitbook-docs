@@ -23,3 +23,11 @@ These instructions show how to set up the Saleae software to load custom protoco
 
 * Close the software. Custom analyzers won't be loaded until the software is restarted.
 
+### Can't Find the Options Button?
+
+Please refer to the article below. You may be running an older version of our software.
+
+{% page-ref page="why-is-the-options-button-missing.md" %}
+
+
+
