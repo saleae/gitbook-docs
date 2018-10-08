@@ -38,3 +38,9 @@ You can use our [performance calculator](https://www.saleae.com/performance-calc
 * RAM usage for digital data depends on \(1\) the number of digital channels, \(2\) toggles/sec of incoming data, and \(3\) the duration of the capture. 
 * Contrary to analog captures, digital captures will only store data in RAM when a toggle occurs on the digital channel. For this reason, it is typically recommended to sample at the highest digital sampling rate since it will not use any more memory than using a slower digital sampling rate \(assuming the same data is captured\). Due to this property, keep in mind that capturing very fast data with a large amount of toggles/sec will consume more RAM than digital data that is mostly inactive, keeping the number of digital channels and duration the same.
 
+### What If my RAM is Not Enough?
+
+Besides modifying the capture settings or buying more RAM, our Socket API automation script allows users to break extremely long captures into a series of shorter captures that are saved to the hard disk. You can read more about how to implement this below.
+
+{% page-ref page="../../faq/technical-faq/how-can-i-take-long-captures-that-cannot-fit-into-memory.md" %}
+
