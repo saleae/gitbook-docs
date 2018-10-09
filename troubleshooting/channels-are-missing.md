@@ -24,8 +24,8 @@ Sometimes, channels may be hidden from view even if they are enabled under Logic
 | Original Logic16 | USB 2.0 |
 | Logic 4 | USB 2.0 |
 | Logic 8 | USB 2.0 |
-| Logic Pro 8 | **USB 3.0** |
-| Logic Pro 16 | **USB 3.0** |
+| Logic Pro 8 | **USB 3.0 \(USB 2.0 will have limitations\)** |
+| Logic Pro 16 | **USB 3.0 \(USB 2.0 will have limitations\)** |
 
 Logic Pro 8 and Logic Pro 16 can be used with USB 2.0 ports under certain limitations as described in the article below.
 
