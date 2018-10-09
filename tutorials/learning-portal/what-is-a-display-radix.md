@@ -16,6 +16,8 @@ A radix is simply a way a number can be represented. The most commonly known rad
 
 #### Decimal \(dec, base 10\)
 
+### Display Radix Setting
+
 ### Counting to Sixteen
 
 | Binary \(0b...\) | Hexadecimal \(0x...\) | Decimal |
