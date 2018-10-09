@@ -2,7 +2,7 @@
 
 ## What is a Display Radix?
 
-A radix is simply a way a number can be represented. The most commonly known radix is _decimal_, which utilizes ten digits from 0-9 to represent numbers. Surprisingly, there are many more ways numbers can be represented besides the decimal format! Using the decimal format when decoding digital data can be a bit messy. Therefore, other numeric radices, such as _hexadecimal_ and _binary_, are typically used in these cases.
+A radix is simply a way a number can be represented. The most commonly known radix is _decimal_, which utilizes ten digits from 0-9 to represent numbers. Surprisingly, there are many more ways numbers can be represented besides the decimal format! Using the decimal format when decoding digital data can be a bit messy. Therefore, other numeric radices, such as _hexadecimal_ and _binary_, are typically used when dealing with digital electronics.
 
 ### Common Radices Used to Represent Digital Data
 
