@@ -26,7 +26,7 @@ LED not turning on? Refer to the article below to check your LED settings.
 If connecting Logic Pro 8 or Logic Pro 16 to a USB 2.0 port, please read the article below. You may be missing out on the fastest sampling rate options and channels.
 {% endhint %}
 
-{% page-ref page="../../troubleshooting/sampling-rate-options-and-channels-are-missing.md" %}
+{% page-ref page="../../troubleshooting/limitations-of-logic-pro-usb2.md" %}
 
 
 

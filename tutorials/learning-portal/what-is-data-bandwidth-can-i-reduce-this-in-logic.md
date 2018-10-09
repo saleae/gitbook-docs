@@ -2,7 +2,7 @@
 
 ## What is Data Bandwidth? Can I Reduce this in Logic?
 
-Data bandwidth refers to the rate at which data is transmitted across a digital line. When discussing Saleae Logic, data bandwidth typically refers to the data rate across the USB cable.
+Data bandwidth refers to the rate at which data is transmitted across a digital line. When discussing Saleae Logic, data bandwidth typically refers to the data rate across the USB cable to the PC.
 
 ### Can I Reduce Logic's USB Bandwidth?
 
