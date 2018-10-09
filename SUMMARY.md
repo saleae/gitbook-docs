@@ -287,6 +287,7 @@
   * [What is a Glitch?](tutorials/learning-portal/what-is-a-glitch.md)
   * [What is RAM? Why Does Logic Use it?](tutorials/learning-portal/what-is-ram.md)
   * [What is a Display Radix?](tutorials/learning-portal/what-is-a-display-radix.md)
+  * [What is Data Bandwidth? Can I Reduce this in Logic?](tutorials/learning-portal/what-is-data-bandwidth-can-i-reduce-this-in-logic.md)
 * [Example Projects](tutorials/example-projects/README.md)
   * [How to Measure Digital Logic](tutorials/example-projects/how-to-measure-digital-logic.md)
   * [How to Measure Analog Signals](tutorials/example-projects/how-to-measure-analog-signals.md)
