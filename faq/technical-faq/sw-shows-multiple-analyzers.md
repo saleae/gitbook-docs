@@ -17,7 +17,3 @@ This can be a little confusing, and we plan to make it more obvious that the sof
 
 Also, if you're using the Socket API, it's not easily possible to tell the difference between simulation devices and physical devices. The only way to tell is by using the "GET\_CONNECTED\_DEVICES" function. Real devices have 64-bit identifiers, and the simulation devices only use 32-bit identifiers. It is impossible for a physical device to have a device ID less than or equal to 0x00000000FFFFFFFF. Likewise, a simulated device will not have an ID larger than that.
 
-If the software appears to be in simulation mode \(disconnected\) when a physical device is attached to the system, please see this support article:
-
-[https://trello.com/c/7vudWNHG](https://trello.com/c/7vudWNHG)
-
