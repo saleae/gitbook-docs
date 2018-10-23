@@ -12,3 +12,15 @@ One solution is to export the capture into multiple, smaller MATLAB files. Click
 
 ![](../.gitbook/assets/2018-10-23_1302.png)
 
+For details on the exported format of MATLAB files, see the article below.
+
+{% page-ref page="../faq/technical-faq/matlab-data-export-format.md" %}
+
+
+
+
+
+
+
+
+
