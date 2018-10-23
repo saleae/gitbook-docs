@@ -1,4 +1,4 @@
-# Exported MATLAB File Causes a Crash
+# Exported MATLAB File Does Not Open
 
 When trying to open a MATLAB file exported from a capture by the Logic software,  you may run into the following warning message.
 

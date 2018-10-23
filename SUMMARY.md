@@ -148,7 +148,7 @@
   * [My Rise Time and Fall Time Measurements Seem Incorrect](troubleshooting/my-rise-time-and-fall-time-measurements-seem-incorrect.md)
   * [The Analog Waveform Loads Very Slowly after Capture Is Complete](troubleshooting/the-analog-waveform-loads-very-slowly-after-capture-is-complete.md)
   * [Channels are Missing](troubleshooting/channels-are-missing.md)
-  * [Exported MATLAB File Causes a Crash](troubleshooting/exported-matlab-file-causes-a-crash.md)
+  * [Exported MATLAB File Does Not Open](troubleshooting/exported-matlab-file-does-not-open.md)
 * [FAQ](faq/README.md)
   * [Technical FAQ](faq/technical-faq/README.md)
     * [System Requirements for Saleae Products](faq/technical-faq/system-requirements-for-saleae-products.md)

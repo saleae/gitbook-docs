@@ -14,9 +14,15 @@ Please write support if you have any questions or feedback. The scripting interf
 
 ### Enable the Logic Software for Scripting
 
-Before using Socket API, you must be using a version of the software that supports the socket server. All versions after and including 1.1.18 included the socket server, but the current documentation and sample code only applies to the latest software release.
+{% hint style="info" %}
+We highly recommend suppressing notifications and error messages while running your automation script. These notifications may block normal operation and can be suppressed by starting the application with the command line option below.
 
-1. Check that you are using the most recent software release: ![](https://trello-attachments.s3.amazonaws.com/5615390cb22fd44d4ccedc6f/408x85/3e4cf745a0ec6f330fcea38e525e2005/check_version.png)
+```text
+-disablepopups
+```
+{% endhint %}
+
+1. Check that you are using the [latest version of the Logic software](https://www.saleae.com/downloads/).
 2. Open Options Menu  ![](https://trello-attachments.s3.amazonaws.com/5615390cb22fd44d4ccedc6f/336x266/5d5b89c169854861cae51f1c77d67605/open_options.png)
 3. Select Preferences  ![](https://trello-attachments.s3.amazonaws.com/5615390cb22fd44d4ccedc6f/400x479/b8307eb7f45120d0f9cc172bbf565a40/select_preferences.PNG)
 4. Open Developer Tab  ![](https://trello-attachments.s3.amazonaws.com/5615390cb22fd44d4ccedc6f/388x87/c290c691957c121514fb85f079378b2e/developer_tab.png)
