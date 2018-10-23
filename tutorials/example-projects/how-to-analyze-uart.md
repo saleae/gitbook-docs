@@ -13,7 +13,7 @@ Example code is provided below for [Arduino](https://www.arduino.cc/), [mbed](ht
 | One of the Saleae logic analyzers: [Saleae Logic 8](https://usd.saleae.com/products/saleae-logic-8), [Saleae Logic Pro 8](https://usd.saleae.com/products/saleae-logic-pro-8), or [Saleae Logic Pro 16](https://usd.saleae.com/products/saleae-logic-pro-16)​ |
 | ​[Nucleo-F446RE](https://www.digikey.com/product-detail/en/stmicroelectronics/NUCLEO-F446RE/497-15882-ND/5347712)​ |
 
-#### Connect Hardware {#connect-hardware-2}
+#### Connect Hardware <a id="connect-hardware-2"></a>
 
 Note that on the Nucleo-F446RE, the UART lines used to communicate with the host computer are connected to the programming chip next to the USB connector. Arduino pins RX/D0 and TX/D1 are disconnected from these lines by default, which means we need to use the RX and TX pins near the programming chip.
 
@@ -21,7 +21,7 @@ Connect the GND wire to an available ground pin on the Nucleo. Connect Channel 0
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LJyTJ_59L9MNB5rtuO1%2F-LJyUPDN5-7ePkZlgcE1%2Fuart_circuit_fritzing.png?alt=media&token=b0677d6f-4bf5-4074-9ac9-31e09b219100)
 
-#### Run Demo Application {#run-demo-application-2}
+#### Run Demo Application <a id="run-demo-application-2"></a>
 
 Download the example code for your IDE:
 
@@ -41,7 +41,7 @@ Connect to the Nucleo board over the assigned serial port with a baud rate of **
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LK-cRuCDRBtYSjHV9yh%2F-LK-clHcgaxOx7VglIn6%2Fscreen_15.png?alt=media&token=f18764cc-e9fc-4018-bcb9-ee72c20e383b)
 
-#### Measure the Signal {#measure-the-signal-1}
+#### Measure the Signal <a id="measure-the-signal-1"></a>
 
 Open the Logic software with the Logic Analyzer plugged in. Click on the **Device Settings Button**.
 

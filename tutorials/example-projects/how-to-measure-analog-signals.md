@@ -15,13 +15,13 @@ Example code is provided below for [Arduino](https://www.arduino.cc/), [mbed](ht
 | One of the Saleae logic analyzers: [Saleae Logic 8](https://usd.saleae.com/products/saleae-logic-8), [Saleae Logic Pro 8](https://usd.saleae.com/products/saleae-logic-pro-8), or [Saleae Logic Pro 16](https://usd.saleae.com/products/saleae-logic-pro-16)​ |
 | ​[Nucleo-F446RE](https://www.digikey.com/product-detail/en/stmicroelectronics/NUCLEO-F446RE/497-15882-ND/5347712)​ |
 
-#### Connect Hardware {#connect-hardware-1}
+#### Connect Hardware <a id="connect-hardware-1"></a>
 
 For this example, you will only need 1 harness plugged into your Logic Analyzer. We will be using channel 0. Connect the channel 0 and GND wires to the Nucleo board as shown below. Note that pin PA\_4 \(A2 on the Arduino headers\) is DAC\_OUT1 \(digital-to-analog converter output 1\) on the Nucleo-F446RE.
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LJyTJ_59L9MNB5rtuO1%2F-LJyUGqz8pX8u2IrsH9o%2Fdac_circuit_fritzing.png?alt=media&token=225e35c7-9d38-4d6b-91f4-e1febb02d810)
 
-#### Run Demo Application {#run-demo-application-1}
+#### Run Demo Application <a id="run-demo-application-1"></a>
 
 Download the example code for your IDE:
 
@@ -31,7 +31,7 @@ Download the example code for your IDE:
 
 Open the demo in your chosen IDE. Compile the program, and upload it to the Nucleo-F446RE development board. Whenever the board has power, it should begin running the analog example program, which produces a sinewave pattern on pin PA\_4 \(Arduino pin A2\).
 
-#### Measure the Signal {#measure-the-signal}
+#### Measure the Signal <a id="measure-the-signal"></a>
 
 Open the Logic software with the Logic Analyzer plugged in. Click on the **Device Settings Button**.
 

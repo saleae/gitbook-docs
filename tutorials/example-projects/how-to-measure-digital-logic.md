@@ -13,7 +13,7 @@ To demonstrate this, the example code \(see below\) for the STM32 Nucleo-F446RE 
 | One of the Saleae logic analyzers: [Saleae Logic 8](https://usd.saleae.com/products/saleae-logic-8), [Saleae Logic Pro 8](https://usd.saleae.com/products/saleae-logic-pro-8), or [Saleae Logic Pro 16](https://usd.saleae.com/products/saleae-logic-pro-16)​ |
 | ​[Nucleo-F446RE](https://www.digikey.com/product-detail/en/stmicroelectronics/NUCLEO-F446RE/497-15882-ND/5347712)​ |
 
-#### Connect Hardware {#connect-hardware}
+#### Connect Hardware <a id="connect-hardware"></a>
 
 To begin, plug 2 cable harnesses into your Saleae Logic Analyzer. Note that the arrow on the harness connector should be facing up and to the left \(toward the ‘S’ in Saleae on your Logic Analyzer\). While the colors of the wires do not ultimately matter, it can be helpful to have them line up with the resistor color code \(from left to right\): black, brown, red, orange, yellow, green, blue, violet.
 
@@ -23,7 +23,7 @@ Connect the wires to the male header pins on the Nucleo board as shown in the di
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LK-cRuCDRBtYSjHV9yh%2F-LK-d6D9D_CX_dEpDNNE%2Fdigital_circuit_fritzing.png?alt=media&token=c97e8b3c-d1f7-4edc-a72e-b1606325a1ef)
 
-#### Run Demo Application {#run-demo-application}
+#### Run Demo Application <a id="run-demo-application"></a>
 
 Download the example code for your IDE:
 
@@ -35,7 +35,7 @@ If you would like to try running the code without installing any IDE, download t
 
 Open the demo in your chosen IDE. Compile the program, and upload it to the Nucleo-F446RE development board. Whenever the board has power, it should begin running the digital example program, which counts in binary on pins D2-D9 \(D2 is least significant bit\).
 
-#### Measure Signals {#measure-signals}
+#### Measure Signals <a id="measure-signals"></a>
 
 Open the Logic software and make sure your Logic Analyzer is connected via USB \(you should see “Connected” appear at the top of the window\). Click on the **Device Settings Button** \(the up/down arrow near _Start_\). This will open the device settings window.
 
@@ -51,7 +51,7 @@ Zoom in using your mouse wheel or the plus \(+\) key. Hover your mouse over a pa
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LK-cRuCDRBtYSjHV9yh%2F-LK-clHRDxOAb7FLtR01%2Fscreen_08.png?alt=media&token=8dc40fcc-a523-4808-99ba-4172599b4585)
 
-#### Using the Trigger {#using-the-trigger}
+#### Using the Trigger <a id="using-the-trigger"></a>
 
 Sometimes, you need to measure a pulse or signal that happens sporadically. If you are unable to time the capture appropriately \(e.g. within the 1 second capture time\), you can use _triggers_ to start the capture process whenever a channel changes state.
 

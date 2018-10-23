@@ -19,7 +19,7 @@ Example code is provided below for [Arduino](https://www.arduino.cc/), [mbed](ht
 | ​[Breadboard](https://www.digikey.com/product-detail/en/bud-industries/BB-32621/377-2094-ND/4156445)​ |
 | ​[Jumper wires](https://www.digikey.com/product-detail/en/sparkfun-electronics/PRT-12795/1568-1512-ND/5993860)​ |
 
-#### Connect Hardware {#connect-hardware-3}
+#### Connect Hardware <a id="connect-hardware-3"></a>
 
 Even though the Nucleo-F446RE has an onboard analog-to-digital converter \(ADC\), the MCP3002 is an easy-to-use and inexpensive ADC that communicates over SPI, which makes it perfect for demonstrating the protocol.
 
@@ -27,7 +27,7 @@ Connect the Nucleo to the MCP3002 and the MCP3002 to a 10k potentiometer as show
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LK-cRuCDRBtYSjHV9yh%2F-LK-clHxbABXQ7_MQnxY%2Fspi_circuit_fritzing.png?alt=media&token=db47e451-4b5b-4957-8af8-2ae220085539)
 
-#### Run Demo Application {#run-demo-application-3}
+#### Run Demo Application <a id="run-demo-application-3"></a>
 
 Download the example code for your IDE:
 
@@ -43,7 +43,7 @@ Connect to the Nucleo board over the assigned serial port with a baud rate of **
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LK-cRuCDRBtYSjHV9yh%2F-LK-clHkGZBA5SaR90lF%2Fscreen_21.png?alt=media&token=91b62e23-b093-4b0b-924c-d02b1e0ce776)
 
-#### Measure the Signal {#measure-the-signal-2}
+#### Measure the Signal <a id="measure-the-signal-2"></a>
 
 Open the Logic software with the Logic Analyzer plugged in. Click on the **Device Settings Button**.
 

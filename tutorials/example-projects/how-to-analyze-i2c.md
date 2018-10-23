@@ -19,7 +19,7 @@ Example code is provided below for [Arduino](https://www.arduino.cc/), [mbed](ht
 | ​[Breadboard](https://www.digikey.com/product-detail/en/bud-industries/BB-32621/377-2094-ND/4156445)​ |
 | ​[Jumper wires](https://www.digikey.com/product-detail/en/sparkfun-electronics/PRT-12795/1568-1512-ND/5993860)​ |
 
-#### Connect Hardware {#connect-hardware-4}
+#### Connect Hardware <a id="connect-hardware-4"></a>
 
 One of the easiest to use I2C sensors is the inexpensive TMP102 temperature sensor. The sensor can be configured to drive an alert pin when certain temperature thresholds are met. However, we only need to worry about reading from the Temperature register. On power up, the TMP102 will simply begin sampling and storing temperature data in that register.
 
@@ -27,7 +27,7 @@ Solder header pins to the TMP102 breakout board, and connect the Nucleo to the T
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LK-cRuCDRBtYSjHV9yh%2F-LK-clI0DsMhyaHpUPH_%2Fi2c_circuit_fritzing.png?alt=media&token=23925f10-e23f-426a-9844-a9ffc481daa6)
 
-#### Run Demo Application {#run-demo-application-4}
+#### Run Demo Application <a id="run-demo-application-4"></a>
 
 Download the example code for your IDE:
 
@@ -43,7 +43,7 @@ Connect to the Nucleo board over the assigned serial port with a baud rate of **
 
 ![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LK-cRuCDRBtYSjHV9yh%2F-LK-clHsGz9V8SrOjGlL%2Fscreen_26.png?alt=media&token=ba88b153-7e7b-4086-b3b0-29c61c6d659e)
 
-#### Measure the Signal {#measure-the-signal-3}
+#### Measure the Signal <a id="measure-the-signal-3"></a>
 
 Open the Logic software with the Logic Analyzer plugged in. Click on the **Device Settings Button**.
 
