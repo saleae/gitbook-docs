@@ -8,6 +8,21 @@ When attempting to capture data, you may encounter the following error message: 
 
 The Saleae Logic produces data at a fixed rate and can't tolerate periodic delays between read requests because the device side buffer space is limited. This error message shows up when the device side buffer has run out of memory caused by delays on the USB line during data capture. The Original Logic is the most sensitive to this issue. The newer products \(Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16\) have significantly larger device side stream buffers and should have no problem with this.
 
+### **Error Occurs Immediately after Clicking 'Start'**
+
+If the error message appears even before any samples were recorded, downloading the latest beta software may solve the issue. You can download the latest software below.
+
+{% page-ref page="../logic-software/latest-beta-release.md" %}
+
+Otherwise, this indicates a potentially different issue and could be caused by one of the following:
+
+* The USB cable could be bad. Please try another USB cable or [contact support](https://contact.saleae.com/hc/en-us/requests/new) for a replacement.
+* On Windows, the USB host controller driver may be outdated. Please [contact support](https://contact.saleae.com/hc/en-us/requests/new), and we can help ensure you have the absolute latest drivers for your device.
+* On OS X, there is a known bug in the Saleae firmware that almost exclusively affects OS X users over USB 3.0, which will cause frequent capture failures. This issue seems to be specific to certain versions of Apple's IOUSBFamily, which changes frequently with OS X updates.
+* On OS X, the error may occur when sampling while a thunderbolt display is connected. Connecting Logic to a USB port on the thunderbolt display has solved the problem in the past.
+
+In any case, we're very sorry for the trouble. Please know that we're actively working on making the software capture system more reliable.
+
 ### **Troubleshooting Steps**
 
 * Make sure you are using the latest Saleae software: [https://www.saleae.com/downloads](https://www.saleae.com/downloads)
