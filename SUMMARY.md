@@ -150,6 +150,7 @@
   * [The Analog Waveform Loads Very Slowly after Capture Is Complete](troubleshooting/the-analog-waveform-loads-very-slowly-after-capture-is-complete.md)
   * [Channels are Missing](troubleshooting/channels-are-missing.md)
   * [Exported MATLAB File Does Not Open](troubleshooting/exported-matlab-file-does-not-open.md)
+  * [Saleae Logic LED Blinks Red](troubleshooting/saleae-logic-led-blinks-red.md)
 * [FAQ](faq/README.md)
   * [Technical FAQ](faq/technical-faq/README.md)
     * [System Requirements for Saleae Products](faq/technical-faq/system-requirements-for-saleae-products.md)
