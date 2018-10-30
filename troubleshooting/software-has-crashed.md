@@ -1,23 +1,56 @@
-# The Software Has Crashed, or I Have Discovered a Bug
+# The Logic Software Crashes
 
-## The Software Has Crashed, or I Have Discovered a Bug
+## The Logic Software Crashes
 
-First, sorry about this. It's probably my fault. I apologize.
+First, please help us by uploading the crash reports! This article covers common solutions and how you can contact support for additional help.
 
-Please make sure you are using the [latest version of the Saleae software](https://www.saleae.com/downloads).
+### Does the Software Fail to Start?
 
-If the software crashed, the next time you run the software, you should see a dialog asking to upload the crash report. Please do! We automatically download and scan these crash reports to find new problems and track and fix issues, often in the order of prevalence. Please upload crash reports every time!
-
-Hopefully, if the software crashes at all, it's a rare occurrence. However, if you're seeing frequent crashes, either randomly occurring or in a repeatable manner, please [write to support](https://contact.saleae.com/hc/en-us/requests/new).
-
-If the software is crashing on launch, please review these articles:
+If the software simply fails to start, please follow the solutions listed in the article below.
 
 {% page-ref page="software-will-not-install-or-run.md" %}
 
 {% page-ref page="fails-to-launch-on-windows.md" %}
 
-**When Contacting Support, Please Provide the Following Information**
+Otherwise, if the software can start properly, but crashes during operation, this article can offer some potential solutions below.
 
+### **Common Solutions**
+
+Please try the following solutions first before contacting support.
+
+* Test the [latest version of the Saleae software](https://www.saleae.com/downloads)
+* Remove all active protocol analyzers
+  * This solution may help when the software crashes immediately after the Start button is clicked, and might indicate a buggy protocol analyzer.
+* Remove unused channels
+* Disable 'Decoded Protocol Search' \(Options -&gt; Preferences -&gt; Capture Tab\)
+* Run the Logic software as administrator
+* Delete the settings.xml file. It may be corrupt. See instructions below.
+
+{% hint style="info" %}
+Before you can find and delete settings.xml, make the file visible first.
+
+* On Windows - Showing hidden files and folders should be enabled. [Instructions Here](https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files)
+* On OSX - Showing the Library folder should be enabled. [Instructions Here](https://discussions.apple.com/thread/8137224?answerId=8137224021#8137224021)
+{% endhint %}
+
+The settings.xml file can be located below.
+
+```text
+On Vista/7/8/10:
+    C:\Users\YourUserName\AppData\Roaming\Saleae LLC\Logic\settings.xml
+On XP:
+    C:\Documents and Settings\YourUserName\Application Data\Saleae LLC\Logic\settings.xml
+On OSX:
+    /Users/YourUserName/Library/Preferences/Saleae/settings.xml
+On Linux:
+    Inside the folder with the Logic executable in the Settings folder.
+```
+
+### **Contacting Support**
+
+When [contacting support](https://contact.saleae.com/hc/en-us/requests/new), please include the following information.
+
+* Results of the tests under 'Common Solutions' above
 * Saleae Logic software version \(found in the software title bar\)
 * The operating system used, the version of OS, and if it is 32-bit or 64-bit.
 
@@ -40,52 +73,27 @@ If the software is crashing on launch, please review these articles:
 
     Is the crash/bug repeatable? If so, what are the steps leading up to the crash?
 
-* In the case of a crash, include a zipped copy of the error reports on your computer. They can be found here:
+* Include a zipped copy of the error reports on your computer. They can be found below.
 
-On Vista 7/8/10:  
-C:\Users\YourUserName\AppData\Roaming\Saleae LLC\Logic\Errors\
+```text
+On Vista 7/8/10:
+    C:\Users\YourUserName\AppData\Roaming\Saleae LLC\Logic\Errors\
+On XP:
+    C:\Documents and Settings\YourUserName\Application Data\Saleae LLC\Logic\Errors\
+On OSX: 
+    /Users/YourUserName/Library/Preferences/Saleae/Errors/
+On Linux:
+    Inside the folder with the Logic executable in the Errors folder.
+```
 
-On XP:  
-C:\Documents and Settings\YourUserName\Application Data\Saleae LLC\Logic\Errors\
+* Include any other relevant information not listed above that might help us uncover the bug.
+* We may ask you to provide the console output from the application. In this case, here are the steps in the link below.
 
-On OSX: /Users/YourUserName/Library/Preferences/Saleae/Errors/
+{% page-ref page="console-output.md" %}
 
-On Linux:  
-Inside the folder with the Logic executable in the Errors folder.
 
-**Suggestions to Avoid Crashes in the Short Term**
 
-* If you have any protocol decoders active that you are not using, please remove them.
-* If you have any channels active that you are not using \(such as unused analog inputs\), try disabling them.
-* Try disabling the protocol search feature in the software's preferences if you are not using it \(software restart required\).
-* Try running the Logic software as administrator.
-* Try deleting the settings.xml file. A corrupt file could cause a consistent crash when accessing a specific feature. See the article below for instructions.
 
-{% page-ref page="software-will-not-install-or-run.md" %}
 
-Please send all this information and any other information that might seem relevant to [support](https://contact.saleae.com/hc/en-us/requests/new). If you have already initially contacted support but have not provided all the information listed above, send it in a follow-up.
 
-**Steps to Collect Additional Data**
-
-If support asks you to provide the console output from the application, here are the steps required to do so:
-
-**Windows**
-
-* First, make sure the software is closed and that the device is unplugged from the computer.
-* Open a command window and browse to the install directory of Logic, usually cd "\Program Files\Saleae LLC."
-* Then launch the application while routing its standard to a log file: Logic.exe &gt; \Users\YourUserName\Desktop\LogicLog.txt.
-* Then connect the device and wait at least 10 seconds. Optionally, remove the device and repeat 2–3 times.
-* Then close the software. Locate the newly created log file and send it to support.
-
-**Linux and OSX**
-
-* First, make sure the software is closed and the device is unplugged from the computer.
-* Open a terminal and browse to the install directory of Logic. on OS X:
-* cd \Applications\Logic.app\Conents\MacOS\
-* Launch Logic while routing standard out to a file:
-* ./Logic &gt; ~/LogicLog.txt
-* Then connect the device and wait at least 10 seconds. Optionally, remove the device and repeat 2–3 times.
-* Then close the software. Locate the newly created log file and send it to support.
-
-Again, I'm very sorry for the trouble with the software, and thank you for your help improving it!
 
