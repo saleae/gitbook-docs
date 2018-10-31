@@ -151,6 +151,7 @@
   * [Channels are Missing](troubleshooting/channels-are-missing.md)
   * [Exported MATLAB File Does Not Open](troubleshooting/exported-matlab-file-does-not-open.md)
   * [Saleae Logic LED Blinks Red](troubleshooting/led-blinks-red.md)
+  * [Crashes Caused by macOS Mojave \(10.14\)](troubleshooting/crashes-caused-by-macos-mojave-10.14.md)
 * [FAQ](faq/README.md)
   * [Technical FAQ](faq/technical-faq/README.md)
     * [System Requirements for Saleae Products](faq/technical-faq/system-requirements-for-saleae-products.md)
