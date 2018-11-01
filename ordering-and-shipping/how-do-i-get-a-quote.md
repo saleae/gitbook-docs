@@ -2,7 +2,7 @@
 
 ## Request a Quote
 
-To receive a quote, please fill out our [Quote Request Form](https://goo.gl/forms/da0exAsL1DZlQeoW2). Afterwards, one of our representatives will follow up with you via email.
+To receive a quote, please fill out our [Quote Request Form](https://saleae-support.typeform.com/to/WnpOte). Afterwards, one of our representatives will follow up with you via email.
 
 
 
@@ -10,7 +10,7 @@ To receive a quote, please fill out our [Quote Request Form](https://goo.gl/form
 
 ### Quote Request Form Not Working?
 
-We use Google Forms to process quote requests, and unfortunately, we understand it is commonly blocked by internal company networks. If the quote request form is blocked on your end, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) and send in the following information.
+Unfortunately, our quote request form may be commonly blocked by internal company networks for security reasons. If the quote request form is blocked on your end, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) and send in the following information.
 
 #### If placing a PO, please review PO limitations below:
 
