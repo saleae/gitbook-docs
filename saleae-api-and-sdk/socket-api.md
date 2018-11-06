@@ -10,7 +10,7 @@ Version **1.2.5+** Socket Interface C\# Example Application and Documentation:
 
 [https://github.com/saleae/SaleaeSocketApi](https://github.com/saleae/SaleaeSocketApi)
 
-Please write support if you have any questions or feedback. The scripting interface will continue to evolve as we receive feedback from our customers.
+Please contact us if you have any questions or feedback. The scripting interface will continue to evolve as we receive feedback from our customers.
 
 ### Enable the Logic Software for Scripting
 
