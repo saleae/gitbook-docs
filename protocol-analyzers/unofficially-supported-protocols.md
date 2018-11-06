@@ -37,6 +37,7 @@ Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you nee
 * [SDQ for Apple Lightning, MagSafe, and Battery](https://github.com/nezza/SDQAnalyzer)  
 * [PWM Analyzer](https://github.com/dustin/logic-pwm)
 * [SENT Analyzer](https://github.com/melexis/SENTAnalyzer)
+* [MIPI DSI LP Analyzer](https://github.com/stawiski/Saleae-MIPI-DSI-LP-Analyzer)
 
 
 
