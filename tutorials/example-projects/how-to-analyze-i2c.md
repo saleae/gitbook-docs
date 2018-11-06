@@ -33,10 +33,9 @@ Download the example code for your IDE:
 
 {% file src="../../.gitbook/assets/i2c\_example\_arduino.zip" caption="I2C Example - Arduino" %}
 
+{% file src="../../.gitbook/assets/i2c\_example\_mbed.zip" caption="I2C Example - mbed" %}
 
-
-* ​[I2C Example - mbed](http://localhost:4000/assets/code/i2c_example_mbed.zip)​
-* ​[I2C Example - SW4STM32](http://localhost:4000/assets/code/i2c_example_sw4stm32.zip)​
+{% file src="../../.gitbook/assets/i2c\_example\_sw4stm32.zip" caption="I2C Example - SW4STM32" %}
 
 Open the demo in your chosen IDE. Compile the program, and upload it to the Nucleo-F446RE development board.
 
