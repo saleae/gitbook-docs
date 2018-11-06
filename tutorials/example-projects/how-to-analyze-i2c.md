@@ -31,7 +31,10 @@ Solder header pins to the TMP102 breakout board, and connect the Nucleo to the T
 
 Download the example code for your IDE:
 
-* ​[I2C Example - Arduino](http://localhost:4000/assets/code/i2c_example_arduino.zip)​
+{% file src="../../.gitbook/assets/i2c\_example\_arduino.zip" caption="I2C Example - Arduino" %}
+
+
+
 * ​[I2C Example - mbed](http://localhost:4000/assets/code/i2c_example_mbed.zip)​
 * ​[I2C Example - SW4STM32](http://localhost:4000/assets/code/i2c_example_sw4stm32.zip)​
 

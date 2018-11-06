@@ -25,9 +25,11 @@ For this example, you will only need 1 harness plugged into your Logic Analyzer.
 
 Download the example code for your IDE:
 
-* ​[Analog Example - Arduino](http://localhost:4000/assets/code/analog_example_arduino.zip)​
-* ​[Analog Example - mbed](http://localhost:4000/assets/code/analog_example_mbed.zip)​
-* ​[Analog Example - SW4STM32](http://localhost:4000/assets/code/analog_example_sw4stm32.zip)​
+{% file src="../../.gitbook/assets/analog\_example\_arduino.zip" caption="Analog Example - Arduino" %}
+
+{% file src="../../.gitbook/assets/analog\_example\_mbed.zip" caption="Analog Example - mbed" %}
+
+{% file src="../../.gitbook/assets/analog\_example\_sw4stm32.zip" caption="Analog Example - SW4STM32" %}
 
 Open the demo in your chosen IDE. Compile the program, and upload it to the Nucleo-F446RE development board. Whenever the board has power, it should begin running the analog example program, which produces a sinewave pattern on pin PA\_4 \(Arduino pin A2\).
 

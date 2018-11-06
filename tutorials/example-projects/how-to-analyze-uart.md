@@ -25,9 +25,11 @@ Connect the GND wire to an available ground pin on the Nucleo. Connect Channel 0
 
 Download the example code for your IDE:
 
-* ​[UART Example - Arduino](http://localhost:4000/assets/code/uart_example_arduino.zip)​
-* ​[UART Example - mbed](http://localhost:4000/assets/code/uart_example_mbed.zip)​
-* ​[UART Example - SW4STM32](http://localhost:4000/assets/code/uart_example_sw4stm32.zip)​
+{% file src="../../.gitbook/assets/uart\_example\_arduino.zip" caption="UART Example - Arduino" %}
+
+{% file src="../../.gitbook/assets/uart\_example\_mbed.zip" caption="UART Example - mbed" %}
+
+{% file src="../../.gitbook/assets/uart\_example\_sw4stm32.zip" caption="UART Example - SW4STM32" %}
 
 Open the demo in your chosen IDE. Compile the program, and upload it to the Nucleo-F446RE development board.
 

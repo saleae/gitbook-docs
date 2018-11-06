@@ -31,9 +31,11 @@ Connect the Nucleo to the MCP3002 and the MCP3002 to a 10k potentiometer as show
 
 Download the example code for your IDE:
 
-* ​[SPI Example - Arduino](http://localhost:4000/assets/code/spi_example_arduino.zip)​
-* ​[SPI Example - mbed](http://localhost:4000/assets/code/spi_example_mbed.zip)​
-* ​[SPI Example - SW4STM32](http://localhost:4000/assets/code/spi_example_sw4stm32.zip)​
+{% file src="../../.gitbook/assets/spi\_example\_arduino.zip" caption="SPI Example - Arduino" %}
+
+{% file src="../../.gitbook/assets/spi\_example\_mbed.zip" caption="SPI Example - mbed" %}
+
+{% file src="../../.gitbook/assets/spi\_example\_sw4stm32.zip" caption="SPI Example - SW4STM32" %}
 
 Open the demo in your chosen IDE. Compile the program, and upload it to the Nucleo-F446RE development board.
 
