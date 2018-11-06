@@ -16,6 +16,52 @@ Although this won't be immediately obvious to users, and is not present in the 1
 
 Google Chrome needs to be installed for the html UI to work. If the application is unable to locate Google Chrome, the web interface will not be displayed.
 
+### Saleae Logic 1.2.32 Alpha
+
+Windows 64 bit:
+
+[https://downloads.saleae.com/betas/1.2.32/Logic-1.2.32-win64.zip](https://downloads.saleae.com/betas/1.2.32/Logic-1.2.32-win64.zip)
+
+MacOS:
+
+[https://downloads.saleae.com/betas/1.2.32/Logic-1.2.32-MacOS.dmg](https://downloads.saleae.com/betas/1.2.32/Logic-1.2.32-MacOS.dmg)
+
+Linux 64 bit:
+
+[https://downloads.saleae.com/betas/1.2.32/Logic-1.2.32.AppImage](https://downloads.saleae.com/betas/1.2.32/Logic-1.2.32.AppImage)
+
+#### What's new in 1.2.32?
+
+Tons! 1.2.31 was just a teaser - a quick release we made right after we hooked up our first prototype of rendering and viewstate. It didn't do much. 1.2.32 is by no means a replacement for the existing logic software, but it contains several core features and significant polish over the last release. There is still a long way to go in core functionality and polish before this Alpha transitions from an interesting demo to a useful tool though.
+
+1. Multisession support & tabs.
+
+   It's not possible to move a capture to a new tab, switch tabs, and rename tabs, just like in the classic software! Under the hood is a different story. The first time we added multi session support to the software, it took over a month, most of that was spent tracking down the dozens of interconnected dependencies that were involved. This version has such a clean separation of concerns that core session support only took a few days to implement and test. 
+
+2. Capture settings flyout.
+
+   Like the current C++ software, you can now click the gear icon next to the start button to edit the capture settings. There are a few things left to do here but the core functionality works nicely.
+
+3. Timing display
+
+   This took a little longer than I would have liked, but the math behind the new timing display is considerably more elegant and flexible, and most importantly it has an enormous amount of test coverage. \(Partially needed to to drawbacks of doing math in javascript\). Right now it mimics the behavior of the existing software's timing display, but I've already done some experimentation with new modes that provide more on-screen absolute timing indicators for any given zoom level, and support for different progressions between the relative and absolute timing indicators.
+
+4. Vertical voltage display
+
+   Now that you can zoom and pan the analog channels vertically, we needed a better voltage display! This new voltage display is similar to the timing display in functionality, and already implements a few new features to help keep relevent voltages on screen as you pan and zoom. To pan an analog channel vertically, hold the spacebar and drag. to zoom, hold ctrl \(command on mac\) and scroll.
+
+5. Back end improvements
+
+   This alpha release contains a new analog processing backend. We haven't removed the old one yet, which is still consuming resources unfortunately. However the new UI is using a significantly higher performance analog data processing pipe & renderer, which we'll continue to improve and expand.
+
+6. Many, many smaller changes
+
+   We made a lot of progress in a number of areas, too many to list here.
+
+1.2.32 was delayed for several reasons, but we're working on getting back to a smoother, 1 feature per release cadence.
+
+Enjoy!
+
 ### Saleae Logic 1.2.31 Alpha
 
 Windows 64 bit:
