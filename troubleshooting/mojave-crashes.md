@@ -34,7 +34,7 @@ In the meantime, if you are running into this issue, please [contact support](ht
 
 ### Information to Send
 
-1. MacOS version. \(should be 10.14, Mojave\) 
+1. MacOS version \(should be 10.14, Mojave\)
 2. Version of the Logic software
 3. Confirm that you ran the tests without a device connected
 4. Confirm that you ran the test after deleting settings.xml
@@ -42,5 +42,5 @@ In the meantime, if you are running into this issue, please [contact support](ht
 6. Copy of the error reports on your computer
 7. Copy of any error message log that macOS might report
 8. Copy of the \*.crash files from our Logic software
-9. Please confirm if you have used the Alpha version of our software in the past. We have found it to cause similar issues.
+9. Please confirm if you have used the Alpha version of our software in the past \(1.2.30 or later\). We have found it to cause similar issues, which are fixed by deleting settings.xml
 
