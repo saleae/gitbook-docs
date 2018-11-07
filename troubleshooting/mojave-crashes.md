@@ -24,7 +24,13 @@ In the meantime, if you are running into this issue, please [contact support](ht
 /Users/YourUserName/Library/Preferences/Saleae/Errors/
 ```
 
-    6. If any error message or log is displayed when trying to open the software, please send its contents 
+    6. If any error message or log is displayed when trying to open the software, please send its contents   
+    7. Collect all \*.crash files related to the Logic software. It will start with "Logic\_\*" and is located below.  
+            - For example: "Logic\_2018-10-19-081659\_Marks-MacBook.crash"
+
+```text
+~/Library/Logs/DiagnosticReports
+```
 
 ### Information to Send
 
@@ -35,4 +41,6 @@ In the meantime, if you are running into this issue, please [contact support](ht
 5. Copy of the console output
 6. Copy of the error reports on your computer
 7. Copy of any error message log that macOS might report
+8. Copy of the \*.crash files from our Logic software
+9. Please confirm if you have used the Alpha version of our software in the past. We have found it to cause similar issues.
 
