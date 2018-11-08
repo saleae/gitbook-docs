@@ -148,7 +148,7 @@
   * [Linux Permission Requirements for Logic Software](troubleshooting/linux-permission-requirements-for-logic-software.md)
   * [My Rise Time and Fall Time Measurements Seem Incorrect](troubleshooting/my-rise-time-and-fall-time-measurements-seem-incorrect.md)
   * [The Analog Waveform Loads Very Slowly after Capture Is Complete](troubleshooting/the-analog-waveform-loads-very-slowly-after-capture-is-complete.md)
-  * [Channels are Missing](troubleshooting/channels-are-missing.md)
+  * [Input Channels are Missing](troubleshooting/channels-are-missing.md)
   * [Exported MATLAB File Does Not Open](troubleshooting/exported-matlab-file-does-not-open.md)
   * [Saleae Logic LED Blinks Red](troubleshooting/led-blinks-red.md)
   * [Crashes Caused by macOS Mojave \(10.14\)](troubleshooting/mojave-crashes.md)

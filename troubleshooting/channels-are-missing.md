@@ -1,6 +1,4 @@
-# Channels are Missing
-
-## Channels are Missing
+# Input Channels are Missing
 
 There are several reasons why channels may be missing in the Logic software. Please follow the troubleshooting guide below to find the source of the issue.
 
