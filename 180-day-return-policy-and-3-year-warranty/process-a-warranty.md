@@ -24,7 +24,7 @@ If you believe your Logic hardware is broken, please completely perform the trou
 
 **3. Test Logic on a second PC.**
 
-* If the second PC also fails to connect, then it is likely a hardware issue. If so, stop here and submit a [Warranty Request](https://goo.gl/forms/1NEjPF4g4eXeJnbf2). Otherwise, if it fails on one PC and works on another PC, then it is likely a PC issue. In this case, continue with the steps below.
+* If the second PC also fails to connect, then it is likely a hardware issue. If so, stop here and submit a [Warranty Request](https://saleae-support.typeform.com/to/E8UPB7). Otherwise, if it fails on one PC and works on another PC, then it is likely a PC issue. In this case, continue with the steps below.
 
 
 
@@ -36,7 +36,7 @@ If you believe your Logic hardware is broken, please completely perform the trou
 
 **5. Test if the device's VID and PID have failed. Instructions are below.**
 
-* If the VID and PID are incorrect, then the hardware maybe faulty. Stop here and submit an [Warranty Request](https://goo.gl/forms/1NEjPF4g4eXeJnbf2).
+* If the VID and PID are incorrect, then the hardware maybe faulty. Stop here and submit a [Warranty Request](https://saleae-support.typeform.com/to/E8UPB7).
 
 {% page-ref page="../troubleshooting/the-devices-usb-vid-and-pid-failed.md" %}
 
@@ -69,5 +69,5 @@ If the above steps did not resolve the issue, we need to determine if the PC can
 
 ### PC Fails to Detect Logic
 
-If all tests above have failed, please submit a [Warranty Request](https://goo.gl/forms/1NEjPF4g4eXeJnbf2) and provide the results of the tests performed above.
+If all tests above have failed, please submit a [Warranty Request](https://saleae-support.typeform.com/to/E8UPB7) and provide the results of the tests performed above.
 
