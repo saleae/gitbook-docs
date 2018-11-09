@@ -28,18 +28,21 @@ The analog inputs are filtered at a much lower bandwidth through an anti-aliasin
 * Use shorter logic probes. If you can make your own leads connect to the logic analyzer, you could dramatically shorten the wire between the signal source and the logic analyzer.
 * Slow the sample rate. Generally, the glitches on the bus are actually much smaller than 1 sample. Sampling slower dramatically reduces the probability that a glitch will be recorded when sampling, but it will not completely eliminate it.
 * For especially noisy signals, you can create your own analog low pass filter network and place it before the input of the logic analyzer.
-* The current software includes a user selectable glitch filter. You can enter the width of the smallest allowable event, and all smaller events will be filtered out. Generally, noise and glitches picked up by the units is only 1 sample wide, which is actually above the maximum rated bandwidth for any given sample rate, making it particularly easy to filter out without affecting your data. See below.
+* The current software includes a user selectable glitch filter. You can enter the width of the smallest allowable event, and all smaller events will be filtered out. Generally, noise and glitches picked up by the units is only 1 sample wide, which is actually above the maximum rated bandwidth for any given sample rate, making it particularly easy to filter out without affecting your data. More information can be found in our Software Glitch Filter article \(link at the top of this article\).
 
-{% page-ref page="../user-guide/using-logic/software-glitch-filter.md" %}
+**What If Noise Is Still Present after the Above Steps?**
 
-**What to Do If Cross Talk or Noise Is Still Present after the Above Steps**
+If the above solutions don't help, then you may be experiencing a more extreme case of crosstalk. Please review the article below for further troubleshooting steps as well as information to send to support.
 
-Provide Saleae with the following:
+{% page-ref page="../faq/technical-faq/troubleshooting-signal-crosstalk.md" %}
 
-* A description of the circuit being recorded
-* A description of how the circuit is being powered \(AC power supply, USB power, batteries, etc.\)
-* A description of what signals Logic is recording and how it is connected
-* A description of other connections between the circuit and the PC
-* A description of how the PC is powered \(AC power, laptop with AC adapter, laptop on battery, etc.\)
-* Any unusual noise sources \(e.g., recording signals inside an AC power supply, etc.\)
+
+
+
+
+
+
+
+
+
 
