@@ -2,6 +2,10 @@
 
 ## What is Saleae's VAT & Tax ID Number?
 
+### Saleae Address
+
+* 408 N Canal St Unit A  South San Francisco, CA 94080
+
 ### Saleae USA Tax ID Number
 
 * 35-2530870
@@ -23,9 +27,7 @@ The Saleae VAT number you refer to will depend on what country the order was shi
 | United Kingdom | GB281123235 |
 | All other European countries | GB281123235 |
 
-### Saleae Address
-
-* 408 N Canal St Unit A  South San Francisco, CA 94080
+### 
 
 
 
