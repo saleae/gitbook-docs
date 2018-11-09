@@ -34,7 +34,7 @@ The analog inputs are filtered at a much lower bandwidth through an anti-aliasin
 
 If the above solutions don't help, then you may be experiencing a more extreme case of crosstalk. Please review the article below for further troubleshooting steps as well as information to send to support.
 
-{% page-ref page="../faq/technical-faq/troubleshooting-signal-crosstalk.md" %}
+{% page-ref page="crosstalk.md" %}
 
 
 
