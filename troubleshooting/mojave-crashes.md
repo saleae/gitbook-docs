@@ -42,5 +42,6 @@ In the meantime, if you are running into this issue, please [contact support](ht
 6. Copy of the error reports on your computer
 7. Copy of any error message log that macOS might report
 8. Copy of the \*.crash files from our Logic software
-9. Please confirm if you have used the Alpha version of our software in the past \(1.2.30 or later\). We have found it to cause similar issues, which are fixed by deleting settings.xml
+9. Confirm if you have used the Alpha version of our software in the past \(1.2.30 or later\). We have found it to cause similar issues, which are fixed by deleting settings.xml
+10. Confirm your your MacOS language setting
 
