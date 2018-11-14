@@ -271,6 +271,8 @@
 
 ## Tutorials
 
+* [Oscilloscope Tutorial](tutorials/oscilloscope-tutorial.md)
+* [Logic Analyzer Tutorial](tutorials/logic-analyzer-tutorial.md)
 * [Learning Portal](tutorials/learning-portal/README.md)
   * [Digital Protocols](tutorials/learning-portal/learning-resources/README.md)
     * [Learn Asynchronous Serial](tutorials/learning-portal/learning-resources/learn-asynchronous-serial.md)
