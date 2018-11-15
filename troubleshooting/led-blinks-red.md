@@ -1,6 +1,8 @@
 # Saleae Logic LED Blinks Red
 
-## Saleae Logic LED Blinks Red
+{% hint style="info" %}
+If the Saleae Logic LED blinks red while connected to a MacOS computer, please contact us right away. Usually, this indicates faulty hardware.
+{% endhint %}
 
 If the Saleae Logic LED blinks red, then the firmware did not load properly. The firmware is loaded to the Logic hardware every time it is connected to the PC and when the Logic software is started. You will notice a percentage indicator at the top of the software while the firmware is loaded.
 
