@@ -24,7 +24,7 @@ Windows 64 bit:
 
 MacOS:
 
-I just noticed our developer certificate expired a few days ago, I'll take care of that and have this posted soon.
+[https://downloads.saleae.com/betas/1.2.34/Logic-1.2.34-MacOS.dmg](https://downloads.saleae.com/betas/1.2.34/Logic-1.2.34-MacOS.dmg)
 
 Linux 64 bit:
 
