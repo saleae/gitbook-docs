@@ -16,6 +16,30 @@ Although this won't be immediately obvious to users, and is not present in the 1
 
 Google Chrome needs to be installed for the html UI to work. If the application is unable to locate Google Chrome, the web interface will not be displayed.
 
+### Saleae Logic 1.2.34 Alpha
+
+Windows 64 bit:
+
+[https://downloads.saleae.com/betas/1.2.34/Logic-1.2.34-win64.zip](https://downloads.saleae.com/betas/1.2.34/Logic-1.2.34-win64.zip)
+
+MacOS:
+
+I just noticed our developer certificate expired a few days ago, I'll take care of that and have this posted soon.
+
+Linux 64 bit:
+
+[https://downloads.saleae.com/betas/1.2.34/Logic-1.2.34.AppImage](https://downloads.saleae.com/betas/1.2.34/Logic-1.2.34.AppImage)
+
+#### What's new in 1.2.34?
+
+A number of things changed under the hood, but the UI facing changes are smaller this time. We added the main menu and software preferences window, but you won't find too much there. We'll be filling out device selection next in preferences. We also fixed a few minor UI issues. Behind the scenes, we fixed a few things. First, there was an issue when switching between the alpha release and an older releases, which is fixed now. We also fixed a few small bugs that we found after the 1.2.32 release, mostly around capture progress updates. Perhaps the most useful under-the-hood change was the addition of the `--legacy` command line option. If you launch the alpha with this option, you will get the original UI instead of the new one. If you need to use the latest alpha build for actual work, you could launch it with this option and use the application normally.
+
+Most of the last week was spent dealing with a MacOS Mojave issue that affected customers with non-english locale settings, and an interesting OpenSSL bug that affects a specific group of low-performance intel CPUs. The Mojave issue is just about wrapped up, and we'll have the Intel problem solved soon.
+
+#### What happened to 1.2.33?
+
+We built 1.2.33 with the legacy UI as a potential beta to solve issues with MacOS Mojave. We're still working on a few issues, but once we're done, we'll release another beta release with the legacy UI.
+
 ### Saleae Logic 1.2.32 Alpha
 
 Windows 64 bit:
