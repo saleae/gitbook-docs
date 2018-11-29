@@ -16,6 +16,34 @@ Although this won't be immediately obvious to users, and is not present in the 1
 
 Google Chrome needs to be installed for the html UI to work. If the application is unable to locate Google Chrome, the web interface will not be displayed.
 
+### Saleae Logic 1.2.36 Alpha
+
+Windows 64 bit:
+
+[https://downloads.saleae.com/betas/1.2.36/Logic-1.2.36-win64.zip](https://downloads.saleae.com/betas/1.2.36/Logic-1.2.36-win64.zip)
+
+MacOS:
+
+[https://downloads.saleae.com/betas/1.2.36/Logic-1.2.36-MacOS.dmg](https://downloads.saleae.com/betas/1.2.36/Logic-1.2.36-MacOS.dmg)
+
+Linux 64 bit:
+
+[https://downloads.saleae.com/betas/1.2.36/Logic-1.2.36.AppImage](https://downloads.saleae.com/betas/1.2.36/Logic-1.2.36.AppImage)
+
+#### What's new in 1.2.36?
+
+There are two main additions in 1.2.36 alpha. First, the preferences screen now includes a new tab for device selection, which displays all attached Saleae devices. \(In simulation mode, 3 devices are attached\). It also allows the user to set custom names for each device \(not currently persisted run to run, we'll get to that later\) and it also allows the device LED to be changed.
+
+Second, this release includes a new mouse interaction implementation. It's not quite done yet, but the core functionality is there. Now click & drag pan interactions end with momentum, and the general interaction implementation is higher performance. We'll be tuning those interactions and adding keyboard navigation shortly.
+
+The release also includes a number of small improvements here and there. 1.2.36 has some rough edges, but these are documented and will be cleaned up soon. 
+
+On the backend, we're working on digital support, which is going well - however there is still a lot of work to finish before we can release it. We also need to make a few more changes to the analog rendering system, the next iteration of it will be significantly faster and should have the rest of the rough edges cleaned up.
+
+#### What happened to 1.2.35?
+
+Like 1.2.33, we built 1.2.35 with the original UI to address an issue that affects low-end Intel Pentium and Celeron processors. Once we have confirmation that the underlying issue is fixed, we'll likely release this as the official beta version. These releases are actually just the alpha software launched with the `--legacy` option enabled by default.
+
 ### Saleae Logic 1.2.34 Alpha
 
 Windows 64 bit:
