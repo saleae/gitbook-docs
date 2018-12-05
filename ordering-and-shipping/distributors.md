@@ -1,7 +1,5 @@
 # Distributors
 
-## Distributors
-
 This list contains every distributor currently selling Saleae devices. Please note that most listed distributors ship worldwide. The country shown refers to each company's main office.
 
 * [Amazon USA](https://www.amazon.com/Logic-Black-Saleae-8-Channel-Analyzer/dp/B0749G85W2/ref=sr_1_1?s=hi&ie=UTF8&qid=1516658879&sr=1-1&keywords=saleae) - US
@@ -14,7 +12,6 @@ This list contains every distributor currently selling Saleae devices. Please no
 * [BTC](https://kamami.pl/szukaj?controller=search&orderby=position&orderway=desc&search_query=saleae&submit_search=) - Poland
 * [ChipCAD Electronics Distribution Ltd.](https://shop.chipcad.hu/Welcome/Default.aspx?scenarioID=360&pid=1526) - Hungary
 * [Core Electronics](http://core-electronics.com.au/search/?q=saleae) - Australia
-* [Crownhill Associates Limited](https://www.crownhill.co.uk/search/for/logic/) - United Kingdom
 * [Double Dragon Electronics Co., Ltd](http://www.sl.com.cn/) - China
 * [electronic-shop sàrl](https://www.electronic-shop.lu/EN/search?q=saleae) - Luxembourg
 * [Elmicro Computer GmbH & Co. KG](http://elmicro.com/de/saleae-logic.html) - Germany
