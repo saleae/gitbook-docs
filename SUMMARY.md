@@ -263,6 +263,7 @@
     * [License for the Saleae Software and SDK](faq/general-faq/what-is-the-license-on-the-saleae-software-and-sdk-where-can-this-be-found.md)
     * [How Do You Pronounce Saleae?](faq/general-faq/how-do-you-pronounce-saleae.md)
     * [Discontinued Products](faq/general-faq/discontinued-products.md)
+    * [How to Create Project Content for Saleae](faq/general-faq/writing-for-saleae.md)
 * [Returns & Warranty](180-day-return-policy-and-3-year-warranty/README.md)
   * [180-Day Return Policy](180-day-return-policy-and-3-year-warranty/180-day-return-policy.md)
   * [3-Year Warranty](180-day-return-policy-and-3-year-warranty/3-year-warranty.md)
