@@ -257,6 +257,7 @@
     * [What Sample Rate Settings Are Available? Can I Sample at a Slower Rate?](faq/technical-faq/what-sample-rate-settings-are-available.md)
     * [How Do I Differentiate Data in the Export File when Duplicate Analyzers Are Used?](faq/technical-faq/differentiate-data-in-the-export-file.md)
     * [Running Multiple Versions of the Software](faq/technical-faq/running-multiple-versions-of-the-software.md)
+    * [Test Clip Differences - Gen 1 & Gen 2](faq/technical-faq/test-clip-differences-gen-1-and-gen-2.md)
   * [General FAQ](faq/general-faq/README.md)
     * [How Do I Get More Help on an Issue That's Outside the Scope of Saleae Support?](faq/general-faq/help-outside-scope.md)
     * [How to Identify Each Saleae Device](faq/general-faq/identify-each-saleae-device.md)
