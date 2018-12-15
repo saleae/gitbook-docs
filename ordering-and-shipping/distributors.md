@@ -9,7 +9,7 @@ This list contains every distributor currently selling Saleae devices. Please no
 * [Antratek Electronics](https://www.antratek.com/catalogsearch/result/?q=saleae) - Netherlands, Belgium, Germany
 * [Batter Fly s.r.l.](http://www.batterfly.com/shop/index.php?route=product/search&filter_name=saleae) - Italy
 * [Batronix](http://www.batronix.com/shop/logic-analyzer/Saleae.html) - Germany
-* [BTC](https://kamami.pl/szukaj?controller=search&orderby=position&orderway=desc&search_query=saleae&submit_search=) - Poland
+* [BTC](https://kamami.pl/22_saleae) - Poland
 * [ChipCAD Electronics Distribution Ltd.](https://shop.chipcad.hu/Welcome/Default.aspx?scenarioID=360&pid=1526) - Hungary
 * [Core Electronics](http://core-electronics.com.au/search/?q=saleae) - Australia
 * [Double Dragon Electronics Co., Ltd](http://www.sl.com.cn/) - China
