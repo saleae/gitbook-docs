@@ -112,6 +112,7 @@
   * [The Device Does Not Connect to the Software \(Depreciated\)](troubleshooting/the-device-does-not-connect-to-the-software-depreciated.md)
   * [Error Message: We're Sorry, but the Device Was Not Able to Keep Up with This Sample Rate](troubleshooting/device-not-able-to-keep-up.md)
   * [The Captured Data Looks Incorrect](troubleshooting/captured-data-looks-incorrect.md)
+  * [The Captured Data is Corrupted](troubleshooting/the-captured-data-is-corrupted.md)
   * [A Protocol Analyzer Produces Unexpected Results](troubleshooting/protocol-analyzer-produces-unexpected-results.md)
   * [The 'Waiting for Trigger' Window Never Closes](troubleshooting/waiting-for-trigger-never-closes.md)
   * [Device USB VID and PID Information](troubleshooting/the-devices-usb-vid-and-pid-failed.md)
