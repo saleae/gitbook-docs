@@ -8,11 +8,22 @@ Below is a list of all known reasons and corresponding solutions or next steps t
 
 For each item, first perform the test. If the test result is positive \(the test condition was met\), then attempt the corrective action.
 
-If the issue you are experiencing is that some or all of your capture attempts immediately fail, please see below.
+### The Capture Fails with an Error Message
+
+If the issue you are experiencing is that some or all of your capture attempts immediately fail with the error message shown in the link below, please read the below article.
 
 {% page-ref page="device-not-able-to-keep-up.md" %}
 
-#### The Analog Capture Looks Extremely Noisy
+### The Captured Data is Corrupted
+
+If the software is able to capture data, but the captured data looks random or completely incorrect:
+
+1. Make sure the software detects the Logic hardware properly \(the top bar of the software should display "Connected"\).
+2. Check your USB Host Controller driver. There is a known issue with VIA USB host controllers. See below.
+
+{% page-ref page="the-captured-data-is-corrupted.md" %}
+
+### The Analog Capture Looks Extremely Noisy
 
 Even with the Logic hardware inputs disconnected, the analog capture may look like the image below. The solution is to simply download the [latest version of Logic software](https://www.saleae.com/downloads/). We made some incremental changes to the Logic hardware \(no new functionality\) that makes it incompatible with Logic software versions prior to 1.2.15.
 

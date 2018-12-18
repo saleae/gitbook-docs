@@ -25,15 +25,21 @@ The card we link specifically advertises on using the Renesas controller, which 
 
 We have not yet performed a full evaluation on "ExpressCard" Laptop add on cards. Once we have done so, we will post a recommendation for that, too. In the meantime, we recommend looking for a Renesas-based express card.
 
-Instructions to identify currently installed host controllers:
+### Instructions to identify currently installed host controllers
 
 {% page-ref page="../../faq/technical-faq/usb-3.0-host-controller-info.md" %}
 
-Latest driver information:
+### Latest driver information
 
 {% page-ref page="../../logic-software/usb-3.0-host-controller-drivers.md" %}
 
+### Known Issues with VIA Host Controllers
 
+There is a known issue with corrupting data captures when using Saleae Logic with VIA host controllers. The simple fix is to update the VIA host controller driver. More information on the issue can be found below.
+
+{% page-ref page="../../troubleshooting/the-captured-data-is-corrupted.md" %}
+
+### 
 
 
 
