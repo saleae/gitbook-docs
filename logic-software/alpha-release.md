@@ -16,6 +16,26 @@ Although this won't be immediately obvious to users, and is not present in the 1
 
 Google Chrome needs to be installed for the html UI to work. If the application is unable to locate Google Chrome, the web interface will not be displayed.
 
+### Saleae Logic 1.2.37 Alpha
+
+Windows 64 bit:
+
+[https://downloads.saleae.com/betas/1.2.37/Logic-1.2.37-win64.zip](https://downloads.saleae.com/betas/1.2.37/Logic-1.2.37-win64.zip)
+
+MacOS:
+
+[https://downloads.saleae.com/betas/1.2.37/Logic-1.2.37-MacOS.dmg](https://downloads.saleae.com/betas/1.2.37/Logic-1.2.37-MacOS.dmg)
+
+Linux 64 bit:
+
+[https://downloads.saleae.com/betas/1.2.37/Logic-1.2.37.AppImage](https://downloads.saleae.com/betas/1.2.37/Logic-1.2.37.AppImage)
+
+#### What's new in 1.2.37?
+
+Most of the work since 1.2.36 was focused on getting cloud based continuous integration \(CI\) setup so that the software would build and all tests would run on all 3 supported platforms every time we made a new git commit. Quite a bit of effort went into this, because at the same time, we wanted to run all of our code analysis tools and even prepare the final packages for release.
+
+In addition, we also integrated the new mouse & keyboard viewstate navigation, which is higher performance than the original implementation, and it's easier for us to maintain and adjust minor experience details like momentum and animations. The viewstate is the component that handles all mouse and keyboard navigation of the graph display.
+
 ### Saleae Logic 1.2.36 Alpha
 
 Windows 64 bit:

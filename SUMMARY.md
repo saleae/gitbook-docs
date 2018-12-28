@@ -74,6 +74,7 @@
     * [Using the Simple Parallel Analyzer](protocol-analyzers/analyzer-user-guides/using-simple-parallel.md)
     * [Using the I2S / PCM Analyzer](protocol-analyzers/analyzer-user-guides/using-i2s-pcm.md)
     * [Using the DMX-512 Analyzer](protocol-analyzers/analyzer-user-guides/using-dmx-512.md)
+    * [Using the SMBus Analyzer](protocol-analyzers/analyzer-user-guides/using-the-smbus-analyzer.md)
 * [Software Download](logic-software/README.md)
   * [Supported Operating Systems](logic-software/supported-operating-systems.md)
   * [Latest Stable Release](logic-software/latest-stable-release-download.md)
