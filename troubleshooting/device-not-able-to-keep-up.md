@@ -26,6 +26,7 @@ Otherwise, this indicates a potentially different issue and could be caused by o
 * Make sure you are using the latest Saleae software: [https://www.saleae.com/downloads](https://www.saleae.com/downloads)
 * Make sure that there are no other high-bandwidth USB devices attached to the PC during the capture.
 * Try removing any USB hubs between Logic and the host PC.
+* Try removing any USB extension cables. We recommend using the supplied USB cable, or using a USB cable that is as short as possible to avoid any issues with signal integrity.
 * Try using the device on other USB ports. If you're using one of the USB 2.0 products, try all the ports on the PC since that will test with all host controllers.
 * Try reconnecting Logic to the PC.
 * Test the device on another PC to help rule out a hardware problem.
