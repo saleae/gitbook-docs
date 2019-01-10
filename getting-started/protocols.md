@@ -4,7 +4,7 @@ The _Logic_ software has the ability to decode a variety of protocols, including
 
 Click the **Add protocol analyzer** button to bring up a menu of protocols to decode. Once added, the protocol can be displayed in binary, decimal, hexadecimal, or ASCII, and information is shown above each segment of data \(e.g. byte\) in the viewport as well as in the _Decoded Protocols_ pane.
 
-{% embed url="https://www.youtube.com/watch?time\_continue=2&v=UgkJKP2hhfc" %}
+{% embed url="https://vimeo.com/310200242" %}
 
 If you do not have a logic analyzer, you can analyze protocols with simulated data. Add one or more _analyzers_ and click **Start Simulation** to generate simulation data for that protocol.
 

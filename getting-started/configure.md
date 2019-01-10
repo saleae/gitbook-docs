@@ -4,7 +4,7 @@ With the analyzer plugged into your computer, start the _Logic_ software. If thi
 
 Before you capture any data, click on the _Device Settings_ button to configure the logic analyzer. Select the sampling rate, collection duration, ports, and voltage.
 
-{% embed url="https://www.youtube.com/watch?v=MSaRVVrSZbY" %}
+{% embed url="https://vimeo.com/310200140" %}
 
 Note: only the Logic 8 Pro and Logic 16 Pro have the "Voltage" setting.
 
