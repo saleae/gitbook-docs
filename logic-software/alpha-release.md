@@ -16,6 +16,26 @@ Although this won't be immediately obvious to users, and is not present in the 1
 
 Google Chrome needs to be installed for the html UI to work. If the application is unable to locate Google Chrome, the web interface will not be displayed.
 
+### Saleae Logic 1.2.38 Alpha
+
+Windows 64 bit:
+
+[https://downloads.saleae.com/betas/1.2.38/Logic-1.2.38-win64.zip](https://downloads.saleae.com/betas/1.2.38/Logic-1.2.38-win64.zip)
+
+MacOS:
+
+[https://downloads.saleae.com/betas/1.2.38/Logic-1.2.38-MacOS.dmg](https://downloads.saleae.com/betas/1.2.38/Logic-1.2.38-MacOS.dmg)
+
+Linux 64 bit:
+
+[https://downloads.saleae.com/betas/1.2.38/Logic-1.2.38.AppImage](https://downloads.saleae.com/betas/1.2.38/Logic-1.2.38.AppImage)
+
+#### What's new in 1.2.38?
+
+First, we've added an analog measurement tool which displays measurements from the analog recording interactively. This feature is very similar to the one in our production application, however it is a completely new implementation that works with our new data processing back end. It only supports 3 modes at the moment - voltage, width and period.
+
+We've also cleaned up a number of minor product "polish" items, including changes to the mouse interaction & animation, and we'll have a few more tweaks in the next release.
+
 ### Saleae Logic 1.2.37 Alpha
 
 Windows 64 bit:
