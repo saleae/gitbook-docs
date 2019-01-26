@@ -38,6 +38,7 @@ Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you nee
 * [PWM Analyzer](https://github.com/dustin/logic-pwm)
 * [SENT Analyzer](https://github.com/melexis/SENTAnalyzer)
 * [MIPI DSI LP Analyzer](https://github.com/stawiski/Saleae-MIPI-DSI-LP-Analyzer)
+* [Vehicle Area Network \(VAN\) Analyzer](https://github.com/morcibacsi/VanAnalyzer)
 
 
 
