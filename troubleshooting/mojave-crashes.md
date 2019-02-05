@@ -2,6 +2,12 @@
 
 We have recently received reports that our Logic software crashes after updating macOS to Mojave \(10.14\). We're very sorry for the inconvenience this has caused. We're working hard on a fix for this bug.
 
+{% hint style="info" %}
+We have released an interim fix for this issue. Before trying the steps below, please try running this version of the software for macOS:
+
+[https://downloads.saleae.com/betas/1.2.33/Logic-1.2.33-MacOS.dmg](https://downloads.saleae.com/betas/1.2.33/Logic-1.2.33-MacOS.dmg)
+{% endhint %}
+
 In the meantime, if you are running into this issue, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) with the following information.
 
 ### Please Perform the Following Steps
