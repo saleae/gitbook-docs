@@ -58,6 +58,12 @@ Each .cal file is specific to a single device, but the .cal files are saved with
 
 Our devices do not require periodic recalibration.
 
+### Does my device have the latest calibration file loaded?
+
+If there is a newer calibration file available for your device, our software should automatically download it as long as it is connected to the internet.
+
+In case you want to check if there is an updated calibration file available, please manually download the calibration file using the instructions above. If the calibration file was updated, then you will notice the _Last Updated Date_ will change under the _Calibration Info_ tab inside the _Preferences_ window.
+
 ### **Having Trouble?**
 
 If you are having trouble manually downloading the calibration file, we can send it to you. Please [contact support](https://contact.saleae.com/hc/en-us/requests/new), and we can make sure your calibration data gets updated.
