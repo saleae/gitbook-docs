@@ -261,6 +261,7 @@
     * [How Do I Differentiate Data in the Export File when Duplicate Analyzers Are Used?](faq/technical-faq/differentiate-data-in-the-export-file.md)
     * [Running Multiple Versions of the Software](faq/technical-faq/running-multiple-versions-of-the-software.md)
     * [Test Clip Differences - Gen 1 & Gen 2](faq/technical-faq/test-clip-differences.md)
+    * [USB-C Cable Recommendations](faq/technical-faq/usb-c-cable-recommendations.md)
   * [General FAQ](faq/general-faq/README.md)
     * [How Do I Get More Help on an Issue That's Outside the Scope of Saleae Support?](faq/general-faq/help-outside-scope.md)
     * [How to Identify Each Saleae Device](faq/general-faq/identify-each-saleae-device.md)
