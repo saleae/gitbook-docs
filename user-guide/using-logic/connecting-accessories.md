@@ -54,19 +54,24 @@ In many situations, it may be difficult to connect Logic directly to your signal
 
 Several 3D printable Saleae Logic accessories have been made available by our community of users. They are available for download below.
 
-### Saleae Logic Pro 16 Analyzer Dock Station
+### Logic Pro 16 Analyzer Dock Station
 
 * by [earlynerd](https://www.thingiverse.com/earlynerd/about)
 * Thingiverse Download: [https://www.thingiverse.com/thing:3112823](https://www.thingiverse.com/thing:3112823)
 
-![Saleae Logic Pro 16 Analyzer Dock Station by earlynerd](../../.gitbook/assets/2018-09-24_1000.png)
+![Logic Pro 16 Analyzer Dock Station by earlynerd](../../.gitbook/assets/2018-09-24_1000.png)
 
-### Saleae Logic Holder
+### Logic Holder
 
 * by [PCBGRIP](https://www.thingiverse.com/PCBGRIP/about)
 * Thingiverse Download: [https://www.thingiverse.com/thing:735911](https://www.thingiverse.com/thing:735911)
 
-![Saleae Logic Holder by PCBGRIP](../../.gitbook/assets/2018-09-24_1026.png)
+![Logic Holder by PCBGRIP](../../.gitbook/assets/2018-09-24_1026.png)
 
+### Logic Pro 16 Desktop Organizer
 
+* by [BuildXYZ](https://www.thingiverse.com/buildxyz/about)
+* Thingiverse Download: [https://www.thingiverse.com/thing:3473347](https://www.thingiverse.com/thing:3473347)
+
+![Logic Pro 16 Desktop Organizer by BuildXYZ](../../.gitbook/assets/e1a84da32242e03b838653b751a6350e_preview_featured.jpg)
 
