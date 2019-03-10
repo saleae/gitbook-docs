@@ -14,7 +14,7 @@ In the future, though, we want to adopt a wider plugin system where it will be p
 
 This new plugin system, however, will require substantial changes to the software architecture. We have already been performing early evaluations of it. It's a very ambitious and exciting idea and one I hope we can commit to soon.
 
-In the meantime, we are not able to open-source any other components of the current software, including the USB later and device layer libraries.
+In the meantime, we are not able to open-source any other components of the current software, including the USB layer and device layer libraries.
 
 **Sigrok**
 
