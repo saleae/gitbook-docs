@@ -40,5 +40,7 @@ Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you nee
 * [MIPI DSI LP Analyzer](https://github.com/stawiski/Saleae-MIPI-DSI-LP-Analyzer)
 * [Vehicle Area Network \(VAN\) Analyzer](https://github.com/morcibacsi/VanAnalyzer)
 
+### Unofficially Supported Protocol Tools
 
+* [Enrichable SPI Analyzer](https://github.com/coddingtonbear/saleae-enrichable-spi-analyzer) with an [Example Implementation](https://github.com/coddingtonbear/saleae-scriptable-spi-analyzer/blob/master/examples/custom_class.py)
 
