@@ -14,13 +14,13 @@ In the future, though, we want to adopt a wider plugin system where it will be p
 
 This new plugin system, however, will require substantial changes to the software architecture. We have already been performing early evaluations of it. It's a very ambitious and exciting idea and one I hope we can commit to soon.
 
-In the meantime, we are not able to open-source any other components of the current software, including the USB later and device layer libraries.
+In the meantime, we are not able to open-source any other components of the current software, including the USB layer and device layer libraries.
 
 **Sigrok**
 
 [Sigrok](http://sigrok.org/wiki/Main_Page) is an open source software project aimed at developing software and libraries to run a wide range of existing logic analyzers and data recorders.
 
-Sigrok already contains community-added support for the original Saleae Logic and Logic16, allowing both products to be used by the Sigrok software.
+Sigrok already contains community-added support for the original Saleae Logic and Logic16, and experimental support for digital signals using the Saleae Logic Pro 16, allowing all three products to be used by the Sigrok software.
 
-The new Saleae devices are not currently supported by Sigrok. You can track the development progress for this on the [Sigrok wiki](http://sigrok.org/wiki/Main_Page).
+The other new Saleae devices are not currently supported by Sigrok. You can track the development progress for this on the [Sigrok wiki](http://sigrok.org/wiki/Main_Page).
 
