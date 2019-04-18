@@ -18,5 +18,9 @@ Unfortunately, there is no way to edit the settings individually. If you need to
 [22 serialization::archive 10 25 SaleaeAsyncSerialAnalyzer 0 21 19986 0 1 9600 8 1 0 1 0 0 0
 ```
 
-The analyzer settings are saved in that string. You can either save several \*.logicsettings files to guess which value corresponds to which setting, or you can download the source code to all of the analyzers here: [https://trello.com/c/YHJKmcns](https://trello.com/c/YHJKmcns). \(see AnalyzerSettings::SaveSettings\(\) for details\). Be careful when editing the file from your application to preserve all other characters in the file. Also, the length of the string might be serialized in binary, so changing the length of the string could be difficult.
+The analyzer settings are saved in that string. You can either save several \*.logicsettings files to guess which value corresponds to which setting, or you can download the source code to all of the analyzers below:
+
+{% page-ref page="../../saleae-api-and-sdk/protocol-analyzer-sdk.md" %}
+
+See AnalyzerSettings::SaveSettings\(\) for details. Be careful when editing the file from your application to preserve all other characters in the file. Also, the length of the string might be serialized in binary, so changing the length of the string could be difficult.
 
