@@ -1,4 +1,4 @@
 # Alpha Release
 
-We're moving the location of the Alpha software. Stay tuned.
+The Alpha Release has been moved to discuss.saleae.com.
 
