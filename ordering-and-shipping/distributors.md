@@ -20,6 +20,7 @@ This list contains every distributor currently selling Saleae devices. Please no
 * [Generation Robots](https://www.generationrobots.com/en/83_saleae) - France
 * [HANYI Technologies \(Shanghai\) Co., Ltd ](http://www.han-yi-tech.com/product/129.html) - China
 * [Innovate Software Solutions Pvt. Ltd.](http://innovatesolutions.net/shop/logic-4/) - India
+* [Instrument Engineers](http://instrumentengineers.com/logicanalyzers.aspx) - US
 * [Integrated Systems Scandinavia AB](http://www.iss.se/default.asp?id=2927&searchfile=saleae) - Sweden
 * [James Electronics LTD.](http://www.jameco.com/webapp/wcs/stores/servlet/StoreCatalogDrillDownView?langId=-1&storeId=10001&catalogId=10001&freeText=saleae&search_type=jamecoall) - US
 * [Meilhaus Electronic GmbH](https://www.meilhaus.de/infos/saleae/) - Germany

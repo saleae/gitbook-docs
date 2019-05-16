@@ -630,11 +630,11 @@ OSX 10.6+
 
 Linux 32 bit
 
-[downloads.saleae.com/Logic+Socket+Beta+Update/Logic+1.1.18+-+beta+update+\(32-bit\).zip](http://downloads.saleae.com/Logic+Socket+Beta+Update/Logic+1.1.18+-+beta+update+/%2832-bit/%29.zip)
+[http://downloads.saleae.com/Logic+Socket+Beta+Update/Logic+1.1.18+-+beta+update+\(32-bit\).zip](http://downloads.saleae.com/Logic+Socket+Beta+Update/Logic+1.1.18+-+beta+update+%2832-bit%29.zip)
 
 Linux 64 bit
 
-[downloads.saleae.com/Logic+Socket+Beta+Update/Logic+1.1.18+-+beta+update+\(64-bit\).zip](http://downloads.saleae.com/Logic+Socket+Beta+Update/Logic+1.1.18+-+beta+update+/%2864-bit/%29.zip)
+[http://downloads.saleae.com/Logic+Socket+Beta+Update/Logic+1.1.18+-+beta+update+\(64-bit\).zip](http://downloads.saleae.com/Logic+Socket+Beta+Update/Logic+1.1.18+-+beta+update+%2864-bit%29.zip)
 
 ### **1.1.18 Download**
 
@@ -648,11 +648,13 @@ OS X:
 
 [Logic 1.1.18 Beta - OSX 10.6+](http://downloads.saleae.com/betas/1.1.18/Logic-1.1.18-Darwin.dmg)
 
-Linux:
+Linux 32 bit:
 
-[Logic 1.1.18 Beta - Ubuntu 32 bit](http://downloads.saleae.com/betas/1.1.18/Logic+1.1.18+/%2832-bit/%29.zip)
+[http://downloads.saleae.com/betas/1.1.18/Logic+1.1.18+\(32-bit\).zip](http://downloads.saleae.com/betas/1.1.18/Logic+1.1.18+%2832-bit%29.zip)
 
-[Logic 1.1.18 Beta - Ubuntu 64 bit](http://downloads.saleae.com/betas/1.1.18/Logic+1.1.18+/%2864-bit/%29.zip)
+Linux 64 bit:
+
+[http://downloads.saleae.com/betas/1.1.18/Logic+1.1.18+\(64-bit\).zip](http://downloads.saleae.com/betas/1.1.18/Logic+1.1.18+%2864-bit%29.zip)
 
 Windows Standalone:
 

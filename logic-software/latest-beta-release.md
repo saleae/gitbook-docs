@@ -17,7 +17,7 @@ There is also a more recent alpha release available - however it is not intended
 **Windows**  
 [Logic Setup 1.2.29.exe](http://downloads.saleae.com/logic/1.2.29/Logic+Setup+1.2.29.exe)
 
-**Mac OS X 10.8+**   
+**Mac OS X 10.8+**  
 [Logic-1.2.29-Darwin.dmg](http://downloads.saleae.com/logic/1.2.29/Logic-1.2.29-Darwin.dmg)
 
 **Linux 64-Bit**  
