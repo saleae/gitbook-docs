@@ -15,7 +15,7 @@ This list contains every distributor currently selling Saleae devices. Please no
 * [electronic-shop sàrl](https://www.electronic-shop.lu/EN/search?q=saleae) - Luxembourg
 * [Elmicro Computer GmbH & Co. KG](http://elmicro.com/de/saleae-logic.html) - Germany
 * [Embedded Fruit](http://www.embeddedfruit.de/SaleaeProdukte) - Germany
-* [EXP GmbH](http://www.exp-tech.de/hersteller/saleae/) - Germany
+* [EXP GmbH](https://www.exp-tech.de/saleae/) - Germany
 * [Generation Robots](https://www.generationrobots.com/en/83_saleae) - France
 * [HANYI Technologies \(Shanghai\) Co., Ltd ](http://www.han-yi-tech.com/product/129.html) - China
 * [Innovate Software Solutions Pvt. Ltd.](http://innovatesolutions.net/shop/logic-4/) - India
