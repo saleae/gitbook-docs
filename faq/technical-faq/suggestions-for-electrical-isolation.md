@@ -4,7 +4,11 @@
 
 None of the Saleae devices electrically isolate the ground of the device under test from the host PC’s USB ports. For most applications, this merely requires extra care from the user to prevent accidental ground loop short circuits. However, there are applications where electrical isolation between the device under test and the host PC is absolutely required.
 
-In these cases, we recommend using some kind of electrical isolator. The seemingly easiest way to isolate the product is to isolate the USB connection. Unfortunately, almost all of the USB isolators currently on the market only support low-speed USB and full-speed USB. Our products require high-speed USB to operate. That is especially confusing because they are advertised as “USB 2.0 isolators”; however, USB high speed is not required to be considered USB 2.0.
+### USB 3.0 Super-Speed Isolator
+
+[ALLDAQ USB 3.0 Isolator](https://shop.alldaq.com/Schnittstellen/USB-Isolatoren/ALLDAQ-ADQ-USB-3-0-ISO-PS::143382.html?MODsid=namr0694hdtonv1vhn9v4s0gb4)
+
+We have not yet performed extensive testing on this one, but it succeeded in some simple tests and is able to stream data at Logic Pro 16's maximum sampling rates. It also provides enough power by supplying a maximum of 900mA, which is more than enough for Logic Pro 16. Please contact us if you have any specific questions regarding this USB isolator.
 
 ### USB 2.0 High-Speed Isolator
 
@@ -16,11 +20,6 @@ We've tested it here, and it works very well. Unfortunately, there is one limita
 
 It may be possible to power the logic analyzer using a powered USB hub that is properly isolated. Most hubs include a 2-prong power supply that will provide some minimal isolation from MAINs earth ground, but they are generally not rated for isolation.
 
-### USB 3.0 Super-Speed Isolator
-
-[ALLDAQ USB 3.0 Isolator](https://shop.alldaq.com/Schnittstellen/USB-Isolatoren/ALLDAQ-ADQ-USB-3-0-ISO-PS::143382.html?MODsid=namr0694hdtonv1vhn9v4s0gb4)
-
-We have not yet performed extensive testing on this one, but it succeeded in some simple tests and is able to stream data at Logic Pro 16's maximum sampling rates. It also provides enough power by supplying a maximum of 900mA, which is more than enough for Logic Pro 16. Please contact us if you have any specific questions regarding this USB isolator.
 
 ### Isolating the Inputs Before They Reach Logic
 
