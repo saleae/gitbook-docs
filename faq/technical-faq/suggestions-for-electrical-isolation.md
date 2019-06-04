@@ -20,7 +20,6 @@ We've tested it here, and it works very well. Unfortunately, there is one limita
 
 It may be possible to power the logic analyzer using a powered USB hub that is properly isolated. Most hubs include a 2-prong power supply that will provide some minimal isolation from MAINs earth ground, but they are generally not rated for isolation.
 
-
 ### Isolating the Inputs Before They Reach Logic
 
 Another recommendation is to simply isolate the digital inputs before they reach Logic. You may want to consider using this SI Labs digital isolator evaluation kit. Additional work will be required to get it running, and it won’t work in all scenarios, but it’s a good starting point.
