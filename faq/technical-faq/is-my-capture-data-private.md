@@ -15,7 +15,10 @@ Please note that the Logic software communicates with our servers in the followi
 
 {% page-ref page="../../user-guide/device-calibration.md" %}
 
-* Software Updates - The Logic software checks to see if a newer version is available for download. It does not automatically download it. Instead, a notification to the user is provided in the Options dropdown.
+* Software Updates - The Logic software checks to see if a newer version is available for download. It does not automatically download it. Instead, a notification to the user is provided in the Options dropdown. Automatically checking for updates can be disabled by navigating to Options -&gt; Preferences -&gt; Interaction tab. 
+* Usage Statistics - If this setting is enabled, usage statistics is sent to our servers. Please remember that captured data is never sent to us. The user can opt-out of providing such usage data via the Options menu.
+
+
 
 
 
