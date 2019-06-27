@@ -1,6 +1,4 @@
-# Analog Binary Data Export Format
-
-## Analog Binary Data Export Format
+# Binary Data Export Format - Analog
 
 **This Article Applies Only to v1.2.0+ Versions of the Software.**
 

@@ -245,7 +245,7 @@
     * [How Do I Convert Exported CSV Analog Data in Voltages?](faq/technical-faq/how-do-i-convert-exported-csv-analog-data-in-voltages.md)
     * [Is There Cross-Platform Support for the SaleaeSocketApi C\# Project](faq/technical-faq/is-there-cross-platform-support-for-the-saleaesocketapi-c-project.md)
     * [Why Does Logic Get Warm?](faq/technical-faq/why-does-logic-get-warm.md)
-    * [Analog Binary Data Export Format](faq/technical-faq/data-export-format-analog-binary.md)
+    * [Binary Data Export Format - Analog](faq/technical-faq/data-export-format-analog-binary.md)
     * [USB Isolation Suggestions](faq/technical-faq/suggestions-for-electrical-isolation.md)
     * [FCC and CE Testing Recommendations](faq/technical-faq/fcc-and-ce-testing-recommendations.md)
     * ['Save Capture' and 'Export Data' is Disabled in the Software](faq/technical-faq/save-capture-and-export-data-disabled.md)
