@@ -195,7 +195,7 @@
     * [How Can I Analyze the USB Power Delivery Communication Protocol?](faq/technical-faq/how-can-i-analyze-the-usb-power-delivery-communication-protocol.md)
     * [What Sample Rate Is Required for a Given Signal?](faq/technical-faq/what-sample-rate-is-required.md)
     * [Can I Share Data Captures with Others?](faq/technical-faq/can-i-share-data-captures.md)
-    * [Binary Data Export Format](faq/technical-faq/binary-data-export-format.md)
+    * [Binary Data Export Format - Digital Channels](faq/technical-faq/binary-data-export-format.md)
     * [MATLAB Data Export Format](faq/technical-faq/matlab-data-export-format.md)
     * [Recording Multiple Protocols at the Same Time](faq/technical-faq/recording-multiple-protocols.md)
     * [Changing the Display Radix \(Base\)](faq/technical-faq/changing-the-display-radix.md)

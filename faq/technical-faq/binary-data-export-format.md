@@ -1,6 +1,4 @@
-# Binary Data Export Format
-
-## Binary Data Export Format
+# Binary Data Export Format - Digital Channels
 
 The Binary export option in the Saleae software is used to export the captures signals to a binary file.
 
@@ -27,6 +25,16 @@ Then, you can export just the sample numbers where one or more of the exported c
 To read this file, simply read a 64-bit number followed by the selected word size in a loop.
 
 The first entry will always be the first sample in the export range and will contain the initial bitstates of all channels. After that, each entry will include the sample number of the first location where the binary state of the inputs changed, along with the new state of all of the inputs \(usually, only 1 input will change at a time, but all states are still included\). You can assume that all samples up to but not including this sample number were identical to the last entry.
+
+### Example
+
+The following Export Format and Binary Settings will produce a binary data export file as shown below.
+
+![](../../.gitbook/assets/2019-06-27_1936.png)
+
+![](../../.gitbook/assets/2019-06-27_1947.png)
+
+### What About Analog Data? 
 
 Analog binary analog export does contain a basic header before the data sections. You can find full details on the analog binary export format here:
 
