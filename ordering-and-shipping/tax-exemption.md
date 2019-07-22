@@ -1,14 +1,15 @@
 # Tax Exemption
 
-## Tax Exemption
-
-If your company is exempt from paying taxes and our product will ship to within the United States, you can provide your tax exemption certificate to us.
+{% hint style="info" %}
+Please wait for our support team's approval email \(usually 1-2 business days after the tax exemption certificate is provided\) before placing your tax exempt order. Our process is highlighted below.
+{% endhint %}
 
 ### Process for Removing Tax Charges
 
 1. Before placing your order, [contact us](https://contact.saleae.com/hc/en-us/requests/new) and let us know you would like sales tax removed on future orders. Include an attachment of your tax exemption certificate.
-2. If approved, we will send confirmation.
-3. Afterwards, your future orders on [www.saleae.com](https://www.saleae.com/) will be tax-free.
+2. Wait for our support team's approval email \(usually 1-2 business days after the tax exemption certificate is provided\).
+3. After receiving approval, your future orders on [www.saleae.com](https://www.saleae.com/) will be tax-exempt when using the email you have provided us.
+4. When placing your order, ensure that taxes have been successfully removed before submitting your order. If taxes still appear on our check out page, please do not submit your order and [contact us](https://contact.saleae.com/hc/en-us/requests/new) to have this resolved.
 
 ### Refund of Tax Charges
 
