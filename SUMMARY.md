@@ -266,7 +266,7 @@
   * [General FAQ](faq/general-faq/README.md)
     * [How Do I Get More Help on an Issue That's Outside the Scope of Saleae Support?](faq/general-faq/help-outside-scope.md)
     * [How to Identify Each Saleae Device](faq/general-faq/identify-each-saleae-device.md)
-    * [License for the Saleae Software and SDK](faq/general-faq/what-is-the-license-on-the-saleae-software-and-sdk-where-can-this-be-found.md)
+    * [License for the Saleae Software and SDK](faq/general-faq/license.md)
     * [How Do You Pronounce Saleae?](faq/general-faq/how-do-you-pronounce-saleae.md)
     * [Discontinued Products](faq/general-faq/discontinued-products.md)
     * [How to Create Project Content for Saleae](faq/general-faq/writing-for-saleae.md)
