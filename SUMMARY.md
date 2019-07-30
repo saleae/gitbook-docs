@@ -187,7 +187,7 @@
     * [How to Choose the Right Logic Analyzer for You](faq/technical-faq/how-to-choose-the-right-logic-analyzer-for-you.md)
     * [Saleae Open Source Support](faq/technical-faq/saleae-open-source-support.md)
     * [How to Trigger the End of a Capture Instead of the Start](faq/technical-faq/how-to-trigger-the-end-of-a-capture-instead-of-the-start.md)
-    * [Using the Hardware with USB Extension Cables, Through Virtual Machines, or Ethernet Extenders](faq/technical-faq/using-the-hardware-with-usb-extension-cables-through-virtual-machines-or-ethernet-extenders.md)
+    * [Using the Hardware with USB Extension Cables, Through Virtual Machines, or Ethernet Extenders](faq/technical-faq/extension-cables-and-vm.md)
     * [Are the Ground Pins Required for Each Input Used?](faq/technical-faq/are-the-ground-pins-required-for-each-input-used.md)
     * [How Can I Start and End the Capture Manually Instead of Specifying the Length of the Capture?](faq/technical-faq/start-and-end-the-capture-manually.md)
     * [Can Saleae Products Output Data?](faq/technical-faq/can-saleae-products-output-data.md)
