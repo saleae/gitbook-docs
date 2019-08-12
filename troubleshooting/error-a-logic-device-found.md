@@ -1,11 +1,8 @@
 # Error Message: A Logic Device Was Found, but There Was a Problem Connecting to It
 
-## Error Message: A Logic Device Was Found, but There Was a Problem Connecting to It
+### Windows Error Message
 
-When connecting the device on Windows, the following error message appears:   
-"A Logic Device Was Found, but There Was a Problem Connecting to It. Another Application May Be Using It"
-
-Normally, this message shows up when another instance of the Logic software is already running and connected to the device. You can use task manager to see if another instance is still running, even if there are no other windows open.
+> _A Logic device was found, but there was a problem connecting to it. Another application may be using it. Please let us know if the issue persists._
 
 When the software detects a logic analyzer connected to the PC, it asks the operating system for an exclusive handle to the device. This error message is shown when that request is denied.
 
@@ -14,4 +11,12 @@ For a small number of users, this error is shown incorrectly. It is displayed ev
 If the title bar says "Connected" after closing this error message, the device and software are actually working normally.
 
 If the title bar says "Disconnected" after closing the error message, then something is wrong. Check for other instances of Logic.exe and close them. Then remove and reconnect the device. If no other instances of Logic.exe are running, you may want to try restarting your computer and then [contact support](https://contact.saleae.com/hc/en-us/requests/new).
+
+### Linux Error Message
+
+> _A Logic device was found, but there there was a problem connecting to it. This is probably because we don't have permissions to access it. Take a look in the drivers folder for instructions, or run this program as root \(i.e. use sudo from the command line\). This could also be caused by having multiple instances of the Logic software running. Let us know if you still have any problems._
+
+The software may not have permissions to access the device. Either install the udev rules file or run the software as administrator. If the udev rules file is not working, it might be a compatibility issue with your specifc Linux distro. For very old distros, the keyword "ATTR" might not be supported and can be replaced with "SYSFS". On Arch, and possibly other distros, try removing the text ENV{DEVTYPE}=="usb\_device" from the rules file.
+
+One of our users has provided a detailed description of the solution on Linux here: [https://schou.dk/linux/saleae/](https://schou.dk/linux/saleae/)
 
