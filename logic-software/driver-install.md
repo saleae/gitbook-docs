@@ -10,27 +10,18 @@ If you are using any of the 2nd generation products \(Logic 4, Logic 8, Pro 8, P
 
 {% page-ref page="latest-beta-release.md" %}
 
-{% page-ref page="latest-beta-release.md" %}
-
 {% hint style="info" %}
 If you have manually installed the 1st generation Logic or Logic16 drivers in the past, you will need to update to the latest software and then manually install the correct driver again.
 {% endhint %}
 
-The first thing to try is manually installing the drivers, if you haven't already. After that, let's try a "have-disk" manual install.
-
-If that doesn't work, please contact us and send an install log along with details about your computer. The information we'll need is at the bottom of this article.
-
 ### Method 1: New Hardware Wizard Installation
 
-For the first part, we want to get to the new-hardware wizard for Logic. Please connect Logic and then open the Device Manager.
+We want to get to the new-hardware wizard for Logic. Please connect Logic and then open the Device Manager.
 
-In Windows 10 and 8.1, you can right-click on the Windows logo in the lower left and select Device Manager.
-
-In Windows 8.0, you can search for the Device Manager from the Start screen.
-
-In Windows 7 and Vista, you need to open the Control Panel, select System, and then click the link for Device Manager on the left.
-
-In Windows XP, you will need to open the Control Panel, open System, go to the Hardware tab, and click the button for Device Manager.
+* In Windows 10 and 8.1, you can right-click on the Windows logo in the lower left and select Device Manager.
+* In Windows 8.0, you can search for the Device Manager from the Start screen.
+* In Windows 7 and Vista, you need to open the Control Panel, select System, and then click the link for Device Manager on the left.
+* In Windows XP,  you will need to open the Control Panel, open System, go to the Hardware tab, and click the button for Device Manager.
 
 In Device Manager, I'm guessing that Logic will show up right away as an unknown device with a warning icon next to it. Right-click this and select Update Driver.
 
@@ -43,21 +34,17 @@ Use the Browse button to direct the driver wizard to the Drivers folder, which i
 
   \Drivers\Windows
 
-Click Next. If this fails, continue to the "Have-Disk" method below. If using the standalone software, this step should have succeeded. Otherwise, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) if using the standalone software.
+Click Next. If this fails, continue below.
 
 ### Method 2: "Have-Disk" Manual Installation
-
-Next, let's try the "have-disk" method. Close the new hardware wizard, go back to device manager, and start it again.
 
 {% hint style="info" %}
 Before continuing, please make sure you have the latest Logic software version installed. If you are using an older version, such as 1.1.15, the below steps will create additional problems. Please contact support if you are unsure if you have the correct software installed.
 {% endhint %}
 
-Again, click "Browse my computer for driver software."
+Open the Device Manager. Right-click the Logic device and select Update Driver. Click "Browse my computer for driver software."
 
-![](https://trello-attachments.s3.amazonaws.com/57215d889e8ae939fe4a2834/631x469/da3cba938586d18eb312830d414a2019/page_1.PNG)
-
-This time, instead of clicking the Browse button, click "Let me pick from a list of device drivers on my computer."
+Click "Let me pick from a list of device drivers on my computer."
 
 ![](https://trello-attachments.s3.amazonaws.com/57215d889e8ae939fe4a2834/630x469/8d291c47af4d57a5d080501b24ed0523/page_2.PNG)
 
@@ -103,6 +90,21 @@ If you purchased the new Logic 8, our logic 8 channel logic analyzer with digita
 
 The original Logic 16, also discontinued in 2014, uses the "Saleae Logic 16 USB Logic Analyzer" driver and NOT the pro version.
 
+### Method 3: Uninstall and Reinstall Existing Logic Driver
+
+When connecting Logic to the USB port and starting the Logic software, the Device Manager may show the device as "Logic Pro." This is incorrect, and may cause issues with operation. The solution is to uninstall and reinstall the Logic driver on the PC.
+
+Solution steps: 
+
+1. Close Logic software and open Device Manager
+2. Right click "Logic Pro" in the Device Manager
+3. Click "Uninstall device"
+4. A window will popup indicating that you are about the uninstall the device from your system
+5. Select the checkbox that says "Delete the driver software for this device"
+6. Click "Uninstall"
+7. Unplug and replug the Logic analyzer
+8. Open the Logic Software. The Logic device should now connect to the Logic software.
+
 ### Contacting Us for Further Support
 
 If at the end of this process you still get an error, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) and include the following information:
@@ -111,6 +113,7 @@ If at the end of this process you still get an error, please [contact support](h
 * If the device has worked on this PC before.
 * If the device has worked on other PCs before.
 * Any information that may have been displayed when the drivers failed to install.
+* How does the device show up under Device Manager?
 * The driver install logs locations are described below.
   * On XP, these are located here: 
     * C:\Windows\setupapi.log
