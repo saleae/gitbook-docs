@@ -2,10 +2,10 @@
 
 ## Driver Install
 
-Normally, the USB drivers for Windows install when the Logic software is installed, and the product should work when connected. In other cases, such as when using the standalone version of the software, the drivers must be installed manually.
+Normally, when the Logic software is installed, the product should simply work when connected to the PC. In other cases, such as when using the standalone version of the software, the drivers must be installed manually.
 
 {% hint style="info" %}
-If you are using any of the 2nd generation products \(Logic 4, Logic 8, Pro 8, Pro 16\), you must use the latest version of the software \(1.2.xx\) since the previous releases \(1.1.xx\) did not include drivers for these devices. You can download the latest stable or beta release below.
+If you are using any of the 2nd generation products \(Logic 4, Logic 8, Pro 8, Pro 16\), you must use the latest version of the software \(1.2.xx\) since the previous releases \(1.1.xx\) did not include drivers for these devices. You can download the latest release below.
 {% endhint %}
 
 {% page-ref page="latest-beta-release.md" %}
@@ -94,16 +94,17 @@ The original Logic 16, also discontinued in 2014, uses the "Saleae Logic 16 USB 
 
 When connecting Logic to the USB port and starting the Logic software, the Device Manager may show the device as "Logic Pro." This is incorrect, and may cause issues with operation. The solution is to uninstall and reinstall the Logic driver on the PC.
 
-Solution steps: 
+Solution steps if the device incorrectly appears as "Logic Pro" under Device Manager: 
 
-1. Close Logic software and open Device Manager
-2. Right click "Logic Pro" in the Device Manager
-3. Click "Uninstall device"
-4. A window will popup indicating that you are about the uninstall the device from your system
-5. Select the checkbox that says "Delete the driver software for this device"
-6. Click "Uninstall"
-7. Unplug and replug the Logic analyzer
-8. Open the Logic Software. The Logic device should now connect to the Logic software.
+1. Close Logic software, but keep the Logic device connected to the PC
+2. Open Device Manager
+3. Right click "Logic Pro" in the Device Manager
+4. Click "Uninstall device"
+5. A window will popup indicating that you are about the uninstall the device from your system
+6. Select the checkbox that says "Delete the driver software for this device"
+7. Click "Uninstall"
+8. Unplug and replug the Logic analyzer
+9. Open the Logic Software. The Logic device should now connect to the Logic software.
 
 ### Contacting Us for Further Support
 
