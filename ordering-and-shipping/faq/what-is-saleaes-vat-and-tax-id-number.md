@@ -1,6 +1,4 @@
-# What is Saleae's VAT & Tax ID Number?
-
-## What is Saleae's VAT & Tax ID Number?
+# Saleae Business Information
 
 ### Saleae Address
 
@@ -27,9 +25,13 @@ The Saleae VAT number you refer to will depend on what country the order was shi
 | United Kingdom | GB281123235 |
 | All other European countries | GB281123235 |
 
-### 
+### Dun & Bradstreet Number
 
+DUNS \#: 048959933
 
+### Is Saleae SAM Registered?
+
+Yes, we are SAM registered.
 
 
 

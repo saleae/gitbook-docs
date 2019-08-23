@@ -36,7 +36,7 @@
     * [Saleae Affiliate and Referral Program](ordering-and-shipping/faq/saleae-affiliate-and-referral-program.md)
     * [Recommended USB 3.0 Host Controller Cards](ordering-and-shipping/faq/recommended-usb-3.0-host-controller-cards.md)
     * [What Is the Normal Behavior of the LED?](ordering-and-shipping/faq/what-is-the-normal-behavior-of-the-led.md)
-    * [What is Saleae's VAT & Tax ID Number?](ordering-and-shipping/faq/what-is-saleaes-vat-and-tax-id-number.md)
+    * [Saleae Business Information](ordering-and-shipping/faq/what-is-saleaes-vat-and-tax-id-number.md)
 * [User Guide](user-guide/README.md)
   * [Product Summary](user-guide/product-summary.md)
   * [Safety & Warranty](user-guide/safety-and-warranty.md)
