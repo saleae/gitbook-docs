@@ -4,9 +4,9 @@
 
 ### Saleae Address
 
-* Saleae INC 408 N Canal St Unit A  South San Francisco, CA 94080 +1 \(510\) 984 2463
+* Saleae, Inc. 408 N Canal St Unit A  South San Francisco, CA 94080  Phone \#: +1 \(510\) 984-2463 Fax \#: \(415\) 684-7727
 
-### Saleae USA Tax ID Number
+### Saleae U.S. Tax ID Number
 
 * 35-2530870
 
