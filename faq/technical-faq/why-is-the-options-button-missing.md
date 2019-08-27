@@ -16,3 +16,7 @@ Options menu -&gt; preferences -&gt; aesthetics tab. Use Aero Glass style -&gt; 
 
 Note: If you can't see the options menu button because your theme is set to white, try clicking about a quarter inch below the close button on the window title.
 
+![&apos;Options&apos; button is clickable underneath the &apos;X&apos;](../../.gitbook/assets/2019-08-27_1734.png)
+
+
+
