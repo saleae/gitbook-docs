@@ -6,11 +6,13 @@
 
 All Saleae products listed below are in compliance with the European Community EMC Directive 2004/108/EC and the RoHs Directive.
 
-**Documents**
+**EU Declaration of Conformity Document**
 
-{% file src="../.gitbook/assets/eu-declaration-of-conformity \(1\).pdf" caption="EU Declaration of Conformity" %}
+{% file src="../.gitbook/assets/eu\_declaration\_of-conformity.pdf" caption="EU Declaration of Conformity" %}
 
-{% file src="../.gitbook/assets/ose\_rohs\_declaration\_20160606.pdf" caption="RoHS Declaration" %}
+#### **RoHS Declaration Document**
+
+{% file src="../.gitbook/assets/rohs\_declaration.pdf" caption="RoHS Declaration" %}
 
 **Product** // **Part Number**
 
