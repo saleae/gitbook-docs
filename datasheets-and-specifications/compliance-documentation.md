@@ -8,8 +8,9 @@ All Saleae products listed below are in compliance with the European Community E
 
 **Documents**
 
-* [EC Declaration of Conformity](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/579a995b294727bce56ec55a/da713307fe7eac7a8ace477f3c5d9b13/EC_Declaration_of_Conformity.pdf)
-* [OSE RoHS Declaration](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/579a995b294727bce56ec55a/58c841cbce9832bd43888c1330c3e062/OSE_RoHs_Declaration_20160606.pdf)
+{% file src="../.gitbook/assets/eu-declaration-of-conformity \(1\).pdf" caption="EU Declaration of Conformity" %}
+
+{% file src="../.gitbook/assets/ose\_rohs\_declaration\_20160606.pdf" caption="RoHS Declaration" %}
 
 **Product** // **Part Number**
 
