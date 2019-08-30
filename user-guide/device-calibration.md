@@ -54,15 +54,19 @@ The Logic software will automatically handle downloading the calibration file. I
 
 Each .cal file is specific to a single device, but the .cal files are saved with the device ID in decimal and not hex, making it hard to tell which is which. If only one device has ever been connected, there will only be one .cal file.
 
-### **Is Periodic Recalibration Required?**
-
-Our devices do not require periodic recalibration.
-
-### Does my device have the latest calibration file loaded?
+### Do I Have the Latest Calibration File?
 
 If there is a newer calibration file available for your device, our software should automatically download it as long as it is connected to the internet.
 
 In case you want to check if there is an updated calibration file available, please manually download the calibration file using the instructions above. If the calibration file was updated, then you will notice the _Last Updated Date_ will change under the _Calibration Info_ tab inside the _Preferences_ window.
+
+### **Do you Provide Calibration Certificates?**
+
+Our devices do not require periodic recalibration. You can download our statement of calibration below.
+
+{% file src="../.gitbook/assets/statement\_of\_calibration.pdf" caption="Statement of Calibration" %}
+
+Specifically, there is no calibration certificate. The devices do undergo a one-time factory calibration process.
 
 ### **Having Trouble?**
 
