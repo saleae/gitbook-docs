@@ -95,7 +95,7 @@
   * [Automation Scripting](saleae-api-and-sdk/socket-api.md)
   * [Custom Protocol Analyzers](saleae-api-and-sdk/protocol-analyzer-sdk.md)
   * [More Information](saleae-api-and-sdk/other-information/README.md)
-    * [Device SDK Status for New Products](saleae-api-and-sdk/other-information/device-sdk-status-for-new-products.md)
+    * [Device SDK](saleae-api-and-sdk/other-information/device-sdk.md)
     * [Migrate Code to the New Analyzer SDK](saleae-api-and-sdk/other-information/migrate-code-to-the-new-analyzer-sdk.md)
     * [Sharing Custom Analyzer Code](saleae-api-and-sdk/other-information/sharing-custom-analyzer-code.md)
     * [VB.NET Support for Socket API](saleae-api-and-sdk/other-information/vb-net.md)
