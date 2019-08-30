@@ -240,7 +240,6 @@
     * [Suggestions for Capturing Multiple Instances of a Triggered Event Automatically](faq/technical-faq/suggestions-for-capturing-multiple-instances-of-a-triggered-event-automatically.md)
     * [How Many Protocol Analyzers Can Be Used at Once?](faq/technical-faq/how-many-protocol-analyzers-can-be-used-at-once.md)
     * [Is It Possible to Run the Saleae Software on a PC without SSE2 Instructions?](faq/technical-faq/is-it-possible-to-run-the-saleae-software-on-a-pc-without-sse2-instructions.md)
-    * [Do I Need to Calibrate Saleae Logic?](faq/technical-faq/do-i-need-to-calibrate-saleae-logic.md)
     * [Is It Possible to Import Data into the Logic Software?](faq/technical-faq/is-it-possible-to-import-data-into-the-logic-software.md)
     * [How Do I Convert Exported CSV Analog Data in Voltages?](faq/technical-faq/how-do-i-convert-exported-csv-analog-data-in-voltages.md)
     * [Is There Cross-Platform Support for the SaleaeSocketApi C\# Project](faq/technical-faq/is-there-cross-platform-support-for-the-saleaesocketapi-c-project.md)
