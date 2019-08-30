@@ -1,7 +1,5 @@
 # Device Calibration
 
-## Device Calibration
-
 When connected to the internet, the Logic software will automatically handle downloading the calibration file.
 
 The 2nd Generation of Saleae products \(Logic 4, Logic 8, Logic Pro 8, & Logic Pro 16\) use calibration data generated at Saleae to display accurate AC and DC values. The 1st Generation \(Original Logic and Logic16\) do not require any form of calibration.
