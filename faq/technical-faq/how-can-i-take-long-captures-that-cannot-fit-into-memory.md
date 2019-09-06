@@ -21,7 +21,9 @@ The software includes a system for automating normal software interactions such 
 
 To do this, the software includes a TCP socket server. You can develop an application that connects to this socket server and then sends simple text commands to the software such as "CAPTURE\_TO\_FILE" to trigger specific actions. The software will then respond with "ACK", "NAK", or other information once the command has executed.
 
-You can find the latest socket API and documentation here: [https://trello.com/c/FueLhKZ8](https://trello.com/c/FueLhKZ8)
+You can find the latest socket API and documentation in the link below.
+
+{% page-ref page="../../saleae-api-and-sdk/socket-api.md" %}
 
 The documentation and a sample C\# application are contained in the zip file posted there. Links to several open source implementations are also posted.
 
