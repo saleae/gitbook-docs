@@ -1,4 +1,4 @@
-# Saleae Logic - User Guide
+# User Guide
 
 ### **Table Of Contents**
 

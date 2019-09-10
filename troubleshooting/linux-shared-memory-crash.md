@@ -1,12 +1,12 @@
 # Linux Shared Memory Crash
 
-## Linux Shared Memory Crash
-
 This article specifically addresses a Linux crash bug that causes the software to crash on launch, usually until the system is restarted.
 
-Error message in log file: "Error: Unable to create shared memory to hold instance number, Qt error code: 1, Qt error string: QSharedMemoryPrivate::initKey: unable to set key on lock"
+Error message in log file: 
 
-**Background**
+`Error: Unable to create shared memory to hold instance number, Qt error code: 1, Qt error string: QSharedMemoryPrivate::initKey: unable to set key on lock`
+
+### **Background**
 
 The application uses a shared memory segment to manage specific single instance resources, mainly the protocol search database file.
 
@@ -25,9 +25,11 @@ Usually, this can be solved simply by closing all open instances of the software
 
 However, if the software launched with sudo crashes, the shared memory segment might not get released. Any instance of the software launched without root permissions will crash on launch with the above error.
 
-**Solution**
+### **Solution \#1**
 
 **The simplest way to solve this is to restart the computer.** Shared memory segments are not persisted between restarts.
+
+### Solution \#2
 
 Alternatively, the problem can be solved by manually removing the shared memory segment and associated semaphore.
 
@@ -63,4 +65,14 @@ Alternatively, the problem can be solved by manually removing the shared memory 
 5. Launch the Logic software as a normal user. It should not crash on launch. If it does, check the error logs to see if the same issue is occurring.
 
 This issue will go away once we move away from the instance count tracking system altogether. In general, it should not be necessary to run the Logic software as root for most situations.
+
+### Solution \#3
+
+Removing the following files from the /tmp directory may solve the issue \(Note that the "..." in the file names below represents a unique 40 character hexadecimal code\).
+
+* /tmp/qipc\_sharedmemory\_qlipper...
+* /tmp/qipc\_systemsem\_qlipper...
+* /tmp/qipc\_systemsem\_sharedmemorylogicinstancecount...
+
+
 
