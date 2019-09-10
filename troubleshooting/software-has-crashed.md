@@ -1,7 +1,5 @@
 # The Logic Software Crashes
 
-## The Logic Software Crashes
-
 First, please help us by uploading the crash reports! This article covers common solutions and how you can contact support for additional help.
 
 ### Does the Software Fail to Start?
@@ -11,6 +9,8 @@ If the software simply fails to start, please follow the solutions listed in the
 {% page-ref page="software-will-not-install-or-run.md" %}
 
 {% page-ref page="fails-to-launch-on-windows.md" %}
+
+{% page-ref page="linux-shared-memory-crash.md" %}
 
 Otherwise, if the software can start properly, but crashes during operation, this article can offer some potential solutions below.
 
