@@ -16,9 +16,11 @@ There, you will find a list of all USB host controllers installed in your system
 
  ![step 3](https://trello-attachments.s3.amazonaws.com/563d3abc67746253014c107d/453x538/02a7c817c78a31cdab50f31092a55b91/3.png)
 
-For support finding the latest driver for your host controller, or on the request of support, please take a screenshot of the contents of this tab and send it to [Saleae support](https://support.saleae.com/hc/en-us/requests/new).
+For support finding the latest driver for your host controller, or on the request of support, please take a screenshot of the contents of this tab and send it to [Saleae support](https://contact.saleae.com/hc/en-us/requests/new).
 
-You can find a complete list of the latest driver releases for Windows 7 here: [https://trello.com/c/O0hA3XAF](https://trello.com/c/O0hA3XAF)
+You can find a complete list of the latest driver releases for Windows 7 below:
+
+{% page-ref page="../../logic-software/usb-3.0-host-controller-drivers.md" %}
 
 **OS X and Linux**
 
