@@ -1,6 +1,4 @@
-# How Can I Extract Recorded Data Using the Socket API?
-
-## How Can I Extract Recorded Data Using the Socket API?
+# How Can I Extract Recorded Data Using Socket API?
 
 The Saleae Logic software's scripting API was designed to allow developers to automate different operations in the Logic software.
 

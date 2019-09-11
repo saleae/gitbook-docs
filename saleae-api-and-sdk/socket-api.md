@@ -54,3 +54,7 @@ If you would like to share your application, feel free to send us a link to it o
 
 For automated environments, you can launch the Logic software with a -socket command line option to cause the socket server to be enabled by default.
 
+### Which Export Options are Available via Socket API?
+
+The Socket API currently supports the raw export feature and the protocol-specific export feature. However, the socket API does not yet support exporting the protocol search results.
+
