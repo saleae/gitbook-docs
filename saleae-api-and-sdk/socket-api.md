@@ -1,10 +1,8 @@
-# Automation Scripting
+# Socket API - Automation
 
-## Socket API Automation Scripting
+The Socket API scripting utility allows users to programmatically configure our software and trigger captures.
 
-The scripting API allows users to programmatically configure our software and trigger captures.
-
-This socket API download requires the latest Saleae beta—1.2.5. If you need to use an older version of the Saleae software, please contact us.
+This Socket API download requires the latest Saleae beta—1.2.5. If you need to use an older version of the Saleae software, please contact us.
 
 Version **1.2.5+** Socket Interface C\# Example Application and Documentation:
 
