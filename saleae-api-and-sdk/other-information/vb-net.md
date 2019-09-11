@@ -1,6 +1,4 @@
-# VB.NET Support for Socket API
-
-## VB.NET Support for Socket API
+# VB.NET Support for Automation
 
 Our Socket API automation scripting utility allows for a VB.NET application to control Logic. In general, the API is agnostic to language, and any language that can open up a TCP/IP socket can interact with Logic.
 

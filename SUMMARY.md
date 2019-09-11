@@ -98,7 +98,7 @@
     * [Device SDK](saleae-api-and-sdk/other-information/device-sdk.md)
     * [Migrate Code to the New Analyzer SDK](saleae-api-and-sdk/other-information/migrate-code-to-the-new-analyzer-sdk.md)
     * [Sharing Custom Analyzer Code](saleae-api-and-sdk/other-information/sharing-custom-analyzer-code.md)
-    * [VB.NET Support for Socket API](saleae-api-and-sdk/other-information/vb-net.md)
+    * [VB.NET Support for Automation](saleae-api-and-sdk/other-information/vb-net.md)
 * [Datasheets & Specifications](datasheets-and-specifications/README.md)
   * [Datasheets](datasheets-and-specifications/datasheets.md)
   * [Logic Dimensions](datasheets-and-specifications/connector-dimensions.md)
