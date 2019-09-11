@@ -1,5 +1,9 @@
 # Linux Shared Memory Crash
 
+{% hint style="info" %}
+This will be solved in the [next version of our software](https://discuss.saleae.com/) \(currently in Alpha\).
+{% endhint %}
+
 This article specifically addresses a Linux crash bug that causes the software to crash on launch, usually until the system is restarted.
 
 Error message in log file: 
@@ -63,8 +67,6 @@ Alternatively, the problem can be solved by manually removing the shared memory 
    ```
 
 5. Launch the Logic software as a normal user. It should not crash on launch. If it does, check the error logs to see if the same issue is occurring.
-
-This issue will go away once we move away from the instance count tracking system altogether. In general, it should not be necessary to run the Logic software as root for most situations.
 
 ### Solution \#3
 
