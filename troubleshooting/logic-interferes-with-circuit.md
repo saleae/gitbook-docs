@@ -8,7 +8,7 @@ In addition to probe loading, certain types of device failure or partial device 
 
 **Capacitive and resistive loading**
 
-The effect of an electrical probe on a circuit is usually measured by its equivalent shunt capacitance and resistance. A brief overview of the capacitive and resistive load \(input impedance, specifically\) can be found [here on our website](https://www.saleae.com/#DatasheetTile) by clicking the "More" button next to the Inputs section. You will see that all four of the new products have a capacitive loading of 10 pF and a resistive loading between 1 and 2 Meg Ohms.
+The effect of an electrical probe on a circuit is usually measured by its equivalent shunt capacitance and resistance. All four of the new products have a capacitive loading of 10 pF and a resistive loading between 1 and 2 Meg Ohms.
 
 This loading is small enough to avoid issues on most signals within the bandwidth of the analyzer \(up to 100 MHz digital bandwidth, 5 MHz analog bandwidth\). However, these could pose a problem when recording high output impedance signals. It will also cause impedance discontinuities in the signal being recorded.
 
