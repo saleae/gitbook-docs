@@ -39,6 +39,7 @@ Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you nee
 * [SENT Analyzer](https://github.com/melexis/SENTAnalyzer)
 * [MIPI DSI LP Analyzer](https://github.com/stawiski/Saleae-MIPI-DSI-LP-Analyzer)
 * [Vehicle Area Network \(VAN\) Analyzer](https://github.com/morcibacsi/VanAnalyzer)
+* [Anybus CompactCom SPI Analyzer](https://github.com/hms-networks/AbccSpiAnalyzer)
 
 ### Unofficially Supported Protocol Tools
 
