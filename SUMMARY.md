@@ -244,7 +244,7 @@
     * [Is There Cross-Platform Support for the SaleaeSocketApi C\# Project](faq/technical-faq/is-there-cross-platform-support-for-the-saleaesocketapi-c-project.md)
     * [Why Does Logic Get Warm?](faq/technical-faq/why-does-logic-get-warm.md)
     * [Binary Data Export Format - Analog](faq/technical-faq/data-export-format-analog-binary.md)
-    * [USB Isolation Suggestions](faq/technical-faq/suggestions-for-electrical-isolation.md)
+    * [Electrical Isolation Suggestions](faq/technical-faq/suggestions-for-electrical-isolation.md)
     * [FCC and CE Testing Recommendations](faq/technical-faq/fcc-and-ce-testing-recommendations.md)
     * ['Save Capture' and 'Export Data' is Disabled in the Software](faq/technical-faq/save-capture-and-export-data-disabled.md)
     * [File Format Description for Exporting Protocol Analyzer Results](faq/technical-faq/file-format-description-for-exporting-protocol-analyzer-results.md)
