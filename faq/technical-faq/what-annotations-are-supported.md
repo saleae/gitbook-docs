@@ -1,7 +1,5 @@
 # What Annotations Are Supported?
 
-## What Annotations Are Supported?
-
 The software supports a few different annotations:
 
 * Measurement Annotation
@@ -20,5 +18,7 @@ All annotations have editable names. You can also automatically pan the display 
 
 We don't have a note annotation but would like to add one. In the meantime, I recommend using a bookmark annotation with a short description in the title.
 
-Annotations are covered in the user's guide here: [https://trello.com/c/E5FWiUx7](https://trello.com/c/E5FWiUx7).
+Annotations are covered in the user's guide below:
+
+{% page-ref page="../../user-guide/using-logic/measurements-timing-markers-and-bookmarks.md" %}
 
