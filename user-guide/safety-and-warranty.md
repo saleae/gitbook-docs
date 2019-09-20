@@ -10,6 +10,10 @@ Before operating your Saleae Logic product for the first time, please carefully 
 
 The input channels on Saleae Logic analyzers are not electrically isolated from each other. The Saleae Logic is also not electrically isolated from the PC.
 
+Suggestions for electrical isolation can be found in the link below:
+
+{% page-ref page="../faq/technical-faq/suggestions-for-electrical-isolation.md" %}
+
 ### **High Voltage Safety**
 
 | Products | Absolute Maximum Voltage Range |
