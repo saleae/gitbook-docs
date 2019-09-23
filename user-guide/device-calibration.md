@@ -35,8 +35,7 @@ The Logic software will automatically handle downloading the calibration file. I
    * _Note:_ Device ID must be entered in **lowercase**.
    * _For example:_ downloads.saleae.com/calibration/3b2e3a21ca4ad130.cal
 2. Place the .cal file in the software’s calibration folder.
-   * Windows 10/8/7/Vista: C:\Users\YourUserName\AppData\Roaming\Saleae LLC\Logic\Calibration
-   * Windows XP: C:\Documents and Settings\YourUserName\Application Data\Saleae LLC\Logic\Calibration
+   * Windows: %APPDATA%\Saleae LLC\Logic\Calibration
    * OSX: /Users/YourUserName/Library/Preferences/Saleae/Calibration
    * Linux: Calibration folder alongside Logic executable
 3. Check your Calibration Status \(steps above\), to ensure the calibration loaded properly.
