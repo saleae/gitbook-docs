@@ -6,9 +6,11 @@ The 3-year warranty always applies, regardless of where you purchased the produc
 
 ![](../.gitbook/assets/saleae-warranty-sticker.png)
 
+### Submitting a Warranty Claim
 
+Please follow the instructions in the link below to submit your warranty claim.
 
-
+{% page-ref page="process-a-warranty.md" %}
 
 
 
