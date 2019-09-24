@@ -229,7 +229,7 @@
     * [Do I Have a USB 3.0 Port?](faq/technical-faq/do-i-have-a-usb-3.0-port.md)
     * [What Is the Best Way to Compare Similar Sequences of Protocol Data?](faq/technical-faq/what-is-the-best-way-to-compare-similar-sequences-of-protocol-data.md)
     * [Which Version of the Software Should I Use?](faq/technical-faq/which-version-of-the-software-should-i-use.md)
-    * [Setting Up the Developer Directory to Use Custom Analyzers](faq/technical-faq/setting-up-developer-directory.md)
+    * [Installing Custom Protocol Analyzers](faq/technical-faq/setting-up-developer-directory.md)
     * [OSX Analyzer SDK Xcode Setup](faq/technical-faq/osx-analyzer-sdk-xcode-setup.md)
     * [Can Custom Analyzers Process Analog Channels?](faq/technical-faq/can-custom-analyzers-process-analog-channels.md)
     * [Stop a Capture or Close the Software from the Socket API or the Command Line](faq/technical-faq/stop-the-software-from-socket-api.md)

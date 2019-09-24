@@ -1,6 +1,4 @@
-# Setting Up the Developer Directory to Use Custom Analyzers
-
-## Setting Up the Developer Directory to Use Custom Analyzers
+# Installing Custom Protocol Analyzers
 
 These instructions show how to set up the Saleae software to load custom protocol analyzers.
 

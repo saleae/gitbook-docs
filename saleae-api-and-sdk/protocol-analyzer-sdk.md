@@ -30,7 +30,7 @@ The documentation for the Analyzer SDK can be found in the pdf and on GitHub. Th
 
 * [Saleae Analyzer SDK Documentation](https://github.com/saleae/SampleAnalyzer/blob/master/docs/Saleae%20Analyzer%20SDK%20%28older%29.pdf)
 
-### Point Logic Software to your Custom Analyzers
+### Installing your Custom Analyzers into Logic Software
 
 {% page-ref page="../faq/technical-faq/setting-up-developer-directory.md" %}
 
