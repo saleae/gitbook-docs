@@ -1,6 +1,16 @@
-# How Can I Compare a I2S Audio Recording to an Existing Audio File?
+# Converting I2S/PCM Capture into Audio
 
-## How Can I Compare a I2S Audio Recording to an Existing Audio File?
+### Converting Logic Captures into WAV
+
+Unfortunately, our software does not natively support this feature. It is worth mentioning that right now, this could be done using a 3rd party tool that converts Logic captures into WAV files.
+
+[https://github.com/roel0/PCM2Wav-py](https://github.com/roel0/PCM2Wav-py)
+
+Also, the I2S analyzer source code is available, in case anyone would like to try implementing their own version using our Protocol Analyzer SDK below.
+
+{% page-ref page="../../saleae-api-and-sdk/protocol-analyzer-sdk.md" %}
+
+### Comparing an I2S/PCM Capture with an Existing Audio File
 
 Once you have captured I2S audio data and have configured the I2S protocol analyzer successfully, you will need to export the I2S protocol results to a CSV file. You will then need to convert the reference WAV file to CSV. Once both the capture and the reference file are in the CSV format, they can be compared using Excel.
 

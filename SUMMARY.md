@@ -163,7 +163,7 @@
     * [What is Asynchronous Sampling?](faq/technical-faq/what-is-asynchronous-sampling.md)
     * [Which Saleae Products Can Decode 4-Bit Parallel LCD Communications?](faq/technical-faq/which-saleae-products-can-decode-4-bit-parallel-lcd-communications.md)
     * [How Can I Compare Two Clock Signals for Synchronization and Drift?](faq/technical-faq/compare-two-clock-signals-for-synchronization-and-drift.md)
-    * [How Can I Compare a I2S Audio Recording to an Existing Audio File?](faq/technical-faq/how-can-i-compare-a-i2s-audio-recording-to-an-existing-audio-file.md)
+    * [Converting I2S/PCM Capture into Audio](faq/technical-faq/convert-i2s-pcm-to-audio.md)
     * [My Capture Shows an Uneven Duty Cycle](faq/technical-faq/my-capture-shows-an-uneven-duty-cycle.md)
     * [Can I Create or Edit .logicdata Files?](faq/technical-faq/can-i-create-or-edit-logicdata-files.md)
     * [Can a Capture Be Cropped or Trimmed?](faq/technical-faq/can-a-capture-be-cropped-or-trimmed.md)
