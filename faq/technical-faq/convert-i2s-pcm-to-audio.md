@@ -1,4 +1,4 @@
-# Converting I2S/PCM Capture into Audio
+# Converting I2S/PCM Captures into Audio
 
 ### Converting Logic Captures into WAV
 

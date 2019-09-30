@@ -32,3 +32,9 @@ The Saleae I2S analyzer does not support any Mono formats.
 
 * In the figure above, the data bits are transitioning during the clock falling edge, but the I2S/PCM Analyzer is also set to read on the clock falling edge. That means the bits are being decoded at the exact moment the bits are changing. That will cause errors and will be very sensitive to changes in the sample rate. Change the I2S/PCM Analyzer setting to "Data is valid and should be read on the CLOCK rising edge."
 
+### Converting I2S/PCM Captures into WAV Files
+
+For more information on this, please see the link below.
+
+{% page-ref page="../../faq/technical-faq/convert-i2s-pcm-to-audio.md" %}
+
