@@ -13,7 +13,7 @@ Write about your awesome project and get paid!
 
 ### Reward
 
-$200 USD for a a project writeup meeting the requirements described here. Sparkfun or Adafruit gift cirtificate, Paypal, or check \(US bank\).
+$200 USD for a project writeup meeting the requirements described here. Sparkfun or Adafruit gift certificate, Paypal, or check \(US bank\).
 
 ### Suggestions for what to write about
 
@@ -55,7 +55,7 @@ $200 USD for a a project writeup meeting the requirements described here. Sparkf
 \[   \] If applicable to your writeup, include a screenshot of some waveforms.   
 \[   \] Describe: what did you use the logic analyzer to help with?   
 \[   \] Would you recommend the logic analyzer? Why, why not? \(no impact on reward\)  
-\[   \] Include a link the saleae website. \([https://www.saleae.com](https://www.saleae.com)\)
+\[   \] Include a link to the Saleae website. \([https://www.saleae.com](https://www.saleae.com)\)
 
 ### When you’re done
 
