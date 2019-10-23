@@ -10,7 +10,7 @@ Saleae currently offers 3 APIs for interfacing with our products.
 
 This is used for creating custom analyzer plugins for use with the Logic software. More information in the link below.
 
-{% page-ref page="../protocol-analyzer-sdk.md" %}
+{% page-ref page="../protocol-analyzer-sdk/" %}
 
 #### 2. Socket API
 

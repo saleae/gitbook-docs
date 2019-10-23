@@ -12,7 +12,7 @@ Our passionate users have also been kind to share several **community-developed 
 
 Can't find an analyzer you need? **Develop your own protocol analyzer** using our Protocol Analyzer SDK below.
 
-{% page-ref page="../saleae-api-and-sdk/protocol-analyzer-sdk.md" %}
+{% page-ref page="../saleae-api-and-sdk/protocol-analyzer-sdk/" %}
 
 
 

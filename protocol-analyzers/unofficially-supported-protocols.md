@@ -6,7 +6,7 @@
 The following analyzers are not officially supported by Saleae, but instead, were kindly shared by our community of users. Some are distributed as source code and will require our Protocol Analyzer SDK in the article below to compile.
 {% endhint %}
 
-{% page-ref page="../saleae-api-and-sdk/protocol-analyzer-sdk.md" %}
+{% page-ref page="../saleae-api-and-sdk/protocol-analyzer-sdk/" %}
 
 Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you need any help. Also, If you have your own analyzer you would like to see featured here, please let us know.
 

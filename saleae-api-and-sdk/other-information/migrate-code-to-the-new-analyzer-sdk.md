@@ -13,7 +13,7 @@ Below is a description of the changes required to include an analyzer's data int
 
 The latest source code to all analyzers can be found below.
 
-{% page-ref page="../protocol-analyzer-sdk.md" %}
+{% page-ref page="../protocol-analyzer-sdk/" %}
 
 **Update Steps**
 

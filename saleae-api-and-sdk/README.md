@@ -6,7 +6,7 @@ For instructions on **automating Saleae Logic functions**, check out our Socket 
 
 Want to **develop custom protocol analyzers**? You can use our Protocol Analyzer SDK below.
 
-{% page-ref page="protocol-analyzer-sdk.md" %}
+{% page-ref page="protocol-analyzer-sdk/" %}
 
 
 

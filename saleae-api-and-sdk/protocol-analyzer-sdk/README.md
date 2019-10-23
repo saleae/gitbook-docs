@@ -32,7 +32,7 @@ The documentation for the Analyzer SDK can be found in the pdf and on GitHub. Th
 
 ### Installing your Custom Analyzers into Logic Software
 
-{% page-ref page="../faq/technical-faq/setting-up-developer-directory.md" %}
+{% page-ref page="../../faq/technical-faq/setting-up-developer-directory.md" %}
 
 ### Protocol Analyzers Source Code Github
 

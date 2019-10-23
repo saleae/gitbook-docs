@@ -16,7 +16,7 @@ Existing customers have also used the socket API with Python, Labview, C++, and 
 
 Second, the Analyzer SDK allows for third parties to develop their own protocol analyzer plugins, such as the included SPI or I2C analyzers. You can find more information about the SDK below.
 
-{% page-ref page="protocol-analyzer-sdk.md" %}
+{% page-ref page="protocol-analyzer-sdk/" %}
 
 Neither API provides real-time access to the raw data, and neither API can interact with the hardware without the Saleae Logic software running.
 
