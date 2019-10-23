@@ -20,6 +20,8 @@ If you download the repository from Github, the submodules are not included. In 
 
 ![Place AnalyzerSDK folder inside of SampleAnalyzer folder](../../.gitbook/assets/2019-10-22_1757%20%281%29.png)
 
+### Rename the Analyzer via Python Script
+
 Once downloaded, run the script rename\_analyzer.py. This script is used to rename the sample analyzer automatically. Specifically, it changes the class names in the source code, it changes the text name that will be displayed once the custom analyzer has been loaded into the Saleae Logic software, and it updates the visual studio project.
 
 There are two names you need to provide to rename\_analyzer. The first is the class name. For instance, if you are developing a SPI analyzer, the class names would be SPIAnalyzer, SPIAnalyzerResults, SPIAnalyzerSettings, etc. The file names would be similar, like SPIAnalyzer.cpp, etc.
