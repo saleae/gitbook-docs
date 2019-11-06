@@ -2,7 +2,7 @@
 
 ## Safety & Warranty
 
-{% hint style="info" %}
+{% hint style="warning" %}
 Before operating your Saleae Logic product for the first time, please carefully review the safety guidelines below to avoid any injury and damage.
 {% endhint %}
 
@@ -21,12 +21,12 @@ Suggestions for electrical isolation can be found in the link below:
 | Original Logic & Logic16 | −0.5V to 5.25V |
 | Logic 4, Logic 8, Logic Pro 8, Logic Pro 16 | −25V to 25V |
 
-{% hint style="info" %}
-_Caution:_ Connecting one of the input channels to voltages outside this range, even for a very short time, can result in damage to the device.
+{% hint style="warning" %}
+_**Caution:**_ Connecting one of the input channels to voltages outside this range, even for a very short time, can result in damage to the device.
 {% endhint %}
 
-{% hint style="info" %}
-_Safety Tip:_ If you're working with high voltages near the absolute maximum limit, first ensure that the wire harnesses are securely attached to your DUT and you've done some basic testing to make sure the clips won't pop off your connections. Afterwards, you can connect the wire harnesses to the logic analyzer.
+{% hint style="warning" %}
+_**Safety Tip:**_ If you're working with high voltages near the absolute maximum limit, first ensure that the wire harnesses are securely attached to your DUT and you've done some basic testing to make sure the clips won't pop off your connections. Afterwards, you can connect the wire harnesses to the logic analyzer.
 {% endhint %}
 
 ### **Ground Current Safety**

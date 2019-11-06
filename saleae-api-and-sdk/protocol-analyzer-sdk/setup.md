@@ -1,4 +1,4 @@
-# SDK Setup
+# 1. Setup - Analyzer SDK
 
 The Protocol Analyzer SDK is used to create custom plugins for the Saleae Logic software. These plugins are used to decode protocol data from captured waveforms.
 
@@ -37,36 +37,4 @@ python rename_analyzer.py
 SPI
 Mark's SPI Analyzer
 ```
-
-### Building on Windows
-
-First, [Download and Install Visual Studio](https://visualstudio.microsoft.com/vs/community/).
-
-To build on Windows, open the visual studio project in the Visual Studio folder. If you are using the latest version of Visual Studio, you may need to upgrade the project to target the latest Visual C++ toolset, since this project uses an earlier version of the toolset. If the window below pops up, go ahead and upgrade the project to the latest version and click "OK".
-
-![Retarget Project to the Latest Toolset](../../.gitbook/assets/2019-10-22_1904.png)
-
-The Visual Studio solution has configurations for 32 bit and 64 bit builds. You will likely need to switch the configuration to the appropriate build for your OS. Once the project is opened and properly configured in Visual Studio, you may build it \(Ctrl + B\). This will generate a .dll file for your custom analyzer that you can install into the Logic software.
-
-![Configure Build for 32-bit or 64-bit OS](../../.gitbook/assets/2019-10-22_1909.png)
-
-### Building on Linux / OSX
-
-To build on Linux or OSX, run the build\_analyzer.py script. The compiled libraries can be found in the newly created debug and release folders.
-
-```text
-python build_analyzer.py
-```
-
-### Installing your Custom Analyzer
-
-{% page-ref page="../../faq/technical-faq/setting-up-developer-directory.md" %}
-
-### Debugging on Windows
-
-Unfortunately, debugging is limited on Windows to using an older copy of the Saleae Logic software that does not support the latest hardware devices. Details are included in the above document.
-
-To debug on Windows, please first review the section titled`Debugging an Analyzer with Visual Studio` in the included `doc/Analyzer SDK Setup.md` document.
-
-
 
