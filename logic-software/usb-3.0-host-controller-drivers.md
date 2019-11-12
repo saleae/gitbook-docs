@@ -37,7 +37,7 @@ Windows 8 and later Microsoft operating systems use a new Microsoft-created USB 
 
   Link: [https://www.asus.com/Motherboard-Accessories/USB\_31\_TYPEA\_CARD/HelpDesk\_Download/](https://www.asus.com/Motherboard-Accessories/USB_31_TYPEA_CARD/HelpDesk_Download/)
 
-  Note: Note. All ASMedia devices \(3.0 and 3.1\) use the same driver
+  Note: All ASMedia devices \(3.0 and 3.1\) use the same driver
 
 For other host controllers, there is no need to perform any kind of driver update when you are on one of these releases of Windows.
 
