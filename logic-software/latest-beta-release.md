@@ -15,21 +15,23 @@ We've started releasing beta versions of the software again, starting with 1.2.1
 There is also a more recent alpha release available - however it is not intended for heavy use, and is very much an in-progress build. [Alpha Release](https://discuss.saleae.com/)
 
 **Windows**  
-[Logic Setup 1.2.29.exe](http://downloads.saleae.com/logic/1.2.29/Logic+Setup+1.2.29.exe)
+[Logic Setup 1.2.29.exe](https://downloads.saleae.com/logic/1.2.29/Logic+Setup+1.2.29.exe)
 
 **Mac OS X 10.8+**  
-[Logic-1.2.29-Darwin.dmg](http://downloads.saleae.com/logic/1.2.29/Logic-1.2.29-Darwin.dmg)
+[Logic-1.2.29-Darwin.dmg](https://downloads.saleae.com/logic/1.2.29/Logic-1.2.29-Darwin.dmg)
 
 **Linux 64-Bit**  
-[http://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+\(64-bit\).zip](http://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+%2864-bit%29.zip)
+[https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+%2864-bit%29.zip)
 
 **Windows Standalone releases:**
 
 Note: These releases include the newly required Microsoft Visual Studio 2015 runtime. The runtime needs to be installed before the software will be able to run.
 
-**Windows 32-Bit Standalone** [http://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+32+Standalone.zip](http://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+32+Standalone.zip)
+**Windows 32-Bit Standalone**  
+[https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+32+Standalone.zip)
 
-**Windows 64-Bit Standalone** [http://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+64+Standalone.zip](http://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+64+Standalone.zip)
+**Windows 64-Bit Standalone**   
+****[https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+64+Standalone.zip)
 
 If you have any trouble with the 1.2.29 software, please report it. We would like to get any issues resolved before posting this to the main download page.
 
