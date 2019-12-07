@@ -264,6 +264,7 @@
     * [Test Clip Differences - Gen 1 & Gen 2](faq/technical-faq/test-clip-differences.md)
     * [USB-C Cable Recommendations](faq/technical-faq/usb-c-cable-recommendations.md)
     * [Is My Capture Data Private?](faq/technical-faq/is-my-capture-data-private.md)
+    * [Ethernet Connectivity Suggestions](faq/technical-faq/ethernet-connectivity.md)
   * [General FAQ](faq/general-faq/README.md)
     * [How Do I Get More Help on an Issue That's Outside the Scope of Saleae Support?](faq/general-faq/help-outside-scope.md)
     * [How to Identify Each Saleae Device](faq/general-faq/identify-each-saleae-device.md)
