@@ -61,7 +61,7 @@ In case you want to check if there is an updated calibration file available, ple
 
 Our devices do not require periodic recalibration. You can download our statement of calibration below.
 
-{% file src="../.gitbook/assets/statement\_of\_calibration.pdf" caption="Statement of Calibration" %}
+{% file src="../.gitbook/assets/statement\_of\_calibration \(1\).pdf" %}
 
 Specifically, there is no calibration certificate. The devices do undergo a one-time factory calibration process.
 
