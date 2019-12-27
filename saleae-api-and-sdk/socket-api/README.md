@@ -19,6 +19,10 @@ The Socket API scripting utility allows users to programmatically configure our 
 
 For simple automation requirements, we suggest using our [Python Sample Application](https://github.com/saleae/python-saleae-cli). This is a basic command line utility to automate the Saleae Logic software, which can be used to automatically take a series of shorter captures over an extended time period with basic export functions.
 
+The [Python Sample Application](https://github.com/saleae/python-saleae-cli) implements a very basic form of data export via csv. If more export options are needed, please see the article below:
+
+{% page-ref page="export-data.md" %}
+
 ### Automation Method \#2 - C\# Wrapper
 
 For more complex automation requirements, you can refer to our C\# Wrapper below.
