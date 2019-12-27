@@ -6,7 +6,7 @@ The Socket API scripting utility allows users to programmatically configure our 
 
 * Check that you are using the latest version of the software below.
 
-{% page-ref page="../logic-software/latest-beta-release.md" %}
+{% page-ref page="../../logic-software/latest-beta-release.md" %}
 
 * We highly recommend suppressing notifications and error messages while running your automation script. These notifications may block normal operation and can be suppressed by starting the application with the command line option `-disablepopups` 
 * Next, we must enable the scripting socket server. Open Options Menu at the top of the software.

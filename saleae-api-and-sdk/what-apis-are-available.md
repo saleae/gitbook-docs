@@ -8,7 +8,7 @@ First is the socket API, which is intended to make it easy for the existing Sale
 
 You can find more details on the socket API below.
 
-{% page-ref page="socket-api.md" %}
+{% page-ref page="socket-api/" %}
 
 Because the socket API relies on simple text commands sent and received through sockets, any programming language can support it. There are no DLLs or required libraries. We provide a C\# client library as well as a C\# sample application.
 
