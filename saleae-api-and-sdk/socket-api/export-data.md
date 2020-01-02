@@ -8,7 +8,7 @@ Note: For exporting data, please use `export_data2().` Currently, `export_data()
 
 ### Common Argument Settings
 
-The following sample arguments are taken directly from the options available in the Logic software data export window \(Options -&gt; Export data\).
+The following sample arguments are taken directly from the export options available in the Logic software's data export window \(Options -&gt; Export data\).
 
 * `time_span=None` will export all time
 * `digital_channels=None, analog_channels=None` will export all channels
@@ -17,7 +17,7 @@ The following sample arguments are taken directly from the options available in 
 * `display_base = 'bin' | 'dec' | 'hex' | 'ascii' | 'separate'`
 * `analog_format = 'voltage' | 'adc'`
 
-The code for all available argument options can be found in the [saleae.py library file](https://github.com/ppannuto/python-saleae/blob/master/saleae/saleae.py).
+The code for all available argument options can be found in the [saleae.py](https://github.com/ppannuto/python-saleae/blob/master/saleae/saleae.py) library file.
 
 ### Exporting to CSV
 
