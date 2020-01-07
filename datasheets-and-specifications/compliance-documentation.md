@@ -14,6 +14,10 @@ All Saleae products listed below are in compliance with the European Community E
 
 {% file src="../.gitbook/assets/rohs\_declaration.pdf" caption="RoHS Declaration" %}
 
+### **Statement of Volatility**
+
+{% file src="../.gitbook/assets/saleae\_statement\_of\_volatility.pdf" caption="Saleae Statement of Volatility" %}
+
 **Product** // **Part Number**
 
 * Logic 4 Black // SAL-00109   

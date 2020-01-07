@@ -23,6 +23,7 @@ The Saleae VAT number you refer to will depend on what country the order was shi
 | Poland | PL5263209510 |
 | Spain | N4009013F |
 | United Kingdom | GB281123235 |
+| Netherlands | NL826132844B01 |
 | All other European countries | GB281123235 |
 
 ### Dun & Bradstreet Number
