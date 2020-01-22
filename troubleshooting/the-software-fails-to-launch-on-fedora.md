@@ -16,7 +16,11 @@ Installing OpenSSL 1.0.2 compatibility:
 dnf install compat-openssl10
 ```
 
-Note: Some customers have reported installing the `compat-openssl10-devel` version of that, and some have reported symlinking the older version in order to get Logic to load it: `ln -s /usr/lib64/libssl.so.10 ./libssl.so`
+{% hint style="info" %}
+Some customers have reported installing the `compat-openssl10-devel` version of that, and some have reported symlinking the older version in order to get Logic to load it:
+
+`ln -s /usr/lib64/libssl.so.10 ./libssl.so`
+{% endhint %}
 
 If you see the following error message from the console when running Logic, you are likely seeing this problem:
 
@@ -42,13 +46,19 @@ To check what versions of OpenSSL are available on your system, you can run thes
    rpm -qa | grep -i openssl
    ```
 
-   If you find compat-openssl10-1.0.2..., the application should run. If it does not run, please send us the above output and the console output of the Logic software.
+   If you find `compat-openssl10-1.0.2...`, the application should run. If it does not run, please send us the above output and the console output of the Logic software.
 
 If you have found a simpler workaround, please let us know. Once we confirm that the latest QT supports OpenSSL 1.1 and we update our application on all platforms to support it, this problem should go away completely.
 
 We have been unable to reproduce this issue on the Fedora 26 and Fedora 27 live disks. In both cases, the 1.0.2 compat version is already installed and loaded by Logic.
 
-Update: A customer has reported that just using `LD_PRELOAD` to force-load the included compatibility version of libssl also solves the problem, like so:
+{% hint style="info" %}
+When running Logic software from the command line, you may see the following warning. This can be safely ignored.
+
+`libpng warning: iCCP: known incorrect sRGB profile`
+{% endhint %}
+
+_**Update:**_ A customer has reported that just using `LD_PRELOAD` to force-load the included compatibility version of libssl also solves the problem, like so:
 
 ```text
 # First cd to where the software is installed... 
