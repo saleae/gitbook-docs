@@ -31,19 +31,22 @@ For more complex automation requirements, you can refer to our C\# Wrapper below
 
 ### Third-Party Implementations
 
+Simple Command Line Tool:
+
+* [https://discuss.saleae.com/t/trigger-capture-from-command-line/297](https://discuss.saleae.com/t/trigger-capture-from-command-line/297)
+
 Python wrapper:
 
-[https://github.com/ppannuto/python-saleae](https://github.com/ppannuto/python-saleae)
-
-[https://pypi.python.org/pypi/saleae](https://pypi.python.org/pypi/saleae)
+* [https://github.com/ppannuto/python-saleae](https://github.com/ppannuto/python-saleae)
+* [https://pypi.python.org/pypi/saleae](https://pypi.python.org/pypi/saleae)
 
 C\# data logging UI:
 
-[https://github.com/quarkng/SaleaeLogger](https://github.com/quarkng/SaleaeLogger)
+* [https://github.com/quarkng/SaleaeLogger](https://github.com/quarkng/SaleaeLogger)
 
 C\# logging console application:
 
-[https://github.com/DuckPaddle/LumberJack-for-Saleae](https://github.com/DuckPaddle/LumberJack-for-Saleae)
+* [https://github.com/DuckPaddle/LumberJack-for-Saleae](https://github.com/DuckPaddle/LumberJack-for-Saleae)
 
 If you would like to share your application, feel free to send us a link to it on any repository hosting provider, and we can share that link here.
 

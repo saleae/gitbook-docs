@@ -12,19 +12,18 @@ Let us know what you think.
 
 ### **Latest SDK Release Works with All Software from 1.1.32 and Newer**
 
-* [Sample Analyzer, Analyzer SDK, and Documentation on Github](https://github.com/saleae/SampleAnalyzer)
-* [Source Code to all Saleae Analyzers, from release 1.2.17](http://downloads.saleae.com/SDK/SaleaeAnalyzerSource-1.2.17.zip) \(the source code for all our analyzers\) These don't change frequently, but updated copies are available on request.
-* [Older zip file release. For reference only.](http://downloads.saleae.com/betas/1.1.32/SaleaeAnalyzerSdk-1.1.32.zip)
+* [Sample Analyzer on GitHub](https://github.com/saleae/SampleAnalyzer)
+* [Analyzer SDK on GitHub](https://github.com/saleae/AnalyzerSDK)
 
 ### **Documentation and Getting Started**
 
-To get started, please first read the readme file for the SampleAnalyzer repository:
+To get started, please first read the Setup guide below. We will be working with the provided Sample Analyzer above.
 
-* [Readme](https://github.com/saleae/SampleAnalyzer/blob/master/readme.md)
+{% page-ref page="setup.md" %}
 
-And then read the Setup documentation:
+And then read the Project Build documentation.
 
-* [Analyzer SDK Setup](https://github.com/saleae/SampleAnalyzer/blob/master/docs/Analyzer%20SDK%20Setup.md)
+* [SDK Project Build & Install](https://github.com/saleae/SampleAnalyzer/blob/master/docs/Analyzer%20SDK%20Setup.md)
 
 The documentation for the Analyzer SDK can be found in the pdf and on GitHub. This document still needs to be updated and migrated to markdown, but the documentation for the C++ SDK is largely up-to-date, although it is missing details on the Protocol Search system. Please do not use the first section of this for the setup instructions since they are outdated.
 

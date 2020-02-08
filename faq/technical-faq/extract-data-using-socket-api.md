@@ -15,7 +15,7 @@ In the case of exporting analyzer results \(such as I2C packets, serial data, et
 
 More information about the socket API can be found here:
 
-{% page-ref page="../../saleae-api-and-sdk/socket-api/" %}
+{% page-ref page="../../saleae-api-and-sdk/socket-api.md" %}
 
 The first two steps listed above can easily be accomplished by using the sample code provided by the socket API.
 

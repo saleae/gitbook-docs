@@ -22,7 +22,7 @@ This solution requires programming experience.
 
 The Saleae socket API supports automating tasks in the software such as starting and saving captures or exporting data. More information on that can be found below.
 
-{% page-ref page="../../saleae-api-and-sdk/socket-api/" %}
+{% page-ref page="../../saleae-api-and-sdk/socket-api.md" %}
 
 The general flow would be to start a capture and save it to a file, wait for the capture to complete, and start another capture with a new file.
 
