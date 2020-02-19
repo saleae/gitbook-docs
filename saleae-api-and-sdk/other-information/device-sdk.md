@@ -16,7 +16,7 @@ This is used for creating custom analyzer plugins for use with the Logic softwar
 
 This is an interface used to script actions in the Logic Software. More information in the link below.
 
-{% page-ref page="../socket-api.md" %}
+{% page-ref page="../socket-api/" %}
 
 #### 3. Device SDK
 

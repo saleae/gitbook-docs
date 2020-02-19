@@ -23,7 +23,7 @@ To do this, the software includes a TCP socket server. You can develop an applic
 
 You can find the latest socket API and documentation in the link below.
 
-{% page-ref page="../../saleae-api-and-sdk/socket-api.md" %}
+{% page-ref page="../../saleae-api-and-sdk/socket-api/" %}
 
 The documentation and a sample C\# application are contained in the zip file posted there. Links to several open source implementations are also posted.
 

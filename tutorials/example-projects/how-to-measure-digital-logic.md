@@ -17,7 +17,11 @@ To demonstrate this, the example code \(see below\) for the STM32 Nucleo-F446RE 
 
 To begin, plug 2 cable harnesses into your Saleae Logic Analyzer. Note that the arrow on the harness connector should be facing up and to the left \(toward the ‘S’ in Saleae on your Logic Analyzer\). While the colors of the wires do not ultimately matter, it can be helpful to have them line up with the resistor color code \(from left to right\): black, brown, red, orange, yellow, green, blue, violet.
 
+![](../../.gitbook/assets/saleae_harness_2.jpg)
+
 Connect the wires to the male header pins on the Nucleo board as shown in the diagram. Note that most of the inner male pins are connected to the female pins in the Arduino UNO configuration. For a full pinout of the Nucleo-F446RE, refer to the [pinout section on the mbed page](https://os.mbed.com/platforms/ST-Nucleo-F446RE/#nucleo-pinout).
+
+![](../../.gitbook/assets/digital_circuit_fritzing.png)
 
 #### Run Demo Application <a id="run-demo-application"></a>
 
@@ -39,9 +43,15 @@ Open the Logic software and make sure your Logic Analyzer is connected via USB \
 
 Set the speed to **at least 50 MS/s** and the duration to **1 second** \(length of time the analyzer will collect data\). Click to enable **8 digital channels** \(0 through 7 in the top row\). Make sure **3.3+ Volts** is selected \(only for Logic Pro 8 and Logic Pro 16; the Logic 8 does not have this setting but will automatically adjust for digital logic in the 1.8 - 5.5 V range\).
 
+![](../../.gitbook/assets/screen_06.png)
+
 Click the **Device Settings Button** again to close the configuration window. You should see all 8 channels appear on the left side. Click **Start**. The software should take a moment to collect data, and show you the results to the right of their respective channels.
 
+![](../../.gitbook/assets/screen_07.png)
+
 Zoom in using your mouse wheel or the plus \(+\) key. Hover your mouse over a part of the waveform from Channel 0. You should see some text pop up, giving you some information about the pulses. The Logic software will automatically calculate the pulse width \(w\), the frequency \(f\), and the period \(τ\).
+
+![](../../.gitbook/assets/screen_08.png)
 
 #### Using the Trigger <a id="using-the-trigger"></a>
 
@@ -51,9 +61,15 @@ For example, we will configure the Logic software to begin capturing whenever Ch
 
 By default, the Logic Analyzer should be configured to trigger on a rising edge for Channel 0. Click on the **Trigger Settings Button** for Channel 0 and click on the **Rising Edge** button, which should disable all triggers for the analyzer. Verify that the trigger buttons for all channels change to the rising edge icon.
 
+![](../../.gitbook/assets/screen_09.png)
+
 Click on the **Trigger Settings Button** for Channel 7. Select the **Trigger on Falling Edge** button.
 
+![](../../.gitbook/assets/screen_10.png)
+
 Press the **Start** button and wait while the logic analyzers captures and processes data. Waveforms should appear in the main window pane. Zoom in around the trigger point, which should read _0 s : 0 ms : 0μs_. You should see that the falling edge of Channel 7 lines up with this point \(origin in time\).
+
+![](../../.gitbook/assets/screen_11.png)
 
 If you pan left on the waveforms, you should see that the Logic Analyzer is capable of capturing up to about 0.5 ms prior to the trigger point.
 

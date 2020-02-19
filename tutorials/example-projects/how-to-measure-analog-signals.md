@@ -17,7 +17,13 @@ Example code is provided below for [Arduino](https://www.arduino.cc/), [mbed](ht
 
 #### Connect Hardware <a id="connect-hardware-1"></a>
 
-For this example, you will only need 1 harness plugged into your Logic Analyzer. We will be using channel 0. Connect the channel 0 and GND wires to the Nucleo board as shown below. Note that pin PA\_4 \(A2 on the Arduino headers\) is DAC\_OUT1 \(digital-to-analog converter output 1\) on the Nucleo-F446RE.
+For this example, you will only need 1 harness plugged into your Logic Analyzer. We will be using channel 0. 
+
+![](../../.gitbook/assets/saleae_harness_1%20%283%29.jpg)
+
+Connect the channel 0 and GND wires to the Nucleo board as shown below. Note that pin PA\_4 \(A2 on the Arduino headers\) is DAC\_OUT1 \(digital-to-analog converter output 1\) on the Nucleo-F446RE.
+
+![](../../.gitbook/assets/dac_circuit_fritzing%20%281%29.png)
 
 #### Run Demo Application <a id="run-demo-application-1"></a>
 
@@ -37,9 +43,15 @@ Open the Logic software with the Logic Analyzer plugged in. Click on the **Devic
 
 In the device settings window, set the speed to **at least 50 MS/s** and the duration to **1 second**. Click both **Clear** buttons to disable all channels, leaving only the digital channel 0 enabled. Click the **analog Channel 0** to enable it, and click the **digital Channel 0** to disable it.
 
+![](../../.gitbook/assets/screen_12.png)
+
 Click the **Device Settings Button** again to close the configuration window. Click **Start** to begin collecting data. After a moment, you should see a sinewave appear in the main window. Note that you might have to zoom out. If you hover your mouse over the sinewave, you should see the measured voltage at that time pop up.
 
+![](../../.gitbook/assets/screen_13.png)
+
 If you would like to measure the time between two points on the signal, you can select the A1 and A2 markers underneath the _Timing Marker Pair_ tab on the right side. Click the **A1** button, which will put a marker on your cursor. Click on a peak in the waveform. Click on **A2**, which will put another marker on your cursor. Find an adjacent peak to place the second marker. You should see the time difference between those points appear next to the A1 and A2 buttons.
+
+![](../../.gitbook/assets/screen_14.png)
 
 As you can see, the period is measured to be about 10 ms, which is close to the 100 Hz we set in the demo programs.
 
