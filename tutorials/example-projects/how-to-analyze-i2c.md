@@ -25,8 +25,6 @@ One of the easiest to use I2C sensors is the inexpensive TMP102 temperature sens
 
 Solder header pins to the TMP102 breakout board, and connect the Nucleo to the TMP102 breakout board as shown in the following diagram. Note that GND, SDA, and SCL are broken out to the male pins to the right of the female Arduino headers on the Nucleo. This setup allows us to attach the Saleae Logic Analyzer wires.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LK-cRuCDRBtYSjHV9yh%2F-LK-clI0DsMhyaHpUPH_%2Fi2c_circuit_fritzing.png?alt=media&token=23925f10-e23f-426a-9844-a9ffc481daa6)
-
 #### Run Demo Application <a id="run-demo-application-4"></a>
 
 Download the example code for your IDE:
@@ -43,31 +41,21 @@ Open the serial terminal program that you downloaded from the UART example.
 
 Connect to the Nucleo board over the assigned serial port with a baud rate of **115200**, 8 data bits, no parity bit, and 1 stop bit \(**8-N-1**\). Open the connection, and you should see the temperature \(in Celsius\) being reported to you in regular intervals. Try breathing on the TMP102 sensor to change the readings.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LK-cRuCDRBtYSjHV9yh%2F-LK-clHsGz9V8SrOjGlL%2Fscreen_26.png?alt=media&token=ba88b153-7e7b-4086-b3b0-29c61c6d659e)
-
 #### Measure the Signal <a id="measure-the-signal-3"></a>
 
 Open the Logic software with the Logic Analyzer plugged in. Click on the **Device Settings Button**.
 
 In the device settings window, set the speed to **at least 50 MS/s** and the duration to **1 second**. Click both **Clear** buttons to disable all channels, leaving only digital Channel 0 enabled. Click **digital Channel 1** to enable it as well.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LK-cRuCDRBtYSjHV9yh%2F-LK-clHteUM1IGBRxgBN%2Fscreen_27.png?alt=media&token=8043eb59-bd26-4ad9-bcd2-07571951a616)
-
 Set the protocol analyzer by clicking on the plus button \(**+**\) next to _Analyzers_ on the right side. Select **I2C** to bring up the settings window. Leave everything as default and click **Save**.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LK-cRuCDRBtYSjHV9yh%2F-LK-clHu06bkvIrjiqGM%2Fscreen_28.png?alt=media&token=bea41000-0557-4a8f-92fd-d8891e6acb58)
-
 The data line \(SDA\) is normally the first signal to change during an I2C transfer. Because the lines are _open drain_, they will be nominally high, which means that we need to watch for a high-to-low transition. Click on the **Trigger Button** next to _Channel 0 \(I2C - SDA\)_, and select the **Trigger on Falling Edge** option.
-
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LK-cRuCDRBtYSjHV9yh%2F-LK-clHvzswBFoIX-KNR%2Fscreen_29.png?alt=media&token=18af5ff4-ed61-4d45-a6a2-3d7326a4afb1)
 
 Click on the **Trigger Button** again to close the pop-up. Click **Start** to begin collecting data. Because we told the Nucleo to read from the sensor every 0.2 seconds, we should begin collecting data right away.
 
 Zoom in around the _0 s : 0 ms : 0 μs_ mark, and you should see some I2C data. Click on the _gear icon_ next to _I2C_ under _Analyzers_. Click on **Hex** under _Display Radix_ to show the interpreted data as hexadecimal.
 
 You should see a write operation and a read operation. Both should begin with the address of the TMP102, which is 0x48 as a 7-bit number. If we shift it left by 1 bit, we get 0x90, and the last bit determines the type of operation \(0 for write and 1 for read\).
-
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LK-cRuCDRBtYSjHV9yh%2F-LK-clHwXeyQ5mLS0wyD%2Fscreen_30.png?alt=media&token=f989808e-c867-4320-9f86-0aa947cff310)
 
 If you look at the write operation, you should see that the address is followed by the memory location of the TMP102’s _Temperature_ register \(0x00\) and an _ACK_ \(line is low for 1 bit\). Immediately following the write operation, you should see a read operation. Here, the microcontroller waits for 2 bytes to be sent by the TMP102. In the picture, the bytes returned are 0x017 0x30 \(binary 0001 0111 0011 0000\). The first byte is followed by an _ACK_ \(line kept low for 1 bit\) and the second byte is followed by a _NACK_ \(line returned to high for 1 bit to indicate the end of the transmission\).
 

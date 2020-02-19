@@ -19,8 +19,6 @@ Note that on the Nucleo-F446RE, the UART lines used to communicate with the host
 
 Connect the GND wire to an available ground pin on the Nucleo. Connect Channel 0 to TX and connect Channel 1 to RX.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LJyTJ_59L9MNB5rtuO1%2F-LJyUPDN5-7ePkZlgcE1%2Fuart_circuit_fritzing.png?alt=media&token=b0677d6f-4bf5-4074-9ac9-31e09b219100)
-
 #### Run Demo Application <a id="run-demo-application-2"></a>
 
 Download the example code for your IDE:
@@ -41,37 +39,25 @@ Download and open a serial terminal program. Here are some suggestions:
 
 Connect to the Nucleo board over the assigned serial port with a baud rate of **115200**, 8 data bits, no parity bit, and 1 stop bit \(**8-N-1**\). Once you open the connection, anything you type should be echoed back to you.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LK-cRuCDRBtYSjHV9yh%2F-LK-clHcgaxOx7VglIn6%2Fscreen_15.png?alt=media&token=f18764cc-e9fc-4018-bcb9-ee72c20e383b)
-
 #### Measure the Signal <a id="measure-the-signal-1"></a>
 
 Open the Logic software with the Logic Analyzer plugged in. Click on the **Device Settings Button**.
 
 In the device settings window, set the speed to **at least 50 MS/s** and the duration to **1 second**. Click both **Clear** buttons to disable all channels, leaving only the digital channel 0 enabled. Click the **digital Channel 1** to enable it as well.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LK-cRuCDRBtYSjHV9yh%2F-LK-clHeJMbcaLGGWeh9%2Fscreen_16.png?alt=media&token=a543dc74-0773-4446-ab3a-678cc7bba261)
-
 Click the **Device Settings Button** again to close the configuration window. With this setup, channel 0 is configured to capture UART data going from your computer to the Nucleo board \(TX on the Nucleo\), and channel 1 is configured to capture data from the Nucleo to your computer \(RX on the Nucleo\).
 
 By default, triggering is set to occur on the rising edge of channel 0. UART is by default high, so we want to start capturing whenever the TX line drops low \(_start bit_\). Click the **Trigger Button** next to _Channel 0_ to bring up the _Trigger Settings_ pop-up. Select the **Trigger on Falling Edge** option.
-
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LK-cRuCDRBtYSjHV9yh%2F-LK-clHfiznpU1btz1kL%2Fscreen_17.png?alt=media&token=3448ab00-0c22-4a3d-834d-d095f1256247)
 
 Click on the **Trigger Button** again to close the pop-up. Click **Start**, and you should see the Logic software tell you that it is waiting for a trigger.
 
 Back in your serial terminal program, type the letter ‘a’. The Logic software should begin capturing data and then show you the results.
 
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LK-cRuCDRBtYSjHV9yh%2F-LK-clHhWN9hNh5ccp7V%2Fscreen_18.png?alt=media&token=986c55b6-9092-4f5f-ad59-f9206a2df915)
-
 Click on the plus button \(**+**\) next to _Analyzers_ on the right side of the Logic software. Select **Async Serial** to bring up the Serial settings window. Select **0 - ‘Channel 0’** for _Serial_, change the bit rate to **115200**, and leave the rest alone.
-
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LK-cRuCDRBtYSjHV9yh%2F-LK-clHihdVqAQfCZDnd%2Fscreen_19.png?alt=media&token=60e046e2-5cb9-44d1-a372-66870125c288)
 
 Repeat this process to add an additional analyzer, but set the channel to **1 - ‘Channel 1’**.
 
 You should see two “Async Serial” bars appear under the _Analyzers_ pane. Additionally, the captured serial data should both have the letter ‘a’ over them. This shows that you captured the ASCII letter ‘a’ going from the computer to the Nucleo and the same letter being echoed back.
-
-![](https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/assets%2F-LJyR1KEnjYBK2_cUw23%2F-LK-cRuCDRBtYSjHV9yh%2F-LK-clHjQqvqyaYOeb_C%2Fscreen_20.png?alt=media&token=fa5d8848-d1e5-448e-86de-71f915bbca21)
 
 Try measuring the time it takes for your Nucleo to capture and echo a letter, and see if you can type a few more letters during the capture period and decode them.
 
