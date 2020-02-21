@@ -8,7 +8,7 @@ This list contains every distributor currently selling Saleae devices. Please no
 * [Akizuki Denshi Tsucho Co., Ltd](http://akizukidenshi.com/catalog/goods/search.aspx?search=x&keyword=saleae&image=%8C%9F%8D%F5) - Japan
 * [Antratek Electronics](https://www.antratek.com/catalogsearch/result/?q=saleae) - Netherlands, Belgium, Germany
 * [Batronix](http://www.batronix.com/shop/logic-analyzer/Saleae.html) - Germany
-* [Berk Engineering](http://berkinengineering.com/urunler) - Turkey
+* [Berkin Engineering](http://berkinengineering.com/urunler) - Turkey
 * [BTC](https://kamami.pl/22_saleae) - Poland
 * [ChipCAD Electronics Distribution Ltd.](https://shop.chipcad.hu/Welcome/Default.aspx?scenarioID=360&pid=1526) - Hungary
 * [Core Electronics](http://core-electronics.com.au/search/?q=saleae) - Australia
