@@ -6,6 +6,7 @@ This list contains every distributor currently selling Saleae devices. Please no
 * [Abra Electronics Inc](https://abra-electronics.com/?subcats=Y&pcode_from_q=Y&pshort=Y&pfull=Y&pname=Y&pkeywords=Y&search_performed=Y&q=saleae&dispatch=products.search) - US, Canada
 * [Adafruit Industries](https://www.adafruit.com/?q=Saleae&) - US
 * [Akizuki Denshi Tsucho Co., Ltd](http://akizukidenshi.com/catalog/goods/search.aspx?search=x&keyword=saleae&image=%8C%9F%8D%F5) - Japan
+* [Amazing Tech](http://amazingtech.com.cn/cn/index.php) - China, Singapore
 * [Antratek Electronics](https://www.antratek.com/catalogsearch/result/?q=saleae) - Netherlands, Belgium, Germany
 * [Batronix](http://www.batronix.com/shop/logic-analyzer/Saleae.html) - Germany
 * [Berkin Engineering](http://berkinengineering.com/urunler) - Turkey
