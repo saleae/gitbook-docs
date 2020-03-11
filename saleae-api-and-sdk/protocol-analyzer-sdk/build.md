@@ -37,6 +37,13 @@ Instructions to tell the Saleae Logic software where to find your new analyzer d
 
 Once you have set that directory and restarted the software, your new custom analyzer should appear in the list of analyzers you can add.
 
+#### Logic Software Having Trouble with the Analyzer dll?
+
+If the Logic Software fails to open the newly added analyzer dll, you will want to check 2 things:
+
+1. Ensure that you've built it for the appropriate OS \(32-bit or 64-bit\).
+2. Ensure that the latest version of the Microsoft Visual C++ Redistributable is installed. For example, we've seen issues where an analyzer dll was built with Visual Studio 2019, which did not work properly on another PC with an older version of the C++ Redistributable.
+
 ## Building on MacOS
 
 #### via Python script
