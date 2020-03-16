@@ -20,14 +20,17 @@ Please check before continuing:
 * Windows is up to date.
 * The computer has been recently restarted after the software was installed.
 * The current user has administrator privileges or can launch programs as an administrator, if necessary.
+  * You may need to give Windows explicit admin privileges into the `%AppData%` folder
 
 Below is a list of potential issues and solutions to those issues. Please evaluate each one and attempt each applicable recommendation.
 
 **The Settings.xml file from the Previous Installation Has Become Corrupt**
 
 * Try deleting the settings.xml file on your system. It is located here:
-* On Vista/7/8/10: C:\Users\YourUserName\AppData\Roaming\Saleae LLC\Logic\settings.xml
-* On XP: C:\Documents and Settings\YourUserName\Application Data\Saleae LLC\Logic\settings.xml
+* On Vista/7/8/10: 
+  * `%AppData%\Roaming\Saleae LLC\Logic\settings.xml`
+* On XP: 
+  * `C:\Documents and Settings\YourUserName\Application Data\Saleae LLC\Logic\settings.xml`
 * Make sure the software is closed when trying this.
 * To view the AppData \(Application Data\) folders, you will need to make sure the "Shows hidden files, folders, and drives" option is enabled in Windows.
 
