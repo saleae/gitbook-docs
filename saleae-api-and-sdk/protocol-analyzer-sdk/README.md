@@ -21,7 +21,11 @@ To get started, please first read the Setup guide below. We will be working with
 
 {% page-ref page="setup.md" %}
 
-And then read the Project Build documentation.
+{% page-ref page="build.md" %}
+
+{% page-ref page="debug.md" %}
+
+The complete Build documentation is below.
 
 * [SDK Project Build & Install](https://github.com/saleae/SampleAnalyzer/blob/master/docs/Analyzer%20SDK%20Setup.md)
 

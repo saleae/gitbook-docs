@@ -4,17 +4,11 @@ The instructions below describe how to debug your custom analyzer for Windows, M
 
 ## Debugging on Windows
 
-Unfortunately, newer versions of the Saleae software cannot be used to debug custom analyzers on Windows. This means that older versions of the software and SDK must be used if you wish to attach a debugger and step through your code. This complicates debugging on Windows, but it can be done.
+To debug your custom analyzer, you will need to download the [32-bit standalone copy of Logic v1.1.18](http://downloads.saleae.com/betas/1.1.18/Logic1.1.18BetaWin32Standalone.zip) software. This is a standalone download and does not need to be installed. Just extract the zip file and run the contained Logic.exe.
 
 {% hint style="info" %}
-_**Note:**_ it is impossible to attach a debugger to any version of the software that supports the new products. We are working on a solution to this problem, but for now that means you must rely on the simulation data generator for your analyzer to produce captures you can then debug in the older software.
+_**Note:**_ Unfortunately, [Logic v1.1.18](http://downloads.saleae.com/betas/1.1.18/Logic1.1.18BetaWin32Standalone.zip) is not compatible with our Gen2 products \(Logic 4, Logic 8, Logic Pro 8, & Logic Pro 16\). On Windows, you cannot attach a debugger to any version of the software that supports these products. We are working on a solution to this problem, but for now that means you must rely on the simulation data generator for your analyzer to produce captures you can then debug in the older software.
 {% endhint %}
-
-To debug your custom analyzer, you will need to download the 32-bit standalone copy of our older, 1.1.18 software.
-
-[http://downloads.saleae.com/betas/1.1.18/Logic1.1.18BetaWin32Standalone.zip](http://downloads.saleae.com/betas/1.1.18/Logic1.1.18BetaWin32Standalone.zip)
-
-This is a standalone download and does not need to be installed. Just extract the zip file and run the contained Logic.exe.
 
 Please note that switching between Saleae Logic software versions has a tendency to reset the software's settings. This could cause the analyzer developer directory to get reset. If you no longer see your analyzer in the list, please verify that the analyzer developer directory is still set properly.
 
