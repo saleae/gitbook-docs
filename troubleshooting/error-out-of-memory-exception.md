@@ -4,9 +4,7 @@
 
 The Logic devices and software use your computer's memory as the main sample buffer when recording. Because of this, the software can use large amounts of memory, especially while recording high-speed signals or analog data.
 
-You can estimate the memory usage of the software with this online performance calculator: [https://www.saleae.com/performancecalculator](https://www.saleae.com/performancecalculator)
-
-The software will also estimate the memory usage on the device settings popover.
+The software will estimate the memory usage on the device settings popover.
 
 The software consumes memory as it needs to during the capture. Sometimes, the software may need to continue to process data after the capture, such as rendering analog data, so it could continue to consume more memory for a short time after the capture finishes.
 

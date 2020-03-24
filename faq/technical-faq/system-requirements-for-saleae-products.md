@@ -19,9 +19,9 @@ The software also requires SSE2 support. SSE2 is a feature of the CPU and has be
 
 **Recommended Hardware**
 
-For most applications, high-performance PC hardware is not required. However, long duration analog and digital captures can be very memory-intensive. For applications where analog data need to be recorded for more than 30 seconds or for high-speed digital captures, we recommend as much RAM as possible. You can find our memory estimator below:
+For most applications, high-performance PC hardware is not required. However, long duration analog and digital captures can be very memory-intensive. For applications where analog data need to be recorded for more than 30 seconds or for high-speed digital captures, we recommend as much RAM as possible.
 
-[https://www.saleae.com/performancecalculator](https://www.saleae.com/performancecalculator)
+The software will estimate the memory usage on the device settings popover.
 
 We do not recommend taking captures that will exceed the installed RAM. However, the OS may be able to cache in real time for lower-speed captures. For best results, a fast SSD and lots of free disk space are recommended.
 

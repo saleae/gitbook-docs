@@ -19,8 +19,6 @@ The presence of both digital and analog channels in the same capture complicates
 
 You can find a brief overview of the maximum sample rates in the device technical specifications here: [https://www.saleae.com/\#DatasheetTile](https://www.saleae.com/#DatasheetTile)
 
-You can use our fully featured device setting simulator to find different sample rate and active channel combinations: [https://www.saleae.com/performancecalculator](https://www.saleae.com/performancecalculator)
-
 The original products, Logic and Logic16, are not listed in those areas; they only contain the latest products.
 
 Original Logic \(discontinued September 2014\):
