@@ -26,7 +26,7 @@ The amount of RAM needed for a data capture is dependent on five factors:
 * Duration of the capture
 * Toggles/sec of incoming digital data
 
-You can use our [performance calculator](https://www.saleae.com/performance-calculator/) to estimate the amount of RAM a specific capture will require.
+The software will estimate the RAM/memory usage on the device settings popover.
 
 ### Analog Data RAM Usage
 
