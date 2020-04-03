@@ -9,7 +9,8 @@ Write about your awesome project and get paid!
 \[   \] 5+ pictures/video  
 \[   \] Focused on your project, not focused on Saleae.  
 \[   \] It’s clear from your writing that you’re genuinely excited about your project.  
-\[   \] Includes mention of Saleae as described below.
+\[   \] Includes mention of Saleae as described below.  
+\[   \] Use [Logic Software v2.x](https://discuss.saleae.com/). If you need to use an older version, let us know.
 
 ### Reward
 
