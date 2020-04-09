@@ -8,7 +8,7 @@ The United States defines products using its Harmonized Tariff Schedule \(HTS\).
 
 **For all Saleae Products**
 
-* Origin of manufacture is USA.
+* Origin of manufacture is Taiwan.
 
 **Saleae Logic 8 Black**
 
