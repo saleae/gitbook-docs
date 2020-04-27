@@ -1,7 +1,7 @@
 # Device Calibration
 
 {% hint style="warning" %}
-**Note: The** [**Logic Alpha 2.x**](https://discuss.saleae.com/) **software does NOT work with these instructions yet. Please** [**contact support**](https://contact.saleae.com/hc/en-us/requests/new) **with your Device ID to get the correct calibration file. We will update this article once we have this working.**
+**Note: The** [**Logic Alpha 2.x**](https://discuss.saleae.com/) **software does NOT work with these instructions yet. Although we've implemented auto-calibration in the Alpha build, we've seen that it may not work as expected. Manual calibration installation is something we're planning to solve in a soon to release Alpha build. We'll update this article once that's ready.**
 {% endhint %}
 
 When connected to the internet, the Logic software will automatically handle downloading the calibration file.
@@ -33,7 +33,7 @@ There is a minimum software version required with a calibration file. Please kee
 ## **Manually Download the Calibration File**
 
 {% hint style="warning" %}
-**Note: The** [**Logic Alpha 2.x**](https://discuss.saleae.com/) **software does NOT work with these instructions yet. Please** [**contact support**](https://contact.saleae.com/hc/en-us/requests/new) **with your Device ID to get the correct calibration file. We will update this article once we have this working.**
+**Note: The** [**Logic Alpha 2.x**](https://discuss.saleae.com/) **software does NOT work with these instructions yet. Although we've implemented auto-calibration in the Alpha build, we've seen that it may not work as expected. Manual calibration installation is something we're planning to solve in a soon to release Alpha build. We'll update this article once that's ready.**
 {% endhint %}
 
 The Logic software will automatically handle downloading the calibration file. In rare cases, users may need to download the file manually if the software is not able to download it on its own. Follow the steps below.
