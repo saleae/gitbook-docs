@@ -1,4 +1,4 @@
-# Binary Data Export Format - Digital Channels
+# Binary Export Format \(Digital\) - Logic 1.x
 
 The Binary export option in the Saleae software is used to export the captures signals to a binary file.
 

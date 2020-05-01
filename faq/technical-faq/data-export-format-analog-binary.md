@@ -1,4 +1,4 @@
-# Binary Data Export Format - Analog
+# Binary Export Format \(Analog\) - Logic 1.x
 
 **This Article Applies Only to v1.2.0+ Versions of the Software.**
 
