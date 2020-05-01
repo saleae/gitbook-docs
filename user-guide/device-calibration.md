@@ -26,7 +26,7 @@ Manual calibration installation is now ready in [Logic Alpha 2.x](https://discus
 
 `OSX: /Users/YourUserName/Library/Application Support/logic/calibrations  
 Windows: %APPDATA%\Logic\calibrations  
-Linux:` 
+Linux: ~/.config/Logic/calibrations`
 
 
 
