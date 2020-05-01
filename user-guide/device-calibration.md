@@ -1,8 +1,36 @@
 # Device Calibration
 
-{% hint style="warning" %}
-**Note: The** [**Logic Alpha 2.x**](https://discuss.saleae.com/) **software does NOT work with these instructions yet. Although we've implemented auto-calibration in the Alpha build, we've seen that it may not work as expected. Manual calibration installation is something we're planning to solve in a soon to release Alpha build. We'll update this article once that's ready.**
-{% endhint %}
+## Calibration in Logic Alpha 2.x
+
+Manual calibration installation is now ready in [Logic Alpha 2.x](https://discuss.saleae.com/) \(starting with v2.2.14\). Typically, the Logic software will automatically handle downloading the calibration file. In rare cases, users may need to download the file manually if the software is not able to download it on its own. Follow the steps below.
+
+#### Check Calibration Status
+
+![](../.gitbook/assets/screen-shot-2020-05-01-at-4.51.58-pm.png)
+
+1. Open Logic 2.x software
+2. Click the Logic device at the top-left
+3. In the "Devices" window, check for "Device Calibrated"
+
+#### Manually Download the Calibration File
+
+1. If the auto-download for calibration fails, a popup will appear.
+
+   ![](../.gitbook/assets/screen-shot-2020-05-01-at-5.05.22-pm.png)
+
+2. Click "Download" to download the calibration file
+3. Click "Load File" to load the calibration file
+4. Check calibration status to ensure it is successful
+
+#### Where are my Calibration Files stored?
+
+`OSX: /Users/YourUserName/Library/Application Support/logic/calibrations  
+Windows: %APPDATA%\Logic\calibrations  
+Linux:` 
+
+
+
+## Calibration in Logic 1.x
 
 When connected to the internet, the Logic software will automatically handle downloading the calibration file.
 
@@ -10,9 +38,9 @@ The 2nd Generation of Saleae products \(Logic 4, Logic 8, Logic Pro 8, & Logic P
 
 This calibration data is not stored on the device. Instead, it is stored on our servers, and the software automatically downloads this calibration data as well as checks for updates when a device is connected.
 
-## **Check Calibration Status**
+#### **Check Calibration Status**
 
-1. Open the latest version of the software.
+1. Open Logic 1.x software.
 2. Connect the Logic device and wait for the software to connect to it.
 3. Click _Options -&gt; Preferences -&gt; Calibration tab_
 
@@ -30,11 +58,7 @@ The last updated date is the date we uploaded your calibration file to the Web. 
 
 There is a minimum software version required with a calibration file. Please keep your software up to date.
 
-## **Manually Download the Calibration File**
-
-{% hint style="warning" %}
-**Note: The** [**Logic Alpha 2.x**](https://discuss.saleae.com/) **software does NOT work with these instructions yet. Although we've implemented auto-calibration in the Alpha build, we've seen that it may not work as expected. Manual calibration installation is something we're planning to solve in a soon to release Alpha build. We'll update this article once that's ready.**
-{% endhint %}
+#### **Manually Download the Calibration File**
 
 The Logic software will automatically handle downloading the calibration file. In rare cases, users may need to download the file manually if the software is not able to download it on its own. Follow the steps below.
 
@@ -48,6 +72,8 @@ The Logic software will automatically handle downloading the calibration file. I
    * Linux: Calibration folder alongside Logic executable
 3. Check your Calibration Status \(steps above\), to ensure the calibration loaded properly.
 
+\*\*\*\*
+
 ## **Transferring the Calibration File from One PC to Another**
 
 1. Install the latest Logic software on a machine with Internet access.
@@ -59,11 +85,15 @@ The Logic software will automatically handle downloading the calibration file. I
 
 Each .cal file is specific to a single device, but the .cal files are saved with the device ID in decimal and not hex, making it hard to tell which is which. If only one device has ever been connected, there will only be one .cal file.
 
+
+
 ## Do I Have the Latest Calibration File?
 
-If there is a newer calibration file available for your device, our software should automatically download it as long as it is connected to the internet.
+If there is a newer calibration file available for your device, our software should automatically download it as long as it is connected to the internet. Note that we usually do not make updates to the calibration files.
 
-In case you want to check if there is an updated calibration file available, please manually download the calibration file using the instructions above. If the calibration file was updated, then you will notice the _Last Updated Date_ will change under the _Calibration Info_ tab inside the _Preferences_ window.
+In case you want to check if there is an updated calibration file available, please manually download the calibration file using the instructions above ****and check for the calibration status.
+
+\*\*\*\*
 
 ## **Do you Provide Calibration Certificates?**
 
@@ -72,6 +102,8 @@ Our devices do not require periodic recalibration. You can download our statemen
 {% file src="../.gitbook/assets/statement\_of\_calibration \(1\).pdf" %}
 
 Specifically, there is no calibration certificate. The devices do undergo a one-time factory calibration process.
+
+\*\*\*\*
 
 ## **Having Trouble?**
 
