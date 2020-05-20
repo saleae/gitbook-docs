@@ -9,7 +9,7 @@ Specifically, several key things \(at the minimum\) need to happen before we can
 * Migrate our USB layer to ensure compatibility with ARM
 * Evaluate performance and stability
 
-It would be really cool and helpful for many, I think. Hopefully, we will have the chance to do it. Currently, we are tracking this idea [here](https://ideas.saleae.com/ideas/SALEAE-I-191#1). Feel free to comment/vote on it!
+It would be really cool and helpful for many, I think. Hopefully, we will have the chance to do it. Currently, we are tracking this idea [here](https://ideas.saleae.com/b/logic-1-legacy/offer-linux-builds-for-arm-arm64-and-power/). Feel free to comment/vote on it!
 
 We don't have any other libraries that use the device, either. The Logic software is the only way to communicate with the hardware.
 
