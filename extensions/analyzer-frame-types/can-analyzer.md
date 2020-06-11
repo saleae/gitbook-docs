@@ -1,15 +1,14 @@
-# Controller Area Network (CAN) Analyzer
-  
+# Controller Area Network \(CAN\) Analyzer
 
 ## Output Frame Format
-  
+
 ### Frame Type: `"identifier_field"`
 
 | Property | Type | Description |
 | :--- | :--- | :--- |
 | `Identifier` | int | Identifier, either 11 bit or 29 bit |
-| `Extended` | bool | (optional) Indicates that this identifier is a 29 bit extended identifier. This key is not present on regular 11 bit identifiers |
-| `remote_frame` | bool | (optional) Present and true for remote frames |
+| `Extended` | bool | \(optional\) Indicates that this identifier is a 29 bit extended identifier. This key is not present on regular 11 bit identifiers |
+| `remote_frame` | bool | \(optional\) Present and true for remote frames |
 
 ### Frame Type: `"control_field"`
 
@@ -39,6 +38,9 @@
 
 | Property | Type | Description |
 | :--- | :--- | :--- |
+
+
 undefined
 
 Invalid CAN data was encountered
+

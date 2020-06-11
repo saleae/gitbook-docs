@@ -1,12 +1,13 @@
-# Local Interconnect Network (LIN) Analyzer
-  
+# Local Interconnect Network \(LIN\) Analyzer
 
 ## Output Frame Format
-  
+
 ### Frame Type: `"no_frame"`
 
 | Property | Type | Description |
 | :--- | :--- | :--- |
+
+
 undefined
 
 Inter-byte space
@@ -15,6 +16,8 @@ Inter-byte space
 
 | Property | Type | Description |
 | :--- | :--- | :--- |
+
+
 undefined
 
 Header break
@@ -23,6 +26,8 @@ Header break
 
 | Property | Type | Description |
 | :--- | :--- | :--- |
+
+
 undefined
 
 Header sync
@@ -59,3 +64,4 @@ Checksum byte
 | `index` | int | Index, 0-8, of the data byte inside of the transaction |
 
 Unable to determine if this byte is a data byte or a checksum. It is technically valid as both. This occurs if a a data byte, at index N, is equal to what the CRC should be if the transaction is N-1 bytes.
+

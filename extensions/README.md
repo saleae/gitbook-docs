@@ -11,6 +11,10 @@ The API documentation for building your own extensions can be found below:
 * [Extensions Python API documentation](https://github.com/saleae/logic2-extensions)
 * [Extensions Examples](https://github.com/saleae/logic2-extensions-examples)
 
+You can also follow along with our Quickstart guide below to quickly create an extension and publish it to the Saleae Marketplace to make it available to our community of users.
+
+{% page-ref page="extensions-quickstart.md" %}
+
 ### Extension Components
 
 An extension consists of at least two files, all of which should be stored in the same folder.
@@ -27,6 +31,10 @@ An extension consists of at least two files, all of which should be stored in th
 3. A pop-up window will appear. Under 'Load existing extension', click 'select .json file'
 4. Navigate to the extension you would like to add and select its `extension.json` file.
 5. Once added, you will see the new extension appear in the 'Extensions' panel of the software
+
+
+
+
 
 
 
