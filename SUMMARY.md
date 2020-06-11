@@ -14,6 +14,7 @@
     * [Async RGB LED Analyzer](extensions/analyzer-frame-types/async-rgb-led-analyzer.md)
     * [Simple Parallel Analyzer](extensions/analyzer-frame-types/simple-parallel-analyzer.md)
     * [Local Interconnect Network \(LIN\) Analyzer](extensions/analyzer-frame-types/lin-analyzer.md)
+  * [API Documentation](extensions/api-documentation.md)
 * [Orders & Shipping](ordering-and-shipping/README.md)
   * [Place an Order](ordering-and-shipping/how-do-i-place-an-order.md)
   * [Request a Quote](ordering-and-shipping/how-do-i-get-a-quote.md)
