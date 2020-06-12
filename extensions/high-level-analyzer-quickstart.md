@@ -5,10 +5,6 @@ description: Learn how to modify your new High Level Analyzer
 # High-Level Analyzer Extensions
 
 {% hint style="warning" %}
-This guide assumes you have generated a new High Level Analyzer from within Logic 2. If you haven't, please start with the [Extensions Quickstart](extensions-quickstart.md) before proceeding.
-{% endhint %}
-
-{% hint style="warning" %}
 This guide assumes that you have familiarity with the [Python](https://www.python.org/) programming language. It is what will be used to customize our HLA.
 {% endhint %}
 
