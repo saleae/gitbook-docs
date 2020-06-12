@@ -8,7 +8,7 @@ We couldn't be more excited to announce this feature!
 
 High level analyzers are protocol analyzers that process the output of the existing "low level" analyzers already in the app. You can write your own in Python. This lets you create powerful new analyzers without needing to reinvent the wheel. So far, our favorite application of high level analyzers is converting existing decoded I2C bytes into clean, decoded messages specific to the I2C device we're working with, to easily read recorded I2C traffic without needing to go back to the datasheet.
 
-TODO: link to HLA quick start
+{% page-ref page="high-level-analyzer-quickstart.md" %}
 
 ### Digital and Analog Measurements
 
@@ -24,7 +24,7 @@ To browse the extension marketplace, install the latest Logic software, and clic
 
 ![Marketplace extensions can be found in the extension sidebar](../.gitbook/assets/image.png)
 
-TODO: link to publish quick start
+{% page-ref page="publish-an-extension.md" %}
 
 ### Documentation
 
@@ -32,11 +32,15 @@ Looking to get started?
 
 Check out the Python High Level Analyzer quick start guide here!
 
-TODO: HLA quick start
+{% page-ref page="high-level-analyzer-quickstart.md" %}
 
-Check out the Python Measurement quick start guide here!
+And more detail here:
 
-TODO: Measurement Quick start
+{% page-ref page="high-level-analyzer-extensions.md" %}
+
+Check out the Python Measurement guide here!
+
+{% page-ref page="measurement-extensions.md" %}
 
 #### API Documentation
 
@@ -45,6 +49,10 @@ TODO: Measurement Quick start
 #### Analyzer Frame Type Specifications
 
 {% page-ref page="analyzer-frame-types/" %}
+
+#### Extension File Format
+
+{% page-ref page="extension-file-format.md" %}
 
 
 
