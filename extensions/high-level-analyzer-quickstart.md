@@ -65,15 +65,15 @@ class MyHla(HighLevelAnalyzer):
 ```
 {% endcode %}
 
-### 
+#### Imports
 
 ```python
 from saleae.analyzers import HighLevelAnalyzer, AnalyzerFrame, StringSetting, NumberSetting, ChoicesSetting
 ```
 
+#### Declaration and Settings
+
 All HLAs must subclass [HighLevelAnalyzer](api-documentation.md#class-saleae-analyzers-highlevelanalyzer), and additionally output [AnalyzerFrames](api-documentation.md#class-saleae-analyzers-analyzerframe-type-str-start_time-saleae-data-timing-graphtime-end_time-saleae-data-timing-graphtime-data-dict-none). The `Setting` classes are included so we can specify settings options within the Logic 2 UI.
-
-
 
 ```python
 class MyHla(HighLevelAnalyzer):
@@ -84,7 +84,7 @@ class MyHla(HighLevelAnalyzer):
 
 This declares our new HLA class, which extends from HighLevelAnalyzer, and 3 settings options that will be shown within the Logic 2 UI.
 
-
+#### Output formats
 
 ```python
     result_types = {
@@ -96,7 +96,7 @@ This declares our new HLA class, which extends from HighLevelAnalyzer, and 3 set
 
 This specifies how we want output AnalyzerFrames to be displayed within the Logic 2 UI. We will come back to this later.
 
-
+#### Initialization
 
 ```python
     def __init__(self):
@@ -106,7 +106,7 @@ This specifies how we want output AnalyzerFrames to be displayed within the Logi
 
 This is called when your HLA is first created, before processing begins. The values for the settings options declared at the top of this class will be available as instance variables here. In this case, the settings values will be printed out and visible within the Logic 2 terminal view.
 
-
+#### Data Processing
 
 ```python
     def decode(self, frame: AnalyzerFrame):
