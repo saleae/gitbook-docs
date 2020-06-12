@@ -29,7 +29,11 @@ You can take a look at an [example GitHub repository](https://github.com/timreye
 
 ![](../.gitbook/assets/screen-shot-2020-06-11-at-9.31.38-pm.png)
 
-4. Congratulations! If the publish was successful, your extension should now appear in the software like below.
+4. Click the three dots at the top of the Extensions panel and click 'Check for Extension Updates.'
+
+![](../.gitbook/assets/screen-shot-2020-06-11-at-11.10.17-pm.png)
+
+5. Congratulations! If the publish was successful, your extension should now appear in the software like below.
 
 ![](../.gitbook/assets/screen-shot-2020-06-11-at-9.17.50-pm.png)
 
