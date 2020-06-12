@@ -318,4 +318,5 @@ The final output after reloading:
 * Find out about other analyzers and the AnalyzerFrames they output in the [Analyzer Frame Types](analyzer-frame-types/) documentation.
 * Use the [API Documentation](api-documentation.md) as a reference.
 * Browse the Saleae Marketplace in Logic 2 for more ideas and examples of extensions you can create.
+* [Publish your extension](publish-an-extension.md) to the Saleae Marketplace!
 
