@@ -4,7 +4,6 @@
 * [Extensions](extensions/README.md)
   * [Extensions Quickstart](extensions/extensions-quickstart.md)
   * [High Level Analyzer Quickstart](extensions/high-level-analyzer-quickstart.md)
-  * [High Level Analyzer Extensions](extensions/high-level-analyzer-extensions.md)
   * [Measurement Extensions](extensions/measurement-extensions.md)
   * [Publish an Extension](extensions/publish-an-extension.md)
   * [Analyzer Frame Types](extensions/analyzer-frame-types/README.md)

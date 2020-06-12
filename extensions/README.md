@@ -34,10 +34,6 @@ Check out the Python High Level Analyzer quick start guide here!
 
 {% page-ref page="high-level-analyzer-quickstart.md" %}
 
-And more detail here:
-
-{% page-ref page="high-level-analyzer-extensions.md" %}
-
 Check out the Python Measurement guide here!
 
 {% page-ref page="measurement-extensions.md" %}
