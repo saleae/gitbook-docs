@@ -37,7 +37,7 @@ In this guide, we will walk your through creating an HLA \(High Level Analyzer\)
 
 To edit the Sample HLA \(perhaps as a starting point to creating your own HLA\), you can click the 'Local' button next to 'Sample HLA' under the Extensions panel. This will open the containing folder for your extension files which you can update for your needs. 
 
-Check out our [High Level Analyzer](high-level-analyzer-quickstart.md) article for more details about customizing your HLA.
+Check out our [High Level Analyzer](high-level-analyzer-quickstart.md) article to learn more about customizing your HLA.
 
 ## Use your Measurement
 
@@ -53,5 +53,5 @@ To see your new measurement in action, take a capture of digital data and add a 
 
 ‌To edit the Sample Measurement, you can click the 'Local' button next to 'Sample Measurement' under the Extensions panel. This will open the containing folder for your extension files which you can update for your needs.‌
 
-Check out our [Measurement](measurement-extensions.md) article for more details about customizing your Measurement.
+Check out our [Measurement](measurement-extensions.md) article to learn more about customizing your Measurement.
 
