@@ -2,7 +2,7 @@
 
 Publishing your extension to the Saleae Marketplace will make it readily available to anyone who uses our software. With your help, we're hoping to provide a growing list of feature extensions that our users can benefit from!
 
-### Prerequisites to Publishing
+### Prerequisites
 
 Before publishing, you will need to have the following completed.
 
