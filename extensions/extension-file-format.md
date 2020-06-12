@@ -8,7 +8,7 @@ A single extension can contain multiple high level analyzers, measurements, or b
 
 This example is a for a single extension that contains one high level analyzer and one digital measurement.
 
-```text
+```javascript
 {
   "version": "0.0.1",
   "apiVersion": "1.0.0",
@@ -53,7 +53,7 @@ The `extensions`  section describes each high level analyzer or measurement that
 
 In the example above, there are 2 extensions listed.
 
-```text
+```javascript
   "extensions": {
     "I2C EEPROM Reader": {
       "type": "HighLevelAnalyzer",
