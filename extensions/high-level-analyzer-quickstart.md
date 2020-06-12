@@ -2,7 +2,7 @@
 description: Learn how to modify your new High Level Analyzer
 ---
 
-# High Level Analyzer Quickstart
+# High-Level Analyzer Extensions
 
 {% hint style="warning" %}
 This guide assumes you have generated a new High Level Analyzer from within Logic 2. If you haven't, please start with the [Extensions Quickstart](extensions-quickstart.md) before proceeding.
@@ -14,9 +14,9 @@ This guide assumes that you have familiarity with the [Python](https://www.pytho
 
 ## Overview
 
-In this guide you will learn about:
+This guide assumes [you have generated](extensions-quickstart.md) a new High-Level Analyzer. In this guide you will learn about:
 
-1. The files included an the HLA template extension and what they are.
+1. The files included in the HLA template extension and what they are.
 2. The different parts of `HighLevelAnalyzer.py`.
 3. How to process input analyzer frames and output new analyzer frames.
 

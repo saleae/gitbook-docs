@@ -2,8 +2,8 @@
 
 * [Saleae Support](README.md)
 * [Extensions](extensions/README.md)
-  * [Extensions Quickstart](extensions/extensions-quickstart.md)
-  * [High Level Analyzer Quickstart](extensions/high-level-analyzer-quickstart.md)
+  * [How to Create an Extension?](extensions/extensions-quickstart.md)
+  * [High-Level Analyzer Extensions](extensions/high-level-analyzer-quickstart.md)
   * [Measurement Extensions](extensions/measurement-extensions.md)
   * [Extension File Format](extensions/extension-file-format.md)
   * [Publish an Extension](extensions/publish-an-extension.md)

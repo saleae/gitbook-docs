@@ -1,10 +1,6 @@
-# Extensions Quickstart
+# How to Create an Extension?
 
-In this guide, we will walk your through creating an HLA \(High Level Analyzer\) extension. Currently, HLAs are supported for the Async Serial, I2C, and SPI protocol analyzers. We plan to add support for more protocol analyzers in future revisions of the [Logic 2.x software](https://ideas.saleae.com/f/changelog/).
-
-{% hint style="warning" %}
-Publishing an extension is not yet available in the latest Logic 2.x software. We will update this notice and this guide once it's ready. Note that publishing your extension will make it installable for anyone who uses the Logic software.
-{% endhint %}
+In this guide, we will walk your through creating an HLA \(High Level Analyzer\) extension, however, the process is identical for other types.  
 
 1. Click the 'Extensions' panel button on the right of the software
 2. Click 'Create Extension'
@@ -18,7 +14,7 @@ Publishing an extension is not yet available in the latest Logic 2.x software. W
 
 ![](../.gitbook/assets/screen-shot-2020-06-10-at-8.29.13-pm.png)
 
-7. To test the new Sample HLA, capture any Async Serial, I2C, or SPI data and add the appropriate protocol analyzer. We've provided an I2C capture below in case you don't have a protocol data recording available.
+7. To test the new Sample HLA, capture any protocol data for [one of the supported analyzers](analyzer-frame-types/), and add the appropriate protocol analyzer. We've provided an I2C capture below in case you don't have a protocol data recording available.
 
 {% file src="../.gitbook/assets/i2c.sal" caption="I2C.sal" %}
 
@@ -30,15 +26,5 @@ Publishing an extension is not yet available in the latest Logic 2.x software. W
 
 ![](../.gitbook/assets/screen-shot-2020-06-10-at-8.24.29-pm.png)
 
-10. To edit the Sample HLA \(perhaps as a starting point to creating your own HLA\), you can click the 'Local' button next to 'Sample HLA' under the Extensions panel. This will open the containing folder for your extension files which you can update for your needs. In this guide, we will leave this HLA as is and publish it to the marketplace.
-
-### Publish your Extension
-
-Once your extension is finished, you can follow the steps in the link below to publish your extension to the Saleae Marketplace for others to use.
-
-{% page-ref page="publish-an-extension.md" %}
-
-
-
-
+10. To edit the Sample HLA \(perhaps as a starting point to creating your own HLA\), you can click the 'Local' button next to 'Sample HLA' under the Extensions panel. This will open the containing folder for your extension files which you can update for your needs. 
 
