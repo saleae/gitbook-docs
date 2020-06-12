@@ -1,5 +1,6 @@
 # API Documentation
 
+## `saleae.data`
 
 ### _class_ saleae.data.GraphTime(datetime: datetime, millisecond=0, \*, microsecond=0, nanosecond=0, picosecond=0)
 A high-precision wall clock time.
@@ -78,10 +79,13 @@ Determine if two `GraphTimeDelta` values are not equal, up to a tolerance.
 #### \__sub__()
 Subtract a `GraphTimeDelta` value to produce a new `GraphTimeDelta`.
 
+## `saleae.range_measurements`
 
 ### _class_ saleae.range_measurements.DigitalMeasurer(requested_measurements: List[[str](https://docs.python.org/3/library/stdtypes.html#str)])
 
 ### _class_ saleae.range_measurements.AnalogMeasurer(\*args, \*\*kwargs)
+
+## `saleae.analyzers`
 
 ### _class_ saleae.analyzers.HighLevelAnalyzer()
 Base class for High Level Analyzers. Subclasses must implement the `decode()` function
