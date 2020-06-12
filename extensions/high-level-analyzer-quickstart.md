@@ -39,20 +39,25 @@ Let's break down the contents of `HighLevelAnalyzer.py` .
 from saleae.analyzers import HighLevelAnalyzer, AnalyzerFrame, StringSetting, NumberSetting, ChoicesSetting
 
 class MyHla(HighLevelAnalyzer):
+    
+    # Settings:
     my_string_setting = StringSetting()
     my_number_setting = NumberSetting(min_value=0, max_value=100)
     my_choices_setting = ChoicesSetting(['A', 'B'])
-
+    
+    # Output formats
     result_types = {
         'mytype': {
             'format': 'Output type: {{type}}, Input type: {{data.input_type}}'
         }
     }
-
+    
+    # Initialization
     def __init__(self):
         print("Settings:", self.my_string_setting,
               self.my_number_setting, self.my_choices_setting)
-
+    
+    # Data Processing
     def decode(self, frame: AnalyzerFrame):
         return AnalyzerFrame('mytype', frame.start_time, frame.end_time, {
             'input_type': frame.type
@@ -72,9 +77,9 @@ All HLAs must subclass [HighLevelAnalyzer](api-documentation.md#class-saleae-ana
 
 ```python
 class MyHla(HighLevelAnalyzer):
-    my_string_setting = StringSetting()
-    my_number_setting = NumberSetting(min_value=0, max_value=100)
-    my_choices_setting = ChoicesSetting(['A', 'B'])
+    my_string_setting = StringSetting(label='My String')
+    my_number_setting = NumberSetting(label='My Number', min_value=0, max_value=100)
+    my_choices_setting = ChoicesSetting(label='My Choice', ['A', 'B'])
 ```
 
 This declares our new HLA class, which extends from HighLevelAnalyzer, and 3 settings options that will be shown within the Logic 2 UI.
