@@ -1,6 +1,6 @@
 # Publish an Extension
 
-Publishing your extension to the Saleae Marketplace will make it viewable and installed by our community of logic analyzer users. With your help, we're hoping to make several more extensions readily available, both developed by us and by our users!
+Publishing your extension to the Saleae Marketplace will make it readily available to anyone who uses our software. With your help, we're hoping to provide a growing list of feature extensions that our users can benefit from!
 
 ### Prerequisites to Publishing
 
@@ -21,11 +21,13 @@ You can take a look at an [example GitHub repository](https://github.com/timreye
 
 ![](../.gitbook/assets/screen-shot-2020-06-10-at-8.40.05-pm.png)
 
-2. Clicking 'Publish' should open your browser and load our extensions submission page. Provide your URL here and click 'Submit'.
+2. Clicking 'Publish' should open your browser and load our extensions submission page. Provide your GitHub repository URL here and click 'Submit'.
 
 ![](../.gitbook/assets/screen-shot-2020-06-11-at-8.52.44-pm.png)
 
-3. Afterwards, you'll be taken to a new page to authorize Saleae Marketplace to access your GitHub account. Once you click 'Authorize', you should immediately receive an email confirming that your extension has been added to the Marketplace.
+3. Afterwards, you'll be taken to a new page to authorize Saleae Marketplace to access your GitHub account. Click 'Authorize' and you should immediately receive an email confirming that your extension has been added to the Marketplace. The web page should also confirm that your extension was submitted successfully.
+
+![](../.gitbook/assets/screen-shot-2020-06-11-at-9.31.38-pm.png)
 
 4. Congratulations! If the publish was successful, your extension should now appear in the software like below.
 
