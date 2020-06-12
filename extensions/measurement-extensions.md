@@ -29,8 +29,6 @@ In your new Measurement extension folder you will find 3 files:
 * `DigitalMeasurement.py` or `AnalogMeasurement.py`
   * Python source code for your measurement.
 
-For the purposes of this document, we will be focusing on `DigitalMeasurement.py`
-
 ## DigitalMeasurement.py and AnalogMeasurement.py
 
 Digital measurements are implemented with a class template that looks like below. Take a look at [`pulseCount.py`](https://github.com/saleae/logic2-extensions-examples/blob/master/pulseCount/pulseCount.py) to see how this was modified for our Pulse Count extension.
