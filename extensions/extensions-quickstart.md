@@ -1,6 +1,6 @@
 # Extensions Quickstart
 
-In this guide, we will show you how to quickly create an extension and publish it to the Saleae Marketplace for others to use. We will create an HLA \(High Level Analyzer\) extension. Currently, HLAs are supported for the Async Serial, I2C, and SPI protocol analyzers. We plan to add support for more protocol analyzers in future revisions of the [Logic 2.x software](https://ideas.saleae.com/f/changelog/).
+In this guide, we will walk your through creating an HLA \(High Level Analyzer\) extension. Currently, HLAs are supported for the Async Serial, I2C, and SPI protocol analyzers. We plan to add support for more protocol analyzers in future revisions of the [Logic 2.x software](https://ideas.saleae.com/f/changelog/).
 
 {% hint style="warning" %}
 Publishing an extension is not yet available in the latest Logic 2.x software. We will update this notice and this guide once it's ready. Note that publishing your extension will make it installable for anyone who uses the Logic software.
@@ -32,7 +32,13 @@ Publishing an extension is not yet available in the latest Logic 2.x software. W
 
 10. To edit the Sample HLA \(perhaps as a starting point to creating your own HLA\), you can click the 'Local' button next to 'Sample HLA' under the Extensions panel. This will open the containing folder for your extension files which you can update for your needs. In this guide, we will leave this HLA as is and publish it to the marketplace.
 
-11. Once your extension is ready, click 'Publish.'
+### Publish your Extension
 
-![](../.gitbook/assets/screen-shot-2020-06-10-at-8.40.05-pm.png)
+Once your extension is finished, you can follow the steps in the link below to publish your extension to the Saleae Marketplace for others to use.
+
+{% page-ref page="publish-an-extension.md" %}
+
+
+
+
 

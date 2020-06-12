@@ -2,9 +2,10 @@
 
 * [Saleae Support](README.md)
 * [Extensions](extensions/README.md)
-  * [Extensions Quickstart](extensions/extensions-quickstart.md)
   * [Measurement Extensions](extensions/measurement-extensions.md)
   * [High Level Analyzer Extensions](extensions/high-level-analyzer-extensions.md)
+  * [Extensions Quickstart](extensions/extensions-quickstart.md)
+  * [Publish an Extension](extensions/publish-an-extension.md)
   * [Analyzer Frame Types](extensions/analyzer-frame-types/README.md)
     * [Asynchronous Serial Analyzer](extensions/analyzer-frame-types/serial-analyzer.md)
     * [I2C Analyzer](extensions/analyzer-frame-types/i2c-analyzer.md)
