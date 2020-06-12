@@ -24,10 +24,7 @@ To quickly get acquainted with measurement extensions, you can follow along with
 6. Rename `DigitalMeasurement.py` to `pulseCount.py` to give it a more relevant name.  
 7. For `pulseCount.py`, copy and paste the code from [here](https://github.com/saleae/logic2-extensions-examples/blob/master/pulseCount/pulseCount.py)  
 8. For `extension.json`, copy and paste the code from [here](https://github.com/saleae/logic2-extensions-examples/blob/master/pulseCount/extension.json)  
-9. Now we will install the extension to the software. Follow the instructions in the Extensions article below, under the section titled "Installing an Extension."
-
-{% page-ref page="./" %}
-
+9. Back in the software, find the extension we just created. \(It was added when the template was saved\) Click the "Refresh" Icon on the extension to make the software reload the extension with the changes we've just made.  
 10. You should now see 'Pulse Count' appear in the 'Extensions' panel of the software.
 
 ![](../.gitbook/assets/screen-shot-2020-05-27-at-7.15.34-pm.png)
@@ -41,44 +38,9 @@ To quickly get acquainted with measurement extensions, you can follow along with
 
 ### Extension File Layout
 
-Let's take a look at the `extension.json` file for our Pulse Count extension that we recently installed above. There exists some key metadata properties. 
+Let's take a look at the `extension.json` file for our Pulse Count extension that we recently installed above. There exists some key metadata properties. Compare the file we updated in the Pulse Count extension to the documentation found here:
 
-The `author`, `description`, and `name` properties manage what appears in the Extensions panel where the extensions are managed. 
-
-```text
-"author": "Tim Reyes",
-"description": "Count pos and neg pulses",
-"name": "Pulse Count",
-```
-
-The `extensions`  section describes more properties specific to your extension. Note that multiple measurements can exist within a single extension. In this example, we include only one called `Pulses`. 
-
-```text
-"extensions": {
-  "Pulses": {
-    "type": "DigitalMeasurement",
-    "entryPoint": "pulseCount.PosNegPulseMeasurer",
-    "metrics": {
-      "positivePulses": {
-        "name": "Positive Pulses",
-        "notation": "N<sub>p(+)</sub>"
-      },
-      "negativePulses": {
-        "name": "Negative Pulses",
-        "notation": "N<sub>p(-)</sub>"
-      }
-    }
-  }
-}
-```
-
-| Property | Description |
-| :--- | :--- |
-| `type` | Here we tell the software that this will be a `DigitalMeasurement`. On the other hand, an analog measurement will have the type `AnalogMeasurement` |
-| `entryPoint` | Points the software to the measurement's python file and its class name. This line is structured like so: `<python_file_name>.<python_class_name>` |
-| `metrics` | Measurements need to compute a set of display values for a specific range of time, over a single digital or analog channel. These display values are called metrics. Each metric needs to be declared here. We've declared two metric keys - `positivePulses` and `negativePulses`. These keys will be passed into your python code, so be sure to keep note of them. |
-| `notation` | The notation that appears when the software displays the metric. Can be an html string, however only limited tags are supported: ['b'](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/b), ['i'](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/i), ['em'](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/em), ['strong'](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/strong), ['sub'](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/sub) |
-| `units` | This should not include a metric prefix, as this will automatically be calculated. For example, if the unit is frequency, provide "Hz" as a string, and ensure your measurement class always returns a value in "Hz". The Logic software will automatically adjust large or small numbers to display with the correct metric prefix. For example, 1000 Hz will be automatically displayed as 1 kHz. |
+{% page-ref page="extension-file-format.md" %}
 
 ### Python File Layout
 
@@ -165,7 +127,7 @@ For digital measurement classes, the `data` parameter is an instance of the iter
 
 The object is essentially a list with the timestamp of each transition inside of the user selected region of digital data.
 
-The `GraphTime` has one feature. One GraphTime can be subtracted from another to compute the difference in seconds, as a number. This allows your code to compute the time in between transitions, or the time duration between the beginning of the measurement and any transition inside of the measurement range, but it does not expose absolute timestamps.
+The `GraphTime` has one feature. One GraphTime can be subtracted from another to compute the difference in seconds, as a `GraphTimeDelta`. `GraphTimeDelta` can be converted to a float using `float(graph_time_delta)`. This allows your code to compute the time in between transitions, or the time duration between the beginning of the measurement and any transition inside of the measurement range, but it does not expose absolute timestamps.
 
 For example, to compute the total number of transitions over the user selected range, this could be used:
 
@@ -184,7 +146,7 @@ def process_data(self, data):
           self.edge_count += 1
 ```
 
-Currently, the `DigitalData` collection will first include the starting time and bit state, and then every transition that exists in the user selected range, if any. However, it does not yet provide any indication of where the user selected range stops. This is something we're keeping in mind for improvement.
+Currently, the `DigitalData` collection will first include the starting time and bit state, and then every transition that exists in the user selected range, if any. It also exposes the starting and ending time of the user-selected measurement range. Consult the [API Documentation](api-documentation.md) for details.
 
 #### Measure
 
@@ -193,4 +155,10 @@ The `def measure(self):` function will be called on your class once all data has
 {% hint style="info" %}
 in the future, we may allow the user to select which metrics to compute. To avoid unnecessary processing, it's recommended to check the `requested_measurements` provided by the constructor before computing or returning those values. However, returning measurements that were not requested is allowed. The results will just be ignored.
 {% endhint %}
+
+### Publishing
+
+When you're satisfied with your extension, consider publishing it to the marketplace!
+
+{% page-ref page="publish-an-extension.md" %}
 
