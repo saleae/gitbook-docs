@@ -22,7 +22,7 @@ Released in 2.3.0, the marketplace allows you to browse community written extens
 
 To browse the extension marketplace, install the latest Logic software, and click the extensions button on the sidebar.
 
-TODO: image of extensions sidebar.
+![Marketplace extensions can be found in the extension sidebar](../.gitbook/assets/image.png)
 
 TODO: link to publish quick start
 
