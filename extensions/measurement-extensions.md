@@ -46,7 +46,7 @@ Let's take a look at the `extension.json` file for our Pulse Count extension tha
 
 Digital measurements are implemented with a class template that looks like below. Take a look at [`pulseCount.py`](https://github.com/saleae/logic2-extensions-examples/blob/master/pulseCount/pulseCount.py) to see how this was implemented for our Pulse Count extension.
 
-```text
+```python
 from saleae.range_measurements import DigitalMeasurer
 
 class MyDigitalMeasurement(DigitalMeasurer):
@@ -69,7 +69,7 @@ class MyDigitalMeasurement(DigitalMeasurer):
 
 Analog measurements are implemented with a class template that looks like below. Take a look at [`voltage_peak_to_peak.py`](https://github.com/saleae/logic2-extensions-examples/blob/master/voltagePeakToPeak/voltage_peak_to_peak.py) to see how this was implemented for an example analog extension.
 
-```text
+```python
 from saleae.range_measurements import AnalogMeasurer
 
 class VoltageStatisticsMeasurer(AnalogMeasurer):
@@ -97,7 +97,7 @@ In python, your class will be constructed when the user adds or edits a measurem
 
 The constructor will be called with an array of requested measurements, which are taken from the extension.json file. In our [`pulseCount.py`](https://github.com/saleae/logic2-extensions-examples/blob/master/pulseCount/pulseCount.py) example, this is declared like so:
 
-```text
+```python
 POSITIVE_PULSES = 'positivePulses'
 NEGATIVE_PULSES = 'negativePulses'
 
@@ -131,7 +131,7 @@ The `GraphTime` has one feature. One GraphTime can be subtracted from another to
 
 For example, to compute the total number of transitions over the user selected range, this could be used:
 
-```text
+```python
 def __init__(self, requested_measurements):
   super().__init__(requested_measurements)
   self.first_transition_time = None
