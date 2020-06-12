@@ -1,16 +1,35 @@
 # Publish an Extension
 
-Publishing your extension to the Saleae Marketplace will make it viewable and installed by our community of logic analyzer users. With your help, we're hoping to make several more extensions readily available, both from us and from our users!
+Publishing your extension to the Saleae Marketplace will make it viewable and installed by our community of logic analyzer users. With your help, we're hoping to make several more extensions readily available, both developed by us and by our users!
 
-Before publishing, you will need to have an extension finished and ready to share. You can follow along with our Extensions Quickstart guide below as a starting point.
+### Prerequisites to Publishing
+
+Before publishing, you will need to have the following completed.
+
+* You have finished developing your extension and are ready to share it. You can follow along with our Extensions Quickstart guide below as a starting point.
 
 {% page-ref page="extensions-quickstart.md" %}
 
-{% hint style="warning" %}
-Publishing an extension is not yet available in the latest Logic 2.x software. We will update this notice and this guide once it's ready. Note that publishing your extension will make it installable for anyone who uses the Logic software.
-{% endhint %}
+* Your extension must be uploaded to a [GitHub](https://github.com/) repository.
+* You must [create a release](https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository) for your extension.
 
-1. Once your extension is ready, click 'Publish.'
+You can take a look at an [example GitHub repository](https://github.com/timreyes/sampleHLA) for our Sample HLA, which we will use in the following guide.
+
+### Publishing an Extension
+
+1. Once you've finished developing your extension, click 'Publish' under the Extensions panel for your extension.
 
 ![](../.gitbook/assets/screen-shot-2020-06-10-at-8.40.05-pm.png)
+
+2. Clicking 'Publish' should open your browser and load our extensions submission page. Provide your URL here and click 'Submit'.
+
+![](../.gitbook/assets/screen-shot-2020-06-11-at-8.52.44-pm.png)
+
+3. Afterwards, you'll be taken to a new page to authorize Saleae Marketplace to access your GitHub account. Once you click 'Authorize', you should immediately receive an email confirming that your extension has been added to the Marketplace.
+
+4. Congratulations! If the publish was successful, your extension should now appear in the software like below.
+
+![](../.gitbook/assets/screen-shot-2020-06-11-at-9.17.50-pm.png)
+
+
 
