@@ -116,7 +116,7 @@ This is called when your HLA is first created, before processing begins. The val
 
 This is where the bulk of the work will be done. This function is called every time the input to this HLA produces a new frame. It is also where we can return and output new frames, to be displayed within the Logic 2 UI. In this case we are outputting a new frame of type `'mytype'`, which spans the same period of time as the input frame, and has 1 data value `'input_type'` that contains the value of the `type` of the input frame.
 
-## Writing an HLA to search for a value within an Async Serial stream
+## Writing an HLA to search for a value
 
 Now that we've gone over the different parts of an HLA, we will be updating our example HLA to search for a value from an Async Serial analyzer.
 
@@ -209,28 +209,111 @@ class MyHla(HighLevelAnalyzer):
 
 Instead of using the hardcoded `'Hl'`, let's replace that with the value of `search_for`:
 
+{% code title="In decode\(\)" %}
 ```python
-    def decode(self, frame: AnalyzerFrame):
-        try:
-            # The `data` field contains a bytes object of length 1
-            # Try converting it to a string
-            ch = frame.data['data'].decode('ascii')
-        except:
-            # Not an ASCII character
-            return
-
-        # If the character matches the one we are searching for, output a new frame
-        if ch in self.search_for:
-            return AnalyzerFrame('mytype', frame.start_time, frame.end_time, {
-                'input_type': frame.type
-            })
+# If the character matches the one we are searching for, output a new frame
+if ch in self.search_for:
+    return AnalyzerFrame('mytype', frame.start_time, frame.end_time, {
+        'input_type': frame.type
+    })
 ```
+{% endcode %}
 
 Now if you can specify the characters to search for in your HLA settings:
 
 ![Click Edit to show the settings](../.gitbook/assets/hla-quickstart-edit.png)
 
-![](../.gitbook/assets/hla-quickstart-settings.png)
+![Set the &quot;Search For&quot; setting](../.gitbook/assets/hla-quickstart-settings.png)
 
-![](../.gitbook/assets/hla-quickstart-searching-for-settings.png)
+![Now only the values &apos;S&apos; and &apos;H&apos; have frames](../.gitbook/assets/hla-quickstart-searching-for-settings.png)
+
+#### Updating the display string
+
+To update the display string shown in the analyzer bubbles, the `format` string in `result_types` variable will need to be updated. `'mytype'` will also be updated to `'match'` to better represent that the frame represents a matched character.
+
+```python
+result_types = {
+    'match': {
+        'format': 'Found: {{data.char}}'
+    }
+}
+```
+
+And in `decode()`: we need to update the data in `AnalyzerFrame` to include `'char'`, and update the frame `'type'` to `'match'`.
+
+```python
+# If the character matches the one we are searching for, output a new frame
+if ch in self.search_for:
+    return AnalyzerFrame('match', frame.start_time, frame.end_time, {
+        'char': ch
+    })
+```
+
+After reloading your HLA you should see the new display strings:
+
+![That&apos;s a lot more descriptive!](../.gitbook/assets/hla-quickstart-display-string.png)
+
+#### Using time
+
+`AnalyzerFrame`s include a `start_time` and `end_time`. These get passed as the second and third parameter of `AnalyzerFrame`, and can be used to control the time span of a frame. Let's use it to fill in the gaps between the matching frames.
+
+Let's add a `__init__()` to initialize the 2 time variables we will use to track the span of time that doesn't have a match:
+
+```python
+def __init__(self):
+    self.no_match_start_time = None
+    self.no_match_end_time = None
+
+```
+
+And update `decode()` to track these variables:
+
+```python
+# If the character matches the one we are searching for, output a new frame
+if ch in self.search_for:
+    frames = []
+
+    # If we had a region of no matches, output a frame for it
+    if self.no_match_start_time is not None and self.no_match_end_time is not None:
+        frames.append(AnalyzerFrame(
+            'nomatch', self.no_match_start_time, self.no_match_end_time, {}))
+
+        # Reset match start/end variables
+        self.no_match_start_time = None
+        self.no_match_end_time = None
+
+    frames.append(AnalyzerFrame('match', frame.start_time, frame.end_time, {
+        'char': ch
+    }))
+
+    return frames
+else:
+    # This frame doesn't match, so let's track when it began, and when it might end
+    if self.no_match_start_time is None:
+        self.no_match_start_time = frame.start_time
+    self.no_match_end_time = frame.end_time
+```
+
+And lastly, add an entry in `result_types` for our new `AnalyzerFrame` type `'nomatch'`:
+
+```python
+    result_types = {
+        'match': {
+            'format': 'Match: {{data.char}}'
+        },
+        'nomatch': {
+            'format': 'No Match'
+        }
+    }
+```
+
+The final output after reloading:
+
+![](../.gitbook/assets/hla-quickstart-nomatch.png)
+
+## What's Next?
+
+* Find out about other analyzers and the AnalyzerFrames they output in the [Analyzer Frame Types](analyzer-frame-types/) documentation.
+* Use the [API Documentation](api-documentation.md) as a reference.
+* Browse the Saleae Marketplace in Logic 2 for more ideas and examples of extensions you can create.
 
