@@ -25,6 +25,7 @@ In your new High Level Analyzer \(HLA\) extension folder you will find 3 files:
 * `extension.json`
   * Every extension must have this file in its root directory.
   * Contains metadata about the extension, and the HLAs and Measurement scripts that are included with the extension.
+  * See [Extension File Format](extension-file-format.md) for more information.
 * `HighLevelAnalyzer.py`
   * Python source code for your HLA.
 
