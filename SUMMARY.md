@@ -13,6 +13,7 @@
     * [Serial Peripheral Interface \(SPI\) Analyzer](extensions/analyzer-frame-types/spi-analyzer.md)
     * [Controller Area Network \(CAN\) Analyzer](extensions/analyzer-frame-types/can-analyzer.md)
     * [Manchester Analyzer](extensions/analyzer-frame-types/manchester-analyzer.md)
+    * [1-Wire Analyzer](extensions/analyzer-frame-types/1-wire-analyzer.md)
     * [Async RGB LED Analyzer](extensions/analyzer-frame-types/async-rgb-led-analyzer.md)
     * [Simple Parallel Analyzer](extensions/analyzer-frame-types/simple-parallel-analyzer.md)
     * [Local Interconnect Network \(LIN\) Analyzer](extensions/analyzer-frame-types/lin-analyzer.md)
