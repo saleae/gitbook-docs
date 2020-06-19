@@ -1,6 +1,10 @@
 # Supported Operating Systems
 
-## Supported Operating Systems
+{% hint style="info" %}
+Please note that we are dropping support for 32-bit Windows and 32-bit Linux beginning with [Logic 2.x](https://ideas.saleae.com/f/changelog/).
+{% endhint %}
+
+The following operating systems are supported for Logic 1.x, with the exception of the above note for Logic 2.x and future releases.
 
 ### **Microsoft Windows**
 
