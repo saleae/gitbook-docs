@@ -39,7 +39,9 @@ The documentation for the Analyzer SDK can be found in the pdf and on GitHub. Th
 
 ### Protocol Analyzers Source Code Github
 
-* [Async RGB LED Analyzer](https://www.github.com/saleae/async-rgb-led-analyzer)
+* [1-Wire Analyzer](https://www.github.com/saleae/one-wire-analyzer)
+* [Async Serial Analyzer](https://www.github.com/saleae/serial-analyzer) 
+* [Addressable LEDs Analyzer](https://www.github.com/saleae/async-rgb-led-analyzer)
 * [Atmel SWI Analyzer](https://www.github.com/saleae/atmel-swi-analyzer)
 * [BISS Analyzer](https://www.github.com/saleae/biss-analyzer)
 * [CAN Analyzer](https://www.github.com/saleae/can-analyzer)
@@ -55,9 +57,7 @@ The documentation for the Analyzer SDK can be found in the pdf and on GitHub. Th
 * [MDIO Analyzer](https://www.github.com/saleae/mdio-analyzer) 
 * [MIDI Analyzer](https://www.github.com/saleae/midi-analyzer) 
 * [Modbus Analyzer](https://www.github.com/saleae/modbus-analyzer) 
-* [1-Wire Analyzer](https://www.github.com/saleae/one-wire-analyzer) 
 * [PS2 Keyboard Analyzer](https://www.github.com/saleae/ps2-keyboard-analyzer) 
-* [Async Serial Analyzer](https://www.github.com/saleae/serial-analyzer) 
 * [Simple Parallel Analyzer](https://www.github.com/saleae/simple-parallel-analyzer) 
 * [SMBus Analyzer](https://www.github.com/saleae/smbus-analyzer) 
 * [SPI Analyzer](https://www.github.com/saleae/spi-analyzer) 
