@@ -8,9 +8,8 @@ Below are several recommendations for integrating the Saleae devices into new de
 
 Our 4x2 connectors are comprised of:
 
-* Black plastic housing which dictates the pitch \(2.54mm/.100in pitch\)
-* 8 crimps
-* Datasheet for the crimps: [https://www.mouser.com/datasheet/2/276/0016020086\_CRIMP\_TERMINALS-158329.pdf](https://www.mouser.com/datasheet/2/276/0016020086_CRIMP_TERMINALS-158329.pdf)
+* [Molex 0016020086](https://www.molex.com/pdm_docs/sd/016020086_sd.pdf) crimp connectors \(for typical .100-inch spaced headers/pins\)
+* [Molex 0022552081](https://www.molex.com/pdm_docs/sd/022552081_sd.pdf) plastic housing \(2x4 - 2.54mm/.100in pitch\)
 
 The Gen 2 accessories are compatible with these devices:
 
