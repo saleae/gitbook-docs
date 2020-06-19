@@ -1,6 +1,6 @@
 # Error Message: Unable to detect WebGL
 
-Upon launching the Logic 2.x, an error message may appear, stating the following:
+Upon launching the Logic 2.x software, an error message may appear, stating the following:
 
 `Unable to detect WebGL, please contact support`
 
