@@ -1,5 +1,23 @@
 # Installing Custom Protocol Analyzers
 
+## Logic 2.x Instructions
+
+### Windows
+
+To install your custom protocol analyzer, place your analyzer .dll file into the following folder:`C:\Program Files\Logic\resources\windows\Analyzers`
+
+Afterwards, restart the Logic software and you should see your protocol analyzer in the dropdown list by clicking the '+' icon next in the Analyzers panel of the software.
+
+![Analyzers drop-down list](../../.gitbook/assets/screen-shot-2020-06-19-at-4.45.43-pm.png)
+
+### MacOS and Linux
+
+{% hint style="info" %}
+On [Logic 2.x](https://ideas.saleae.com/f/changelog/), we currently only support installing custom analyzers on Windows. We plan to add MacOS and Linux support soon.
+{% endhint %}
+
+## Logic 1.x Instructions
+
 These instructions show how to set up the Saleae software to load custom protocol analyzers.
 
 * First, open the Options menu and select Preferences.
