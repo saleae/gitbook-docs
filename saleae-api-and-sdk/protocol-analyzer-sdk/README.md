@@ -8,9 +8,7 @@ That said, you can get away with implementing only a small part of the full capa
 
 Further, by default, you will start out with a fully featured and maximally simple analyzer—SimpleSerialAnalyzer. The documentation will walk you through how to modify it to suit your needs, as well as what parts can be left empty.
 
-Let us know what you think.
-
-### **Latest SDK Release Works with All Software from 1.1.32 and Newer**
+### **Latest SDK Release**
 
 * [Sample Analyzer on GitHub](https://github.com/saleae/SampleAnalyzer)
 * [Analyzer SDK on GitHub](https://github.com/saleae/AnalyzerSDK)
@@ -33,11 +31,11 @@ The documentation for the Analyzer SDK can be found in the pdf and on GitHub. Th
 
 * [Saleae Analyzer SDK Documentation](https://github.com/saleae/SampleAnalyzer/blob/master/docs/Saleae%20Analyzer%20SDK%20%28older%29.pdf)
 
-### Installing your Custom Analyzers into Logic Software
+### Installing your Custom Analyzers
 
 {% page-ref page="../../faq/technical-faq/setting-up-developer-directory.md" %}
 
-### Protocol Analyzers Source Code Github
+### Protocol Analyzers Source Code
 
 * [1-Wire Analyzer](https://www.github.com/saleae/one-wire-analyzer)
 * [Async Serial Analyzer](https://www.github.com/saleae/serial-analyzer) 
@@ -64,7 +62,7 @@ The documentation for the Analyzer SDK can be found in the pdf and on GitHub. Th
 * [SWD Analyzer](https://www.github.com/saleae/swd-analyzer) 
 * [USB Analyzer](https://www.github.com/saleae/usb-analyzer)
 
-### **Older 1.1.14 Release**
+### **Legacy 1.1.14 Release**
 
 * [Saleae Analyzer SDK 1.1.14](http://downloads.saleae.com/SDK/SaleaeAnalyzerSdk-1.1.14.zip) \(includes User's Guide\)
 * [Saleae Analyzer Source Code 1.1.14](http://downloads.saleae.com/SDK/Saleae%20Analyzer%20Source%201.1.14.zip) \(the source code for all our analyzers\)

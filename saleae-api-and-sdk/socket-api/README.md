@@ -2,7 +2,7 @@
 
 The Socket API scripting utility allows users to programmatically configure our software and trigger captures.
 
-### Before Getting Started - Setup the Software
+### Prerequisites - Software Settings
 
 * Check that you are using the latest version of the software below.
 
@@ -15,7 +15,19 @@ The Socket API scripting utility allows users to programmatically configure our 
 * Save Changes
 * Accept firewall changes if the OS requests it
 
-### Automation Method \#1 - Python
+For automated environments, you can launch the Logic software with a `-socket` command line option to cause the socket server to be enabled by default.
+
+### Socket API User's Guide
+
+The document below lists the supported commands using our automation utility.
+
+* [Logic Socket API User's Guide](https://github.com/saleae/SaleaeSocketApi/blob/master/Doc/Logic%20Socket%20API%20Users%20Guide.md)
+
+### Python Wrapper - Automation Method \#1
+
+* [Python Wrapper and Documentation](https://github.com/ppannuto/python-saleae)
+* [Python Package Index \(PyPI\)](https://pypi.org/project/saleae/)
+* [Python Sample Application](https://github.com/saleae/python-saleae-cli)
 
 For simple automation requirements, we suggest using our [Python Sample Application](https://github.com/saleae/python-saleae-cli). This is a basic command line utility to automate the Saleae Logic software, which can be used to automatically take a series of shorter captures over an extended time period with basic export functions.
 
@@ -23,38 +35,21 @@ The [Python Sample Application](https://github.com/saleae/python-saleae-cli) imp
 
 {% page-ref page="export-data.md" %}
 
-### Automation Method \#2 - C\# Wrapper
+### C\# Wrapper - Automation Method \#2
 
-For more complex automation requirements, you can refer to our C\# Wrapper below.
+For more complex automation requirements, you can refer to our C\# Wrapper below:
 
-[Socket Interface C\# Example Application and Documentation](https://github.com/saleae/SaleaeSocketApi)
+* [C\# Wrapper and Documentation](https://github.com/saleae/SaleaeSocketApi)
 
-### Third-Party Implementations
+### Other Third-Party Implementations
 
-Simple Command Line Tool:
-
-* [https://discuss.saleae.com/t/trigger-capture-from-command-line/297](https://discuss.saleae.com/t/trigger-capture-from-command-line/297)
-
-Python wrapper:
-
-* [https://github.com/ppannuto/python-saleae](https://github.com/ppannuto/python-saleae)
-* [https://pypi.python.org/pypi/saleae](https://pypi.python.org/pypi/saleae)
-
-C\# data logging UI:
-
-* [https://github.com/quarkng/SaleaeLogger](https://github.com/quarkng/SaleaeLogger)
-
-C\# logging console application:
-
-* [https://github.com/DuckPaddle/LumberJack-for-Saleae](https://github.com/DuckPaddle/LumberJack-for-Saleae)
+* [Utility for automatically starting captures](https://discuss.saleae.com/t/trigger-capture-from-command-line/297)
+* [C\# data logging UI](https://github.com/quarkng/SaleaeLogger)
+* [C\# logging console application](https://github.com/DuckPaddle/LumberJack-for-Saleae)
 
 If you would like to share your application, feel free to send us a link to it on any repository hosting provider, and we can share that link here.
 
-### **Command Line Option**
-
-For automated environments, you can launch the Logic software with a `-socket` command line option to cause the socket server to be enabled by default.
-
 ### Which Export Options are Available via Socket API?
 
-The Socket API currently supports the raw export feature and the protocol-specific export feature. However, the socket API does not yet support exporting the protocol search results.
+The Socket API currently supports the raw export feature and the protocol-specific export feature. However, the socket API does not support exporting the protocol search results.
 
