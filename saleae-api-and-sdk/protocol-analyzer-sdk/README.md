@@ -62,7 +62,6 @@ The documentation for the Analyzer SDK can be found in the pdf and on GitHub. Th
 * [SMBus Analyzer](https://www.github.com/saleae/smbus-analyzer) 
 * [SPI Analyzer](https://www.github.com/saleae/spi-analyzer) 
 * [SWD Analyzer](https://www.github.com/saleae/swd-analyzer) 
-* [UNI/O Analyzer](https://www.github.com/saleae/unio-analyzer) 
 * [USB Analyzer](https://www.github.com/saleae/usb-analyzer)
 
 ### **Older 1.1.14 Release**

@@ -315,7 +315,6 @@
     * [BiSS C](tutorials/learning-portal/learning-resources/biss-c.md)
     * [HDMI Consumer Electronics Control \(CEC\)](tutorials/learning-portal/learning-resources/hdmi-consumer-electronics-control-cec.md)
     * [PS/2 Keyboard/Mouse](tutorials/learning-portal/learning-resources/ps-2-keyboard-mouse.md)
-    * [UNI/O](tutorials/learning-portal/learning-resources/uni-o.md)
     * [Universal Serial Bus \(USB\) 2.0](tutorials/learning-portal/learning-resources/universal-serial-bus-usb-2.0.md)
     * [Single-Wire Interface \(SWI\)](tutorials/learning-portal/learning-resources/single-wire-interface-swi.md)
     * [Simple Parallel](tutorials/learning-portal/learning-resources/simple-parallel.md)

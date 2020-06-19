@@ -13,7 +13,6 @@ The Saleae Logic software includes the following protocol analyzers:
 * Manchester, Differential Manchester, Bi-Phase Space, and Bi-Phase Mark
 * 1-Wire
 * Synchronous Parallel
-* UNI/O
 * JTAG
 * PS2 Keyboard & Mouse
 * Atmel SWI \(Single Wire Interface\)
@@ -28,6 +27,12 @@ The Saleae Logic software includes the following protocol analyzers:
 * MIDI
 * HD44780 Parallel LCD
 * SWD \(ARM Serial Wire Debug\)
+
+### Analyzer User Guides
+
+We provide user guides for a handful of our protocol analyzers, which we have listed in the link below.
+
+{% page-ref page="analyzer-user-guides/" %}
 
 ### **More Protocol Analyzers**
 
