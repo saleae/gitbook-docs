@@ -2,11 +2,9 @@
 
 ### Converting Logic Captures into WAV
 
-Unfortunately, our software does not natively support this feature. It is worth mentioning that right now, this could be done using a 3rd party tool that converts Logic captures into WAV files.
+Unfortunately, our software does not natively support this feature. Currently, a 3rd party tool exists called [PCM2Wav](https://github.com/roel0/PCM2Wav-py), which can help convert Logic captures into WAV files. We did not originally develop this utility, and therefore, It is best advised to contact the original author in case you run into any issues.
 
-[https://github.com/roel0/PCM2Wav-py](https://github.com/roel0/PCM2Wav-py)
-
-Also, the I2S analyzer source code is available, in case anyone would like to try implementing their own version using our Protocol Analyzer SDK below.
+In addition, the I2S analyzer source code is available, in case anyone would like to try implementing their own version using our Protocol Analyzer SDK below.
 
 {% page-ref page="../../saleae-api-and-sdk/protocol-analyzer-sdk/" %}
 
