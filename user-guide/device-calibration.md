@@ -28,7 +28,13 @@ Manual calibration can be performed in [Logic 2.x](https://discuss.saleae.com/).
 Windows: %APPDATA%\Logic\calibrations  
 Linux: ~/.config/Logic/calibrations`
 
+#### My Browser Opens the Following Page
 
+When manually downloading the calibration file in Logic 2.x, in rare cases, your browser may open a page that looks like the image below.
+
+![Manual Calibration Access Denied](../.gitbook/assets/screen-shot-2020-06-24-at-12.54.46-pm.png)
+
+In this case, please submit a [Warranty Request](https://saleae-support.typeform.com/to/E8UPB7) form and we will be happy to help. This may be indicative of hardware failure and we'll most likely want to process a warranty for you.
 
 ## Calibration in Logic 1.x
 
