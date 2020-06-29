@@ -12,5 +12,10 @@ This may indicate older PC hardware that is not supported by our software. This 
 
 Specifically, we've seen older graphics cards having issues with running our software due to limited support for WebGL.
 
+You can test your PC's WebGL support by following the links below:
+
+* [WebGL v1](https://webglreport.com/?v=1)
+* [WebGL v2](https://webglreport.com/?v=2)
+
 If you run into this error message, please [contact us](https://contact.saleae.com/hc/en-us/requests/new) with the PC information above and we can look into this for you.
 
