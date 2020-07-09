@@ -78,6 +78,24 @@ Determine if two `GraphTimeDelta` values are not equal, up to a tolerance.
 
 Subtract a `GraphTimeDelta` value to produce a new `GraphTimeDelta`.
 
+### _class_ saleae.data.AnalogData(raw_samples: [ndarray](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.html), voltage_transform_gain: float, voltage_transform_offset: float, start_time: saleae.data.timing.GraphTime, end_time: saleae.data.timing.GraphTime)
+
+#### __iter__\(\)
+
+Iterates over the samples in this instance as voltage values.
+
+#### sample_count
+
+The number of samples contained in this instance.
+
+#### slice_samples\(slice: slice\) -> saleae.data.AnalogData
+
+Allows creating an AnalogData from a subset of this one's samples.
+
+#### samples
+
+Samples after applying voltage scaling.
+
 ## `saleae.range_measurements`
 
 ### _class_ saleae.range\_measurements.DigitalMeasurer\(requested\_measurements: List\[[str](https://docs.python.org/3/library/stdtypes.html#str)\]\)
