@@ -15,7 +15,9 @@ The Socket API scripting utility allows users to programmatically configure our 
 * Save Changes
 * Accept firewall changes if the OS requests it
 
-For automated environments, you can launch the Logic software with a `-socket` command line option to cause the socket server to be enabled by default.
+{% hint style="warning" %}
+For automated environments, the `-socket` command line option was previously used to automatically enable the scripting socket server. Unfortunately, we cannot recommend this moving forward due to a [known bug](https://github.com/saleae/SaleaeSocketApi/issues/14#issuecomment-656691914). We will fix this in a future release, which will be integrated into [Logic v2](https://discuss.saleae.com/). For now, please use the Preferences Window as shown above to enable the socket server.
+{% endhint %}
 
 ### Socket API User's Guide
 
