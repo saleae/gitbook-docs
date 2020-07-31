@@ -214,7 +214,7 @@
     * [Can Saleae Products Output Data?](faq/technical-faq/can-saleae-products-output-data.md)
     * [Resolution of the Analog Inputs](faq/technical-faq/resolution-of-the-analog-inputs.md)
     * [How Can I Analyze the USB Power Delivery Communication Protocol?](faq/technical-faq/how-can-i-analyze-the-usb-power-delivery-communication-protocol.md)
-    * [What Sample Rate Is Required for a Given Signal?](faq/technical-faq/what-sample-rate-is-required.md)
+    * [What Sampling Rate Should I Use?](faq/technical-faq/what-sample-rate-is-required.md)
     * [Can I Share Data Captures with Others?](faq/technical-faq/can-i-share-data-captures.md)
     * [Binary Export Format \(Digital\) - Logic 1.x](faq/technical-faq/binary-data-export-format.md)
     * [MATLAB Data Export Format](faq/technical-faq/matlab-data-export-format.md)

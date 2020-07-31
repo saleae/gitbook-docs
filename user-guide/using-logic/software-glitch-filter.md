@@ -1,28 +1,38 @@
 # Software Glitch Filter
 
-## Software Glitch Filter
-
-The Saleae software includes a feature to suppress short digital pulses in the recorded data. It is designed to help remove noise picked up in the digital recording.
+The Saleae software includes a feature to suppress short digital pulses in the recorded data. It is designed to help remove noise picked up in the digital recording. This can be especially useful when using protocol analyzers, since present noise may prevent proper decoding of digital data.
 
 There are several sources of noise in digital captures. You can learn more about them below.
 
 {% page-ref page="../../troubleshooting/seeing-spikes-in-digital-capture.md" %}
 
-In particular, the Logic Pro devices have narrow hysteresis thresholds, which can cause noise around transitions in some cases. When using lower voltage thresholds with larger swing signals, noise on the signal when it is in the low state can easily be picked up by the Saleae devices, even when the normal receiver of the signal rejects it.
+### Enabling the Glitch Filter in Logic v2.x
 
-The glitch filter is purely a software filter on top of the recorded data. Using the glitch filter does not actually change the data that is recorded. Instead, it sits between the recorded data set and all software components that access it. This lets the user change the trigger settings and even remove it, restoring the originally recorded data, including any noise.
+You can find the glitch filter settings via the 'Capture Settings' panel.
 
-If the glitch filter is enabled before the capture starts, the trigger will also use the filtered signal, which is especially useful to reject false trigger conditions. Even in this case, the original noisy data are recorded in the back end and can be viewed by removing the glitch filter.
+![Enabling the Glitch Filter via the Capture Settings Panel](../../.gitbook/assets/screen-shot-2020-07-31-at-2.24.41-pm.png)
 
-The glitch filter can be set for any individual digital channel. We recommend only adding the filter to channels where noise is already a problem. That simplifies working with the filter later.
+{% hint style="info" %}
+Please note that, in [Logic v2.x](https://ideas.saleae.com/f/changelog/), the glitch filter must be configured before the capture is taken. Glitch filters cannot be modified after the capture is completed.
+{% endhint %}
 
-The glitch filter rejects all pulses narrower than a specific width. That width can be specified either by a number of samples or a specific maximum time.
+### What is a Glitch Filter?
+
+The glitch filter is purely a software filter on top of the recorded data. Using the glitch filter does not actually change the data that is recorded. Instead, it sits between the recorded data set and all software components that access it.
+
+Please note that the Logic Pro devices have narrow hysteresis thresholds, which can cause noise around transitions in some cases. When using lower voltage thresholds with larger swing signals, noise on the signal when it is in the low state can easily be picked up by the Saleae devices, even when the normal receiver of the signal rejects it. More information on our devices' voltage thresholds can be found in the support article below.
+
+{% page-ref page="../supported-voltages.md" %}
+
+The glitch filter can be set for any individual digital channel. We recommend only adding the filter to channels where noise is a problem. The glitch filter rejects all pulses narrower than a specific width. That width can be specified either by a specific maximum time.
+
+### Enabling the Glitch Filter in Logic v1.x
+
+If the glitch filter is enabled before the capture is taken, the trigger will also use the filtered signal, which is especially useful to reject false trigger conditions. Even in this case, the original noisy data are recorded in the back end and can be viewed by removing the glitch filter.
 
 We recommend using the glitch filter in sample width mode, with the sample width specified as a small number \(2–10\). This is particularly useful because most noise around signal edges is only 1 or 2 samples wide.
 
 We recommend using the glitch filter with time-specified instead of samples only when the noise in question is significantly larger than 1 sample wide. That is because single sample wide noise is usually actually much smaller than 1 sample, so specifying a time width is not useful since the sample rate changes. However, when dealing with macro-sized noise \(several samples or larger\), the device is recording a real phenomenon that won't change in duration when the sample rate changes.
-
-**Configuring the Glitch Filter**
 
 Step 1: Identify channel with noise, and measure noise.
 

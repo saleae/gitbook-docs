@@ -1,6 +1,4 @@
-# What Sample Rate Is Required for a Given Signal?
-
-## What Sample Rate Is Required for a Given Signal?
+# What Sampling Rate Should I Use?
 
 As a rule of thumb, you will need to sample digital signals at least 4 times faster than their bandwidth. There is generally no harm in sampling significantly faster than this, and sampling faster improves timing resolution.
 
