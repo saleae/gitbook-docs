@@ -177,6 +177,7 @@
   * [Troubleshooting Signal Crosstalk](troubleshooting/crosstalk.md)
   * [Error When Issuing the Start Command](troubleshooting/error-when-issuing-the-start-command.md)
   * [Error Message: Unable to detect WebGL](troubleshooting/error-message-unable-to-detect-webgl.md)
+  * [Sharing your Machine ID](troubleshooting/sharing-your-machine-id.md)
 * [FAQ](faq/README.md)
   * [Technical FAQ](faq/technical-faq/README.md)
     * [System Requirements for Saleae Products](faq/technical-faq/system-requirements-for-saleae-products.md)
