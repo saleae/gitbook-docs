@@ -1,0 +1,22 @@
+# Warning Message: Unsupported Version
+
+Upon opening the Logic 1.x software, you may be prompted with the following warning message. Unfortunately, we've also seen cases where this message may cause the software to crash upon closing it.
+
+_This software version is no longer supported. Please update your software at www.saleae.com._
+
+![Unsupported Version Warning Message](../.gitbook/assets/screen-shot-2020-08-03-at-5.35.31-pm.png)
+
+We're currently working on a new version of the software, [Logic v2](https://ideas.saleae.com/f/changelog/), which is currently in Alpha.
+
+### Bypassing the Warning Message
+
+You can bypass this warning message by add the launch argument `--override`  upon launching the software. In Windows, you can add the launch argument by right-clicking the shortcut and opening the Properties window as shown below.
+
+![Adding the --override launch argument in Windows](../.gitbook/assets/screen-shot-2020-07-09-at-2.58.32-pm.png)
+
+### Why does this Warning Message Exist?
+
+If the software is unable to reach our API \(either the PC is offline or goes through a strict firewall\), it defaults to a 24 month timer. Once the timer is reached \(meaning the PC hasn't been able to reach our API for 24 months\), the error message will pop up, notifying the user to download the latest version.
+
+
+
