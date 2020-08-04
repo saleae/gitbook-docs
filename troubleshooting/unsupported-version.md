@@ -14,6 +14,8 @@ You can bypass this warning message by add the launch argument `--override`  upo
 
 ![Adding the --override launch argument in Windows](../.gitbook/assets/screen-shot-2020-07-09-at-2.58.32-pm.png)
 
+On Ubuntu Linux, the launch argument to bypass the warning message will be `-override` \(one dash only\).
+
 ### Why does this Warning Message Exist?
 
 If the software is unable to reach our API \(either the PC is offline or goes through a strict firewall\), it defaults to a 24 month timer. Once the timer is reached \(meaning the PC hasn't been able to reach our API for 24 months\), the error message will pop up, notifying the user to download the latest version.
