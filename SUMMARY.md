@@ -179,6 +179,7 @@
   * [Error Message: Unable to detect WebGL](troubleshooting/error-message-unable-to-detect-webgl.md)
   * [Sharing your Machine ID](troubleshooting/sharing-your-machine-id.md)
   * [Warning Message: Unsupported Version](troubleshooting/unsupported-version.md)
+  * [Error Function: Device2::SetupDevice](troubleshooting/error-function-device2-setupdevice.md)
 * [FAQ](faq/README.md)
   * [Technical FAQ](faq/technical-faq/README.md)
     * [System Requirements for Saleae Products](faq/technical-faq/system-requirements-for-saleae-products.md)
