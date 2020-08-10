@@ -11,7 +11,7 @@ This list contains every distributor currently selling Saleae devices. Please no
 * [Batronix](http://www.batronix.com/shop/logic-analyzer/Saleae.html) - Germany
 * [Berkin Engineering](http://berkinengineering.com/urunler) - Turkey
 * [BTC](https://kamami.pl/22_saleae) - Poland
-* [ChipCAD Electronics Distribution Ltd.](https://shop.chipcad.hu/Welcome/Default.aspx?scenarioID=360&pid=1526) - Hungary
+* [ChipCAD Electronics Distribution Ltd](https://www.chipcad.hu/saleae) - Hungary
 * [Core Electronics](http://core-electronics.com.au/search/?q=saleae) - Australia
 * [Double Dragon Electronics Co., Ltd](http://www.sl.com.cn/) - China
 * [electronic-shop sàrl](https://www.electronic-shop.lu/EN/search?q=saleae) - Luxembourg
