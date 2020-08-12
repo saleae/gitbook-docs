@@ -1,12 +1,18 @@
-# Error Message: We're Sorry, but the Device Was Not Able to Keep Up with This Sample Rate
+# Error Message: ReadTimeout
 
-## Error Message: We're Sorry, but the Device Was Not Able to Keep Up with This Sample Rate
+### In Logic 2.x
 
-When attempting to capture data, you may encounter the following error message: "We're sorry, but the device was not able to keep up with this sample rate. If you continue to see this message, please contact Saleae technical support."
+When attempting to capture data, you may encounter a ReadTimeout error message as shown below.
+
+![ReadTimeout error in the Logic 2 software](../.gitbook/assets/capture-error%20%281%29.png)
+
+### In Logic 1.x
+
+In Logic 1.x, the following error message will appear: "We're sorry, but the device was not able to keep up with this sample rate. If you continue to see this message, please contact Saleae technical support."
 
 ![Logic can&apos;t keep up](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/55f0e75a10f9f592573a8232/035ff5a3b79830f7bcd2dccca570674f/logic_cant_keep_up.png)
 
-![The same error in the Logic 2 Alpha software](../.gitbook/assets/capture-error%20%281%29.png)
+### Why Does the Error Message Appear?
 
 The Saleae Logic produces data at a fixed rate and can't tolerate periodic delays between read requests because the device side buffer space is limited. This error message shows up when the device side buffer has run out of memory caused by delays on the USB line during data capture. The Original Logic is the most sensitive to this issue. The newer products \(Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16\) have significantly larger device side stream buffers and should have no problem with this.
 

@@ -131,7 +131,7 @@
   * [The Device Is Not Connecting](troubleshooting/device-not-connecting.md)
   * [Troubleshooting the Software Connection to the Device](troubleshooting/troubleshooting-the-software-connection.md)
   * [The Device Does Not Connect to the Software \(Depreciated\)](troubleshooting/the-device-does-not-connect-to-the-software-depreciated.md)
-  * [Error Message: We're Sorry, but the Device Was Not Able to Keep Up with This Sample Rate](troubleshooting/device-not-able-to-keep-up.md)
+  * [Error Message: ReadTimeout](troubleshooting/device-not-able-to-keep-up.md)
   * [The Captured Data Looks Incorrect](troubleshooting/captured-data-looks-incorrect.md)
   * [The Captured Data is Corrupted](troubleshooting/the-captured-data-is-corrupted.md)
   * [A Protocol Analyzer Produces Unexpected Results](troubleshooting/protocol-analyzer-produces-unexpected-results.md)
