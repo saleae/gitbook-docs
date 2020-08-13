@@ -2,9 +2,9 @@
 
 ### In Logic 2.x
 
-When attempting to capture data, you may encounter a ReadTimeout error message as shown below.
+When attempting to capture data, you may encounter a ReadTimeout error message: `An error occurred during capture: ReadTimeout`
 
-![ReadTimeout error in the Logic 2 software](../.gitbook/assets/capture-error%20%281%29.png)
+![ReadTimeout Error in the Logic 2 Software](../.gitbook/assets/screen-shot-2020-08-13-at-6.43.57-pm.png)
 
 ### In Logic 1.x
 
