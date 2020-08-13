@@ -22,7 +22,7 @@ For support finding the latest driver for your host controller, or on the reques
 
 You can find a complete list of the latest driver releases for Windows 7 below:
 
-{% page-ref page="../../logic-software/usb-3.0-host-controller-drivers.md" %}
+{% page-ref page="../../troubleshooting/usb-driver-problem.md" %}
 
 **OS X and Linux**
 

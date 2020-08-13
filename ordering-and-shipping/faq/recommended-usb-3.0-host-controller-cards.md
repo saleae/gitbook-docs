@@ -31,7 +31,7 @@ We have not yet performed a full evaluation on "ExpressCard" Laptop add on cards
 
 ### Latest driver information
 
-{% page-ref page="../../logic-software/usb-3.0-host-controller-drivers.md" %}
+{% page-ref page="../../troubleshooting/usb-driver-problem.md" %}
 
 ### Known Issues with VIA Host Controllers
 

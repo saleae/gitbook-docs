@@ -8,7 +8,7 @@ Also, it's always a good idea to verify that your USB 3.0 host controller driver
 
 {% page-ref page="../faq/technical-faq/usb-3.0-host-controller-info.md" %}
 
-{% page-ref page="../logic-software/usb-3.0-host-controller-drivers.md" %}
+{% page-ref page="usb-driver-problem.md" %}
 
 We've seen two types of drivers become associated with a Saleae device.
 

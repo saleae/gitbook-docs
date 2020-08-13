@@ -14,7 +14,7 @@ Before proceeding with the in-depth troubleshooting guide, please perform the fo
 
 1. If you are on Windows and have USB 3.0 ports on your PC, please check your current host controller drivers and update them to the latest version. Detailed information can be found below.
 
-{% page-ref page="../logic-software/usb-3.0-host-controller-drivers.md" %}
+{% page-ref page="usb-driver-problem.md" %}
 
 {% hint style="info" %}
 The windows driver update check will NOT update USB 3.0 host controller drivers. These are not included in the Windows update driver database and must be manually updated.

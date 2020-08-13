@@ -40,7 +40,7 @@ Locate your installed host controller and driver version:
 
 Check for driver updates:
 
-{% page-ref page="../logic-software/usb-3.0-host-controller-drivers.md" %}
+{% page-ref page="usb-driver-problem.md" %}
 
 Original instructions \(pre 1.2.5\):
 
