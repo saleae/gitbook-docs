@@ -1,4 +1,4 @@
-# Limitations of Logic Pro on USB 2.0 Ports
+# Warning Message: Logic Pro is running as a USB 2.0 device
 
 Logic Pro 8 & Logic Pro 16 can both be used with USB 2.0 or USB 3.0 ports. However, there are some restrictions when using them with USB 2.0 ports. In [Logic v2.x](https://ideas.saleae.com/f/changelog/), you will be prompted with the following message.
 

@@ -165,7 +165,7 @@
   * [A Measurement Appears Incorrect](troubleshooting/a-measurement-appears-incorrect.md)
   * [All Known Issues](troubleshooting/all-known-issues.md)
   * [USB 3.0 Cable Customer Notice](troubleshooting/usb-3.0-cable-customer-notice.md)
-  * [Limitations of Logic Pro on USB 2.0 Ports](troubleshooting/limitations-of-logic-pro-usb2.md)
+  * [Warning Message: Logic Pro is running as a USB 2.0 device](troubleshooting/limitations-of-logic-pro-usb2.md)
   * [Software Issues with Encryption Products](troubleshooting/sw-issues-with-encryption.md)
   * [Linux Permission Requirements for Logic Software](troubleshooting/linux-permission-requirements-for-logic-software.md)
   * [My Rise Time and Fall Time Measurements Seem Incorrect](troubleshooting/my-rise-time-and-fall-time-measurements-seem-incorrect.md)
