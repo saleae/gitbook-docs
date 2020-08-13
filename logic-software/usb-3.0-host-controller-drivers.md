@@ -10,17 +10,16 @@ If you are unsure which driver you need or would like to verify that you are dow
 
 ### Windows 10 & Windows 8.1/8
 
-Windows 10 & Windows 8.1/8 use a new Microsoft-created USB 3.0 driver that supports all USB 3.0 host controllers. This driver works extremely well, and it is the recommended driver for all USB 3.0 host controllers with the single exception of ASMedia.
+Windows 10 & Windows 8.1/8 use a new Microsoft-created USB 3.0 driver that supports all USB 3.0 host controllers. This driver works extremely well, and it is the recommended driver for all USB 3.0 host controllers with the exception of the following host controllers
 
-* **Host: ASMedia 3.0 or 3.1**
-
-  Source: From card or motherboard vendor
-
-  Version: 1.16.23.0
-
-  Link: [https://www.asus.com/Motherboard-Accessories/USB\_31\_TYPEA\_CARD/HelpDesk\_Download/](https://www.asus.com/Motherboard-Accessories/USB_31_TYPEA_CARD/HelpDesk_Download/)
-
-  Note: All ASMedia devices \(3.0 and 3.1\) use the same driver
+* **ASMedia USB 3.0 or 3.1 Host Controller**
+  * Source: From card or motherboard vendor
+  * [Driver Download Link](https://www.asus.com/Motherboard-Accessories/USB_31_TYPEA_CARD/HelpDesk_Download/)
+  * Note: All ASMedia devices \(3.0 or 3.1\) use the same driver
+* **VIA USB Host Controller**
+  * Source: Direct \(Via\)
+  * [Driver Download Link](http://www.via-labs.com/driver.php)
+  * Note: Only drivers older than version 4.90A have issues
 
 For other host controllers, there is no need to perform any kind of driver update when you are on one of these releases of Windows.
 
@@ -28,11 +27,11 @@ For other host controllers, there is no need to perform any kind of driver updat
 
 USB 3.0 host controller drivers are part of the OS X operating system and are not updated separately. Updates to different parts of the USB stack are frequently included in Apple updates, so it is highly recommended that you keep your OS up to date and running the latest OS X release.
 
-_\*_ OSX Bootcamp \(Windows\)
+#### Note for OSX Bootcamp \(Windows\)
 
-If you are running Windows on Apple hardware, be sure to update the bootcamp software to the latest version. Specifically, make sure you are running bootcamp 5 or newer. If you are running Windows 7, after you have bootcamp 5+ installed, please verify that you can locate the Intel USB 3.0 host controller in the device manager list under "Universal Serial Bus Controllers." If you can not locate that device, there may have been an issue installing the bootcamp drivers. In that case, you can try to manually install the USB 3.0 drivers by downloading the bootcamp zip file from Apple, extracting it, and locating the Intel USB 3.0 driver installer here:
+If you are running Windows on Apple hardware, be sure to update the bootcamp software to the latest version. Specifically, make sure you are running bootcamp 5 or newer. If you are running Windows 7, after you have bootcamp 5+ installed, please verify that you can locate the Intel USB 3.0 host controller in the device manager list under "Universal Serial Bus Controllers." If you can not locate that device, there may have been an issue installing the bootcamp drivers. In that case, you can try to manually install the USB 3.0 drivers by downloading the bootcamp zip file from Apple, extracting it, and locating the Intel USB 3.0 driver installer below:
 
-* BootCamp5.1.5621/BootCamp/Drivers/Intel/IntelxHCISetup.exe
+`BootCamp5.1.5621/BootCamp/Drivers/Intel/IntelxHCISetup.exe`
 
 Run that application and reboot your computer to install the Intel USB 3.0 host controller drivers.
 
@@ -42,11 +41,11 @@ On Linux, all USB 3.0 host controllers use the xhci\_hcd kernel module, which ca
 
 If you have trouble with the devices connecting or capturing on Linux, please be sure to contact support and include information about your kernel version and installed host controllers. Specifically, please provide the output of:
 
-* uname -r
-* lspci -k
-* lsusb
+* `uname -r`
+* `lspci -k`
+* `lsusb`
 
-Note: lsusb must be run when the Saleae Logic device is connected.
+Note: `lsusb` must be run when the Saleae Logic device is connected.
 
 ## Information for Logic 1.x
 
