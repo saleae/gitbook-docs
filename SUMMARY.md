@@ -61,7 +61,7 @@
   * [Firmware Updates](logic-software/firmware-updates.md)
   * [Changelog](logic-software/changelog.md)
   * [Driver Install](logic-software/driver-install.md)
-  * [Latest USB 3.0 Host Controller Drivers](logic-software/usb-3.0-host-controller-drivers.md)
+  * [Warning Message: Possible USB Driver Problem Detected](logic-software/usb-3.0-host-controller-drivers.md)
   * [Legacy Software](logic-software/legacy-software/README.md)
     * [Older Software Releases](logic-software/legacy-software/older-software-releases.md)
     * [Older Changelog](logic-software/legacy-software/older-changelog.md)
