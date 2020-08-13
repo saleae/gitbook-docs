@@ -2,7 +2,7 @@
 
 The Logic 2.x software may generate the following warning message if it detects a USB driver issue.
 
-![Possible USB Driver Problem Detected Pop-up](../.gitbook/assets/driver-problem.png)
+![Possible USB Driver Problem Pop-up](../.gitbook/assets/usb-problem.png)
 
 If you are unsure which driver you need or would like to verify that you are downloading the correct driver, feel free to collect the information about your host controller and contact [Saleae support](https://contact.saleae.com/hc/en-us/requests/new). Below are the latest driver versions and download links for each host controller.
 
