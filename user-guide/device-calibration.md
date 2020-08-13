@@ -4,13 +4,16 @@
 
 Manual calibration can be performed in [Logic 2.x](https://discuss.saleae.com/). Typically, the software will automatically handle downloading the calibration file. In rare cases, users may need to download the file manually if the software is not able to download it on its own. Follow the steps below.
 
-#### Check Calibration Status
+#### Check Calibration Status & Device Serial Number
+
+Our support team may request you to send your serial number to us to further investigate your device's calibration status. We may also have you check your device's calibration status as reported by your software below.
 
 ![](../.gitbook/assets/screen-shot-2020-05-01-at-4.51.58-pm.png)
 
 1. Open Logic 2.x software
 2. Click the Logic device at the top-left
 3. In the "Devices" window, check for "Device Calibrated"
+4. You will also find the "Serial Number" here.
 
 #### Manually Download the Calibration File
 
@@ -36,6 +39,8 @@ When manually downloading the calibration file in Logic 2.x, in rare cases, your
 
 In this case, please submit a [Warranty Request](https://saleae-support.typeform.com/to/E8UPB7) form and we will be happy to help. This may be indicative of hardware failure and we'll most likely want to process a warranty for you.
 
+
+
 ## Calibration in Logic 1.x
 
 When connected to the internet, the Logic software will automatically handle downloading the calibration file.
@@ -44,7 +49,11 @@ The 2nd Generation of Saleae products \(Logic 4, Logic 8, Logic Pro 8, & Logic P
 
 This calibration data is not stored on the device. Instead, it is stored on our servers, and the software automatically downloads this calibration data as well as checks for updates when a device is connected.
 
-#### **Check Calibration Status**
+#### **Check Calibration Status & Device ID**
+
+Our support team may request you to send your Device ID to us to further investigate your device's calibration status. We may also have you check your device's calibration status as reported by your software below.
+
+Please note that the Device ID as reported by Logic 1.x software is the same as the Serial Number as reported by the Logic 2.x software.
 
 1. Open Logic 1.x software.
 2. Connect the Logic device and wait for the software to connect to it.
