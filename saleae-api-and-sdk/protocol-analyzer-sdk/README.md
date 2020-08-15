@@ -1,5 +1,9 @@
 # Protocol Analyzer SDK
 
+{% hint style="info" %}
+Instructions for loading existing custom analyzers into the Logic software can be found here: [Installing Custom Protocol Analyzers](../../faq/technical-faq/setting-up-developer-directory.md)
+{% endhint %}
+
 The Saleae Analyzer SDK lets you make your own custom protocol analyzers. The framework is very flexible. You can do everything we can do \(we use the same SDK\). You'll be creating a shared library \(.dll, .so, or .dylib\) that will be loaded by the Logic software as a plugin.
 
 While there are many advantages to providing the SDK in this format, implementation of a custom protocol will probably take an experienced C++ developer at least a full day, and possibly up to a week, to complete. You will probably want to have had considerable programming experience, probably significant C++ experience, before taking it on.
