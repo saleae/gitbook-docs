@@ -2,19 +2,31 @@
 
 ## Logic 2.x Instructions
 
-### Windows
+Loading custom C++ protocol analyzers is possible in the Logic 2 software starting with the 2.3.5 release.
 
-To install your custom protocol analyzer, place your analyzer .dll file into the following folder:`C:\Program Files\Logic\resources\windows\Analyzers`
+On the software's main menu, select "Custom Low Level Analyzers...". If you don't see this item on the menu, you may need to update your software to the latest release.
 
-Afterwards, restart the Logic software and you should see your protocol analyzer in the dropdown list by clicking the '+' icon next in the Analyzers panel of the software.
+Then, in the dialog, use the browse button to select the directory that contains your compiled custom protocol analyzer.
 
-![Analyzers drop-down list](../../.gitbook/assets/screen-shot-2020-06-19-at-4.45.43-pm.png)
-
-### MacOS and Linux
+Finally, save the dialog and restart the software. Your custom analyzer should now appear in the list of available protocol analyzers!
 
 {% hint style="info" %}
-On [Logic 2.x](https://ideas.saleae.com/f/changelog/), we currently only support installing custom analyzers on Windows. We plan to add MacOS and Linux support soon.
+If you're using MacOS, there is another step you may need to take in order for your custom analyzer to work.
 {% endhint %}
+
+![](../../.gitbook/assets/image%20%283%29.png)
+
+### Logic 2 MacOS instructions
+
+If your analyzer does not appear in the list of available analyzers after restarting the software on your MacOS machine, you likely need to make a modification to the library \(\*.so or \*.dylib\)
+
+From the command line, please run the following, replacing `libYourCustomAnalyzer.so` with your analyzer's file name:
+
+```bash
+install_name_tool -change @executable_path/libAnalyzer.dylib @rpath/libAnalyzer.dylib libYourCustomAnalyzer.so
+```
+
+This will change how the custom analyzer library locates the libAnalyzer.dylib library, which has a different relative path than the older Logic 1.x software. 
 
 ## Logic 1.x Instructions
 
