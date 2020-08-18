@@ -16,17 +16,23 @@ If you're using MacOS, there is another step you may need to take in order for y
 
 ![](../../.gitbook/assets/image%20%283%29.png)
 
-### Logic 2 MacOS instructions
+### Logic 2 MacOS Instructions
 
-If your analyzer does not appear in the list of available analyzers after restarting the software on your MacOS machine, you likely need to make a modification to the library \(\*.so or \*.dylib\)
+If you see the following error after restarting the software on **MacOS**, please follow these extra steps.
 
-From the command line, please run the following, replacing `libYourCustomAnalyzer.so` with your analyzer's file name:
+![](../../.gitbook/assets/image%20%285%29.png)
 
-```bash
-install_name_tool -change @executable_path/libAnalyzer.dylib @rpath/libAnalyzer.dylib libYourCustomAnalyzer.so
-```
+1. Open the Terminal \(open Spotlight -&gt; search "Terminal" -&gt; press enter\)
+2. navigate to the directory containing your custom analyzer \(e.g. `cd ~/Downloads/mylla`\)
+3. run the following command, replacing `libYourCustomAnalyzer.so` with your analyzer's file name:
+
+   `install_name_tool -change @executable_path/libAnalyzer.dylib @rpath/libAnalyzer.dylib libYourCustomAnalyzer.dylib`
+
+4. close the terminal, and open the Logic 2 application again.
 
 This will change how the custom analyzer library locates the libAnalyzer.dylib library, which has a different relative path than the older Logic 1.x software. 
+
+You may see the same error on Linux or Windows. If this happens, there may be a problem with the custom analyzer you are trying to load. Please contact the analyzer author or Saleae support.
 
 ## Logic 1.x Instructions
 
