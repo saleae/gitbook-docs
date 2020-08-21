@@ -24,13 +24,17 @@ On Linux:
     Inside the folder with the Logic executable in the Errors folder.
 ```
 
-We discovered this to be a bug with our logic analyzers in combination with the following processors/OS.
+We discovered this to be a bug with our logic analyzers in combination with the following processors, OSes, and PC models.
 
 * Intel N4200
 * Intel N5000
 * Intel Celeron
 * Intel® Core i5-1035G4 \(specifically found in Surface Pro 7\)
 * MacOS Mojave
+* Microsoft Surface Book
+* Microsoft Surface Pro
+
+### Known Solutions
 
 Please try the following versions of the software to obtain the fix:
 
