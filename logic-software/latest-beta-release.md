@@ -1,4 +1,4 @@
-# Latest Beta Release
+# Logic 1.x Beta Software
 
 ## Latest Beta Release
 

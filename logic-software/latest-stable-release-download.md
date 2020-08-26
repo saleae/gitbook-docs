@@ -1,4 +1,4 @@
-# Latest Stable Release
+# Logic 1.x Stable Software
 
 ## Latest Stable Release
 

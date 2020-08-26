@@ -1,20 +1,16 @@
 # Software Download
 
-Download the latest **Saleae Logic Stable Release** below!
+### Logic 2
 
-{% page-ref page="latest-stable-release-download.md" %}
+Download the latest version of Logic 2
 
-{% hint style="info" %}
-Our latest **Beta Release** will contain features not yet available in the latest stable release. Please keep in mind that you may encounter some minor bugs. If you do, please [contact us](https://contact.saleae.com/hc/en-us/requests/new) and report them to our support team. Thanks for helping us out!
-{% endhint %}
+### Logic 1
 
-Download the latest **Saleae Logic Beta Release** below!
+To download our older, Logic v1.x releases, you can refer to the links below. The **Beta** version is recommended over the Stable version.
 
 {% page-ref page="latest-beta-release.md" %}
 
-
-
-
+{% page-ref page="latest-stable-release-download.md" %}
 
 
 
