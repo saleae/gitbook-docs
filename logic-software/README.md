@@ -2,7 +2,11 @@
 
 ### Logic 2
 
-Download the latest version of Logic 2
+Download the latest version of Logic 2 below.
+
+{% page-ref page="logic-2-software-alpha.md" %}
+
+
 
 ### Logic 1
 
