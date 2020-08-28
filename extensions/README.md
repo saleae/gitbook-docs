@@ -48,7 +48,7 @@ Looking to learn more about extensions? Take a look at the sections below for mo
 
 {% page-ref page="extension-file-format.md" %}
 
-{% page-ref page="third-party-marketplace-extensions.md" %}
+{% page-ref page="about-third-party-extensions.md" %}
 
 
 

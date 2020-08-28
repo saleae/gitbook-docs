@@ -78,7 +78,7 @@
   * [High-Level Analyzer Extensions](extensions/high-level-analyzer-quickstart.md)
   * [Measurement Extensions](extensions/measurement-extensions.md)
   * [Extension File Format](extensions/extension-file-format.md)
-  * [Third-Party Marketplace Extensions](extensions/third-party-marketplace-extensions.md)
+  * [About Third-Party Extensions](extensions/about-third-party-extensions.md)
   * [Publish an Extension](extensions/publish-an-extension.md)
   * [Analyzer Frame Types](extensions/analyzer-frame-types/README.md)
     * [Asynchronous Serial Analyzer](extensions/analyzer-frame-types/serial-analyzer.md)
