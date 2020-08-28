@@ -26,7 +26,7 @@ To browse the extension marketplace, install the latest Logic software, and clic
 
 {% page-ref page="publish-an-extension.md" %}
 
-### Documentation
+### Getting Started
 
 Looking to get started?
 
@@ -34,21 +34,23 @@ Check out the Python High Level Analyzer quick start guide here!
 
 {% page-ref page="high-level-analyzer-quickstart.md" %}
 
-Check out the Python Measurement guide here!
+Check out the Python Measurement quick start guide here!
 
 {% page-ref page="measurement-extensions.md" %}
 
-#### API Documentation
+### Documentation
+
+Looking to learn more about extensions? Take a look at the sections below for more information.
 
 {% page-ref page="api-documentation.md" %}
 
-#### Analyzer Frame Type Specifications
-
 {% page-ref page="analyzer-frame-types/" %}
 
-#### Extension File Format
-
 {% page-ref page="extension-file-format.md" %}
+
+{% page-ref page="third-party-marketplace-extensions.md" %}
+
+
 
 
 
