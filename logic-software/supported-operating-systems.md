@@ -1,21 +1,28 @@
 # Supported Operating Systems
 
-{% hint style="info" %}
-Please note that we are dropping support for 32-bit Windows and 32-bit Linux beginning with [Logic 2.x](https://ideas.saleae.com/f/changelog/).
-{% endhint %}
+## Logic Software 2.x
 
-The following operating systems are supported for Logic 1.x, with the exception of the above note for Logic 2.x and future releases.
+\*\*\*\*[**Logic 2.x Download**](https://ideas.saleae.com/f/changelog/)\*\*\*\*
+
+* Windows 8 & 10 \(64 bit\)
+* MacOS 10.14+ 
+* Ubuntu 16.04+ LTS
+
+Please note that 32 bit operating systems are not supported by Logic 2.x. For 32 bit support, please refer to Logic 1.x below.
+
+## Logic Software 1.x
+
+{% page-ref page="latest-beta-release.md" %}
 
 ### **Microsoft Windows**
 
-* Windows XP 32 bit \(Service Pack 3 required\)
-* Windows Vista 32 bit and 64 bit
-* Windows 7 32 bit and 64 bit
-
-    64 bit software requires Service Pack 1
-
-* Windows 8 & 8.1, 32 bit and 64 bit
-* Windows 10 32 bit & 64 bit
+* Windows XP \(32 bit\)
+  * Service Pack 3 required
+* Windows Vista \(32/64 bit\)
+* Windows 7 \(32/64 bit\)
+  * 64 bit software requires Service Pack 1
+* Windows 8 & 8.1 \(32/64 bit\)
+* Windows 10 \(32/64 bit\)
 
 Windows 2008 server \(and newer\) is not officially supported or tested but may work.
 
