@@ -10,11 +10,18 @@ We're currently working on a new version of the software, [Logic v2](https://ide
 
 ### Bypassing the Warning Message
 
-You can bypass this warning message by add the launch argument `--override`  upon launching the software. In Windows, you can add the launch argument by right-clicking the shortcut and opening the Properties window as shown below.
+You can bypass this warning message by adding an override launch argument.
+
+In Windows, you can add the  `--override`  launch argument by right-clicking the shortcut and opening the Properties window as shown below.
 
 ![Adding the --override launch argument in Windows](../.gitbook/assets/screen-shot-2020-07-09-at-2.58.32-pm.png)
 
-On Ubuntu Linux, the launch argument to bypass the warning message will be `-override` \(one dash only\).
+On Ubuntu Linux & MacOS, the launch argument to bypass the warning message will be `-override` \(one dash only\). You can run this from the terminal.
+
+1. Open a terminal and browse to the install directory of Logic. 
+   * On MacOS: `cd /Applications/Logic.app/Contents/MacOS/`
+2. Launch Logic with the `-override` argument like so:
+   * `./Logic -override`
 
 ### Why does this Warning Message Exist?
 

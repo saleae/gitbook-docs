@@ -15,10 +15,10 @@ When investigating crashes from the Logic software, we may ask you to provide th
 ### **Linux and OSX**
 
 * First, make sure the software is closed and the device is unplugged from the computer.
-* Open a terminal and browse to the install directory of Logic. on OS X:
-* cd /Applications/Logic.app/Contents/MacOS/
+* Open a terminal and browse to the install directory of Logic. 
+  * On OSX: `cd /Applications/Logic.app/Contents/MacOS/`
 * Launch Logic while routing standard out to a file:
-* ./Logic &gt; ~/LogicLog.txt
+  * `./Logic > ~/LogicLog.txt`
 * Then connect the device and wait at least 10 seconds. Optionally, remove the device and repeat 2–3 times.
 * Then close the software. Locate the newly created log file and send it to support.
 
