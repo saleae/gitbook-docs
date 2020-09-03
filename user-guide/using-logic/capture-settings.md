@@ -1,8 +1,10 @@
 # Capture Settings
 
-## Collecting Data & Device Settings
+## Logic 1.x
 
-### **Collecting Data**
+If you are using the older Logic 1.x software, you can follow the instructions below.
+
+### Collecting Data
 
 To start collecting data, press the _Start_ button. 
 
