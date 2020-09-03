@@ -12,7 +12,7 @@ Please note that 32 bit operating systems are not supported by Logic 2.x. For 32
 
 
 
-## Logic Software 1.x
+## Logic 1.x Software
 
 {% page-ref page="latest-beta-release.md" %}
 
