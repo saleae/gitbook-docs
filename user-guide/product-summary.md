@@ -16,11 +16,9 @@ Saleae Logic Analyzers consists of the products listed in this section. The prod
 
 ![](https://trello-attachments.s3.amazonaws.com/5adfc3ad102e6f57c8df3623/5ae115dc19d711975c60a0fb/6abe015015b908043d8ea8065d250795/lp16s.png)
 
-**Datasheets:**
+**Datasheets & Specifications:**
 
-* [Logic 8](http://downloads.saleae.com/specs/Logic+8+Data+Sheet.pdf)
-* [Logic Pro 8](http://downloads.saleae.com/specs/Logic+Pro+8+Data+Sheet.pdf)
-* [Logic Pro 16](http://downloads.saleae.com/specs/Logic+Pro+16+Data+Sheet.pdf)
+{% page-ref page="../datasheets-and-specifications/" %}
 
 **What's In the Box?**
 

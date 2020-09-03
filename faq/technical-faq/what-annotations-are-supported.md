@@ -20,5 +20,5 @@ We don't have a note annotation but would like to add one. In the meantime, I re
 
 Annotations are covered in the user's guide below:
 
-{% page-ref page="../../user-guide/using-logic/measurements-timing-markers-and-bookmarks.md" %}
+{% page-ref page="../../user-guide/using-logic/measurements-timing-markers.md" %}
 

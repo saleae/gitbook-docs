@@ -35,12 +35,12 @@ Specifically, this is when a high current flows from the ground pin on the logic
 
 The user should be cautious of this when the logic analyzer is used in the presence of a ground loop. Specifically, this means that the logic analyzer is not the only ground path between your DUT and the host PC. Ground loops by themselves are not necessarily bad, but requires extra caution from the user.
 
-Common Ways a Ground Loop Can Exist:
+#### Common Ways a Ground Loop Can Exist:
 
 * Other USB devices \(such as programmers\) are connected to the DUT, or the DUT itself is plugged into the USB port on your computer. In addition to the logic analyzer's ground connection, the DUT's ground is also connected to the PC's ground through another USB port.
 * Non-isolated power supplies Most AC power supplies with 3-prong plugs will short the MAINS earth ground pin to the power supply ground output. That includes your PC's ground. If your DUT is powered from a 3-prong wall power supply and your PC is also plugged in, that will form another ground path. Keep in mind that if you're using a laptop that's not plugged in, even an attached external monitor or printer will create a ground loop.
 
-Common Ways Damage Can Occur:
+#### Common Ways Damage Can Occur:
 
 * When connecting or disconnecting probes, one of the ground probes from the logic analyzer is accidentally brushed against a power supply pin on the DUT, such as +5V. If there are no other ground paths between the DUT and the PC, nothing will happen. However, if there is a ground path, then current will flow from that voltage supply through the logic analyzer's ground pin, through the USB cable and the host PC, and then through the secondary ground connection—either MAIN earth ground or another USB port, back to the ground on the DUT. Basically, that is the same as shorting out the voltage supply on your DUT, but it uses the logic analyzer and your host PC as the short circuit, which could damage all components in the loop.
 * What if the DUT's ground reference isn't at the same voltage as the ground loop connection? For instance, if your circuit is powered by a bipolar power supply used to produce +10 volts and -10 volts, and then your circuit uses the -10 volt rail as its ground voltage, but there exists a ground loop through MAINS earth ground to the power supply's 0 volt output, then effectively the ground on your DUT is actually -10 volts relative to the host PC. Connecting Logic will immediately short out the DUT power supply and potentially damage all devices present in the loop.

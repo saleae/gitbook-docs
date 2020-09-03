@@ -1,6 +1,6 @@
 # Logic Accessories
 
-## 2nd Generation Products - Logic 4/8 & Logic Pro 8/16
+## Logic 4/8 & Logic Pro 8/16
 
 ### **Wire Harness \(2x4 Version\)**
 

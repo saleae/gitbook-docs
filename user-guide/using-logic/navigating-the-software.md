@@ -1,6 +1,69 @@
 # Navigating the Software
 
-## Navigating the Software
+The Logic 2 software consists of the following basic sections:
+
+![](../../.gitbook/assets/screen-shot-2020-09-03-at-4.20.26-pm.png)
+
+### 1. Logic Analyzer Connection Status
+
+This button allows you to check your logic analyzer's connection status with the software. Clicking it will allow you to view device information such as the device type, serial number, and calibration status.
+
+{% embed url="https://vimeo.com/454544519" %}
+
+### 2. Enabling and Disabling Input Channels
+
+Any enabled input channels are shown here. Use the Capture Settings panel to enable or disable channels.
+
+{% embed url="https://vimeo.com/454542912" %}
+
+### 3. Adding & Renaming Session Tabs
+
+Click the "+" button to create new capture sessions tabs. This can be useful to manage multiple captures. To rename a tab, click the text within the tab.
+
+![](../../.gitbook/assets/screen-shot-2020-09-03-at-5.42.31-pm%20%281%29.png)
+
+### 4. The Start Button
+
+Click the green "Start" button to begin a data capture. 
+
+* If a logic analyzer is not connected, this button will generate simulation data as if a logic analyzer was collecting real world data. 
+* If a logic analyzer was connected, then this would begin capturing data from its enabled input channels. After the capture has started, you can stop it before it finishes, which will retain the data to that point. 
+
+### 5. Side Panel Buttons
+
+The side panel buttons offer various ways to configure your logic analyzer settings. More information on these settings can be found in the articles below.
+
+{% page-ref page="capture-settings.md" %}
+
+{% page-ref page="using-protocol-analyzers.md" %}
+
+{% page-ref page="measurements-timing-markers.md" %}
+
+{% page-ref page="../../extensions/" %}
+
+### 6. Time Scale Adjustment
+
+The time scale for the displayed waveforms can be adjusted to an exact time value per 100 pixels as shown below. This gives the ability to set an exact zoom level, as opposed to using the mouse scroll wheel or using keyboard shortcuts to zoom in and out.
+
+{% embed url="https://vimeo.com/454563327" %}
+
+### Other Useful Features
+
+Several more useful tasks can be performed from the main software view, such as...
+
+* Renaming Channels
+* Reordering, Resizing, & Scaling Channels
+* Editing Colors
+
+These features are described in our tutorial video below about organizing your workspace.
+
+{% embed url="https://www.youtube.com/watch?v=8BJm2l6arR0" %}
+
+
+
+## Logic 1.x
+
+If you are using the older Logic 1.x software, you can follow the instructions below.
 
 This section will guide you through the features of the Logic software. This is a great first step to take to familiarize yourself with the features of the software. When no Logic device is connected, the software will work in demo mode, which is virtually identical to how it will function when a device is connected. The demo will help you become familiar with the software before your Logic device arrives.
 

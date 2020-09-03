@@ -26,9 +26,9 @@ Notes:
 
 ### **Logic Pro 8 and Logic Pro 16**
 
-Logic Pro devices have three selectable threshold voltage options.
+Logic Pro devices have three selectable voltage threshold options.
 
-![Logic Pro 8/16 - Voltage Threshold Options](../.gitbook/assets/logicpro16.png)
+![Logic Pro 8/16 - Voltage Threshold Setting in the Logic 2 software](../.gitbook/assets/screen-shot-2020-09-03-at-3.58.18-pm%20%281%29.png)
 
 The inputs are also implemented with comparators instead of standard CMOS buffers such as Logic 4 and the new Logic 8. That makes the input-low and input-high voltages very close to each other. The exact behavior of these comparators is not defined here.
 
@@ -83,7 +83,7 @@ The original Logic is the only Saleae device to have internally pulled up inputs
 
 The original Logic16 had two selectable threshold settings.
 
-![Logic16 - Voltage Threshold Options](../.gitbook/assets/logic16.png)
+![Logic16 - Voltage Threshold Setting in the Logic 2 software](../.gitbook/assets/screen-shot-2020-09-03-at-4.02.48-pm.png)
 
 * 1.8V to 3.6V Setting
 
@@ -101,4 +101,20 @@ The original Logic16 had two selectable threshold settings.
 ### **Input Threshold Variation**
 
 There might be some small variation in the precise threshold voltage channel to channel. That is most notable in the Saleae Logic Pro devices because comparators with low hysteresis are used.
+
+
+
+## Logic 1.x
+
+If you are using the older Logic 1.x software, the window for setting your voltage threshold setting will look different. You can refer to the images below if you are using this version of the software.
+
+### Logic Pro 8/16 Voltage Setting in Logic 1.x
+
+![Logic Pro 8/16 - Voltage Threshold Options](../.gitbook/assets/logicpro16.png)
+
+### Logic16 Voltage Setting in Logic 1.x
+
+![Logic16 - Voltage Threshold Options](../.gitbook/assets/logic16.png)
+
+
 

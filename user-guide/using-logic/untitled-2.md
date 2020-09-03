@@ -2,21 +2,27 @@
 
 ## Software Download & Installation
 
-### **Downloading the Latest Software**
+### **Downloading the Latest Logic 2 Software**
 
-The Saleae Logic software is available free of charge, and can be installed on as many machines as you like.
+The software is available free of charge, and can be installed on as many machines as you like.
 
-The latest stable release of the Saleae Logic software can be downloaded below:
+The latest release of the Logic 2 software can be downloaded below:
 
-{% page-ref page="../../logic-software/latest-stable-release-download.md" %}
+* [**Logic 2 Software Download**](https://ideas.saleae.com/f/changelog/)\*\*\*\*
 
-The latest Saleae Logic Beta software can be downloaded below. We've started releasing beta versions of the software to test new features and bug fixes. Once we can verify its stability, we will make it available as a stable release download.
+\*\*\*\*
+
+## Logic 1.x
+
+If you plan on using the older Logic 1.x software, you can follow the instructions below.
+
+The latest Saleae Logic 1.x Beta software can be downloaded below. This is the version of Logic 1.x that we recommend.
 
 {% page-ref page="../../logic-software/latest-beta-release.md" %}
 
 ### **Installing for Windows**
 
-Simply download and run the installer. It is the same as other software you have installed in the past. During the installation, you will be prompted if you want to trust software from Saleae \(you do\). That is because we install a driver for the Logic hardware.
+Simply download and run the installer. We install a driver for the Logic hardware as part of the installation process, so you will be prompted to trust software from Saleae.
 
 ### **If the Installer fails with an Error on Windows**
 
@@ -34,5 +40,5 @@ Download the zip file and extract it. The software will run from this folder. Yo
 
 ### **Installing for Linux – Driver**
 
-Before using the software with Logic hardware, you'll need to give the application permission to access the device \(otherwise you'll have to launch the application with sudo\). To do this, unplug any attached Logic device\(s\). From the command line, navigate to the _Driver_ folder and run the script _install_driver.sh.
+Before using the software with Logic hardware, you'll need to give the application permission to access the device \(otherwise you'll have to launch the application with sudo\). To do this, unplug any attached Logic device\(s\). From the command line, navigate to the _Driver_ folder and run the script _installdriver.sh_.
 

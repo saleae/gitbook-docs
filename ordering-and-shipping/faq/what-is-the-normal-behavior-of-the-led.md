@@ -10,7 +10,7 @@ To turn off the LED, you can either directly turn it off in the software or remo
 
 Changing the LED color and turning off the LED below:
 
-{% page-ref page="../../user-guide/using-logic/collecting-data-and-device-settings.md" %}
+{% page-ref page="../../user-guide/using-logic/capture-settings.md" %}
 
 
 
