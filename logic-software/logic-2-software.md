@@ -1,4 +1,4 @@
-# Logic 2 Software \(Alpha\)
+# Logic 2 Software
 
 {% hint style="info" %}
 Please note that this version of the software is currently in the **Alpha** stage.

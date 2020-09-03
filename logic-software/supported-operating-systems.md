@@ -1,8 +1,8 @@
 # Supported Operating Systems
 
-## Logic Software 2.x
+## Logic 2 Software
 
-\*\*\*\*[**Logic 2.x Download**](https://ideas.saleae.com/f/changelog/)\*\*\*\*
+[**Logic 2 Software Download**](https://ideas.saleae.com/f/changelog/)\*\*\*\*
 
 * Windows 8 & 10 \(64 bit\)
 * MacOS 10.14+ 

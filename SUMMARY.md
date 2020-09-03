@@ -38,7 +38,7 @@
   * [Protocols](getting-started/protocols.md)
 * [Software Download](logic-software/README.md)
   * [Supported Operating Systems](logic-software/supported-operating-systems.md)
-  * [Logic 2 Software \(Alpha\)](logic-software/logic-2-software-alpha.md)
+  * [Logic 2 Software](logic-software/logic-2-software.md)
   * [Logic 1.x Beta Software](logic-software/latest-beta-release.md)
   * [Logic 1.x Stable Software](logic-software/latest-stable-release-download.md)
   * [Firmware Updates](logic-software/firmware-updates.md)
