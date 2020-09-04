@@ -12,18 +12,6 @@
 
 {% page-ref page="device-calibration.md" %}
 
-### 
-
-### PDF Version Download
-
-{% hint style="info" %}
-For the latest User Guide content, please refer to the online version of the User Guide on this Support Site. A PDF version is provided, but may not contain the latest content.
-{% endhint %}
-
-{% file src="../.gitbook/assets/saleae-users-guide.pdf" caption="Saleae User\'s Guide PDF" %}
-
-
-
 
 
 
