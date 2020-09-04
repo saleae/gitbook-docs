@@ -39,7 +39,7 @@ If you have any trouble with the 1.2.29 software, please report it. We would lik
 
 The release notes can be found below.
 
-{% page-ref page="../changelog.md" %}
+{% page-ref page="changelog.md" %}
 
 Older versions of the software can be found below.
 
