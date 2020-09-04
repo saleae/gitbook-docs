@@ -1,14 +1,12 @@
 # Driver Install
 
-## Driver Install
-
 Normally, when the Logic software is installed, the product should simply work when connected to the PC. In other cases, such as when using the standalone version of the software, the drivers must be installed manually.
 
 {% hint style="info" %}
 If you are using any of the 2nd generation products \(Logic 4, Logic 8, Pro 8, Pro 16\), you must use the latest version of the software \(1.2.xx\) since the previous releases \(1.1.xx\) did not include drivers for these devices. You can download the latest release below.
 {% endhint %}
 
-{% page-ref page="latest-beta-release.md" %}
+{% page-ref page="legacy-software/latest-beta-release.md" %}
 
 {% hint style="info" %}
 If you have manually installed the 1st generation Logic or Logic16 drivers in the past, you will need to update to the latest software and then manually install the correct driver again.

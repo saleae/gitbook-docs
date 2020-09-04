@@ -24,7 +24,7 @@ If the error message appears even before any samples were recorded, downloading 
 _Note, alpha users should make sure they have the latest Logic 2 alpha release._
 {% endhint %}
 
-{% page-ref page="../logic-software/latest-beta-release.md" %}
+{% page-ref page="../logic-software/legacy-software/latest-beta-release.md" %}
 
 Otherwise, this indicates a potentially different issue and could be caused by one of the following:
 

@@ -45,7 +45,7 @@ For each item, first perform the test. If the test result is positive \(the test
 
     You can find all the download links for the latest beta, including the standalone releases below.
 
-{% page-ref page="../logic-software/latest-beta-release.md" %}
+{% page-ref page="../logic-software/legacy-software/latest-beta-release.md" %}
 
 ### **The Saleae Drivers Are Preventing the Software from Installing**
 

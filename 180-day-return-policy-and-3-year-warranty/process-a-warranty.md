@@ -10,7 +10,7 @@ If you believe your Logic hardware is broken, please completely perform the trou
 
 * If you are running the standalone version of the Saleae software, you will need to manually install the drivers. Driver install instructions are below.
 
-{% page-ref page="../logic-software/latest-beta-release.md" %}
+{% page-ref page="../logic-software/legacy-software/latest-beta-release.md" %}
 
 {% page-ref page="../logic-software/driver-install.md" %}
 

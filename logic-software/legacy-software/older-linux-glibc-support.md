@@ -24,7 +24,7 @@ We will continue to update and test this as we release new versions of the softw
 
 The compatibility release download links are included with the main beta download links below.
 
-{% page-ref page="../latest-beta-release.md" %}
+{% page-ref page="latest-beta-release.md" %}
 
 
 

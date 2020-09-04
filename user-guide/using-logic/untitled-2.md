@@ -1,10 +1,10 @@
 # Software Download & Installation
 
-## Software Download & Installation
-
-### **Downloading the Latest Logic 2 Software**
+## **Logic 2 Software**
 
 The software is available free of charge, and can be installed on as many machines as you like.
+
+![](../../.gitbook/assets/screen-shot-2020-09-03-at-6.52.16-pm%20%286%29.png)
 
 The latest release of the Logic 2 software can be downloaded below:
 
@@ -16,9 +16,11 @@ The latest release of the Logic 2 software can be downloaded below:
 
 If you plan on using the older Logic 1.x software, you can follow the instructions below.
 
+![](../../.gitbook/assets/screen-shot-2020-09-03-at-7.00.12-pm%20%281%29.png)
+
 The latest Saleae Logic 1.x Beta software can be downloaded below. This is the version of Logic 1.x that we recommend.
 
-{% page-ref page="../../logic-software/latest-beta-release.md" %}
+{% page-ref page="../../logic-software/legacy-software/latest-beta-release.md" %}
 
 ### **Installing for Windows**
 

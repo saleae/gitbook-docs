@@ -12,9 +12,9 @@ Download the latest version of Logic 2 below.
 
 To download our older, Logic v1.x releases, you can refer to the links below. The **Beta** version is recommended over the Stable version.
 
-{% page-ref page="latest-beta-release.md" %}
+{% page-ref page="legacy-software/latest-beta-release.md" %}
 
-{% page-ref page="latest-stable-release-download.md" %}
+{% page-ref page="legacy-software/latest-stable-release-download.md" %}
 
 
 

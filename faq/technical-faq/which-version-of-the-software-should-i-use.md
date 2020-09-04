@@ -4,7 +4,7 @@
 
 In almost all cases, you should use the latest beta release of the Saleae software. It can be found here: 
 
-{% page-ref page="../../logic-software/latest-beta-release.md" %}
+{% page-ref page="../../logic-software/legacy-software/latest-beta-release.md" %}
 
 However, there are a few reasons you may need to use an older version.
 

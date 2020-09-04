@@ -6,7 +6,7 @@ We're excited to announce the release of an early version of real-time view! Thi
 
 You can try it out in the latest version of our beta software below:
 
-{% page-ref page="../../logic-software/latest-beta-release.md" %}
+{% page-ref page="../../logic-software/legacy-software/latest-beta-release.md" %}
 
 To understand how it works, and to keep up with the latest features, you can read more about it in the [Saleae Blog](https://blog.saleae.com/).
 
