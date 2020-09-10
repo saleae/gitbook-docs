@@ -2,15 +2,25 @@
 
 Normally, when the Logic software is installed, the product should simply work when connected to the PC. In other cases, such as when using the standalone version of the software, the drivers must be installed manually.
 
-{% hint style="info" %}
-If you are using any of the 2nd generation products \(Logic 4, Logic 8, Pro 8, Pro 16\), you must use the latest version of the software \(1.2.xx\) since the previous releases \(1.1.xx\) did not include drivers for these devices. You can download the latest release below.
-{% endhint %}
+### Prerequisites
+
+#### Using Logic 4, Logic 8, Pro 8, or Pro 16?
+
+If you are using any of the 2nd generation products \(Logic 4, Logic 8, Pro 8, Pro 16\), you must use the latest version Logic 1.x software below.
 
 {% page-ref page="legacy-software/latest-beta-release.md" %}
 
-{% hint style="info" %}
+#### Using Original Logic or Logic16?
+
 If you have manually installed the 1st generation Logic or Logic16 drivers in the past, you will need to update to the latest software and then manually install the correct driver again.
-{% endhint %}
+
+#### Device Shows up as _WestBridge_ or _unidentified device_
+
+In Windows, the Saleae Logic may show up as a _WestBridge_ or _unidentified_ device in device manager. If this is the case, then there is a problem with the Saleae driver. Please install the driver per the methods listed in this support article.
+
+![Saleae Logic showing up as a WestBridge device](../.gitbook/assets/screen-shot-2020-09-10-at-4.26.44-pm.png)
+
+If the drivers are installed properly, you should see _Saleae Logic X USB Logic Analyzer_ in Device Manager, where "X" is the specific product version \(4, 8, Pro 8, Pro 16\).
 
 ### Method 1: New Hardware Wizard Installation
 
