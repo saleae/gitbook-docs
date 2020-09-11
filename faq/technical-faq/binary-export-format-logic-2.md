@@ -164,8 +164,8 @@ AnalogData = namedtuple('AnalogData', ('begin_time', 'sample_rate', 'downsample'
 def parse_analog(f):
     # Parse header
     identifier = f.read(8)
-    if identifier != "<SALEAE>":
-        raise "Not a saleae file"
+    if identifier != b"<SALEAE>":
+        raise Exception("Not a saleae file")
 
     version, datatype = struct.unpack('=ii', f.read(8))
 
