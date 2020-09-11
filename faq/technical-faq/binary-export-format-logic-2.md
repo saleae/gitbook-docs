@@ -66,6 +66,7 @@ for each sample in num_samples:
 **Digital data**
 
 ```python
+import array
 import struct
 import sys
 from collections import namedtuple
@@ -89,10 +90,10 @@ def parse_digital(f):
 
     # Parse digital-specific data
     initial_state, begin_time, end_time, num_transitions = struct.unpack('=iddq', f.read(28))
-    transition_times = []
-    for _ in range(num_transitions):
-        time, = struct.unpack('=d', f.read(8))
-        transition_times.append(time)
+
+    # Parse transition times
+    transition_times = array.array('d')
+    transition_times.fromfile(f, num_transitions)
 
     return DigitalData(initial_state, begin_time, end_time, num_transitions, transition_times)
 
@@ -151,6 +152,7 @@ Num transitions: 1031
 **Analog data**
 
 ```python
+import array
 import struct
 import sys
 from collections import namedtuple
@@ -174,10 +176,10 @@ def parse_analog(f):
 
     # Parse analog-specific data
     begin_time, sample_rate, downsample, num_samples = struct.unpack('=dqqq', f.read(32))
-    samples = []
-    for _ in range(num_samples):
-        voltage, = struct.unpack('=f', f.read(4))
-        samples.append(voltage)
+
+    # Parse samples
+    samples = array.array("f")
+    samples.fromfile(f, num_samples)
 
     return AnalogData(begin_time, sample_rate, downsample, num_samples, samples)
 
