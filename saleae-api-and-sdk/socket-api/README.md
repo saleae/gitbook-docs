@@ -37,6 +37,16 @@ The [Python Sample Application](https://github.com/saleae/python-saleae-cli) imp
 
 {% page-ref page="export-data.md" %}
 
+You may also send supported socket commands directly via the terminal using the Python wrapper, as shown below. See our [list of supported commands](https://github.com/saleae/SaleaeSocketApi/blob/master/Doc/Logic%20Socket%20API%20Users%20Guide.md).
+
+```text
+C:\Python>python.exe
+>>> import saleae
+>>> s = saleae.Saleae()
+>>> s._cmd('set_capture_seconds, 1')
+>>> s._cmd('capture')
+```
+
 ### C\# Wrapper - Automation Method \#2
 
 For more complex automation requirements, you can refer to our C\# Wrapper below:
