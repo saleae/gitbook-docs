@@ -100,7 +100,7 @@
     * [2. Build - Analyzer SDK](saleae-api-and-sdk/protocol-analyzer-sdk/build.md)
     * [3. Debug - Analyzer SDK](saleae-api-and-sdk/protocol-analyzer-sdk/debug.md)
   * [More Information](saleae-api-and-sdk/other-information/README.md)
-    * [Device SDK](saleae-api-and-sdk/other-information/device-sdk.md)
+    * [Can I Access Raw Data in Real Time?](saleae-api-and-sdk/other-information/device-sdk.md)
     * [Migrate Code to the New Analyzer SDK](saleae-api-and-sdk/other-information/migrate-code-to-the-new-analyzer-sdk.md)
     * [Sharing Custom Analyzer Code](saleae-api-and-sdk/other-information/sharing-custom-analyzer-code.md)
     * [VB.NET Support for Automation](saleae-api-and-sdk/other-information/vb-net.md)
