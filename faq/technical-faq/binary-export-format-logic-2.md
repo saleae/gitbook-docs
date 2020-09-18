@@ -21,15 +21,15 @@ int32 version;
 int32 type;
 ```
 
-For Saleae binary exports, the identifier will always be `<SALEAE>`. The current version is `0`. 
+For Saleae binary exports, the identifier will always be `<SALEAE>`. The current version is `0`.
 
-Types:   
+Types:  
 `0` - Digital  
 `1` - Analog
 
 The remaining format is based on the type of the data.
 
-#### Digital
+## Digital
 
 File structure \(starting with the shared header above\)
 
@@ -45,7 +45,7 @@ for each transition in num_transitions
     double transition_time;
 ```
 
-#### Analog
+## Analog
 
 File structure \(starting with the shared header above\)
 
@@ -61,7 +61,7 @@ for each sample in num_samples:
     float voltage;
 ```
 
-#### Sample Python code for reading binary data
+## Sample Python code for reading binary data
 
 **Digital data**
 

@@ -24,7 +24,7 @@ If you see the following error after restarting the software on **MacOS**, pleas
 
 1. Open the Terminal \(open Spotlight -&gt; search "Terminal" -&gt; press enter\)
 2. navigate to the directory containing your custom analyzer \(e.g. `cd ~/Downloads/mylla`\)
-3. run the following command, replacing `libYourCustomAnalyzer.so` with your analyzer's file name:
+3. run the following command, replacing `libYourCustomAnalyzer.dylib` with your analyzer's file name:
 
    `install_name_tool -change @executable_path/libAnalyzer.dylib @rpath/libAnalyzer.dylib libYourCustomAnalyzer.dylib`
 
