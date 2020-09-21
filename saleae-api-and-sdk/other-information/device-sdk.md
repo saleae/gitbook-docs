@@ -1,6 +1,8 @@
 # Can I Access Raw Data in Real Time?
 
-Accessing raw data in real time is currently **not supported** by Saleae. We still provide the Device SDK for download for those who have it already running with our Original Logic and Logic16. The Device SDK is not compatible with Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16.
+### Is Direct RAM Access Supported?
+
+Raw data captured by our logic analyzer is streamed directly to RAM. Accessing this raw data in real time is currently **not supported** by Saleae. We still provide the Device SDK for download for those who have it already running with our Original Logic and Logic16. The Device SDK is not compatible with Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16.
 
 Saleae currently offers the following APIs for interfacing with our products.
 
