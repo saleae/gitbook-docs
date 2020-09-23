@@ -14,7 +14,7 @@ For lower speed applications such as I2C or serial, 1 hour+ captures are routine
 
 After the single, long capture is complete, it's possible to use the trigger feature to search the capture for instances of the trigger condition. See the article below for details.
 
-{% page-ref page="../../user-guide/using-logic/using-the-trigger.md" %}
+{% page-ref page="../../user-guide/using-logic/capture-modes.md" %}
 
 ### **Using the Automation API**
 

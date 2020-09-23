@@ -1,12 +1,38 @@
-# Using the Trigger
+# Capture Modes
 
-## **Using the Trigger**
+### Timer Mode
 
-The trigger can be used to start capturing data after a specified digital event occurs.
+The timer mode is the simplest mode of data capture. A pre-defined duration is set by the user and the capture will end once the duration is reached. In the example video below, we set the capture duration to 5s. The recording will stop once 5s is reached.
 
-Two types of triggers are supported: Trigger on Edge and Trigger on Pulse Width.
+{% embed url="https://vimeo.com/461183310" caption="Timer Mode Capture" %}
 
-The trigger can be used to trigger on an event from any channel. To move the event trigger to a different channel, first remove it using the steps at the bottom of this page, and then add it to a different channel.
+### Looping Mode
+
+The looping mode allows for a continuous recording into a RAM buffer, the size of which can be set by the user. Once the RAM buffer is filled, new data replaces old data in a FIFO method and the capture can continue indefinitely. When the capture ends, the data can be trimmed down to a certain length via the _Trim data after stopping_ setting, keeping the most recent data. 
+
+In the example video below, we set the _Memory buffer size_ to 500 MB. Notice that, during the capture, the memory usage does not go above the set _Memory_ value of 500 MB during the continuous recording.
+
+{% embed url="https://vimeo.com/461178867" caption="Looping Mode Capture" %}
+
+### Trigger Mode
+
+The trigger mode will continuously record data until a digital trigger is found on a single channel. The four available types of digital triggers are Rising Edge, Falling Edge, High Pulse, and Low Pulse.
+
+![Trigger Mode Capture Settings](../../.gitbook/assets/screen-shot-2020-09-23-at-6.25.23-pm.png)
+
+In addition to the edge/pulse trigger which is set on a single digital channel, you can require other digital channels to be either HIGH or LOW to trigger a capture.
+
+![Digital Channel State Conditions for Trigger](../../.gitbook/assets/screen-shot-2020-09-23-at-6.32.26-pm.png)
+
+
+
+## Logic 1.x
+
+If you are using the older Logic 1.x software, the following images and instructions apply.
+
+### **Using the Trigger**
+
+The trigger can be used to start capturing data after a specified digital event occurs. Two types of triggers are supported: Trigger on Edge and Trigger on Pulse Width. The trigger can be used to trigger on an event from any channel. To move the event trigger to a different channel, first remove it using the steps at the bottom of this page, and then add it to a different channel.
 
 ### **Trigger on Edge**
 

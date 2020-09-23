@@ -12,8 +12,8 @@ From this panel, several settings can be configured, such as:
 * Analog Channels
 * Analog Sampling Rate
 * Preset Saving/Loading
-* Capture Types \(Looping, Timer, & Trigger\)
-* Capture Type Specific Settings
+* Capture Modes \(Looping, Timer, & Trigger\)
+* Capture Mode Specific Settings
 * Trim
 * Glitch Filter
 * Memory Buffer Size
@@ -22,27 +22,21 @@ Our tutorial video below demonstrates setting some basic settings such as enabli
 
 {% embed url="https://www.youtube.com/watch?v=XhWKoFj\_p9k&t=47s" %}
 
-
-
 ### Channels & Sampling Rate
 
 Individual digital and analog channels can be enabled and disabled as needed. In addition, the sampling rate for digital and analog channels respectively can also be adjusted. 
 
 {% embed url="https://vimeo.com/454542912" caption="Enabling/Disabling Channels" %}
 
-Please note that changing these settings may affect the available sampling rates for other channels. When this happens, you will receive a popup like shown below.
+Please note that changing these settings may affect the available sampling rates for other channels. This is due to the total amount of available bandwidth that our logic analyzers can support. When this happens, you will receive a popup about the sampling rate change like shown below.
 
 {% embed url="https://vimeo.com/461157523" caption="Sampling Rate Change Popup Warning" %}
-
-
 
 ### Digital Voltage Setting
 
 Logic Pro 8, Logic Pro 16, and our Original Logic16 all feature adjustable voltage thresholds, which can be set via the voltage dropdown setting next to the digital sampling rate setting. The _3.3+ Volts_ setting, for example, will set the voltage threshold to half that value, or 1.65 V. Our other logic analyzer models have a fixed voltage threshold, and therefore do not have this setting. For more information on the voltage setting options and thresholds, see our support article on this below.
 
 {% page-ref page="../supported-voltages.md" %}
-
-
 
 ### Capture Settings Presets
 
@@ -53,6 +47,12 @@ Capture settings presets can be saved and loaded locally as needed by clicking o
 To share your presets with others, you can export your preset and import it into a new PC. Click on the 3 dots to the right of your preset to open up the options menu for that preset. This will allow you to load, rename, export, or delete you preset. To import a preset, click the _Import_ button at the bottom of the Presets window.
 
 ![Presets Options Window](../../.gitbook/assets/preset-options.png)
+
+### Capture Modes - Looping, Timer, & Trigger
+
+For more information on the available capture modes and their specific settings, see the support article below.
+
+{% page-ref page="capture-modes.md" %}
 
 
 

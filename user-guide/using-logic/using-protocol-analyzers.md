@@ -1,4 +1,4 @@
-# Using Protocol Analyzers
+# Analyzers
 
 ## Using Protocol Analyzers
 
