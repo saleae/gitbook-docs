@@ -1,5 +1,9 @@
 # Software Download & Installation
 
+Before downloading and installing the software, please review the supported operating systems in the link below.
+
+{% page-ref page="../../logic-software/supported-operating-systems.md" %}
+
 ## **Logic 2 Software**
 
 The software is available free of charge, and can be installed on as many machines as you like.
