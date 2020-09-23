@@ -16,7 +16,7 @@ The latest release of the Logic 2 software can be downloaded below:
 
 \*\*\*\*
 
-## Logic 1.x
+## Logic 1.x Software
 
 If you plan on using the older Logic 1.x software, you can follow the instructions below.
 

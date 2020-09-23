@@ -33,6 +33,8 @@ Click the green "Start" button to begin a data capture.
 
 The side panel buttons offer various ways to configure your logic analyzer settings. More information on these settings can be found in the articles below.
 
+![Side Panel Buttons](../../.gitbook/assets/screen-shot-2020-09-23-at-5.02.24-pm.png)
+
 {% page-ref page="capture-settings.md" %}
 
 {% page-ref page="using-protocol-analyzers.md" %}
