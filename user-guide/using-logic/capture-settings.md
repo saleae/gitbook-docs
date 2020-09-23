@@ -82,8 +82,6 @@ If the software incorrectly reports _Disconnected_, please follow this troublesh
 
 {% page-ref page="../../troubleshooting/troubleshooting-the-software-connection.md" %}
 
-### \*\*\*\*
-
 ### **Device Settings**
 
 To access device settings, click the up or down arrow in the top-left of the software. To close the Device Settings, click on something outside the popover. The Device Settings pop-up consists of the following sections.
@@ -132,8 +130,6 @@ The device settings may be different depending on the Saleae Logic model that is
 
 8. **Device** 
    * While no Logic hardware is connected, you can select a device to simulate. There is no option to simulate our discontinued products. If you have more than one Logic attached, you can toggle between them here. You also can control the LED color by clicking the gear icon.
-
-### \*\*\*\*
 
 ### **LED Settings and Color**
 
