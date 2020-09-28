@@ -175,7 +175,7 @@
   * [Saleae Logic LED Blinks Red](troubleshooting/led-blinks-red.md)
   * [Crashes Caused by macOS Mojave \(10.14\)](troubleshooting/mojave-crashes.md)
   * [Troubleshooting Signal Crosstalk](troubleshooting/crosstalk.md)
-  * [Error When Issuing the Start Command](troubleshooting/error-when-issuing-the-start-command.md)
+  * [Error Message: DeviceSetupFailure](troubleshooting/device-setup-failure.md)
   * [Error Message: Unable to detect WebGL](troubleshooting/error-message-unable-to-detect-webgl.md)
   * [Sharing your Machine ID](troubleshooting/sharing-your-machine-id.md)
   * [Warning Message: Unsupported Version](troubleshooting/unsupported-version.md)

@@ -1,4 +1,4 @@
-# Error When Issuing the Start Command
+# Error Message: DeviceSetupFailure
 
 In the Logic 2 software, you may encounter a _DeviceSetupFailure_ error message when starting a capture.
 
