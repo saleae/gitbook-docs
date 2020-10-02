@@ -67,6 +67,7 @@
     * [Saving, Loading, and Exporting Data](user-guide/using-logic/saving-loading-and-exporting-data.md)
     * [Saving and Loading Software Settings](user-guide/using-logic/saving-and-loading-software-settings.md)
     * [Analyzers](user-guide/using-logic/using-protocol-analyzers.md)
+    * [Analyzer Data Table](user-guide/using-logic/analyzer-data-table.md)
     * [Simulation Mode](user-guide/using-logic/simulation-mode.md)
     * [Software Glitch Filter](user-guide/using-logic/software-glitch-filter.md)
     * [Capture Settings Configuration Guide](user-guide/using-logic/capture-settings-configuration-guide.md)
