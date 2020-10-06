@@ -57,9 +57,16 @@ If you have the original Logic or Logic 16, then you have one or more 1x9 wire h
 
 When using Logic16 with more than 8 inputs, we recommend connecting the second ground line—especially if using higher voltages \(5V\). That will help reduce cross-talk during any simultaneous switching events.
 
-## 3D Printed Accessories
+## Community Created Accessories
 
-Several 3D printable Saleae Logic accessories have been made available by our community of users. They are available for download below.
+Several Logic accessories have been made available by our community of users. These are listed below. If you've created an accessory that you'd like to share, [let us know](https://contact.saleae.com/hc/en-us/requests/new)!
+
+### 10:1 Attenuator
+
+* Product Page: [http://www.hunterembedded.co.uk/products/](http://www.hunterembedded.co.uk/products/)
+* Description: The attenuator plugs in between the Logic device and the probes and is shaped to allow multiple ones to be used together. It provides attenuation with Low Frequency compensation on 4 channels.
+
+![10:1 Attenuator connected to Logic](../../.gitbook/assets/two-attenuators-connected.jpg)
 
 ### Logic Pro 16 Analyzer Dock Station
 
