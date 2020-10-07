@@ -1,6 +1,4 @@
-# Saving, Loading, and Exporting Data
-
-## Saving, Loading, and Exporting Data
+# Saving, Loading & Exporting Data
 
 ### **Saving Captures**
 
