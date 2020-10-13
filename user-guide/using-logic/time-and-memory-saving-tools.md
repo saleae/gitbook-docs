@@ -24,8 +24,6 @@ The software includes various keyboard shortcuts to set up and start captures, a
 
 The software settings can be saved and loaded at a later time, allowing the user to recall a particular setup. This is especially useful when jumping back and forth between multiple test setups.
 
-{% page-ref page="saving-and-loading-software-settings.md" %}
-
 ### **Reducing Capture File Disk Usage**
 
 The file size of a capture file \(.logicdata file\) can be significantly reduced by zipping it to a compressed folder. This is especially useful when sending your capture file over the network. 

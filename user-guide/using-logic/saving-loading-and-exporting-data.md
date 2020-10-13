@@ -38,8 +38,6 @@ To export your setting, click the Options button at the top right and select Sav
 
 More details on saving settings are described below:
 
-{% page-ref page="saving-and-loading-software-settings.md" %}
-
 ### **Exporting in CSV Format**
 
 CSV format is a text format suitable for opening in a spreadsheet application or loading from a script. You can choose to include column headings and choose commas or tabs as the delimiter.

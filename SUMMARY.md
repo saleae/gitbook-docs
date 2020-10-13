@@ -64,7 +64,6 @@
     * [Navigating Your Data](user-guide/using-logic/navigating-your-data.md)
     * [Measurements & Timing Markers](user-guide/using-logic/measurements-timing-markers.md)
     * [Saving, Loading & Exporting Data](user-guide/using-logic/saving-loading-and-exporting-data.md)
-    * [Saving & Loading Settings](user-guide/using-logic/saving-and-loading-software-settings.md)
     * [Trimming Your Data](user-guide/using-logic/trim.md)
     * [Analyzers](user-guide/using-logic/using-protocol-analyzers.md)
     * [Analyzer Data Table](user-guide/using-logic/analyzer-data-table.md)
