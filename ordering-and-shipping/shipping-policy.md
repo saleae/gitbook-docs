@@ -46,6 +46,10 @@ Saleae observes the typical United States holidays and does not ship on the foll
 * Thanksgiving Day \(fourth Thursday in November\)
 * Christmas Day \(December 25\).
 
+### Can You Ship to a PO Box Address?
+
+No, unfortunately we cannot ship to PO Boxes.
+
 ### **In-Stock Items**
 
 Normally, orders placed before 12 pm PST on weekdays are shipped the same day. The stocking status \(in stock or out of stock\) is displayed under each item in your cart.
