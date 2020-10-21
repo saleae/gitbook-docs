@@ -25,13 +25,13 @@
   * Submit a Quote Request \(optional step - see link below this article\)
   * Create a PO and send it to us by [writing to support](https://contact.saleae.com/hc/en-us/requests/new)​
   * We will reply with a Proforma Invoice, including our bank information.
-  * Send the payment to Saleae.
+  * Send the payment to Saleae. Important: Please let us know via email once the payment is sent.
   * We will ship the order on the first business day after the payment is received.
 * Method 2 – NET30 Payment Terms \(for existing customers only\)
   * Submit a Quote Request \(optional step - see link below this article\)
   * Create a PO and send it to us by [writing to support](https://contact.saleae.com/hc/en-us/requests/new)
   * We will reply with an Invoice, and the order will ship.
-  * Send the payment to Saleae.
+  * Send the payment to Saleae. Important: Please let us know via email once the payment is sent.
   * Payment must be received within 30 days of the invoice date.
 
 ### Submitting a Quote Request
