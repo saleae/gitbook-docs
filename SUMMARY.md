@@ -182,6 +182,7 @@
   * [Error Function: Device2::SetupDevice](troubleshooting/error-function-device2-setupdevice.md)
   * [Warning Message: Possible USB Driver Problem Detected](troubleshooting/usb-driver-problem.md)
   * [Error Message: StartCommandError](troubleshooting/start-command-error.md)
+  * [Logic 2 Error Messages](troubleshooting/logic-2-error-messages.md)
 * [FAQ](faq/README.md)
   * [Technical FAQ](faq/technical-faq/README.md)
     * [System Requirements for Saleae Products](faq/technical-faq/system-requirements-for-saleae-products.md)
