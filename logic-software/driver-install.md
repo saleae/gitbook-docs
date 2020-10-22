@@ -22,6 +22,8 @@ In Windows, the Saleae Logic may show up as a _WestBridge_ or _unidentified_ dev
 
 If the drivers are installed properly, you should see _Saleae Logic X USB Logic Analyzer_ in Device Manager, where "X" is the specific product version \(4, 8, Pro 8, Pro 16\).
 
+## Windows Instructions
+
 ### Method 1: New Hardware Wizard Installation
 
 We want to get to the new-hardware wizard for Logic. Please connect Logic and then open the Device Manager.
@@ -129,5 +131,17 @@ If at the end of this process you still get an error, please [contact support](h
   * On newer versions of Windows, it should be here: 
     * C:\WINDOWS\INF\setupapi.dev.log
 
+## Linux Ubuntu Instructions
 
+When the Logic 2 software is opened, a udev rule file is checked. If the udev rule is missing, then an error message will popup to prompt you to install the proper udev rule file. Follow the instructions to open the terminal and run the command to install the udev file.
+
+![](../.gitbook/assets/screen-shot-2020-10-22-at-2.48.48-pm.png)
+
+Instructions: 
+
+1. Open terminal
+2. Run the command below
+3. Restart the app
+
+`cat /tmp/.mount_Logic-AZEAnR/resources/linux/99-SaleaeLogic.rules | sudo tee /etc/udev/rules.d/99-SaleaeLogic.rules > /dev/null && echo "finished installing /etc/udev/rules.d/99-SaleaeLogic.rules"`
 
