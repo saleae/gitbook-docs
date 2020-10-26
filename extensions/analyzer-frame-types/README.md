@@ -16,6 +16,7 @@ Right now, there are 8 analyzers that can be used with high level analyzers:
 * [Manchester](manchester-analyzer.md)
 * [Parallel](simple-parallel-analyzer.md)
 * [LED](async-rgb-led-analyzer.md)
+* [1-Wire](1-wire-analyzer.md)
 
 In order to write a high level analyzer, the data format produced by the connected source analyzer must be understood. 
 
