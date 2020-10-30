@@ -1,8 +1,7 @@
 # I2S Analyzer
-  
 
 ## Output Frame Format
-  
+
 ### Frame Type: `"error"`
 
 | Property | Type | Description |
@@ -19,3 +18,4 @@ I2S decode error
 | `data` | int | Audio value. signed or unsigned, based on I2S/PCM analyzer settings |
 
 A single sample from a single channel
+
