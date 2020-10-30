@@ -90,6 +90,7 @@
     * [Async RGB LED Analyzer](extensions/analyzer-frame-types/async-rgb-led-analyzer.md)
     * [Simple Parallel Analyzer](extensions/analyzer-frame-types/simple-parallel-analyzer.md)
     * [Local Interconnect Network \(LIN\) Analyzer](extensions/analyzer-frame-types/lin-analyzer.md)
+    * [I2S Analyzer](extensions/analyzer-frame-types/i2s-analyzer.md)
   * [API Documentation](extensions/api-documentation.md)
 * [Automation & SDK](saleae-api-and-sdk/README.md)
   * [What Saleae APIs are Available?](saleae-api-and-sdk/what-apis-are-available.md)
