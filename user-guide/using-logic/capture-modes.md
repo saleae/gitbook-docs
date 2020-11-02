@@ -36,7 +36,11 @@ If you are using the older Logic 1.x software, the following images and instruct
 
 ### **Using the Trigger**
 
-The trigger can be used to start capturing data after a specified digital event occurs. Two types of triggers are supported: Trigger on Edge and Trigger on Pulse Width. The trigger can be used to trigger on an event from any channel. To move the event trigger to a different channel, first remove it using the steps at the bottom of this page, and then add it to a different channel.
+The trigger can be used to start capturing data after a specified digital event occurs. Any data captured before the trigger event will also be included in the capture as specified by the "Pre-trigger buffer size" setting under the Preferences window.
+
+![Pre-trigger Buffer Size Setting](../../.gitbook/assets/screen-shot-2020-11-02-at-3.58.45-pm.png)
+
+Two types of triggers are supported: Trigger on Edge and Trigger on Pulse Width. The trigger can be used to trigger on an event from any channel. To move the event trigger to a different channel, first remove it using the steps at the bottom of this page, and then add it to a different channel.
 
 ### **Trigger on Edge**
 
