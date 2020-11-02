@@ -24,6 +24,10 @@ In addition to the edge/pulse trigger which is set on a single digital channel, 
 
 ![Digital Channel State Conditions for Trigger](../../.gitbook/assets/screen-shot-2020-09-23-at-6.32.26-pm.png)
 
+While waiting for the trigger, the software will continue using the PC's RAM/memory until the "Memory buffer size" limit is reached. This setting is important, as the software will not exceed this limit. Please make sure to size the "Memory buffer size" appropriately from within the capture settings panel, such that your PC does not run out of memory while waiting for a trigger.
+
+![Memory Buffer Size Setting](../../.gitbook/assets/screen-shot-2020-11-02-at-3.53.54-pm.png)
+
 
 
 ## Logic 1.x
