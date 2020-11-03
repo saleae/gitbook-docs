@@ -38,3 +38,13 @@ SPI
 Mark's SPI Analyzer
 ```
 
+### A Note on Renaming other Analyzers
+
+The rename\_analyzer.py script mentioned in the section above only works for the SampleAnalyzer used in this example. For any other analyzer, the rename\_analyzer.py script will not work. To rename other analyzers, please follow the instructions shown in the article below.
+
+{% page-ref page="renaming-a-custom-analyzer.md" %}
+
+
+
+
+
