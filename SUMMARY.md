@@ -100,6 +100,7 @@
     * [1. Setup - Analyzer SDK](saleae-api-and-sdk/protocol-analyzer-sdk/setup.md)
     * [2. Build - Analyzer SDK](saleae-api-and-sdk/protocol-analyzer-sdk/build.md)
     * [3. Debug - Analyzer SDK](saleae-api-and-sdk/protocol-analyzer-sdk/debug.md)
+    * [Renaming a Custom Analyzer](saleae-api-and-sdk/protocol-analyzer-sdk/renaming-a-custom-analyzer.md)
   * [More Information](saleae-api-and-sdk/other-information/README.md)
     * [Can I Access Raw Data in Real Time?](saleae-api-and-sdk/other-information/device-sdk.md)
     * [Migrate Code to the New Analyzer SDK](saleae-api-and-sdk/other-information/migrate-code-to-the-new-analyzer-sdk.md)
