@@ -8,7 +8,7 @@
   * [Distributors](ordering-and-shipping/distributors.md)
   * [Pricing and Availability](ordering-and-shipping/pricing-and-availability.md)
   * [Discounts](ordering-and-shipping/what-discounts-are-available.md)
-  * [Tax Exemption](ordering-and-shipping/tax-exemption.md)
+  * [Tax & VAT Exemption](ordering-and-shipping/tax-exemption.md)
   * [Shipping Policy](ordering-and-shipping/shipping-policy.md)
   * [Invoices & W-9](ordering-and-shipping/documents/README.md)
     * [Receiving Invoices](ordering-and-shipping/documents/i-would-like-another-copy-of-my-invoice.md)

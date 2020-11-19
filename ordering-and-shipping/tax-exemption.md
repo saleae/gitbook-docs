@@ -1,4 +1,6 @@
-# Tax Exemption
+# Tax & VAT Exemption
+
+## Tax Exemption for U.S. Orders
 
 {% hint style="info" %}
 Please wait for our support team's approval email \(usually 1-2 business days after the tax exemption certificate is provided\) before placing your tax exempt order. Our process is highlighted below.
@@ -14,4 +16,12 @@ Please wait for our support team's approval email \(usually 1-2 business days af
 ### Refund of Tax Charges
 
 If the order has already shipped, then the sales tax has already been collected. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) and attach your tax exemption certificate. After approval, we can provide a refund of the tax charges. We can only process tax refunds for orders placed directly on our website at [www.saleae.com](https://www.saleae.com/).
+
+## VAT Exemption for EU Orders
+
+For orders shipping to Europe, you may enter your VAT number by clicking on the "VAT exempt" checkbox on our cart page.
+
+![VAT exempt checkbox on the cart page](../.gitbook/assets/screen-shot-2020-11-18-at-10.54.53-pm.png)
+
+
 
