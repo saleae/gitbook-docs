@@ -11,6 +11,7 @@ This error message appears when the Start command fails. The solutions below wil
 * Connecting directly to a PCs USB port rather than through a USB hub
 * Connecting to a different USB port on the PC
 * Removing and reconnecting the logic analyzer to the PC
+* Removing all other USB devices from the PC \(we have seen USB debuggers interfere with Logic's communication with the PC\)
 
 We have also seen this issue in the past when using our logic analyzer with Etron USB host controllers. If you find that your PC has an _Etron USB 3.0 eXtensible Host Controller_, please try other USB ports. This may help determine if your USB host controller is the source of the issue.
 
