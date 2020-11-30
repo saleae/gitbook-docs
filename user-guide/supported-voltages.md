@@ -1,7 +1,5 @@
 # Supported Voltages
 
-## Supported Voltages
-
 There are two important specifications to keep in mind when determining what signals can be recorded with the Saleae products and what signals could potentially damage the device.
 
 The first is the supported IO thresholds. These define the voltage thresholds that determine what is recorded as a digital 0 and a digital 1.
@@ -9,6 +7,10 @@ The first is the supported IO thresholds. These define the voltage thresholds th
 The second is the over-voltage protection. It determines the maximum input voltage that can be applied without risking damage to the device.
 
 For all Saleae products, all inputs share the same IO threshold. For products with selectable thresholds, there is no way to assign different IO thresholds to different pins at the same time. All pins share the same threshold setting.
+
+### A Note on Input Threshold Variation
+
+There might be some small variation in the precise threshold voltage channel to channel. That is most notable in the Saleae Logic Pro devices because comparators with low hysteresis are used.
 
 ### **Logic 8**
 
@@ -116,9 +118,7 @@ The original Logic16 had two selectable threshold settings.
 * Over-voltage protection provides safety to +/- 50V
   * Note: Over-voltage protection not meant for continuous operation outside of -0.9V to 6V. That makes the device unsuitable for safe, direct recording of RS-232 and similar standards.
 
-### **Input Threshold Variation**
 
-There might be some small variation in the precise threshold voltage channel to channel. That is most notable in the Saleae Logic Pro devices because comparators with low hysteresis are used.
 
 
 
