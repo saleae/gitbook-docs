@@ -81,9 +81,27 @@ The original Logic is the only Saleae device to have internally pulled up inputs
 
 ### **First-Generation Logic16**
 
+{% hint style="info" %}
+In the Logic 2 software, the voltage threshold is not yet selectable for Logic16. The menu selections for the two voltage settings currently do not work. This is on our backlog to fix. We will track our progress with this [here](https://ideas.saleae.com/b/feature-requests/bug-logic16-voltage-threshold-selection-not-working/).
+
+In the meantime, if the voltage setting needs to be adjusted on your Logic16, we recommend using Logic 1.x for the time being until this is fixed in Logic 2. Sorry for the inconvenience with this.
+{% endhint %}
+
+
+
+## Logic 1.x
+
+If you are using the older Logic 1.x software, the window for setting your voltage threshold setting will look different. You can refer to the images below if you are using this version of the software.
+
+### Logic Pro 8/16 Voltage Setting in Logic 1.x
+
+![Logic Pro 8/16 - Voltage Threshold Options](../.gitbook/assets/logicpro16.png)
+
+### Logic16 Voltage Setting in Logic 1.x
+
 The original Logic16 had two selectable threshold settings.
 
-![Logic16 - Voltage Threshold Setting in the Logic 2 software](../.gitbook/assets/screen-shot-2020-09-03-at-4.02.48-pm.png)
+![Logic16 - Voltage Threshold Options](../.gitbook/assets/logic16.png)
 
 * 1.8V to 3.6V Setting
 
@@ -101,20 +119,6 @@ The original Logic16 had two selectable threshold settings.
 ### **Input Threshold Variation**
 
 There might be some small variation in the precise threshold voltage channel to channel. That is most notable in the Saleae Logic Pro devices because comparators with low hysteresis are used.
-
-
-
-## Logic 1.x
-
-If you are using the older Logic 1.x software, the window for setting your voltage threshold setting will look different. You can refer to the images below if you are using this version of the software.
-
-### Logic Pro 8/16 Voltage Setting in Logic 1.x
-
-![Logic Pro 8/16 - Voltage Threshold Options](../.gitbook/assets/logicpro16.png)
-
-### Logic16 Voltage Setting in Logic 1.x
-
-![Logic16 - Voltage Threshold Options](../.gitbook/assets/logic16.png)
 
 
 
