@@ -1,4 +1,4 @@
-# How to Create an Extension?
+# Create and Use Extensions
 
 ## Create an Extension
 
