@@ -8,7 +8,7 @@ In rare cases, you may come across the error message below when trying to purcha
 
 ### Solution
 
-To quickly solve this, swap the “Address” and “Apartment, suite, etc” fields like shown below.
+To quickly solve this, swap the “Address” and “Apartment, suite, etc” fields like shown below. If the address does not contain an apartment/suite number, then you can leave the "Address" field blank. This works because our cart system only checks for the word "Post" in the "Address" field.
 
 ![Swap the Address and Apartment/suite fields](../../.gitbook/assets/swap.png)
 
