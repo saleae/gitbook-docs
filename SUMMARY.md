@@ -212,7 +212,6 @@
     * [Can I Use Multiple Logics on a Single PC?](faq/technical-faq/use-multiple-logics-on-a-single-pc.md)
     * [Native Windowing Features Are Not Working Such as Snap or Gestures](faq/technical-faq/native-windowing-features-are-not-working.md)
     * [Are .logicdata files Backward and Forward Compatible?](faq/technical-faq/logicdata-files-backward-and-forward-compatible.md)
-    * [Is It Possible to Trigger On a Protocol Frame or Pattern of Bytes?](faq/technical-faq/is-it-possible-to-trigger-on-a-protocol-frame-or-pattern-of-bytes.md)
     * [How to Choose the Right Logic Analyzer for You](faq/technical-faq/how-to-choose-the-right-logic-analyzer-for-you.md)
     * [Saleae Open Source Support](faq/technical-faq/saleae-open-source-support.md)
     * [How to Trigger the End of a Capture Instead of the Start](faq/technical-faq/how-to-trigger-the-end-of-a-capture-instead-of-the-start.md)

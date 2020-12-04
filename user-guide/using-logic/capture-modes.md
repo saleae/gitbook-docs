@@ -28,7 +28,11 @@ While waiting for the trigger, the software will continue using the PC's RAM/mem
 
 ![Memory Buffer Size Setting](../../.gitbook/assets/screen-shot-2020-11-02-at-3.53.54-pm.png)
 
+### Trigger on a Protocol Frame
 
+Navigate to the "Analyzers" panel and enable "Trigger View." From there, select the protocol analyzer you would like to trigger on, as well as the query value and holdoff time.
+
+![Triggering on a protocol frame](../../.gitbook/assets/screen-shot-2020-12-04-at-3.10.17-pm.png)
 
 ## Logic 1.x
 
