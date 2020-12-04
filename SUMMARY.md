@@ -28,7 +28,7 @@
     * [Recommended USB 3.0 Host Controller Cards](ordering-and-shipping/faq/recommended-usb-3.0-host-controller-cards.md)
     * [What Is the Normal Behavior of the LED?](ordering-and-shipping/faq/what-is-the-normal-behavior-of-the-led.md)
     * [Saleae Tax & VAT Information](ordering-and-shipping/faq/what-is-saleaes-vat-and-tax-id-number.md)
-    * [Unable to Ship to PO Box Error Message](ordering-and-shipping/faq/unable-to-ship-to-po-box-error-message.md)
+    * [Unable to Ship to PO Box Error](ordering-and-shipping/faq/ship-to-po-box-error.md)
 * [Getting Started](getting-started/README.md)
   * [Setup](getting-started/setup.md)
   * [Configure](getting-started/configure.md)

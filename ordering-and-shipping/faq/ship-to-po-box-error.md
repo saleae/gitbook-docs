@@ -1,4 +1,4 @@
-# Unable to Ship to PO Box Error Message
+# Unable to Ship to PO Box Error
 
 In rare cases, you may come across the error message below when trying to purchase from [www.saleae.com](https://www.saleae.com/). This is usually because the address contains the word "Post" in it.
 
