@@ -187,6 +187,7 @@
   * [Warning Message: Possible USB Driver Problem Detected](troubleshooting/usb-driver-problem.md)
   * [Error Message: StartCommandError](troubleshooting/start-command-error.md)
   * [Logic 2 Error Messages](troubleshooting/logic-2-error-messages.md)
+  * [Exporting Data to CSV is Slow](troubleshooting/exporting-data-to-csv-is-slow.md)
 * [FAQ](faq/README.md)
   * [Technical FAQ](faq/technical-faq/README.md)
     * [System Requirements for Saleae Products](faq/technical-faq/system-requirements-for-saleae-products.md)
