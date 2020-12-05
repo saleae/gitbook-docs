@@ -12,7 +12,7 @@ We plan to improve the performance of our software, but in the meantime, here ar
 
 1. Export only a section of the data
 2. Export only a few channels
-3. Export to binary rather than CSV. We also have a sample python script to read binary data
+3. Export to binary rather than CSV. We also have a sample python script to read binary data \(provided in the link below, at the bottom of the article\).
 
 {% page-ref page="../faq/technical-faq/binary-export-format-logic-2.md" %}
 
