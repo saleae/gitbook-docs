@@ -134,7 +134,6 @@
   * [Getting the Console Output](troubleshooting/console-output.md)
   * [The Device Is Not Connecting](troubleshooting/device-not-connecting.md)
   * [Troubleshooting the Software Connection to the Device](troubleshooting/troubleshooting-the-software-connection.md)
-  * [The Device Does Not Connect to the Software \(Depreciated\)](troubleshooting/the-device-does-not-connect-to-the-software-depreciated.md)
   * [Error Message: ReadTimeout](troubleshooting/device-not-able-to-keep-up.md)
   * [The Captured Data Looks Incorrect](troubleshooting/captured-data-looks-incorrect.md)
   * [The Captured Data is Corrupted](troubleshooting/the-captured-data-is-corrupted.md)
