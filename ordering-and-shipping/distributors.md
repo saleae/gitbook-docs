@@ -9,6 +9,7 @@ This list contains every distributor currently selling Saleae devices. Please no
 * [ALLDAQ](https://shop.alldaq.com/Messinstrumente-Netzgeraete/Logic-Analyzer-von-Saleae:::83_3250.html) - Germany
 * [Amazing Tech](http://amazingtech.com.cn/cn/index.php) - China, Singapore
 * [Antratek Electronics](https://www.antratek.com/catalogsearch/result/?q=saleae) - Netherlands, Belgium, Germany
+* [Auglit AS](https://www.adroit.no/logikk-analysatorer.html) - Norway
 * [Batronix](http://www.batronix.com/shop/logic-analyzer/Saleae.html) - Germany
 * [Berkin Engineering](http://berkinengineering.com/urunler) - Turkey
 * [BTC](https://kamami.pl/22_saleae) - Poland
@@ -38,6 +39,7 @@ This list contains every distributor currently selling Saleae devices. Please no
 * [Robotscience](http://www.robotscience.kr/goods/search?search_text=saleae&x=0&y=0) - South Korea
 * [RobotShop](http://www.robotshop.com/en/catalogsearch/result/index/?general_brand=Saleae&q=saleae) - US, Canada, France
 * [SCE in China](http://www.scedg.com/) - China
+* [Shanghai GEANT Computer Technology](http://www.geant.com.cn/brandshow?id=219) - China
 * [SparkFun Electronics](https://www.sparkfun.com/search/results?term=saleae) - US
 * [Stellar Data](http://stellardata.com/) - US
 * [TEquipment](http://www.tequipment.net/search/?F_Keyword=saleae) - US
