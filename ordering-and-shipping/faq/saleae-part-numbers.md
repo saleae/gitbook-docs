@@ -1,6 +1,4 @@
-# Saleae Part Numbers, ECCN, and Harmonized System \(HS\) Codes
-
-## Saleae Part Numbers, ECCN, and Harmonized System \(HS\) Codes
+# Part Numbers, ECCN, HS Codes, and Country of Origin
 
 This list provides the Saleae part numbers, Export Classification Numbers \(ECCN\), Harmonized System \(HS\) Codes, and the price in USD for all our products.
 
@@ -8,7 +6,8 @@ The United States defines products using its Harmonized Tariff Schedule \(HTS\).
 
 **For all Saleae Products**
 
-* Origin of manufacture is Taiwan.
+* Country of Origin \(CoO\): Taiwan
+  * This is the country of manufacture and test
 
 **Saleae Logic 8 Black**
 

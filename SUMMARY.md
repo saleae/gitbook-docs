@@ -18,7 +18,7 @@
     * [Is the Saleae Software Sold Separately?](ordering-and-shipping/faq/is-the-saleae-software-sold-separately.md)
     * [Does Saleae Have a Trade-In or Upgrade Plan?](ordering-and-shipping/faq/does-saleae-have-a-trade-in-or-upgrade-plan.md)
     * [How Can I Find the Current Status of My Order?](ordering-and-shipping/faq/how-can-i-find-the-current-status-of-my-order.md)
-    * [Saleae Part Numbers, ECCN, and Harmonized System \(HS\) Codes](ordering-and-shipping/faq/saleae-part-numbers.md)
+    * [Part Numbers, ECCN, HS Codes, and Country of Origin](ordering-and-shipping/faq/saleae-part-numbers.md)
     * [What Is the Difference between Logic/Logic16 \(Gen1\) and Logic 8/Pro 8/Pro 16 \(Gen2\)?](ordering-and-shipping/faq/gen1-gen2-differences.md)
     * [International Customs and Duty Information](ordering-and-shipping/faq/international-customs-and-duty-information.md)
     * [What Is Included with the Product?](ordering-and-shipping/faq/what-is-included.md)
