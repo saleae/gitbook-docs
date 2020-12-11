@@ -32,6 +32,8 @@ While waiting for the trigger, the software will continue using the PC's RAM/mem
 
 Navigate to the "Analyzers" panel and enable "Trigger View." From there, select the protocol analyzer you would like to trigger on, as well as the query value and holdoff time.
 
+{% embed url="https://vimeo.com/489642936" caption="Trigger View - SPI Example" %}
+
 ![Triggering on a protocol frame](../../.gitbook/assets/screen-shot-2020-12-04-at-3.10.17-pm.png)
 
 ## Logic 1.x
