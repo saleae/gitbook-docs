@@ -164,7 +164,7 @@ The goal is to search for a message within the input analyzer, but first we need
 
 The frame formats are documented under [Analyzer Frame Types](analyzer-frame-types/), where we can find [Async Serial](analyzer-frame-types/serial-analyzer.md).
 
-The Async Serial output is simple - it only outputs one frame type, `data`, with 2 fields: `data` , `error`, and `address`. The serial data we are looking at will not be configured to produce frames with the `address` field, so we can ignore that.
+The Async Serial output is simple - it only outputs one frame type, `data`, with 3 fields: `data` , `error`, and `address`. The serial data we are looking at will not be configured to produce frames with the `address` field, so we can ignore that.
 
 To recap, the `decode(frame)` function in our HLA will be called once for each frame from the Async Serial analyzer, where:
 
