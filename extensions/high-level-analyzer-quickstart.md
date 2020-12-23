@@ -40,24 +40,24 @@ Let's break down the contents of `HighLevelAnalyzer.py` .
 from saleae.analyzers import HighLevelAnalyzer, AnalyzerFrame, StringSetting, NumberSetting, ChoicesSetting
 
 class MyHla(HighLevelAnalyzer):
-    
+
     # Settings:
     my_string_setting = StringSetting()
     my_number_setting = NumberSetting(min_value=0, max_value=100)
     my_choices_setting = ChoicesSetting(['A', 'B'])
-    
+
     # Output formats
     result_types = {
         'mytype': {
             'format': 'Output type: {{type}}, Input type: {{data.input_type}}'
         }
     }
-    
+
     # Initialization
     def __init__(self):
         print("Settings:", self.my_string_setting,
               self.my_number_setting, self.my_choices_setting)
-    
+
     # Data Processing
     def decode(self, frame: AnalyzerFrame):
         return AnalyzerFrame('mytype', frame.start_time, frame.end_time, {
@@ -142,10 +142,10 @@ class MyHla(HighLevelAnalyzer):
             'format': 'Output type: {{type}}, Input type: {{data.input_type}}'
         }
     }
-    
+
     def __init__(self):
         pass
-        
+
     def decode(self, frame: AnalyzerFrame):
         return AnalyzerFrame('mytype', frame.start_time, frame.end_time, {
             'input_type': frame.type
@@ -265,7 +265,6 @@ Let's add a `__init__()` to initialize the 2 time variables we will use to track
 def __init__(self):
     self.no_match_start_time = None
     self.no_match_end_time = None
-
 ```
 
 And update `decode()` to track these variables:

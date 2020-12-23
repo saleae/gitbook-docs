@@ -18,7 +18,7 @@ If you download the repository from Github, the submodules are not included. In 
 2. Download the [SampleAnalyzer](https://github.com/saleae/SampleAnalyzer) repository
 3. Place the AnalyzerSDK folder inside of the SampleAnalyzer folder
 
-![Place AnalyzerSDK folder inside of SampleAnalyzer folder](../../.gitbook/assets/2019-10-22_1757%20%281%29.png)
+![Place AnalyzerSDK folder inside of SampleAnalyzer folder](../../.gitbook/assets/2019-10-22_1757%20%281%29%20%281%29.png)
 
 ### Rename the Analyzer via Python Script
 
