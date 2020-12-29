@@ -10,3 +10,7 @@ In cases where the software cannot detect the logic analyzer, we need to determi
    * **OSX:** Open "System Report" by opening the Apple menu and selecting "About this Mac," and then select "System Report...". Then select USB under Hardware and check for "Westbridge" in the treeview.
 4. If the PC detects the Logic device properly, open the Saleae software. If the Saleae software reports \[Disconnected\] at the top, then the hardware is likely OK and this may be a software issue. Proceed to the troubleshooting steps below.
 
+{% page-ref page="troubleshooting-the-software-connection.md" %}
+
+
+
