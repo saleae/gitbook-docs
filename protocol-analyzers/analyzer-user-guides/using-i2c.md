@@ -12,12 +12,6 @@ To use the I2C analyzer, first add it using the add analyzer menu on the right s
 
 In the settings, specify which input channels are used for the I2C signals SDA and SCL.
 
-Then choose which display mode you prefer. When developing I2C firmware, your microcontroller may have a I2C peripheral, in which case we recommend 7-bit addressing. If you're working on a device where you do not write the firmware, we also recommend using the 7-bit address display.
-
-However, when working on firmware without a I2C specific peripheral, either by bit-banging the interface or using a more generic synchronous serial module, the 8-bit address display mode may be more useful as the address data will accurately reflect the values used in your firmware.
-
-The 8-bit mode displays the address left shifted one bit, as it is reflected on the bus. The 7-bit mode shows the actual 7-bit address, which takes the data from the bus and right shifts it one bit.
-
 ### **Issues with Noise Around Clock Edges**
 
 You may notice where the analyzer seems to decode less than 9 bits per frame, or incorrect results. If you notice this, carefully zoom in around each clock edge in the problem frame and check to see if there is a "glitch" or narrow pulse present next to the clock transition that is causing a clock edge to be detected as two edges.
@@ -40,4 +34,16 @@ I2C is particularly vulnerable to this issue due to the slow rise times caused b
 
 * The I2C protocol analyzer does not support a 10-bit address mode and can only display data as 8-bit words.
 * The I2C analyzer does not support viewing data transfers in any other format than 8-bit words. If you are looking to display I2C data in larger word sizes, we suggest exporting the I2C results and combining 8-bit words into N-bit words in Excel.
+
+### Selecting 7-Bit or 8-Bit Address View
+
+{% hint style="info" %}
+Only the 7-bit address view is available in the Logic 2 software. Selecting between 7-bit and 8-bit view is only available in our older Logic 1.2.x software. We would like to add this feature to Logic 2 in the future, and we're currently tracking this idea [here](https://ideas.saleae.com/b/feature-requests/i2c-analyzer-8-bit-numbers/).
+{% endhint %}
+
+When developing I2C firmware, your microcontroller may have a I2C peripheral, in which case we recommend 7-bit addressing. If you're working on a device where you do not write the firmware, we also recommend using the 7-bit address display.
+
+However, when working on firmware without a I2C specific peripheral, either by bit-banging the interface or using a more generic synchronous serial module, the 8-bit address display mode may be more useful as the address data will accurately reflect the values used in your firmware.
+
+The 8-bit mode displays the address left shifted one bit, as it is reflected on the bus. The 7-bit mode shows the actual 7-bit address, which takes the data from the bus and right shifts it one bit.
 
