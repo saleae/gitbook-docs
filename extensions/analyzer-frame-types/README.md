@@ -6,7 +6,7 @@ description: Documentation for output produced by Saleae's built-in Analyzers
 
 Python high level analyzers allow users to write custom code that processes the output of another analyzer.
 
-Right now, there are 8 analyzers that can be used with high level analyzers:
+Right now, the below listed analyzers can be used with high level analyzers:
 
 * [Serial](serial-analyzer.md)
 * [I2C](i2c-analyzer.md)
