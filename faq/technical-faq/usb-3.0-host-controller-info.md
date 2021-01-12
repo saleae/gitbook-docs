@@ -2,7 +2,9 @@
 
 ## Finding Your USB 3.0 Host Controller Information
 
-_Note: This article only applies to the Logic 1 software, and does not apply to the Logic 2 Alpha. Logic 2 users can get their host controller data from device manager, in the "Universal Serial Bus Controllers" section._
+{% hint style="info" %}
+This article only applies to the Logic 1 software, and does not apply to the Logic 2 Alpha. Logic 2 users can get their host controller data from device manager, in the "Universal Serial Bus Controllers" section.
+{% endhint %}
 
 On Windows, the latest Saleae software has a feature to automatically retrieve this information.
 
