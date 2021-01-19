@@ -16,9 +16,9 @@ If you see either of the below errors, it is possible that the runtime is not in
 **Troubleshooting Steps**
 
 1. Uninstall and re-install the Logic software.
-2. Manually install the Microsoft Visual Studio 2015 runtime, which you can download here:
+2. Manually install the Microsoft Visual Studio 2019 runtime, which you can download here:
 
-   [https://www.microsoft.com/en-us/download/details.aspx?id=48145](https://www.microsoft.com/en-us/download/details.aspx?id=48145)
+   [https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads)
 
    Be sure to select the x64 version if you are using a 64-bit version of Windows.
 
