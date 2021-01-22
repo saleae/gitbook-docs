@@ -14,6 +14,13 @@ It seems that some Linux distributions may have removed libnsl, and that reinsta
 
 `yum install libnsl`
 
+In case the solution above doesn't help, please [contact us](https://contact.saleae.com/hc/en-us/requests/new) as we may need to take a look at the output of the following commands to debug this further.
+
+* `./Logic-2.x.xx-master.AppImage --appimage-extract` **\(replace "x.xx" with the specific version of Logic 2\)**
+* `cd squashfs-root/resources/linux` 
+* `ldd libgraph_server_shared.so` 
+* `ldd -v libgraph_server_shared.so`
+
 ### Solution for Windows 10
 
 For Windows, manually installing the Microsoft Visual Studio 2019 runtime seemed to help, which you can download below:
