@@ -10,7 +10,7 @@ The Logic 2 Software is supported in the following operating systems.
 
 Please note that 32 bit operating systems are not supported by Logic 2.x. For 32 bit support, please refer to Logic 1.x below.
 
-![](../.gitbook/assets/screen-shot-2020-09-03-at-6.52.16-pm%20%286%29%20%284%29.png)
+![](../.gitbook/assets/screen-shot-2020-09-03-at-6.52.16-pm%20%286%29%20%282%29%20%284%29.png)
 
 [**Logic 2 Software Download**](https://ideas.saleae.com/f/changelog/)\*\*\*\*
 

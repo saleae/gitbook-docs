@@ -25,7 +25,7 @@ Even though the Nucleo-F446RE has an onboard analog-to-digital converter \(ADC\)
 
 Connect the Nucleo to the MCP3002 and the MCP3002 to a 10k potentiometer as shown. Note that the SPI pins are also broken out to the male pins just to the right of the female Arduino headers on the Nucleo. This allows us to attach the Saleae Logic Analyzer wires.
 
-![](../../.gitbook/assets/spi_circuit_fritzing%20%281%29.png)
+![](../../.gitbook/assets/spi_circuit_fritzing%20%281%29%20%281%29.png)
 
 #### Run Demo Application <a id="run-demo-application-3"></a>
 
