@@ -1,4 +1,4 @@
-# Software Installation
+# Installation
 
 Before downloading and installing the software, please review the supported operating systems in the link below.
 

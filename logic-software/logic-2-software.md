@@ -1,4 +1,4 @@
-# Software Download
+# Download
 
 {% hint style="info" %}
 Please note that this version of the software is currently in the **Alpha** stage.
