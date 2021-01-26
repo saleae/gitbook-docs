@@ -1,30 +1,39 @@
-# Software Download & Installation
+# Software Installation
 
 Before downloading and installing the software, please review the supported operating systems in the link below.
 
-{% page-ref page="../../logic-software/supported-operating-systems.md" %}
+{% page-ref page="supported-operating-systems.md" %}
 
 ## **Logic 2 Software**
 
 The software is available free of charge, and can be installed on as many machines as you like.
 
-![](../../.gitbook/assets/screen-shot-2020-09-03-at-6.52.16-pm%20%286%29%20%282%29%20%286%29.png)
+![](../.gitbook/assets/screen-shot-2020-09-03-at-6.52.16-pm%20%286%29%20%282%29%20%286%29.png)
 
 The latest release of the Logic 2 software can be downloaded below:
 
 * [**Logic 2 Software Download**](https://ideas.saleae.com/f/changelog/)\*\*\*\*
 
-\*\*\*\*
+### **Running Logic 2 on Linux**
+
+The Logic 2 software is provided in an AppImage format, which contains all the files needed for the software to run. In Linux, you may need to allow executing the file as a program. To do this:
+
+1. Right-click the AppImage file and click Properties
+2. Check the box that says "Allow executing file as program"
+
+![Enabling the AppImage file to be executable](../.gitbook/assets/screen-shot-2021-01-25-at-9.12.32-pm.png)
+
+
 
 ## Logic 1.x Software
 
 If you plan on using the older Logic 1.x software, you can follow the instructions below.
 
-![](../../.gitbook/assets/screen-shot-2020-09-03-at-7.00.12-pm%20%281%29%20%281%29%20%281%29.png)
+![](../.gitbook/assets/screen-shot-2020-09-03-at-7.00.12-pm%20%281%29%20%281%29%20%281%29.png)
 
 The latest Saleae Logic 1.x Beta software can be downloaded below. This is the version of Logic 1.x that we recommend.
 
-{% page-ref page="../../logic-software/legacy-software/latest-beta-release.md" %}
+{% page-ref page="legacy-software/latest-beta-release.md" %}
 
 ### **Installing for Windows**
 
@@ -43,6 +52,10 @@ Simply download, double-click, and drag the Logic software into the Application 
 ### **Installing for Linux**
 
 Download the zip file and extract it. The software will run from this folder. You can leave this folder on your desktop or move it anywhere that has write permissions. Launch the Logic software by opening the folder and double-clicking the Logic executable. You may want to make a shortcut to this executable for more convenient access.
+
+In addition, The Logic 1.2.18 \(and prior\) software on Linux requires write permissions to several directories in order to run. More information on this below.
+
+{% page-ref page="../troubleshooting/linux-permission-requirements-for-logic-software.md" %}
 
 ### **Installing for Linux – Driver**
 
