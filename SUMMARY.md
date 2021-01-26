@@ -39,7 +39,7 @@
   * [Protocols](getting-started/protocols.md)
 * [Software](logic-software/README.md)
   * [Supported Operating Systems](logic-software/supported-operating-systems.md)
-  * [Download](logic-software/logic-2-software.md)
+  * [Download](logic-software/sw-download.md)
   * [Installation](logic-software/sw-installation.md)
   * [Firmware Updates](logic-software/firmware-updates.md)
   * [Driver Install](logic-software/driver-install.md)

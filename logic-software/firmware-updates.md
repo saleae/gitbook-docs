@@ -4,7 +4,7 @@ There is no need to manage downloading firmware updates to Saleae Logic products
 
 Please just ensure you are running the latest release below.
 
-{% page-ref page="logic-2-software.md" %}
+{% page-ref page="sw-download.md" %}
 
 The Logic software downloads the firmware to the device every time it is connected to the PC as shown in the image below. Before this point, the Logic device is acting as a simple bootloader.
 

@@ -4,7 +4,7 @@
 
 Download the latest version of Logic 2 below.
 
-{% page-ref page="logic-2-software.md" %}
+{% page-ref page="sw-download.md" %}
 
 
 
