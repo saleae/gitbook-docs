@@ -29,7 +29,7 @@ The Logic 2 software is provided in an AppImage format, which contains all the f
 
 If you plan on using the older Logic 1.x software, you can follow the instructions below.
 
-![](../.gitbook/assets/screen-shot-2020-09-03-at-7.00.12-pm%20%281%29%20%281%29%20%281%29.png)
+![](../.gitbook/assets/screen-shot-2020-09-03-at-7.00.12-pm%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
 The latest Saleae Logic 1.x Beta software can be downloaded below. This is the version of Logic 1.x that we recommend.
 

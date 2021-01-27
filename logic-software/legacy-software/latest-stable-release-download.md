@@ -26,5 +26,3 @@ Windows 64 bit \(no installer\):
 Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7:  
 [https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+%2864-bit%29+compatibility_release.zip)
 
-
-

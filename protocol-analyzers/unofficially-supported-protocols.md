@@ -12,6 +12,7 @@ Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you nee
 
 ### **List of Unofficially Supported Protocols**
 
+* [CAN-FD](https://github.com/acosmith/Saleae_CAN-FD_Analyser)
 * [Smart Cards and SIM cards](https://github.com/dirkx/saleae-logic-ISO7816-smartcard-Analyser)
 * [Smart Cards and SIM cards \(with added features\)](https://github.com/watsug/saleae-logic-ISO7816-smartcard-Analyser)
 * [ISO7816 \(smart cards and secure elements\)](https://github.com/nezza/ISO7816Analyzer)
