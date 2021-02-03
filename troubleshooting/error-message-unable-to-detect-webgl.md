@@ -4,7 +4,7 @@
 Please note that **both** [WebGL v1](https://webglreport.com/?v=1) and [WebGL v2](https://webglreport.com/?v=2) need to be supported by your PC's hardware \(typically the graphics card\) to properly run the Logic 2 software.
 {% endhint %}
 
-Upon launching the Logic 2.x software, an error message may appear, stating the following:
+Upon launching the Logic 2 software, an error message may appear, stating the following:
 
 `Unable to detect WebGL, please contact support`
 
