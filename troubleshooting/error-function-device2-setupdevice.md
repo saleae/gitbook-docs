@@ -39,9 +39,9 @@ We discovered this to be a bug with our logic analyzers in combination with the 
 Please try the following versions of the software to obtain the fix:
 
 * [Logic v2.x](https://ideas.saleae.com/f/changelog/)
-* The below versions will soon be obsolete, but still contains the fix
+* The below versions will soon be obsolete, but still contains the fix \(for Logic 8, please use Logic v2.x above as the below versions may have compatibility issues\).
   * Windows: [Logic-1.2.35](https://downloads.saleae.com/betas/1.2.35/Logic-1.2.35-win64.zip)
   * MacOS: [Logic-1.2.33](https://downloads.saleae.com/betas/1.2.33/Logic-1.2.33-MacOS.dmg)
 
-Unfortunately, the software update may not work for Logic 8. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if that is the case and we can help towards a resolution.
+In case you have any trouble with the solutions above, please [contact us](https://contact.saleae.com/hc/en-us/requests/new) and we can help towards a resolution.
 
