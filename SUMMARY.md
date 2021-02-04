@@ -189,7 +189,7 @@
   * [PC Detection Test](troubleshooting/pc-detection-test.md)
   * [Issues with the Apple M1 Chip](troubleshooting/issues-with-the-apple-m1-chip.md)
   * [Error Connecting to Socket](troubleshooting/error-connecting-to-socket.md)
-  * [CentOS & Debian Compatibility Issues](troubleshooting/centos-and-debian-compatibility-issues.md)
+  * [CentOS Compatibility Issues](troubleshooting/centos-compatibility-issues.md)
 * [FAQ](faq/README.md)
   * [Technical FAQ](faq/technical-faq/README.md)
     * [System Requirements for Saleae Products](faq/technical-faq/system-requirements-for-saleae-products.md)
