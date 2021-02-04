@@ -50,7 +50,6 @@
     * [Older Software Releases](logic-software/legacy-software/older-software-releases.md)
     * [Older Changelog](logic-software/legacy-software/older-changelog.md)
     * [Legacy Software for OSX 10.4 and 10.5](logic-software/legacy-software/legacy-software-for-osx-10.4-and-10.5.md)
-    * [Older Linux glibc Support](logic-software/legacy-software/older-linux-glibc-support.md)
     * [Legacy .logicsession Files](logic-software/legacy-software/legacy-.logicsession-files.md)
 * [User Guide](user-guide/README.md)
   * [Product Summary](user-guide/product-summary.md)
