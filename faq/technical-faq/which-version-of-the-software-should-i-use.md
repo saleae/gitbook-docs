@@ -1,12 +1,20 @@
 # Which Version of the Software Should I Use?
 
-## Which Version of the Software Should I Use?
+## Logic 2 Software
 
-In almost all cases, you should use the latest beta release of the Saleae software. It can be found here: 
+In almost all cases, you should use the latest release of the Saleae software, Logic 2. It can be found here below:
+
+{% page-ref page="../../logic-software/sw-download.md" %}
+
+
+
+## Older Versions of the Software
+
+#### Logic 1.x Beta
+
+The latest version of our older Logic 1.x software can be downloaded below. At the moment, Logic 2 does not support our Automation API. To use the Automation API in the meantime, the older Logic 1.x software is required. We plan to add support for the Automation API into Logic 2 in the future.
 
 {% page-ref page="../../logic-software/legacy-software/latest-beta-release.md" %}
-
-However, there are a few reasons you may need to use an older version.
 
 **OS X 10.4 and OS X 10.5**
 
@@ -20,9 +28,9 @@ The last release of the Saleae software to support OS X 10.6 was 1.1.18, which y
 
 {% page-ref page="../../logic-software/legacy-software/older-software-releases.md" %}
 
-**CentOs 6.x and Older**
+**CentOs**
 
-Due to unknown issues with the QT 5 upgrade, we were unable to maintain support for CentOs 6.x. The last version of our software to use QT 4 was 1.1.34, and a special compatibility release was made that runs on CentOs 6.x. Be sure to get the compatibility release.
+Due to unknown issues with the QT 5 upgrade, we were unable to maintain support for CentOs 6.x and future releases. The last version of our software to use QT 4 was 1.1.34, and a special compatibility release was made that runs on CentOs 6.x. Be sure to get the compatibility release.
 
 **Other General Notes**
 
