@@ -1,8 +1,20 @@
 # Keyboard Shortcuts
 
-## Keyboard Shortcuts
+## Logic 2.x
 
-\(On OSX, CTRL is replaced by Command\)
+The keyboard shortcuts for the Logic 2 software can be viewed by clicking the Options button on the bottom right, then clicking Keyboard Shortcuts.
+
+![Viewing Keyboard Shortcuts in Logic 2](../../.gitbook/assets/keyboard-shortcuts-menu-item.png)
+
+
+
+## Logic 1.x
+
+If you are using the older Logic 1.x software, the keyboard shortcuts are listed below
+
+{% hint style="info" %}
+On OSX, CTRL is replaced by Command
+{% endhint %}
 
 **Start a Capture**: CTRL-R
 
