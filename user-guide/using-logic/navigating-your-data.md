@@ -1,6 +1,54 @@
 # Navigating Your Data
 
-## Navigating Your Data
+In the Logic 2 software, several methods exist for navigating your data. Here are some of the most common methods.
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left"></th>
+      <th style="text-align:left"></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left">Zooming In and Out</td>
+      <td style="text-align:left">
+        <p>Mouse Wheel</p>
+        <p>Up/Down Arrow Keys</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Panning Left and Right</td>
+      <td style="text-align:left">
+        <p>Mouse Click and Drag</p>
+        <p>Left/Right Arrow Keys</p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left">Jumping Between Edges</td>
+      <td style="text-align:left">
+        <p>Click the &quot;Next Edge&quot; button,</p>
+        <ul>
+          <li>(hover your pointer on the right-most edge of the channel)</li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+![&quot;Next Edge&quot; Button](../../.gitbook/assets/screen-shot-2021-02-10-at-5.25.27-pm.png)
+
+To view many more ways to navigate your data, you may open the Keyboard Shortcuts menu from within the Logic 2 software. More information on this can be found below.
+
+{% page-ref page="keyboard-shortcuts.md" %}
+
+
+
+
+
+## Logic 1.x
+
+If you are using the older Logic 1.x software, the following images and instructions apply.
 
 ### **Zooming In and Out**
 
