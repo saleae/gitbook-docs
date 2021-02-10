@@ -79,3 +79,7 @@ Note: Only digital channels can support VCD exports. Using `ALL_CHANNELS` will o
 
 `export_data2, /Users/UserName/Desktop/my_file.vcd, SPECIFIC_CHANNELS, 0 DIGITAL, 1 DIGITAL, 2 DIGITAL, 3 DIGITAL, TIME_SPAN, 0, 0.1, VCD`
 
+#### Examples When Exporting to CSV
+
+`export_data2, /Users/UserName/Desktop/my_file.csv, SPECIFIC_CHANNELS, 0 DIGITAL, 1 DIGITAL, 2 DIGITAL, 3 DIGITAL, ALL_TIME, CSV, HEADERS, COMMA, SAMPLE_NUMBER, SEPARATE, ROW_PER_CHANGE`
+
