@@ -16,8 +16,6 @@ The "Clock Stats" and the "Voltage RMS" measurement extensions are installed by 
 
 
 
-
-
 ## Logic 1.x
 
 If you are using the older Logic 1.x software, the following images and instructions apply.
