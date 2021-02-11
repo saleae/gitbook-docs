@@ -1,6 +1,8 @@
 # Saleae Tax & VAT Information
 
-|  |  |
+### Saleae Business Information
+
+| Category | Value |
 | :--- | :--- |
 | Address | Saleae, Inc. 408 N Canal St Unit A  South San Francisco, CA 94080 |
 | Phone & Fax | Phone \#: +1 \(510\) 984-2463 Fax \#: \(415\) 684-7727 |
