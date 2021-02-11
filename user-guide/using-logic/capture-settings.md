@@ -54,6 +54,12 @@ For more information on the available capture modes and their specific settings,
 
 {% page-ref page="capture-modes.md" %}
 
+### LED Settings and Color
+
+{% hint style="info" %}
+Unfortunately this feature is not available in the newer Logic 2 software. If you need this feature, please vote on it [here](https://ideas.saleae.com/b/feature-requests/change-the-led-color-on-the-unit/)!
+{% endhint %}
+
 
 
 ## Logic 1.x
