@@ -1,14 +1,14 @@
 # Saleae Tax & VAT Information
 
-### Saleae Address
+| Information Type | Information Content |
+| :--- | :--- |
+| Address | Saleae, Inc. 408 N Canal St Unit A  South San Francisco, CA 94080 |
+| Phone & Fax | Phone \#: +1 \(510\) 984-2463 Fax \#: \(415\) 684-7727 |
+| U.S. Tax ID Number | 35-2530870 |
+| Dun & Bradstreet Number | DUNS \#: 048959933 |
+| Canadian GST / PST Number | 770324515RT0001 |
 
-* Saleae, Inc. 408 N Canal St Unit A  South San Francisco, CA 94080  Phone \#: +1 \(510\) 984-2463 Fax \#: \(415\) 684-7727
-
-### Saleae U.S. Tax ID Number
-
-* 35-2530870
-
-### Saleae VAT Number
+### Saleae VAT Number Table
 
 The Saleae VAT number you refer to will depend on what country the order was shipped to. Please see the table below. Usually, Saleae's VAT number is needed for tax purposes, so please ensure you refer to the correct one. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) for any questions.
 
@@ -26,10 +26,6 @@ The Saleae VAT number you refer to will depend on what country the order was shi
 | Netherlands | NL826132844B01 |
 | Slovakia | SK4120186664 |
 | All other European countries | GB281123235 |
-
-### Dun & Bradstreet Number
-
-DUNS \#: 048959933
 
 ### Is Saleae SAM Registered?
 
