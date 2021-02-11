@@ -1,5 +1,27 @@
 # Measurements & Timing Markers
 
+### Measurements
+
+Measurements in the Logic 2 software can be added via the "Timing Markers & Measurements" side panel button on the right. Once the panel is opened, add a measurement by clicking the "+" button next to "Measurements." Afterwards, you can click and drag across your desired channel and waveform region to add a measurement box. As a shortcut, you can hold SHIFT while clicking and dragging across your waveform to add a measurement box.
+
+{% embed url="https://vimeo.com/511321334" caption="Adding Measurements" %}
+
+The measurements that are made \(called metrics\) depend on the type of data you are measuring \(analog or digital\) and the installed measurement extensions in the software. 
+
+### Installing More Measurement Extensions
+
+The "Clock Stats" and the "Voltage RMS" measurement extensions are installed by default. You can also view and install custom submitted Measurement Extensions via the "Extensions" panel button on the right of the software. More information on this can be found below.
+
+{% page-ref page="../../extensions/extensions-quickstart.md" %}
+
+
+
+
+
+## Logic 1.x
+
+If you are using the older Logic 1.x software, the following images and instructions apply.
+
 ### **Digital Instantaneous Measurements**
 
 To see instantaneous measurements while hovering over a digital channel recording, right-click the digital waveform and make sure "Show Digital Instantaneous Measurement" is checked. You can also select which measurements are made, and you can save the measurement so it stays persistent on the waveform, even when the mouse is not hovering over it. 
