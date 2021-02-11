@@ -12,7 +12,7 @@ The measurements that are made \(called metrics\) depend on the type of data you
 
 The "Clock Stats" and the "Voltage RMS" measurement extensions are installed by default. You can also view and install custom submitted Measurement Extensions via the "Extensions" panel button on the right of the software. More information on this can be found below.
 
-{% page-ref page="../../extensions/extensions-quickstart.md" %}
+{% page-ref page="../../extensions/installing-extensions.md" %}
 
 
 
