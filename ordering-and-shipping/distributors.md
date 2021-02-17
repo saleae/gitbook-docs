@@ -24,9 +24,8 @@ This list contains every distributor currently selling Saleae devices. Please no
 * [HANYI Technologies \(Shanghai\) Co., Ltd ](http://www.han-yi-tech.com/product/129.html) - China
 * [Innovate Software Solutions Pvt. Ltd.](http://innovatesolutions.net/shop/logic-4/) - India
 * [Instrument Engineers](http://instrumentengineers.com/logicanalyzers.aspx) - US
-* [Integrated Systems Scandinavia AB](http://www.iss.se/default.asp?id=2927&searchfile=saleae) - Sweden
 * [James Electronics LTD.](http://www.jameco.com/webapp/wcs/stores/servlet/StoreCatalogDrillDownView?langId=-1&storeId=10001&catalogId=10001&freeText=saleae&search_type=jamecoall) - US
-* [The LAB eShop](https://thelabeshop.com/collections/saleae/Product) - EU, UK
+* [The LAB eShop](https://thelabeshop.com/collections/saleae/Product) - EU, UK, Sweden
 * [Meilhaus Electronic GmbH](https://www.meilhaus.de/infos/saleae/) - Germany
 * [Microchip Technology Inc.](http://www.microchipdirect.com/searchparts.aspx?q=saleae&resperpage=10) - US
 * [Microdevice Technologies](https://www.microdevice.in/products) - India
