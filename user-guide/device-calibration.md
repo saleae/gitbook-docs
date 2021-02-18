@@ -8,12 +8,13 @@ Manual calibration can be performed in [Logic 2.x](https://discuss.saleae.com/).
 
 Our support team may request you to send your serial number to us to further investigate your device's calibration status. We may also have you check your device's calibration status as reported by your software below.
 
-![](../.gitbook/assets/screen-shot-2020-05-01-at-4.51.58-pm.png)
+![Opening the Device Information Window](../.gitbook/assets/screen-shot-2021-02-17-at-6.11.03-pm.png)
 
-1. Open Logic 2.x software
-2. Click the Logic device at the top-left
-3. In the "Devices" window, check for "Device Calibrated"
-4. You will also find the "Serial Number" here.
+![Device Information window showing calibration status](../.gitbook/assets/screen-shot-2021-02-17-at-6.11.32-pm.png)
+
+1. Click the Device Settings Panel Button on the right
+2. Click the three dots next to your device name on the top-right
+3. Click Device Info
 
 #### Manually Download the Calibration File
 
