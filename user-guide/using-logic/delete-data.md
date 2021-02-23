@@ -1,4 +1,4 @@
-# Delete your Data
+# Delete Portions of your Capture
 
 Portions of your captured data can be deleted as needed. In previous versions of the software, we referred to this action as a _trim_ or _crop_ of the data. This can be useful if only a portion of the data capture is needed. A few methods are described below.
 
