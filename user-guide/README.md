@@ -22,5 +22,3 @@ A pdf version of the User Guide for the older Logic 1.x software is available to
 
 
 
-
-
