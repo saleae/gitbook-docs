@@ -2,9 +2,15 @@
 
 ### Exporting Analyzer Results
 
-To export your analyzer results, click the 3 dots next to the particular analyzer you'd like to export data for. Then click "Export to TXT/CSV." You will be greeted with an OS prompt to save your export file.
+To export your individual analyzer results, click the 3 dots next to the particular analyzer you'd like to export data for. Then click "Export to TXT/CSV." You will be greeted with an OS prompt to save your export file.
 
 ![Exporting Analyzer Results](../../.gitbook/assets/export-analyzer.png)
+
+### Exporting the Data Table
+
+In addition to exporting individual analyzer results, the Logic 2 software also allows exporting of the entire Data Table, which can include entries from all of your added analyzers. To export the Data Table, click the 3 dots to the right of "Data," then click "Export Table."
+
+![Exporting the Data Table](../../.gitbook/assets/data-table-export.png)
 
 ### Exporting Raw Data
 
