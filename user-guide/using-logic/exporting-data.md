@@ -1,11 +1,5 @@
 # Exporting Data
 
-### Exporting Analyzer Results
-
-To export your individual analyzer results, click the 3 dots next to the particular analyzer you'd like to export data for. Then click "Export to TXT/CSV." You will be greeted with an OS prompt to save your export file.
-
-![Exporting Analyzer Results](../../.gitbook/assets/export-analyzer.png)
-
 ### Exporting the Data Table
 
 In addition to exporting individual analyzer results, the Logic 2 software also allows exporting of the entire Data Table, which can include entries from all of your added analyzers. To export the Data Table, click the 3 dots to the right of "Data," then click "Export Table."
@@ -21,6 +15,14 @@ To export raw data from your capture, click the Options button at the bottom rig
 You will be greeted with an "Export Raw Data" window. From here, you can select the channels you would like to include in your export, the time range, and the export format \(currently, Logic 2 supports CSV and Binary exports\).
 
 ![Export Data Window](../../.gitbook/assets/raw-data-window.png)
+
+### Exporting Analyzer Results
+
+To export your individual analyzer results, click the 3 dots next to the particular analyzer you'd like to export data for. Then click "Export to TXT/CSV." You will be greeted with an OS prompt to save your export file.
+
+![Exporting Analyzer Results](../../.gitbook/assets/export-analyzer.png)
+
+### 
 
 ## Logic 1.x
 
