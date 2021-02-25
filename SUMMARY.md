@@ -73,7 +73,7 @@
     * [Capture Settings Configuration Guide](user-guide/using-logic/capture-settings-configuration-guide.md)
     * [Time & Memory Saving Tools](user-guide/using-logic/time-and-memory-saving-tools.md)
     * [Keyboard Shortcuts](user-guide/using-logic/keyboard-shortcuts.md)
-    * [Message Us Directly](user-guide/using-logic/bugs-and-features.md)
+    * [Message Us Directly](user-guide/using-logic/message-us-directly.md)
   * [Device Calibration](user-guide/device-calibration.md)
 * [Extensions](extensions/README.md)
   * [Installing Extensions](extensions/installing-extensions.md)
