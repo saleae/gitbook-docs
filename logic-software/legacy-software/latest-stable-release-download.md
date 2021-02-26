@@ -10,7 +10,7 @@ When using the standalone version of the software, the drivers must be installed
 
 ### Saleae Logic 1.2.**18**
 
-![](../../.gitbook/assets/screen-shot-2020-09-03-at-7.00.12-pm%20%281%29%20%281%29.png)
+![](../../.gitbook/assets/screen-shot-2020-09-03-at-7.00.12-pm%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.png)
 
 #### Windows \(32 bit and 64 bit\): [https://downloads.saleae.com/logic/1.2.18/Logic+Setup+1.2.18.exe](https://downloads.saleae.com/logic/1.2.18/Logic+Setup+1.2.18.exe)
 

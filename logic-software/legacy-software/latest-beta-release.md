@@ -62,3 +62,4 @@ Generally speaking, a few analog channels at sample rates less than 10 MS/s with
 Thanks and kind regards,
 
 The Saleae Software Team
+

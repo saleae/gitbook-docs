@@ -1,13 +1,9 @@
 # Binary Export Format - Logic 2
 
-{% page-ref page="binary-data-export-format.md" %}
-
-{% page-ref page="data-export-format-analog-binary.md" %}
-
 In Logic 2, both digital and analog binary files start with the same header, which can be used to determine the type of data stored in the file.
 
-- All multi-byte values are in little endian byte-order
-- Floating point values are IEE754
+* All multi-byte values are in little endian byte-order
+* Floating point values are IEE754
 
 Digital and analog binary files have the same initial header that can be used to determine whether it is a valid Saleae binary export file, the version, and whether it contains analog or digital data.
 
@@ -225,3 +221,14 @@ Number of samples: 1667072
           0.0000001800      6.493
 ...
 ```
+
+## Logic 1.x
+
+If you are using Logic 1.x, please refer to the articles below.
+
+{% page-ref page="binary-data-export-format.md" %}
+
+{% page-ref page="data-export-format-analog-binary.md" %}
+
+
+
