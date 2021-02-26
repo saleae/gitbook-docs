@@ -14,8 +14,6 @@ When using the standalone version of the software, the drivers must be installed
 
 We've started releasing beta versions of the software again, starting with 1.2.19. The latest production release is 1.2.18 and can be downloaded [here](https://www.saleae.com/downloads).
 
-There is also a more recent alpha release available - however it is not intended for heavy use, and is very much an in-progress build. [Alpha Release](https://discuss.saleae.com/)
-
 **Windows**  
 [Logic Setup 1.2.29.exe](https://downloads.saleae.com/logic/1.2.29/Logic+Setup+1.2.29.exe)
 
@@ -32,8 +30,8 @@ Note: These releases include the newly required Microsoft Visual Studio 2015 run
 **Windows 32-Bit Standalone**  
 [https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+32+Standalone.zip)
 
-**Windows 64-Bit Standalone**   
-****[https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+64+Standalone.zip)
+**Windows 64-Bit Standalone**  
+\*\*\*\*[https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+64+Standalone.zip)
 
 If you have any trouble with the 1.2.29 software, please report it. We would like to get any issues resolved before posting this to the main download page.
 
@@ -64,4 +62,3 @@ Generally speaking, a few analog channels at sample rates less than 10 MS/s with
 Thanks and kind regards,
 
 The Saleae Software Team
-

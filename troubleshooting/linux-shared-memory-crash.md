@@ -1,12 +1,8 @@
 # Linux Shared Memory Crash
 
-{% hint style="info" %}
-This will be solved in the [next version of our software](https://discuss.saleae.com/) \(currently in Alpha\).
-{% endhint %}
-
 This article specifically addresses a Linux crash bug that causes the software to crash on launch, usually until the system is restarted.
 
-Error message in log file: 
+Error message in log file:
 
 `Error: Unable to create shared memory to hold instance number, Qt error code: 1, Qt error string: QSharedMemoryPrivate::initKey: unable to set key on lock`
 
@@ -20,8 +16,8 @@ If the application crashes, the shared memory segment is not removed. However, t
 
 This bug only occurs when the software is launched multiple times from different user accounts, usually from the current user and the superuser account, like so:
 
-* `./Logic`
-* `sudo ./Logic`
+- `./Logic`
+- `sudo ./Logic`
 
 When the software is run as the superuser and a shared memory segment is created, that shared memory segment will belong to the superuser. Other instances of the software run as the normal user will fail to attach and crash on launch.
 
@@ -47,7 +43,7 @@ Alternatively, the problem can be solved by manually removing the shared memory 
 
    ```text
    ------ Shared Memory Segments --------
-   key        shmid      owner      perms      bytes      nattch     status  
+   key        shmid      owner      perms      bytes      nattch     status
    0x3b020040 4849684    root       600        4          1
    ```
 
@@ -55,7 +51,7 @@ Alternatively, the problem can be solved by manually removing the shared memory 
 
    ```text
    ------ Semaphore Arrays --------
-   key        semid      owner      perms      nsems        
+   key        semid      owner      perms      nsems
    0x76020008 589825     root       600        1
    ```
 
@@ -72,9 +68,6 @@ Alternatively, the problem can be solved by manually removing the shared memory 
 
 Removing the following files from the /tmp directory may solve the issue \(Note that the "..." in the file names below represents a unique 40 character hexadecimal code\).
 
-* /tmp/qipc\_sharedmemory\_qlipper...
-* /tmp/qipc\_systemsem\_qlipper...
-* /tmp/qipc\_systemsem\_sharedmemorylogicinstancecount...
-
-
-
+- /tmp/qipc_sharedmemory_qlipper...
+- /tmp/qipc_systemsem_qlipper...
+- /tmp/qipc_systemsem_sharedmemorylogicinstancecount...

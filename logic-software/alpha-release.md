@@ -1,4 +1,3 @@
-# Alpha Release
+# Logic 2 Release
 
-The Alpha Release has been moved to [discuss.saleae.com](https://discuss.saleae.com)
-
+The Logic 2 Release has been moved to [discuss.saleae.com](https://discuss.saleae.com)
