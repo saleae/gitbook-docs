@@ -40,13 +40,9 @@ Logic Pro 8, Logic Pro 16, and our Original Logic16 all feature adjustable volta
 
 ### Capture Settings Presets
 
-Capture settings presets can be saved and loaded locally as needed by clicking on the Presets button at the top-right of the Capture Settings panel.
+Capture settings presets can be saved and loaded locally as needed. You can navigate to the support article below for more information on this.
 
-{% embed url="https://vimeo.com/461153392" caption="Saving and Loading Settings Presets" %}
-
-To share your presets with others, you can export your preset and import it into a new PC. Click on the 3 dots to the right of your preset to open up the options menu for that preset. This will allow you to load, rename, export, or delete you preset. To import a preset, click the _Import_ button at the bottom of the Presets window.
-
-![Presets Options Window](../../.gitbook/assets/preset-options.png)
+{% page-ref page="saving-loading-and-exporting-data.md" %}
 
 ### Capture Modes - Looping, Timer, & Trigger
 
