@@ -21,5 +21,7 @@ These resulting limitations were gathered using the following test setup.
 
 We've received feedback to create an ethernet-based logic analyzer. We are considering this for future generations of the hardware, so feel free to vote/comment your requirements on our ideas page [here!](https://ideas.saleae.com/ideas/SALEAE-I-174#1)
 
+TODO: Update the ideas.saleae.com link
+
 
 
