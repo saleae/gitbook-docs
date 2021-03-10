@@ -324,7 +324,7 @@
     * [Digital MultipleX \(DMX512\)](tutorials/learning-portal/learning-resources/digital-multiplex-dmx512.md)
     * [Manchester](tutorials/learning-portal/learning-resources/manchester.md)
     * [1-Wire](tutorials/learning-portal/learning-resources/1-wire.md)
-    * [Inter-IC Sound \(I2S / PCM\)](tutorials/learning-portal/learning-resources/inter-ic-sound-i2s-pcm.md)
+    * [Learn I2S / PCM](tutorials/learning-portal/learning-resources/inter-ic-sound-i2s-pcm.md)
     * [Management Data Input/Output \(MDIO\)](tutorials/learning-portal/learning-resources/management-data-input-output-mdio.md)
     * [BiSS C](tutorials/learning-portal/learning-resources/biss-c.md)
     * [HDMI Consumer Electronics Control \(CEC\)](tutorials/learning-portal/learning-resources/hdmi-consumer-electronics-control-cec.md)
