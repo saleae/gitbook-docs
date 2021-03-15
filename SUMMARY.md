@@ -190,7 +190,7 @@
   * [Exporting Data to CSV is Slow](troubleshooting/exporting-data-to-csv-is-slow.md)
   * [PC Detection Test](troubleshooting/pc-detection-test.md)
   * [Issues with the Apple M1 Chip](troubleshooting/issues-with-the-apple-m1-chip.md)
-  * [Error Connecting to Socket](troubleshooting/error-connecting-to-socket.md)
+  * [Errors when Running Logic 2 on Linux](troubleshooting/error-connecting-to-socket.md)
   * [CentOS Compatibility Issues](troubleshooting/centos-compatibility-issues.md)
 * [FAQ](faq/README.md)
   * [Technical FAQ](faq/technical-faq/README.md)

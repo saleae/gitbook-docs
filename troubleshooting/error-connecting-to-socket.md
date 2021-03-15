@@ -1,10 +1,19 @@
-# Error Connecting to Socket
+# Errors when Running Logic 2 on Linux
 
-Upon launching the Logic 2 software, you may be greeted with a blank canvas with an error message that displays `Error Connecting to Socket`.
+Upon launching the Logic 2 software on Linux, you may experience the following:
 
-We've received reports of this for some specific operating systems. This error usually means that the front-end of the application is launching just fine, but the backend \(a C++ library loaded by electron\), is not working properly.
+* A blank canvas with an error message that displays `Error Connecting to Socket`
+* An immediate software crash
 
-### Solution for Linux
+{% hint style="info" %}
+Note: You might see the following message when running Logic 2 from the terminal. This is normal and is not associated with the issues noted above.
+
+`(electron) The default value of app.allowRendererProcessReuse is deprecated, it is currently "false". It will change to be "true" in Electron 9.`
+{% endhint %}
+
+### Solutions for Linux
+
+#### 1. Install linsnl
 
 If you are attempting to run our Logic 2 software on Linux, the issue we have seen is as follows:
 
@@ -20,6 +29,10 @@ In case the solution above doesn't help, please [contact us](https://contact.sal
 * `cd squashfs-root/resources/linux` 
 * `ldd libgraph_server_shared.so` 
 * `ldd -v libgraph_server_shared.so`
+
+#### 2. Try running a previous version of Logic 2 first
+
+Starting version v2.3.20, you might experience an immediate software crash upon opening the software. We're working on a fix for this bug. In the meantime, you will need to download an older version of the Logic 2 software first \([v2.3.19](https://ideas.saleae.com/f/changelog/2319/) for example\), then install v2.3.20 afterwards.
 
 ### Solution for Windows 10
 
