@@ -8,13 +8,17 @@ There are several sources of noise in digital captures. You can learn more about
 
 ### Enabling the Glitch Filter in Logic v2.x
 
-You can find the glitch filter settings via the 'Capture Settings' panel.
-
-![Enabling the Glitch Filter via the Capture Settings Panel](../../.gitbook/assets/screen-shot-2020-07-31-at-2.24.41-pm.png)
-
 {% hint style="info" %}
-Please note that, in [Logic v2.x](https://ideas.saleae.com/f/changelog/), the glitch filter must be configured before the capture is taken. Glitch filters cannot be modified after the capture is completed.
+Please note that, in the Logic 2.x software, the glitch filter must be configured before the capture is taken. Glitch filters cannot be modified after the capture is completed.
 {% endhint %}
+
+You can find the glitch filter settings via the 'Capture Settings' panel. You will need to click the green slider to enable it.
+
+![Glitch Filter Setting](../../.gitbook/assets/screen-shot-2021-03-17-at-4.54.31-pm.png)
+
+When editing the glitch filter value, you may select a unit of time, such as ns \(nanosecond\), us \(microsecond\), and ms \(millisecond\). You may also use non-integer values.
+
+![Glitch filter values](../../.gitbook/assets/screen-shot-2021-03-17-at-4.57.17-pm.png)
 
 ### What is a Glitch Filter?
 
