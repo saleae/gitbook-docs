@@ -2,6 +2,29 @@
 
 ## Older Software Releases
 
+### 1.2.29 Download
+
+![](../../.gitbook/assets/screen-shot-2020-09-03-at-6.53.53-pm%20%281%29.png)
+
+Windows  
+[Logic Setup 1.2.29.exe](https://downloads.saleae.com/logic/1.2.29/Logic+Setup+1.2.29.exe)
+
+Mac OS X 10.8+  
+[Logic-1.2.29-Darwin.dmg](https://downloads.saleae.com/logic/1.2.29/Logic-1.2.29-Darwin.dmg)
+
+Linux 64-Bit  
+[https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+%2864-bit%29.zip)
+
+Windows Standalone releases:
+
+Note: These releases include the newly required Microsoft Visual Studio 2015 runtime. The runtime needs to be installed before the software will be able to run.
+
+Windows 32-Bit Standalone  
+[https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+32+Standalone.zip)
+
+Windows 64-Bit Standalone  
+[https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+64+Standalone.zip)
+
 ### **1.2.28 Download**
 
 Windows \(32 bit and 64 bit\):  
