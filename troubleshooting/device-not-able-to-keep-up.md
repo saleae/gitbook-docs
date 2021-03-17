@@ -24,8 +24,6 @@ If the error message appears even before any samples were recorded, downloading 
 _Note, Logic 2 users should make sure they have the latest release._
 {% endhint %}
 
-{% page-ref page="../logic-software/legacy-software/latest-beta-release.md" %}
-
 Otherwise, this indicates a potentially different issue and could be caused by one of the following:
 
 * The USB cable could be bad. Please try another USB cable or [contact support](https://contact.saleae.com/hc/en-us/requests/new) for a replacement.

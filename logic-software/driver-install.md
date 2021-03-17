@@ -8,8 +8,6 @@ Normally, when the Logic software is installed, the product should simply work w
 
 If you are using any of the 2nd generation products \(Logic 4, Logic 8, Pro 8, Pro 16\), you must use the latest version Logic 1.x software below.
 
-{% page-ref page="legacy-software/latest-beta-release.md" %}
-
 #### Using Original Logic or Logic16?
 
 If you have manually installed the 1st generation Logic or Logic16 drivers in the past, you will need to update to the latest software and then manually install the correct driver again.

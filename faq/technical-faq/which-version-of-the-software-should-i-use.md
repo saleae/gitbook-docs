@@ -14,13 +14,9 @@ In almost all cases, you should use the latest release of the Saleae software, L
 
 The latest version of our older Logic 1.x software can be downloaded below. At the moment, Logic 2 does not support our Automation API. To use the Automation API in the meantime, the older Logic 1.x software is required. We plan to add support for the Automation API into Logic 2 in the future.
 
-{% page-ref page="../../logic-software/legacy-software/latest-beta-release.md" %}
-
 **OS X 10.4 and OS X 10.5**
 
 The last version of the software to support OS X 10.4 and OS X 10.5 was the Logic software version 1.1.15. You can download the special releases for this here:
-
-{% page-ref page="../../logic-software/legacy-software/legacy-software-for-osx-10.4-and-10.5.md" %}
 
 **OS X 10.6**
 

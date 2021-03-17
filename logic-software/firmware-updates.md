@@ -16,8 +16,6 @@ The Logic software downloads the firmware to the device every time it is connect
 
 If you are using the older Logic 1.x software, the following download link and firmware download image applies.
 
-{% page-ref page="legacy-software/latest-beta-release.md" %}
-
 ![Firmware download prompt on Logic 1.x](../.gitbook/assets/2018-10-02_1032.png)
 
 

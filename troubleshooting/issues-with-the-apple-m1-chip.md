@@ -11,8 +11,6 @@ Please let us know if you are experiencing these issues via the methods below:
 
 Please try using our older Logic 1.x software \(v1.2.29\). Download link below. This version of the software provided stable operation in our tests. If the version below continues to fail, please [contact us](https://contact.saleae.com/hc/en-us/requests/new).
 
-{% page-ref page="../logic-software/legacy-software/latest-beta-release.md" %}
-
 ### Our Test Results
 
 We tested all of our logic analyzers on the new Macbook Pro \(13-inch, 2020, M1 chip\). In our tests, our logic analyzers periodically failed on the Logic 2 software via ReadTimeout errors during captures. The Logic 1.x software \(linked above\) provided stable performance.

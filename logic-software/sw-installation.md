@@ -33,8 +33,6 @@ If you plan on using the older Logic 1.x software, you can follow the instructio
 
 The latest Saleae Logic 1.x Beta software can be downloaded below. This is the version of Logic 1.x that we recommend.
 
-{% page-ref page="legacy-software/latest-beta-release.md" %}
-
 ### **Installing for Windows**
 
 Simply download and run the installer. We install a driver for the Logic hardware as part of the installation process, so you will be prompted to trust software from Saleae.

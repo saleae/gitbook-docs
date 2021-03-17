@@ -25,7 +25,5 @@ You can test your PC's WebGL support by following the links below. Both WebGL v1
 
 At the moment, the workaround is to use our older Logic 1.x software. Download link is below:
 
-{% page-ref page="../logic-software/legacy-software/latest-beta-release.md" %}
-
 Unfortunately, we don't have a fix planned for Logic 2 yet. We would like to monitor the need for this fix, so if you run into this issue, please vote and comment on the feature request [here](https://ideas.saleae.com/b/feature-requests/support-older-graphics-cards/). Otherwise, feel free to [contact us](https://contact.saleae.com/hc/en-us/requests/new) in case you have any specific questions about this error.
 

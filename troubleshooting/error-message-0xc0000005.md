@@ -35,8 +35,6 @@ If the 1.1.20 software runs but the 1.1.34 software does not, that indicates tha
 4. Try running the software as the administrator.
 5. Download the "Windows 32 bit standalone" version of the latest software here and test it. Before running Logic.exe, you will need to install the included Microsoft visual studio runtime.
 
-{% page-ref page="../logic-software/legacy-software/latest-beta-release.md" %}
-
 **Contacting Support for Additional Help**
 
 If none of the above steps are able to resolve the issue, please contact support and include the following information:

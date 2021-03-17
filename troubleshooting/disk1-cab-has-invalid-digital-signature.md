@@ -10,8 +10,6 @@ When installing the Saleae software, the following error message may appear: "A 
 * Make sure the computer is up-to-date. That is good practice and is likely to resolve this issue.
 * Use the standalone version of the software. That allows you to skip the installation process, bypassing this issue. You can download the latest version of the standalone software below.
 
-{% page-ref page="../logic-software/legacy-software/latest-beta-release.md" %}
-
 **Contacting Support for Additional Help**
 
 If none of the troubleshooting steps solve the problem, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) and include the following information:

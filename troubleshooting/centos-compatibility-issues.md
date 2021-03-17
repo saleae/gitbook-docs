@@ -19,8 +19,6 @@ To help us track interest in CentOS support, we would appreciate it if you add y
 
 Our older Logic 1.x software for Linux has some dependencies that are not present on some Linux releases. To accommodate these Linux releases, we provide a compatibility release that includes the missing dependencies. We’ve also modified the included version of our application to link against these libraries instead of the libraries installed on your system. The **compatibility release** download links are included with the main download page below for our older Logic 1.x software.
 
-{% page-ref page="../logic-software/legacy-software/latest-beta-release.md" %}
-
 We have tested this release here on Ubuntu 10.04 32-bit and 64-bit, as well as CentOS 6.6 64-bit. We’ve also heard reports from customers that this release works on Debian as well. This solution was based on the instructions found [here](http://forums.debian.net/viewtopic.php?p=546372#p546372).
 
 ### Issues with v1.2.0+?

@@ -6,7 +6,7 @@
 
 The latest version of the Logic 2 software can be downloaded below.
 
-* [**Logic 2 Software Download**](https://ideas.saleae.com/f/changelog/)
+* [**Logic 2 Software Download**](https://www.saleae.com/downloads/)
 
 ## Installation
 

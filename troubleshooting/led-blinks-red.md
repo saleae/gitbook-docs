@@ -16,8 +16,6 @@ The red LED blinking could be caused by several factors listed below.
 
 * Ensure you are running the latest Saleae software below.
 
-{% page-ref page="../logic-software/legacy-software/latest-beta-release.md" %}
-
 * Test Logic on another PC. This may help rule out a potential hardware issue.
 * Test another USB cable.
 

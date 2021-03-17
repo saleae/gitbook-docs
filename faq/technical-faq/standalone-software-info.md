@@ -4,8 +4,6 @@
 
 The standalone version of our software can be useful in many different situations and can be downloaded below.
 
-{% page-ref page="../../logic-software/legacy-software/latest-beta-release.md" %}
-
 It does not need to be installed and can be run directly by executing Logic.exe from inside of the standalone folder.
 
 The following list shares some use cases where our standalone software can provide a solution:

@@ -6,8 +6,6 @@ If you need to work in an environment with multiple versions of the Saleae Logic
 
 Look for stand-alone versions of the current software and older versions here:
 
-{% page-ref page="../../logic-software/legacy-software/latest-beta-release.md" %}
-
 {% page-ref page="../../logic-software/legacy-software/older-software-releases.md" %}
 
 
