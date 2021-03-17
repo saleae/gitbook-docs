@@ -1,6 +1,10 @@
 # Older Software Releases
 
-## Older Software Releases
+{% hint style="info" %}
+When using the standalone version of the software, the drivers must be installed manually. Refer to the Driver Install link below for instructions.
+{% endhint %}
+
+{% page-ref page="../driver-install.md" %}
 
 ### 1.2.29 Download
 

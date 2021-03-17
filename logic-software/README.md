@@ -14,8 +14,6 @@ To download our older, Logic v1.x releases, you can refer to the links below. Th
 
 {% page-ref page="legacy-software/latest-beta-release.md" %}
 
-{% page-ref page="legacy-software/latest-stable-release-download.md" %}
-
 
 
 

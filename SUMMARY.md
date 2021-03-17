@@ -45,7 +45,6 @@
   * [Driver Install](logic-software/driver-install.md)
   * [Legacy Software](logic-software/legacy-software/README.md)
     * [Logic 1.x Beta Software](logic-software/legacy-software/latest-beta-release.md)
-    * [Logic 1.x Stable Software](logic-software/legacy-software/latest-stable-release-download.md)
     * [Logic 1.x Changelog](logic-software/legacy-software/changelog.md)
     * [Older Software Releases](logic-software/legacy-software/older-software-releases.md)
     * [Older Changelog](logic-software/legacy-software/older-changelog.md)
