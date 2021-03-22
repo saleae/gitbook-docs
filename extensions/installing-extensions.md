@@ -22,7 +22,13 @@ In some cases, the extensions list may not appear properly within the Extensions
 
 ![](../.gitbook/assets/screen-shot-2020-11-30-at-4.52.09-pm.png)
 
- 
+### Uninstalling an Extension
+
+To uninstall an extension, click on the 3 dots next to an extension in the Extensions panel. Then click Uninstall.
+
+![Uninstalling an Extension](../.gitbook/assets/uninstall-ext.png)
+
+
 
 
 
