@@ -30,9 +30,9 @@ In case the solution above doesn't help, please [contact us](https://contact.sal
 * `ldd libgraph_server_shared.so` 
 * `ldd -v libgraph_server_shared.so`
 
-#### 2. Try running a previous version of Logic 2 first
+#### 2. Try running the latest version of Logic 2
 
-Starting version v2.3.20, you might experience an immediate software crash upon opening the software. We're working on a fix for this bug. In the meantime, you will need to download an older version of the Logic 2 software first \([v2.3.19](https://ideas.saleae.com/f/changelog/2319/) for example\), then install v2.3.20 afterwards.
+Starting version v2.3.22, we fixed an issue with the software immediately crashing upon opening on Linux. You can download the latest version of the software [here](https://www.saleae.com/downloads/).
 
 ### Solution for Windows 10
 
