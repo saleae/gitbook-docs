@@ -12,8 +12,6 @@ Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you nee
 
 ### **List of Unofficially Supported Protocols**
 
-
-
 * [Anybus CompactCom SPI](https://github.com/hms-networks/AbccSpiAnalyzer)
 * [APDU](https://github.com/zwizwa/sl-apdu)
 * [CAN-FD](https://github.com/acosmith/Saleae_CAN-FD_Analyser)
