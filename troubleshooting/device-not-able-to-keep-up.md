@@ -18,13 +18,7 @@ The Saleae Logic produces data at a fixed rate and can't tolerate periodic delay
 
 ## **If the Error Occurs Immediately after Clicking 'Start'**
 
-If the error message appears even before any samples were recorded, downloading the latest beta software may solve the issue. You can download the latest software below.
-
-{% hint style="info" %}
-_Note, Logic 2 users should make sure they have the latest release._
-{% endhint %}
-
-Otherwise, this indicates a potentially different issue and could be caused by one of the following:
+This may indicate a potentially different issue and could be caused by one of the following:
 
 * The USB cable could be bad. Please try another USB cable or [contact support](https://contact.saleae.com/hc/en-us/requests/new) for a replacement.
 * On Windows, the USB host controller driver may be outdated. Please [contact support](https://contact.saleae.com/hc/en-us/requests/new), and we can help ensure you have the absolute latest drivers for your device.
