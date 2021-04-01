@@ -31,7 +31,9 @@ If you plan on using the older Logic 1.x software, you can follow the instructio
 
 ![](../.gitbook/assets/screen-shot-2020-09-03-at-7.00.12-pm%20%281%29%20%281%29%20%281%29%20%281%29%20%282%29.png)
 
-The latest Saleae Logic 1.x Beta software can be downloaded below. This is the version of Logic 1.x that we recommend.
+The older Logic 1.x software can be downloaded below. Version 1.2.29 is the last version of Logic 1.x.
+
+{% page-ref page="legacy-software/older-software-releases.md" %}
 
 ### **Installing for Windows**
 
@@ -39,7 +41,7 @@ Simply download and run the installer. We install a driver for the Logic hardwar
 
 ### **If the Installer fails with an Error on Windows**
 
-You can try running the standalone version of the software, which does not need to be installed. Simply extract it and run Logic.exe. Since the installer normally handles driver installation, you may need to manually install the driver if you use the standalone version. The driver files are included with the standalone download. The standalone version can be downloaded from the software release links above.
+You can try running the standalone version of the software, which does not need to be installed. Simply extract it and run Logic.exe. Since the installer normally handles driver installation, you may need to manually install the driver if you use the standalone version. The driver files are included with the standalone download. The standalone version can be downloaded from the Logic 1.x Download link provided above.
 
 ### **Installing for Mac**
 
