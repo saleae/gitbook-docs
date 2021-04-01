@@ -39,7 +39,7 @@ Simply download and run the installer. We install a driver for the Logic hardwar
 
 ### **If the Installer fails with an Error on Windows**
 
-You can try running the standalone version of the software, which does not need to be installed. Simply extract it and run Logic.exe. Since the installer normally handles driver installation, you may need to manually install the driver if you use the standalone version. The driver files are included with the standalone download. The standalone version can be downloaded from the software release links above.
+You can try running the standalone version of the software, which does not need to be installed. Simply extract it and run Logic.exe. Since the installer normally handles driver installation, you may need to manually install the driver if you use the standalone version. The driver files are included with the standalone download. The standalone version cannot be downloaded from the software release link above.
 
 ### **Installing for Mac**
 
