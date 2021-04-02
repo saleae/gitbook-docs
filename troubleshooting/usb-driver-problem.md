@@ -22,7 +22,11 @@ if you are running into any connectivity issues, feel free to collect the inform
 2. Open the Logic 2 software, and check to see if the device connects. If not, check to see if the device has disappeared from device manager.
 3. Please restart your computer to see if the connection issue persists.
 4. If the connection issue persists even after your computer is restarted, then a driver update may be required.
-5. If there is a driver available for your computer, there is a good chance Windows Update will have it. To check, open Windows Update, and click "View optional updates" and expand "Driver Updates".
+5. If there is a driver available for your computer, there is a good chance Windows Update will have it. To check, open Windows Update, and click "View optional updates" and expand "Driver Updates."
+
+{% hint style="warning" %}
+If your driver is not shown in the list of "Driver Updates" in Windows Update, then there is no update available from Windows Update. In this case, you should not attempt to force install one of their update packages.
+{% endhint %}
 
 ## Latest USB 3.0 Host Controller Drivers
 
