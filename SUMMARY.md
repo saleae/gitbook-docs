@@ -29,7 +29,7 @@
     * [What Is the Normal Behavior of the LED?](ordering-and-shipping/faq/what-is-the-normal-behavior-of-the-led.md)
     * [Saleae Tax & VAT Information](ordering-and-shipping/faq/what-is-saleaes-vat-and-tax-id-number.md)
     * [Unable to Ship to PO Box Error](ordering-and-shipping/faq/ship-to-po-box-error.md)
-    * [Referred a Friend? Email Us!](ordering-and-shipping/faq/referred-a-friend-email-us.md)
+    * [Referred a Friend? Email Us!](ordering-and-shipping/faq/referral-program.md)
 * [Getting Started](getting-started/README.md)
   * [Setup](getting-started/setup.md)
   * [Configure](getting-started/configure.md)
