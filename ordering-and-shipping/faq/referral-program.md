@@ -1,6 +1,6 @@
 # Referred a Friend? Email Us!
 
-Have you referred a friend or colleague to use our logic analyzers? If so, [contact our team](https://contact.saleae.com/hc/en-us/requests/new) and tell us all about it! We would be happy to send a small gift your way.
+Have you referred a friend or colleague to purchase our logic analyzers? If so, [contact our team](https://contact.saleae.com/hc/en-us/requests/new) and tell us all about it! We would be happy to send a small gift your way.
 
 In your message to us, feel free to include your shipping information below:
 
