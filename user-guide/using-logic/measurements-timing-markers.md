@@ -8,11 +8,27 @@ Measurements in the Logic 2 software can be added via the "Timing Markers & Meas
 
 The measurements that are made \(called metrics\) depend on the type of data you are measuring \(analog or digital\) and the installed measurement extensions in the software. 
 
-### Installing More Measurement Extensions
+#### Installing More Measurements
 
 The "Clock Stats" and the "Voltage RMS" measurement extensions are installed by default. You can also view and install custom submitted Measurement Extensions via the "Extensions" panel button on the right of the software. More information on this can be found below.
 
 {% page-ref page="../../extensions/installing-extensions.md" %}
+
+### 
+
+### Timing Markers
+
+Timing Markers in the Logic 2 software can be added via the "Timing Markers & Measurements" side panel button on the right. Two types of timing markers exist: \(1\) Single Marker and \(2\) Marker Pair.
+
+![Adding Timing Markers](../../.gitbook/assets/screen-shot-2021-04-02-at-2.19.22-pm.png)
+
+#### Adding Notes to Timing Markers and Editing Colors
+
+By clicking on the timing markers at the top of the software, text notes can be added and colors can be changed. You can also delete timing markers from here by clicking on the "trashcan" icon.
+
+![](../../.gitbook/assets/screen-shot-2021-04-02-at-2.21.43-pm%20%281%29.png)
+
+
 
 
 
