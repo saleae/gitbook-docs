@@ -180,7 +180,7 @@
   * [Sharing your Machine ID](troubleshooting/sharing-your-machine-id.md)
   * [Warning Message: Unsupported Version](troubleshooting/unsupported-version.md)
   * [Error Function: Device2::SetupDevice](troubleshooting/error-function-device2-setupdevice.md)
-  * [Warning Message: Possible USB Driver Problem Detected](troubleshooting/usb-driver-problem.md)
+  * [Warning Message: Possible USB Host Controller Problem Detected](troubleshooting/usb-driver-problem.md)
   * [Error Message: StartCommandError](troubleshooting/start-command-error.md)
   * [Logic 2 Error Messages](troubleshooting/logic-2-error-messages.md)
   * [Exporting Data to CSV is Slow](troubleshooting/exporting-data-to-csv-is-slow.md)

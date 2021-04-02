@@ -1,10 +1,28 @@
-# Warning Message: Possible USB Driver Problem Detected
+# Warning Message: Possible USB Host Controller Problem Detected
 
-The Logic 2.x software may generate the following warning message if it detects a USB driver issue.
+In Windows, the Logic 2.x software may generate the following warning message if it detects a USB driver issue.
 
-![Possible USB Driver Problem Pop-up](../.gitbook/assets/usb-problem.png)
+> Possible USB Host Controller Problem Detected! If you do not experience any connectivity issues with your device, you can safely ignore this message. Select "Do not show again" to hide.
 
-If you are unsure which driver you need or would like to verify that you are downloading the correct driver, feel free to collect the information about your host controller and contact [Saleae support](https://contact.saleae.com/hc/en-us/requests/new). Below are the latest driver versions and download links for each host controller.
+![](../.gitbook/assets/image%20%282%29.png)
+
+This message does not indicate the device is not working. Instead, it simply checks your computer against a known list of USB host controller & driver combinations that customers have reported problems with in the past. If you are not experiencing any connectivity issues, you can safely ignore this message.
+
+### ASMedia and VIA Host Controllers
+
+The two known USB host controller driver combinations with problems \(ASMedia host controllers and VIA host controllers\) both have known working driver configurations.
+
+### Contacting Support and Troubleshooting your Connection
+
+if you are running into any connectivity issues, feel free to collect the information about your USB host controller \(instructions in the support article below\) and contact [Saleae support](https://contact.saleae.com/hc/en-us/requests/new).
+
+{% page-ref page="../faq/technical-faq/usb-3.0-host-controller-info.md" %}
+
+1. Once you've found your USB 3.0 Host Controller Information, check to see if your Saleae Logic device is in the device manager list.
+2. Open the Logic 2 software, and check to see if the device connects. If not, check to see if the device has disappeared from device manager.
+3. Please restart your computer to see if the connection issue persists.
+4. If the connection issue persists even after your computer is restarted, then a driver update may be required.
+5. If there is a driver available for your computer, there is a good chance Windows Update will have it. To check, open Windows Update, and click "View optional updates" and expand "Driver Updates".
 
 ## Latest USB 3.0 Host Controller Drivers
 

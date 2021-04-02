@@ -1,6 +1,20 @@
 # Finding Your USB 3.0 Host Controller Information
 
-## Finding Your USB 3.0 Host Controller Information
+Our support team may request you to send us your USB host controller information in cases where connectivity issues may occur. The following instructions show how this can be done.
+
+1. Close the Logic 2 software and connect the logic analyzer. If it is already attached, remove it and reconnect it.
+2. Open device manager
+3. Expand the section "Universal Serial bus controllers" and locate any & all USB 3.0 host controllers you find there. For each one, please double click to open the properties window, go to the driver tab, and send us screenshots as shown below.
+
+![Finding USB Host Controller Information](../../.gitbook/assets/screen-shot-2021-04-02-at-3.12.57-pm.png)
+
+     4. To better identify your host controller you are using, click the details tab, and select "Hardware Ids" from the property selection. Then take a screenshot. It should look similar to the below image.
+
+![Viewing the Hardware Ids for your Host Controller](../../.gitbook/assets/inline1733780973.png)
+
+## Logic 1.x
+
+If you are using the older Logic 1.x software, the USB host controller information can be found from within the software.
 
 {% hint style="info" %}
 This article only applies to the Logic 1 software, and does not apply to Logic 2. Logic 2 users can get their host controller data from device manager, in the "Universal Serial Bus Controllers" section.
