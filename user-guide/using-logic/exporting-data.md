@@ -16,6 +16,10 @@ You will be greeted with an "Export Raw Data" window. From here, you can select 
 
 ![Export Data Window](../../.gitbook/assets/raw-data-window.png)
 
+{% hint style="info" %}
+Note: Digital channel entries are only recorded in the export file when data changes. Therefore, the number of entries in the resulting export file are dependent on the number of transitions that occur and not on the number of digital samples in the capture. This helps reduce the file size of the export file.
+{% endhint %}
+
 ### Exporting Analyzer Results
 
 To export your individual analyzer results, click the 3 dots next to the particular analyzer you'd like to export data for. Then click "Export to TXT/CSV." You will be greeted with an OS prompt to save your export file.
