@@ -11,7 +11,7 @@ The time point at which t=0s occurs can be configured to the following events
 * **Start of Capture**: Sets the start of the capture as t=0s
 * **Digital Trigger**: In a digital triggered capture, this sets the point at which the digital trigger occurs as t=0s
 * **Analyzer Trigger**: If the trigger was the result of an Analyzer Trigger \(located under the Analyzers panel &gt; Trigger View\), then the point at which the trigger occurred will be t=0s.
-* **Timing Marker**: If any timing markers are present, then the selected timing marker will be set as t=0s.
+* **Timing Marker**: If any timing markers are present, then the selected timing marker will be set as t=0s. As an alternative, you can also right-click on your timing marker and select "Set as t0" in the pop up menu.
 
 ### Wall Clock Format
 
