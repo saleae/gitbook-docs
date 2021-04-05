@@ -4,7 +4,13 @@ The Socket API scripting utility allows users to programmatically configure our 
 
 ### Prerequisites - Software Settings
 
-* Check that you are using the latest version of the software below.
+{% hint style="info" %}
+Please note that the Socket API automation utility requires the older Logic 1.x software. The latest Logic 2.x software currently does not support this utility, though we do plan to add support for it in the future. Feel free to [vote on the idea here!](https://ideas.saleae.com/b/feature-requests/application-api/)
+{% endhint %}
+
+* Check that you are using the older Logic 1.x software below \(we recommend version 1.2.29\).
+
+{% page-ref page="../../logic-software/legacy-software/older-software-releases.md" %}
 
 * We highly recommend suppressing notifications and error messages while running your automation script. These notifications may block normal operation and can be suppressed by starting the application with the command line option `-disablepopups` 
 * Next, we must enable the scripting socket server. Open Options Menu at the top of the software.
