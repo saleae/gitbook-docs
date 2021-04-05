@@ -2,21 +2,21 @@
 
 ## Logic 2.x Instructions
 
-Loading custom C++ protocol analyzers is possible in the Logic 2 software starting with the 2.3.5 release.
+First, click the options button at the bottom-right of the software, and select "Preferences."
 
-On the software's main menu, select "Custom Low Level Analyzers...". If you don't see this item on the menu, you may need to update your software to the latest release.
+![](../../.gitbook/assets/screen-shot-2021-04-05-at-3.24.11-pm.png)
 
-Then, in the dialog, use the browse button to select the directory that contains your compiled custom protocol analyzer.
+Then, in the Preferences window, scroll to the bottom until you reach the Custom Low Level Analyzers section.
 
-Finally, save the dialog and restart the software. Your custom analyzer should now appear in the list of available protocol analyzers!
+![](../../.gitbook/assets/screen-shot-2021-04-05-at-3.26.38-pm.png)
+
+Use the browse button to select the directory that contains your compiled custom protocol analyzer. Finally, save the dialog and restart the software. Your custom analyzer should now appear in the list of available protocol analyzers!
+
+### Logic 2 MacOS Instructions
 
 {% hint style="info" %}
 If you're using MacOS, there is another step you may need to take in order for your custom analyzer to work.
 {% endhint %}
-
-![](../../.gitbook/assets/image%20%283%29.png)
-
-### Logic 2 MacOS Instructions
 
 If you see the following error after restarting the software on **MacOS**, please follow these extra steps.
 
