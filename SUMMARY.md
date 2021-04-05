@@ -189,6 +189,7 @@
   * [Issues with the Apple M1 Chip](troubleshooting/issues-with-the-apple-m1-chip.md)
   * [Errors when Running Logic 2 on Linux](troubleshooting/logic2-linux-errors.md)
   * [CentOS Compatibility Issues](troubleshooting/centos-compatibility-issues.md)
+  * [Failed to Load Custom Analyzer: libmidi\_analyzer.so](troubleshooting/failed-to-load-custom-analyzer-libmidi_analyzer.so.md)
 * [FAQ](faq/README.md)
   * [Technical FAQ](faq/technical-faq/README.md)
     * [System Requirements for Saleae Products](faq/technical-faq/system-requirements-for-saleae-products.md)
