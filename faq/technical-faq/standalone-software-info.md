@@ -1,5 +1,7 @@
 # Standalone Software Information
 
+
+
 {% hint style="info" %}
 Currently, only the older Logic 1.x software offers a standalone version. If you need a standalone version for the latest Logic 2.x software, feel free to [vote for it here!](https://ideas.saleae.com/b/feature-requests/widows-standalone-beta-releases/)
 {% endhint %}

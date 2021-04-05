@@ -1,10 +1,18 @@
 # Logic 1.x Download
 
+### Notes on Standalone Releases
+
+For more information on the standalone versions of our software, please view the support article below.
+
+{% page-ref page="../../faq/technical-faq/standalone-software-info.md" %}
+
 {% hint style="info" %}
 When using the standalone version of the software, the drivers must be installed manually. Refer to the Driver Install link below for instructions.
 {% endhint %}
 
 {% page-ref page="../driver-install.md" %}
+
+## Logic 1.x Download Links
 
 ### 1.2.29 Download
 
