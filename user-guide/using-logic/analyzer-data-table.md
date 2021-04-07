@@ -28,6 +28,12 @@ In addition to showing and searching for protocol results, the data table has th
 
 ![Right-clicking a column header allows columns to be shown or hidden](../../.gitbook/assets/image%20%288%29.png)
 
+### Jumping to a Data Table Row from the Waveform
+
+You can jump to a specific row in the data table by hovering your mouse over a decoded bubble above the waveform as shown in the image below. A keyboard shortcut \(OS-specific\) will appear to allow you to perform this action.
+
+![Jumping to a Row in the Data Table](../../.gitbook/assets/screen-shot-2021-04-07-at-3.40.30-pm.png)
+
 ### Search Limitations
 
 In most cases, you should be able to search for what you see in the table, just as you would search any other document, spreadsheet, or website. However, in order to improve performance of the search functionality, the search function has a few limitations.

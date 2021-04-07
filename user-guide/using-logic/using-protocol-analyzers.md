@@ -1,12 +1,24 @@
 # Analyzers
 
-## Using Protocol Analyzers
+Our tutorial video below demonstrates the basics of decoding data using protocol analyzers. The video covers the following topics:
 
-Protocol Analyzers decode data that have been encoded according to a particular protocol such as SPI or I2C. The Logic software currently offers 23 protocol analyzers.
+* The basics of protocol analyzers
+* Capturing and decoding SPI data
+* Configuring the SPI analyzer
+* Changing the display radix
+* Navigating using the Data Table
+
+{% embed url="https://www.youtube.com/watch?v=Ak9R4yxQPhs" %}
+
+
+
+## Logic 1.x
+
+If you are using the older Logic 1.x software, the following images and instructions apply.
 
 ### **Adding Protocol Analyzers**
 
-To add a Protocol Analyzer, click the Plus button on the Analyzers sidebar on the right of the software.
+Protocol Analyzers decode data that have been encoded according to a particular protocol such as SPI or I2C. ****To add a Protocol Analyzer, click the Plus button on the Analyzers sidebar on the right of the software.
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c96cb44251902be82bf/241x155/1bac39c75e3f567a77f3758599e87716/analyzer_add.png)
 
