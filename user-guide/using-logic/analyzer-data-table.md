@@ -1,9 +1,5 @@
 # Analyzer Data Table
 
-{% hint style="info" %}
-This article applies to the latest iteration of the data table, first released in Logic 2.3.8.
-{% endhint %}
-
 The analyzer data table shows all decoded protocol data in a table format.
 
 In general, the search functionality allows you to search for content in any column, except for the 'Start' and 'Duration' columns.
