@@ -191,6 +191,7 @@
   * [Errors when Running Logic 2 on Linux](troubleshooting/logic2-linux-errors.md)
   * [CentOS Compatibility Issues](troubleshooting/centos-compatibility-issues.md)
   * [Failed to Load Custom Analyzer: libmidi\_analyzer.so](troubleshooting/failed-to-load-custom-analyzer.md)
+  * [Exporting Raw Data via CSV Takes a Long Time](troubleshooting/exporting-raw-data-via-csv-takes-a-long-time.md)
 * [FAQ](faq/README.md)
   * [Technical FAQ](faq/technical-faq/README.md)
     * [System Requirements for Saleae Products](faq/technical-faq/system-requirements-for-saleae-products.md)

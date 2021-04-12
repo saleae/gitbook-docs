@@ -466,16 +466,16 @@ Windows \(32 bit and 64 bit\):
 OSX 10.7+:  
 [https://downloads.saleae.com/betas/1.2.7/Logic-1.2.7-Darwin.dmg](https://downloads.saleae.com/betas/1.2.7/Logic-1.2.7-Darwin.dmg)
 
-Linux 32 bit:   
+Linux 32 bit:  
 [https://downloads.saleae.com/betas/1.2.7/Logic+1.2.7+\(32-bit\).zip](https://downloads.saleae.com/betas/1.2.7/Logic+1.2.7+%2832-bit%29.zip)  
-Linux 64 bit:   
+Linux 64 bit:  
 [https://downloads.saleae.com/betas/1.2.7/Logic+1.2.7+\(64-bit\).zip](https://downloads.saleae.com/betas/1.2.7/Logic+1.2.7+%2864-bit%29.zip)
 
 Linux Compatibility release, for users with older libraries:
 
-Linux 32 bit:   
+Linux 32 bit:  
 [https://downloads.saleae.com/betas/1.2.7/Logic+1.2.7+\(32-bit\)+compatibility\_release.zip](https://downloads.saleae.com/betas/1.2.7/Logic+1.2.7+%2832-bit%29+compatibility_release.zip)  
-Linux 64 bit:   
+Linux 64 bit:  
 [https://downloads.saleae.com/betas/1.2.7/Logic+1.2.7+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/betas/1.2.7/Logic+1.2.7+%2864-bit%29+compatibility_release.zip)
 
 Widows Standalone Releases:
@@ -493,16 +493,16 @@ Windows \(32 bit and 64 bit\):
 OSX 10.7+:  
 [https://downloads.saleae.com/betas/1.2.5/Logic-1.2.5-Darwin.dmg](https://downloads.saleae.com/betas/1.2.5/Logic-1.2.5-Darwin.dmg)
 
-Linux 32 bit:   
+Linux 32 bit:  
 [https://downloads.saleae.com/betas/1.2.5/Logic+1.2.5+\(32-bit\).zip](https://downloads.saleae.com/betas/1.2.5/Logic+1.2.5+%2832-bit%29.zip)  
-Linux 64 bit:   
+Linux 64 bit:  
 [https://downloads.saleae.com/betas/1.2.5/Logic+1.2.5+\(64-bit\).zip](https://downloads.saleae.com/betas/1.2.5/Logic+1.2.5+%2864-bit%29.zip)
 
 Linux Compatibility release, for users with older libraries:
 
-Linux 32 bit:   
+Linux 32 bit:  
 [https://downloads.saleae.com/betas/1.2.5/Logic+1.2.5+\(32-bit\)+compatibility\_release.zip](https://downloads.saleae.com/betas/1.2.5/Logic+1.2.5+%2832-bit%29+compatibility_release.zip)  
-Linux 64 bit:   
+Linux 64 bit:  
 [https://downloads.saleae.com/betas/1.2.5/Logic+1.2.5+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/betas/1.2.5/Logic+1.2.5+%2864-bit%29+compatibility_release.zip)
 
 Widows Standalone Releases:
@@ -520,16 +520,16 @@ Windows \(32 bit and 64 bit\):
 OSX 10.7+:  
 [https://downloads.saleae.com/betas/1.2.4/Logic-1.2.4-Darwin.dmg](https://downloads.saleae.com/betas/1.2.4/Logic-1.2.4-Darwin.dmg)
 
-Linux 32 bit:   
+Linux 32 bit:  
 [https://downloads.saleae.com/betas/1.2.4/Logic+1.2.4+\(32-bit\).zip](https://downloads.saleae.com/betas/1.2.4/Logic+1.2.4+%2832-bit%29.zip)  
-Linux 64 bit:   
+Linux 64 bit:  
 [https://downloads.saleae.com/betas/1.2.4/Logic+1.2.4+\(64-bit\).zip](https://downloads.saleae.com/betas/1.2.4/Logic+1.2.4+%2864-bit%29.zip)
 
 Linux Compatibility release, for users with older libraries:
 
-Linux 32 bit:   
+Linux 32 bit:  
 [https://downloads.saleae.com/betas/1.2.4/Logic+1.2.4+\(32-bit\)+compatibility\_release.zip](https://downloads.saleae.com/betas/1.2.4/Logic+1.2.4+%2832-bit%29+compatibility_release.zip)  
-Linux 64 bit:   
+Linux 64 bit:  
 [https://downloads.saleae.com/betas/1.2.4/Logic+1.2.4+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/betas/1.2.4/Logic+1.2.4+%2864-bit%29+compatibility_release.zip)
 
 ### **1.2.3 Download**
@@ -540,22 +540,22 @@ Windows \(32 bit and 64 bit\):
 OSX 10.7+:  
 [https://downloads.saleae.com/betas/1.2.3/Logic-1.2.3-Darwin.dmg](https://downloads.saleae.com/betas/1.2.3/Logic-1.2.3-Darwin.dmg)
 
-Linux 32 bit:   
+Linux 32 bit:  
 [https://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+\(32-bit\).zip](https://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+%2832-bit%29.zip)  
-Linux 64 bit:   
+Linux 64 bit:  
 [https://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+\(64-bit\).zip](https://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+%2864-bit%29.zip)
 
 Linux Compatibility release"  
-Linux 32 bit:   
+Linux 32 bit:  
 [https://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+\(32-bit\)+compatibility\_release.zip](https://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+%2832-bit%29+compatibility_release.zip)  
-Linux 64 bit:   
+Linux 64 bit:  
 [https://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+%2864-bit%29+compatibility_release.zip)
 
 Standalone Windows \(no installer\):
 
-Windows 32 bit:   
+Windows 32 bit:  
 [https://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+Windows+32+bit+Standalone.zip](https://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+Windows+32+bit+Standalone.zip)  
-Windows 64 bit:   
+Windows 64 bit:  
 [https://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+Windows+64+bit+Standalone.zip](https://downloads.saleae.com/betas/1.2.3/Logic+1.2.3+Windows+64+bit+Standalone.zip)
 
 ### **1.2.2 Download**
@@ -566,16 +566,16 @@ Windows \(32 bit and 64 bit\)
 osx 10.7+  
 [https://downloads.saleae.com/betas/1.2.2/Logic-1.2.2-Darwin.dmg](https://downloads.saleae.com/betas/1.2.2/Logic-1.2.2-Darwin.dmg)
 
-Linux 32 bit:   
+Linux 32 bit:  
 [https://downloads.saleae.com/betas/1.2.2/Logic+1.2.2+\(32-bit\).zip](https://downloads.saleae.com/betas/1.2.2/Logic+1.2.2+%2832-bit%29.zip)
 
-Linux 64 bit:   
+Linux 64 bit:  
 [https://downloads.saleae.com/betas/1.2.2/Logic+1.2.2+\(64-bit\).zip](https://downloads.saleae.com/betas/1.2.2/Logic+1.2.2+%2864-bit%29.zip)
 
-Linux 32 bit compatibility release:   
+Linux 32 bit compatibility release:  
 [https://downloads.saleae.com/betas/1.2.2/Logic+1.2.2+\(32-bit\)+compatibility\_release.zip](https://downloads.saleae.com/betas/1.2.2/Logic+1.2.2+%2832-bit%29+compatibility_release.zip)
 
-Linux 64 bit compatibility release:   
+Linux 64 bit compatibility release:  
 [https://downloads.saleae.com/betas/1.2.2/Logic+1.2.2+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/betas/1.2.2/Logic+1.2.2+%2864-bit%29+compatibility_release.zip)
 
 ### **1.2.1 Download** \(Linux and OSX only\)
@@ -628,14 +628,14 @@ Windows 64 bit standalone:
 
 ### **1.1.20 Download**
 
-Windows 32:   
+Windows 32:  
 [https://downloads.saleae.com/betas/1.1.20/Logic+Setup+1.1.20+\(32-bit\).exe](https://downloads.saleae.com/betas/1.1.20/Logic+Setup+1.1.20+%2832-bit%29.exe)  
-Windows 64:   
+Windows 64:  
 [https://downloads.saleae.com/betas/1.1.20/Logic+Setup+1.1.20+\(64-bit\).exe](https://downloads.saleae.com/betas/1.1.20/Logic+Setup+1.1.20+%2864-bit%29.exe)
 
-Linux 32:   
+Linux 32:  
 [https://downloads.saleae.com/betas/1.1.20/Logic+1.1.20+\(32-bit\).zip](https://downloads.saleae.com/betas/1.1.20/Logic+1.1.20+%2832-bit%29.zip)  
-Linux 64:   
+Linux 64:  
 [https://downloads.saleae.com/betas/1.1.20/Logic+1.1.20+\(64-bit\).zip](https://downloads.saleae.com/betas/1.1.20/Logic+1.1.20+%2864-bit%29.zip)
 
 OSX 10.6+  
@@ -647,13 +647,13 @@ Linux 32 bit:
 
 [https://downloads.saleae.com/betas/1.1.19/Logic+1.1.19+\(32-bit\).zip](https://downloads.saleae.com/betas/1.1.19/Logic+1.1.19+%2832-bit%29.zip)
 
-Linux 64 bit:   
+Linux 64 bit:  
 [https://downloads.saleae.com/betas/1.1.19/Logic+1.1.19+\(64-bit\).zip](https://downloads.saleae.com/betas/1.1.19/Logic+1.1.19+%2864-bit%29.zip)
 
-Windows 32 bit:   
+Windows 32 bit:  
 [https://downloads.saleae.com/betas/1.1.19/Logic+Setup+1.1.19+\(32-bit\).exe](https://downloads.saleae.com/betas/1.1.19/Logic+Setup+1.1.19+%2832-bit%29.exe)
 
-Windows 64 bit:   
+Windows 64 bit:  
 [https://downloads.saleae.com/betas/1.1.19/Logic+Setup+1.1.19+\(64-bit\).exe](https://downloads.saleae.com/betas/1.1.19/Logic+Setup+1.1.19+%2864-bit%29.exe)
 
 OSX 10.6+  

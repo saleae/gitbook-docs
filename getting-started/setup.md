@@ -4,11 +4,11 @@ The Saleae Logic Analyzer is a powerful tool capable of capturing multiple signa
 
 To begin, download and install the _Logic 2_ software from the [Logic 2 download page](https://ideas.saleae.com/f/changelog/).
 
-![Download and install the Logic 2 Software](../.gitbook/assets/screen-shot-2020-09-03-at-6.52.16-pm%20%286%29%20%282%29%20%282%29.png)
+![Download and install the Logic 2 Software](../.gitbook/assets/screen-shot-2020-09-03-at-6.52.16-pm%20%286%29%20%282%29%20%283%29.png)
 
 Connect one or more cable harnesses to the Saleae Logic Analyzer. Note that each cable harness has an arrow on the top of the connector. This arrow should point up \(same side as the Saleae logo\) and to the left \(the side with the ‘S’ in Saleae\).
 
-![](../.gitbook/assets/saleae_harness_2%20%281%29%20%281%29%20%281%29%20%281%29.jpg)
+![](../.gitbook/assets/saleae_harness_2%20%281%29%20%281%29%20%281%29%20%281%29%20%281%29.jpg)
 
 The unlabeled black wires are ground \(GND\), and the signal wires are labeled 0-8 \(repeated if you have the Logic Pro 16\). Looking straight at the ports of the analyzer, the top row of pins are labeled 0-8.
 
