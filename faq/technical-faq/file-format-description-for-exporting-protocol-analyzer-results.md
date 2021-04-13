@@ -12,7 +12,7 @@ The format of each protocol analyzer's exported results is specific to that anal
 
 The easiest way to show sample analyzer results is by performing a simulation of that protocol in the Saleae Logic software and then exporting the results from that simulation. More information on simulation mode can be found below.
 
-{% page-ref page="../../user-guide/using-logic/simulation-mode.md" %}
+{% page-ref page="../../user-guide/using-logic/demo-mode.md" %}
 
 This has the added benefit of allowing the user to view the subtle changes in the export format that result from different analyzer settings. For example, the USB protocol analyzer will export information in different formats, depending on the decode level specified in the analyzer settings.
 
