@@ -109,7 +109,7 @@
     * [VB.NET Support for Automation](saleae-api-and-sdk/other-information/vb-net.md)
 * [Protocol Analyzers](protocol-analyzers/README.md)
   * [Supported Protocols](protocol-analyzers/supported-protocols.md)
-  * [Community Supported Protocols](protocol-analyzers/unofficially-supported-protocols.md)
+  * [Community Supported Protocols](protocol-analyzers/community-supported-protocols.md)
   * [Analyzer User Guides](protocol-analyzers/analyzer-user-guides/README.md)
     * [Using the Async Serial Analyzer](protocol-analyzers/analyzer-user-guides/using-async-serial.md)
     * [Using the SPI Analyzer](protocol-analyzers/analyzer-user-guides/using-spi.md)
