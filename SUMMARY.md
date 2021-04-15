@@ -298,7 +298,7 @@
     * [Ethernet Connectivity Suggestions](faq/technical-faq/ethernet-connectivity.md)
     * [Binary Export Format - Logic 2](faq/technical-faq/binary-export-format-logic-2.md)
     * [Viewing I2C Addresses as 8-bit](faq/technical-faq/viewing-i2c-addresses-as-8-bit.md)
-    * [Can I use Python Packages in my Custom Extension?](faq/technical-faq/can-i-use-python-packages-in-my-custom-extension.md)
+    * [Can I use Python Packages in my Custom Extension?](faq/technical-faq/python-package-support.md)
   * [General FAQ](faq/general-faq/README.md)
     * [How Do I Get More Help on an Issue That's Outside the Scope of Saleae Support?](faq/general-faq/help-outside-scope.md)
     * [How to Identify Each Saleae Device](faq/general-faq/identify-each-saleae-device.md)
