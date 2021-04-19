@@ -1,10 +1,14 @@
 # Exporting Raw Data via CSV Takes a Long Time
 
-We've received a few recent reports of export speed being slow when exporting raw data to a csv file. Unfortunately, exporting to a csv file has its limits, and a very densely packed digital capture, or an analog capture with a high sampling rate, may in fact take anywhere between a few minutes to several minutes depending on the capture settings used and your PC specifications.
+We've received a few recent reports of export speed being slow when exporting raw data to a csv file. Unfortunately, exporting to a csv file has its limits, and the time it takes to process the data depends on the following:
 
-### Performance Expectations when Exporting via CSV
+* Number of digital transitions in your data
+* Number of analog samples in your data
+* Your PC specifications
 
-Exporting via the csv file format has its limits. We might be able to squeeze out a bit more performance in terms of speed, though due to the csv file format itself, the speed increase may be in the order of a few 10s of percent. We wouldn't be able to drastically increase the speed by 10x.
+### Performance Expectations
+
+We might be able to squeeze out a bit more performance in terms of speed, though due to the csv file format itself, the speed increase may be in the order of a few 10s of percent. We wouldn't be able to drastically increase the speed by 10x.
 
 ### Troubleshooting Steps
 
