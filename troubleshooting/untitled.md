@@ -26,7 +26,3 @@ In cases where you plan on capturing large amounts of data \(greater than 1 hour
 
 
 
-
-
-
-
