@@ -19,6 +19,8 @@ The time point at which t=0s occurs can be configured to the following events
 
 {% hint style="info" %}
 The Wall Clock Time format setting will only show up when you pan the capture all the way to the left \(i.e. at the beginning of the capture\). When you are zoomed in anywhere else in the capture, the wall clock time will not appear.
+
+We certainly need to improve the way this feature works in such a way to avoid this confusion. If you have any issues with the way it's implemented now, feel free to vote for improvements [here](https://ideas.saleae.com/b/feature-requests/wall-clock-time-seemingly-doesnt-work)!
 {% endhint %}
 
 ![Scroll to the beginning of capture to see Wall Clock Time](../../.gitbook/assets/screen-shot-2021-04-21-at-5.14.57-pm.png)
