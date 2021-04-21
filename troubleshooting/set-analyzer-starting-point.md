@@ -1,4 +1,4 @@
-# Set an Analyzer Starting Point in your Data
+# Set an Analyzer Starting Point in your Capture
 
 There are times where you may need to manually set the starting point in time for your protocol analyzer to begin decoding data. 
 
