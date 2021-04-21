@@ -24,5 +24,9 @@ In cases where you plan on capturing large amounts of data \(greater than 1 hour
 5. Load your preset to begin decoding the data
 6. Restart the app before starting a new capture \(to clear the analyzer\_db directories\)
 
+Instructions for saving/loading a preset and saving captures can be found below.
+
+{% page-ref page="../user-guide/using-logic/saving-loading-and-exporting-data.md" %}
+
 
 
