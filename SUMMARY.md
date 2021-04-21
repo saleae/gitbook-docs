@@ -193,7 +193,7 @@
   * [Failed to Load Custom Analyzer: libmidi\_analyzer.so](troubleshooting/failed-to-load-custom-analyzer.md)
   * [Exporting Raw Data via CSV Takes a Long Time](troubleshooting/exporting-raw-data-via-csv-takes-a-long-time.md)
   * [Set an Analyzer Starting Point in your Capture](troubleshooting/set-analyzer-starting-point.md)
-  * [Untitled](troubleshooting/untitled.md)
+  * [Logic 2 is Consuming Disk Space](troubleshooting/untitled.md)
 * [FAQ](faq/README.md)
   * [Technical FAQ](faq/technical-faq/README.md)
     * [System Requirements for Saleae Products](faq/technical-faq/system-requirements-for-saleae-products.md)
