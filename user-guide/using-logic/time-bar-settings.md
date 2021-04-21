@@ -17,11 +17,19 @@ The time point at which t=0s occurs can be configured to the following events
 
 * **Wall Clock Time**: Changes the time format to your OS wall clock
 
+{% hint style="info" %}
+The Wall Clock Time format setting will only show up when you pan the capture all the way to the left \(i.e. at the beginning of the capture\). When you are zoomed in anywhere else in the capture, the wall clock time will not appear.
+{% endhint %}
+
+![Scroll to the beginning of capture to see Wall Clock Time](../../.gitbook/assets/screen-shot-2021-04-21-at-5.14.57-pm.png)
+
 ### Time Preferences
 
 The Time Preferences may also be opened for further customization on the time bar behavior.
 
 ![Time Preferences Window](../../.gitbook/assets/screen-shot-2021-04-02-at-2.41.25-pm.png)
+
+
 
 
 
