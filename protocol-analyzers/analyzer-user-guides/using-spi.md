@@ -86,6 +86,12 @@ First, add the timing marker by clicking the A1 button on the right side of the 
 
 Next, open the SPI analyzer settings menu and select "Re-run starting at timing marker...". From that list, select the timing marker you just placed.
 
+{% hint style="info" %}
+In the newer [Logic 2 software](https://www.saleae.com/downloads/), the "re-run starting at timing marker" option is no longer available. The workaround is to set the starting point for your analyzer by deleting portions of your capture as described below.
+{% endhint %}
+
+{% page-ref page="../../troubleshooting/set-analyzer-starting-point.md" %}
+
 Screenshots:
 
 ![](https://trello-attachments.s3.amazonaws.com/5849c1dba38920d68e9733a1/327x308/6f7490b8faa9c50e70505e5acd95797b/spi_menu.png)
