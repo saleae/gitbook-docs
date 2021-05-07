@@ -16,17 +16,33 @@ In the example video below, we set the _Memory buffer size_ to 500 MB. Notice th
 
 ### Trigger Mode
 
+#### Edge & Pulse Triggering
+
 The trigger mode will continuously record data until a digital trigger is found on a single channel. The four available types of digital triggers are Rising Edge, Falling Edge, High Pulse, and Low Pulse.
 
 ![Trigger Mode Capture Settings](../../.gitbook/assets/screen-shot-2020-09-23-at-6.25.23-pm.png)
+
+#### Additional Channel State Triggering
 
 In addition to the edge/pulse trigger which is set on a single digital channel, you can require other digital channels to be either HIGH or LOW to trigger a capture.
 
 ![Digital Channel State Conditions for Trigger](../../.gitbook/assets/screen-shot-2020-09-23-at-6.32.26-pm.png)
 
+#### Memory Buffer Setting
+
 While waiting for the trigger, the software will continue using the PC's RAM/memory until the "Memory buffer size" limit is reached. This setting is important, as the software will not exceed this limit. Please make sure to size the "Memory buffer size" appropriately from within the capture settings panel, such that your PC does not run out of memory while waiting for a trigger.
 
 ![Memory Buffer Size Setting](../../.gitbook/assets/screen-shot-2020-11-02-at-3.53.54-pm.png)
+
+#### Capture Duration Before and After Trigger
+
+The data that was captured before the trigger can be trimmed down in length. This allows you to specify how much of the data before the trigger is kept when the capture ends.
+
+![Trim pre-trigger data](../../.gitbook/assets/trim-pre-trigger-data.png)
+
+You can also specify the duration at which the software will continue recording data once the trigger condition is met.
+
+![Capture duration after trigger](../../.gitbook/assets/duration-after-trigger%20%281%29.png)
 
 ### Trigger on a Protocol Frame
 
