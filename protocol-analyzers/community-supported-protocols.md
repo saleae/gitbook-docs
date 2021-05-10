@@ -12,6 +12,7 @@ Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you nee
 
 * [Anybus CompactCom SPI](https://github.com/hms-networks/AbccSpiAnalyzer)
 * [APDU](https://github.com/zwizwa/sl-apdu)
+* [Async Serial \(Dual channel & Packet detection\)](https://github.com/martonmiklos/dual-channel-packetiser-serial-analyzer)
 * [CAN-FD](https://github.com/acosmith/Saleae_CAN-FD_Analyser)
 * [Digital Command Control](https://www.ejberg.dk/portfolio/saleae-dcc-decoder/)
 * [DHT2x](https://github.com/jakeson21/DHT2xProtocolAnalyzer)
