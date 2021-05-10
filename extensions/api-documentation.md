@@ -58,7 +58,7 @@ Convert to a floating point number of seconds. Note that this can cause a loss o
 
 Determine if the first `GraphTimeDelta` value is greater than or equal to the second, up to a tolerance.
 
-#### \__gt\__\(\)
+#### \_\_gt\__\(\)
 
 Determine if the first `GraphTimeDelta` value is greater than the second, up to a tolerance.
 
@@ -70,7 +70,7 @@ Determine if the first `GraphTimeDelta` value is less than or equal to the secon
 
 Determine if the first `GraphTimeDelta` value is less than the second, up to a tolerance.
 
-#### \__ne\__\(\)
+#### \_\_ne\__\(\)
 
 Determine if two `GraphTimeDelta` values are not equal, up to a tolerance.
 
