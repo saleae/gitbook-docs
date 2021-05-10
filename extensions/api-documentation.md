@@ -16,13 +16,13 @@ The sub-millisecond precision values must be converible to float.
 
 Add a `GraphTimeDelta` value to produce a new `GraphTime`.
 
-#### \__str\__\(\)
+#### \_\_str\__\(\)
 
 Converts `GraphTime` to an ISO 8601 string with picosecond precision.
 
 Timezone is always UTC, using the Z suffix.
 
-#### \__sub\__\(\)
+#### \_\_sub\__\(\)
 
 Subtract a `GraphTime` or `GraphTimeDelta` value.
 
@@ -42,19 +42,19 @@ Constructs a GraphTimeDelta using numerical values.
 
 All values must be convertible to float. Multiple prefixes may be specified, the resulting value will be all the values added together.
 
-#### \__add\__\(\)
+#### \_\_add\__\(\)
 
 Add a `GraphTimeDelta` value to produce a new `GraphTimeDelta`.
 
-#### \__eq\__\(\)
+#### \_\_eq\__\(\)
 
 Determine if two `GraphTimeDelta` values are equal, up to a tolerance.
 
-#### \__float\__\(\)
+#### \_\_float\__\(\)
 
 Convert to a floating point number of seconds. Note that this can cause a loss of precision for values &gt; 1ms.
 
-#### \__ge\__\(\)
+#### \_\_ge\__\(\)
 
 Determine if the first `GraphTimeDelta` value is greater than or equal to the second, up to a tolerance.
 
@@ -62,11 +62,11 @@ Determine if the first `GraphTimeDelta` value is greater than or equal to the se
 
 Determine if the first `GraphTimeDelta` value is greater than the second, up to a tolerance.
 
-#### \__le\__\(\)
+#### \_\_le\__\(\)
 
 Determine if the first `GraphTimeDelta` value is less than or equal to the second, up to a tolerance.
 
-#### \__lt\__\(\)
+#### \_\_lt\__\(\)
 
 Determine if the first `GraphTimeDelta` value is less than the second, up to a tolerance.
 
@@ -74,7 +74,7 @@ Determine if the first `GraphTimeDelta` value is less than the second, up to a t
 
 Determine if two `GraphTimeDelta` values are not equal, up to a tolerance.
 
-#### \__sub\__\(\)
+#### \_\_sub\__\(\)
 
 Subtract a `GraphTimeDelta` value to produce a new `GraphTimeDelta`.
 
