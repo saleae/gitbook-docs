@@ -12,7 +12,7 @@ Constructs a `GraphTime` using a [`datetime`](https://docs.python.org/3/library/
 
 The sub-millisecond precision values must be converible to float.
 
-#### \__add\__\(\)
+#### \_\_add\__\(\)
 
 Add a `GraphTimeDelta` value to produce a new `GraphTime`.
 
