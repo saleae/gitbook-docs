@@ -21,8 +21,6 @@ The red LED blinking could be caused by several factors listed below.
 
 {% page-ref page="../logic-software/legacy-software/older-software-releases.md" %}
 
-
-
 ### Contacting Support
 
 Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if the red LED continues to blink even after trying the tests above. Include the following information.
