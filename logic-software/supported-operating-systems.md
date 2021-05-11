@@ -20,7 +20,7 @@ Please note that 32 bit operating systems are not supported by Logic 2.x. For 32
 
 The Logic 1.x Software is supported in the operating systems listed below.
 
-![](../.gitbook/assets/screen-shot-2020-09-03-at-6.53.53-pm%20%282%29.png)
+![](../.gitbook/assets/screen-shot-2020-09-03-at-6.53.53-pm%20%282%29%20%282%29.png)
 
 {% page-ref page="legacy-software/older-software-releases.md" %}
 

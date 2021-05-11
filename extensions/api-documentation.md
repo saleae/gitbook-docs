@@ -12,17 +12,17 @@ Constructs a `GraphTime` using a [`datetime`](https://docs.python.org/3/library/
 
 The sub-millisecond precision values must be converible to float.
 
-#### \_\_add\__\(\)
+#### \_\_add\_\_\(\)
 
 Add a `GraphTimeDelta` value to produce a new `GraphTime`.
 
-#### \_\_str\__\(\)
+#### \_\_str\_\_\(\)
 
 Converts `GraphTime` to an ISO 8601 string with picosecond precision.
 
 Timezone is always UTC, using the Z suffix.
 
-#### \_\_sub\__\(\)
+#### \_\_sub\_\_\(\)
 
 Subtract a `GraphTime` or `GraphTimeDelta` value.
 
@@ -42,39 +42,39 @@ Constructs a GraphTimeDelta using numerical values.
 
 All values must be convertible to float. Multiple prefixes may be specified, the resulting value will be all the values added together.
 
-#### \_\_add\__\(\)
+#### \_\_add\_\_\(\)
 
 Add a `GraphTimeDelta` value to produce a new `GraphTimeDelta`.
 
-#### \_\_eq\__\(\)
+#### \_\_eq\_\_\(\)
 
 Determine if two `GraphTimeDelta` values are equal, up to a tolerance.
 
-#### \_\_float\__\(\)
+#### \_\_float\_\_\(\)
 
 Convert to a floating point number of seconds. Note that this can cause a loss of precision for values &gt; 1ms.
 
-#### \_\_ge\__\(\)
+#### \_\_ge\_\_\(\)
 
 Determine if the first `GraphTimeDelta` value is greater than or equal to the second, up to a tolerance.
 
-#### \_\_gt\__\(\)
+#### \_\_gt\_\_\(\)
 
 Determine if the first `GraphTimeDelta` value is greater than the second, up to a tolerance.
 
-#### \_\_le\__\(\)
+#### \_\_le\_\_\(\)
 
 Determine if the first `GraphTimeDelta` value is less than or equal to the second, up to a tolerance.
 
-#### \_\_lt\__\(\)
+#### \_\_lt\_\_\(\)
 
 Determine if the first `GraphTimeDelta` value is less than the second, up to a tolerance.
 
-#### \_\_ne\__\(\)
+#### \_\_ne\_\_\(\)
 
 Determine if two `GraphTimeDelta` values are not equal, up to a tolerance.
 
-#### \_\_sub\__\(\)
+#### \_\_sub\_\_\(\)
 
 Subtract a `GraphTimeDelta` value to produce a new `GraphTimeDelta`.
 

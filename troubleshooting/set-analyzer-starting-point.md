@@ -16,11 +16,11 @@ In this case, our protocol analyzers don't have a way of determining if your cap
 
 For example, take a look at the ideal capture case below. The capture begins before the data begins. Therefore, the protocol analyzer is able to decode the entire message correctly.
 
-![Data capture begins before the Serial Message Begins](../.gitbook/assets/screen-shot-2021-04-21-at-4.23.50-pm%20%281%29.png)
+![Data capture begins before the Serial Message Begins](../.gitbook/assets/screen-shot-2021-04-21-at-4.23.50-pm%20%281%29%20%281%29.png)
 
 But... what happens if the capture began right in the middle of a data message, such as in the below image? In this case, it's possible that all subsequent decoded data may be incorrectly decoded due to the offset this causes.
 
-![Data capture begins in the middle of a Serial Message](../.gitbook/assets/screen-shot-2021-04-21-at-4.23.32-pm.png)
+![Data capture begins in the middle of a Serial Message](../.gitbook/assets/screen-shot-2021-04-21-at-4.23.32-pm%20%281%29.png)
 
 By deleting the portions of your data that might be causing this issue \(most commonly the beginning of data captures being located right in the middle of a data message\), this issue will most likely be solved.
 

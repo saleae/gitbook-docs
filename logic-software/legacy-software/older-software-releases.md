@@ -16,7 +16,7 @@ When using the standalone version of the software, the drivers must be installed
 
 ### 1.2.29 Download
 
-![](../../.gitbook/assets/screen-shot-2020-09-03-at-6.53.53-pm%20%281%29.png)
+![](../../.gitbook/assets/screen-shot-2020-09-03-at-6.53.53-pm%20%282%29%20%282%29%20%283%29.png)
 
 Windows  
 [Logic Setup 1.2.29.exe](https://downloads.saleae.com/logic/1.2.29/Logic+Setup+1.2.29.exe)
