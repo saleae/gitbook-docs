@@ -4,10 +4,11 @@ This list provides the Saleae part numbers, Export Classification Numbers \(ECCN
 
 The United States defines products using its Harmonized Tariff Schedule \(HTS\). An HS code, or HTS code, stands for Harmonized System or Harmonized Tariff Schedule. These codes are listed below.
 
-**For all Saleae Products**
+#### Country of Origin \(CoO\) - for manufacture and test
 
-* Country of Origin \(CoO\): Taiwan
-  * This is the country of manufacture and test
+* Unless otherwise specified, the CoO is Taiwan
+
+## Saleae Logic Analyzers
 
 **Saleae Logic 8 Black**
 
@@ -50,6 +51,8 @@ The United States defines products using its Harmonized Tariff Schedule \(HTS\).
 * ECCN: 3A992.a
 * HS Code: 9030840000
 * Price \(USD\): $999.00 
+
+## Accessories
 
 **Wire Harness - 2x4 to Test Clips - A**
 
@@ -114,7 +117,21 @@ The United States defines products using its Harmonized Tariff Schedule \(HTS\).
 * HS Code: 8546.90.0000
 * Price \(USD\): $19.95
 
-### Discontinued Products
+#### PCBite Kit
+
+* ECCN: EAR99
+* HS Code: 8205.70.0000
+* Country of Origin: Sweden
+* Price \(USD\): $169.00
+
+**PCBite SP10**
+
+* ECCN: EAR99
+* HS Code: 9030.90.0000
+* Country of Origin: Sweden
+* Price \(USD\): $59.00
+
+## Discontinued Products
 
 #### Saleae Logic 4 Black
 
