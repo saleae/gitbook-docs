@@ -8,6 +8,10 @@ The United States defines products using its Harmonized Tariff Schedule \(HTS\).
 
 * Unless otherwise specified, the CoO is Taiwan
 
+{% hint style="info" %}
+Note: The prices shown below are in USD currency. When placing an online order, the currency may be converted depending on the destination country.
+{% endhint %}
+
 ## Saleae Logic Analyzers
 
 **Saleae Logic 8 Black**
@@ -54,28 +58,30 @@ The United States defines products using its Harmonized Tariff Schedule \(HTS\).
 
 ## Accessories
 
-**Wire Harness - 2x4 to Test Clips - A**
+### Cables, Test Clips, & Wire Harnesses - Gen 2
+
+**Wire Harness - 2x4 to Test Clips \(Channels 0-3\)**
 
 * Part Number: SAL-00097
 * ECCN: EAR99
 * HS Code: 8544420000
-* Price \(USD\):    $9.95 
+* Price \(USD\): $9.95 
 
-**Wire Harness - 2x4 to Test Clips - B**
+**Wire Harness - 2x4 to Test Clips \(Channels 4-7\)**
 
 * Part Number: SAL-00098
 * ECCN: EAR99
 * HS Code: 8544420000
 * Price \(USD\): $9.95 
 
-**Wire Harness - 2x4 to Test Clips - C**
+**Wire Harness - 2x4 to Test Clips \(Channels 8-11\)**
 
 * Part Number: SAL-00099
 * ECCN: EAR99
 * HS Code: 8544420000
 * Price \(USD\): $9.95 
 
-**Wire Harness - 2x4 to Test Clips - D**
+**Wire Harness - 2x4 to Test Clips \(Channels 12-15\)**
 
 * Part Number: SAL-00100
 * ECCN: EAR99
@@ -103,6 +109,38 @@ The United States defines products using its Harmonized Tariff Schedule \(HTS\).
 * HS Code: 8544420000
 * Price \(USD\): $5.95 
 
+### External Accessories
+
+#### PCBite Kit
+
+* Part Number: SAL-00174
+* ECCN: EAR99
+* HS Code: 8205.70.0000
+* Country of Origin: Sweden
+* Price \(USD\): $169.00
+
+**PCBite SP10**
+
+* ECCN: EAR99
+* HS Code: 9030.90.0000
+* Country of Origin: Sweden
+* Price \(USD\): $59.00
+
+#### USB 3.0 SuperSpeed 1kV Isolator
+
+* Part Number: SAL-00140
+* HS Code: 85363080000
+* Price \(USD\): $259.00
+
+#### Binho Nova Multi-Protocol USB Host Adapter
+
+* Part Number: SAL-00173
+* Price \(USD\): $229.00
+
+### Test Clips, & Wire Harnesses - Gen **1**
+
+The following accessories are compatible with our discontinued Original Logic and Logic16.
+
 **Extra Test Lead Set \(Gen 1\)**
 
 * Part Number: SAL-00094
@@ -116,20 +154,6 @@ The United States defines products using its Harmonized Tariff Schedule \(HTS\).
 * ECCN: EAR99
 * HS Code: 8546.90.0000
 * Price \(USD\): $19.95
-
-#### PCBite Kit
-
-* ECCN: EAR99
-* HS Code: 8205.70.0000
-* Country of Origin: Sweden
-* Price \(USD\): $169.00
-
-**PCBite SP10**
-
-* ECCN: EAR99
-* HS Code: 9030.90.0000
-* Country of Origin: Sweden
-* Price \(USD\): $59.00
 
 ## Discontinued Products
 
