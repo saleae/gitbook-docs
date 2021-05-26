@@ -6,7 +6,7 @@ Normally, when the Logic software is installed, the product should simply work w
 
 #### Using Logic 4, Logic 8, Pro 8, or Pro 16?
 
-If you are using any of the 2nd generation products \(Logic 4, Logic 8, Pro 8, Pro 16\), you must use the latest version Logic 1.x software below.
+If you are using any of the 2nd generation products \(Logic 4, Logic 8, Pro 8, Pro 16\), you must use the latest version of the [Logic 2 software](https://www.saleae.com/downloads/).
 
 #### Using Original Logic or Logic16?
 
