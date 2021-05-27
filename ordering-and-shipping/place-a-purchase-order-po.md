@@ -14,7 +14,10 @@
 * PO Number
 * Phone Number
 * Product Name
-* Quantities, and Prices in USD
+* Quantities, and Prices in USD \(Prices can be found in the support article linked below\)
+
+{% page-ref page="faq/saleae-part-numbers.md" %}
+
 * Shipping Option: Please either include your FedEx/UPS Account Number, OR indicate "Saleae Prepay Shipping - Add to Invoice"
 * Email address and contact information for your Accounts Payable Department
 * Payment Term: Prepay via Wire Transfer or Net 30 Days from Date of Invoice 
