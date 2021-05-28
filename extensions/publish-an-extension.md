@@ -27,6 +27,10 @@ You can take a look at an [example GitHub repository](https://github.com/timreye
 
 3. Afterwards, you'll be taken to a new page to authorize Saleae Marketplace to access your GitHub account. 
 
+{% hint style="info" %}
+If clicking "Submit" takes you to an error page on GitHub's website, please ensure you are logged in with an account that has administrator permissions over the repository you are attempting to publish. Also, if the repository is part of an organization, there may be some policies for the organization that might be causing the error.
+{% endhint %}
+
 4. Click 'Authorize' and you should immediately receive an email confirming that your extension has been added to the Marketplace. The web page should also confirm that your extension was submitted successfully.
 
 ![](../.gitbook/assets/screen-shot-2020-06-11-at-9.31.38-pm.png)
