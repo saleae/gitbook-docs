@@ -1,8 +1,8 @@
 # Logic 1.x Download
 
-## Latest Version of Logic 1.x \(v1.2.29\)
+## Last Version of Logic 1.x \(v1.2.29\)
 
-The latest version of Logic 1.x is v1.2.29. If you require using Logic 1.x, this is the version we recommend using.
+The last version of Logic 1.x is v1.2.29. If you require using Logic 1.x, this is the version we recommend using.
 
 ### Logic 1.x Launches with an "Unsupported Version" Warning
 
