@@ -1,20 +1,20 @@
 # Logic 1.x Download
 
-### Notes on Standalone Releases
+## Latest Version of Logic 1.x \(v1.2.29\)
 
-For more information on the standalone versions of our software, please view the support article below.
+The latest version of Logic 1.x is v1.2.29. If you require using Logic 1.x, this is the version we recommend using.
 
-{% page-ref page="../../faq/technical-faq/standalone-software-info.md" %}
+### Logic 1.x Launches with an "Unsupported Version" Warning
 
-{% hint style="info" %}
-When using the standalone version of the software, the drivers must be installed manually. Refer to the Driver Install link below for instructions.
-{% endhint %}
+When launching 1.2.29, you may see an "Unsupported Version" notice like shown below.
 
-{% page-ref page="../driver-install.md" %}
+![Unsupported Version warning message in Logic 1.x](../../.gitbook/assets/screen-shot-2020-08-03-at-5.35.31-pm%20%281%29.png)
 
-## Logic 1.x Download Links
+If you see this notice, please start the software using the instructions in the support article below.
 
-### 1.2.29 Download
+{% page-ref page="../../troubleshooting/unsupported-version.md" %}
+
+### 1.2.29 Download Links
 
 ![](../../.gitbook/assets/screen-shot-2020-09-03-at-6.53.53-pm%20%282%29%20%282%29%20%283%29.png)
 
@@ -36,6 +36,24 @@ Windows 32-Bit Standalone
 
 Windows 64-Bit Standalone  
 [https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+64+Standalone.zip)
+
+
+
+## Notes on Standalone Releases
+
+For more information on the standalone versions of our software, please view the support article below.
+
+{% page-ref page="../../faq/technical-faq/standalone-software-info.md" %}
+
+{% hint style="info" %}
+When using the standalone version of the software, the drivers must be installed manually. Refer to the Driver Install link below for instructions.
+{% endhint %}
+
+{% page-ref page="../driver-install.md" %}
+
+
+
+## Older Versions of Logic 1.x
 
 ### **1.2.28 Download**
 
