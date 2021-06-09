@@ -4,5 +4,5 @@ You can set the logic analyzer to begin recording only when it sees a particular
 
 {% embed url="https://vimeo.com/452011694" %}
 
-To learn more, see the [Using the Trigger](https://saleae.gitbook.io/docs/user-guide/using-logic/using-the-trigger) section of the User Guide.
+To learn more, see the [Capture Modes](https://saleae.gitbook.io/docs/user-guide/using-logic/using-the-trigger) section of the User Guide.
 
