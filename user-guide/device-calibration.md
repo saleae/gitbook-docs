@@ -1,8 +1,6 @@
 # Device Calibration
 
-## Calibration in Logic 2.x
-
-Manual calibration can be performed in [Logic 2.x](https://discuss.saleae.com/). Typically, the software will automatically handle downloading the calibration file. In rare cases, users may need to download the file manually if the software is not able to download it on its own. Follow the steps below.
+Manual calibration can be performed in the Logic 2 software. Typically, the software will automatically handle downloading the calibration file. In rare cases, users may need to download the file manually if the software is not able to download it on its own. Follow the steps below.
 
 #### Check Calibration Status & Device Serial Number
 
