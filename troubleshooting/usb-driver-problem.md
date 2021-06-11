@@ -37,11 +37,9 @@ If your driver is not shown in the list of "Driver Updates" in Windows Update, t
 Windows 10 & Windows 8.1/8 use a new Microsoft-created USB 3.0 driver that supports all USB 3.0 host controllers. This driver works extremely well, and it is the recommended driver for all USB 3.0 host controllers with the exception of the following host controllers
 
 * **ASMedia USB 3.0 or 3.1 Host Controller**
-  * Source: From card or motherboard vendor
-  * [Driver Download Link](https://www.asus.com/Motherboard-Accessories/USB_31_TYPEA_CARD/HelpDesk_Download/)
+  * We recommend downloading the latest version available from your USB card or motherboard vendor
   * Note: All ASMedia devices \(3.0 or 3.1\) use the same driver
 * **VIA USB Host Controller**
-  * Source: Direct \(Via\)
   * [Driver Download Link](http://www.via-labs.com/driver.php)
   * Note: Only drivers older than version 4.90A have issues
 
