@@ -1,14 +1,8 @@
 # Community Supported Protocols
 
-{% hint style="info" %}
-The following analyzers are not officially supported by Saleae, but instead, were kindly shared by our community of users. Some are distributed as source code and will require our Protocol Analyzer SDK in the article below to compile.
-{% endhint %}
+The following analyzers are not officially supported by Saleae, but instead, were kindly shared by our community of users. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you need any help. Also, If you have your own analyzer you would like to see featured here, let us know!
 
-{% page-ref page="../saleae-api-and-sdk/protocol-analyzer-sdk/" %}
-
-Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you need any help. Also, If you have your own analyzer you would like to see featured here, please let us know.
-
-### **List of Unofficially Supported Protocols**
+### **List of Community Supported Protocols**
 
 * [Anybus CompactCom SPI](https://github.com/hms-networks/AbccSpiAnalyzer)
 * [APDU](https://github.com/zwizwa/sl-apdu)
@@ -43,6 +37,20 @@ Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you nee
 * [Smart Cards and SIM cards \(with added features\)](https://github.com/watsug/saleae-logic-ISO7816-smartcard-Analyser)
 * [SPI Flash](https://github.com/kasjer/saleae_spiflash)
 * [Vehicle Area Network \(VAN\) Analyzer](https://github.com/morcibacsi/VanAnalyzer)
+
+### Installing the Analyzer
+
+The instructions for installing an analyzer is described in the article below.
+
+{% page-ref page="../faq/technical-faq/setting-up-developer-directory.md" %}
+
+In case the library file \(.dll, .so, or .dylib depending on your OS\) is not provided in the respective GitHub repository, then you will need to build it.
+
+### Building the Analyzer
+
+Some of the community analyzers listed above are distributed as source code \(not including the required library file\) and will require our Protocol Analyzer SDK in the article below to compile it and build the appropriate library file for that analyzer.
+
+{% page-ref page="../saleae-api-and-sdk/protocol-analyzer-sdk/" %}
 
 ### Unofficially Supported Protocol Tools
 

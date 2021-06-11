@@ -10,7 +10,13 @@ Then, in the Preferences window, scroll to the bottom until you reach the Custom
 
 ![](../../.gitbook/assets/screen-shot-2021-04-05-at-3.26.38-pm.png)
 
-Use the browse button to select the directory that contains your compiled custom protocol analyzer. Finally, save the dialog and restart the software. Your custom analyzer should now appear in the list of available protocol analyzers!
+Use the browse button to select the directory that contains your compiled custom protocol analyzer.
+
+* Windows -&gt; .dll
+* Linux -&gt; .so
+* MacOS -&gt; .dylib
+
+Finally, save the dialog and restart the software. Your custom analyzer should now appear in the list of available protocol analyzers!
 
 ### Logic 2 MacOS Instructions
 
