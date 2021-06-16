@@ -137,9 +137,12 @@ When the Logic 2 software is opened, a udev rule file is checked. If the udev ru
 
 Instructions: 
 
-1. Open terminal
-2. Run the command below
-3. Restart the app
+1. Ensure the Logic app is running and your Logic analyzer is connected
+2. Open terminal
+3. Run the command below
+4. Close the Logic app
+5. Disconnect and reconnect your Logic analyzer
+6. Open the Logic app
 
 `cat /tmp/.mount_Logic-AZEAnR/resources/linux/99-SaleaeLogic.rules | sudo tee /etc/udev/rules.d/99-SaleaeLogic.rules > /dev/null && echo "finished installing /etc/udev/rules.d/99-SaleaeLogic.rules"`
 
