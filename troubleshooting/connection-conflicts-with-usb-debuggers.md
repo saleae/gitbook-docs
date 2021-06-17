@@ -11,5 +11,12 @@ For example, a common workaround is described below for the ST-Link V2:
 3. Connect your Saleae Logic to your PC. The Logic 2 app should connect successfully to your Logic analyzer.
 4. Connect the ST-Link V2 to your PC
 
+Other USB debuggers and IDE software that have been reported to conflict with our Logic analyzer are listed below:
+
+* Segger J-Link
+* Atmel JTAGICE3
+* Atmel-ICE
+* Atmel Studio
+
 We're currently tracking reports of this issue in the [idea forum post here](https://ideas.saleae.com/b/feature-requests/connection-conflicts-with-usb-debuggers/). Feel free to comment on the forum post if you're running into the same issue.
 
