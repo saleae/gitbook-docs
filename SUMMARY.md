@@ -188,7 +188,7 @@
   * [Exporting Data to CSV is Slow](troubleshooting/exporting-data-to-csv-is-slow.md)
   * [PC Detection Test](troubleshooting/pc-detection-test.md)
   * [Issues with the Apple M1 Chip](troubleshooting/issues-with-the-apple-m1-chip.md)
-  * [Errors when Running Logic 2 on Linux](troubleshooting/logic2-linux-errors.md)
+  * [Logic 2 Fails to Launch](troubleshooting/logic2-linux-errors.md)
   * [CentOS Compatibility Issues](troubleshooting/centos-compatibility-issues.md)
   * [Failed to Load Custom Analyzer: libmidi\_analyzer.so](troubleshooting/failed-to-load-custom-analyzer.md)
   * [Exporting Raw Data via CSV Takes a Long Time](troubleshooting/exporting-raw-data-via-csv-takes-a-long-time.md)

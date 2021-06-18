@@ -1,4 +1,4 @@
-# Errors when Running Logic 2 on Linux
+# Logic 2 Fails to Launch
 
 Upon launching the Logic 2 software on Linux, you may experience the following:
 
