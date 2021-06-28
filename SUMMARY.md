@@ -190,7 +190,7 @@
   * [Logic 2 Fails to Launch](troubleshooting/logic2-linux-errors.md)
   * [CentOS Compatibility Issues](troubleshooting/centos-compatibility-issues.md)
   * [Failed to Load Custom Analyzer: libmidi\_analyzer.so](troubleshooting/failed-to-load-custom-analyzer.md)
-  * [Exporting Raw Data to CSV is Slow](troubleshooting/csv-export-slow.md)
+  * [CSV Export is Slow](troubleshooting/csv-export-slow.md)
   * [Set an Analyzer Starting Point in your Capture](troubleshooting/set-analyzer-starting-point.md)
   * [Logic 2 is Consuming Disk Space](troubleshooting/logic2-consuming-disk-space.md)
   * [Connection Conflicts with USB Debuggers](troubleshooting/connection-conflicts-with-usb-debuggers.md)

@@ -1,4 +1,4 @@
-# Exporting Raw Data to CSV is Slow
+# CSV Export is Slow
 
 We've received a few recent reports of export speed being slow when exporting raw data to a csv file. Unfortunately, exporting to a csv file has its limits, and the time it takes to process the data depends on the following:
 
