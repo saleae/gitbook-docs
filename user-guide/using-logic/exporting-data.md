@@ -2,7 +2,7 @@
 
 ### Exporting the Data Table
 
-In addition to exporting individual analyzer results, the Logic 2 software also allows exporting of the entire Data Table, which can include entries from all of your added analyzers. To export the Data Table, click the 3 dots to the right of "Data," then click "Export Table."
+The Logic 2 software allows exporting of the entire Data Table, which can include entries from all of your added analyzers. To export the Data Table, click the 3 dots to the right of "Data," then click "Export Table."
 
 ![Exporting the Data Table](../../.gitbook/assets/data-table-export.png)
 
@@ -12,9 +12,13 @@ To export raw data from your capture, click the Options button at the bottom rig
 
 ![Exporting Raw Data](../../.gitbook/assets/export-raw-data.png)
 
-You will be greeted with an "Export Raw Data" window. From here, you can select the channels you would like to include in your export, the time range, and the export format \(currently, Logic 2 supports CSV and Binary exports\).
+You will be greeted with an "Export Raw Data" window. From here, you can select the channels you would like to include in your export, the analog downsample ratio \(if analog channels are included\), and the time range.
 
-![Export Data Window](../../.gitbook/assets/raw-data-window.png)
+![Export Raw Data Window - 1](../../.gitbook/assets/export1.png)
+
+Scrolling down the "Export Raw Data" window reveals more options, including the desired Export Format, as well as the Export Location. An "Always Replace" option is also available to continuously overwrite your previous exported files in the specified Export Location.
+
+![Export Raw Data Window - 2](../../.gitbook/assets/screen-shot-2021-06-28-at-4.48.59-pm.png)
 
 {% hint style="info" %}
 Note: Digital channel entries are only recorded in the export file when data changes. Therefore, the number of entries in the resulting export file are dependent on the number of transitions that occur and not on the number of digital samples in the capture. This helps reduce the file size of the export file.
