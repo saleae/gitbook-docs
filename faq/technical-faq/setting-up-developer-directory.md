@@ -26,6 +26,9 @@ If you're using MacOS, there is another step you may need to take in order for y
 
 If you see the following error after restarting the software on **MacOS**, please follow these extra steps.
 
+> Failed to load custom analyzer...  
+> Unable to load library...
+
 ![](../../.gitbook/assets/image%20%285%29.png)
 
 1. Open the Terminal \(open Spotlight -&gt; search "Terminal" -&gt; press enter\)
