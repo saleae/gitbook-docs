@@ -1,8 +1,8 @@
-# Community Supported Protocols
+# Community Shared Protocols
 
 The following analyzers are not officially supported by Saleae, but instead, were kindly shared by our community of users. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you need any help. Also, If you have your own analyzer you would like to see featured here, let us know!
 
-### **List of Community Supported Protocols**
+### **List of Community Shared Protocols**
 
 * [Anybus CompactCom SPI](https://github.com/hms-networks/AbccSpiAnalyzer)
 * [APDU](https://github.com/zwizwa/sl-apdu)
@@ -53,7 +53,8 @@ Some of the community analyzers listed above are distributed as source code \(no
 
 {% page-ref page="../saleae-api-and-sdk/protocol-analyzer-sdk/" %}
 
-### Unofficially Supported Protocol Tools
+### Community Shared Protocol Tools
 
 * [Enrichable SPI Analyzer](https://github.com/coddingtonbear/saleae-enrichable-spi-analyzer) with an [Example Implementation](https://github.com/coddingtonbear/saleae-scriptable-spi-analyzer/blob/master/examples/custom_class.py)
+* [HLA Stream Parser](https://github.com/andreobi/HLA_Stream_Parser)
 
