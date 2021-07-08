@@ -8,7 +8,7 @@ The timer mode is the simplest mode of data capture. A pre-defined duration is s
 
 ### Looping Mode
 
-The looping mode allows for a continuous recording into a RAM buffer, the size of which can be set by the user. Once the RAM buffer is filled, new data replaces old data in a FIFO method and the capture can continue indefinitely. When the capture ends, the data can be trimmed down to a certain length via the _Trim data after stopping_ setting, keeping the most recent data. 
+The looping mode allows for a continuous recording into a RAM buffer, the size of which can be set by the user. Once the RAM buffer is filled, old data is deleted while new data arrives, and the capture can continue indefinitely in a continuous loop. When the capture ends, the data can be trimmed down to a certain length via the _Trim data after stopping_ setting, keeping the most recent data. 
 
 In the example video below, we set the _Memory buffer size_ to 500 MB. Notice that, during the capture, the memory usage does not go above the set _Memory_ value of 500 MB during the continuous recording.
 
@@ -30,7 +30,9 @@ In addition to the edge/pulse trigger which is set on a single digital channel, 
 
 #### Memory Buffer Setting
 
-While waiting for the trigger, the software will continue using the PC's RAM/memory until the "Memory buffer size" limit is reached. This setting is important, as the software will not exceed this limit. Please make sure to size the "Memory buffer size" appropriately from within the capture settings panel, such that your PC does not run out of memory while waiting for a trigger.
+In Trigger mode, while waiting for the trigger during a capture, Logic will continue using the PC's RAM in a continuous loop. The Memory buffer size setting limits the amount of RAM usage for this process. Similar to Looping mode, once the RAM buffer is filled, old data is deleted while new data arrives, and the capture will continue indefinitely until the trigger condition is met.
+
+Please make sure to size the "Memory buffer size" appropriately from within the capture settings panel, such that your PC does not run out of memory while waiting for a trigger.
 
 ![Memory Buffer Size Setting](../../.gitbook/assets/screen-shot-2020-11-02-at-3.53.54-pm.png)
 
