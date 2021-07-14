@@ -82,3 +82,7 @@ A terminal view is available by clicking the "Terminal" button at the top-right 
 
 ![Terminal View showing I2C data](../../.gitbook/assets/screen-shot-2021-07-14-at-5.53.44-pm.png)
 
+### Limitations of Terminal View
+
+Our in-app terminal view has a scroll-back limit of 10,000 rows. Once the 10,000 row limit is reached, old rows are deleted.
+
