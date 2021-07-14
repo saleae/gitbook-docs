@@ -1,22 +1,14 @@
 # Error Message: ReadTimeout
 
-## In Logic 2.x
-
 When attempting to capture data, you may encounter a ReadTimeout error message: `An error occurred during capture: ReadTimeout`
 
 ![ReadTimeout Error in the Logic 2 Software](../.gitbook/assets/screen-shot-2020-08-13-at-6.43.57-pm.png)
 
-## In Logic 1.x
-
-In Logic 1.x, the following error message will appear: "We're sorry, but the device was not able to keep up with this sample rate. If you continue to see this message, please contact Saleae technical support."
-
-![Logic can&apos;t keep up](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/55f0e75a10f9f592573a8232/035ff5a3b79830f7bcd2dccca570674f/logic_cant_keep_up.png)
-
-## Why Does the Error Message Appear?
+### Why Does the Error Message Appear?
 
 The Saleae Logic produces data at a fixed rate and can't tolerate periodic delays between read requests because the device side buffer space is limited. This error message shows up when the device side buffer has run out of memory caused by delays on the USB line during data capture. The Original Logic is the most sensitive to this issue. The newer products \(Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16\) have significantly larger device side stream buffers and should have no problem with this.
 
-## **If the Error Occurs Immediately after Clicking 'Start'**
+### **If the Error Occurs Immediately after Clicking 'Start'**
 
 This may indicate a potentially different issue and could be caused by one of the following:
 
@@ -24,7 +16,7 @@ This may indicate a potentially different issue and could be caused by one of th
 * On Windows, the USB host controller driver may be outdated. Please [contact support](https://contact.saleae.com/hc/en-us/requests/new), and we can help ensure you have the absolute latest drivers for your device.
 * On OS X, the error may occur when sampling while a thunderbolt display is connected. Connecting Logic to a USB port on the thunderbolt display has solved the problem in the past.
 
-## **Troubleshooting Steps**
+### **Troubleshooting Steps**
 
 * Make sure you are using the latest Saleae software: [https://www.saleae.com/downloads](https://www.saleae.com/downloads)
 * Make sure that there are no other high-bandwidth USB devices attached to the PC during the capture.
@@ -38,7 +30,7 @@ This may indicate a potentially different issue and could be caused by one of th
 
 {% page-ref page="../faq/technical-faq/move-logic-to-its-own-host-controller.md" %}
 
-## **Contacting Support for Additional Help**
+### **Contacting Support for Additional Help**
 
 If the error persists after trying the troubleshooting steps, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) and include the following information:
 
@@ -51,6 +43,14 @@ If the error persists after trying the troubleshooting steps, please [contact su
 
 * Screenshots or a detailed description of the error message\(s\) you're seeing in the software
 * Description of how often the failure is occurring and if there is any pattern to the issue
+
+## In Logic 1.x
+
+If you are using the older Logic 1.x software, the following error message will appear.
+
+`We're sorry, but the device was not able to keep up with this sample rate. If you continue to see this message, please contact Saleae technical support. Would you like to keep the data collected so far?`
+
+![Logic can&apos;t keep up](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/55f0e75a10f9f592573a8232/035ff5a3b79830f7bcd2dccca570674f/logic_cant_keep_up.png)
 
 ## **Considerations for the Original Logic**
 
