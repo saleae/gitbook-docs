@@ -65,7 +65,7 @@
     * [Exporting Data](user-guide/using-logic/exporting-data.md)
     * [Delete Portions of your Capture](user-guide/using-logic/delete-data.md)
     * [Analyzers](user-guide/using-logic/using-protocol-analyzers.md)
-    * [Analyzer Data Table](user-guide/using-logic/analyzer-data-table.md)
+    * [Data Table & Terminal View](user-guide/using-logic/data-table-and-terminal.md)
     * [Demo Mode](user-guide/using-logic/demo-mode.md)
     * [Software Glitch Filter](user-guide/using-logic/software-glitch-filter.md)
     * [Capture Settings Configuration Guide](user-guide/using-logic/capture-settings-configuration-guide.md)
