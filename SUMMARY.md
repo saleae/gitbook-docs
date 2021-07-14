@@ -60,7 +60,7 @@
     * [Capture Modes](user-guide/using-logic/capture-modes.md)
     * [Navigating Your Data](user-guide/using-logic/navigating-your-data.md)
     * [Time Bar Settings](user-guide/using-logic/time-bar-settings.md)
-    * [Measurements & Timing Markers](user-guide/using-logic/measurements-timing-markers.md)
+    * [Measurements, Timing Markers & Notes](user-guide/using-logic/measurements-timing-markers.md)
     * [Capture & Preset File Management](user-guide/using-logic/saving-loading-and-exporting-data.md)
     * [Exporting Data](user-guide/using-logic/exporting-data.md)
     * [Delete Portions of your Capture](user-guide/using-logic/delete-data.md)

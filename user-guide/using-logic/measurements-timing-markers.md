@@ -1,8 +1,8 @@
-# Measurements & Timing Markers
+# Measurements, Timing Markers & Notes
 
 ### Measurements
 
-Measurements in the Logic 2 software can be added via the "Timing Markers & Measurements" side panel button on the right. Once the panel is opened, add a measurement by clicking the "+" button next to "Measurements." Afterwards, you can click and drag across your desired channel and waveform region to add a measurement box. As a shortcut, you can hold SHIFT while clicking and dragging across your waveform to add a measurement box.
+Measurements in the Logic 2 software can be added via the "Timing Markers, Measurements & Notes" side panel button on the right. Once the panel is opened, add a measurement by clicking the "+" button next to "Measurements." Afterwards, you can click and drag across your desired channel and waveform region to add a measurement box. As a shortcut, you can hold SHIFT while clicking and dragging across your waveform to add a measurement box.
 
 {% embed url="https://vimeo.com/511321334" caption="Adding Measurements" %}
 
@@ -30,7 +30,11 @@ By clicking on the timing markers at the top of the software, text notes can be 
 
 
 
+### Capture Notes
 
+A Notes section can be found in the "Timing Markers, Measurements & Notes" side panel button on the right as shown in the image below. This allows you to type in notes that are relevant for your captured data. The panel can also be resized both vertically and horizontally by hovering your mouse pointer on the separating edges of the panel.
+
+![Adding Notes to your Capture](../../.gitbook/assets/screen-shot-2021-07-14-at-5.08.53-pm.png)
 
 ## Logic 1.x
 
