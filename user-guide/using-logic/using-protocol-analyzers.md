@@ -10,6 +10,20 @@ Our tutorial video below demonstrates the basics of decoding data using protocol
 
 {% embed url="https://www.youtube.com/watch?v=Ak9R4yxQPhs" %}
 
+### Troubleshooting Incorrect Analyzer Results
+
+#### 1. Using the Analyzer Restart feature
+
+In case an analyzer is producing incorrect results, one solution might be to restart the analyzer. This will have the same effect as deleting and re-adding the analyzer, and may allow the analyzer to get unstuck from a bad state. To restart the analyzer, click on the three dots next to the analyzer and select "Restart." [Contact us](https://contact.saleae.com/hc/en-us/requests/new) if this occurs as this may be a bug in the analyzer.
+
+![](../../.gitbook/assets/analyzer_restart.png)
+
+#### 2. Filtering Glitches from your Capture Data
+
+The glitch filter is designed to help remove noise picked up in the digital recording. This can be especially useful when using protocol analyzers, since present noise may prevent proper decoding of digital data. More information on enabling the glitch filter can be found below.
+
+{% page-ref page="software-glitch-filter.md" %}
+
 
 
 ## Logic 1.x
