@@ -14,7 +14,7 @@ Our tutorial video below demonstrates the basics of decoding data using protocol
 
 #### 1. Using the Analyzer Restart feature
 
-In case an analyzer is producing incorrect results, one solution might be to restart the analyzer. This will have the same effect as deleting and re-adding the analyzer, and may allow the analyzer to get unstuck from a bad state. To restart the analyzer, click on the three dots next to the analyzer and select "Restart." [Contact us](https://contact.saleae.com/hc/en-us/requests/new) if this occurs as this may be a bug in the analyzer.
+In case an analyzer is producing incorrect results, or in case an analyzer has gotten stuck processing data, one solution might be to restart the analyzer. This will have the same effect as deleting and re-adding the analyzer, and may allow the analyzer to get unstuck from a bad state. To restart the analyzer, click on the three dots next to the analyzer and select "Restart." [Contact us](https://contact.saleae.com/hc/en-us/requests/new) if this occurs as this may be a bug in the analyzer.
 
 ![](../../.gitbook/assets/analyzer_restart.png)
 
