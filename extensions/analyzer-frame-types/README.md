@@ -2,7 +2,7 @@
 description: Documentation for output produced by Saleae's built-in Analyzers
 ---
 
-# Analyzer Frame Types
+# HLA - Analyzer Frame Format
 
 Python high level analyzers allow users to write custom code that processes the output of another analyzer.
 
