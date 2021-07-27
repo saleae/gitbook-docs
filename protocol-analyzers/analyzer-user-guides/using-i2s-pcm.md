@@ -1,7 +1,5 @@
 # I2S / PCM Analyzer - User Guide
 
-## Using the I2S / PCM Analyzer
-
 The Saleae Logic software includes a software protocol analyzer for the I2S digital audio protocol.
 
 The specification for the I2S audio protocol can be found from Sparkfun's website \(document by Philips Semiconductors\) below:

@@ -1,7 +1,5 @@
 # DMX-512 Analyzer - User Guide
 
-## Using the DMX-512 Analyzer
-
 The Saleae Logic software includes a protocol analyzer for the DMX-512 interface. DMX-512 is a single data channel interface commonly used to control lighting in staged environments such as those found in concerts, theater, and other live performance events. At a minimum, the DMX-512 interface will have a Data- pin \(D-\), a Data+ pin \(D+\), and a ground pin.
 
 **Setting Up the DMX-512 Analyzer**
