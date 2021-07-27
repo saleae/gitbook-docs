@@ -1,4 +1,4 @@
-# Using the Async Serial Analyzer
+# Async Serial Analyzer - User Guide
 
 The Saleae software includes a protocol analyzer for asynchronous serial communication.
 

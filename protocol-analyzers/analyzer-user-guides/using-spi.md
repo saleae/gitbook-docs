@@ -1,6 +1,4 @@
-# Using the SPI Analyzer
-
-## Using the SPI Analyzer
+# SPI Analyzer - User Guide
 
 The Saleae software includes a protocol analyzer for the Serial Peripheral Interface \(SPI\) bus.
 
