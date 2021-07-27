@@ -1,4 +1,4 @@
-# I2C Analyzer User Guide
+# I2C Analyzer - User Guide
 
 The Saleae software includes a protocol analyzer for the I2C protocol.
 

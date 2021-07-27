@@ -1,4 +1,4 @@
-# Using the I2S / PCM Analyzer
+# I2S / PCM Analyzer - User Guide
 
 ## Using the I2S / PCM Analyzer
 

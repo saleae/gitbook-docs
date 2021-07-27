@@ -1,4 +1,4 @@
-# Using the DMX-512 Analyzer
+# DMX-512 Analyzer - User Guide
 
 ## Using the DMX-512 Analyzer
 

@@ -1,4 +1,4 @@
-# Using the Simple Parallel Analyzer
+# Simple Parallel Analyzer - User Guide
 
 ## Using the Simple Parallel Analyzer
 

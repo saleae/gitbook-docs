@@ -1,4 +1,4 @@
-# Using the SMBus Analyzer
+# SMBus Analyzer - User Guide
 
 The Saleae Logic software includes the ability to decode SMBus data. The SMBus Analyzer allows you to decode the SMBDAT and SMBCLK lines with some configuration settings which can change how the data can be viewed.
 

@@ -1,4 +1,4 @@
-# Using the Controller Area Network \(CAN\) Protocol Analyzer
+# CAN Analyzer - User Guide
 
 ## Using the Controller Area Network \(CAN\) Protocol Analyzer
 
