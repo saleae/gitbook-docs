@@ -1,6 +1,4 @@
-# How to Analyze SPI
-
-## How to Analyze SPI
+# STM32 Nucleo Board - Analyzing SPI
 
 Serial Peripheral Interface \(SPI\) is a communication protocol often used between processors and devices that require a relatively fast interface, such as shift registers, flash memory, and some sensors. It is a _synchronous_ protocol, which means it requires a separate clock line so that the transmitter can tell the receiver when to sample the data line.
 

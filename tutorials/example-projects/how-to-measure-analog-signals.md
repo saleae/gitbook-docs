@@ -1,6 +1,4 @@
-# How to Measure Analog Signals
-
-## How to Measure Analog Signals
+# STM32 Nucleo Board - Analog Signals
 
 One useful feature of your Saleae Logic Analyzer is its ability to measure analog signals \(from 0 to 5 V\). As such, it can function as an oscilloscope with up to 8 channels \(for the Logic 8 and Logic Pro 8\) or 16 channels \(for the Logic Pro 16\).
 

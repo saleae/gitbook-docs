@@ -1,6 +1,4 @@
-# How to Measure Digital Logic
-
-## How to Measure Digital Logic
+# STM32 Nucleo Board - Digital Signals
 
 The easiest way to test your Logic Analyzer is to use it to measure digital signals, that is, voltages that transition between two discrete values, such as 0 V and 3.3 V.
 

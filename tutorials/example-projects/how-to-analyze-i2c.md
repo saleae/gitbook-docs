@@ -1,6 +1,4 @@
-# How to Analyze I2C
-
-## How to Analyze I2C
+# STM32 Nucleo Board - Analyzing I2C
 
 Inter-Integrated Circuit \(I2C or IIC\) is a 2-wire communication protocol that allows multiple low-speed peripherals, such as sensors, to be attached to the same bus. Normally, a single microprocessor or microcontroller is configured as the master, which initiates all communication on the bus.
 
