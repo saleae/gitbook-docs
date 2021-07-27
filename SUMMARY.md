@@ -113,7 +113,7 @@
   * [Analyzer User Guides](protocol-analyzers/analyzer-user-guides/README.md)
     * [Using the Async Serial Analyzer](protocol-analyzers/analyzer-user-guides/using-async-serial.md)
     * [Using the SPI Analyzer](protocol-analyzers/analyzer-user-guides/using-spi.md)
-    * [Using the I2C Analyzer](protocol-analyzers/analyzer-user-guides/using-i2c.md)
+    * [I2C Analyzer User Guide](protocol-analyzers/analyzer-user-guides/using-i2c.md)
     * [Decode UART](protocol-analyzers/analyzer-user-guides/decode-uart.md)
     * [Decode RS-232, RS-485, & RS-422](protocol-analyzers/analyzer-user-guides/decode-rs-232-rs-485-and-rs-422.md)
     * [Decode Differential and High Voltage Data](protocol-analyzers/analyzer-user-guides/decode-differential-and-high-voltage-data.md)
