@@ -1,4 +1,4 @@
-# Async RGB LED Analyzer
+# Async RGB LED - Frame Format
 
 ## Output Frame Format
 

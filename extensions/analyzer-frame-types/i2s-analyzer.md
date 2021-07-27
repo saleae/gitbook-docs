@@ -1,4 +1,4 @@
-# I2S Analyzer
+# I2S - Frame Format
 
 ## Output Frame Format
 

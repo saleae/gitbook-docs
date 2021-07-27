@@ -1,4 +1,4 @@
-# 1-Wire Analyzer
+# 1-Wire - Frame Format
 
 ### Output Frame Format
 

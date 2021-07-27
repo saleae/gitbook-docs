@@ -1,4 +1,4 @@
-# I2C Analyzer
+# I2C - Frame Format
 
 ## Output Frame Format
 

@@ -1,4 +1,4 @@
-# Manchester Analyzer
+# Manchester - Frame Format
 
 ## Output Frame Format
 

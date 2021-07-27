@@ -1,4 +1,4 @@
-# Asynchronous Serial Analyzer
+# Async Serial - Frame Format
 
 ## Output Frame Format
 

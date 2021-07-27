@@ -1,4 +1,4 @@
-# Serial Peripheral Interface \(SPI\) Analyzer
+# SPI - Frame Format
 
 ## Output Frame Format
 

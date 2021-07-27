@@ -1,4 +1,4 @@
-# Local Interconnect Network \(LIN\) Analyzer
+# LIN - Frame Format
 
 ## Output Frame Format
 

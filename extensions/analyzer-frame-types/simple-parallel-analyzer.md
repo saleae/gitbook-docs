@@ -1,4 +1,4 @@
-# Simple Parallel Analyzer
+# Simple Parallel - Frame Format
 
 ## Output Frame Format
 

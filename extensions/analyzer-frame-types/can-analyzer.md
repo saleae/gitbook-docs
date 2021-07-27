@@ -1,4 +1,4 @@
-# Controller Area Network \(CAN\) Analyzer
+# CAN - Frame Format
 
 ## Output Frame Format
 

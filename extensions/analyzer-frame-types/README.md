@@ -8,7 +8,7 @@ Python high level analyzers allow users to write custom code that processes the 
 
 Right now, the below listed analyzers can be used with high level analyzers:
 
-* [Serial](serial-analyzer.md)
+* [Async Serial](serial-analyzer.md)
 * [I2C](i2c-analyzer.md)
 * [SPI](spi-analyzer.md)
 * [CAN](can-analyzer.md)
