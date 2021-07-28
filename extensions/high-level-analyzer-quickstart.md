@@ -118,7 +118,25 @@ This is called when your HLA is first created, before processing begins. The val
 
 This is where the bulk of the work will be done. This function is called every time the input to this HLA produces a new frame. It is also where we can return and output new frames, to be displayed within the Logic 2 UI. In this case we are outputting a new frame of type `'mytype'`, which spans the same period of time as the input frame, and has 1 data value `'input_type'` that contains the value of the `type` of the input frame.
 
-## Writing an HLA to search for a value
+## HLA Debugging Tips
+
+Although we don't have the ability to attach debuggers to Python extensions at the moment, here are some suggestions to help debug your HLA.
+
+* Use `print()` statements to print debug messages to our in-app terminal. More information on our in-app terminal can be found below.
+
+{% page-ref page="../user-guide/using-logic/data-table-and-terminal.md" %}
+
+* Use the Wall Clock Format and Timing Markers to locate the exact frame listed in your error message.
+
+{% page-ref page="../user-guide/using-logic/time-bar-settings.md" %}
+
+{% page-ref page="../user-guide/using-logic/measurements-timing-markers.md" %}
+
+* Use the reload source button in the app to quickly re-run your HLA after editing your source code.
+
+![&quot;Reload Extension&quot; button](../.gitbook/assets/screen-shot-2021-07-28-at-5.40.27-pm.png)
+
+## Example - Writing an HLA to search for a value
 
 Now that we've gone over the different parts of an HLA, we will be updating our example HLA to search for a value from an Async Serial analyzer.
 
