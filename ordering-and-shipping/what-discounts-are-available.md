@@ -12,8 +12,8 @@ To apply for a discount code, please [click here](https://www.saleae.com/discoun
 
 Quantity discounts for all customers start at orders of 5 or more units. We offer the following:
 
-* 10% off on orders of 5–9 units
-* 15% off on orders of 10 or more units
+* 5% off on orders of 5–9 units
+* 10% off on orders of 10 or more units
 
 If quantity discounts are needed, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) for more information.
 
