@@ -125,7 +125,7 @@
 * [Datasheets & Specifications](datasheets-and-specifications/README.md)
   * [Datasheets](datasheets-and-specifications/datasheets.md)
   * [Logic Dimensions](datasheets-and-specifications/connector-dimensions.md)
-  * [Compliance Documents & Test Reports](datasheets-and-specifications/compliance-documentation.md)
+  * [Compliance Documents - Certificates & Test Reports](datasheets-and-specifications/compliance-documentation.md)
 * [Troubleshooting](troubleshooting/README.md)
   * [The Software Will Not Install or Run Properly](troubleshooting/software-will-not-install-or-run.md)
   * [The Logic Software Fails to Launch on Windows](troubleshooting/fails-to-launch-on-windows.md)
