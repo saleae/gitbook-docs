@@ -37,8 +37,6 @@ All Saleae products listed below are in compliance with the EU Council Directive
 
 {% file src="../.gitbook/assets/testreport\_logic\_pro\_16\_electromagnetic\_comp.pdf" caption="Logic Pro 16 - Test Report \(2014/30/EU\)" %}
 
-### 
-
 ### Low Voltage Directive \(2014/35/EU\)
 
 #### Test Standards Followed:
@@ -61,25 +59,17 @@ All Saleae products listed below are in compliance with the EU Council Directive
 
 {% file src="../.gitbook/assets/testreport\_logic\_pro\_16\_low\_voltage.pdf" caption="Logic Pro 16 - Test Report \(2014/35/EU\)" %}
 
-
-
 ### **EU Declaration of Conformity**
 
 {% file src="../.gitbook/assets/eu\_declaration\_of-conformity.pdf" caption="EU Declaration of Conformity" %}
-
-
 
 ## **RoHS Declaration Document**
 
 {% file src="../.gitbook/assets/rohs\_declaration.pdf" caption="RoHS Declaration" %}
 
-
-
 ## **Statement of Volatility**
 
 {% file src="../.gitbook/assets/saleae\_statement\_of\_volatility.pdf" caption="Saleae Statement of Volatility" %}
-
-\*\*\*\*
 
 ## Requirements for Additional Compliance Documents?
 
