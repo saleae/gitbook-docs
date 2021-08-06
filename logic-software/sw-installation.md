@@ -10,11 +10,9 @@ The software is available free of charge, and can be installed on as many machin
 
 ![](../.gitbook/assets/screen-shot-2020-09-03-at-6.52.16-pm%20%286%29%20%282%29%20%287%29.png)
 
-The latest release of the Logic 2 software can be downloaded below:
+The latest release of the Logic 2 software can be downloaded [here](https://www.saleae.com/downloads/)!
 
-* [**Logic 2 Software Download**](https://ideas.saleae.com/f/changelog/)\*\*\*\*
-
-### **Running Logic 2 on Linux**
+### **Ubuntu Instructions**
 
 The Logic 2 software is provided in an AppImage format, which contains all the files needed for the software to run. In Linux, you may need to allow executing the file as a program. To do this:
 
@@ -22,6 +20,16 @@ The Logic 2 software is provided in an AppImage format, which contains all the f
 2. Check the box that says "Allow executing file as program"
 
 ![Enabling the AppImage file to be executable](../.gitbook/assets/screen-shot-2021-01-25-at-9.12.32-pm.png)
+
+### MacOS Instructions
+
+First, double-click the Logic 2 .zip file available on our [download page](https://www.saleae.com/downloads/). This will extract the Logic 2 application file. From here, you can double click the Logic 2 app to run it.
+
+![Logic 2 app file extracted from .zip](../.gitbook/assets/screen-shot-2021-08-06-at-6.22.46-pm.png)
+
+### Windows Instructions
+
+Simply download and run the installer available on our [download page](https://www.saleae.com/downloads/). We install a driver for the Logic hardware as part of the installation process, so you will be prompted to trust software from Saleae.
 
 
 
