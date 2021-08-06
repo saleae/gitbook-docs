@@ -13,6 +13,7 @@ The following analyzers are not officially supported by Saleae, but instead, wer
 * [Gamecube Controller Analyzer](https://github.com/jefflongo/GameCubeControllerAnalyzer)
 * [InfraRed](https://github.com/procule/IRAnalyzer)
 * [ISO7816 \(smart cards and secure elements\)](https://github.com/nezza/ISO7816Analyzer)
+* [LPC Analyzer](https://github.com/shuffle2/LpcAnalyzer)
 * [Luos Analyzer](https://github.com/Luos-io/Analyzer)
 * [MBus](https://github.com/lab11/MBusAnalzyer)
 * [MIPI DSI LP Analyzer](https://github.com/stawiski/Saleae-MIPI-DSI-LP-Analyzer)
