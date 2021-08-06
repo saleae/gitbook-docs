@@ -31,6 +31,7 @@
     * [Unable to Ship to PO Box Error](ordering-and-shipping/faq/ship-to-po-box-error.md)
     * [Referred a Friend? Email Us!](ordering-and-shipping/faq/referral-program.md)
     * [Shipping Orders to Russia](ordering-and-shipping/faq/shipping-orders-to-russia.md)
+    * [Discount Update for 2021](ordering-and-shipping/faq/discount-update-for-2021.md)
 * [Getting Started](getting-started/README.md)
   * [Setup](getting-started/setup.md)
   * [Configure](getting-started/configure.md)
