@@ -29,14 +29,16 @@ In the Logic 2 software, several methods exist for navigating your data. Here ar
     <tr>
       <td style="text-align:left">Jumping Between Edges</td>
       <td style="text-align:left">
-        <p>Click the &quot;Next Edge&quot; button,</p>
+        <p>Click the &quot;Next Edge&quot; button (shown below)</p>
         <ul>
-          <li>(hover your pointer on the right-most edge of the channel)</li>
+          <li>Hover your pointer on the right-most edge of the channel</li>
         </ul>
       </td>
     </tr>
   </tbody>
 </table>
+
+![&quot;Next Edge&quot; button](../../.gitbook/assets/screen-shot-2021-02-10-at-5.25.27-pm%20%282%29.png)
 
 ### Y-Axis Zoom for Analog Channels
 
