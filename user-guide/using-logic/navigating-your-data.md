@@ -51,7 +51,7 @@ While hovering over the icon, several Y-axis zoom adjustment options become avai
 * Y zoom-out / zoom-in / Y fit
 * XY zoom-out / zoom-in / XY fit
 
-![](../../.gitbook/assets/screen-shot-2021-08-16-at-6.28.50-pm.png)
+![Y-axis zoom options](../../.gitbook/assets/screen-shot-2021-08-16-at-6.28.50-pm.png)
 
 ### Navigating your Data via Keyboard Shortcuts
 
