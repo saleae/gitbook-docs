@@ -2,6 +2,8 @@
 
 In the Logic 2 software, several methods exist for navigating your data. Here are some of the most common methods.
 
+### Zooming, Panning, & Jumping to Edges
+
 <table>
   <thead>
     <tr>
@@ -36,13 +38,24 @@ In the Logic 2 software, several methods exist for navigating your data. Here ar
   </tbody>
 </table>
 
-![&quot;Next Edge&quot; Button](../../.gitbook/assets/screen-shot-2021-02-10-at-5.25.27-pm.png)
+### Y-Axis Zoom for Analog Channels
+
+The Y-axis zoom level for analog channels can be adjusted by hovering over the icon shown in the image below. It will appear at the top-right of an analog channel when hovering over that channel.
+
+![Y-Axis icon at the top right of an analog channel](../../.gitbook/assets/screen-shot-2021-08-16-at-6.35.06-pm.png)
+
+While hovering over the icon, several Y-axis zoom adjustment options become available as shown in the image below. These include:
+
+* Y zoom-out / zoom-in / Y fit
+* XY zoom-out / zoom-in / XY fit
+
+![](../../.gitbook/assets/screen-shot-2021-08-16-at-6.28.50-pm.png)
+
+### Navigating your Data via Keyboard Shortcuts
 
 To view many more ways to navigate your data, you may open the Keyboard Shortcuts menu from within the Logic 2 software. More information on this can be found below.
 
 {% page-ref page="keyboard-shortcuts.md" %}
-
-
 
 
 
