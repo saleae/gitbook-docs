@@ -13,7 +13,13 @@ Note: You might see the following message when running Logic 2 from the terminal
 
 ### Solutions for Linux
 
-#### 1. Install linsnl
+#### 1. Install Ubuntu 18
+
+Unfortunately, newer versions of our Logic 2 software \(starting v2.3.33\) no longer supports Ubuntu 16 \(Ubuntu LTS 16 ended its support in April 2021\). We have since updated our Logic 2 software to support Ubuntu 18.04.5+ \(64 bit\) as mentioned below. We apologize for the inconvenience this causes. Should you have any questions, feel free to [contact us](https://contact.saleae.com/hc/en-us/requests/new).
+
+{% page-ref page="../logic-software/supported-operating-systems.md" %}
+
+#### 2. Install linsnl
 
 If you are attempting to run our Logic 2 software on Linux, the issue we have seen is as follows:
 
@@ -30,7 +36,7 @@ In case the solution above doesn't help, please [contact us](https://contact.sal
 * `ldd libgraph_server_shared.so` 
 * `ldd -v libgraph_server_shared.so`
 
-#### 2. Try running the latest version of Logic 2
+#### 3. Try running the latest version of Logic 2
 
 Starting version v2.3.22, we fixed an issue with the software immediately crashing upon opening on Linux. You can download the latest version of the software [here](https://www.saleae.com/downloads/).
 
