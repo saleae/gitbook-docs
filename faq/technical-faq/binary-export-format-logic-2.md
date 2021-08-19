@@ -222,6 +222,10 @@ Number of samples: 1667072
 ...
 ```
 
+## 3rd Party Binary Parser
+
+A community user has generously shared their C-based binary parser for digital channels! Their GitHub repository for it can be found here: [saleae-binparser](https://github.com/znuh/saleae-binparser)
+
 ## Logic 1.x
 
 If you are using Logic 1.x, please refer to the articles below.
