@@ -4,6 +4,12 @@
 
 To check the shipping options available in your country, simply add an item to the cart on [www.saleae.com](https://www.saleae.com/) and select your country. Afterwards, click "Checkout" and enter your shipping information to view the available shipping options and shipping cost.
 
+### Can I use my own shipping account number?
+
+Immediately after placing your order on our website at [www.saleae.com](https://www.saleae.com/), please fill out the request form below. Please note that we only accept **FedEx, UPS, or DHL** account numbers. Once you fill out the form, we will be in touch via email regarding any updates to your order.
+
+* [Request to Add Shipping Account](https://saleae-support.typeform.com/to/J5vmv2gn)
+
 ### International Shipping - Duties and Taxes
 
 Saleae regularly ships internationally.
