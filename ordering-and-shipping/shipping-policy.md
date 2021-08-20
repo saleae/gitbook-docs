@@ -4,7 +4,7 @@
 
 To check the shipping options available in your country, simply add an item to the cart on [www.saleae.com](https://www.saleae.com/) and select your country. Afterwards, click "Checkout" and enter your shipping information to view the available shipping options and shipping cost.
 
-### Can I use my own shipping account number?
+### Adding a Shipping Account Number to an Existing Order
 
 We typically do not allow customers to use their own shipping account numbers when placing orders on our website. However, in certain instances, we might be able to modify your order by adding your shipping account number to it after your order has been placed. 
 
@@ -13,8 +13,8 @@ We typically do not allow customers to use their own shipping account numbers wh
 * We will do our best to accomodate your request, but cannot guarantee that we will be able to modify your order in time before we ship it.
 * We only accept **FedEx, UPS, or DHL** account numbers.
 * Your order must have been purchased in **USD currency** \(Your order number will be in the format USD-XXXX\).
-* Immediately after placing your order on our website at [www.saleae.com](https://www.saleae.com/), please fill out the [Request to Add Shipping Account](https://saleae-support.typeform.com/to/J5vmv2gn) form.
-* Our same-day shipping cutoff for USD orders is 12PM PST, Monday - Friday. Orders placed near the cutoff time have the risk of shipping before we are able to take action and modify it to include your shipping account number.
+* Immediately after placing your order on our website at [www.saleae.com](https://www.saleae.com/), please fill out the [Request to Add Shipping Account Number](https://saleae-support.typeform.com/to/J5vmv2gn) form.
+* Our same-day shipping cutoff for USD orders is 12PM PST, Monday - Friday. Orders placed near the cutoff time have the risk of shipping before we are able to modify it to include your shipping account number.
 
 ### International Shipping - Duties and Taxes
 
