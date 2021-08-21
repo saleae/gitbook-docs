@@ -15,6 +15,7 @@ We typically do not allow customers to use their own shipping account numbers wh
 * Your order must have been purchased in **USD currency** \(Your order number will be in the format USD-XXXX\).
 * Immediately after placing your order on our website at [www.saleae.com](https://www.saleae.com/), please fill out the [Request to Add Shipping Account Number](https://saleae-support.typeform.com/to/J5vmv2gn) form.
 * Our same-day shipping cutoff for USD orders is 12PM PST, Monday - Friday. Orders placed near the cutoff time have the risk of shipping before we are able to modify it to include your shipping account number.
+* If your shipping account requires you to give us authorization to ship on your account, please authorize us beforehand. Otherwise, this will delay your shipment.
 
 ### International Shipping - Duties and Taxes
 
