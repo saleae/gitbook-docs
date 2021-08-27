@@ -77,5 +77,9 @@ Although we currently do not provide any other compliance documents outside of w
 
 We're currently compiling a list of requirements in the idea post below [here](https://ideas.saleae.com/b/feature-requests/provide-additional-compliance-documents). We'd love to hear your requirements as well!
 
+## About CE Markings on our Products
+
+Logic 8, Logic Pro 8, and Logic Pro 16 will have the CE marking on its box, as well as on its barcode label.
+
 
 
