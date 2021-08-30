@@ -10,11 +10,15 @@ It will also use markers to indicate the start and stop conditions. This is indi
 
 ### Analyzer Settings
 
-In the settings, specify which input channels are used for the I2C signals SDA and SCL. Please note that I2C addresses are displayed as 7-bit numbers. We share a support article below to help display I2C addresses as 8-bit if preferred.
+In the settings, specify which input channels are used for the I2C signals SDA and SCL. 
+
+![I2C Analyzer Settings](../../.gitbook/assets/screen-shot-2021-08-30-at-6.01.34-pm%20%281%29.png)
+
+### Viewing I2C Addresses as 8-bit
+
+Please note that I2C addresses are displayed as 7-bit numbers. We share a support article below to help display I2C addresses as 8-bit if preferred.
 
 {% page-ref page="../../faq/technical-faq/viewing-i2c-addresses-as-8-bit.md" %}
-
-![I2C Analyzer Settings](../../.gitbook/assets/screen-shot-2021-08-30-at-6.01.34-pm.png)
 
 ### **Common Issus with Noise Around Clock Edges**
 
