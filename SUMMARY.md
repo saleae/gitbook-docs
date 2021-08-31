@@ -196,6 +196,7 @@
   * [Set an Analyzer Starting Point in your Capture](troubleshooting/set-analyzer-starting-point.md)
   * [Logic 2 is Consuming Disk Space](troubleshooting/logic2-consuming-disk-space.md)
   * [Connection Conflicts with USB Debuggers](troubleshooting/connection-conflicts-with-usb-debuggers.md)
+  * [PC Restart Causes Logic to Disconnect](troubleshooting/pc-restart-causes-logic-to-disconnect.md)
 * [FAQ](faq/README.md)
   * [Technical FAQ](faq/technical-faq/README.md)
     * [System Requirements for Saleae Products](faq/technical-faq/system-requirements-for-saleae-products.md)
