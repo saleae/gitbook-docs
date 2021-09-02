@@ -95,6 +95,13 @@ Note: The prices shown below are in USD currency. When placing an online order, 
 * HS Code: 8546.90.0000
 * Price \(USD\): $17.95 
 
+#### Nano-size Test Clip
+
+* Part Number: SAL-00165
+* ECCN: EAR99
+* HS Code: 8546.90.0000
+* Price \(USD\): $15.99
+
 **Logic-to-2x4 Header \(Gen 2\)**
 
 * Part Number: SAL-00117
