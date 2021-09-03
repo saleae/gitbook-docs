@@ -315,7 +315,7 @@
   * [180-Day Return Policy](180-day-return-policy-and-3-year-warranty/180-day-return-policy.md)
   * [3-Year Warranty](180-day-return-policy-and-3-year-warranty/3-year-warranty.md)
   * [Process a Warranty](180-day-return-policy-and-3-year-warranty/process-a-warranty.md)
-* [Ideas & Voting](ideas-and-voting.md)
+* [Ideas & Feedback](ideas-and-feedback.md)
 
 ## Tutorials
 

@@ -1,4 +1,4 @@
-# Ideas & Voting
+# Ideas & Feedback
 
 ## Ideas & Voting
 
