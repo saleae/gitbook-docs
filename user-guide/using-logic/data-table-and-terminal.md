@@ -84,5 +84,6 @@ A terminal view is available by clicking the "Terminal" button at the top-right 
 
 ### Limitations of Terminal View
 
-Our in-app terminal view has a scroll-back limit of 10,000 rows. Once the 10,000 row limit is reached, the oldest rows are deleted.
+* Our in-app terminal view has a scroll-back limit of 10,000 rows. Once the 10,000 row limit is reached, the oldest rows are deleted.
+* Radix display in the terminal is limited to ASCII only. Viewing data in other radices is only available from within the Data Table at the moment.
 
