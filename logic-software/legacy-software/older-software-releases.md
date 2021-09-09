@@ -73,6 +73,8 @@ Windows 32-Bit Standalone
 Windows 64-Bit Standalone  
 [https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+64+Standalone.zip)
 
+
+
 ## Notes on Standalone Releases
 
 For more information on the standalone versions of our software, please view the support article below.
@@ -86,8 +88,6 @@ When using the standalone version of the software, the drivers must be installed
 {% page-ref page="../driver-install.md" %}
 
 
-
-## Logic 1.2.28
 
 ## All Other Older Versions of Logic 1.x
 
