@@ -1,7 +1,5 @@
 # Safety & Warranty
 
-## Safety & Warranty
-
 {% hint style="warning" %}
 Before operating your Saleae Logic product for the first time, please carefully review the safety guidelines below to avoid any injury and damage.
 {% endhint %}
@@ -57,9 +55,11 @@ Since the channels in each Saleae logic analyzer are not electrically isolated f
 
 ### **Identifying if a Ground Loop is Present**
 
-To identify a potential ground loop between the Logic device and the DUT, you could check the resistance between the DUT ground and the Saleae Logic ground. While the Saleae Logic is connected to the PC, if the resistance reads infinite on a multi-meter, then the grounds are isolated. Otherwise, they are connected, and a ground loop exists.
+{% hint style="warning" %}
+_**Caution:**_ If a ground loop is present, extra care should be taken, as highlighted below, before connecting the logic analyzer ground to the DUT ground.
+{% endhint %}
 
-_Caution:_ If a ground loop is present, extra care should be taken, as highlighted below, before connecting the logic analyzer ground to the DUT ground.
+To identify a potential ground loop between the Logic device and the DUT, you could check the resistance between the DUT ground and the Saleae Logic ground. While the Saleae Logic is connected to the PC, if the resistance reads infinite on a multi-meter, then the grounds are isolated. Otherwise, they are connected, and a ground loop exists.
 
 If you believe there is a ground loop between the DUT and the host PC but you are uncertain if the grounds on both sides you plan to use are at the same potential, there is a quick test you can perform with a multi-meter. If you happen to have a large resistor \(&gt; 10K ohm\), there is an additional test you can perform.
 
@@ -76,13 +76,15 @@ If you are not sure there is a ground loop or would like to perform another test
 
 ### **Identifying if the DUT is Isolated from the PC**
 
+{% hint style="warning" %}
+_**Caution:**_ When working in an electrically isolated state, keep in mind that floating grounds can be dangerous to the operator. When operating with equipment with a floating ground, please review and follow appropriate safety measures.
+{% endhint %}
+
 The DUT's local ground is isolated from the host PC when one of the following is true:
 
 * The DUT is battery-powered and has no other electrical connections to the host PC or devices powered from MAINS power.
 * The DUT is powered from an isolated power supply that does NOT short MAINS earth ground to the output ground. Bench top supplies with a separate green earth ground terminal do this. USB wall adapters also do this. Common AC power adapters \(chargers, "wall warts"\) with 2-prong plugs are also isolated. Most power supplies do have transformers that can provide isolation if implemented properly.
 * The Host PC is a laptop running from a battery or is plugged into an instrumentation isolation transformer. Note that normal isolation transformers connect earth ground for human safety reasons.
-
-_Warning:_ When working in an electrically isolated state, keep in mind that floating grounds can be dangerous to the operator. When operating with equipment with a floating ground, please review and follow appropriate safety measures.
 
 ### **Using an Isolated Wall Adapter to Power the DUT**
 
