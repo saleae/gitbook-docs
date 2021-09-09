@@ -6,7 +6,7 @@
 * Order total must be at least USD $699.
 * We currently offer Net 30 Term to existing customers with a history of timely payments. 
 * If this is your first order with us, we will generate a Proforma Invoice for you to Prepay via Wire Transfer. We will ship your order on the first business day after payment is received.
-* Orders placed via PO will be shipped from the United States. For international orders, customs fees must be handled by the recipient of the order.
+* Orders placed via PO will be shipped from the US. If the order will be shipping to a country outside the US, there will likely be additional charges for duties and taxes, due on receipt. 
 
 ### Please Make Sure your PO Includes the Following:
 
