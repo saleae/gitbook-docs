@@ -1,13 +1,14 @@
 # Place a Purchase Order \(PO\)
 
-## Place a Purchase Order \(PO\)
+### Requirements and Payment Terms
 
-* This is recommended for companies who cannot place an order through our website by credit/purchasing card or PayPal.
+* Placing a PO is only available for companies who cannot place an order through our website by credit/purchasing card or PayPal.
 * Order total must be at least USD $699.
 * We currently offer Net 30 Term to existing customers with a history of timely payments. 
 * If this is your first order with us, we will generate a Proforma Invoice for you to Prepay via Wire Transfer. We will ship your order on the first business day after payment is received.
+* Orders placed via PO will be shipped from the United States. For international orders, customs fees must be handled by the recipient of the order.
 
-### Please Make Sure the PO Includes the Following:
+### Please Make Sure your PO Includes the Following:
 
 * Billing Address
 * Shipping Address
