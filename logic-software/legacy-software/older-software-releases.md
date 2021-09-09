@@ -1,6 +1,6 @@
 # Logic 1.x Download
 
-## Logic 1.2.18 - Latest Stable Release
+## Logic 1.2.18 - Last Stable Release of Logic 1.x
 
 {% hint style="info" %}
 For an easy installation and runtime experience, we recommend using Logic 1.2.18. Otherwise, please note that we generally recommend Logic 1.2.29 Beta to get the latest Logic 1.x bug fixes and features such as real-time view. The downside of Logic 1.2.29 is that it contains an "Unsupported Version" error upon startup, and a few workaround steps are required to get around it.
