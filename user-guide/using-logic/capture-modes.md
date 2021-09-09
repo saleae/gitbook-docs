@@ -46,6 +46,17 @@ You can also specify the duration at which the software will continue recording 
 
 ![Capture duration after trigger](../../.gitbook/assets/duration-after-trigger%20%281%29.png)
 
+#### Jumping to the Trigger Point
+
+Two options exist for jumping to a trigger point after your capture is complete:
+
+* Via a keyboard shortcut \(On Windows it is Ctrl+J\)
+* Via clicking on the trigger icon above your capture \(shown below\)
+
+![Clicking on the Trigger icon will jump the view to the trigger point](../../.gitbook/assets/screen-shot-2021-09-08-at-8.56.14-pm.png)
+
+At the moment, we don't have a way of automatically jumping to trigger point after a capture. If this is a feature you would like added, please vote for it in the idea post [here](https://ideas.saleae.com/b/feature-requests/jump-to-trigger-point-after-capture/)!
+
 ### Trigger on a Protocol Frame
 
 Navigate to the "Analyzers" panel and enable "Trigger View." From there, select the protocol analyzer you would like to trigger on, as well as the query value and holdoff time.
