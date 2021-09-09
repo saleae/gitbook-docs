@@ -1,239 +1,12 @@
 # Logic 1.x Download
 
-## Last Version of Logic 1.x \(v1.2.29\)
-
-The last version of Logic 1.x is v1.2.29. If you require using Logic 1.x, this is the version we recommend using.
-
-### Logic 1.x Launches with an "Unsupported Version" Warning
-
-When launching 1.2.29, you may see an "Unsupported Version" notice like shown below.
-
-![Unsupported Version warning message in Logic 1.x](../../.gitbook/assets/screen-shot-2020-08-03-at-5.35.31-pm%20%281%29.png)
-
-If you see this notice, please start the software using the instructions in the support article below.
-
-{% page-ref page="../../troubleshooting/unsupported-version.md" %}
-
-### 1.2.29 Download Links
-
-![](../../.gitbook/assets/screen-shot-2020-09-03-at-6.53.53-pm%20%282%29%20%282%29%20%283%29.png)
-
-Windows  
-[Logic Setup 1.2.29.exe](https://downloads.saleae.com/logic/1.2.29/Logic+Setup+1.2.29.exe)
-
-Mac OS X 10.8+  
-[Logic-1.2.29-Darwin.dmg](https://downloads.saleae.com/logic/1.2.29/Logic-1.2.29-Darwin.dmg)
-
-Linux 64-Bit  
-[https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+%2864-bit%29.zip)
-
-Windows Standalone releases:
-
-Note: These releases include the newly required Microsoft Visual Studio 2015 runtime. The runtime needs to be installed before the software will be able to run.
-
-Windows 32-Bit Standalone  
-[https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+32+Standalone.zip)
-
-Windows 64-Bit Standalone  
-[https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+64+Standalone.zip)
-
-
-
-## Notes on Standalone Releases
-
-For more information on the standalone versions of our software, please view the support article below.
-
-{% page-ref page="../../faq/technical-faq/standalone-software-info.md" %}
+## Logic 1.2.18 - Latest Stable Release
 
 {% hint style="info" %}
-When using the standalone version of the software, the drivers must be installed manually. Refer to the Driver Install link below for instructions.
+For an easy installation and runtime experience, we recommend using Logic 1.2.18. Otherwise, please note that we generally recommend Logic 1.2.29 Beta to get the latest Logic 1.x bug fixes and features such as real-time view. The downside of Logic 1.2.29 is that it contains an "Unsupported Version" error upon startup, and a few workaround steps are required to get around it.
 {% endhint %}
 
-{% page-ref page="../driver-install.md" %}
-
-
-
-## Older Versions of Logic 1.x
-
-### **1.2.28 Download**
-
-Windows \(32 bit and 64 bit\):  
-[https://downloads.saleae.com/logic/1.2.28/Logic+Setup+1.2.28.exe](https://downloads.saleae.com/logic/1.2.28/Logic+Setup+1.2.28.exe)
-
-OSX 10.7+:  
-[https://downloads.saleae.com/logic/1.2.28/Logic-1.2.28-Darwin.dmg](https://downloads.saleae.com/logic/1.2.28/Logic-1.2.28-Darwin.dmg)
-
-Linux 64 bit:  
-[https://downloads.saleae.com/logic/1.2.28/Logic+1.2.28+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.28/Logic+1.2.28+%2864-bit%29.zip)
-
-Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7. [https://downloads.saleae.com/logic/1.2.28/Logic+1.2.28+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.28/Logic+1.2.28+%2864-bit%29+compatibility_release.zip)
-
-Widows Standalone Releases:
-
-Windows 32 bit \(no installer\):  
-[https://downloads.saleae.com/logic/1.2.28/Logic+1.2.28+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.28/Logic+1.2.28+Win+32+Standalone.zip)  
-Windows 64 bit \(no installer\):  
-[https://downloads.saleae.com/logic/1.2.28/Logic+1.2.28+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.28/Logic+1.2.28+Win+64+Standalone.zip)
-
-### **1.2.27 Download**
-
-Windows \(32 bit and 64 bit\):  
-[https://downloads.saleae.com/logic/1.2.27/Logic+Setup+1.2.27.exe](https://downloads.saleae.com/logic/1.2.27/Logic+Setup+1.2.27.exe)
-
-OSX 10.7+:  
-[https://downloads.saleae.com/logic/1.2.27/Logic-1.2.27-Darwin.dmg](https://downloads.saleae.com/logic/1.2.27/Logic-1.2.27-Darwin.dmg)
-
-Linux 64 bit:  
-[https://downloads.saleae.com/logic/1.2.27/Logic+1.2.27+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.27/Logic+1.2.27+%2864-bit%29.zip)
-
-Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7. [https://downloads.saleae.com/logic/1.2.27/Logic+1.2.27+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.27/Logic+1.2.27+%2864-bit%29+compatibility_release.zip)
-
-Widows Standalone Releases:
-
-Windows 32 bit \(no installer\):  
-[https://downloads.saleae.com/logic/1.2.27/Logic+1.2.27+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.27/Logic+1.2.27+Win+32+Standalone.zip)  
-Windows 64 bit \(no installer\):  
-[https://downloads.saleae.com/logic/1.2.27/Logic+1.2.27+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.27/Logic+1.2.27+Win+64+Standalone.zip)
-
-### **1.2.26 Download**
-
-Windows \(32 bit and 64 bit\):  
-[https://downloads.saleae.com/logic/1.2.26/Logic+Setup+1.2.26.exe](https://downloads.saleae.com/logic/1.2.26/Logic+Setup+1.2.26.exe)
-
-OSX 10.7+:  
-[https://downloads.saleae.com/logic/1.2.26/Logic-1.2.26-Darwin.dmg](https://downloads.saleae.com/logic/1.2.26/Logic-1.2.26-Darwin.dmg)
-
-Linux 64 bit:  
-[https://downloads.saleae.com/logic/1.2.26/Logic+1.2.26+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.26/Logic+1.2.26+%2864-bit%29.zip)
-
-Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7. [https://downloads.saleae.com/logic/1.2.26/Logic+1.2.26+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.26/Logic+1.2.26+%2864-bit%29+compatibility_release.zip)
-
-Widows Standalone Releases:
-
-Windows 32 bit \(no installer\):  
-[https://downloads.saleae.com/logic/1.2.26/Logic+1.2.26+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.26/Logic+1.2.26+Win+32+Standalone.zip)  
-Windows 64 bit \(no installer\):  
-[https://downloads.saleae.com/logic/1.2.26/Logic+1.2.26+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.26/Logic+1.2.26+Win+64+Standalone.zip)
-
-### **1.2.25 Download**
-
-Windows \(32 bit and 64 bit\):  
-[https://downloads.saleae.com/logic/1.2.25/Logic+Setup+1.2.25.exe](https://downloads.saleae.com/logic/1.2.25/Logic+Setup+1.2.25.exe)
-
-OSX 10.7+:  
-[https://downloads.saleae.com/logic/1.2.25/Logic-1.2.25-Darwin.dmg](https://downloads.saleae.com/logic/1.2.25/Logic-1.2.25-Darwin.dmg)
-
-Linux 64 bit:  
-[https://downloads.saleae.com/logic/1.2.25/Logic+1.2.25+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.25/Logic+1.2.25+%2864-bit%29.zip)
-
-Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7. [https://downloads.saleae.com/logic/1.2.25/Logic+1.2.25+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.25/Logic+1.2.25+%2864-bit%29+compatibility_release.zip)
-
-Widows Standalone Releases:
-
-Windows 32 bit \(no installer\):  
-[https://downloads.saleae.com/logic/1.2.25/Logic+1.2.25+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.25/Logic+1.2.25+Win+32+Standalone.zip)  
-Windows 64 bit \(no installer\):  
-[https://downloads.saleae.com/logic/1.2.25/Logic+1.2.25+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.25/Logic+1.2.25+Win+64+Standalone.zip)
-
-### **1.2.24 Download**
-
-Windows \(32 bit and 64 bit\):  
-[https://downloads.saleae.com/logic/1.2.24/Logic+Setup+1.2.24.exe](https://downloads.saleae.com/logic/1.2.24/Logic+Setup+1.2.24.exe)
-
-OSX 10.7+:  
-[https://downloads.saleae.com/logic/1.2.24/Logic-1.2.24-Darwin.dmg](https://downloads.saleae.com/logic/1.2.24/Logic-1.2.24-Darwin.dmg)
-
-Linux 64 bit:  
-[https://downloads.saleae.com/logic/1.2.24/Logic+1.2.24+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.24/Logic+1.2.24+%2864-bit%29.zip)
-
-Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7. [https://downloads.saleae.com/logic/1.2.24/Logic+1.2.24+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.24/Logic+1.2.24+%2864-bit%29+compatibility_release.zip)
-
-Widows Standalone Releases:
-
-Windows 32 bit \(no installer\):  
-[https://downloads.saleae.com/logic/1.2.24/Logic+1.2.24+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.24/Logic+1.2.24+Win+32+Standalone.zip)  
-Windows 64 bit \(no installer\):  
-[https://downloads.saleae.com/logic/1.2.24/Logic+1.2.24+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.24/Logic+1.2.24+Win+64+Standalone.zip)
-
-### **1.2.23 Download**
-
-Windows \(32 bit and 64 bit\):  
-[https://downloads.saleae.com/logic/1.2.23/Logic+Setup+1.2.23.exe](https://downloads.saleae.com/logic/1.2.23/Logic+Setup+1.2.23.exe)
-
-OSX 10.7+:  
-[https://downloads.saleae.com/logic/1.2.23/Logic-1.2.23-Darwin.dmg](https://downloads.saleae.com/logic/1.2.23/Logic-1.2.23-Darwin.dmg)
-
-Linux 64 bit:  
-[https://downloads.saleae.com/logic/1.2.23/Logic+1.2.23+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.23/Logic+1.2.23+%2864-bit%29.zip)
-
-Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7. [https://downloads.saleae.com/logic/1.2.23/Logic+1.2.23+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.23/Logic+1.2.23+%2864-bit%29+compatibility_release.zip)
-
-Widows Standalone Releases:
-
-Windows 32 bit \(no installer\):  
-[https://downloads.saleae.com/logic/1.2.23/Logic+1.2.23+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.23/Logic+1.2.23+Win+32+Standalone.zip)  
-Windows 64 bit \(no installer\):  
-[https://downloads.saleae.com/logic/1.2.23/Logic+1.2.23+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.23/Logic+1.2.23+Win+64+Standalone.zip)
-
-### **1.2.22 Download**
-
-Windows \(32 bit and 64 bit\):  
-[https://downloads.saleae.com/logic/1.2.22/Logic+Setup+1.2.22.exe](https://downloads.saleae.com/logic/1.2.22/Logic+Setup+1.2.22.exe)
-
-OSX 10.7+:  
-[https://downloads.saleae.com/logic/1.2.22/Logic-1.2.22-Darwin.dmg](https://downloads.saleae.com/logic/1.2.22/Logic-1.2.22-Darwin.dmg)
-
-Linux 64 bit:  
-[https://downloads.saleae.com/logic/1.2.22/Logic+1.2.22+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.22/Logic+1.2.22+%2864-bit%29.zip)
-
-Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7. [https://downloads.saleae.com/logic/1.2.22/Logic+1.2.22+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.22/Logic+1.2.22+%2864-bit%29+compatibility_release.zip)
-
-Widows Standalone Releases:
-
-Windows 32 bit \(no installer\):  
-[https://downloads.saleae.com/logic/1.2.22/Logic+1.2.22+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.22/Logic+1.2.22+Win+32+Standalone.zip)  
-Windows 64 bit \(no installer\):  
-[https://downloads.saleae.com/logic/1.2.22/Logic+1.2.22+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.22/Logic+1.2.22+Win+64+Standalone.zip)
-
-### **1.2.20 Download**
-
-Windows \(32 bit and 64 bit\):  
-[https://downloads.saleae.com/logic/1.2.20/Logic+Setup+1.2.20.exe](https://downloads.saleae.com/logic/1.2.20/Logic+Setup+1.2.20.exe)
-
-OSX 10.7+:  
-[https://downloads.saleae.com/logic/1.2.20/Logic-1.2.20-Darwin.dmg](https://downloads.saleae.com/logic/1.2.20/Logic-1.2.20-Darwin.dmg)
-
-Linux 64 bit:  
-[https://downloads.saleae.com/logic/1.2.20/Logic+1.2.20+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.20/Logic+1.2.20+%2864-bit%29.zip)
-
-Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7. [https://downloads.saleae.com/logic/1.2.20/Logic+1.2.20+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.20/Logic+1.2.20+%2864-bit%29+compatibility_release.zip)
-
-Widows Standalone Releases:
-
-Windows 32 bit \(no installer\):  
-[https://downloads.saleae.com/logic/1.2.20/Logic+1.2.20+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.20/Logic+1.2.20+Win+32+Standalone.zip)  
-Windows 64 bit \(no installer\):  
-[https://downloads.saleae.com/logic/1.2.20/Logic+1.2.20+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.20/Logic+1.2.20+Win+64+Standalone.zip)
-
-### **1.2.19 Download**
-
-Windows \(32 bit and 64 bit\):  
-[https://downloads.saleae.com/logic/1.2.19/Logic+Setup+1.2.19.exe](https://downloads.saleae.com/logic/1.2.19/Logic+Setup+1.2.19.exe)
-
-OSX 10.7+:  
-[https://downloads.saleae.com/logic/1.2.19/Logic-1.2.19-Darwin.dmg](https://downloads.saleae.com/logic/1.2.19/Logic-1.2.19-Darwin.dmg)
-
-Linux 64 bit:  
-[https://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+%2864-bit%29.zip)
-
-Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7. [https://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+%2864-bit%29+compatibility_release.zip)
-
-Widows Standalone Releases:
-
-Windows 32 bit \(no installer\):  
-[https://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+Win+32+Standalone.zip)  
-Windows 64 bit \(no installer\):  
-[https://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+Win+64+Standalone.zip)
+![](../../.gitbook/assets/screen-shot-2021-09-09-at-3.18.34-pm.png)
 
 ### **1.2.18 Download**
 
@@ -254,6 +27,249 @@ Windows 32 bit \(no installer\):
 [https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+Win+32+Standalone.zip)  
 Windows 64 bit \(no installer\):  
 [https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+Win+64+Standalone.zip)
+
+
+
+## Logic 1.2.29 Beta - Last Version of Logic 1.x
+
+The last version of Logic 1.x is v1.2.29. This is the version we recommend using and will contain all the latest stability fixes and features such as real-time view during captures. The downside of this is that it may launch with an error as described below, which has a workaround. If you prefer to have a more simple installation and runtime experience without having to resort to a workaround, we recommend using Logic 1.2.18.
+
+### Workaround for the "Unsupported Version" Error
+
+When launching 1.2.29, you may see an "Unsupported Version" notice like shown below.
+
+![Unsupported Version warning message in Logic 1.x](../../.gitbook/assets/screen-shot-2020-08-03-at-5.35.31-pm%20%281%29.png)
+
+If you see this notice, please start the software using the instructions in the support article below.
+
+{% page-ref page="../../troubleshooting/unsupported-version.md" %}
+
+### Why is it called a Beta Release?
+
+Logic 1.2.18 was the last release of Logic 1.x that we denoted as a "stable" release and was made availble on our main download page. Releases after 1.2.18 were denoted as "Beta" while we slowly implemented a brand new real-time view feature, with the plans of releasing a "stable" release once we've confirmed that the version was in fact stable.
+
+During that time, we also began work on a completely revamped version of our software, [Logic 2](https://www.saleae.com/downloads/), which is available now. While deciding to soley focus on improving the Logic 2 software, we ultimately decided to halt our efforts on releasing a final "stable" release of Logic 1.x, which we would have called Logic 1.2.30.
+
+Although Logic 1.2.29 has the "Beta" title attached to it, we do recommend it over Logic 1.2.18 and consider it as stable at this point. We simply decided not to spend time and resources away from Logic 2 development to remove the "Beta" text from the 1.2.29 software in addition to fixing the "Unsupported Version" error that we describe above.
+
+### 1.2.29 Beta Download Links
+
+Windows  
+[Logic Setup 1.2.29.exe](https://downloads.saleae.com/logic/1.2.29/Logic+Setup+1.2.29.exe)
+
+Mac OS X 10.8+  
+[Logic-1.2.29-Darwin.dmg](https://downloads.saleae.com/logic/1.2.29/Logic-1.2.29-Darwin.dmg)
+
+Linux 64-Bit  
+[https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+%2864-bit%29.zip)
+
+Windows Standalone releases:
+
+Note: These releases include the newly required Microsoft Visual Studio 2015 runtime. The runtime needs to be installed before the software will be able to run.
+
+Windows 32-Bit Standalone  
+[https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+32+Standalone.zip)
+
+Windows 64-Bit Standalone  
+[https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+64+Standalone.zip)
+
+## Notes on Standalone Releases
+
+For more information on the standalone versions of our software, please view the support article below.
+
+{% page-ref page="../../faq/technical-faq/standalone-software-info.md" %}
+
+{% hint style="info" %}
+When using the standalone version of the software, the drivers must be installed manually. Refer to the Driver Install link below for instructions.
+{% endhint %}
+
+{% page-ref page="../driver-install.md" %}
+
+
+
+## Logic 1.2.28
+
+## All Other Older Versions of Logic 1.x
+
+### **1.2.28 Beta Download**
+
+Windows \(32 bit and 64 bit\):  
+[https://downloads.saleae.com/logic/1.2.28/Logic+Setup+1.2.28.exe](https://downloads.saleae.com/logic/1.2.28/Logic+Setup+1.2.28.exe)
+
+OSX 10.7+:  
+[https://downloads.saleae.com/logic/1.2.28/Logic-1.2.28-Darwin.dmg](https://downloads.saleae.com/logic/1.2.28/Logic-1.2.28-Darwin.dmg)
+
+Linux 64 bit:  
+[https://downloads.saleae.com/logic/1.2.28/Logic+1.2.28+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.28/Logic+1.2.28+%2864-bit%29.zip)
+
+Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7. [https://downloads.saleae.com/logic/1.2.28/Logic+1.2.28+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.28/Logic+1.2.28+%2864-bit%29+compatibility_release.zip)
+
+Widows Standalone Releases:
+
+Windows 32 bit \(no installer\):  
+[https://downloads.saleae.com/logic/1.2.28/Logic+1.2.28+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.28/Logic+1.2.28+Win+32+Standalone.zip)  
+Windows 64 bit \(no installer\):  
+[https://downloads.saleae.com/logic/1.2.28/Logic+1.2.28+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.28/Logic+1.2.28+Win+64+Standalone.zip)
+
+### **1.2.27 Beta Download**
+
+Windows \(32 bit and 64 bit\):  
+[https://downloads.saleae.com/logic/1.2.27/Logic+Setup+1.2.27.exe](https://downloads.saleae.com/logic/1.2.27/Logic+Setup+1.2.27.exe)
+
+OSX 10.7+:  
+[https://downloads.saleae.com/logic/1.2.27/Logic-1.2.27-Darwin.dmg](https://downloads.saleae.com/logic/1.2.27/Logic-1.2.27-Darwin.dmg)
+
+Linux 64 bit:  
+[https://downloads.saleae.com/logic/1.2.27/Logic+1.2.27+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.27/Logic+1.2.27+%2864-bit%29.zip)
+
+Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7. [https://downloads.saleae.com/logic/1.2.27/Logic+1.2.27+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.27/Logic+1.2.27+%2864-bit%29+compatibility_release.zip)
+
+Widows Standalone Releases:
+
+Windows 32 bit \(no installer\):  
+[https://downloads.saleae.com/logic/1.2.27/Logic+1.2.27+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.27/Logic+1.2.27+Win+32+Standalone.zip)  
+Windows 64 bit \(no installer\):  
+[https://downloads.saleae.com/logic/1.2.27/Logic+1.2.27+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.27/Logic+1.2.27+Win+64+Standalone.zip)
+
+### **1.2.26 Beta Download**
+
+Windows \(32 bit and 64 bit\):  
+[https://downloads.saleae.com/logic/1.2.26/Logic+Setup+1.2.26.exe](https://downloads.saleae.com/logic/1.2.26/Logic+Setup+1.2.26.exe)
+
+OSX 10.7+:  
+[https://downloads.saleae.com/logic/1.2.26/Logic-1.2.26-Darwin.dmg](https://downloads.saleae.com/logic/1.2.26/Logic-1.2.26-Darwin.dmg)
+
+Linux 64 bit:  
+[https://downloads.saleae.com/logic/1.2.26/Logic+1.2.26+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.26/Logic+1.2.26+%2864-bit%29.zip)
+
+Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7. [https://downloads.saleae.com/logic/1.2.26/Logic+1.2.26+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.26/Logic+1.2.26+%2864-bit%29+compatibility_release.zip)
+
+Widows Standalone Releases:
+
+Windows 32 bit \(no installer\):  
+[https://downloads.saleae.com/logic/1.2.26/Logic+1.2.26+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.26/Logic+1.2.26+Win+32+Standalone.zip)  
+Windows 64 bit \(no installer\):  
+[https://downloads.saleae.com/logic/1.2.26/Logic+1.2.26+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.26/Logic+1.2.26+Win+64+Standalone.zip)
+
+### **1.2.25 Beta Download**
+
+Windows \(32 bit and 64 bit\):  
+[https://downloads.saleae.com/logic/1.2.25/Logic+Setup+1.2.25.exe](https://downloads.saleae.com/logic/1.2.25/Logic+Setup+1.2.25.exe)
+
+OSX 10.7+:  
+[https://downloads.saleae.com/logic/1.2.25/Logic-1.2.25-Darwin.dmg](https://downloads.saleae.com/logic/1.2.25/Logic-1.2.25-Darwin.dmg)
+
+Linux 64 bit:  
+[https://downloads.saleae.com/logic/1.2.25/Logic+1.2.25+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.25/Logic+1.2.25+%2864-bit%29.zip)
+
+Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7. [https://downloads.saleae.com/logic/1.2.25/Logic+1.2.25+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.25/Logic+1.2.25+%2864-bit%29+compatibility_release.zip)
+
+Widows Standalone Releases:
+
+Windows 32 bit \(no installer\):  
+[https://downloads.saleae.com/logic/1.2.25/Logic+1.2.25+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.25/Logic+1.2.25+Win+32+Standalone.zip)  
+Windows 64 bit \(no installer\):  
+[https://downloads.saleae.com/logic/1.2.25/Logic+1.2.25+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.25/Logic+1.2.25+Win+64+Standalone.zip)
+
+### **1.2.24 Beta Download**
+
+Windows \(32 bit and 64 bit\):  
+[https://downloads.saleae.com/logic/1.2.24/Logic+Setup+1.2.24.exe](https://downloads.saleae.com/logic/1.2.24/Logic+Setup+1.2.24.exe)
+
+OSX 10.7+:  
+[https://downloads.saleae.com/logic/1.2.24/Logic-1.2.24-Darwin.dmg](https://downloads.saleae.com/logic/1.2.24/Logic-1.2.24-Darwin.dmg)
+
+Linux 64 bit:  
+[https://downloads.saleae.com/logic/1.2.24/Logic+1.2.24+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.24/Logic+1.2.24+%2864-bit%29.zip)
+
+Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7. [https://downloads.saleae.com/logic/1.2.24/Logic+1.2.24+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.24/Logic+1.2.24+%2864-bit%29+compatibility_release.zip)
+
+Widows Standalone Releases:
+
+Windows 32 bit \(no installer\):  
+[https://downloads.saleae.com/logic/1.2.24/Logic+1.2.24+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.24/Logic+1.2.24+Win+32+Standalone.zip)  
+Windows 64 bit \(no installer\):  
+[https://downloads.saleae.com/logic/1.2.24/Logic+1.2.24+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.24/Logic+1.2.24+Win+64+Standalone.zip)
+
+### **1.2.23 Beta Download**
+
+Windows \(32 bit and 64 bit\):  
+[https://downloads.saleae.com/logic/1.2.23/Logic+Setup+1.2.23.exe](https://downloads.saleae.com/logic/1.2.23/Logic+Setup+1.2.23.exe)
+
+OSX 10.7+:  
+[https://downloads.saleae.com/logic/1.2.23/Logic-1.2.23-Darwin.dmg](https://downloads.saleae.com/logic/1.2.23/Logic-1.2.23-Darwin.dmg)
+
+Linux 64 bit:  
+[https://downloads.saleae.com/logic/1.2.23/Logic+1.2.23+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.23/Logic+1.2.23+%2864-bit%29.zip)
+
+Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7. [https://downloads.saleae.com/logic/1.2.23/Logic+1.2.23+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.23/Logic+1.2.23+%2864-bit%29+compatibility_release.zip)
+
+Widows Standalone Releases:
+
+Windows 32 bit \(no installer\):  
+[https://downloads.saleae.com/logic/1.2.23/Logic+1.2.23+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.23/Logic+1.2.23+Win+32+Standalone.zip)  
+Windows 64 bit \(no installer\):  
+[https://downloads.saleae.com/logic/1.2.23/Logic+1.2.23+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.23/Logic+1.2.23+Win+64+Standalone.zip)
+
+### **1.2.22 Beta Download**
+
+Windows \(32 bit and 64 bit\):  
+[https://downloads.saleae.com/logic/1.2.22/Logic+Setup+1.2.22.exe](https://downloads.saleae.com/logic/1.2.22/Logic+Setup+1.2.22.exe)
+
+OSX 10.7+:  
+[https://downloads.saleae.com/logic/1.2.22/Logic-1.2.22-Darwin.dmg](https://downloads.saleae.com/logic/1.2.22/Logic-1.2.22-Darwin.dmg)
+
+Linux 64 bit:  
+[https://downloads.saleae.com/logic/1.2.22/Logic+1.2.22+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.22/Logic+1.2.22+%2864-bit%29.zip)
+
+Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7. [https://downloads.saleae.com/logic/1.2.22/Logic+1.2.22+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.22/Logic+1.2.22+%2864-bit%29+compatibility_release.zip)
+
+Widows Standalone Releases:
+
+Windows 32 bit \(no installer\):  
+[https://downloads.saleae.com/logic/1.2.22/Logic+1.2.22+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.22/Logic+1.2.22+Win+32+Standalone.zip)  
+Windows 64 bit \(no installer\):  
+[https://downloads.saleae.com/logic/1.2.22/Logic+1.2.22+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.22/Logic+1.2.22+Win+64+Standalone.zip)
+
+### **1.2.20 Beta Download**
+
+Windows \(32 bit and 64 bit\):  
+[https://downloads.saleae.com/logic/1.2.20/Logic+Setup+1.2.20.exe](https://downloads.saleae.com/logic/1.2.20/Logic+Setup+1.2.20.exe)
+
+OSX 10.7+:  
+[https://downloads.saleae.com/logic/1.2.20/Logic-1.2.20-Darwin.dmg](https://downloads.saleae.com/logic/1.2.20/Logic-1.2.20-Darwin.dmg)
+
+Linux 64 bit:  
+[https://downloads.saleae.com/logic/1.2.20/Logic+1.2.20+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.20/Logic+1.2.20+%2864-bit%29.zip)
+
+Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7. [https://downloads.saleae.com/logic/1.2.20/Logic+1.2.20+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.20/Logic+1.2.20+%2864-bit%29+compatibility_release.zip)
+
+Widows Standalone Releases:
+
+Windows 32 bit \(no installer\):  
+[https://downloads.saleae.com/logic/1.2.20/Logic+1.2.20+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.20/Logic+1.2.20+Win+32+Standalone.zip)  
+Windows 64 bit \(no installer\):  
+[https://downloads.saleae.com/logic/1.2.20/Logic+1.2.20+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.20/Logic+1.2.20+Win+64+Standalone.zip)
+
+### **1.2.19 Beta Download**
+
+Windows \(32 bit and 64 bit\):  
+[https://downloads.saleae.com/logic/1.2.19/Logic+Setup+1.2.19.exe](https://downloads.saleae.com/logic/1.2.19/Logic+Setup+1.2.19.exe)
+
+OSX 10.7+:  
+[https://downloads.saleae.com/logic/1.2.19/Logic-1.2.19-Darwin.dmg](https://downloads.saleae.com/logic/1.2.19/Logic-1.2.19-Darwin.dmg)
+
+Linux 64 bit:  
+[https://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+\(64-bit\).zip](https://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+%2864-bit%29.zip)
+
+Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7. [https://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+\(64-bit\)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+%2864-bit%29+compatibility_release.zip)
+
+Widows Standalone Releases:
+
+Windows 32 bit \(no installer\):  
+[https://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+Win+32+Standalone.zip)  
+Windows 64 bit \(no installer\):  
+[https://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+Win+64+Standalone.zip)
 
 ### **1.2.17 Download**
 
