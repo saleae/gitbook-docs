@@ -84,6 +84,23 @@ A terminal view is available by clicking the "Terminal" button at the top-right 
 
 ### Limitations of Terminal View
 
-* Our in-app terminal view has a scroll-back limit of 10,000 rows. Once the 10,000 row limit is reached, the oldest rows are deleted.
-* Radix display in the terminal is limited to ASCII only. Viewing data in other radices is only available from within the Data Table at the moment.
+#### Scroll-back Limit
+
+Our in-app terminal view has a scroll-back limit of 10,000 rows. Once the 10,000 row limit is reached, the oldest rows are deleted.
+
+#### Radix Display within the Terminal
+
+* **Async Serial** - will always attempt to display in ASCII format. If the ASCII opcode doesn't exist, then it will be displayed in hex, separated by backslashes \(\\) as shown below. Notice that the first set of opcodes \(0 to 0x1F\) do not exist and are therefore displayed as hex. As the opcode increments and become valid, ASCII characters are displayed.
+
+![Async Serial Terminal View Example](../../.gitbook/assets/screen-shot-2021-09-10-at-5.21.15-pm.png)
+
+* **I2C** - will display addresses and data, as well as read/write status, as shown below.
+
+![I2C Terminal View Example](../../.gitbook/assets/screen-shot-2021-09-10-at-5.20.12-pm.png)
+
+* **SPI** - will display in hex in the format `MOSI / MISO` .
+
+![SPI Terminal View Example](../../.gitbook/assets/screen-shot-2021-09-10-at-5.23.44-pm.png)
+
+* **For all other analyzers** - content will be displayed as shown in the data table.
 
