@@ -31,6 +31,14 @@ First, double-click the Logic 2 .zip file available on our [download page](https
 
 Simply download and run the installer available on our [download page](https://www.saleae.com/downloads/). We install a driver for the Logic hardware as part of the installation process, so you will be prompted to trust software from Saleae.
 
+### Install Errors
+
+![Logic 2 Installation Error](../.gitbook/assets/image%20%2810%29.png)
+
+In case you run into any installation issues like shown above, please try installing the software with the following command line argument to generate a log file \(replacing the "x"s with the particular version you are installing\). Afterwards, [contact us](https://contact.saleae.com/hc/en-us/requests/new) and attach your `installog.txt` file and we can take a look at what could be causing it.
+
+`"Logic Setup 2.x.xx-master.exe" /L*V installog.txt`
+
 
 
 ## Logic 1.x Software
