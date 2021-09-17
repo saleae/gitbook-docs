@@ -1,4 +1,4 @@
-# Installing Custom Protocol Analyzers
+# Import Custom Low Level Analyzer
 
 ## Logic 2.x Instructions
 

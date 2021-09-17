@@ -1,8 +1,8 @@
-# Installing Extensions
+# Extension Installation
 
 There are 2 methods to installing an extension.
 
-### Install Extensions within the Software
+### Extension Installation within the Software
 
 This will be the easiest method of installing an extension. Clicking on the Extensions button on the right will open up a list of published extensions from us and from the community. Afterwards, you can click "Install" for the extension of your choice.
 
