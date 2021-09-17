@@ -2,13 +2,11 @@
 
 The Saleae software includes a protocol analyzer for the Serial Peripheral Interface \(SPI\) bus.
 
-SPI is a specification that is based on synchronous serial communication.
+![SPI Decoding in the Logic 2 Software](../../.gitbook/assets/spi-example.png)
 
-Synchronous serial is implemented simply with a clock signal and a data signal, where data is typically set up on one clock edge and read \(valid\) on the other.
+SPI uses a Clock signal, two data signals \(MISO and MOSI\), and an Enable signal. That is the most common configuration of SPI, but other variants exist.
 
-SPI uses a clock signal, two data signals \(MISO and MOSI\), and an enable signal. That is the most common configuration of SPI, but other variants exist. Dual and Quad SPI use more data signals to increase bandwidth without increasing the clock frequency. In some cases, an enable signal might not be present.
-
-The Saleae SPI analyzer is also generic enough to decode basic synchronous serial \(a clock signal and a data signal\) without a second data signal or an enable signal.
+Our SPI analyzer is generic enough to decode basic synchronous serial \(at minimum, a clock signal and a data signal\) without the need for a second data signal or an enable signal. In cases like this, one of the data signals and the Enable signal can be disabled from within the analyzer settings.
 
 ### **Setup**
 
@@ -56,9 +54,11 @@ In many cases, there is no chip select signal available for an SPI bus that need
 
 The SPI analyzer included in the Saleae Logic software supports this case. In the event you record SPI data and there is no valid enable signal, simply change the "Enable" channel in the SPI analyzer settings to "None" as shown here:
 
-![](https://trello-attachments.s3.amazonaws.com/5849c1dba38920d68e9733a1/467x345/de04dad9f4254976e00d3164dbbc6d16/spi_enable_none.png)
+![Setting Enable to &quot;None&quot;](../../.gitbook/assets/enable-none.png)
 
-This will usually work just by itself. However, in some cases, the analyzer will not decode the data correctly. That is because the SPI analyzer usually relies on the enable signal to align the data—that is, determine which bit of data should be the first bit in each byte and which bit should be the last.
+#### Issues with Ignoring the Enable Signal
+
+In some cases \(most commonly caused by ignoring the enable signal as described above\), the analyzer will not decode the data correctly. That is because the SPI analyzer usually relies on the enable signal to align the data—that is, determine which bit of data should be the first bit in each byte and which bit should be the last.
 
 Shown here is a typical issue where the alignment is off. You can clearly see that the pulses on the clock channel are in groups of eight—8 bits in each byte. There is a short gap between each byte.
 
