@@ -1,6 +1,14 @@
 # The Software Will Not Install or Run Properly
 
-## The Software Will Not Install or Run Properly
+![Logic 2 Installer Error](../.gitbook/assets/image%20%2811%29.png)
+
+In case you run into any installation issues like shown above, please try installing the software with the following command line argument to generate a log file \(replacing the "x"s with the particular version you are installing\). Afterwards, [contact us](https://contact.saleae.com/hc/en-us/requests/new) and attach your `installog.txt` file and we can take a look at what could be causing it.
+
+`"Logic Setup 2.x.xx-master.exe" /L*V installog.txt`
+
+## Logic 1.x Software
+
+If you plan on using the older Logic 1.x software, the following information applies.
 
 Below is a list of all known reasons and corresponding solutions or next steps that can cause this particular issue. Please check each one, skipping any items that are not relevant \(such as issues specific to an operating system you are not using\).
 

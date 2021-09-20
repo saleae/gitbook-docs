@@ -56,7 +56,7 @@ The SPI analyzer included in the Saleae Logic software supports this case. In th
 
 ![Setting Enable to &quot;None&quot;](../../.gitbook/assets/enable-none.png)
 
-#### Issues with Ignoring the Enable Signal
+### Solving Alignment Issues
 
 In some cases \(most commonly caused by ignoring the enable signal as described above\), the analyzer will not decode the data correctly. That is because the SPI analyzer usually relies on the enable signal to align the data—that is, determine which bit of data should be the first bit in each byte and which bit should be the last.
 
@@ -64,7 +64,7 @@ Shown here is a typical issue where the alignment is off. You can clearly see th
 
 However, even though the analyzer is decoding the data in groups of 8 bits, it is not starting on the correct bit. Instead, it is taking some bits from the end of the previous byte and adding them to the bits at the beginning of the next byte.
 
-![](https://trello-attachments.s3.amazonaws.com/5849c1dba38920d68e9733a1/735x236/eec947859407845e64c736d7510a6197/spi_error.png)
+![SPI Analyzer Alignment Issue](../../.gitbook/assets/screen-shot-2021-09-20-at-5.33.24-pm.png)
 
 Here are the two most common causes of this:
 
@@ -76,19 +76,23 @@ This is easy to fix. You will need to tell the SPI analyzer where the valid SPI 
 Here's how this is done:
 
 1. Place a timing marker just before the start of the first valid SPI byte.
-2. Configure the SPI analyzer to start decoding at that location.
+2. Delete the data before the timing marker **\(please note this cannot be undone\)**. Instructions are provided in the support article below.
+
+{% page-ref page="../../user-guide/using-logic/delete-data.md" %}
+
+
+
+## Logic 1.x
+
+If using the older Logic 1.x software, the following information applies.
+
+### Solving Alignment Issues
 
 First, add the timing marker by clicking the A1 button on the right side of the screen. Then click on the graph at the location where you would like to place it, as shown here:
 
 ![](https://trello-attachments.s3.amazonaws.com/5849c1dba38920d68e9733a1/983x224/fbc91d4d609e7172001e7317a9f83bbf/spi_marker.png)
 
 Next, open the SPI analyzer settings menu and select "Re-run starting at timing marker...". From that list, select the timing marker you just placed.
-
-{% hint style="info" %}
-In the newer [Logic 2 software](https://www.saleae.com/downloads/), the "re-run starting at timing marker" option is no longer available. The workaround is to set the starting point for your analyzer by deleting portions of your capture as described below.
-{% endhint %}
-
-{% page-ref page="../../troubleshooting/set-analyzer-starting-point.md" %}
 
 Screenshots:
 
@@ -100,29 +104,15 @@ After a moment, the SPI analyzer will automatically reprocess the capture. The d
 
 ![](https://trello-attachments.s3.amazonaws.com/5849c1dba38920d68e9733a1/735x230/76d9f1a07444eced8720f5be5d163c79/spi_finished.png)
 
-### **Common Issues**
+### **Other Common Issues**
 
 A red square appears on the clock channel when the enable channel goes low. This can be accompanied by one of these messages: "The initial \(idle\) state of the CLK line does not match the settings" or "Settings mismatch" or "Error".
 
 This occurs when the clock polarity setting is not set properly. For instance, in the image below, the clock channel is low while the enable signal is inactive. The correct setting should be "Click is low when inactive \(CPOL=0\)". In this case, the error is generated when "Clock is high when inactive \(CPOL=1\)" is selected. Simply swap the clock polarity and then double-check the clock phase to correct the issue.
 
-![SPI red error](https://trello-attachments.s3.amazonaws.com/5600544d79381592829e1109/398x227/320e771e3191d8f1994bef35a0cb5659/SPI_Square.png)
 
-### **Logic Analyzer Requirements and Recommendations**
 
-If you are considering purchasing a Saleae logic analyzer to record and decode SPI data but you are not sure which unit to purchase, please first see these articles:
 
-{% page-ref page="../../faq/technical-faq/which-logic-analyzer-to-get.md" %}
-
-{% page-ref page="../../faq/technical-faq/what-sample-rate-is-required.md" %}
-
-A typical SPI bus with 1 slave has 4 electrical signals, which will require 4 channels \(Clock, MOSI, MISO, Enable\).
-
-However, if there are multiple slave devices on the bus, keep in mind you will need another channel for each additional enable signal. That means if there are two devices on the bus, Logic 4 won't be able to record all 5 signals at once.
-
-Also, in some cases, there may be more than 2 data channels. Although our SPI analyzer does not support this, you can partially decode the traffic using the parallel analyzer.
-
-{% page-ref page="using-simple-parallel.md" %}
 
 
 
