@@ -1,17 +1,6 @@
 # What Is Included with the Product?
 
-## What Is Included with the Product?
-
-Each Saleae unit comes with all the necessary probes, wire harnesses, and a USB cable to use the unit. In addition, it comes in a custom neoprene zippered carrying case.
-
-**Logic 4**
-
-* Saleae Logic 4 USB Logic Analyzer
-* 1x 4-Channel Wire Harness
-* 8x Micro-Gripper Hooks
-* Saleae Carrying Case
-* USB 2.0 Micro Cable
-* Getting Started Card
+Each Saleae unit comes with all the necessary probes, wire harnesses, and a USB cable to use the unit. In addition, it comes in a custom zippered carrying case.
 
 **Logic 8**
 
