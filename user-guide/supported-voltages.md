@@ -14,7 +14,7 @@ There might be some small variation in the precise threshold voltage channel to 
 
 ### **Logic 8**
 
-The new Logic 8 has a fixed input voltage threshold.
+Logic 8 has a fixed input voltage threshold.
 
 * Voltage input low: 0.6 volts
 * Voltage input high: 1.2 volts
@@ -22,7 +22,6 @@ The new Logic 8 has a fixed input voltage threshold.
 
 Notes:
 
-* Over-voltage protection provides the same benefits as the other new devices, as listed in the notes for Logic 4.
 * The 1.2V input voltage high spec allows Logic 8 to be used directly with the CAN low channel of 3.3V CAN.
 * Recommended IO standards: 5.0V, 3.3V, 2.5V, 1.8V
 
@@ -32,7 +31,7 @@ Logic Pro devices have three selectable voltage threshold options.
 
 ![Logic Pro 8/16 - Voltage Threshold Setting in the Logic 2 software](../.gitbook/assets/screen-shot-2020-09-03-at-3.58.18-pm%20%281%29%20%281%29%20%281%29.png)
 
-The inputs are also implemented with comparators instead of standard CMOS buffers such as Logic 4 and the new Logic 8. That makes the input-low and input-high voltages very close to each other. The exact behavior of these comparators is not defined here.
+The inputs are also implemented with comparators instead of standard CMOS buffers found on Logic 4 and Logic 8. This makes the input-low and input-high voltages very close to each other. The exact behavior of these comparators is not defined here.
 
 * 1.2V Voltage Option
 
@@ -51,7 +50,6 @@ The inputs are also implemented with comparators instead of standard CMOS buffer
 
 Notes:
 
-* Over-voltage protection provides the same benefits as the other new devices, as listed in the notes for Logic 4.
 * Recommended IO standards: 5.0V, 3.3V, 2.5V, 1.8V, 1.2V
 * The precise threshold voltage is not calibrated and may vary as much as +/- 15%. That is more than accurate enough to record standard IO families.
 
