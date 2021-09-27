@@ -1,30 +1,33 @@
 # Simple Parallel Analyzer - User Guide
 
-The Saleae Logic software includes a protocol decoder to read clocked \(synchronous\) parallel bus data. The analyzer supports between 1 and 16 bits of data bus, although realistically, only 15 bits are possible.
+The Saleae Logic software includes a protocol decoder to read clocked \(synchronous\) parallel bus data. The analyzer supports between 1 and 16 bits of data bus, although realistically, only 15 bits are possible due to the relance of a clock signal taking up one channel. The example image below shows a 4-bit data bus and a clock signal, which requires 5 channels.
+
+![Simple Parallel Decoding in the Logic 2 Software](../../.gitbook/assets/simple-parallel-example.png)
+
+### Decoding the Data
+
+When using the Simple Parallel Analyzer, you will notice arrows and dots in the capture. You will also notice that the data is decoded above the Clock channel.
+
+* **Arrows** - These represent when the sampling of the data bus takes place. In the example image above, we have set the Simple Parallel analyzer to treat data as valid on rising edges.
+* **Dots** - The dots will be time-aligned with the arrows, and will give a representation of where data sampling takes place in the respective data bit channel.
+
+An example is shown below for how a 4-bit data bus and a clock signal will be decoded using the Simple Parallel Analyzer. Note that the decoded data bubble \(in this example, "0x0004"\) will always appear as a 16-bit hex number \(i.e. 0x0000\), even when a smaller data bus is decoded \(in the case below, a 4-bit data bus\).
+
+![Decoding Parallel Data into Hex](../../.gitbook/assets/decoding-data.png)
 
 Keep in mind that this isn't the "state" mode you may have seen in other logic analyzers. All Saleae units operate by over-sampling only and do not support a state/external clock mode. That means you will need to sample at least 4 times faster than the parallel clock frequency.
 
-To use the parallel analyzer, first make sure you record all of the data signals and the clock signal in one capture. The exact ordering of the inputs relative to the parallel bus does not matter.
+### Analyzer Settings
 
-Once you have captured your data, add the simple parallel analyzer using the "+" button on the analyzer panel.
+The settings for the parallel analyzer are described in this section. First, for all unused data bits, change the selected channel to "None". For instance, if you're using a 4-bit data bus, change D4-D15 to "None" in the settings as shown below.
 
-The settings for the parallel analyzer are very important. First, for all unused data bits, change the selected channel to "None". For instance, if you're using a 4-bit data bus, change D4-D15 to "None" in the settings as shown below.
-
-![4-bit settings](https://trello-attachments.s3.amazonaws.com/55f0a61a10f9f592573a4205/593aee5a8504a595d393ee06/feeaa45c0a33a9ebc91a6433b062af5c/simple-parallel-settings.png)
+![](../../.gitbook/assets/settings%20%281%29.png)
 
 Then, correctly assign the data bits you are using to the corresponding channels.
 
 Finally, set the clock channel and the clock edge correctly and press Save.
 
-**Decoding the Parallel Data**
-
-Click on the gear icon next to the "Simple Parallel" analyzer and select the preferred numeric format. The image below shows an example of decoding a 4-bit data bus into the hexadecimal format.
-
-![Simple Parallel Settings](https://trello-attachments.s3.amazonaws.com/55f0a61a10f9f592573a4205/593aee5a8504a595d393ee06/0e1779a84bd4efabed5e11d54128c858/simple_parallel_settings.png)
-
-![Simple Parallel Data in Hex](https://trello-attachments.s3.amazonaws.com/55f0a61a10f9f592573a4205/593aee5a8504a595d393ee06/31be6e35568b8ed0b5c97ed4df6d7082/parallel-hex.png)
-
-**Export File Format**
+### **Export File Format**
 
 The protocol export will create a file using the currently selected display radix \(hex demonstrated here\). The export format has a header row and then 1 row per recorded parallel value. The values are the same as displayed in the displayed frames over the clock channel. There is one row per valid clock edge, either rising or falling, as specified in the analyzer settings.
 
