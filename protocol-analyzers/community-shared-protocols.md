@@ -10,6 +10,7 @@ The following analyzers are not officially supported by Saleae, but instead, wer
 * [CAN-FD](https://github.com/acosmith/Saleae_CAN-FD_Analyser)
 * [Digital Command Control](https://www.ejberg.dk/portfolio/saleae-dcc-decoder/)
 * [DHT2x](https://github.com/jakeson21/DHT2xProtocolAnalyzer)
+* [DisplayPort Aux](https://github.com/Alex-the-Smart/DPAUXAnalyzer)
 * [Gamecube Controller Analyzer](https://github.com/jefflongo/GameCubeControllerAnalyzer)
 * [InfraRed](https://github.com/procule/IRAnalyzer)
 * [ISO7816 \(smart cards and secure elements\)](https://github.com/nezza/ISO7816Analyzer)
