@@ -187,7 +187,7 @@
   * [Error Message: StartCommandError](troubleshooting/start-command-error.md)
   * [Logic 2 Error Messages](troubleshooting/logic-2-error-messages.md)
   * [PC Detection Test](troubleshooting/pc-detection-test.md)
-  * [Issues with the Apple M1 Chip](troubleshooting/issues-with-the-apple-m1-chip.md)
+  * [Apple M1 Support](troubleshooting/issues-with-the-apple-m1-chip.md)
   * [Logic 2 Fails to Launch](troubleshooting/logic2-linux-errors.md)
   * [CentOS Compatibility Issues](troubleshooting/centos-compatibility-issues.md)
   * [Failed to Load Custom Analyzer: libmidi\_analyzer.so](troubleshooting/failed-to-load-custom-analyzer.md)
