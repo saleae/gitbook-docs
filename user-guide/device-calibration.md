@@ -1,8 +1,8 @@
 # Device Calibration
 
-Manual calibration can be performed in the Logic 2 software. Typically, the software will automatically handle downloading the calibration file. In rare cases, users may need to download the file manually if the software is not able to download it on its own. Follow the steps below.
+Manual calibration can be performed in the Logic 2 software. Typically, the software will automatically handle downloading the calibration file. In rare cases, users may need to download the file manually if the software is not able to download it on its own.
 
-#### Check Calibration Status & Device Serial Number
+#### Checking Calibration Status & Device Serial Number
 
 Our support team may request you to send your serial number to us to further investigate your device's calibration status. We may also have you check your device's calibration status as reported by your software below.
 
@@ -12,17 +12,33 @@ Our support team may request you to send your serial number to us to further inv
 
 1. Click the Device Settings Panel Button on the right
 2. Click the three dots next to your device name on the top-right
-3. Click Device Info
+3. Click Device Info to view the device's calibration status and serial number
 
-#### Manually Download the Calibration File
+#### Download & Install the Calibration File via Logic 2 App
 
 1. If the auto-download for calibration fails, a popup will appear.
 
-   ![](../.gitbook/assets/screen-shot-2020-05-01-at-5.05.22-pm.png)
+![Device Calibration Error Popup](../.gitbook/assets/cal-popup%20%282%29.png)
 
-2. Click "Download" to download the calibration file
-3. Click "Load File" to load the calibration file
+2. Click "Download" to download the calibration file  
+3. Click "Load File" to load the calibration file  
 4. Check calibration status to ensure it is successful
+
+#### Download the Calibration File via Browser
+
+In cases when you are not able to download the calibration file from within the Logic 2 app \(for instance, if you are using an offline PC\), you may download the calibration file using another PC that has internet access by using its browser. This file will need to be brought over to the offline PC. The steps are shown below:
+
+1. On the PC that has the Logic 2 app installed \(which may be offline\), connect your Logic analyzer via USB.
+2. Navigate to the Device Information window as we show in the _Checking Calibration Status & Device Serial Number_ section above.
+3. Take note of the serial number listed there.
+4. On another PC that has internet access, enter the link below in your browser and add your Serial Number. This will prompt you to download a calibration file in .cal file format.
+   * downloads.saleae.com/calibration/{Insert Serial Number here}.cal
+   * _Note:_ Device ID must be entered in **lowercase**.
+   * _For example:_ downloads.saleae.com/calibration/3b2e3a21ca4ad130.cal
+5. Take this newly downloaded .cal file to your other offline PC and paste it to a convenient and temporary location, such as your Dekstop.
+6. Open the Logic 2 app and connect your logic analyzer. You should be greeted by a _Device Calibration Error_ popup below. Click Load File and navigate to the .cal file you recently downloaded. Your device should now be calibrated on this PC once the file is loaded.
+
+![Device Calibration Error Popup](../.gitbook/assets/cal-popup%20%283%29.png)
 
 #### Where are my Calibration Files stored?
 
