@@ -4,16 +4,14 @@ We have received reports of some stability issues when using our Logic 2 softwar
 
 ### Experimental Release Download \(Logic 2\)
 
-We've implemented updates to the Logic 2 software that hopefully improves stability on Apple's M1 processor. We have provided a separate, experimental build of the Logic 2 software that contains these updates. The download page is available below.
+Starting in version 2.3.38, we've implemented updates to the Logic 2 software that hopefully improves stability on Apple's M1 processor.
 
 {% hint style="info" %}
-Please note that this release is experimental and may contain bugs or stability issues. Please report any issues you experience with this version via the methods below.
+Please note that the 2.3.38 release is experimental and may contain bugs or stability issues. We'll continue to improve stability in future versions of the software. If you still encounter issues when using our software with Apple's M1 processor, please report them via the methods below.
 
 * Comment on our Ideas site post: [Bug - Logic Unstable on Apple M1 Chip](https://ideas.saleae.com/b/feature-requests/bug-logic-unstable-on-macbook-m1/)
 * [Contact our support team directly](https://contact.saleae.com/hc/en-us/requests/new)
 {% endhint %}
-
-### [**Logic 2.3.38 Experimental Release \(Apple M1\) - Download Page**](https://discuss.saleae.com/t/logic-2-3-38/1219)
 
 ## 
 
