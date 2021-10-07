@@ -197,6 +197,7 @@
   * [Logic 2 is Consuming Disk Space](troubleshooting/logic2-consuming-disk-space.md)
   * [Connection Conflicts with USB Debuggers](troubleshooting/connection-conflicts-with-usb-debuggers.md)
   * [PC Restart Causes Logic to Disconnect](troubleshooting/pc-restart-causes-logic-to-disconnect.md)
+  * [HLA Fails to Display Special Characters](troubleshooting/hla-fails-to-display-special-characters.md)
 * [FAQ](faq/README.md)
   * [Technical FAQ](faq/technical-faq/README.md)
     * [System Requirements for Saleae Products](faq/technical-faq/system-requirements-for-saleae-products.md)
