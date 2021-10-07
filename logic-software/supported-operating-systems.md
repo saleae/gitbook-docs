@@ -4,7 +4,7 @@
 
 The Logic 2 Software is supported in the following operating systems.
 
-* Windows 8 & 10 \(64 bit\)
+* Windows 8, 10, & 11 \(64 bit\)
 * MacOS 10.14+ 
 * Ubuntu 18.04.5+ \(64 bit\)
 
