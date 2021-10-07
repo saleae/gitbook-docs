@@ -6,20 +6,17 @@ Manual calibration can be performed in the Logic 2 software. Typically, the soft
 
 Our support team may request you to send your serial number to us to further investigate your device's calibration status. We may also have you check your device's calibration status as reported by your software below.
 
-![Opening the Device Information Window](../.gitbook/assets/screen-shot-2021-02-17-at-6.11.03-pm.png)
-
-![Device Information window showing calibration status](../.gitbook/assets/screen-shot-2021-02-17-at-6.11.32-pm.png)
-
 1. Click the Device Settings Panel Button on the right
 2. Click the three dots next to your device name on the top-right
 3. Click Device Info to view the device's calibration status and serial number
 
+![Opening the Device Information Window](../.gitbook/assets/device-info.png)
+
+![Device Information window showing calibration status](../.gitbook/assets/screen-shot-2021-02-17-at-6.11.32-pm.png)
+
 #### Download & Install the Calibration File via Logic 2 App
 
-1. If the auto-download for calibration fails, a popup will appear.
-
-![Device Calibration Error Popup](../.gitbook/assets/cal-popup%20%282%29.png)
-
+1. If the auto-download for calibration fails, a popup will appear.  
 2. Click "Download" to download the calibration file  
 3. Click "Load File" to load the calibration file  
 4. Check calibration status to ensure it is successful
@@ -38,7 +35,7 @@ In cases when you are not able to download the calibration file from within the 
 5. Take this newly downloaded .cal file to your other offline PC and paste it to a convenient and temporary location, such as your Dekstop.
 6. Open the Logic 2 app and connect your logic analyzer. You should be greeted by a _Device Calibration Error_ popup below. Click Load File and navigate to the .cal file you recently downloaded. Your device should now be calibrated on this PC once the file is loaded.
 
-![Device Calibration Error Popup](../.gitbook/assets/cal-popup%20%283%29.png)
+![Load Calibration File](../.gitbook/assets/cal-popup-load.png)
 
 #### Where are my Calibration Files stored?
 
