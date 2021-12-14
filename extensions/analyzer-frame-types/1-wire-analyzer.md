@@ -5,73 +5,70 @@
 #### Frame Type: `"reset"`
 
 | Property | Type | Description |
-| :--- | :--- | :--- |
+| -------- | ---- | ----------- |
 
-
-Reset pulse
+* Reset pulse
 
 #### Frame Type: `"presence"`
 
 | Property | Type | Description |
-| :--- | :--- | :--- |
+| -------- | ---- | ----------- |
 
-
-Presence Pulse
+* Presence Pulse
 
 #### Frame Type: `"rom_command"`
 
-| Property | Type | Description |
-| :--- | :--- | :--- |
-| `description` | str | read, skip, search, or match |
-| `rom_command` | bytes | The command byte |
+| Property      | Type  | Description                  |
+| ------------- | ----- | ---------------------------- |
+| `description` | str   | read, skip, search, or match |
+| `rom_command` | bytes | The command byte             |
 
-ROM command. This is the first command issued by the master after a presence pulse
+* ROM command. This is the first command issued by the master after a presence pulse
 
 #### Frame Type: `"crc"`
 
-| Property | Type | Description |
-| :--- | :--- | :--- |
-| `crc` | bytes | The CRC byte |
+| Property | Type  | Description  |
+| -------- | ----- | ------------ |
+| `crc`    | bytes | The CRC byte |
 
-8 bit CRC, last part of the 64 bit identifier
+* 8 bit CRC, last part of the 64 bit identifier
 
 #### Frame Type: `"family_code"`
 
-| Property | Type | Description |
-| :--- | :--- | :--- |
+| Property | Type  | Description                                                       |
+| -------- | ----- | ----------------------------------------------------------------- |
 | `family` | bytes | The family code, which is the first part of the 64 bit identifier |
 
-The family code of the device ID
+* The family code of the device ID
 
 #### Frame Type: `"id"`
 
-| Property | Type | Description |
-| :--- | :--- | :--- |
-| `id` | int | 48 bit integer, taken from the center of the 64 bit identifier |
+| Property | Type | Description                                                    |
+| -------- | ---- | -------------------------------------------------------------- |
+| `id`     | int  | 48 bit integer, taken from the center of the 64 bit identifier |
 
-The 48 bit device identifier
+* The 48 bit device identifier
 
 #### Frame Type: `"data"`
 
-| Property | Type | Description |
-| :--- | :--- | :--- |
-| `data` | bytes | A single data byte |
+| Property | Type  | Description        |
+| -------- | ----- | ------------------ |
+| `data`   | bytes | A single data byte |
 
-Data byte after the ROM command and identifier
+* Data byte after the ROM command and identifier
 
 #### Frame Type: `"invalid_rom_command"`
 
-| Property | Type | Description |
-| :--- | :--- | :--- |
+| Property      | Type  | Description          |
+| ------------- | ----- | -------------------- |
 | `rom_command` | bytes | The ROM command byte |
 
-Unknown ROM command
+* Unknown ROM command
 
 #### Frame Type: `"alarm"`
 
-| Property | Type | Description |
-| :--- | :--- | :--- |
+| Property      | Type  | Description      |
+| ------------- | ----- | ---------------- |
 | `rom_command` | bytes | The command byte |
 
-Alarm search command
-
+* Alarm search command

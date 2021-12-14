@@ -2,11 +2,11 @@
 
 Normally, when the Logic software is installed, the product should simply work when connected to the PC. In other cases, such as when using the standalone version of the software, the drivers must be installed manually.
 
-### Prerequisites
+### Prerequisites to Review
 
 #### Using Logic 4, Logic 8, Pro 8, or Pro 16?
 
-If you are using any of the 2nd generation products \(Logic 4, Logic 8, Pro 8, Pro 16\), you must use the latest version of the [Logic 2 software](https://www.saleae.com/downloads/).
+If you are using any of the Gen 2 products (Logic 4, Logic 8, Pro 8, Pro 16), you must use the latest version of the [Logic 2 software](https://www.saleae.com/downloads/).
 
 #### Using Original Logic or Logic16?
 
@@ -16,9 +16,9 @@ If you have manually installed the 1st generation Logic or Logic16 drivers in th
 
 In Windows, the Saleae Logic may show up as a _WestBridge_ or _unidentified_ device in device manager. If this is the case, then there is a problem with the Saleae driver. Please install the driver per the methods listed in this support article.
 
-![Saleae Logic showing up as a WestBridge device](../.gitbook/assets/screen-shot-2020-09-10-at-4.26.44-pm.png)
+![Saleae Logic showing up as a WestBridge device](<../.gitbook/assets/Screen Shot 2020-09-10 at 4.26.44 PM.png>)
 
-If the drivers are installed properly, you should see _Saleae Logic X USB Logic Analyzer_ in Device Manager, where "X" is the specific product version \(4, 8, Pro 8, Pro 16\).
+If the drivers are installed properly, you should see _Saleae Logic X USB Logic Analyzer_ in Device Manager, where "X" is the specific product version (4, 8, Pro 8, Pro 16).
 
 ## Windows Instructions
 
@@ -38,9 +38,9 @@ Select the second option for "Browse my computer for driver software."
 Use the Browse button to direct the driver wizard to the Drivers folder, which is located where the Logic software was installed. Make sure the "Include Subfolders" checkbox is checked.
 
 * If the Logic software is already installed, the Drivers folder is here: C:\Program Files\Saleae LLC\Drivers
-* Otherwise, if using the standalone software, the Drivers folder is here:
+*   Otherwise, if using the standalone software, the Drivers folder is here:
 
-  \Drivers\Windows
+    \Drivers\Windows
 
 Click Next. If this fails, continue below.
 
@@ -54,7 +54,7 @@ Open the Device Manager. Right-click the Logic device and select Update Driver. 
 
 Click "Let me pick from a list of device drivers on my computer."
 
-![](https://trello-attachments.s3.amazonaws.com/57215d889e8ae939fe4a2834/630x469/8d291c47af4d57a5d080501b24ed0523/page_2.PNG)
+![](https://trello-attachments.s3.amazonaws.com/57215d889e8ae939fe4a2834/630x469/8d291c47af4d57a5d080501b24ed0523/page\_2.PNG)
 
 Next, it will ask you for the device type. Select "Universal Serial Bus Controllers."
 
@@ -62,28 +62,28 @@ This option is only present if no existing driver is installed. If a driver is a
 
 Now you will be presented with a window you may remember from installing printer drivers on Windows 95. Click the "Have Disk..." button.
 
-![](https://trello-attachments.s3.amazonaws.com/57215d889e8ae939fe4a2834/630x470/88234f6fb7d365deebc9cf6b5d4a4eef/page_3.PNG)
+![](https://trello-attachments.s3.amazonaws.com/57215d889e8ae939fe4a2834/630x470/88234f6fb7d365deebc9cf6b5d4a4eef/page\_3.PNG)
 
 This will open the install from the disk window, which will assume that you have inserted a floppy disk into drive A with the drivers. Click browse, navigate to the extracted drivers folder, and select Saleae.inf.
 
-![](https://trello-attachments.s3.amazonaws.com/57215d889e8ae939fe4a2834/440x239/4b72f41b11b7fba1f873df28df6261da/page_4.PNG)
+![](https://trello-attachments.s3.amazonaws.com/57215d889e8ae939fe4a2834/440x239/4b72f41b11b7fba1f873df28df6261da/page\_4.PNG)
 
-![](https://trello-attachments.s3.amazonaws.com/57215d889e8ae939fe4a2834/573x427/9c75de05f81dd754af3f2fe7611ee123/page_5.PNG)
+![](https://trello-attachments.s3.amazonaws.com/57215d889e8ae939fe4a2834/573x427/9c75de05f81dd754af3f2fe7611ee123/page\_5.PNG)
 
 At this point, you should see either just the device you have connected or both Logic and Logic16. See below for details before selecting the device you are using.
 
 If the checkbox for "Show compatible hardware" is checked, only 1 device should be shown. If it is not the correct device, then uncheck it to see all available Saleae drivers, as shown below.
 
-![](https://trello-attachments.s3.amazonaws.com/57215d889e8ae939fe4a2834/629x468/cb7a842f13a54506e4b070799e692e85/page_6.PNG)
+![](https://trello-attachments.s3.amazonaws.com/57215d889e8ae939fe4a2834/629x468/cb7a842f13a54506e4b070799e692e85/page\_6.PNG)
 
 These are all of the drivers that are included with the latest beta software, which you should see in the list when the checkbox for "Show compatible hardware" is not selected.
 
-Saleae Logic 4 USB Logic Analyzer  
-Saleae Logic 8 USB Logic Analyzer  
-Saleae Logic Pro 16 USB Logic Analyzer  
-Saleae Logic Pro 8 USB Logic Analyzer  
-Saleae Logic Start USB Logic Analyzer  
-Saleae Logic USB Logic Analyzer  
+Saleae Logic 4 USB Logic Analyzer\
+Saleae Logic 8 USB Logic Analyzer\
+Saleae Logic Pro 16 USB Logic Analyzer\
+Saleae Logic Pro 8 USB Logic Analyzer\
+Saleae Logic Start USB Logic Analyzer\
+Saleae Logic USB Logic Analyzer\
 Saleae Logic 16 USB Logic Analyzer
 
 {% hint style="info" %}
@@ -102,7 +102,7 @@ The original Logic 16, also discontinued in 2014, uses the "Saleae Logic 16 USB 
 
 When connecting Logic to the USB port and starting the Logic software, the Device Manager may show the device as "Logic Pro." This is incorrect, and may cause issues with operation. The solution is to uninstall and reinstall the Logic driver on the PC.
 
-Solution steps if the device incorrectly appears as "Logic Pro" under Device Manager: 
+Solution steps if the device incorrectly appears as "Logic Pro" under Device Manager:&#x20;
 
 1. Close Logic software, but keep the Logic device connected to the PC
 2. Open Device Manager
@@ -124,18 +124,18 @@ If at the end of this process you still get an error, please [contact support](h
 * Any information that may have been displayed when the drivers failed to install.
 * How does the device show up under Device Manager?
 * The driver install logs locations are described below.
-  * On XP, these are located here: 
+  * On XP, these are located here:&#x20;
     * C:\Windows\setupapi.log
-  * On newer versions of Windows, it should be here: 
+  * On newer versions of Windows, it should be here:&#x20;
     * C:\WINDOWS\INF\setupapi.dev.log
 
 ## Linux Ubuntu Instructions
 
 When the Logic 2 software is opened, a udev rule file is checked. If the udev rule is missing, then an error message will popup to prompt you to install the proper udev rule file. Follow the instructions to open the terminal and run the command to install the udev file.
 
-![](../.gitbook/assets/screen-shot-2020-10-22-at-2.48.48-pm.png)
+![](<../.gitbook/assets/Screen Shot 2020-10-22 at 2.48.48 PM.png>)
 
-Instructions: 
+Instructions:&#x20;
 
 1. Ensure the Logic app is running and your Logic analyzer is connected
 2. Open terminal
@@ -145,4 +145,3 @@ Instructions:
 6. Open the Logic app
 
 `cat /tmp/.mount_Logic-AZEAnR/resources/linux/99-SaleaeLogic.rules | sudo tee /etc/udev/rules.d/99-SaleaeLogic.rules > /dev/null && echo "finished installing /etc/udev/rules.d/99-SaleaeLogic.rules"`
-

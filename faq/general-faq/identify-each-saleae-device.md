@@ -1,7 +1,5 @@
 # How to Identify Each Saleae Device
 
-## How to Identify Each Saleae Device
-
 The current products:
 
 * Logic 8
@@ -24,7 +22,7 @@ For the Logic16, now usually referred to as the original Logic16, there is no lo
 
 For the Logic, now usually referred to as the original Logic, there is also no logo on the top, and the device does not have an LED. The back of the unit includes the name "Logic" and the website www.saleae.com.
 
-The original Logic has gone through several enclosure variations. All are black anodized aluminum. The original enclosure design was all aluminum, with the name and website laser etched on the back \(the side with the visible screws\). Newer versions included a rubber base, which includes the name and website as part of the mold, the same as the original Logic16.
+The original Logic has gone through several enclosure variations. All are black anodized aluminum. The original enclosure design was all aluminum, with the name and website laser etched on the back (the side with the visible screws). Newer versions included a rubber base, which includes the name and website as part of the mold, the same as the original Logic16.
 
 The new generation of products have all-aluminum enclosures with metal feet.
 
@@ -45,12 +43,14 @@ The official Saleae part number is not listed on the device. Just the device's n
 
 Note: "Red" or "Black" is not written on the device. This refers to the enclosure cover of the device.
 
-* SALEAE001    Logic \(original\)
-* SALEAE009    Logic16 \(original\)
+* SALEAE001    Logic (original)
+* SALEAE009    Logic16 (original)
 
 A complete list of product numbers and names, including accessories, can be found below.
 
-{% page-ref page="../../ordering-and-shipping/faq/saleae-part-numbers.md" %}
+{% content-ref url="../../ordering-and-shipping/faq/saleae-part-numbers.md" %}
+[saleae-part-numbers.md](../../ordering-and-shipping/faq/saleae-part-numbers.md)
+{% endcontent-ref %}
 
 **Product Images**
 
@@ -77,4 +77,3 @@ A complete list of product numbers and names, including accessories, can be foun
 **Original Logic16**
 
 ![Logic16](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/564d05d539a3f7b98f1e72fc/6073e48a297cdc86766c3c242f4197e2/Logic16.jpg)
-

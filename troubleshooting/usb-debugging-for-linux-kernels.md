@@ -1,7 +1,5 @@
 # Advanced USB Debugging for USB 3.0 Users with Linux Kernels 3.3 and Older
 
-## Advanced USB Debugging for USB 3.0 Users with Linux Kernels 3.3 and Older
-
 This article discusses how to control the maximum USB transfer size to troubleshoot two very specific issues that affect certain hardware/driver combinations.
 
 The most common case to use this guide is if you are using the Linux kernel version 3.3 or older. To check what version of the kernel you are using, just run:
@@ -26,7 +24,7 @@ At the highest throughput, that’s about 83 MB of RAM—not that much, really.
 
 In the Linux Kernel 3.3 or older, in the xhci\_hcd kernel module there is an important restriction on queueing requests. The xhci\_hcd module is the eXtensible Host Controller Interface Host Controller Driver. It’s the driver for the USB 3.0 ports on your Linux PC. Note that all USB 3.0 host controllers on Linux use the same kernel module, and the kernel module is part of the Linux kernel.
 
-In the xhci\_hcd module, in older versions of the kernels, there is a limit to the number of USB requests that can be in queued at once. On Linux, USB requests are called URBS \(USB request block\) and have a maximum transfer size of 116,384 bytes. Since we’re trying to keep 83 MB of buffers in the queue, that’s a TON of URBs. That’s over 5,000 URBs.
+In the xhci\_hcd module, in older versions of the kernels, there is a limit to the number of USB requests that can be in queued at once. On Linux, USB requests are called URBS (USB request block) and have a maximum transfer size of 116,384 bytes. Since we’re trying to keep 83 MB of buffers in the queue, that’s a TON of URBs. That’s over 5,000 URBs.
 
 In these older kernels, we’ve discovered experimentally that the limit is about 61 URBs. There is even a neat comment in the kernel module source code that says “FIXME allocate more room.”
 
@@ -50,7 +48,7 @@ Set the maximum transfer size to about 60 URBs worth, 16_1024_60 bytes = 983040 
 
 To do so, open the preferences dialog from the main options menu and navigate to the developer tab. Check the box to limit the max transfer size and then enter the new maximum transfer size in bytes.
 
-![](https://trello-attachments.s3.amazonaws.com/57215db1061255edf9ba9040/419x547/43b217a308a7ad1926a29e686a24562d/set_transfer_size.PNG)
+![](https://trello-attachments.s3.amazonaws.com/57215db1061255edf9ba9040/419x547/43b217a308a7ad1926a29e686a24562d/set\_transfer\_size.PNG)
 
 Then perform a series of test captures at different sample rates, digital only. Please test a good spread between 1 channel at 1 MSPS to all 4 channels at 500 MSPS. Make sure to include testing 1 channel at 500 MSPS, then 2 channels, and then 3 channels.
 
@@ -58,7 +56,6 @@ While performing these tests you may want to run the software from the command l
 
 **Windows and OSX Users**
 
-You may be directed to this page to test different transfer sizes. This is most likely to debug potentially a host controller specific issue or an issue where higher-speed captures are failing for unusual reasons. \(Normally, high-speed captures will fail due to USB latency issues, which are not related to the maximum transfer size.\)
+You may be directed to this page to test different transfer sizes. This is most likely to debug potentially a host controller specific issue or an issue where higher-speed captures are failing for unusual reasons. (Normally, high-speed captures will fail due to USB latency issues, which are not related to the maximum transfer size.)
 
 If you were instructed to set the transfer size to a specific number, you can do so by opening the preferences dialog from the main options menu and navigating to the developer tab. Then check the box to limit the max transfer size and enter the specified size into the text box.
-

@@ -4,7 +4,7 @@ Logic Pro 8 & Logic Pro 16 can both be used with USB 2.0 or USB 3.0 ports. Howev
 
 _Your Logic Pro is running as a USB 2.0 device. The sample rate will be limited and some channels might be disabled. Please verify that your USB cable and USB port support USB 3.0._
 
-![Warning Prompt when Logic Pro is connected via USB 2.0](../.gitbook/assets/image%20%281%29.png)
+![Warning Prompt when Logic Pro is connected via USB 2.0](<../.gitbook/assets/image (1).png>)
 
 ### Sampling Rate Limitation
 
@@ -12,17 +12,16 @@ When connected via USB 2.0, Logic Pro 8 & Logic Pro 16 operate with a lower maxi
 
 ### Number of Channels Limitation
 
-In addition, Logic Pro 16 draws slightly more current than what USB 2.0 ports are rated. Because of this, by default, only 8 of the 16 channels are active when connected to a USB 2.0 port. 
+In addition, Logic Pro 16 draws slightly more current than what USB 2.0 ports are rated. Because of this, by default, only 8 of the 16 channels are active when connected to a USB 2.0 port.&#x20;
 
 
 
-## Legacy Information for Logic v1.x Only
+## Legacy Information for Logic 1.x Only
 
 On our older [Logic software v1.x](https://support.saleae.com/logic-software/latest-stable-release-download), you can manually override the USB 2.0 power restriction to allow 16 channels.
 
 If you're sure the port that you are using can supply at least 700mA of current, then you can manually enable the second bank in the preferences dialog.
 
-![](https://trello-attachments.s3.amazonaws.com/57215d5e1bba46c6dc477691/370x89/84f215669e2d2faed536936a5db3cd3a/usb3_power.PNG)
+![](https://trello-attachments.s3.amazonaws.com/57215d5e1bba46c6dc477691/370x89/84f215669e2d2faed536936a5db3cd3a/usb3\_power.PNG)
 
 Most powered USB hubs will be able to provide enough current to power Logic Pro 16. If you enable this feature but Logic Pro 16 is unable to draw enough current to power both banks, it may disconnect from the PC when it connects to the software, or it may disconnect when a capture is started.
-

@@ -18,23 +18,26 @@ We plan to improve the performance of our software, but in the meantime, here ar
 
 1. Export only a section of the data
 2. Export only a few channels
-3. Export to binary rather than CSV. We also have a sample python script to read binary data \(provided in the link below, at the bottom of the article\).
+3. Export to binary rather than CSV. We also have a sample python script to read binary data (provided in the link below, at the bottom of the article).
 
-{% page-ref page="../faq/technical-faq/binary-export-format-logic-2.md" %}
+{% content-ref url="../faq/technical-faq/binary-export-format-logic-2.md" %}
+[binary-export-format-logic-2.md](../faq/technical-faq/binary-export-format-logic-2.md)
+{% endcontent-ref %}
 
-### How Many Digital Transitions are in my Captured Data? <a id="how-many-digital-transitions-are-in-my-captured-data"></a>
+### How Many Digital Transitions are in my Captured Data? <a href="#how-many-digital-transitions-are-in-my-captured-data" id="how-many-digital-transitions-are-in-my-captured-data"></a>
 
-Since export performance is related to how many digital transitions occur in your data, you can check this by using our built-in Clock Stats measurement extension. Install the extension \(it should be installed by default\) and SHIFT+drag across your entire range of digital data to count the number of rising edges and falling edges in your capture.
+Since export performance is related to how many digital transitions occur in your data, you can check this by using our built-in Clock Stats measurement extension. Install the extension (it should be installed by default) and SHIFT+drag across your entire range of digital data to count the number of rising edges and falling edges in your capture.
 
-![Clock Stats Measurement Extension](https://gblobscdn.gitbook.com/assets%2F-LIrtSD7SNp69UxQ-5QC%2F-MNkFPRovszTX-SisIYi%2F-MNkJYGZdC5UE1aZpcSN%2FScreen%20Shot%202020-12-04%20at%206.31.57%20PM.png?alt=media&token=82a21dbf-b206-4cc6-b4af-0d841a823139)
+![Clock Stats Measurement Extension](https://gblobscdn.gitbook.com/assets%2F-LIrtSD7SNp69UxQ-5QC%2F-MNkFPRovszTX-SisIYi%2F-MNkJYGZdC5UE1aZpcSN%2FScreen%20Shot%202020-12-04%20at%206.31.57%20PM.png?alt=media\&token=82a21dbf-b206-4cc6-b4af-0d841a823139)
 
-![Number of Rising and Falling Edges](https://gblobscdn.gitbook.com/assets%2F-LIrtSD7SNp69UxQ-5QC%2F-MNkFPRovszTX-SisIYi%2F-MNkJbFPGhbft0Qgzj9_%2FScreen%20Shot%202020-12-04%20at%206.31.42%20PM.png?alt=media&token=bd3e3dfe-5b4e-40c7-88e7-923c6e767e9d)
+![Number of Rising and Falling Edges](https://gblobscdn.gitbook.com/assets%2F-LIrtSD7SNp69UxQ-5QC%2F-MNkFPRovszTX-SisIYi%2F-MNkJbFPGhbft0Qgzj9\_%2FScreen%20Shot%202020-12-04%20at%206.31.42%20PM.png?alt=media\&token=bd3e3dfe-5b4e-40c7-88e7-923c6e767e9d)
 
 ### Exporting via Binary File - A Much Faster Approach
 
-An alternative approach \(much faster and produces a smaller file\) would be to export to a binary file. More details on the binary file format can be found in the link below.
+An alternative approach (much faster and produces a smaller file) would be to export to a binary file. More details on the binary file format can be found in the link below.
 
-{% page-ref page="../faq/technical-faq/binary-export-format-logic-2.md" %}
+{% content-ref url="../faq/technical-faq/binary-export-format-logic-2.md" %}
+[binary-export-format-logic-2.md](../faq/technical-faq/binary-export-format-logic-2.md)
+{% endcontent-ref %}
 
-![Exporting to a Binary File](../.gitbook/assets/screen-shot-2021-04-12-at-6.30.44-pm.png)
-
+![Exporting to a Binary File](<../.gitbook/assets/Screen Shot 2021-04-12 at 6.30.44 PM.png>)

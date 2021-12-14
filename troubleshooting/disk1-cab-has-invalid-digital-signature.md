@@ -1,8 +1,6 @@
 # The Cabinet File disk1.cab has an Invalid Digital Signature
 
-## The Cabinet File disk1.cab has an Invalid Digital Signature
-
-When installing the Saleae software, the following error message may appear: "A file that is required cannot be installed because the cabinet file \[...\]\disk1.cab has an invalid digital signature. This may indicate that the cabinet file is corrupt."
+When installing the Saleae software, the following error message may appear: "A file that is required cannot be installed because the cabinet file \[...]\disk1.cab has an invalid digital signature. This may indicate that the cabinet file is corrupt."
 
 **Troubleshooting Steps**
 
@@ -10,13 +8,17 @@ When installing the Saleae software, the following error message may appear: "A 
 * Make sure the computer is up-to-date. That is good practice and is likely to resolve this issue.
 * Use the standalone version of the software. That allows you to skip the installation process, bypassing this issue. You can download the latest version of the standalone software below.
 
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
+
 **Contacting Support for Additional Help**
 
 If none of the troubleshooting steps solve the problem, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) and include the following information:
 
 * Where you downloaded the Saleae software
 * What version you are trying to install
-* Version of Windows you are using \(XP/Vista/7/8/10\) and if it is 32-bit or 64-bit
+* Version of Windows you are using (XP/Vista/7/8/10) and if it is 32-bit or 64-bit
 * Designate if the computer is usually online or offline and if it is updated regularly
 * A description or screenshot of the error message you are seeing
 * Any other relevant information such as if the computer has custom security policies installed
@@ -36,4 +38,3 @@ In order to comply with new limitations on Microsoft Windows, we upgraded our ce
 However, older versions of Windows do not support validating SHA-256 signatures.
 
 To get around this issue, we started dual signing our application with both SHA-1 and SHA-256. That allows the software to be downloaded and installed on most Windows computers.
-

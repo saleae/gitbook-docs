@@ -1,22 +1,34 @@
 # Download
 
-![](../.gitbook/assets/screen-shot-2020-09-03-at-6.52.16-pm%20%286%29%20%282%29.png)
+## Logic 2 Software
 
-## Download
+![Logic 2 Software](<../.gitbook/assets/Screen Shot 2021-12-07 at 12.10.01 PM.png>)
+
+### Download & Installation
 
 The latest version of the Logic 2 software can be downloaded below.
 
 * [**Logic 2 Software Download**](https://www.saleae.com/downloads/)
-* \*\*\*\*[**Logic 2 Changelog**](https://ideas.saleae.com/f/changelog/)\*\*\*\*
+* ****[**Logic 2 Changelog**](https://ideas.saleae.com/f/changelog/)****
 
-## Installation
+Instructions for installation and solutions for commonly found errors can be found below.
 
-{% page-ref page="sw-installation.md" %}
+{% content-ref url="sw-installation.md" %}
+[sw-installation.md](sw-installation.md)
+{% endcontent-ref %}
 
-## **Feedback**
 
-Please share any software feedback you have with us!
 
-* [Logic 2 - Ideas and Feature Requests](https://ideas.saleae.com/)
-* [Logic 2 - Discuss Forum](https://discuss.saleae.com/)
+## Logic 1.x Software
 
+![Logic 1.x Software](../.gitbook/assets/logic1.png)
+
+If you need to use our older Logic 1.x app for any reason, you can refer to the link below.
+
+{% content-ref url="legacy-software/older-software-releases.md" %}
+[older-software-releases.md](legacy-software/older-software-releases.md)
+{% endcontent-ref %}
+
+
+
+****

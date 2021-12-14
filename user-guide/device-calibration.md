@@ -12,20 +12,20 @@ Our support team may request you to send your serial number to us to further inv
 
 ![Opening the Device Information Window](../.gitbook/assets/device-info.png)
 
-![Device Information window showing calibration status](../.gitbook/assets/screen-shot-2021-02-17-at-6.11.32-pm.png)
+![Device Information window showing calibration status](<../.gitbook/assets/Screen Shot 2021-02-17 at 6.11.32 PM.png>)
 
-#### Download & Install the Calibration File via Logic 2 App
+#### Install Calibration via Logic 2 App
 
-1. If the auto-download for calibration fails, a popup will appear.  
-2. Click "Download" to download the calibration file  
-3. Click "Load File" to load the calibration file  
-4. Check calibration status to ensure it is successful
+1\. If the auto-download for calibration fails, a popup will appear.\
+2\. Click "Download" to download the calibration file\
+3\. Click "Load File" to load the calibration file\
+4\. Check calibration status to ensure it is successful
 
-#### Download the Calibration File via Browser
+#### Install Calibration to an Offline PC
 
-In cases when you are not able to download the calibration file from within the Logic 2 app \(for instance, if you are using an offline PC\), you may download the calibration file using another PC that has internet access by using its browser. This file will need to be brought over to the offline PC. The steps are shown below:
+In cases when you are not able to download the calibration file from within the Logic 2 app (for instance, if you are using an offline PC), you may download the calibration file using another PC that has internet access by using its browser. This file will need to be brought over to the offline PC. The steps are shown below:
 
-1. On the PC that has the Logic 2 app installed \(which may be offline\), connect your Logic analyzer via USB.
+1. On the PC that has the Logic 2 app installed (which may be offline), connect your Logic analyzer via USB.
 2. Navigate to the Device Information window as we show in the _Checking Calibration Status & Device Serial Number_ section above.
 3. Take note of the serial number listed there.
 4. On another PC that has internet access, enter the link below in your browser and add your Serial Number. This will prompt you to download a calibration file in .cal file format.
@@ -39,15 +39,15 @@ In cases when you are not able to download the calibration file from within the 
 
 #### Where are my Calibration Files stored?
 
-`OSX: /Users/YourUserName/Library/Application Support/logic/calibrations  
-Windows: %APPDATA%\Logic\calibrations  
-Linux: ~/.config/Logic/calibrations`
+`OSX: /Users/YourUserName/Library/Application Support/logic/calibrations`\
+`Windows: %APPDATA%\Logic\calibrations`\
+`Linux: ~/.config/Logic/calibrations`
 
 #### My Browser Opens the Following Page
 
 When manually downloading the calibration file in Logic 2.x, in rare cases, your browser may open a page that looks like the image below.
 
-![Manual Calibration Access Denied](../.gitbook/assets/screen-shot-2020-06-24-at-12.54.46-pm.png)
+![Manual Calibration Access Denied](<../.gitbook/assets/Screen Shot 2020-06-24 at 12.54.46 PM.png>)
 
 In this case, please submit a [Warranty Request](https://saleae-support.typeform.com/to/E8UPB7) form and we will be happy to help. This may be indicative of hardware failure and we'll most likely want to process a warranty for you.
 
@@ -57,7 +57,7 @@ In this case, please submit a [Warranty Request](https://saleae-support.typeform
 
 When connected to the internet, the Logic software will automatically handle downloading the calibration file.
 
-The 2nd Generation of Saleae products \(Logic 4, Logic 8, Logic Pro 8, & Logic Pro 16\) use calibration data generated at Saleae to display accurate AC and DC values. The 1st Generation \(Original Logic and Logic16\) do not require any form of calibration.
+The 2nd Generation of Saleae products (Logic 4, Logic 8, Logic Pro 8, & Logic Pro 16) use calibration data generated at Saleae to display accurate AC and DC values. The 1st Generation (Original Logic and Logic16) do not require any form of calibration.
 
 This calibration data is not stored on the device. Instead, it is stored on our servers, and the software automatically downloads this calibration data as well as checks for updates when a device is connected.
 
@@ -69,9 +69,9 @@ Please note that the Device ID as reported by Logic 1.x software is the same as 
 
 1. Open Logic 1.x software.
 2. Connect the Logic device and wait for the software to connect to it.
-3. Click _Options -&gt; Preferences -&gt; Calibration tab_
+3. Click _Options -> Preferences -> Calibration tab_
 
-![](https://trello-attachments.s3.amazonaws.com/57215d47654d8cd332a0fa52/344x239/a275ee69d4a0b2d37858b695444651c7/calibration_information.PNG)
+![](https://trello-attachments.s3.amazonaws.com/57215d47654d8cd332a0fa52/344x239/a275ee69d4a0b2d37858b695444651c7/calibration\_information.PNG)
 
 All physically connected devices will be displayed here, calibrated or not.
 
@@ -97,9 +97,9 @@ The Logic software will automatically handle downloading the calibration file. I
    * Windows: %APPDATA%\Saleae LLC\Logic\Calibration
    * OSX: /Users/YourUserName/Library/Preferences/Saleae/Calibration
    * Linux: Calibration folder alongside Logic executable
-3. Check your Calibration Status \(steps above\), to ensure the calibration loaded properly.
+3. Check your Calibration Status (steps above), to ensure the calibration loaded properly.
 
-\*\*\*\*
+****
 
 ## **Transferring the Calibration File from One PC to Another**
 
@@ -118,21 +118,20 @@ Each .cal file is specific to a single device, but the .cal files are saved with
 
 If there is a newer calibration file available for your device, our software should automatically download it as long as it is connected to the internet. Note that we usually do not make updates to the calibration files.
 
-In case you want to check if there is an updated calibration file available, please manually download the calibration file using the instructions above ****and check for the calibration status.
+In case you want to check if there is an updated calibration file available, please manually download the calibration file using the instructions above **** and check for the calibration status.
 
-\*\*\*\*
+****
 
 ## **Do you Provide Calibration Certificates?**
 
 Our devices do not require periodic recalibration. You can download our statement of calibration below.
 
-{% file src="../.gitbook/assets/statement\_of\_calibration \(1\).pdf" %}
+{% file src="../.gitbook/assets/Statement_of_Calibration (2).pdf" %}
 
 Specifically, there is no calibration certificate. The devices do undergo a one-time factory calibration process.
 
-\*\*\*\*
+****
 
 ## **Having Trouble?**
 
 If you are having trouble manually downloading the calibration file, we can send it to you. Please [contact support](https://contact.saleae.com/hc/en-us/requests/new), and we can make sure your calibration data gets updated.
-

@@ -1,7 +1,5 @@
 # Can I Export Protocol Results Between Timing Markers?
 
-## Can I Export Protocol Results Between Timing Markers?
-
 Yes. This is possible by using the protocol search result export instead of the standard protocol export feature.
 
 This export option is not yet supported by the API.
@@ -13,4 +11,3 @@ This export option is not yet supported by the API.
 5. Open the decoded protocols menu again.
 6. Select "Export search results."
 7. Save.
-

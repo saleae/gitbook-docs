@@ -6,7 +6,7 @@ Error message in log file:
 
 `Error: Unable to create shared memory to hold instance number, Qt error code: 1, Qt error string: QSharedMemoryPrivate::initKey: unable to set key on lock`
 
-## **Background**
+## **Background Information**
 
 The application uses a shared memory segment to manage specific single instance resources, mainly the protocol search database file.
 
@@ -25,50 +25,45 @@ Usually, this can be solved simply by closing all open instances of the software
 
 However, if the software launched with sudo crashes, the shared memory segment might not get released. Any instance of the software launched without root permissions will crash on launch with the above error.
 
-## **Solution \#1**
+## **Solution #1**
 
 **The simplest way to solve this is to restart the computer.** Shared memory segments are not persisted between restarts.
 
-## Solution \#2
+## Solution #2
 
 Alternatively, the problem can be solved by manually removing the shared memory segment and associated semaphore.
 
-1. List all shared memory segments and semaphores.
+1.  List all shared memory segments and semaphores.
 
-   ```text
-   sudo ipcs
-   ```
+    ```
+    sudo ipcs
+    ```
+2.  Locate the shared memory segment. The shared memory segment used by the Logic software will be owned by root and contain 4 bytes.
 
-2. Locate the shared memory segment. The shared memory segment used by the Logic software will be owned by root and contain 4 bytes.
+    ```
+    ------ Shared Memory Segments --------
+    key        shmid      owner      perms      bytes      nattch     status
+    0x3b020040 4849684    root       600        4          1
+    ```
+3.  Locate the semaphore. The semaphore used by the Logic software is harder to identify. Odds are that it will be the only root-owned semaphore in the list. If it's not, you might want to try closing all other applications that are running as root.
 
-   ```text
-   ------ Shared Memory Segments --------
-   key        shmid      owner      perms      bytes      nattch     status
-   0x3b020040 4849684    root       600        4          1
-   ```
+    ```
+    ------ Semaphore Arrays --------
+    key        semid      owner      perms      nsems
+    0x76020008 589825     root       600        1
+    ```
+4.  Delete the shared memory segment and the semaphore using their shmid and semid, respectively.
 
-3. Locate the semaphore. The semaphore used by the Logic software is harder to identify. Odds are that it will be the only root-owned semaphore in the list. If it's not, you might want to try closing all other applications that are running as root.
-
-   ```text
-   ------ Semaphore Arrays --------
-   key        semid      owner      perms      nsems
-   0x76020008 589825     root       600        1
-   ```
-
-4. Delete the shared memory segment and the semaphore using their shmid and semid, respectively.
-
-   ```text
-   ipcrm -s <semid>
-   ipcrm -m <shmid>
-   ```
-
+    ```
+    ipcrm -s <semid>
+    ipcrm -m <shmid>
+    ```
 5. Launch the Logic software as a normal user. It should not crash on launch. If it does, check the error logs to see if the same issue is occurring.
 
-## Solution \#3
+## Solution #3
 
-Removing the following files from the /tmp directory may solve the issue \(Note that the "..." in the file names below represents a unique 40 character hexadecimal code\).
+Removing the following files from the /tmp directory may solve the issue (Note that the "..." in the file names below represents a unique 40 character hexadecimal code).
 
 * /tmp/qipc\_sharedmemory\_qlipper...
 * /tmp/qipc\_systemsem\_qlipper...
 * /tmp/qipc\_systemsem\_sharedmemorylogicinstancecount...
-

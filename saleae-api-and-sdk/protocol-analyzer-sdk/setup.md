@@ -10,7 +10,7 @@ The libraries required to build a custom analyzer are stored in the following gi
 
 You may either fork, clone, or download this repository. Forking is recommended if you plan to use version control or share your custom analyzer publicly.
 
-Note - This repository contains a submodule. Be sure to include submodules when cloning, for example `git clone --recursive https://github.com/saleae/SampleAnalyzer.git`. 
+Note - This repository contains a submodule. Be sure to include submodules when cloning, for example `git clone --recursive https://github.com/saleae/SampleAnalyzer.git`.&#x20;
 
 If you download the repository from Github, the submodules are not included. In that case you will need to...
 
@@ -18,7 +18,7 @@ If you download the repository from Github, the submodules are not included. In 
 2. Download the [SampleAnalyzer](https://github.com/saleae/SampleAnalyzer) repository
 3. Place the AnalyzerSDK folder inside of the SampleAnalyzer folder
 
-![Place AnalyzerSDK folder inside of SampleAnalyzer folder](../../.gitbook/assets/2019-10-22_1757%20%281%29%20%281%29.png)
+![Place AnalyzerSDK folder inside of SampleAnalyzer folder](<../../.gitbook/assets/2019-10-22\_1757 (1) (1).png>)
 
 ### Rename the Analyzer via Python Script
 
@@ -32,19 +32,19 @@ Second, the script will prompt you for the display name. This will appear in the
 
 After that, the script will complete the renaming process and exit.
 
-```text
+```
 python rename_analyzer.py
 SPI
 Mark's SPI Analyzer
 ```
 
-### A Note on Renaming other Analyzers
+### A Note on Renaming Analyzers
 
 The rename\_analyzer.py script mentioned in the section above only works for the SampleAnalyzer used in this example. For any other analyzer, the rename\_analyzer.py script will not work. To rename other analyzers, please follow the instructions shown in the article below.
 
-{% page-ref page="renaming-a-custom-analyzer.md" %}
-
-
+{% content-ref url="renaming-a-custom-analyzer.md" %}
+[renaming-a-custom-analyzer.md](renaming-a-custom-analyzer.md)
+{% endcontent-ref %}
 
 
 

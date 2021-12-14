@@ -1,12 +1,4 @@
-# USB 3.0 Cable Customer Notice
-
-## USB 3.0 Cable Customer Notice
-
-{% hint style="info" %}
-We've recently discovered a problem with the USB 3.0 cables that we have been shipping to customers with their Logic Pro 8 and Logic Pro 16 units.
-{% endhint %}
-
-**We're shipping replacement cables to customers with problem cables. Instructions on how to get your replacement cable are at the bottom of this page.**
+# USB 3.0 Cable Customer Notice (2017)
 
 We don't know exactly when it started, but we know that some units shipped in December 2017 and January 2018 were affected.
 
@@ -35,4 +27,3 @@ If you are located outside the US but cannot easily purchase a cable from a loca
 We are currently recommending this replacement cable from Amazon: [http://www.amazon.com/AmazonBasics-USB-3-0-Cable-Micro-B/dp/B00NH12R1O](http://www.amazon.com/AmazonBasics-USB-3-0-Cable-Micro-B/dp/B00NH12R1O)
 
 In all cases, either the 3-ft., 6-ft., or 9-ft. cable solved the reported issue so far.
-

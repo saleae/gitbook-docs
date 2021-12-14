@@ -1,7 +1,5 @@
 # Saleae Open Source Support
 
-## Saleae Open Source Support
-
 I'm generally a fan of community developed software, especially when it's hosted on GitHub. However, this is not a good option in our case.
 
 First and foremost, we believe that the software provides the biggest value of the Saleae products. When you buy a product, the price includes the software. The software is one of the main things that sets us apart from the competition. Open-sourcing the software would give that edge away, and we think it could possibly even end our business.
@@ -18,9 +16,8 @@ In the meantime, we are not able to open-source any other components of the curr
 
 **Sigrok**
 
-[Sigrok](http://sigrok.org/wiki/Main_Page) is an open source software project aimed at developing software and libraries to run a wide range of existing logic analyzers and data recorders.
+[Sigrok](http://sigrok.org/wiki/Main\_Page) is an open source software project aimed at developing software and libraries to run a wide range of existing logic analyzers and data recorders.
 
 Sigrok already contains community-added support for the original Saleae Logic and Logic16, and experimental support for digital signals using the Saleae Logic Pro 16, allowing all three products to be used by the Sigrok software.
 
-The other new Saleae devices are not currently supported by Sigrok. You can track the development progress for this on the [Sigrok wiki](http://sigrok.org/wiki/Main_Page).
-
+The other new Saleae devices are not currently supported by Sigrok. You can track the development progress for this on the [Sigrok wiki](http://sigrok.org/wiki/Main\_Page).

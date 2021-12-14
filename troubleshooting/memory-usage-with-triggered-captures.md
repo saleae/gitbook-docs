@@ -1,7 +1,5 @@
 # Memory Usage with Triggered Captures
 
-## Memory Usage with Triggered Captures
-
 This article describes how the software buffers data and uses memory when taking captures that have a trigger enabled.
 
 **Background**
@@ -22,11 +20,13 @@ This backlog of data is data that has been recorded from the logic analyzer and 
 
 There is no limit on this. The longer the software continues to search for the trigger, the more the backlog will grow and the more the memory usage will increase until the computer runs out of memory and the disk is no longer able to swap fast enough. In this case, our software tries to detect that the system is out of memory and stop the capture with the "out of memory exception was thrown" and automatically end the capture.
 
-{% page-ref page="error-out-of-memory-exception.md" %}
+{% content-ref url="error-out-of-memory-exception.md" %}
+[error-out-of-memory-exception.md](error-out-of-memory-exception.md)
+{% endcontent-ref %}
 
 However, not all computers and operating systems behave the same way. In the worst case, the software will become unresponsive and will need to be manually halted.
 
-This is a particular concern when taking a capture with a trigger that does not occur frequently. It's important to note that even if the trigger search can't run in real time, as long as the trigger event occurs quickly after starting the capture \(within a few seconds\), everything will be fine. However, if the trigger backlog is rapidly growing, then the system may run out of memory before the trigger condition can be found.
+This is a particular concern when taking a capture with a trigger that does not occur frequently. It's important to note that even if the trigger search can't run in real time, as long as the trigger event occurs quickly after starting the capture (within a few seconds), everything will be fine. However, if the trigger backlog is rapidly growing, then the system may run out of memory before the trigger condition can be found.
 
 **How to Monitor the Backlog Status**
 
@@ -46,7 +46,7 @@ If either of the backlog indicators is steadily increasing, that indicates that 
 
 **Recommendations for Getting the Software to Run in Real Time**
 
-First, be sure to disable channels you are not using and reduce sample rates, if possible. \(Be sure to sample at least 4 times faster than the speed of your signal.\)
+First, be sure to disable channels you are not using and reduce sample rates, if possible. (Be sure to sample at least 4 times faster than the speed of your signal.)
 
 If you are using a pulse width trigger, you might want to try changing to an edge trigger to see if the performance is better.
 
@@ -58,11 +58,10 @@ If possible, consider disabling the trigger. In certain capture situations, your
 
 If you are having trouble getting the trigger system to reliably run in real time, please contact support and include the following information:
 
-1. The specific capture settings used \(sample rate, number of digital and analog channels enabled\).
+1. The specific capture settings used (sample rate, number of digital and analog channels enabled).
 2. The trigger settings used.
-3. A description of the signal being recorded \(complexity of the signal being recorded affects performance\).
+3. A description of the signal being recorded (complexity of the signal being recorded affects performance).
 4. A description of how quickly the backlog or memory usage grows.
 5. An estimation of the typical amount of time that passes between when you click the Start button and when the trigger event physically occurs.
 
 With this information, we can recommend solutions to the issue as well as attempt to reproduce the trigger situation here to see if we can improve the performance for that case through software updates.
-

@@ -1,7 +1,5 @@
 # What Is the Maximum Bandwidth of Logic?
 
-## What Is the Maximum Bandwidth of Logic?
-
 The maximum bandwidth of a signal you can record with a logic analyzer depends on the sample rate.
 
 * For digital signals, you must sample 4 times faster than the bandwidth. That means the bandwidth is one-quarter of the sample rate.
@@ -17,20 +15,19 @@ For devices that have selectable channels, the maximum sample rate depends on th
 
 The presence of both digital and analog channels in the same capture complicates this further since it is possible to swing priority from digital to analog, or vice versa.
 
-You can find a brief overview of the maximum sample rates in the device technical specifications here: [https://www.saleae.com/\#DatasheetTile](https://www.saleae.com/#DatasheetTile)
+You can find a brief overview of the maximum sample rates in the device technical specifications here: [https://www.saleae.com/#DatasheetTile](https://www.saleae.com/#DatasheetTile)
 
 The original products, Logic and Logic16, are not listed in those areas; they only contain the latest products.
 
-Original Logic \(discontinued September 2014\):
+Original Logic (discontinued September 2014):
 
 * Maximum digital sample rate: 24 MSPS
 * Maximum digital bandwidth: 6 MHz
 
-Original Logic 16 \(discontinued September 2014\):
+Original Logic 16 (discontinued September 2014):
 
-* Maximum digital sample rate: 100 MSPS \(3 channels\)
-* Maximum digital bandwidth: 25 MHz \(3 channels\)
-* Maximum digital sample rate: 16 MSPS \(16 channels\)
-* Maximum digital bandwidth: 4 MHz \(16 channels\)
+* Maximum digital sample rate: 100 MSPS (3 channels)
+* Maximum digital bandwidth: 25 MHz (3 channels)
+* Maximum digital sample rate: 16 MSPS (16 channels)
+* Maximum digital bandwidth: 4 MHz (16 channels)
 * Other intermediate combinations available.
-

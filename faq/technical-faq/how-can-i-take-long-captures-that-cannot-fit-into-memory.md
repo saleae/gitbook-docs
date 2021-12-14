@@ -1,7 +1,5 @@
 # How Can I Take Long Captures That Cannot Fit into Memory?
 
-## How Can I Take Long Captures That Cannot Fit into Memory?
-
 **Managing Memory Usage in the Saleae Application**
 
 The Saleae software does not support streaming captured data to disk. Instead, a single capture has to reside in memory until it is saved and closed.
@@ -10,8 +8,8 @@ There are several ways to reduce or manage the memory usage of the software:
 
 * Reduce the capture duration.
 * Reduce the analog sample rate if analog channels are used.
-* Save and close captures before taking new ones. After saving the capture \(options -&gt; save capture\), move the capture to a new tab \(button next to the capture tab\) and then close it using the tab menu \(tab gear icon -&gt; close\).
-* Disable analog up-sampled pipeline in the software preferences \(options -&gt; preferences -&gt; capture tab -&gt; uncheck "Enable Upsampled Pipeline" \) to reduce analog memory consumption by about 4 times.
+* Save and close captures before taking new ones. After saving the capture (options -> save capture), move the capture to a new tab (button next to the capture tab) and then close it using the tab menu (tab gear icon -> close).
+* Disable analog up-sampled pipeline in the software preferences (options -> preferences -> capture tab -> uncheck "Enable Upsampled Pipeline" ) to reduce analog memory consumption by about 4 times.
 
 **API Information**
 
@@ -23,9 +21,11 @@ To do this, the software includes a TCP socket server. You can develop an applic
 
 You can find the latest socket API and documentation in the link below.
 
-{% page-ref page="../../saleae-api-and-sdk/socket-api/" %}
+{% content-ref url="../../saleae-api-and-sdk/socket-api/" %}
+[socket-api](../../saleae-api-and-sdk/socket-api/)
+{% endcontent-ref %}
 
-The documentation and a sample C\# application are contained in the zip file posted there. Links to several open source implementations are also posted.
+The documentation and a sample C# application are contained in the zip file posted there. Links to several open source implementations are also posted.
 
 **Automating Long Recordings**
 
@@ -51,7 +51,7 @@ You may also want to automate the process of exporting the decoded protocol data
 
 When running an automated script, you will want to prevent standard dialogs from appearing that block normal operation. These dialogs include:
 
-* Capture failure message \(can't keep up, failed to start, etc.\)
+* Capture failure message (can't keep up, failed to start, etc.)
 * Error reporter
 * Out of memory exception message
 
@@ -59,21 +59,21 @@ To suppress these popups, simply start the application with the command line opt
 
 **Common Applications**
 
-* Automating the process of starting a capture with a trigger and exporting the protocol results after the capture
+*   Automating the process of starting a capture with a trigger and exporting the protocol results after the capture
 
-    This can be done by either pre-setting the trigger in the software or setting it using the API command SET\_TRIGGER.
+    &#x20; This can be done by either pre-setting the trigger in the software or setting it using the API command SET\_TRIGGER.
 
-    The basic flow to automatically start the capture and export protocol results would look like this:
+    &#x20; The basic flow to automatically start the capture and export protocol results would look like this:
 
-    CAPTURE or CAPTURE\_TO\_FILE
+    &#x20; CAPTURE or CAPTURE\_TO\_FILE
 
-    Call IS\_PROCESSING\_COMPLETE in a loop until it returns TRUE
+    &#x20; Call IS\_PROCESSING\_COMPLETE in a loop until it returns TRUE
 
-    GET\_ANALYZERS and get the index of your analyzer \(which can change between captures\)
+    &#x20; GET\_ANALYZERS and get the index of your analyzer (which can change between captures)
 
-    EXPORT\_ANALYZER 
+    &#x20; EXPORT\_ANALYZER&#x20;
 
-    Please review the documentation for specific command arguments.
+    &#x20; Please review the documentation for specific command arguments.
 
 **Limitations**
 
@@ -84,4 +84,3 @@ There are several limitations to this approach that you should consider:
 * The protocol results cannot be accessed in real time. Instead, you must wait for the capture to complete before you can export the protocol results.
 
 If you have any questions or need any help working with the scripting API, please [contact support](https://support.saleae.com/hc/en-us/requests/new).
-

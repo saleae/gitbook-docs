@@ -8,5 +8,4 @@ Before you capture any data, click on the _Capture Settings_ button to configure
 
 Note: only the Logic 8 Pro and Logic 16 Pro have the "Voltage" setting.
 
-To learn more, see the [Capture Settings](https://saleae.gitbook.io/docs/user-guide/using-logic/collecting-data-and-device-settings) section of the User Guide.
-
+To learn more, see the [Device Settings](https://saleae.gitbook.io/docs/user-guide/using-logic/collecting-data-and-device-settings) section of the User Guide.

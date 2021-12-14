@@ -1,6 +1,6 @@
 # Logic 1.x Changelog
 
-### Real-Time Display Technical Details \(1.2.23 - 1.2.29\)
+### About Real-Time Display (versions 1.2.23 - 1.2.29)
 
 Since digital and analog data are processed in software before they can be displayed, the performance of the real-time view will depend on the performance of your machine.
 
@@ -30,13 +30,13 @@ Changes in 1.2.27 Beta:
 Bug Fixes:
 
 1. rolled out auto-update for MacOS and Linux
-2. JTAG analyzer no longer crashes the software for extremely long Shift IR/DR sequences, usually from FPGA bitstreams. 
+2. JTAG analyzer no longer crashes the software for extremely long Shift IR/DR sequences, usually from FPGA bitstreams.&#x20;
 
 Changes in 1.2.26 Beta:
 
 New Features:
 
-1. Improved software update process for Windows. \(Mac and Linux coming soon\)
+1. Improved software update process for Windows. (Mac and Linux coming soon)
 2. Internal - finished test coverage of features in last release.
 
 Bug Fixes:
@@ -47,7 +47,7 @@ Changes in 1.2.25 Beta:
 
 New Features:
 
-1. Added Async RGB Led Analyzer. \(supports single-wire LED protocols - WS2811, WS2812B, WS2813, TM1809, TM1804, UCS1903, LPD1886. Feedback welcome!\)
+1. Added Async RGB Led Analyzer. (supports single-wire LED protocols - WS2811, WS2812B, WS2813, TM1809, TM1804, UCS1903, LPD1886. Feedback welcome!)
 2. made it easier to drag analog channels
 3. made vertical scrollbars more visible in 4 areas
 
@@ -60,7 +60,7 @@ Changes in 1.2.24 Beta:
 New features:
 
 1. The UI is now responsive during the capture. However, analyzers cannot be edited during a capture, and the options menu is disabled.
-2. Protocol search now works during the capture \(if a trigger is used, protocol processing starts when the trigger is found\)
+2. Protocol search now works during the capture (if a trigger is used, protocol processing starts when the trigger is found)
 
 Changes in 1.2.23 Beta:
 
@@ -107,7 +107,7 @@ Changes in 1.2.20 Beta:
 Bug Fixes:
 
 1. Analog values in CSV exports have the correct display precision.
-2. Analog values exported as ADC samples \(integers\) no longer have decimal points.
+2. Analog values exported as ADC samples (integers) no longer have decimal points.
 3. Crash bug fixed in MATLAB export, the software would crash if the starting sample index was larger than an unsigned 32 bit integer. Affected captures where considerable time passed before the trigger was detected.
 4. `-disablepopups` command line argument now works properly on Linux and MacOS.
 5. Crash bug fixed in pulse width trigger, which could crash pulses that spanned multiple USB data transfers. Bonus, the trigger is now covered with unit tests! This was a long time coming.
@@ -141,13 +141,12 @@ Changes in 1.2.16:
 Improvements:
 
 1. Increased device throughput for all Logic Pro devices via Firmware & FPGA update. All Pro 8s and Pro 16s ever shipped support the higher throughout.
-2. Added new Sample rates via FPGA update. Pro devices now support sampling at 250 MS/s and 125 MS/s. All Pro devices ever shipped support this.
+2.  Added new Sample rates via FPGA update. Pro devices now support sampling at 250 MS/s and 125 MS/s. All Pro devices ever shipped support this.
 
-   This supports:
-
-3. 6 channels @ 500 MS/s. \(previously 4 channels\)
-4. 12 channels @ 250 MS/s. \(250 MS/s was not previously available\)
-5. All 16 channels @ 125 MS/s \(previously limited to 100 MS/s\)
+    This supports:
+3. 6 channels @ 500 MS/s. (previously 4 channels)
+4. 12 channels @ 250 MS/s. (250 MS/s was not previously available)
+5. All 16 channels @ 125 MS/s (previously limited to 100 MS/s)
 6. The Logic Pro 8 can run all 8 channels at 250 MS/s, previously limited to 100 MS/s.
 
 Bug Fixes:
@@ -162,7 +161,7 @@ Changes in 1.2.15:
 
 Improvements:
 
-1. Support for Logic 8, Logic Pro 8 and Logic Pro 16 Revision 2 PCBs \(incremental component change, no new capabilities\)
+1. Support for Logic 8, Logic Pro 8 and Logic Pro 16 Revision 2 PCBs (incremental component change, no new capabilities)
 2. Modbus Analyzer - added support for no parity bit and one stop bit
 3. LIN Analyzer - raised max bitrate for special applications to 1 mbps
 4. Added the full path to calibration files to the preferences dialog
@@ -170,10 +169,10 @@ Improvements:
 Bug Fixes:
 
 1. 1-Wire Analyzer did not return to normal speed from overdrive after a full length reset
-2. Analyzer core - fixed bug in ConvertToSignedNumber that broke down for 32 bit or wider sgined words \(I2S analyzer was affected\)
+2. Analyzer core - fixed bug in ConvertToSignedNumber that broke down for 32 bit or wider sgined words (I2S analyzer was affected)
 3. Instantaneous measurement settings were not completely saved due to serialization issue
 4. HDLC Analyzer - issue with CRCs and escape bytes fixed
-5. Export bugs fixed when exporting digital data from a mixed-mode capture, when the LCM of the analog and digital sample rates was larger than the digital sample rate. CSV and binary export modes affected, timestamps and sample numbers. 
+5. Export bugs fixed when exporting digital data from a mixed-mode capture, when the LCM of the analog and digital sample rates was larger than the digital sample rate. CSV and binary export modes affected, timestamps and sample numbers.&#x20;
 
 Changes in 1.2.14:
 
@@ -188,20 +187,20 @@ Other changes:
 
 1. Console output now indicates if the socket server was able to successfully bind to the listening port - useful for debugging issues with the scripting API.
 2. The device ID on the device calibration tab is now copy & paste-able.
-3. Modbus analyzer - now properly supports all parity modes, and added indicators for stop bit and parity bits. 
+3. Modbus analyzer - now properly supports all parity modes, and added indicators for stop bit and parity bits.&#x20;
 
 Changes in 1.2.13:
 
 Bug Fixes:
 
-1. Fixed bug on MacOS - if an error occurred when a device was connected, the device would not reconnect after subsequent attempts until the software was restarted. 
+1. Fixed bug on MacOS - if an error occurred when a device was connected, the device would not reconnect after subsequent attempts until the software was restarted.&#x20;
 2. Fixed bug on MacOS - on the latest MacOS release, on some computers, the device would not reliably connect to the software on each attempt.
 3. Fixed bug when loading setups - software would crash when loading a setup file that used channels that were not currently enabled, under specific but common circumstances.
 4. Fixed bug when loading setups - the enabled channels of Logic Pro 16 would not load when the device was plugged in over USB 2.0.
 
 Other changes:
 
-1. Improvement in USB host controller identification on Windows 10, friendly device name now displayed instead of driver name. \(only affects customer support issues\)
+1. Improvement in USB host controller identification on Windows 10, friendly device name now displayed instead of driver name. (only affects customer support issues)
 2. Optimization in analyzer bubble rendering path - mainly affects certain 3rd party analyzers.
 3. Lin Analyzer now includes more information in the results when a checksum mismatch is detected.
 
@@ -227,7 +226,7 @@ Changes in 1.2.11:
 5. bug fix - bookmark display time was not offset for the trigger sample.
 6. Fixed bug in timing marker names. It used to roll around like this: A,B,C...X,Y,Z,AA and then get stuck back at a single B due to a sorting problem. Now fixed.
 7. Linux - fixed race condition that would cause the save capture progress dialog to never close when saving exceptionally small files
-8. Linux: added "-workingdir" command line option to set file read/write location. The directory must already exist. Usage: ./Logic -workingdir ~/saleae
+8. Linux: added "-workingdir" command line option to set file read/write location. The directory must already exist. Usage: ./Logic -workingdir \~/saleae
 9. Updated UI framework to latest version.
 10. Fixed UI problem that caused some UI elements to vanish on MacOS Sierra, for all users.
 
@@ -239,14 +238,14 @@ Big Fixes:
 2. bug fix - LIN analyzer. fixed identification of long break fields that occur after an incomplete packet.
 3. bug fix - loading files. now file extension case is ignored.
 4. bug fix - link in preferences for "more info" in host controllers was broken.
-5. Linux build system - updated to Ubuntu 14, reduced dependencies. 
+5. Linux build system - updated to Ubuntu 14, reduced dependencies.&#x20;
 
 Changes in 1.2.9:
 
 Bug Fixes:
 
 1. Fixed issue with instantaneous measurement - when measuring the width of the last digital pulse in the capture, the measurement would either fail to display or it would falsely interpret the end of the capture as a transition.
-2. We now dual-sign the Windows installer, using both a SHA-1 and SHA 256 signature algorithm. This allows the installer to function properly on older versions of Windows \(XP and Vista do not recognize SHA256 signatures\) as well as the latest version of Microsoft's Edge browser.
+2. We now dual-sign the Windows installer, using both a SHA-1 and SHA 256 signature algorithm. This allows the installer to function properly on older versions of Windows (XP and Vista do not recognize SHA256 signatures) as well as the latest version of Microsoft's Edge browser.
 
 New Features:
 
@@ -280,7 +279,7 @@ Bug Fixes:
 2. Fixed issue introduced in 1.2.6, crash on Windows when launched in full screen mode.
 3. Added scroll bar to preferences dialog so the window does not grow vertically with the number of installed USB hosts
 4. Fixed bug in USB analyzer search results - no longer missing data bytes in search results
-5. Fixed analog &amp; digital Mixed CSV export - previously there were serious issues with this export format
+5. Fixed analog \&amp; digital Mixed CSV export - previously there were serious issues with this export format
 6. Fixed bug in CSV export of just analog data - header was missing
 7. Added support for socket API to NAK when file load failed
 
@@ -292,7 +291,7 @@ Changes in 1.2.6:
 
 Bug Fixes:
 
-1. Fixed set of bugs regarding mixed mode \(analog &amp; digital\) captures where the digital sample rate was not an integer multiple of the analog sample rate. Significant changes.
+1. Fixed set of bugs regarding mixed mode (analog \&amp; digital) captures where the digital sample rate was not an integer multiple of the analog sample rate. Significant changes.
 2. Fixed set of bugs regarding the trigger, where certain trigger combinations could crash the software
 3. Fixed bug in Logic that would cause the software to crash when the trigger condition was found and certain analyzers were active
 4. Fixed crash when SWD analyzer ran on a capture started using a trigger
@@ -308,7 +307,7 @@ Bug Fixes:
 14. Fixed bug with Windows maximize on Windows OSes where multiple monitors were used.
 15. Fixed bug where samples processed progress display was off by a factor of 1000.
 16. Fixed bug where the analog channels would not select the correct voltage range for display
-17. Fixed issue in Socket API - performance level now uses values that matches the GUI \(100, 80, 60, 40, 20\) and not older values \(100, 50, 33, 25, 20 \)
+17. Fixed issue in Socket API - performance level now uses values that matches the GUI (100, 80, 60, 40, 20) and not older values (100, 50, 33, 25, 20 )
 18. Added debug print statements to the export2 socket command. Monitor the console output of the software when debugging export2 command issues.
 
 New bug:
@@ -323,7 +322,7 @@ New Feature:
 
 Bug Fixes:
 
-1. Fixed trigger crash when analyzers are present \(introduced 1.2.4\)
+1. Fixed trigger crash when analyzers are present (introduced 1.2.4)
 2. Fixed bug where analyzer "reset starting sample" menu option would be disabled after changing tabs
 3. Protocol search progress no longer says "NAN"
 4. When sampling very slowly, the progress dialog will show units smaller than millions.
@@ -331,7 +330,7 @@ Bug Fixes:
 6. Protocol search export now includes the user edited names of each analyzer, instead of the analyzer proper name.
 7. Fixed crashes on device connection on windows where USB host controller did not respond to command. Now a warning message is displayed.
 8. Fixed crash when a capture ends with 0 samples collected, when a trigger and analyzers were present
-9. Fixed software lockup when a capture ends with 0 samples collected, and a trigger was present \(but no analyzers\)
+9. Fixed software lockup when a capture ends with 0 samples collected, and a trigger was present (but no analyzers)
 
 Changes in 1.2.4:
 
@@ -341,7 +340,7 @@ New bug:
 
 New Features:
 
-1. Added user selectable digital noise filter \(supports all products\)
+1. Added user selectable digital noise filter (supports all products)
 2. The I2C analyzer detects missing ACK/NAK bits and displays a warning.
 3. Added easy reset button to all trigger popovers
 4. Added puse width trigger support to socket API
@@ -354,21 +353,21 @@ New Features:
 Bug Fixes:
 
 1. Manchester analyzer has max bit rate of only 6 Mbit. Fixed internally, will be out in next release.
-2. Memory estimator broken for captures with less than 1 analog sample estimated, when analog channels are active \(fixed, will be released soon\)
-3. CEC analyzer looses sync if there is a false end of message without mrore data. \(fixed, will be released soon\)
-4. 1-wire analyzer does not support overdrive only parts. \(fixed, will be released soon\)
-5. On OSX, USB timing errors can cause the software to crash when capturing over USB 3.0 \(Fixed, will release soon\)
-6. On all platforms, certain USB failures will prevent further captures from working until the device is removed and reconnected \(fixed, will release soon\)
-7. When exporting a combination of analog and digital data from a capture started from a trigger, the sample number or sample time display will not read correctly \(fixed, will be released soon\)
+2. Memory estimator broken for captures with less than 1 analog sample estimated, when analog channels are active (fixed, will be released soon)
+3. CEC analyzer looses sync if there is a false end of message without mrore data. (fixed, will be released soon)
+4. 1-wire analyzer does not support overdrive only parts. (fixed, will be released soon)
+5. On OSX, USB timing errors can cause the software to crash when capturing over USB 3.0 (Fixed, will release soon)
+6. On all platforms, certain USB failures will prevent further captures from working until the device is removed and reconnected (fixed, will release soon)
+7. When exporting a combination of analog and digital data from a capture started from a trigger, the sample number or sample time display will not read correctly (fixed, will be released soon)
 8. Fixed crash when Socket API client disconnected before response was sent
 9. If socket API capture to file fails to write to the file due to a permissions error, it NAKs instead of ACKs now
 10. fixed pulse width trigger issue, will now trigger if no max pulse length is specified, and the pulse never ends.
-11. fixed bug in Socket API get analyzers &amp; export functions. proper indexes now used
+11. fixed bug in Socket API get analyzers \&amp; export functions. proper indexes now used
 12. Fixed bug in ARM SWD analyzer
 13. Fixed voltage measurement bug
 14. fixed data export issue not respecting start time when a trigger was used to create the capture
 15. Fixed bug where it was possible for the software to open partially off screen
-16. Fixed OSX crash when the application would be AppNap'ed \(TM\) while capturing
+16. Fixed OSX crash when the application would be AppNap'ed (TM) while capturing
 17. Fixed bug where on OSX the software would crash if launched by double-clicking a \*.logicsettings file
 
 Changes in 1.2.3:
@@ -377,7 +376,7 @@ Changes in 1.2.3:
 2. Added USB host specific 'quarks' support. Reset pipe now skipped only for ETRON and VIA host controllers on Windows.
 3. Added additional debug data to improve diagnosis from remaining capture related crashes
 4. Fixed crash bug in API when setting active channels and the trigger while the device settings popover is open
-5. Fixed crash bug in API when setting a trigger with required states but no event\(edge or pulse\) defined
+5. Fixed crash bug in API when setting a trigger with required states but no event(edge or pulse) defined
 6. Fixed issue introduced in 1.2.0 that would potentially load the incorrect voltage mode on Logic16 classic when first connected.
 7. Fixed crash when loading older save files saved on systems with custom analyzers, but loaded on systems without the custom analyzers
 8. Fixed crash bug in API when exporting data over a file that is not currently accessible. Also suppressed warning pop-up when called from the API 9. Fixed display issue where protocol frames would appear incorrectly over graph at the start of a capture
@@ -396,14 +395,14 @@ Changes in 1.2.3:
 Changes in 1.2.2:
 
 1. First Windows update since 1.1.34. Change logs for 1.2.0 and 1.2.1 only include changes that affected OSX and Linux, some changes can be found in those lists, some here.
-2. The jump from 1.1.34 to 1.2.2 represents about 6 months of development. This change log is not complete, and is just a highlight of the changes made. The development focused on bug fixing and stability. It also included lower sample rate support for analog channels to support long term data logging applications \(tested up to 24 hours\). It also includes the missing features from Logic 4 to allow digital-only captures. It also includes the update to QT5.4.1, a dramatically newer version of the cross platform UI framework we use. This in itself fixed a number of UI issues.
-3. Switched to Dynamic QT5 due to bug in another required library on Windows. \(affects Windows only\) We will switch back to static once the bug is fixed in September. This also affects custom analyzer on Windows
+2. The jump from 1.1.34 to 1.2.2 represents about 6 months of development. This change log is not complete, and is just a highlight of the changes made. The development focused on bug fixing and stability. It also included lower sample rate support for analog channels to support long term data logging applications (tested up to 24 hours). It also includes the missing features from Logic 4 to allow digital-only captures. It also includes the update to QT5.4.1, a dramatically newer version of the cross platform UI framework we use. This in itself fixed a number of UI issues.
+3. Switched to Dynamic QT5 due to bug in another required library on Windows. (affects Windows only) We will switch back to static once the bug is fixed in September. This also affects custom analyzer on Windows
 4. Serious improvements in debugability of crash reports, better debug data and automated crash processing here at Saleae.
-5. Updated timing restrictions in Atmel Single Wire Interface analyzer \(SWI\) and added support for newer commands
+5. Updated timing restrictions in Atmel Single Wire Interface analyzer (SWI) and added support for newer commands
 6. Fixed bug in calculation of narrowest pulse width in digital measurement
 7. Fixed analog binary export and added format overview
 8. Logic 4 now supports digital only captures at several sample rates.
-9. Added lower sample rates \(10 Hz to 125 KHz\) to all new products to support long term recording with lower memory usage.
+9. Added lower sample rates (10 Hz to 125 KHz) to all new products to support long term recording with lower memory usage.
 10. As mentioned in 1.2.0 and 1.2.1 change logs, data processing pipeline has massive bug fixes and improvements, focusing on proper trigger operation when analog channels are present, and multi-threaded processing of analog and digital data. The trigger also has performance improvements.
 11. Fixed graphical bug in analog display
 12. Fixed support for multiple instances of the software - previously protocol search results were not multi-instance compatible.
@@ -416,9 +415,9 @@ Changes in 1.2.2:
 19. Fixed issue in JTAG analyzer with default bit order
 20. Fixed issue where analyzers were not loaded from a logicsetup file when applying settings to an existing capture
 21. Fixed issue with saved file name extensions
-22. Fixed issue where Logic did not show up in Task Manager on Windows 7 \(affected automation users\)
+22. Fixed issue where Logic did not show up in Task Manager on Windows 7 (affected automation users)
 23. Fixed display issue with analyzer processing percentage
-24. Added Single Wire Debug \(SWD\) analyzer for ARM debuggers
+24. Added Single Wire Debug (SWD) analyzer for ARM debuggers
 25. Fixed byte ordering of SMBus analyzer
 26. Fixed bug in UNIO analyzer
 27. Fixed bug in LIN analyzer related to the tolerance of the size of the break field.
@@ -439,9 +438,9 @@ Changes in 1.2.2:
 
 ## Older Changelog
 
-Changes in v1.2.1: \(Linux and Mac only\)
+Changes in v1.2.1: (Linux and Mac only)
 
-1. OSX Specific Changes: 
+1. OSX Specific Changes:&#x20;
    1. UI performance is greatly improved!
    2. Software no longer flickers on newer versions of OSX
    3. Screenshots now work on newer versions of OSX
@@ -450,15 +449,15 @@ Changes in v1.2.1: \(Linux and Mac only\)
    6. Added support for scrolling left and right with a trackpad, as well as smooth trackpad control.
    7. OSX build system updated to Yosemite
    8. Added better crash reporting details to OSX
-2. Linux Specific Changes: 
-   1. Created new compatibility release for systems with older standard libraries, allowing us to continue to use more modern compilers while maintaining better backwards compatibility. \(feedback welcome\)
-   2. Added feature to allow successful USB 3.0 captures with older kernels \(3.3 and older\) This feature is in testing, and requires command line options. Please contact support for assistance if you are trying to use USB 3.0 ports on systems with older kernels.
+2. Linux Specific Changes:&#x20;
+   1. Created new compatibility release for systems with older standard libraries, allowing us to continue to use more modern compilers while maintaining better backwards compatibility. (feedback welcome)
+   2. Added feature to allow successful USB 3.0 captures with older kernels (3.3 and older) This feature is in testing, and requires command line options. Please contact support for assistance if you are trying to use USB 3.0 ports on systems with older kernels.
    3. Fixed underlying windowing issue that required window manager specific fixes. Software no longer switches on window manager.
-3. Added additional details to usage reports \(opt-in only\)
-4. Added memory allocation exception handling \(in progress, mainly for crash data collection at this point\)
+3. Added additional details to usage reports (opt-in only)
+4. Added memory allocation exception handling (in progress, mainly for crash data collection at this point)
 5. Improved bug tracking, crash report analysis, crash and capture failure metrics.
 
-New Features in 1.2.0: \(Linux and Mac only\)
+New Features in 1.2.0: (Linux and Mac only)
 
 1. Lower analog sample rates for all 4 products, down to 10 SPS
 2. Digital only sample rates for Logic 4 for much longer digital recordings
@@ -480,7 +479,7 @@ Bugs fixed in 1.1.33:
 
 Bugs fixed in 1.1.32:
 
-```text
+```
  Note:   
  The analyzer SDK has been updated to work with the latest version of the software.  
  The latest SDK and source code can be downloaded from: https://trello.com/c/YHJKmcns  
@@ -498,7 +497,7 @@ Bugs fixed in 1.1.32:
 8. Fix for: High CPU utilization with protocol search
 9. Fix for: Threading bugs on protocol search
 10. Fix for: Software crashes if you copy analyzers from tab to tab in most cases
-11. Fix for: Software crashes sometimes when lowering sample rate automatically \( after the dialog box pops up \)
+11. Fix for: Software crashes sometimes when lowering sample rate automatically ( after the dialog box pops up )
 12. Fix for: Software sometimes crashes when capture is stopped very close to completion
 13. Fix for: Software crashes when trying to load a .logicsettings file with more number of channels than currently active in the software
 14. Fix for: Sometimes the timing display shows: "0 ms : 0 s : 200 us" the ms and s are swapped.
@@ -508,7 +507,7 @@ Bugs fixed in 1.1.32:
 
 **Bugs Fixed in 1.1.31:**
 
-Fix for bug that caused search results to be empty when one of the analyzers were disabled All analyzers have search results now. Fix for - Duplicate results in SPI “Decoded Protocols” Fix for - Search string doesn't get erased or used after you click "show all results". Fix for - Software crashes when lowering sample rate automatically \( after the dialog box pops up \) Enabling and disabling channels will retain channel names Fix for - Software crashes sometimes when the capture is stopped at near end of completion LED settings has an OFF option Fix for - After saving a capture, the tab note doesn't change to the file name. Exporting only analog channels now works. Exporting of calibrated voltages is now supported for .csv files. Exporting data between timing markers is now supported. Fixed bug that would cause the software to freeze when loading a session. Updated Socket API to work with all supported function calls in SDK. Fixed bug where a measurement would not disappear when you hide the channel it was placed on. Fixed bug in OSX calibration where samples were not being lined up at all. Instantaneous measurement now shows up in screenshots created in the software. Channels names are now saved even when the channel no longer exists for the currently selected device. Measurements now default their name to the name of the channel they are placed on. Fix for - CPU utilization maxes out when Search is enabled. USB 3.0 support now working on Linux Added feature to enable all 16 channels of Logic Pro 16 when connected over USB 2.0. \(note, this may require a powered USB 2.0 hub. Details in software preferences\)
+Fix for bug that caused search results to be empty when one of the analyzers were disabled All analyzers have search results now. Fix for - Duplicate results in SPI “Decoded Protocols” Fix for - Search string doesn't get erased or used after you click "show all results". Fix for - Software crashes when lowering sample rate automatically ( after the dialog box pops up ) Enabling and disabling channels will retain channel names Fix for - Software crashes sometimes when the capture is stopped at near end of completion LED settings has an OFF option Fix for - After saving a capture, the tab note doesn't change to the file name. Exporting only analog channels now works. Exporting of calibrated voltages is now supported for .csv files. Exporting data between timing markers is now supported. Fixed bug that would cause the software to freeze when loading a session. Updated Socket API to work with all supported function calls in SDK. Fixed bug where a measurement would not disappear when you hide the channel it was placed on. Fixed bug in OSX calibration where samples were not being lined up at all. Instantaneous measurement now shows up in screenshots created in the software. Channels names are now saved even when the channel no longer exists for the currently selected device. Measurements now default their name to the name of the channel they are placed on. Fix for - CPU utilization maxes out when Search is enabled. USB 3.0 support now working on Linux Added feature to enable all 16 channels of Logic Pro 16 when connected over USB 2.0. (note, this may require a powered USB 2.0 hub. Details in software preferences)
 
 **Bugs Fixed in 1.1.30**
 
@@ -600,4 +599,3 @@ _New Features in 1.1.21+\*_
 7. Estimated memory usage now displayed in start popover
 8. Processing progress for capture now displayed in titlebar
 9. Various bug fixes
-

@@ -27,24 +27,27 @@ Notes:
 
 ### **Logic Pro 8 and Logic Pro 16**
 
-Logic Pro devices have three selectable voltage threshold options.
+Logic Pro devices have three selectable voltage threshold options. This setting applies to all the input channels simultaneously.
 
-![Logic Pro 8/16 - Voltage Threshold Setting in the Logic 2 software](../.gitbook/assets/screen-shot-2020-09-03-at-3.58.18-pm%20%281%29%20%281%29%20%281%29.png)
+![Logic Pro 8/16 - Voltage Threshold Setting in the Logic 2 software](<../.gitbook/assets/screen-shot-2020-09-03-at-3.58.18-pm (1) (1).png>)
 
 The inputs are also implemented with comparators instead of standard CMOS buffers found on Logic 4 and Logic 8. This makes the input-low and input-high voltages very close to each other. The exact behavior of these comparators is not defined here.
 
-* 1.2V Voltage Option
+*   1.2V Voltage Option
 
-  * Voltage threshold: 0.6V
+    * Voltage threshold: 0.6V
 
-* 1.8V Voltage Option
 
-  * Voltage threshold: 0.9V
+*   1.8V Voltage Option
 
-* +3.3V Voltage Option
+    * Voltage threshold: 0.9V
 
-  * Voltage threshold: 1.65V
-  * Use this option for all IO standards 3.3 volts or above.
+
+*   \+3.3V Voltage Option
+
+    * Voltage threshold: 1.65V
+    * Use this option for all IO standards 3.3 volts or above.
+
 
 * Over-voltage protection provides safety to +/- 25V
 
@@ -83,15 +86,17 @@ The original Logic is the only Saleae device to have internally pulled up inputs
 
 The original Logic16 had two selectable threshold settings. There is approximately a 5 second delay when setting this threshold for Logic16.
 
-* 1.8V to 3.6V Setting
+*   1.8V to 3.6V Setting
 
-  * Voltage input low: 0.7V
-  * Voltage input high: 1.5V 
+    * Voltage input low: 0.7V
+    * Voltage input high: 1.5V&#x20;
 
-* 3.6V to 5.0V Setting
 
-  * Voltage input low: 1.4V
-  * Voltage input high: 3.6V
+*   3.6V to 5.0V Setting
+
+    * Voltage input low: 1.4V
+    * Voltage input high: 3.6V
+
 
 * Over-voltage protection provides safety to +/- 50V
   * Note: Over-voltage protection not meant for continuous operation outside of -0.9V to 6V. That makes the device unsuitable for safe, direct recording of RS-232 and similar standards.
@@ -104,13 +109,11 @@ If you are using the older Logic 1.x software, the window for setting your volta
 
 ### Logic Pro 8/16 Voltage Setting in Logic 1.x
 
-![Logic Pro 8/16 - Voltage Threshold Options](../.gitbook/assets/logicpro16.png)
+![Logic Pro 8/16 - Voltage Threshold Options](../.gitbook/assets/LogicPro16.png)
 
 ### Logic16 Voltage Setting in Logic 1.x
 
-![Logic16 - Voltage Threshold Options](../.gitbook/assets/logic16.png)
-
-
+![Logic16 - Voltage Threshold Options](../.gitbook/assets/Logic16.png)
 
 
 

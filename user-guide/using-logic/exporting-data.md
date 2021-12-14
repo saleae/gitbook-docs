@@ -12,13 +12,13 @@ To export raw data from your capture, click the Options button at the bottom rig
 
 ![Exporting Raw Data](../../.gitbook/assets/export-raw-data.png)
 
-You will be greeted with an "Export Raw Data" window. From here, you can select the channels you would like to include in your export, the analog downsample ratio \(if analog channels are included\), and the time range.
+You will be greeted with an "Export Raw Data" window. From here, you can select the channels you would like to include in your export, the analog downsample ratio (if analog channels are included), and the time range.
 
 ![Export Raw Data Window - 1](../../.gitbook/assets/export1.png)
 
 Scrolling down the "Export Raw Data" window reveals more options, including the desired Export Format, as well as the Export Location. An "Always Replace" option is also available to continuously overwrite your previous exported files in the specified Export Location.
 
-![Export Raw Data Window - 2](../../.gitbook/assets/screen-shot-2021-06-28-at-4.48.59-pm.png)
+![Export Raw Data Window - 2](<../../.gitbook/assets/Screen Shot 2021-06-28 at 4.48.59 PM.png>)
 
 {% hint style="info" %}
 Note: Digital channel entries are only recorded in the export file when data changes. Therefore, the number of entries in the resulting export file are dependent on the number of transitions that occur and not on the number of digital samples in the capture. This helps reduce the file size of the export file.
@@ -30,7 +30,7 @@ To export your individual analyzer results, click the 3 dots next to the particu
 
 ![Exporting Analyzer Results](../../.gitbook/assets/export-analyzer.png)
 
-### 
+
 
 ## Logic 1.x
 
@@ -40,11 +40,11 @@ If you are using the older Logic 1.x software, the following images and instruct
 
 To export the results of a particular protocol analyzer, click the gear button on that analyzer and select Export as text/csv file.
 
-![](https://trello-attachments.s3.amazonaws.com/57215c96cb44251902be82bf/303x149/a37f41260643068b75561d16e86f811e/analyzer_export.png)
+![](https://trello-attachments.s3.amazonaws.com/57215c96cb44251902be82bf/303x149/a37f41260643068b75561d16e86f811e/analyzer\_export.png)
 
 To export more than one protocol analyzer or only results that match your search, click the gear button on the Decoded Protocols panel and select Export search results.
 
-![](https://trello-attachments.s3.amazonaws.com/57215c96cb44251902be82bf/242x117/e21d151c1275d03cff4e166410740455/analyzer_export_search_results.png)
+![](https://trello-attachments.s3.amazonaws.com/57215c96cb44251902be82bf/242x117/e21d151c1275d03cff4e166410740455/analyzer\_export\_search\_results.png)
 
 ### **Exporting Raw Data**
 
@@ -52,7 +52,7 @@ If you need to view, manipulate, or process data in another application, you can
 
 To begin exporting, click the Options button at the top right of the software and select Export data. When exporting data, you can select which channels to export and over what time period. Finally, you can select the format of the exported data.
 
-![](https://trello-attachments.s3.amazonaws.com/57215c974c95a4ba028d9906/412x144/48a478ccdb97958254eb0b96d6ce20be/export_data.png)
+![](https://trello-attachments.s3.amazonaws.com/57215c974c95a4ba028d9906/412x144/48a478ccdb97958254eb0b96d6ce20be/export\_data.png)
 
 **Exporting Raw Data - CSV Format**
 
@@ -60,11 +60,11 @@ CSV format is a text format suitable for opening in a spreadsheet application or
 
 When exporting digital data only, you can choose to use timestamps or sample numbers to output the digital as a single value or as a bit per column. You can choose to record only when the value changes or record every sample.
 
-![](https://trello-attachments.s3.amazonaws.com/57215c974c95a4ba028d9906/300x232/9ff47b68b4a4b5ea8cf950775704f6f0/csv_settings.png)
+![](https://trello-attachments.s3.amazonaws.com/57215c974c95a4ba028d9906/300x232/9ff47b68b4a4b5ea8cf950775704f6f0/csv\_settings.png)
 
 **Exporting Raw Data - VCD Format**
 
-VCD stands for value change dump. It is a text-based format used for saving digital data \(it can't be used with analog data\).
+VCD stands for value change dump. It is a text-based format used for saving digital data (it can't be used with analog data).
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c974c95a4ba028d9906/300x71/8797654a7acaaab778ef265f59cced8d/vcd.png)
 
@@ -91,6 +91,4 @@ Binary export can be used for digital exports and analog exports, but it cannot 
 VCD only supports digital channels.
 
 Matlab supports exporting digital channels, analog channels, and a mix of analog and digital channels.
-
-
 

@@ -1,21 +1,25 @@
 # Place an Order
 
-## Place an Order Online
+### Place an Order Online
 
-* **Navigate** to our[ Home page here](https://www.saleae.com/).
-* **Click the Products link** at the top of the page.
-* **Click Buy** on the product you would like. That will take you to the shopping cart.
-* To add additional items, click Products at the top of the page.
+* **Navigate** to our[ Home page here](https://www.saleae.com).
+* **Click** the **Products** link at the top of the page.
+* **Click Buy now** on the product you would like to purchase. This will take you to the shopping cart page.
+* To add additional items, click Products at the top of the page and click Buy now on any additional logic analyzers you would like to purchase.
 * To order accessories, click the Accessories link at the bottom left of any page.
 * When ordering on our website, we accept payment by credit card or PayPal.
 
 ### **Get a PDF/Printable Quotation**
 
-{% page-ref page="how-do-i-get-a-quote.md" %}
+{% content-ref url="how-do-i-get-a-quote.md" %}
+[how-do-i-get-a-quote.md](how-do-i-get-a-quote.md)
+{% endcontent-ref %}
 
-### **Place a Purchase Order \(PO\)**
+### **Place a Purchase Order (PO)**
 
-{% page-ref page="place-a-purchase-order-po.md" %}
+{% content-ref url="place-a-purchase-order-po.md" %}
+[place-a-purchase-order-po.md](place-a-purchase-order-po.md)
+{% endcontent-ref %}
 
 
 

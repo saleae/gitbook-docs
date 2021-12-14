@@ -1,7 +1,5 @@
 # 'Save Capture' and 'Export Data' is Disabled in the Software
 
-## 'Save Capture' and 'Export Data' is Disabled in the Software
-
 There are two reasons these two options could be disabled.
 
 * No data has been collected.
@@ -16,4 +14,3 @@ However, there are cases where the processing stage is unable to keep up with th
 Once processing is complete, you will be able to export.
 
 It's also worth noting that while the options menu is open, it will not update. If the processing completes while you have the options menu open, you will need to close the menu and re-open it to save the capture or export data.
-

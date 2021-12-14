@@ -10,14 +10,15 @@ The input channels on Saleae Logic analyzers are not electrically isolated from 
 
 Suggestions for electrical isolation can be found in the link below:
 
-{% page-ref page="../faq/technical-faq/suggestions-for-electrical-isolation.md" %}
+{% content-ref url="../faq/technical-faq/suggestions-for-electrical-isolation.md" %}
+[suggestions-for-electrical-isolation.md](../faq/technical-faq/suggestions-for-electrical-isolation.md)
+{% endcontent-ref %}
 
 ### **High Voltage Safety**
 
-| Products | Absolute Maximum Voltage Range |
-| :--- | :--- |
-| Original Logic & Logic16 | −0.5V to 5.25V |
-| Logic 4, Logic 8, Logic Pro 8, Logic Pro 16 | −25V to 25V |
+| Original Logic & Logic16                      | −0.5V to +5.25V |
+| --------------------------------------------- | --------------- |
+| Logic 4, Logic 8, Logic Pro 8, & Logic Pro 16 | −25V to +25V    |
 
 {% hint style="warning" %}
 _**Caution:**_ Connecting one of the input channels to voltages outside this range, even for a very short time, can result in damage to the device.
@@ -35,7 +36,7 @@ The user should be cautious of this when the logic analyzer is used in the prese
 
 #### Common Ways a Ground Loop Can Exist:
 
-* Other USB devices \(such as programmers\) are connected to the DUT, or the DUT itself is plugged into the USB port on your computer. In addition to the logic analyzer's ground connection, the DUT's ground is also connected to the PC's ground through another USB port.
+* Other USB devices (such as programmers) are connected to the DUT, or the DUT itself is plugged into the USB port on your computer. In addition to the logic analyzer's ground connection, the DUT's ground is also connected to the PC's ground through another USB port.
 * Non-isolated power supplies Most AC power supplies with 3-prong plugs will short the MAINS earth ground pin to the power supply ground output. That includes your PC's ground. If your DUT is powered from a 3-prong wall power supply and your PC is also plugged in, that will form another ground path. Keep in mind that if you're using a laptop that's not plugged in, even an attached external monitor or printer will create a ground loop.
 
 #### Common Ways Damage Can Occur:
@@ -47,7 +48,7 @@ The user should be cautious of this when the logic analyzer is used in the prese
 
 In some cases, you need to record signals from multiple devices under test simultaneously with the same logic analyzer. This can be done safely, but it is important to review how both devices are powered before connecting the logic analyzer.
 
-Since the channels in each Saleae logic analyzer are not electrically isolated from each other, all devices will need to share a common ground. If the devices under test already share a common ground, then you're all set. However, if they are floating relative each other \(meaning their grounds are not directly or indirectly connected to each other\), or if there is a common mode voltage setup between them, then the additional steps below are required:
+Since the channels in each Saleae logic analyzer are not electrically isolated from each other, all devices will need to share a common ground. If the devices under test already share a common ground, then you're all set. However, if they are floating relative each other (meaning their grounds are not directly or indirectly connected to each other), or if there is a common mode voltage setup between them, then the additional steps below are required:
 
 * If one or both of the devices under test are floating, do they need to be floating? In order to record with a logic analyzer, they will need to be common grounded to each other AND to the PC to which the logic analyzer is connected. This also means MAINS earth ground in most cases.
 * If one of the boards is powered from another with a ground difference such as a large negative voltage supply, then it is NOT safe to connect the logic analyzers to both devices. In addition, it is not sufficient to isolate the USB connection or the test PC from the devices. The inputs themselves need to be isolated between the device under test and the logic analyzer for at least one of the two devices under test. Please see the SI labs isolation development kit at the bottom of this article for input channel isolation.
@@ -61,7 +62,7 @@ _**Caution:**_ If a ground loop is present, extra care should be taken, as highl
 
 To identify a potential ground loop between the Logic device and the DUT, you could check the resistance between the DUT ground and the Saleae Logic ground. While the Saleae Logic is connected to the PC, if the resistance reads infinite on a multi-meter, then the grounds are isolated. Otherwise, they are connected, and a ground loop exists.
 
-If you believe there is a ground loop between the DUT and the host PC but you are uncertain if the grounds on both sides you plan to use are at the same potential, there is a quick test you can perform with a multi-meter. If you happen to have a large resistor \(&gt; 10K ohm\), there is an additional test you can perform.
+If you believe there is a ground loop between the DUT and the host PC but you are uncertain if the grounds on both sides you plan to use are at the same potential, there is a quick test you can perform with a multi-meter. If you happen to have a large resistor (> 10K ohm), there is an additional test you can perform.
 
 1. Connect the logic analyzer to the PC but not the DUT.
 2. Measure the voltage between the ground pin on the logic analyzer and the ground pin on the DUT.
@@ -69,7 +70,7 @@ If you believe there is a ground loop between the DUT and the host PC but you ar
 4. If there is a ground loop and you measure a voltage smaller than about +/- 100mV, then it is safe to connect the ground pins.
 5. If there is not a ground loop or you are not sure there is a ground loop, then the voltage may drift significantly. If you are SURE there is no ground loop, then it is safe to connect the grounds.
 
-If you are not sure there is a ground loop or would like to perform another test anyway, connect the resistor \(~10K\) between the two grounds and then measure the voltage across the resistor.
+If you are not sure there is a ground loop or would like to perform another test anyway, connect the resistor (\~10K) between the two grounds and then measure the voltage across the resistor.
 
 * If you see a voltage that indicates a noticeable current, then there is a ground loop between devices and you should not connect the grounds together.
 * If you see an insignificant voltage across the resistor, then either there is no ground loop or there is a ground loop, but both grounds are at the same reference. It is safe to connect the logic analyzer.
@@ -83,7 +84,7 @@ _**Caution:**_ When working in an electrically isolated state, keep in mind that
 The DUT's local ground is isolated from the host PC when one of the following is true:
 
 * The DUT is battery-powered and has no other electrical connections to the host PC or devices powered from MAINS power.
-* The DUT is powered from an isolated power supply that does NOT short MAINS earth ground to the output ground. Bench top supplies with a separate green earth ground terminal do this. USB wall adapters also do this. Common AC power adapters \(chargers, "wall warts"\) with 2-prong plugs are also isolated. Most power supplies do have transformers that can provide isolation if implemented properly.
+* The DUT is powered from an isolated power supply that does NOT short MAINS earth ground to the output ground. Bench top supplies with a separate green earth ground terminal do this. USB wall adapters also do this. Common AC power adapters (chargers, "wall warts") with 2-prong plugs are also isolated. Most power supplies do have transformers that can provide isolation if implemented properly.
 * The Host PC is a laptop running from a battery or is plugged into an instrumentation isolation transformer. Note that normal isolation transformers connect earth ground for human safety reasons.
 
 ### **Using an Isolated Wall Adapter to Power the DUT**
@@ -106,13 +107,15 @@ To isolate the USB 2.0 high-speed connection, you can consider using the [Intona
 
 Saleae products are covered by a 3-year warranty, regardless of where you purchased the product. For more information, see the article below.
 
-{% page-ref page="../180-day-return-policy-and-3-year-warranty/3-year-warranty.md" %}
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
 If you believe your Logic hardware is broken, please follow the troubleshooting steps in the article below.
 
-{% page-ref page="../180-day-return-policy-and-3-year-warranty/process-a-warranty.md" %}
-
-
+{% content-ref url="../180-day-return-policy-and-3-year-warranty/process-a-warranty.md" %}
+[process-a-warranty.md](../180-day-return-policy-and-3-year-warranty/process-a-warranty.md)
+{% endcontent-ref %}
 
 
 

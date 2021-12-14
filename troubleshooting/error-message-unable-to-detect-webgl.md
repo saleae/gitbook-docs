@@ -1,14 +1,18 @@
 # Error Message: Unable to detect WebGL
 
-Upon launching the Logic 2 software, an error message may appear, stating the following:
+Upon launching the Logic 2 software, an error message may appear, stating either of the following:
 
-`Unable to detect WebGL, please contact support`
+* `Your graphics card does not support WebGL.`
+* `Unable to detect WebGL, please contact support.`
+* `An error occurred in WebGL. Analog channels may stop working. Please save your work and restart the software.`
+
+![WebGL Error Message](<../.gitbook/assets/webgl-analog (1).png>)
 
 ### Solution
 
 A known workaround is to launch Logic 2 from the command line with the `--disable-gpu` command line argument. On Windows, it would be like so:
 
-```text
+```
 cd C:\Program Files\Logic
 Logic.exe --disable-gpu
 ```
@@ -17,7 +21,9 @@ Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) in case yo
 
 If the solution above does not work, you may need to use our older Logic 1.x software downloadable below.
 
-{% page-ref page="../logic-software/legacy-software/older-software-releases.md" %}
+{% content-ref url="../logic-software/legacy-software/older-software-releases.md" %}
+[older-software-releases.md](../logic-software/legacy-software/older-software-releases.md)
+{% endcontent-ref %}
 
 ### Background Information
 
@@ -31,6 +37,4 @@ You can test your PC's WebGL support by following the links below. Both WebGL v1
 
 * [WebGL v1](https://webglreport.com/?v=1)
 * [WebGL v2](https://webglreport.com/?v=2)
-
-
 

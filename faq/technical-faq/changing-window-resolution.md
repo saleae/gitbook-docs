@@ -1,7 +1,5 @@
 # Is There a Way to Change the Window Resolution?
 
-## Is There a Way to Change the Window Resolution?
-
 With high dpi monitors, applications can be difficult to see and read.
 
 **Windows and MacOS**
@@ -22,17 +20,17 @@ On Linux, the software does not properly support display scaling out of the box.
 
 First, check to see what the current display scaling is set to in your display settings. Below is a screenshot of this taken from Ubuntu 14.04.
 
-![Ubuntu display scaling](https://trello-attachments.s3.amazonaws.com/55f0a61a10f9f592573a4205/58f7ee3a55fdeeb4cd320e00/6ee88c69098a2d906377fdd549caa04b/Ubuntu_Scaling.png)
+![Ubuntu display scaling](https://trello-attachments.s3.amazonaws.com/55f0a61a10f9f592573a4205/58f7ee3a55fdeeb4cd320e00/6ee88c69098a2d906377fdd549caa04b/Ubuntu\_Scaling.png)
 
 Then, you will need to launch the Logic software from the terminal after setting this environment variable to the same value the display is currently using.
 
-```text
+```
 export QT_SCREEN_SCALE_FACTORS=1.5
 ```
 
 Then you can launch the Logic software from the same terminal, like this:
 
-```text
+```
 ./Logic
 ```
 
@@ -42,7 +40,7 @@ We also have an open issue to handle this automatically on launch.
 
 Also, if you do not have a high-dpi display and your monitor scaling is set to 1, you can still make the logic software larger if you like by setting this environment variable before launching:
 
-```text
+```
 export QT_SCALE_FACTOR=1.5
 ```
 
@@ -51,4 +49,3 @@ Please note that these two environment variables have different effects on the s
 Unfortunately, the current Saleae software does not contain high-dpi images and assets, and some of the text effects in the software are only performed at low resolution. Because of this, the interface will appear pixelated. However, it should be the correct size on the screen. We are keeping this in mind for the next UI refresh.
 
 If you have any problems with this, please contact support and include screenshots.
-

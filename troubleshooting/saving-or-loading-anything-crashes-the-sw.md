@@ -1,7 +1,5 @@
 # Saving or Loading Anything Crashes the Software
 
-## Saving or Loading Anything Crashes the Software
-
 ### Dell Backup and Recovery Compatibility Issue
 
 We have recently discovered a software compatibility issue with our software and Dell Backup and Recovery, a program pre-installed on some Dell computers.
@@ -19,9 +17,8 @@ Older versions of Dell Backup and Recovery have a compatibility problem with pro
 
 Fortunately, there is an easy fix. Just update Dell Backup and Recovery to the latest version.
 
-We already have reports from several customers that updating to version 1.9.2.8 fixes the problem \(the latest at the time of writing\).
+We already have reports from several customers that updating to version 1.9.2.8 fixes the problem (the latest at the time of writing).
 
 Please update to the latest version of Dell Backup and Recovery or uninstall that program.
 
 If the software still crashes when attempting any of the mentioned file saves or loads, please contact support.
-

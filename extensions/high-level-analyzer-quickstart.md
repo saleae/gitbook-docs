@@ -2,10 +2,10 @@
 description: Learn how to modify your new High Level Analyzer
 ---
 
-# High-Level Analyzer \(HLA\) Extensions
+# High-Level Analyzer (HLA) Extensions
 
 {% hint style="warning" %}
-This guide assumes that you have familiarity with the [Python](https://www.python.org/) programming language. It is what will be used to customize our HLA.
+This guide assumes that you have familiarity with the [Python](https://www.python.org) programming language. It is what will be used to customize our HLA.
 {% endhint %}
 
 ## Overview
@@ -18,7 +18,7 @@ This guide assumes [you have generated](extensions-quickstart.md) a new High-Lev
 
 ## High Level Analyzer Files
 
-In your new High Level Analyzer \(HLA\) extension folder you will find 3 files:
+In your new High Level Analyzer (HLA) extension folder you will find 3 files:
 
 * `README.md`
   * Documentation for your extension, shown within Logic 2 when you select an extension, and what users will see if you put your extension on the Marketplace.
@@ -74,7 +74,7 @@ from saleae.analyzers import HighLevelAnalyzer, AnalyzerFrame, StringSetting, Nu
 
 #### Declaration and Settings
 
-All HLAs must subclass [HighLevelAnalyzer](api-documentation.md#class-saleae-analyzers-highlevelanalyzer), and additionally output [AnalyzerFrames](api-documentation.md#class-saleae-analyzers-analyzerframe-type-str-start_time-saleae-data-timing-graphtime-end_time-saleae-data-timing-graphtime-data-dict-none). The `Setting` classes are included so we can specify settings options within the Logic 2 UI.
+All HLAs must subclass [HighLevelAnalyzer](api-documentation.md#class-saleae-analyzers-highlevelanalyzer), and additionally output [AnalyzerFrames](api-documentation.md#class-saleae-analyzers-analyzerframe-type-str-start\_time-saleae-data-timing-graphtime-end\_time-saleae-data-timing-graphtime-data-dict-none). The `Setting` classes are included so we can specify settings options within the Logic 2 UI.
 
 ```python
 class MyHla(HighLevelAnalyzer):
@@ -124,17 +124,23 @@ Although we don't have the ability to attach debuggers to Python extensions at t
 
 * Use `print()` statements to print debug messages to our in-app terminal. More information on our in-app terminal can be found below.
 
-{% page-ref page="../user-guide/using-logic/data-table-and-terminal.md" %}
+{% content-ref url="../user-guide/using-logic/data-table-and-terminal.md" %}
+[data-table-and-terminal.md](../user-guide/using-logic/data-table-and-terminal.md)
+{% endcontent-ref %}
 
 * Use the Wall Clock Format and Timing Markers to locate the exact frame listed in your error message.
 
-{% page-ref page="../user-guide/using-logic/time-bar-settings.md" %}
+{% content-ref url="../user-guide/using-logic/time-bar-settings.md" %}
+[time-bar-settings.md](../user-guide/using-logic/time-bar-settings.md)
+{% endcontent-ref %}
 
-{% page-ref page="../user-guide/using-logic/measurements-timing-markers.md" %}
+{% content-ref url="../user-guide/using-logic/measurements-timing-markers.md" %}
+[measurements-timing-markers.md](../user-guide/using-logic/measurements-timing-markers.md)
+{% endcontent-ref %}
 
 * Use the reload source button in the app to quickly re-run your HLA after editing your source code.
 
-![&quot;Reload Extension&quot; button](../.gitbook/assets/screen-shot-2021-07-28-at-5.40.27-pm.png)
+!["Reload Extension" button](<../.gitbook/assets/Screen Shot 2021-07-28 at 5.40.27 PM.png>)
 
 ## Example - Writing an HLA to search for a value
 
@@ -144,7 +150,9 @@ Now that we've gone over the different parts of an HLA, we will be updating our 
 
 In the Extensions Quickstart you should have downloaded and opened a capture of i2c data. For this quickstart we will be using a capture of Async Serial data that repeats the message "Hello Saleae".
 
-{% file src="../.gitbook/assets/hla-quickstart.zip" caption="Async Serial Example Data" %}
+{% file src="../.gitbook/assets/hla-quickstart.zip" %}
+Async Serial Example Data
+{% endfile %}
 
 ### Remove Unneeded Code
 
@@ -172,13 +180,13 @@ class MyHla(HighLevelAnalyzer):
 
 If you open the example data from above and add this analyzer, selecting the Async Serial analyzer as input, you should see the following when zooming in:
 
-![](../.gitbook/assets/hla-quickstart.png)
+![](<../.gitbook/assets/hla-quickstart (1).png>)
 
-Our HLA \(top\) is outputting a frame for every frame from the input analyzer \(bottom\), and displaying their types.
+Our HLA (top) is outputting a frame for every frame from the input analyzer (bottom), and displaying their types.
 
 ### Understanding the Input Frames
 
-The goal is to search for a message within the input analyzer, but first we need to understand what frames the input analyzer \(Async Serial in this case\) produces so we can know what frames will be passed into the `decode(frame:` [`AnalyzerFrame`](api-documentation.md#class-saleae-analyzers-highlevelanalyzer)`)` function.
+The goal is to search for a message within the input analyzer, but first we need to understand what frames the input analyzer (Async Serial in this case) produces so we can know what frames will be passed into the `decode(frame:` [`AnalyzerFrame`](api-documentation.md#class-saleae-analyzers-highlevelanalyzer)`)` function.
 
 The frame formats are documented under [Analyzer Frame Types](analyzer-frame-types/), where we can find [Async Serial](analyzer-frame-types/serial-analyzer.md).
 
@@ -190,7 +198,7 @@ To recap, the `decode(frame)` function in our HLA will be called once for each f
 * `frame.data['data']` will be a \`bytes\` object with the data for that frame
 * `frame.data['error']` will be set if there was an error
 
-### Updating \`decode\(\)\` to search for "H" or "l"
+### Updating \`decode()\` to search for "H" or "l"
 
 Now that we we understand the input data, let's update our HLA to search for the character `"H"`.
 
@@ -229,7 +237,7 @@ class MyHla(HighLevelAnalyzer):
 
 Instead of using the hardcoded `'Hl'`, let's replace that with the value of `search_for`:
 
-{% code title="In decode\(\)" %}
+{% code title="In decode()" %}
 ```python
 # If the character matches the one we are searching for, output a new frame
 if ch in self.search_for:
@@ -243,9 +251,9 @@ Now if you can specify the characters to search for in your HLA settings:
 
 ![Click Edit to show the settings](../.gitbook/assets/hla-quickstart-edit.png)
 
-![Set the &quot;Search For&quot; setting](../.gitbook/assets/hla-quickstart-settings.png)
+![Set the "Search For" setting](../.gitbook/assets/hla-quickstart-settings.png)
 
-![Now only the values &apos;S&apos; and &apos;H&apos; have frames](../.gitbook/assets/hla-quickstart-searching-for-settings.png)
+![Now only the values 'S' and 'H' have frames](../.gitbook/assets/hla-quickstart-searching-for-settings.png)
 
 #### Updating the display string
 
@@ -271,7 +279,7 @@ if ch in self.search_for:
 
 After reloading your HLA you should see the new display strings:
 
-![That&apos;s a lot more descriptive!](../.gitbook/assets/hla-quickstart-display-string.png)
+![That's a lot more descriptive!](../.gitbook/assets/hla-quickstart-display-string.png)
 
 #### Using time
 
@@ -336,4 +344,3 @@ The final output after reloading:
 * Use the [API Documentation](api-documentation.md) as a reference.
 * Browse the Saleae Marketplace in Logic 2 for more ideas and examples of extensions you can create.
 * [Publish your extension](publish-an-extension.md) to the Saleae Marketplace!
-

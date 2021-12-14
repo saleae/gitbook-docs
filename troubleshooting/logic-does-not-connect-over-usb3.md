@@ -1,14 +1,12 @@
 # Logic Does Not Connect over USB 3.0
 
-## Logic Does Not Connect over USB 3.0
-
 The Saleae Logic Pro 8 and Logic Pro 16 are designed to operate over USB 3.0 but can also operate over USB 2.0 at slower speeds. However, when connected to USB 3.0 ports with USB 3.0 cables, they should operate at higher speeds.
 
 In some cases, even the USB 2.0 Saleae devices will not operate properly over USB 3.0 ports. In this situation, please provide the information requested in "Windows USB 3.0 Host Controller Driver Information."
 
 **Troubleshooting**
 
-First, check to see if the device is operating at high speed \(USB 2.0\) or super speed \(USB 3.0\).
+First, check to see if the device is operating at high speed (USB 2.0) or super speed (USB 3.0).
 
 * Disable all analog inputs and all but 4 of the digital inputs. Check to see if 500 MS/s is an available option. Over USB 3.0, it will be present. Over USB 2.0, the maximum sample rate will be 50 MS/s.
 * Also, Logic Pro 16 by default will disable its second set of inputs, 8–15, when connected over USB 3.0 due to power limitations.
@@ -36,31 +34,33 @@ If you are unable to use the Logic Pro 8 or Logic Pro 16 on USB 3.0 ports at USB
 
 Locate your installed host controller and driver version:
 
-{% page-ref page="../faq/technical-faq/usb-3.0-host-controller-info.md" %}
+{% content-ref url="../faq/technical-faq/usb-3.0-host-controller-info.md" %}
+[usb-3.0-host-controller-info.md](../faq/technical-faq/usb-3.0-host-controller-info.md)
+{% endcontent-ref %}
 
 Check for driver updates:
 
-{% page-ref page="usb-driver-problem.md" %}
+{% content-ref url="usb-driver-problem.md" %}
+[usb-driver-problem.md](usb-driver-problem.md)
+{% endcontent-ref %}
 
-Original instructions \(pre 1.2.5\):
+Original instructions (pre 1.2.5):
 
 1. Open Device Manager.
 2. Expand the section "Universal Serial Bus Controllers."
-3. Locate the USB 3.0 host controller:
+3.  Locate the USB 3.0 host controller:
 
-    Usually contained in the name "USB 3.0 Host Controller"
+    &#x20;Usually contained in the name "USB 3.0 Host Controller"
 
-    xHCI Host Controller
+    &#x20;xHCI Host Controller
 
-    Common host vendors: Intel, VIA, ASMedia, Renesas, NEC, TI, FrescoLogic, ETRON, AMD.
+    &#x20;Common host vendors: Intel, VIA, ASMedia, Renesas, NEC, TI, FrescoLogic, ETRON, AMD.
+4.  Double-click the host. Send the following information to Saleae support:
 
-4. Double-click the host. Send the following information to Saleae support:
+    &#x20;Full Name
 
-    Full Name
+    &#x20;From the driver tab: Driver Provider, Driver Date, Driver Version
 
-    From the driver tab: Driver Provider, Driver Date, Driver Version
-
-    On Windows 7, this issue can almost always be solved with a driver update. We will help you locate the latest drivers for your computer.
+    &#x20;On Windows 7, this issue can almost always be solved with a driver update. We will help you locate the latest drivers for your computer.
 
 In the future, the Saleae software will automatically detect driver issues and provide you with information on how to find newer drivers.
-

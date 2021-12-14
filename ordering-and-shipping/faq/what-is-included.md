@@ -29,9 +29,9 @@ Each Saleae unit comes with all the necessary probes, wire harnesses, and a USB 
 * USB 3.0 Cable
 * Getting Started Card
 
-No additional accessories are required to get started. If you are interested in recommendations for accessories, please review this article:
+No additional accessories are required to get started. If you are interested in recommendations for additional accessories, please review this article:
 
-{% page-ref page="what-accessories-if-any-should-i-purchase-with-my-device.md" %}
-
-
+{% content-ref url="what-accessories-if-any-should-i-purchase-with-my-device.md" %}
+[what-accessories-if-any-should-i-purchase-with-my-device.md](what-accessories-if-any-should-i-purchase-with-my-device.md)
+{% endcontent-ref %}
 

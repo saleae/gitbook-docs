@@ -1,19 +1,15 @@
 # PC Performance Issues with Logic
 
-## PC Performance Issues with Logic
-
 Under normal operation, the Logic software and device should not interfere with other applications or devices on the system, with a few exceptions:
 
-* The software can consume a lot of memory after recording for long captures or at high sample rates. When a computer runs low on memory, all applications may respond slower since the system needs to constantly swap memory to and from the page file.
+*   The software can consume a lot of memory after recording for long captures or at high sample rates. When a computer runs low on memory, all applications may respond slower since the system needs to constantly swap memory to and from the page file.
 
-    Watch the memory usage of the software to see when this happens.
+    &#x20; Watch the memory usage of the software to see when this happens.
 
-    On machines with slower disk access, the OS's caching process may make other applications appear completely unresponsive, sometimes including the OS and even the mouse cursor. If you notice this, monitor the memory consumption during the next capture and end the capture early with the stop button before the Logic software consumes more than 90% of the installed RAM. Also, make sure you are using the lowest analog sample rate appropriate for your application.
+    &#x20; On machines with slower disk access, the OS's caching process may make other applications appear completely unresponsive, sometimes including the OS and even the mouse cursor. If you notice this, monitor the memory consumption during the next capture and end the capture early with the stop button before the Logic software consumes more than 90% of the installed RAM. Also, make sure you are using the lowest analog sample rate appropriate for your application.
+*   When sampling, the device can use between 0% and 100% of effective USB bandwidth.
 
-* When sampling, the device can use between 0% and 100% of effective USB bandwidth.
-
-    However, Logic uses a low-priority USB transfer mode called "bulk." Devices such as USB mice or sound cards use a higher priority transfer mode called "isochronous." These devices should not be affected by Logic. USB flash drives, hard drives, or other devices, however, will be negatively impacted, but only when Logic is actively sampling.
-
+    &#x20; However, Logic uses a low-priority USB transfer mode called "bulk." Devices such as USB mice or sound cards use a higher priority transfer mode called "isochronous." These devices should not be affected by Logic. USB flash drives, hard drives, or other devices, however, will be negatively impacted, but only when Logic is actively sampling.
 * When sampling analog channels or high-density digital channels, the Logic software may consume much or most of the CPU. This may cause other applications to respond more slowly. That should only be temporary, and the CPU usage should return to normal once the capture and data processing are complete.
 
 **Recommended Solutions to PC Slowdown**
@@ -36,4 +32,3 @@ Under normal operation, you should not experience any more issues. However, if y
 * In task manager, watch the CPU usage and memory usage of the Logic software. Is it abnormally high?
 * Remove Logic from the USB port. Did the problem go away? Test logic on other USB ports and on other USB hubs. There could be an issue with interference from other USB devices if these devices do not properly handle USB traffic.
 * Close the software and re-open it. Did the performance of other applications return to normal?
-

@@ -1,7 +1,5 @@
 # Error Message: Out of Memory Exception Was Thrown
 
-## Error Message: Out of Memory Exception Was Thrown
-
 The Logic devices and software use your computer's memory as the main sample buffer when recording. Because of this, the software can use large amounts of memory, especially while recording high-speed signals or analog data.
 
 The software will estimate the memory usage on the device settings popover.
@@ -19,4 +17,3 @@ If it appears that you have large amounts of free memory when this crash happens
 Our OSX software is 64-bit only, so that isn't a concern. We've also noticed that on OSX, rather than display our warning or crash, the software is more likely to suddenly slow down for several seconds before returning to normal. If you see this happen, we recommend canceling any capture you're running early and closing or saving other open captures.
 
 We've seen different releases of Linux handle this issue differently. It's possible that other applications on your computer running under Linux could experience out-of-memory errors before the Logic software does. If this occurs, we recommend saving your work, closing Logic, and then re-opening it.
-

@@ -5,7 +5,7 @@ description: Learn how to modify your new Measurement
 # Measurement Extensions
 
 {% hint style="warning" %}
-This guide assumes that you have familiarity with the [Python](https://www.python.org/) programming language. It is what will be used to customize our Measurement.
+This guide assumes that you have familiarity with the [Python](https://www.python.org) programming language. It is what will be used to customize our Measurement.
 {% endhint %}
 
 ## Overview
@@ -29,7 +29,7 @@ In your new Measurement extension folder you will find 3 files:
 * `DigitalMeasurement.py` or `AnalogMeasurement.py`
   * Python source code for your measurement.
 
-## DigitalMeasurement.py and AnalogMeasurement.py
+### DigitalMeasurement.py and AnalogMeasurement.py
 
 Digital measurements are implemented with a class template that looks like below. Take a look at [`pulseCount.py`](https://github.com/saleae/logic2-extensions-examples/blob/master/pulseCount/pulseCount.py) to see how this was modified for our Pulse Count extension.
 
@@ -54,7 +54,7 @@ class MyDigitalMeasurement(DigitalMeasurer):
     return values
 ```
 
-Analog measurements are implemented with a class template that looks like below. Take a look at [`voltage_peak_to_peak.py`](https://github.com/saleae/logic2-extensions-examples/blob/master/voltagePeakToPeak/voltage_peak_to_peak.py) to see how this was modified for an example analog extension.
+Analog measurements are implemented with a class template that looks like below. Take a look at [`voltage_peak_to_peak.py`](https://github.com/saleae/logic2-extensions-examples/blob/master/voltagePeakToPeak/voltage\_peak\_to\_peak.py) to see how this was modified for an example analog extension.
 
 ```python
 from saleae.range_measurements import AnalogMeasurer
@@ -104,13 +104,13 @@ This makes it impossible to know exactly how much data will be needed for the gi
 
 For analog measurements, `data` is an instance of `AnalogData`, which is an `iterable` class with the properties `sample_count` and `samples`. `sample_count` is a number, and is the number of analog samples in the data instance. Note - this might not be the total number of analog samples passed to your measurement, since `process_data` may be called more than once if the user selected range spans multiple chunks.
 
-`samples` is a [numpy](https://numpy.org/) [ndarray](https://docs.scipy.org/doc/numpy/reference/arrays.ndarray.html). For information handling this type, please refer to the numpy documentation.
+`samples` is a [numpy](https://numpy.org) [ndarray](https://docs.scipy.org/doc/numpy/reference/arrays.ndarray.html). For information handling this type, please refer to the numpy documentation.
 
 The `process_data` function should not return a value. Instead, it should update the internal state of your class, such that the `measure` function can produce your measurement's results.
 
 #### Process Digital Measurements
 
-For digital measurement classes, the `data` parameter is an instance of the `iterable` Saleae class `DigitalData`. Each iteration returns a pair of values - the current time, as a `GraphTime` class instance, and the current bit state as a `bool`. \(`True` = signal high\).
+For digital measurement classes, the `data` parameter is an instance of the `iterable` Saleae class `DigitalData`. Each iteration returns a pair of values - the current time, as a `GraphTime` class instance, and the current bit state as a `bool`. (`True` = signal high).
 
 The object is essentially a list with the timestamp of each transition inside of the user selected region of digital data.
 
@@ -148,5 +148,9 @@ in the future, we may allow the user to select which metrics to compute. To avoi
 * Browse the Saleae Marketplace in Logic 2 for more ideas and examples of extensions you can create.
 * [Publish your extension](publish-an-extension.md) to the Saleae Marketplace!
 
-{% page-ref page="publish-an-extension.md" %}
+{% content-ref url="publish-an-extension.md" %}
+[publish-an-extension.md](publish-an-extension.md)
+{% endcontent-ref %}
+
+
 

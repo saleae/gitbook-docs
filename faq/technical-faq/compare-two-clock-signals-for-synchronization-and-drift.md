@@ -1,10 +1,10 @@
 # How Can I Compare Two Clock Signals for Synchronization and Drift?
 
-## How Can I Compare Two Clock Signals for Synchronization and Drift?
-
 There are several ways to compare two clock signals in a capture. However, before going further, it is recommended to review the worst case channel-to-channel skew introduced by the logic analyzer recording below.
 
-{% page-ref page="worst-case-channel-skew.md" %}
+{% content-ref url="worst-case-channel-skew.md" %}
+[worst-case-channel-skew.md](worst-case-channel-skew.md)
+{% endcontent-ref %}
 
 There are several ways to compare two clock signals.
 
@@ -21,22 +21,20 @@ There are several ways to compare two clock signals.
 * Select only the first channel you would like to compare.
 * If you want to only export between the timing markers, change the "Samples to Export" from "All time" to "Between Timing Markers: A1 - A2."
 * Leave the "Export Format" set to "CSV."
-* The CSV settings may vary if your capture contained an analog channel. That will not matter, and you can skip any settings that are not available.
+*   The CSV settings may vary if your capture contained an analog channel. That will not matter, and you can skip any settings that are not available.
 
-  Use the following CSV settings:
+    Use the following CSV settings:
 
-    Include column headings
+    &#x20; Include column headings
 
-    Comma delimited
+    &#x20; Comma delimited
 
-    Use timestamps
+    &#x20; Use timestamps
 
-    Output one column for every bit
+    &#x20; Output one column for every bit
 
-    Output one row per change
-
+    &#x20; Output one row per change
 * Select Export and save to a CSV file named Channel1.csv or similar.
 * Repeat the process for the second channel.
 
 Now you should have two CSV files you can open in Excel, containing the precise timestamp for every transition. There are many methods to make comparisons between these files, but initially, you will need to copy-paste the contents of one file to the other. You may want to copy the second file into new rows in the first file, or you may want to paste the contents into the same rows at the bottom of the first file, most likely moving the transition data into a new column but leaving the timestamps in the first column. That will allow you to sort by timestamp. From there, you can use Excel formulas to calculate the magnitude of the difference in time between the transitions on the two channels. Note: If the two clock signals are at different frequencies or if one channel skips transitions or is, in general, out of sync with the other, a more advanced Excel analysis will be required. Feel free to [contact us](https://contact.saleae.com/hc/en-us/requests/new) for advice.
-

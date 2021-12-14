@@ -1,7 +1,5 @@
 # The Decoded Protocols Window Shows Incorrect Results
 
-## The Decoded Protocols Window Shows Incorrect Results
-
 First, we are extremely sorry for this bug. We have received reports that when more than one protocol analyzer is active, the results in the Decoded Protocols window may show up incorrectly.
 
 This bug introduces the following issues:
@@ -26,4 +24,3 @@ Delete the search query to reload the window contents:
 You can also export analyzer results individually by clicking on the gear icon next to the analyzer and selecting "export to text/csv file." This export method doesn't have any issues but will only let you export one analyzer at a time.
 
 ![ExportWindow](https://trello-attachments.s3.amazonaws.com/55f0a61a10f9f592573a4205/5965299353583cef619d2e15/71e25d7fb6e02459d56feb795b7a2b9e/ExportAnalyzer.png)
-

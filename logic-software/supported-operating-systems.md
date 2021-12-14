@@ -4,37 +4,35 @@
 
 The Logic 2 Software is supported in the following operating systems.
 
-* Windows 8, 10, & 11 \(64 bit\)
-* MacOS 10.14+ 
-* Ubuntu 18.04.5+ \(64 bit\)
+* Windows 8, 10, & 11 (64 bit)
+* MacOS 10.14+&#x20;
+* Ubuntu 18.04.5+ (64 bit)
 
 Please note that 32 bit operating systems are not supported by Logic 2.x. For 32 bit support, please refer to Logic 1.x below.
 
-![](../.gitbook/assets/screen-shot-2020-09-03-at-6.52.16-pm%20%286%29%20%282%29%20%285%29.png)
-
-[**Logic 2 Software Download**](https://www.saleae.com/downloads/)\*\*\*\*
+[**Logic 2 Software Download**](https://www.saleae.com/downloads/)****
 
 
 
 ## Logic 1.x Software
 
-The Logic 1.x Software is supported in the operating systems listed below.
+The Logic 1.x Software is supported in the following operating systems and can be downloaded below.
 
-![](../.gitbook/assets/screen-shot-2020-09-03-at-6.53.53-pm%20%282%29%20%282%29.png)
-
-{% page-ref page="legacy-software/older-software-releases.md" %}
+{% content-ref url="legacy-software/older-software-releases.md" %}
+[older-software-releases.md](legacy-software/older-software-releases.md)
+{% endcontent-ref %}
 
 ### **Microsoft Windows**
 
-* Windows XP \(32 bit\)
+* Windows XP (32 bit)
   * Service Pack 3 required
-* Windows Vista \(32/64 bit\)
-* Windows 7 \(32/64 bit\)
+* Windows Vista (32/64 bit)
+* Windows 7 (32/64 bit)
   * 64 bit software requires Service Pack 1
-* Windows 8 & 8.1 \(32/64 bit\)
-* Windows 10 \(32/64 bit\)
+* Windows 8 & 8.1 (32/64 bit)
+* Windows 10 (32/64 bit)
 
-Windows 2008 server \(and newer\) is not officially supported or tested but may work.
+Windows 2008 server (and newer) is not officially supported or tested but may work.
 
 Older Windows releases do not have support for the Microsoft WinUSB driver and cannot work with our products.
 
@@ -60,7 +58,6 @@ Unfortunately, we are unable to offer official support for other Linux distros, 
 
 If you encounter an issue with the Linux software on a different distro or window manager, please still report it to support. Unfortunately, though, we can not commit to investigating issues specific to distros or window managers we do not support. There are simply too many variants with too many nuances for us to realistically support them all.
 
-Glibc &gt;= 2.15 is required. We provide a compatibility release that includes glibc and several other libraries. You can find it in the betas section. This compatibility release should work on most Linux installs that use older versions of glibc.
+Glibc >= 2.15 is required. We provide a compatibility release that includes glibc and several other libraries. You can find it in the betas section. This compatibility release should work on most Linux installs that use older versions of glibc.
 
-For use with any of our products \(old or new, USB 2.0 or USB 3.0\), when connected to a USB 3.0 port, even if only to operate at USB 2.0 speeds, we recommend kernel 3.4 or newer. That is because USB 3.0 ports use the xHCI kernel module, which has an issue with queueing large transfers in order kernels. That does not affect eHCI host controllers \(USB 2.0 ports\); however, the eHCI kernel module cannot be used with a USB 3.0 port, even if a USB 2.0 device is attached. We are working on a workaround, which will be included in the next release. We will publish an article with instructions to use it once it's released.
-
+For use with any of our products (old or new, USB 2.0 or USB 3.0), when connected to a USB 3.0 port, even if only to operate at USB 2.0 speeds, we recommend kernel 3.4 or newer. That is because USB 3.0 ports use the xHCI kernel module, which has an issue with queueing large transfers in order kernels. That does not affect eHCI host controllers (USB 2.0 ports); however, the eHCI kernel module cannot be used with a USB 3.0 port, even if a USB 2.0 device is attached. We are working on a workaround, which will be included in the next release. We will publish an article with instructions to use it once it's released.

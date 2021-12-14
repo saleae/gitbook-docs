@@ -2,7 +2,7 @@
 
 ### Exporting Data Using the Python Wrapper
 
-Below, we show example code specifying the proper parameters for `export_data2()` , which is used for exporting data via Socket API \(our automation utility\). This function comes from a [3rd party Python Wrapper](https://github.com/ppannuto/python-saleae) for Socket API, which we recommend using for automating our software.
+Below, we show example code specifying the proper parameters for `export_data2()` , which is used for exporting data via Socket API (our automation utility). This function comes from a [3rd party Python Wrapper](https://github.com/ppannuto/python-saleae) for Socket API, which we recommend using for automating our software.
 
 {% hint style="info" %}
 Note: For exporting data, please use `export_data2().` Currently, `export_data()` is deprecated due to an update that increased the number of export options.
@@ -10,7 +10,7 @@ Note: For exporting data, please use `export_data2().` Currently, `export_data()
 
 #### Common Argument Settings
 
-The following sample arguments are taken directly from the export options available in the Logic software's data export window \(Options -&gt; Export data\).
+The following sample arguments are taken directly from the export options available in the Logic software's data export window (Options -> Export data).
 
 * `time_span=None` will export all time
 * `digital_channels=None, analog_channels=None` will export all channels
@@ -47,11 +47,9 @@ Note: Only digital channels can support VCD exports.
 
 `s.export_data2("/Users/UserName/Desktop/my_file.vcd", digital_channels=[2, 3], analog_channels=None, time_span=[0, 0.1], format='vcd')`
 
-### 
-
 ### Exporting Data Using the Direct Socket Command
 
-Below, we show example code specifying the proper parameters for [`export_data2`](https://github.com/saleae/SaleaeSocketApi/blob/master/Doc/Logic%20Socket%20API%20Users%20Guide.md#export-data-2) , which is used for exporting data via Socket API \(our automation utility\). This function comes from our list of [supported socket commands](https://github.com/saleae/SaleaeSocketApi/blob/master/Doc/Logic%20Socket%20API%20Users%20Guide.md). This is a more direct approach when automating the Logic software.
+Below, we show example code specifying the proper parameters for [`export_data2`](https://github.com/saleae/SaleaeSocketApi/blob/master/Doc/Logic%20Socket%20API%20Users%20Guide.md#export-data-2) , which is used for exporting data via Socket API (our automation utility). This function comes from our list of [supported socket commands](https://github.com/saleae/SaleaeSocketApi/blob/master/Doc/Logic%20Socket%20API%20Users%20Guide.md). This is a more direct approach when automating the Logic software.
 
 {% hint style="info" %}
 Note: For exporting data, please use [`export_data2`](https://github.com/saleae/SaleaeSocketApi/blob/master/Doc/Logic%20Socket%20API%20Users%20Guide.md#export-data-2)  since currently, [`export_data`](https://github.com/saleae/SaleaeSocketApi/blob/master/Doc/Logic%20Socket%20API%20Users%20Guide.md#export-data-deprecated) is deprecated due to an update that increased the number of export options.
@@ -59,7 +57,7 @@ Note: For exporting data, please use [`export_data2`](https://github.com/saleae/
 
 The general format of the command is as follows:
 
-```text
+```
 export_data2, 
 <file location>, 
 ALL_CHANNELS | SPECIFIC_CHANNELS, 
@@ -82,4 +80,3 @@ Note: Only digital channels can support VCD exports. Using `ALL_CHANNELS` will o
 #### Examples When Exporting to CSV
 
 `export_data2, /Users/UserName/Desktop/my_file.csv, SPECIFIC_CHANNELS, 0 DIGITAL, 1 DIGITAL, 2 DIGITAL, 3 DIGITAL, ALL_TIME, CSV, HEADERS, COMMA, SAMPLE_NUMBER, SEPARATE, ROW_PER_CHANGE`
-

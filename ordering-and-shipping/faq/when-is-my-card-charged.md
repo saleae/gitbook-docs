@@ -1,8 +1,6 @@
 # When Is My Card Charged?
 
-## When Is My Card Charged?
-
-There are two ways to pay for orders placed directly on our website, www.saleae.com.
+The following information applies to orders placed directly on our website at www.saleae.com.
 
 **Direct Credit Card Payments**
 
@@ -21,6 +19,3 @@ In order for us to ship your order after the 29-day window, we will contact you 
 If we are unable to charge your order at the time of shipping due to a payment decline, we will hold your order and email you with instructions to fix the situation. If you paid directly with a credit card, we will provide you with a link where you can re-enter your payment information and verify that the charge was successfully processed.
 
 If you paid with PayPal express and we were unable to charge your card due to payment decline, we will email you with instructions as well. The fastest way to solve this issue is to pay directly with a credit card, but alternatively, you can pay with PayPal again, although it will require you to cancel and placing a new order on our website.
-
-We're working on improving our processes for these edge cases. Thanks for your patience.
-

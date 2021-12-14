@@ -1,7 +1,5 @@
 # How Do I Convert Exported CSV Analog Data in Voltages?
 
-## How Do I Convert Exported CSV Analog Data in Voltages?
-
 When exporting analog data to CSV with the setting 'Output Array of Raw ADC Samples', samples exported in this mode have not been adjusted for DC gain and shift. In order to convert these to voltages, you need to extract the correct coefficients from the Saleae calibration file.
 
 This has been logged as a bug, and in the future, we will either pre-calibrate the values or provide the scale and shift coefficients with the export.
@@ -17,7 +15,7 @@ Odds are that there is only one \*.cal file there. There is usually one file for
 
 * Open the software and connect the device used for the capture.
 * Open the preferences and go to the calibration tab.
-* The connected device\(s\) is listed. Locate the device ID \(16-character Hex number\).
+* The connected device(s) is listed. Locate the device ID (16-character Hex number).
 * The calibration file should have the same name, probably all lowercase, and end in \*.cal.
 
 The XML is hard to read and mostly includes compensation filter parameters. Those are already applied to the ADC samples before our software stores them, so you won't need them.
@@ -28,17 +26,16 @@ For Logic Pro 8 and Logic 8, there are 8 sets of values.
 
 For Logic 4, there is only one set of values.
 
-Logic 8, Logic Pro 8, and Logic Pro 16 all use 12-bit sample numbers \(0—4095\).
+Logic 8, Logic Pro 8, and Logic Pro 16 all use 12-bit sample numbers (0—4095).
 
-Logic 4 uses 8-bit sample numbers \(0—255\).
+Logic 4 uses 8-bit sample numbers (0—255).
 
 Our software computes the voltage as follows:
 
-```text
+```
 adc_max = 4095
 v_max = mFullScaleMaxVoltage
 v_min = mFullScaleMinVoltage 
 x = ADC sample from export
 v_out = ( x / adc_max ) * ( v_max - v_min ) + v_min
 ```
-

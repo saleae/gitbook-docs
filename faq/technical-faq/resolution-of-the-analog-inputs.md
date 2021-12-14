@@ -1,10 +1,10 @@
 # Resolution of the Analog Inputs
 
-## Resolution of the Analog Inputs
+The vertical resolution (ADC bits) depends on the product used. For more information about the frequency resolution of the products, see below.
 
-The vertical resolution \(ADC bits\) depends on the product used. For more information about the frequency resolution of the products, see below.
-
-{% page-ref page="what-is-the-maximum-bandwidth.md" %}
+{% content-ref url="what-is-the-maximum-bandwidth.md" %}
+[what-is-the-maximum-bandwidth.md](what-is-the-maximum-bandwidth.md)
+{% endcontent-ref %}
 
 ### Logic 4
 
@@ -21,6 +21,5 @@ The vertical resolution \(ADC bits\) depends on the product used. For more infor
 ### Logic Pro 8 and Logic Pro 16
 
 * 12-bit ADC
-* -10V to +10V input range, fixed
+* \-10V to +10V input range, fixed
 * 5mV per LSB
-

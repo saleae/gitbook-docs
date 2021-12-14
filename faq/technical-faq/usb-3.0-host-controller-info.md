@@ -1,14 +1,14 @@
 # Finding Your USB 3.0 Host Controller Information
 
-Our support team may request you to send us your USB host controller information in cases where connectivity issues may occur. The following instructions show how this can be done.
+Our support team may request for your USB host controller information in cases where connectivity issues occur. The following instructions show how this can be done.
 
 1. Close the Logic 2 software and connect the logic analyzer. If it is already attached, remove it and reconnect it.
 2. Open device manager
 3. Expand the section "Universal Serial bus controllers" and locate any & all USB 3.0 host controllers you find there. For each one, please double click to open the properties window, go to the driver tab, and send us screenshots as shown below.
 
-![Finding USB Host Controller Information](../../.gitbook/assets/screen-shot-2021-04-02-at-3.12.57-pm.png)
+![Finding USB Host Controller Information](<../../.gitbook/assets/Screen Shot 2021-04-02 at 3.12.57 PM.png>)
 
-     4. To better identify your host controller you are using, click the details tab, and select "Hardware Ids" from the property selection. Then take a screenshot. It should look similar to the below image.
+&#x20;    4\. To better identify your host controller you are using, click the details tab, and select "Hardware Ids" from the property selection. Then take a screenshot. It should look similar to the below image.
 
 ![Viewing the Hardware Ids for your Host Controller](../../.gitbook/assets/inline1733780973.png)
 
@@ -38,7 +38,9 @@ For support finding the latest driver for your host controller, or on the reques
 
 You can find a complete list of the latest driver releases for Windows 7 below:
 
-{% page-ref page="../../troubleshooting/usb-driver-problem.md" %}
+{% content-ref url="../../troubleshooting/usb-driver-problem.md" %}
+[usb-driver-problem.md](../../troubleshooting/usb-driver-problem.md)
+{% endcontent-ref %}
 
 **OS X and Linux**
 
@@ -47,4 +49,3 @@ On OSX and Linux, the USB host controller drivers are included with the operatin
 On OSX, components of the USB 3.0 stack are frequently updated with other operating system updates. We recommend keeping your OS X installation fully up-to-date, including using the latest release of OS X.
 
 On Linux, the xhci\_hcd kernel module is released with the kernel and can only be realistically updated by updating the kernel. If requesting driver information for Linux, please provide the kernel version with "uname -r" and the list of installed host controllers with "lspci -k".
-

@@ -1,8 +1,10 @@
 # 2. Build - Analyzer SDK
 
-Before continuing this setup guide, please follow the instructions below to setup your SDK folders and rename your custom protocol analyzer.
+Before following this build guide, please follow the instructions below to setup your SDK folders and rename your custom protocol analyzer.
 
-{% page-ref page="setup.md" %}
+{% content-ref url="setup.md" %}
+[setup.md](setup.md)
+{% endcontent-ref %}
 
 The instructions below describe how to build your custom analyzer for Windows, MacOS, and Linux.
 
@@ -12,11 +14,11 @@ First, download and install Visual Studio. These instructions were tested using 
 
 To build on Windows, open the visual studio project in the Visual Studio folder. If you are using the latest version of Visual Studio, you may need to upgrade the project to target the latest Visual C++ toolset, since this project uses an earlier version of the toolset. If the window below pops up, go ahead and upgrade the project to the latest version and click "OK".
 
-![Retarget Project to the Latest Toolset](../../.gitbook/assets/2019-10-22_1904.png)
+![Retarget Project to the Latest Toolset](../../.gitbook/assets/2019-10-22\_1904.png)
 
-The Visual Studio solution has configurations for 32 bit and 64 bit builds. You will likely need to switch the configuration to the appropriate build for your OS. Once the project is opened and properly configured in Visual Studio, you may build it \(Ctrl + B\). This will generate a .dll file for your custom analyzer that you can install into the Logic software.
+The Visual Studio solution has configurations for 32 bit and 64 bit builds. You will likely need to switch the configuration to the appropriate build for your OS. Once the project is opened and properly configured in Visual Studio, you may build it (Ctrl + B). This will generate a .dll file for your custom analyzer that you can install into the Logic software.
 
-![Configure Build for 32-bit or 64-bit OS](../../.gitbook/assets/2019-10-22_1909.png)
+![Configure Build for 32-bit or 64-bit OS](../../.gitbook/assets/2019-10-22\_1909.png)
 
 #### Testing your Newly Built Analyzer in Windows
 
@@ -24,7 +26,7 @@ To test your analyzer, you will need to tell the Saleae Logic software where to 
 
 The four build combinations produce analyzer dll files in the following locations:
 
-```text
+```
 .\Visual Studio\Win32\Debug\<Your Analyzer's Name>Analyzer.dll
 .\Visual Studio\Win32\Release\<Your Analyzer's Name>Analyzer.dll
 .\Visual Studio\x64\Debug\<Your Analyzer's Name>Analyzer.dll
@@ -33,7 +35,9 @@ The four build combinations produce analyzer dll files in the following location
 
 Instructions to tell the Saleae Logic software where to find your new analyzer dll can be found below.
 
-{% page-ref page="../../faq/technical-faq/setting-up-developer-directory.md" %}
+{% content-ref url="../../faq/technical-faq/setting-up-developer-directory.md" %}
+[setting-up-developer-directory.md](../../faq/technical-faq/setting-up-developer-directory.md)
+{% endcontent-ref %}
 
 Once you have set that directory and restarted the software, your new custom analyzer should appear in the list of analyzers you can add.
 
@@ -41,7 +45,7 @@ Once you have set that directory and restarted the software, your new custom ana
 
 If the Logic Software fails to open the newly added analyzer dll, you will want to check 2 things:
 
-1. Ensure that you've built it for the appropriate OS \(32-bit or 64-bit\).
+1. Ensure that you've built it for the appropriate OS (32-bit or 64-bit).
 2. Ensure that the latest version of the Microsoft Visual C++ Redistributable is installed. For example, we've seen issues where an analyzer dll was built with Visual Studio 2019, which did not work properly on another PC with an older version of the C++ Redistributable.
 
 ## Building on MacOS
@@ -50,7 +54,7 @@ If the Logic Software fails to open the newly added analyzer dll, you will want 
 
 To build on MacOS, run the build\_analyzer.py script. The compiled libraries can be found in the newly created debug and release folders.
 
-```text
+```
 python build_analyzer.py
 ```
 
@@ -64,14 +68,16 @@ To test your analyzer, you will need to tell the Saleae Logic software where to 
 
 The four variants of the dylib files will be in the following locations:
 
-```text
+```
 debug/lib<Your Analyzer's Name>Analyzer.dylib
 release/lib<Your Analyzer's Name>Analyzer.dylib
 ```
 
 Instructions to tell the Saleae Logic software where to find your new analyzer dylib can be found below.
 
-{% page-ref page="../../faq/technical-faq/setting-up-developer-directory.md" %}
+{% content-ref url="../../faq/technical-faq/setting-up-developer-directory.md" %}
+[setting-up-developer-directory.md](../../faq/technical-faq/setting-up-developer-directory.md)
+{% endcontent-ref %}
 
 Once you have set that directory and restarted the software, your new custom analyzer should appear in the list of analyzers you can add.
 
@@ -79,13 +85,13 @@ Once you have set that directory and restarted the software, your new custom ana
 
 First, if you are using Linux 64 bit, you need to delete the 32 bit libAnalyzer.so file, and rename the libAnalyzer64.so file to just libAnalyzer.so.
 
-```text
+```
 mv AnalyzerSDK/lib/libAnalyzer64.so AnalyzerSDK/lib/libAnalyzer.so
 ```
 
 Then run build\_analyzer.py
 
-```text
+```
 python build_analyzer.py
 ```
 
@@ -93,14 +99,15 @@ python build_analyzer.py
 
 The two variants of the newly compiled analyzer can be found here:
 
-```text
+```
 debug/lib<Your Analyzer's Name>Analyzer.so
 release/lib<Your Analyzer's Name>Analyzer.so
 ```
 
 Instructions to tell the Saleae Logic software where to find your new analyzer .so can be found below.
 
-{% page-ref page="../../faq/technical-faq/setting-up-developer-directory.md" %}
+{% content-ref url="../../faq/technical-faq/setting-up-developer-directory.md" %}
+[setting-up-developer-directory.md](../../faq/technical-faq/setting-up-developer-directory.md)
+{% endcontent-ref %}
 
 Once you have set that directory and restarted the software, your new custom analyzer should appear in the list of analyzers you can add.
-

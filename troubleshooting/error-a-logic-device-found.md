@@ -2,7 +2,7 @@
 
 ### Windows Error Message
 
-> _A Logic device was found, but there was a problem connecting to it. Another application may be using it. Please let us know if the issue persists._
+> A Logic device was found, but there was a problem connecting to it. Another application may be using it. Please let us know if the issue persists.
 
 When the software detects a logic analyzer connected to the PC, it asks the operating system for an exclusive handle to the device. This error message is shown when that request is denied.
 
@@ -14,9 +14,8 @@ If the title bar says "Disconnected" after closing the error message, then somet
 
 ### Linux Error Message
 
-> _A Logic device was found, but there there was a problem connecting to it. This is probably because we don't have permissions to access it. Take a look in the drivers folder for instructions, or run this program as root \(i.e. use sudo from the command line\). This could also be caused by having multiple instances of the Logic software running. Let us know if you still have any problems._
+> A Logic device was found, but there there was a problem connecting to it. This is probably because we don't have permissions to access it. Take a look in the drivers folder for instructions, or run this program as root (i.e. use sudo from the command line). This could also be caused by having multiple instances of the Logic software running. Let us know if you still have any problems.
 
 The software may not have permissions to access the device. Either install the udev rules file or run the software as administrator. If the udev rules file is not working, it might be a compatibility issue with your specifc Linux distro. For very old distros, the keyword "ATTR" might not be supported and can be replaced with "SYSFS". On Arch, and possibly other distros, try removing the text ENV{DEVTYPE}=="usb\_device" from the rules file.
 
 One of our users has provided a detailed description of the solution on Linux here: [https://schou.dk/linux/saleae/](https://schou.dk/linux/saleae/)
-

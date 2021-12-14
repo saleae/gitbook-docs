@@ -2,23 +2,33 @@
 
 ### **Table Of Contents**
 
-{% page-ref page="product-summary.md" %}
+{% content-ref url="product-summary.md" %}
+[product-summary.md](product-summary.md)
+{% endcontent-ref %}
 
-{% page-ref page="safety-and-warranty.md" %}
+{% content-ref url="safety-and-warranty.md" %}
+[safety-and-warranty.md](safety-and-warranty.md)
+{% endcontent-ref %}
 
-{% page-ref page="supported-voltages.md" %}
+{% content-ref url="supported-voltages.md" %}
+[supported-voltages.md](supported-voltages.md)
+{% endcontent-ref %}
 
-{% page-ref page="using-logic/" %}
+{% content-ref url="device-calibration.md" %}
+[device-calibration.md](device-calibration.md)
+{% endcontent-ref %}
 
-{% page-ref page="device-calibration.md" %}
-
-
-
-### Logic 1.x User Guide \(PDF Format\)
-
-A pdf version of the User Guide for the older Logic 1.x software is available to download below.
-
-{% file src="../.gitbook/assets/users-guide-11-12-19.pdf" caption="Logic 1.x Software User Guide" %}
+{% content-ref url="using-logic/" %}
+[using-logic](using-logic/)
+{% endcontent-ref %}
 
 
+
+### Logic 1.x User Guide (PDF Format)
+
+A PDF version of the User Guide for the older Logic 1.x software is available to download below.
+
+{% file src="../.gitbook/assets/Users-Guide-11-12-19.pdf" %}
+Logic 1.x Software User Guide
+{% endfile %}
 

@@ -1,10 +1,8 @@
 # Keyboard Shortcuts
 
-## Logic 2.x
-
 The list of keyboard shortcuts for the Logic 2 software can be viewed by clicking the Options button on the bottom right, then clicking "Keyboard Shortcuts." You can also use the "?" key on your keyboard to quickly open the list of keyboard shortcuts in the software.
 
-![Viewing Keyboard Shortcuts in Logic 2](../../.gitbook/assets/keyboard-shortcuts-menu-item.png)
+![Viewing Keyboard Shortcuts in Logic 2](<../../.gitbook/assets/Keyboard shortcuts menu item.png>)
 
 
 
@@ -18,11 +16,11 @@ On OSX, CTRL is replaced by Command
 
 **Start a Capture**: CTRL-R
 
-**Stop a Capture**: ESC or Enter \(presses the Stop button\)
+**Stop a Capture**: ESC or Enter (presses the Stop button)
 
-**Move Right/Left**: Right/Left Arrow Keys \(Add CTRL to move faster\)
+**Move Right/Left**: Right/Left Arrow Keys (Add CTRL to move faster)
 
-**Zoom In/Out**: Up/Down Arrow Keys \(Add CTRL to move faster\). Also Plus and Minus \(+/-\)
+**Zoom In/Out**: Up/Down Arrow Keys (Add CTRL to move faster). Also Plus and Minus (+/-)
 
 **Zoom to Region**: Shift+Click and drag over region to zoom
 
@@ -48,13 +46,13 @@ On OSX, CTRL is replaced by Command
 
 **Take Screenshot**: CTRL-I
 
-**Change Radix**: SHIFT-A \(Ascii\), CTRL-H \(Hex\), CTRL-B \(Binary\), CTRL-D \(Decimal\), CTRL+SHIFT+A \(Ascii and Hex\). Note: This changes the global radix.
+**Change Radix**: SHIFT-A (Ascii), CTRL-H (Hex), CTRL-B (Binary), CTRL-D (Decimal), CTRL+SHIFT+A (Ascii and Hex). Note: This changes the global radix.
 
-**Jump Left/Right** to Next Edge: N \(Next\), P \(Previous\). Note: This applies to the channel where you last clicked the Next/Previous button \(appears at the beginning/end of a channel\).
+**Jump Left/Right** to Next Edge: N (Next), P (Previous). Note: This applies to the channel where you last clicked the Next/Previous button (appears at the beginning/end of a channel).
 
 **Jump to Next/Previous Trigger Event**: SHIFT+N/SHIFT+P
 
-**Jump to Trigger Location \(Time 0\)**: Home
+**Jump to Trigger Location (Time 0)**: Home
 
 **Jump to End of Capture**: End
 
@@ -63,4 +61,3 @@ On OSX, CTRL is replaced by Command
 **Resize Selected Channels**: CTRL-1, CTRL-2, CTRL-3, CTRL-4 for each of the four channel sizes.
 
 **Select All Channels**: CTRL-A
-

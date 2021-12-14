@@ -4,9 +4,8 @@
 
 ### Frame Type: `"data"`
 
-| Property | Type | Description |
-| :--- | :--- | :--- |
-| `data` | int | The size in bytes is determined by the settings |
+| Property | Type | Description                                     |
+| -------- | ---- | ----------------------------------------------- |
+| `data`   | int  | The size in bytes is determined by the settings |
 
-This is the decoded manchester word
-
+* This is the decoded manchester word

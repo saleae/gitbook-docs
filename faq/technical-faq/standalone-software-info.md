@@ -1,14 +1,14 @@
 # Standalone Software Information
 
-
-
 {% hint style="info" %}
-Currently, only the older Logic 1.x software offers a standalone version. If you need a standalone version for the latest Logic 2.x software, feel free to [vote for it here!](https://ideas.saleae.com/b/feature-requests/widows-standalone-beta-releases/)
+Currently, only the older Logic 1.x software offers a standalone version. If you need a standalone version for the latest Logic 2 software, feel free to [vote for it here!](https://ideas.saleae.com/b/feature-requests/widows-standalone-beta-releases/)
 {% endhint %}
 
 The standalone version of the older Logic 1.x software can be useful in many different situations and can be downloaded below.
 
-{% page-ref page="../../logic-software/legacy-software/older-software-releases.md" %}
+{% content-ref url="../../logic-software/legacy-software/older-software-releases.md" %}
+[older-software-releases.md](../../logic-software/legacy-software/older-software-releases.md)
+{% endcontent-ref %}
 
 It does not need to be installed and can be run directly by executing Logic.exe from inside of the standalone folder.
 
@@ -21,4 +21,3 @@ In any event, please be aware of the following requirements when deciding to use
 
 * The newly required Microsoft Visual Studio 2015 runtime needs to be installed before the software will run. The standalone zip file includes the installer for Microsoft Visual Studio 2015 runtime. The included readme provides additional details.
 * If drivers are not already installed, you will need to install the drivers, which are included with the standalone download. Also, our drivers never change, so if you installed from any Logic version in the past, you will not need to do so again.
-
