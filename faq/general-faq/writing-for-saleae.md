@@ -14,7 +14,7 @@ Write about your electronics project and get paid!
 
 ### Reward
 
-$200 USD for a project writeup meeting the requirements described here. Sparkfun or Adafruit gift certificate, Paypal, or check (US bank).
+$200 USD for a project writeup meeting the requirements described here. You can receive a discount code to be used on our website at [www.saleae.com](https://www.saleae.com), a Sparkfun or Adafruit gift certificate, Paypal, or check (US bank).
 
 ### Suggestions for what to write about
 
