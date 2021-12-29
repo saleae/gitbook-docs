@@ -4,7 +4,7 @@
 
 The instructions below describe how to debug your custom analyzer for Windows, MacOS, and Linux **using the older Logic 1.1.18 software**.
 
-Although we currently don't officially support debugging analyzers on Logic 2, we've seen some users find success with it. You can refer to a user's solution using Visual Studio 2019 in the [blog post here](https://discuss.saleae.com/t/debugging-analyzers-using-visual-studio-2019-and-logic-2/1100).&#x20;
+Although we currently don't officially support debugging analyzers on Logic 2, we've seen some users find success with it. You can refer to a user's solution using Visual Studio 2019 in the [blog post here](https://discuss.saleae.com/t/debugging-analyzers-using-visual-studio-2019-and-logic-2/1100), as well as some considerations to keep in mind in the [blog post here](https://discuss.saleae.com/t/failed-to-load-custom-analyzer/903) in case you are running on Linux.&#x20;
 
 ## Debugging on Windows
 
