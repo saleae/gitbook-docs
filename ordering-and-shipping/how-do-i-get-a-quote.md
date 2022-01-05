@@ -6,22 +6,6 @@ You can click on the link below to submit a quote request form. Once submitted, 
 
 ##
 
-### What Products are available for Purchase?
-
-For reference, you may refer to the list of products we sell below.
-
-{% content-ref url="faq/saleae-part-numbers.md" %}
-[saleae-part-numbers.md](faq/saleae-part-numbers.md)
-{% endcontent-ref %}
-
-### Placing a Purchase Order?
-
-If you plan on placing a purchase order, please review the requirements and process below before submitting your quote:
-
-{% content-ref url="place-a-purchase-order-po.md" %}
-[place-a-purchase-order-po.md](place-a-purchase-order-po.md)
-{% endcontent-ref %}
-
 ### Quote Request Form Not Working?
 
 If the quote request form is somehow not working on your end, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) and send in the following information.
@@ -46,3 +30,22 @@ If the quote request form is somehow not working on your end, please [contact su
 * Shipping Address
 * Billing Address
 * Phone Number
+
+### What Products are available for Purchase?
+
+For reference, you may refer to the list of products we sell below.
+
+{% content-ref url="faq/saleae-part-numbers.md" %}
+[saleae-part-numbers.md](faq/saleae-part-numbers.md)
+{% endcontent-ref %}
+
+### Placing a Purchase Order?
+
+If you plan on placing a purchase order, please review the requirements and process below before submitting your quote:
+
+{% content-ref url="place-a-purchase-order-po.md" %}
+[place-a-purchase-order-po.md](place-a-purchase-order-po.md)
+{% endcontent-ref %}
+
+
+
