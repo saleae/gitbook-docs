@@ -45,7 +45,7 @@
 
 ### **Getting a Quote**
 
-Please follow the instructions in the link below to request a quote.
+Please follow the instructions in the support article below to request a quote.
 
 {% content-ref url="how-do-i-get-a-quote.md" %}
 [how-do-i-get-a-quote.md](how-do-i-get-a-quote.md)
