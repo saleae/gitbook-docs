@@ -1,6 +1,12 @@
-# Request a Quote
+# How to Get a Quote
 
-To receive a quote, please fill out our [Quote Request Form](https://saleae-support.typeform.com/to/WnpOte). Afterwards, one of our representatives will follow up with you via email.
+You can click on the link below to submit a quote request form. Once submitted, please allow some time (typically one business day) and we will reach out to you via email with your quote in PDF format.
+
+* ### [Get a Quote](https://saleae-support.typeform.com/to/WnpOte)
+
+##
+
+### What Products are available for Purchase?
 
 For reference, you may refer to the list of products we sell below.
 
@@ -8,9 +14,9 @@ For reference, you may refer to the list of products we sell below.
 [saleae-part-numbers.md](faq/saleae-part-numbers.md)
 {% endcontent-ref %}
 
-### Placing a PO?&#x20;
+### Placing a Purchase Order?
 
-Please review PO requirements and process below:
+If you plan on placing a purchase order, please review the requirements and process below before submitting your quote:
 
 {% content-ref url="place-a-purchase-order-po.md" %}
 [place-a-purchase-order-po.md](place-a-purchase-order-po.md)
