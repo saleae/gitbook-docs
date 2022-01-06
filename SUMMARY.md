@@ -110,6 +110,7 @@
     * [1. Setup - Analyzer SDK](saleae-api-and-sdk/protocol-analyzer-sdk/setup.md)
     * [2. Build - Analyzer SDK](saleae-api-and-sdk/protocol-analyzer-sdk/build.md)
     * [3. Debug - Analyzer SDK](saleae-api-and-sdk/protocol-analyzer-sdk/debug.md)
+    * [FrameV2 / HLA Support - Analyzer SDK](saleae-api-and-sdk/protocol-analyzer-sdk/framev2-hla-support-analyzer-sdk.md)
     * [Rename a Custom Analyzer](saleae-api-and-sdk/protocol-analyzer-sdk/renaming-a-custom-analyzer.md)
   * [Socket API - Automation](saleae-api-and-sdk/socket-api/README.md)
     * [Export Data via Socket API](saleae-api-and-sdk/socket-api/export-data.md)

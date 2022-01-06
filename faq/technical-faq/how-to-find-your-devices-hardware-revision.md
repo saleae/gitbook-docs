@@ -8,7 +8,7 @@ To check your hardware revision, you will need the Logic 2.3.42 software or newe
 
 
 
-![The Device Info dialog is opened from the capture settings sidebar menu](<../../.gitbook/assets/image (12).png>)
+![The Device Info dialog is opened from the capture settings sidebar menu](<../../.gitbook/assets/image (12) (1).png>)
 
 ![The hardware revision is shown in the last line](<../../.gitbook/assets/image (13).png>)
 

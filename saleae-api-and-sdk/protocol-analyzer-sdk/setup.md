@@ -2,6 +2,16 @@
 
 The Protocol Analyzer SDK is used to create custom plugins for the Saleae Logic software. These plugins are used to decode protocol data from captured waveforms.
 
+{% hint style="info" %}
+For a simpler, CMake based setup, we recommend using one of Saleae's provided protocol analyzers as a starting point, like the Async Serial Analyzer.
+
+[https://github.com/saleae/serial-analyzer](https://github.com/saleae/serial-analyzer)
+
+Simple, cross-platform setup and build instructions are provided in the readme file.
+
+We still need to update our example analyzer below to use CMake, which simplifies setting up and building the analyzer on each supported platform.
+{% endhint %}
+
 ### Analyzer SDK Library Setup
 
 For this setup example, we will build the Sample Analyzer located here: [https://github.com/saleae/SampleAnalyzer](https://github.com/saleae/SampleAnalyzer)
