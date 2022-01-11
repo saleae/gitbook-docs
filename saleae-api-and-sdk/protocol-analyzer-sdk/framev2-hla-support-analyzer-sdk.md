@@ -1,26 +1,16 @@
 # FrameV2 / HLA Support - Analyzer SDK
 
-{% hint style="info" %}
-This article describes a feature in Logic 2.3.43, which hasn't been released quite yet. We should have it out shortly!
-{% endhint %}
-
 The C++ analyzer SDK was created before our new, python high level analyzers were introduced.
 
 High level analyzers allow for new analyzers to be created, which instead of processing the raw input signals recorded by the device, instead process frames produced by C++ analyzers.
 
 When the HLA system was introduced, only a handful of Saleae created protocol analyzers produced results that could be passed into the HLA system.
 
-
-
 However, as of Saleae Logic 2.3.43, released in early 2022, it is now possible for custom 3rd party C++ analyzers to produce results that can be then interpreted by HLAs. This requires C++ analyzers to be updated to use the new "FrameV2" API.
-
-
 
 The FrameV2 API does not completely replace the existing "Frame" class and collection yet. The existing "Frame" class is still exclusively used to produce the displayed bubbles, and for the analyzer-specific export feature. However, If a C++ analyzer uses FrameV2, these new objects will be available to HLAs.
 
 Additionally, FrameV2 objects replace the original Frame objects in the data table, allowing for multiple, user configurable columns, as well as a variety of data formats.
-
-
 
 ### Using FrameV2
 
@@ -80,8 +70,6 @@ mResults->CommitResults();
 `UseFrameV2();`
 
 Call from the constructor one time to register your Analyzer as using FrameV2 objects. Without this, the V1 Frame objects will be displayed in the data table, and you will not be able to use your C++ Analyzer with HLAs.
-
-
 
 #### FrameV2 Methods
 
