@@ -6,29 +6,21 @@ Upon launching the Logic 2 software, you may experience the following:
 * A blank canvas with an error message that displays `Error Connecting to Socket`
 * The terminal displays  `The display compositor is frequently crashing. Goodbye.`
 
-{% hint style="info" %}
-Note: You might also see the following message when running Logic 2 from the terminal. This is normal and is not associated with the issues noted above.
+You might also see the following message when running Logic 2 from the terminal. This is normal and is not associated with the issues noted above.
 
-`(electron) The default value of app.allowRendererProcessReuse is deprecated, it is currently "false". It will change to be "true" in Electron 9.`
-{% endhint %}
+* `(electron) The default value of app.allowRendererProcessReuse is deprecated, it is currently "false". It will change to be "true" in Electron 9.`
 
 We've highlighted some potential causes and solutions below.
 
 ### Unsupported Graphics Cards
 
-We've received reports of some graphics cards causing immediate crashes when launching the Logic 2 software. We're currently logging a list of graphics cards that have been reported to crash the app in the [forum post here](https://ideas.saleae.com/b/feature-requests/support-older-graphics-cards/). Based on the list of graphics cards we have gathered, it seems that graphics cards released more than 10 years ago has some issues with running our software, but we don't have conclusive evidence yet.
+We've received reports of some graphics cards causing immediate crashes when launching the Logic 2 software. We're currently logging a list of graphics cards that have been reported to crash the app in the [forum post here](https://ideas.saleae.com/b/feature-requests/support-older-graphics-cards/). Based on the list of graphics cards we have gathered, it seems that graphics cards released more than 8 years ago has some issues with running our software, but we don't have conclusive evidence yet.
 
 For now, if you feel your graphics card may be the culprit, you may try the troubleshooting steps in the support article below.
 
 {% content-ref url="error-message-unable-to-detect-webgl.md" %}
 [error-message-unable-to-detect-webgl.md](error-message-unable-to-detect-webgl.md)
 {% endcontent-ref %}
-
-If the troubleshooting steps above don't help, please [contact us](https://contact.saleae.com/hc/en-us/requests/new) and let us know the following information about your PC.
-
-* PC Make/model
-* Graphics card model
-* The results of the tests in the support article linked above
 
 ### Linux Solutions
 
