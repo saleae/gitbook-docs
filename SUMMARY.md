@@ -126,7 +126,7 @@
 * [Troubleshooting](troubleshooting/README.md)
   * [Installation Errors](troubleshooting/will-not-install.md)
   * [The Software Fails to Launch](troubleshooting/fails-to-launch.md)
-  * [The Logic Software Crashes](troubleshooting/software-has-crashed.md)
+  * [The Software Crashes](troubleshooting/software-has-crashed.md)
   * [Getting the Console Output](troubleshooting/console-output.md)
   * [The Device Is Not Connecting](troubleshooting/device-not-connecting.md)
   * [Troubleshooting the Software Connection to the Device](troubleshooting/troubleshooting-the-software-connection.md)
