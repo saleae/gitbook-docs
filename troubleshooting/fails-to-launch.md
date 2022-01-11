@@ -2,15 +2,33 @@
 
 Upon launching the Logic 2 software, you may experience the following:
 
+* An immediate software crash
 * A blank canvas with an error message that displays `Error Connecting to Socket`
 * The terminal displays  `The display compositor is frequently crashing. Goodbye.`
-* An immediate software crash
 
 {% hint style="info" %}
 Note: You might also see the following message when running Logic 2 from the terminal. This is normal and is not associated with the issues noted above.
 
 `(electron) The default value of app.allowRendererProcessReuse is deprecated, it is currently "false". It will change to be "true" in Electron 9.`
 {% endhint %}
+
+We've highlighted some potential causes and solutions below.
+
+### Unsupported Graphics Cards
+
+We've received reports of some graphics cards causing immediate crashes when launching the Logic 2 software. We're currently logging a list of graphics cards that have been reported to crash the app in the [forum post here](https://ideas.saleae.com/b/feature-requests/support-older-graphics-cards/). Based on the list of graphics cards we have gathered, it seems that graphics cards released more than 10 years ago has some issues with running our software, but we don't have conclusive evidence yet.
+
+For now, if you feel your graphics card may be the culprit, you may try the troubleshooting steps in the support article below.
+
+{% content-ref url="error-message-unable-to-detect-webgl.md" %}
+[error-message-unable-to-detect-webgl.md](error-message-unable-to-detect-webgl.md)
+{% endcontent-ref %}
+
+If the troubleshooting steps above don't help, please [contact us](https://contact.saleae.com/hc/en-us/requests/new) and let us know the following information about your PC.
+
+* PC Make/model
+* Graphics card model
+* The results of the tests in the support article linked above
 
 ### Linux Solutions
 
@@ -57,7 +75,7 @@ In case the solutions above don't help, please [contact us](https://contact.sale
 
 ### Windows 10 Solutions
 
-For Windows 10, manually installing the [Microsoft Visual Studio 2019 runtime](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) seemed to help, which you can download below:
+For Windows 10, manually installing the [Microsoft Visual Studio 2019 runtime](https://docs.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170) helped some users.
 
 Be sure to select the x64 version if you are using a 64-bit version of Windows. After you have installed the runtime, try restarting the computer and running the Logic 2 software again.
 
