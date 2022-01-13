@@ -39,6 +39,8 @@ If the software crashes prevent you from sending in your support request, please
 ```
 On Windows 10:
     C:\Users\<Your User Name>\AppData\Roaming\Logic\Logic\logs
+On Linux Ubuntu:
+    ~/.config/Logic/logs
 ```
 
 * The operating system used, the version of OS, and if it is 32-bit or 64-bit. On Linux, also include the kernel version "uname -r" and the name of the window manager if it's not stock.
