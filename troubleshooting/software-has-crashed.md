@@ -39,6 +39,8 @@ If the software crashes prevent you from sending in your support request, please
 ```
 On Windows 10:
     C:\Users\<Your User Name>\AppData\Roaming\Logic\Logic\logs
+On MacOS:
+    ~/Library/Logs/Logic2/
 On Linux Ubuntu:
     ~/.config/Logic/logs
 ```
