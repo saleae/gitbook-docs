@@ -302,7 +302,7 @@
     * [Can I use Python Packages in my Custom Extension?](faq/technical-faq/python-package-support.md)
     * [Are the Inputs Synchronously Sampled or Sweep Sampled?](faq/technical-faq/are-the-inputs-synchronously-sampled-or-sweep-sampled.md)
     * [Is Logic Affected by the Log4j Exploit?](faq/technical-faq/is-logic-affected-by-the-log4j-exploit.md)
-    * [How to Find Your Device’s Hardware Revision](faq/technical-faq/how-to-find-your-devices-hardware-revision.md)
+    * [About Logic Hardware Revisions](faq/technical-faq/about-logic-hardware-revisions.md)
   * [General FAQ](faq/general-faq/README.md)
     * [How Do I Get More Help on an Issue That's Outside the Scope of Saleae Support?](faq/general-faq/help-outside-scope.md)
     * [How to Identify Each Saleae Device](faq/general-faq/identify-each-saleae-device.md)
