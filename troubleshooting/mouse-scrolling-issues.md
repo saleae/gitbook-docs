@@ -1,6 +1,6 @@
 # Mouse Scrolling Issues
 
-There have been some reports of the following mouse model(s) showing odd behavior while using its scroll wheel.
+There have been some reports of the following mouse model(s) showing odd behavior while using its scroll wheel in the Logic 2 app.
 
 * Logitech MX Master 3
 
