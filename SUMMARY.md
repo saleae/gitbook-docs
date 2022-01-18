@@ -192,6 +192,7 @@
   * [Connection Conflicts with USB Debuggers](troubleshooting/connection-conflicts-with-usb-debuggers.md)
   * [PC Restart Causes Logic to Disconnect](troubleshooting/pc-restart-causes-logic-to-disconnect.md)
   * [HLA Fails to Display Special Characters](troubleshooting/hla-fails-to-display-special-characters.md)
+  * [Mouse Scrolling Issues](troubleshooting/mouse-scrolling-issues.md)
 * [FAQ](faq/README.md)
   * [Technical FAQ](faq/technical-faq/README.md)
     * [System Requirements for Saleae Products](faq/technical-faq/system-requirements-for-saleae-products.md)
