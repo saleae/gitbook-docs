@@ -4,7 +4,7 @@
 
 We offer various discount options for our Logic products. For more details and to check if you qualify, [click here](https://blog.saleae.com/saleae-discounts/).
 
-To apply for a discount code, please [click here](https://www.saleae.com/discounts).
+To apply for a discount code, please [click here](https://saleae-support.typeform.com/to/G5P39W).
 
 ### Quantity Discounts
 
