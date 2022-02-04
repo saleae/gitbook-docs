@@ -26,7 +26,7 @@ Logic.exe --disable-gpu
 
 ### Solution #2 - Try Logic 2.3.40
 
-You may want to try launching an older version of the Logic 2 app, specifically [Logic 2.3.40](https://ideas.saleae.com/f/changelog/2340/). As mentioned above, we've received reports of Logic 2.3.41 and later versions having incompatibility issues with certain graphics cards.
+You may want to try launching an older version of the Logic 2 app, specificall [Logic 2.3.40](https://ideas.saleae.com/f/changelog/2340/). As mentioned above, we've received reports of Logic 2.3.41 and later versions having incompatibility issues with certain graphics cards.
 
 ### Solution #3 - Try Logic 1.x
 
@@ -47,3 +47,11 @@ When [contacting us](https://contact.saleae.com/hc/en-us/requests/new), please l
 * CPU
 * If Google Chrome can run properly, please go to `chrome://gpu` from within Chrome and send us the output
 * Results of the following tests ([WebGL v1](https://webglreport.com/?v=1) and [WebGL v2](https://webglreport.com/?v=2))
+* In case you can launch [Logic 2.3.40](https://ideas.saleae.com/f/changelog/2340/) successfully, please send us your machine ID. Instructions are linked below.
+
+{% content-ref url="sharing-your-machine-id.md" %}
+[sharing-your-machine-id.md](sharing-your-machine-id.md)
+{% endcontent-ref %}
+
+
+
