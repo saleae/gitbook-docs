@@ -8,6 +8,9 @@ Upon launching the Logic 2 software, you may experience an immediate crash, or a
 
 * `Your graphics card does not support WebGL.`
 * `Unable to detect WebGL, please contact support.`
+
+![Unable to Detect WebGL Error](<../.gitbook/assets/Screen Shot 2022-02-04 at 5.47.09 PM.png>)
+
 * `An error occurred in WebGL. Analog channels may stop working. Please save your work and restart the software.`
 
 ![WebGL Error Message](<../.gitbook/assets/webgl-analog (1).png>)
