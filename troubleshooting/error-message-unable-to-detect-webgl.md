@@ -41,6 +41,7 @@ If the above solutions fail, you may want to try our older Logic 1.x software do
 When [contacting us](https://contact.saleae.com/hc/en-us/requests/new), please let us know the following information about your PC.
 
 * Results of the Troubleshooting Steps listed above
+* PC make and model
 * Operating System, and whether it is 32-bit or 64-bit
 * Graphics card model
 * Graphics card driver version and date (A screenshot would be preferred)
