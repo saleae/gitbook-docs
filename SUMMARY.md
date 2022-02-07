@@ -222,7 +222,7 @@
     * [Can These Products Replace an Oscilloscope?](faq/technical-faq/can-these-products-replace-an-oscilloscope.md)
     * [Can I Use Multiple Logics on a Single PC?](faq/technical-faq/use-multiple-logics-on-a-single-pc.md)
     * [Native Windowing Features Are Not Working Such as Snap or Gestures](faq/technical-faq/native-windowing-features-are-not-working.md)
-    * [Opening .logicdata Files](faq/technical-faq/open-logicdata-files.md)
+    * [Opening .logicdata Capture Files](faq/technical-faq/open-logicdata-files.md)
     * [How to Choose the Right Logic Analyzer for You](faq/technical-faq/how-to-choose-the-right-logic-analyzer-for-you.md)
     * [Saleae Open Source Support](faq/technical-faq/saleae-open-source-support.md)
     * [How to Trigger the End of a Capture Instead of the Start](faq/technical-faq/how-to-trigger-the-end-of-a-capture-instead-of-the-start.md)
