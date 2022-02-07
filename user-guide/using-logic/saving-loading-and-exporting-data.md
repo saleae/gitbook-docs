@@ -16,6 +16,18 @@ This will open the Presets window below. From here, you can manage capture setti
 
 ![Preset Window](<../../.gitbook/assets/Screen Shot 2021-02-26 at 3.52.26 PM.png>)
 
+### Legacy Capture Files (.logicdata files)
+
+To manage and open legacy capture files that were generated using the older Logic 1.x software (in .logicdata file format), you will need a copy of the older Logic 1.x software installed on your PC. Currently, we don't have a way of importing these capture files into the Logic 2 app. We're currently tracking user need for this feature in the [idea post here](https://ideas.saleae.com/b/feature-requests/import-logicdata-capture/).
+
+For now, please refer to the support article below for more information on this topic.
+
+{% content-ref url="../../faq/technical-faq/open-logicdata-files.md" %}
+[open-logicdata-files.md](../../faq/technical-faq/open-logicdata-files.md)
+{% endcontent-ref %}
+
+
+
 ## Logic 1.x
 
 If you are using the older Logic 1.x software, the following images and instructions apply.
