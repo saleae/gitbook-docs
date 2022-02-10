@@ -4,7 +4,7 @@ description: Documentation for output produced by Saleae's built-in Analyzers
 
 # HLA - Analyzer Frame Format
 
-Python High Level Analyzers allow users to write custom code that processes the output of an analyzer. Currently, the below listed analyzers can be used with high level analyzers. Not all analyzers are supported yet. If there is a specific analyzer which does not yet support our newer FrameV2 format which you would like to use with Python High Level Analyzers, please let us know!
+Python High Level Analyzers allow users to write custom code that processes the output of an analyzer. The below list of pre-installed low level analyzers can be immediately used with high level analyzers (HLAs).
 
 * [Async Serial](serial-analyzer.md)
 * [I2C](i2c-analyzer.md)
@@ -16,6 +16,16 @@ Python High Level Analyzers allow users to write custom code that processes the 
 * [LED](async-rgb-led-analyzer.md)
 * [1-Wire](1-wire-analyzer.md)
 * [I2S / PCM](i2s-analyzer.md)
+
+### Adding HLA Support for More Analyzers
+
+We've released documentation on our FrameV2 API below, which can be used to add HLA support for any low level analyzer that is not listed above, including custom analyzers that were created using our Protocol Analyzer SDK.
+
+{% content-ref url="../../saleae-api-and-sdk/protocol-analyzer-sdk/framev2-hla-support-analyzer-sdk.md" %}
+[framev2-hla-support-analyzer-sdk.md](../../saleae-api-and-sdk/protocol-analyzer-sdk/framev2-hla-support-analyzer-sdk.md)
+{% endcontent-ref %}
+
+### Writing an HLA
 
 In order to write a high level analyzer, the data format produced by the connected source analyzer must be understood.&#x20;
 
