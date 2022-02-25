@@ -6,12 +6,15 @@
 
 ### Download & Installation
 
-The latest version of the Logic 2 software can be downloaded below.
+The latest version of the Logic 2 software can be downloaded below. This is the version we recommend using.
 
 * [**Logic 2 Software Download**](https://www.saleae.com/downloads/)
+
+All previous versions of the Logic 2 software can be found below, including a history of the major updates that were implemented in each version.
+
 * ****[**Logic 2 Changelog**](https://ideas.saleae.com/f/changelog/)****
 
-Instructions for installation and solutions for commonly found errors can be found below.
+Instructions for installation and solutions for commonly found errors can be found in the support article below.
 
 {% content-ref url="sw-installation.md" %}
 [sw-installation.md](sw-installation.md)
