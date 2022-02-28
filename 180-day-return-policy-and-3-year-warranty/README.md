@@ -2,9 +2,9 @@
 
 ### **180-Day Return Policy**
 
-The 180-day return policy only applies to products purchased directly from Saleae, either from our website, www.saleae.com, or on a purchase order directly with Saleae.
+The 180-day return policy only applies to products purchased directly from us, either from our website at [www.saleae.com](https://www.saleae.com) or from a purchase order. In addition to returning our logic analyzers, the return policy can also be used to return [accessories](https://www.saleae.com/accessories).
 
-Each distributor has its own return policy. If you purchased a Saleae device from a distributor, please check with them for details on their return policy.
+Each distributor has its own return policy. If you purchased a Saleae product from a distributor, please check with them for details on their return policy.
 
 ### **3-Year Warranty**
 
