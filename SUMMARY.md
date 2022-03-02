@@ -27,7 +27,6 @@
     * [Saleae Tax & VAT Information](ordering-and-shipping/faq/what-is-saleaes-vat-and-tax-id-number.md)
     * [Unable to Ship to PO Box Error](ordering-and-shipping/faq/ship-to-po-box-error.md)
     * [Referred a Friend? Email Us!](ordering-and-shipping/faq/referral-program.md)
-    * [Shipping Orders to Russia](ordering-and-shipping/faq/shipping-orders-to-russia.md)
     * [Does Saleae Provide Drop-Shipping Service?](ordering-and-shipping/faq/does-saleae-provide-drop-shipping-service.md)
 * [Getting Started](getting-started/README.md)
   * [Setup](getting-started/setup.md)
