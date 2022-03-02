@@ -105,3 +105,15 @@ Our in-app terminal view has a scroll-back limit of 10,000 rows. Once the 10,000
 ![SPI Terminal View Example](<../../.gitbook/assets/Screen Shot 2021-09-10 at 5.23.44 PM.png>)
 
 * **For all other analyzers** - content will be displayed as shown in the data table.
+
+#### Terminal RefIow issue when Panel is Resized
+
+This only affects the last line in the terminal, and is noticeable when resizing the side panel.&#x20;
+
+For Async Serial - The last line will not text wrap properly. The last line is considered as the final stretch of data preceded by a new line or carraige return. For I2C or SPI - the last line is considered after the end of a previous transaction, and will not properly reflow when the side panel is resized. SPI data looks like it completely disappears.
+
+We use xtermjs for our in-app terminal. According to the xtermjs GitHub issue link below, this seems to be a bug that only affects the last line of text.
+
+{% embed url="https://github.com/xtermjs/xterm.js/issues/3178" %}
+
+If you're running into this issue, please vote/comment on our [idea post here](https://ideas.saleae.com/b/feature-requests/bug-terminal-text-doesnt-reflow-properly-when-panel-is-resized/), which we are using to track this bug.
