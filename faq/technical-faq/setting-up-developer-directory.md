@@ -18,27 +18,11 @@ Finally, save the dialog and restart the software. Your custom analyzer should n
 
 ### Logic 2 MacOS Instructions
 
-{% hint style="info" %}
-If you're using MacOS, there is another step you may need to take in order for your custom analyzer to work.
-{% endhint %}
+If you're running the app on MacOS, you may run into a "Failed to Load Custom Analyzer" error message upon startup when the app attempts to load your .dylib low level analyzer. There is another step you may need to take in order for your custom analyzer to work, which is described in the support article below.
 
-If you see the following error after restarting the software on **MacOS**, please follow these extra steps.
-
-> Failed to load custom analyzer...\
-> Unable to load library...
-
-![](<../../.gitbook/assets/image (3).png>)
-
-1. Open the Terminal (open Spotlight -> search "Terminal" -> press enter)
-2. navigate to the directory containing your custom analyzer (e.g. `cd ~/Downloads/mylla`)
-3.  run the following command, replacing `libYourCustomAnalyzer.dylib` with your analyzer's file name:
-
-    `install_name_tool -change @executable_path/libAnalyzer.dylib @rpath/libAnalyzer.dylib libYourCustomAnalyzer.dylib`
-4. close the terminal, and open the Logic 2 application again.
-
-This will change how the custom analyzer library locates the libAnalyzer.dylib library, which has a different relative path than the older Logic 1.x software.&#x20;
-
-You may see the same error on Linux or Windows. If this happens, there may be a problem with the custom analyzer you are trying to load. Please contact the analyzer author or Saleae support.
+{% content-ref url="../../troubleshooting/failed-to-load-lla.md" %}
+[failed-to-load-lla.md](../../troubleshooting/failed-to-load-lla.md)
+{% endcontent-ref %}
 
 ## Logic 1.x
 
