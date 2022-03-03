@@ -131,7 +131,7 @@ If at the end of this process you still get an error, please [contact support](h
 
 ## Linux Ubuntu Instructions
 
-When the Logic 2 software is opened, a udev rule file is checked. If the udev rule is missing, then an error message will popup to prompt you to install the proper udev rule file. Follow the instructions to open the terminal and run the command to install the udev file.
+When the Logic 2 software is opened, a udev rule file is checked. If the udev rule is missing, then an error message will popup to prompt you to install the proper udev rule file. The good news is that, if you see this popup, then our software was able to detect the device. Follow the instructions to open the terminal and run the command to install the udev file.
 
 ![](<../.gitbook/assets/Screen Shot 2020-10-22 at 2.48.48 PM.png>)
 

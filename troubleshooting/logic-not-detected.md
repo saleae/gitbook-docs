@@ -35,9 +35,9 @@ If you are on Windows and have USB 3.0 ports on your PC, please check your curre
 6. The software asks the OS again for access to the device.
 7. The software finishes the device configuration (shown in the title bar), and, once finished, the title bar will say "Completed."
 
-If the OS is able to see the device while the software is not running, as described in the section "PC Detection of the Device over USB," but the software does not complete the above process and say "Connected," then the problem must lie with one of the steps shown above.
+### Troubleshooting the Software Connection
 
-Possible Problems:
+If the OS is able to see the device while the software is not running, as described in the section _Part 1: Troubleshooting the Hardware for Issues_, but the software still does not detect Logic, then the following section describes a few troubleshooting steps you can perform.
 
 After each test below, you will need to rerun the following procedure:
 
@@ -48,12 +48,16 @@ After each test below, you will need to rerun the following procedure:
 
 This is called the software connection procedure. It needs to be repeated in order to reset the state of the hardware and the software completely between tests.
 
-### Commonly Known Issues with Software Connections
+#### Known Workarounds on Linux
 
-#### Known Connection Issues on Ubuntu 20
+* We have heard reports of the Logic 2 app failing to detect the Logic hardware, even though the hardware is being successfully detected by the PC via lsusb (i.e. the VID/PID of the Logic hardware appear correct). Launching `sudo Logic --no-sandbox` seems to solves it for these users. For more information, this solution is discussed further in the [forum post here](https://discuss.saleae.com/t/unable-to-start-on-ubuntu-20-04/474).
+* When the Logic 2 app is opened, a udev rule file is checked. If the udev rule is missing, then an error message will popup to prompt you to install the proper udev rule file. Please refer to the support article below, specifically under the section titled _Linux Ubuntu Instructions_, for more information on the solution.
 
-We have heard reports of the Logic 2 app failing to detect the Logic hardware, even though the hardware is being successfully detected by the PC via lsusb (i.e. the VID/PID of the Logic hardware appear correct). Launching `sudo Logic --no-sandbox` seems to solves it for these users. For more information, this solution is discussed further in the [forum post here](https://discuss.saleae.com/t/unable-to-start-on-ubuntu-20-04/474).\
+{% content-ref url="../logic-software/driver-install.md" %}
+[driver-install.md](../logic-software/driver-install.md)
+{% endcontent-ref %}
 
+If neither of the above solve the connection issue, this likely means that the Logic 2 app is able to connect to the device but some error occurs during the connection, and the software silently fails to connect. If the issue persists, please skip to _Contacting Support_ at the bottom of this article.
 
 **Software Does Not Have Permission to Access the Device**
 
@@ -113,10 +117,26 @@ Please provide the following information:
 1. The name of the Logic analyzer you are using (Logic 4, Logic 8, Logic Pro 8, etc.).
 2. The operating system(s) of the PC(s) you have tested on. Include the version of that OS and if it is 32-bit or 64-bit (e.g., Windows 7 x64 or OSX 10.10.5).
 3. Indicate if you were able to test with a second USB 3.0 cable or not (e.g., the included USB 3.0 cable and an extra USB 2.0 cable).
-4. The results of the above tests. Indicate if the OS was able to detect the device with the software closed and on which ports. Also indicate if the device vanished after opening the software, and if so, include the console output of the software as described in that test.
+4. The results of all the tests you have run. Indicate if the OS was able to detect the device with the software closed and on which ports. Also indicate if the device vanished after opening the software, and if so, include the console output of the software as described in that test.
 5. On Windows, include the name and driver version of your USB 3.0 host controller(s). Open Device Manager and expand the Universal Serial Bus Controllers. Locate the USB 3.0 host controller. Most PCs will only have one. Names vary between host controllers, but they can usually be identified with a name like one of these:
    * XHCI host controller
    * USB 3.0 host controller
    *   eXtensible Host Controller
 
        Once you have found the host controller, take note of the full name. Then check the driver version.
+6. Send us your Machine ID, software crash logs, and console output (instructions are provided in the links below).
+
+{% content-ref url="sharing-your-machine-id.md" %}
+[sharing-your-machine-id.md](sharing-your-machine-id.md)
+{% endcontent-ref %}
+
+{% content-ref url="sharing-crash-logs.md" %}
+[sharing-crash-logs.md](sharing-crash-logs.md)
+{% endcontent-ref %}
+
+{% content-ref url="console-output.md" %}
+[console-output.md](console-output.md)
+{% endcontent-ref %}
+
+
+

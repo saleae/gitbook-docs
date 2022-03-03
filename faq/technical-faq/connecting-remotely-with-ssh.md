@@ -6,7 +6,7 @@ There seems to be a few issues with running Electron applications (our Logic 2 a
 
 Specifically, you'll want to run the app as follows:
 
-`./Logic-2.3.40-master.AppImage --no-sandbox --no-xshm`
+`./Logic-2.x.xx-master.AppImage --no-sandbox --no-xshm`
 
 Based on our tests, the performance over SSH was quite poor, but another user in the forum post linked above recommended using compression like so:
 
