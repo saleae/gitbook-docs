@@ -1,9 +1,28 @@
-# Troubleshooting the Software Connection to the Device
+# Logic is Not Detected
 
-* With the device connected, after verifying that the OS can detect the device by following the procedure in the previous article, open the software.
-* If the software shows "Connected" in the title bar, then the software has connected to the device, and you can skip this section. If that does not happen consistently, then stay in this section.
+## **Part 1: Troubleshooting the Hardware for Issues**
 
-**The Software Detects and Connects to the Hardware Like This:**
+First, we will want to test if the Logic hardware or the USB cable has issues. We have a set of hardware tests in the support article below for submitting a warranty claim.
+
+{% content-ref url="../180-day-return-policy-and-3-year-warranty/process-a-warranty.md" %}
+[process-a-warranty.md](../180-day-return-policy-and-3-year-warranty/process-a-warranty.md)
+{% endcontent-ref %}
+
+If the device works at least once during the tests described in the support article linked above, it may be a problem that's solvable with software or driver updates. In that case, please proceed to Part 2: Troubleshooting the Connection to the Software below.
+
+## **Part 2: Troubleshooting the Connection to the Software**
+
+First, if you are troubleshooting Logic Pro 8 or Logic Pro 16, please check the link below to double check its connection to your PC via USB 3.0. &#x20;
+
+{% content-ref url="logic-does-not-connect-over-usb3.md" %}
+[logic-does-not-connect-over-usb3.md](logic-does-not-connect-over-usb3.md)
+{% endcontent-ref %}
+
+Please note that the windows driver update check will NOT update USB 3.0 host controller drivers. These are not included in the Windows update driver database and must be manually updated
+
+If you are on Windows and have USB 3.0 ports on your PC, please check your current host controller drivers and update them to the latest version. Detailed information can be found below.
+
+### **How Does Logic Initially Connect to the Software?**
 
 1. The software detects that the device is connected.
    * On Windows, the Saleae driver must be installed, as the software looks for devices using the Saleae driver.
@@ -28,6 +47,13 @@ After each test below, you will need to rerun the following procedure:
 4. Open the software.
 
 This is called the software connection procedure. It needs to be repeated in order to reset the state of the hardware and the software completely between tests.
+
+### Commonly Known Issues with Software Connections
+
+#### Known Connection Issues on Ubuntu 20
+
+We have heard reports of the Logic 2 app failing to detect the Logic hardware, even though the hardware is being successfully detected by the PC via lsusb (i.e. the VID/PID of the Logic hardware appear correct). Launching `sudo Logic --no-sandbox` seems to solves it for these users. For more information, this solution is discussed further in the [forum post here](https://discuss.saleae.com/t/unable-to-start-on-ubuntu-20-04/474).\
+
 
 **Software Does Not Have Permission to Access the Device**
 
@@ -78,20 +104,19 @@ If the device fails to re-enumerate after the firmware download completes, the s
 
 Example: You connect the device and then start the software. The software then shows the message "Please unplug, and then reconnect your device," and the software says "Disconnected" in the title bar. After performing all the tests above, including testing on multiple PCs, on different types of USB ports, with multiple cables, please contact support.
 
-**The Device Is Able to Connect Sometimes, but It Either Randomly Disconnects or Only Successfully Connects Some of the Time**
+## Contacting Support
 
-This could indicate a bad USB cable, a problem with the Logic analyzer, a ground loop problem, or an issue with the host controller or host controller driver.
+If the device is not connecting to the software successfully after following the above procedure, you will need to [contact support](https://contact.saleae.com/hc/en-us/requests/new).
 
-If the Logic analyzer is connected to a device under test, disconnect it. This will rule out the possibility of a common mode ground current interfering with the device. More info below.
+Please provide the following information:
 
-{% content-ref url="../user-guide/safety-and-warranty.md" %}
-[safety-and-warranty.md](../user-guide/safety-and-warranty.md)
-{% endcontent-ref %}
+1. The name of the Logic analyzer you are using (Logic 4, Logic 8, Logic Pro 8, etc.).
+2. The operating system(s) of the PC(s) you have tested on. Include the version of that OS and if it is 32-bit or 64-bit (e.g., Windows 7 x64 or OSX 10.10.5).
+3. Indicate if you were able to test with a second USB 3.0 cable or not (e.g., the included USB 3.0 cable and an extra USB 2.0 cable).
+4. The results of the above tests. Indicate if the OS was able to detect the device with the software closed and on which ports. Also indicate if the device vanished after opening the software, and if so, include the console output of the software as described in that test.
+5. On Windows, include the name and driver version of your USB 3.0 host controller(s). Open Device Manager and expand the Universal Serial Bus Controllers. Locate the USB 3.0 host controller. Most PCs will only have one. Names vary between host controllers, but they can usually be identified with a name like one of these:
+   * XHCI host controller
+   * USB 3.0 host controller
+   *   eXtensible Host Controller
 
-**The Device Successfully Connects to the Software, but There Are Capture Problems**
-
-See the guide below.
-
-{% content-ref url="device-not-able-to-keep-up.md" %}
-[device-not-able-to-keep-up.md](device-not-able-to-keep-up.md)
-{% endcontent-ref %}
+       Once you have found the host controller, take note of the full name. Then check the driver version.
