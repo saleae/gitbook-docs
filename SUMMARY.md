@@ -303,6 +303,7 @@
     * [Can I use Python Packages in my Custom Extension?](faq/technical-faq/python-package-support.md)
     * [Are the Inputs Synchronously Sampled or Sweep Sampled?](faq/technical-faq/are-the-inputs-synchronously-sampled-or-sweep-sampled.md)
     * [Is Logic Affected by the Log4j Exploit?](faq/technical-faq/is-logic-affected-by-the-log4j-exploit.md)
+    * [Connecting Remotely with SSH](faq/technical-faq/connecting-remotely-with-ssh.md)
     * [Is the .sal File Format Documented?](faq/technical-faq/sal-file-format.md)
   * [General FAQ](faq/general-faq/README.md)
     * [How Do I Get More Help on an Issue That's Outside the Scope of Saleae Support?](faq/general-faq/help-outside-scope.md)
