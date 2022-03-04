@@ -50,8 +50,8 @@ When [contacting us](https://contact.saleae.com/hc/en-us/requests/new), please l
 * Results of the following tests ([WebGL v1](https://webglreport.com/?v=1) and [WebGL v2](https://webglreport.com/?v=2))
 * In case you can launch [Logic 2.3.40](https://ideas.saleae.com/f/changelog/2340/) successfully, please send us your machine ID. Instructions are linked below.
 
-{% content-ref url="sharing-your-machine-id.md" %}
-[sharing-your-machine-id.md](sharing-your-machine-id.md)
+{% content-ref url="machine-id.md" %}
+[machine-id.md](machine-id.md)
 {% endcontent-ref %}
 
 

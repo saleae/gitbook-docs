@@ -126,12 +126,12 @@ Please provide the following information:
        Once you have found the host controller, take note of the full name. Then check the driver version.
 6. Send us your Machine ID, software crash logs, and console output (instructions are provided in the links below).
 
-{% content-ref url="sharing-your-machine-id.md" %}
-[sharing-your-machine-id.md](sharing-your-machine-id.md)
+{% content-ref url="machine-id.md" %}
+[machine-id.md](machine-id.md)
 {% endcontent-ref %}
 
-{% content-ref url="sharing-crash-logs.md" %}
-[sharing-crash-logs.md](sharing-crash-logs.md)
+{% content-ref url="crash-logs.md" %}
+[crash-logs.md](crash-logs.md)
 {% endcontent-ref %}
 
 {% content-ref url="console-output.md" %}

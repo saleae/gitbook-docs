@@ -28,8 +28,8 @@ These error messages do not have an error code associated with them. You can lea
 
 Our support team may require you to send your Machine ID to help us investigate any issues you may be having when using our software. Please refer to the link below to share your Machine ID with us.
 
-{% content-ref url="sharing-your-machine-id.md" %}
-[sharing-your-machine-id.md](sharing-your-machine-id.md)
+{% content-ref url="machine-id.md" %}
+[machine-id.md](machine-id.md)
 {% endcontent-ref %}
 
 
