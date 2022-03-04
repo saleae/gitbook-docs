@@ -18,8 +18,8 @@ Function: Device2::SetupDevice, Line: 118
 
 The location of the generated crash logs can be found in the support article below.
 
-{% content-ref url="crash-logs.md" %}
-[crash-logs.md](crash-logs.md)
+{% content-ref url="sharing-crash-logs.md" %}
+[sharing-crash-logs.md](sharing-crash-logs.md)
 {% endcontent-ref %}
 
 ### Known Solutions

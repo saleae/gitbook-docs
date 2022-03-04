@@ -1,4 +1,4 @@
-# Sharing your Machine ID
+# Getting your Machine ID
 
 In some cases, our support team may request for your machine ID to investigate bugs on the [Logic v2 software](https://ideas.saleae.com/f/changelog/). To find your machine ID, click on the Options button on the bottom-right, then click "About."
 
