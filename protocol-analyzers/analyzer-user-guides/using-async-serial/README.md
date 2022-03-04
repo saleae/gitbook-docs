@@ -88,6 +88,12 @@ In case you are unfamiliar with extensions and measurements, you may refer to th
 
 ### **Common Issues**
 
+* Decoded data may be offset if there are no gaps between data transactions. An example of this issue is shown in the image below. This is especially apparent when the Logic capture is started in the middle of data transmission. The workarounds would be as follows:
+  * Make sure to start your capture before serial data transmission has begun.
+  * Ensure that your transmitted data contains idle periods of at least 1 transaction wide. Our Async Serial will always resync on the next set of data after the idle period of 1 transaction wide.
+
+![Decoded Data is Offset](<../../../.gitbook/assets/Screen Shot 2022-03-03 at 8.23.35 PM.png>)
+
 * How do I decode more than one channel of serial at once, such as RX and TX signals? To do this, add two instances of the Async Serial analyzer. More information on using multiple analyzers can be found below.
 
 {% content-ref url="../../../faq/technical-faq/recording-multiple-protocols.md" %}
