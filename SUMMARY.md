@@ -193,6 +193,7 @@
   * [Data Table Shows Incorrect Values](troubleshooting/data-table-shows-incorrect-values.md)
   * [Error Message: Failed to Load Custom Analyzer](troubleshooting/failed-to-load-lla.md)
   * [Error Message: Capture Stopped](troubleshooting/capture-stopped-error.md)
+  * [Error Loading Marketplace Extensions](troubleshooting/error-loading-marketplace-extensions.md)
   * [Mouse Scrolling Issues](troubleshooting/mouse-scrolling-issues.md)
 * [FAQ](faq/README.md)
   * [Technical FAQ](faq/technical-faq/README.md)
