@@ -65,12 +65,7 @@ Unfortunately, newer versions of our Logic 2 software (starting v2.3.33) no long
 
 **5. Contacting Support**
 
-In case the solutions above don't help, please [contact us](https://contact.saleae.com/hc/en-us/requests/new) as we may need to take a look at the output of the following commands to debug this further.
-
-* `./Logic-2.x.xx-master.AppImage --appimage-extract` **(replace "x.xx" with the specific version of Logic 2)**
-* `cd squashfs-root/resources/linux`&#x20;
-* `ldd libgraph_server_shared.so`&#x20;
-* `ldd -v libgraph_server_shared.so`
+In case the solutions above don't help, please [contact us](https://contact.saleae.com/hc/en-us/requests/new) and send us the output of the commands generated from step 3 above.``
 
 ### Windows 10 Solutions
 
