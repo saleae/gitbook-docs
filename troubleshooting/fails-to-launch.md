@@ -40,7 +40,14 @@ If you see this error message, try launching the software with the `--no-sandbox
 
 #### 3. Install libnsl
 
-If you are attempting to run our Logic 2 software on Linux, a common issue we have seen is as follows:
+If you are attempting to run our Logic 2 software on Linux, take a look at the output of the following commands.
+
+* `./Logic-2.x.xx-master.AppImage --appimage-extract` **(replace "x.xx" with the specific version of Logic 2)**
+* `cd squashfs-root/resources/linux`&#x20;
+* `ldd libgraph_server_shared.so`&#x20;
+* `ldd -v libgraph_server_shared.so`
+
+Open the generated output file and search for a line similar to the following:
 
 `libnsl.so.1 => not found`
 
