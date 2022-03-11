@@ -1,64 +1,42 @@
 # Logic 1.x Download
 
 {% hint style="info" %}
-Starting January 4 2022, Saleae has released a new hardware revision of our Logic Pro 16 devices. **These new units are not compatible with the legacy Logic 1.x software**, and require the latest version of the Logic 2 software, available [here](https://www.saleae.com/downloads/). We are working toward a solution for automation users who are still using the Logic 1.x software. If you have already purchased new Logic Pro 16 device after the date mentioned above, or plan to order new units for use with the Logic 1.x automation API, please contact us for details [here](https://contact.saleae.com/hc/en-us/requests/new). Users can check their hardware revision with the instructions [here](../../datasheets-and-specifications/logic-hardware-revisions.md).&#x20;
+Starting January 4, 2022, Saleae has released a new hardware revision of our analyzers, starting with Logic Pro 16, which requires the latest version of the Logic 2 software available [here](https://www.saleae.com/downloads/).
+
+Otherwise, if you require using our legacy Logic 1.x software (typically, due to needing support for our Automation API), these new units will require Logic 1.2.40 available below.&#x20;
 {% endhint %}
 
-## Logic 1.2.18 - Last Stable Release of Logic 1.x
+## Logic 1.2.40
+
+![](<../../.gitbook/assets/Screen Shot 2022-03-10 at 8.21.14 PM.png>)
+
+### 1.2.**40** Download Links
+
+Windows 64-bit standalone release:\
+[https://downloads.saleae.com/logic/1.2.40/Logic-1.2.40-Windows.zip](https://downloads.saleae.com/logic/1.2.40/Logic-1.2.40-Windows.zip)
 
 {% hint style="info" %}
-For an easy installation and runtime experience, we recommend using Logic 1.2.18. Otherwise, please note that we generally recommend Logic 1.2.29 Beta to get the latest Logic 1.x bug fixes and features such as real-time view. The downside of Logic 1.2.29 is that it contains an "Unsupported Version" error upon startup, and a few workaround steps are required to get around it.
+Please be aware of the following requirements for the Windows standalone release:
+
+* The Microsoft Visual Studio runtime needs to be installed before the software will run. The standalone zip file includes the installer for the Microsoft Visual Studio runtime. The included readme provides additional details.
+* If drivers are not already installed, you will need to install the drivers, which are included with the standalone download. Also, our drivers never change, so if you installed from any Logic version in the past, you will not need to do so again. You can find instructions for installing our drivers in the link below.
 {% endhint %}
 
-![](<../../.gitbook/assets/Screen Shot 2021-09-09 at 3.18.34 PM.png>)
-
-### **1.2.18 Download**
-
-Windows (32 bit and 64 bit):\
-[https://downloads.saleae.com/logic/1.2.18/Logic+Setup+1.2.18.exe](https://downloads.saleae.com/logic/1.2.18/Logic+Setup+1.2.18.exe)
-
-OSX 10.7+:\
-[https://downloads.saleae.com/logic/1.2.18/Logic-1.2.18-Darwin.dmg](https://downloads.saleae.com/logic/1.2.18/Logic-1.2.18-Darwin.dmg)
-
-Linux 64 bit:\
-[https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+(64-bit).zip](https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+\(64-bit\).zip)
-
-Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7. [https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+(64-bit)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+\(64-bit\)+compatibility\_release.zip)
-
-Widows Standalone Releases:
-
-Windows 32 bit (no installer):\
-[https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+Win+32+Standalone.zip)\
-Windows 64 bit (no installer):\
-[https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+Win+64+Standalone.zip)
-
-
-
-## Logic 1.2.29 Beta - Last Version of Logic 1.x
-
-The last version of Logic 1.x is v1.2.29. This is the version we recommend using and will contain all the latest stability fixes and features such as real-time view during captures. The downside of this is that it may launch with an error as described below, which has a workaround. If you prefer to have a more simple installation and runtime experience without having to resort to a workaround, we recommend using Logic 1.2.18.
-
-### Workaround for the "Unsupported Version" Error
-
-When launching 1.2.29, you may see an "Unsupported Version" notice like shown below.
-
-![Unsupported Version warning message in Logic 1.x](<../../.gitbook/assets/Screen Shot 2020-08-03 at 5.35.31 PM (1).png>)
-
-If you see this notice, please start the software using the instructions in the support article below.
-
-{% content-ref url="../../troubleshooting/unsupported-version.md" %}
-[unsupported-version.md](../../troubleshooting/unsupported-version.md)
+{% content-ref url="../driver-install.md" %}
+[driver-install.md](../driver-install.md)
 {% endcontent-ref %}
 
-### Why is it called a Beta Release?
+Mac OS X 10.8+\
+[https://downloads.saleae.com/logic/1.2.40/Logic-1.2.40-MacOS.dmg](https://downloads.saleae.com/logic/1.2.40/Logic-1.2.40-MacOS.dmg)
 
-Logic 1.2.18 was the last release of Logic 1.x that we denoted as a "stable" release and was made availble on our main download page. Releases after 1.2.18 were denoted as "Beta" while we slowly implemented a brand new real-time view feature, with the plans of releasing a "stable" release once we've confirmed that the version was in fact stable.
+Linux 64-Bit\
+[https://downloads.saleae.com/logic/1.2.40/Logic-1.2.40-Linux.AppImage](https://downloads.saleae.com/logic/1.2.40/Logic-1.2.40-Linux.AppImage)
 
-During that time, we also began work on a completely revamped version of our software, [Logic 2](https://www.saleae.com/downloads/), which is available now. While deciding to soley focus on improving the Logic 2 software, we ultimately decided to halt our efforts on releasing a final "stable" release of Logic 1.x, which we would have called Logic 1.2.30.
 
-Although Logic 1.2.29 has the "Beta" title attached to it, we do recommend it over Logic 1.2.18 and consider it as stable at this point. We simply decided not to spend time and resources away from Logic 2 development to remove the "Beta" text from the 1.2.29 software in addition to fixing the "Unsupported Version" error that we describe above.
 
-### 1.2.29 Beta Download Links
+## Older Versions of Logic 1.x
+
+### 1.2.29 Beta Download
 
 Windows\
 [Logic Setup 1.2.29.exe](https://downloads.saleae.com/logic/1.2.29/Logic+Setup+1.2.29.exe)
@@ -79,27 +57,17 @@ Windows 32-Bit Standalone\
 Windows 64-Bit Standalone\
 [https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.29/Logic+1.2.29+Win+64+Standalone.zip)
 
+#### Workaround for the "Unsupported Version" Error
 
+When launching 1.2.29, you may see an "Unsupported Version" notice like shown below.
 
-## Notes on Standalone Releases
+![Unsupported Version warning message in Logic 1.x](<../../.gitbook/assets/Screen Shot 2020-08-03 at 5.35.31 PM (1).png>)
 
-For more information on the standalone versions of our software, please view the support article below.
+If you see this notice, please start the software using the instructions in the support article below.
 
-{% content-ref url="../../faq/technical-faq/standalone-software-info.md" %}
-[standalone-software-info.md](../../faq/technical-faq/standalone-software-info.md)
+{% content-ref url="../../troubleshooting/unsupported-version.md" %}
+[unsupported-version.md](../../troubleshooting/unsupported-version.md)
 {% endcontent-ref %}
-
-{% hint style="info" %}
-When using the standalone version of the software, the drivers must be installed manually. Refer to the Driver Install link below for instructions.
-{% endhint %}
-
-{% content-ref url="../driver-install.md" %}
-[driver-install.md](../driver-install.md)
-{% endcontent-ref %}
-
-
-
-## All Other Older Versions of Logic 1.x
 
 ### **1.2.28 Beta Download**
 
@@ -280,6 +248,26 @@ Windows 32 bit (no installer):\
 [https://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+Win+32+Standalone.zip)\
 Windows 64 bit (no installer):\
 [https://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.19/Logic+1.2.19+Win+64+Standalone.zip)
+
+### **1.2.18 Download**
+
+Windows (32 bit and 64 bit):\
+[https://downloads.saleae.com/logic/1.2.18/Logic+Setup+1.2.18.exe](https://downloads.saleae.com/logic/1.2.18/Logic+Setup+1.2.18.exe)
+
+OSX 10.7+:\
+[https://downloads.saleae.com/logic/1.2.18/Logic-1.2.18-Darwin.dmg](https://downloads.saleae.com/logic/1.2.18/Logic-1.2.18-Darwin.dmg)
+
+Linux 64 bit:\
+[https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+(64-bit).zip](https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+\(64-bit\).zip)
+
+Linux Compatibility release, for users with older libraries: Linux 64 bit - not yet tested after update to QT 5.7. [https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+(64-bit)+compatibility\_release.zip](https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+\(64-bit\)+compatibility\_release.zip)
+
+Widows Standalone Releases:
+
+Windows 32 bit (no installer):\
+[https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+Win+32+Standalone.zip](https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+Win+32+Standalone.zip)\
+Windows 64 bit (no installer):\
+[https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+Win+64+Standalone.zip](https://downloads.saleae.com/logic/1.2.18/Logic+1.2.18+Win+64+Standalone.zip)
 
 ### **1.2.17 Download**
 
