@@ -1,9 +1,5 @@
 # Socket API - Automation
 
-{% hint style="info" %}
-Starting January 4 2022, Saleae has released a new hardware revision of our Logic Pro 16 devices. **These new units are not compatible with the legacy Logic 1.x software**, and require the latest version of the Logic 2 software, available [here](https://www.saleae.com/downloads/). We are working toward a solution for automation users who are still using the Logic 1.x software. If you have already purchased new Logic Pro 16 device after the date mentioned above, or plan to order new units for use with the Logic 1.x automation API, please contact us for details [here](https://contact.saleae.com/hc/en-us/requests/new). Users can check their hardware revision with the instructions [here](../../datasheets-and-specifications/logic-hardware-revisions.md).&#x20;
-{% endhint %}
-
 The Socket API scripting utility allows users to programmatically configure our software and trigger captures.
 
 ### Prerequisites - Software Settings
@@ -12,7 +8,7 @@ The Socket API scripting utility allows users to programmatically configure our 
 Please note that the Socket API automation utility requires the older Logic 1.x software. The latest Logic 2 software currently does not support this utility, though we do plan to add support for it in the future. Feel free to [vote on the idea here!](https://ideas.saleae.com/b/feature-requests/application-api/)
 {% endhint %}
 
-* Check that you are using the older Logic 1.x software below (we recommend version 1.2.29).
+* Check that you are using the latest version of our legacy Logic 1.x software below.
 
 {% content-ref url="../../logic-software/legacy-software/older-software-releases.md" %}
 [older-software-releases.md](../../logic-software/legacy-software/older-software-releases.md)
