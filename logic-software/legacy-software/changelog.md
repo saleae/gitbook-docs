@@ -1,24 +1,20 @@
 # Logic 1.x Changelog
 
-### About Real-Time Display (versions 1.2.23 - 1.2.29)
-
-Since digital and analog data are processed in software before they can be displayed, the performance of the real-time view will depend on the performance of your machine.
-
-First, for analog data display, we recommend disabling "upsampled pipeline" in the software preferences. That increases analog processing performance by a significant margin.
-
-Second, when the software is no longer able to process in real time, a backlog of unprocessed data builds up, and the data available on the screen is no longer the latest information. Lowering sample rates or turning off unused channels will improve performance.
-
-Third, the software can process digital data faster than analog data for any given sample rate. Sometimes, digital will be able to keep up in real time, but analog will fall behind. In these cases, you may not see any analog data if you zoom in, and if you zoom out, you will see it lag behind digital data. In these situations, we recommend lowering the analog sample rate or disabling channels to improve performance.
-
-Generally speaking, a few analog channels at sample rates less than 10 MS/s with the "upsampled pipeline" disabled should be able to keep up in real time on most machines.
-
 ## Changelog
+
+Changes in 1.2.40:
+
+1. Adds support for revision 3.0.0 Logic hardware. More information on hardware revisions can be found in the link below.
+
+{% content-ref url="../../datasheets-and-specifications/logic-hardware-revisions.md" %}
+[logic-hardware-revisions.md](../../datasheets-and-specifications/logic-hardware-revisions.md)
+{% endcontent-ref %}
 
 Changes in 1.2.29 Beta:
 
 1. New calibration filter implementation, should speed up analog processing by about 2.5x
 2. Fixed bug in auto-update system
-3. Fixed bug in the analyzer minimum sample rate warning system
+3. Fixed bug in the analyzer minimum sample rate warning systeAbout Real-Time Display (versions 1.2.23 - 1.2.29)
 
 Changes in 1.2.28 Beta:
 
