@@ -15,7 +15,7 @@ cd C:\Users\Username\Downloads
 "Logic Setup 2.x.xx-master.exe" /L*V installog.txt
 ```
 
-Afterwards, [contact us](https://contact.saleae.com/hc/en-us/requests/new) and attach your `installog.txt` file (it will be generated in the same location as your installer) and we can take a look at what could be causing it.
+Afterwards, [contact us](https://contact.saleae.com/hc/en-us/requests/new) and attach your `installog.txt` file (it will be generated in the same location as your installer) and we can take a look at what could be causing the install error.
 
 ### Windows Driver Signature Validation Issue
 
