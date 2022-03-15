@@ -29,7 +29,7 @@ Use the Browse button to direct the driver wizard to the Drivers folder, which i
 * For the legacy Logic 1.x software (installed), the Drivers folder is located below:&#x20;
   * `C:\Program Files\Saleae LLC\Drivers`
 
-![](../.gitbook/assets/imageedit\_2\_5919687508.png)
+![New Hardware Wizard Installation - Browse to Driver Location](../.gitbook/assets/imageedit\_2\_2912895661.png)
 
 Click Next. If this fails, continue below.
 
@@ -49,7 +49,7 @@ Next, it will ask you for the device type. Select "Universal Serial Bus Controll
 
 This option is only present if no existing driver is installed. If a driver is already installed, this step will be skipped.
 
-Now you will be presented with a window you may remember from installing printer drivers on Windows 95. Click the "Have Disk..." button.
+Now you will be presented with a window like shown below. Click the "Have Disk..." button.
 
 ![](https://trello-attachments.s3.amazonaws.com/57215d889e8ae939fe4a2834/630x470/88234f6fb7d365deebc9cf6b5d4a4eef/page\_3.PNG)
 
@@ -113,10 +113,8 @@ If at the end of this process you still get an error, please [contact support](h
 * Any information that may have been displayed when the drivers failed to install.
 * How does the device show up under Device Manager?
 * The driver install logs locations are described below.
-  * On XP, these are located here:&#x20;
-    * C:\Windows\setupapi.log
-  * On newer versions of Windows, it should be here:&#x20;
-    * C:\WINDOWS\INF\setupapi.dev.log
+  * On Windows, it should be located below:&#x20;
+    * `C:\WINDOWS\INF\setupapi.dev.log`
 
 ## Linux Ubuntu Instructions
 
@@ -135,10 +133,3 @@ Instructions:&#x20;
 
 `cat /tmp/.mount_Logic-AZEAnR/resources/linux/99-SaleaeLogic.rules | sudo tee /etc/udev/rules.d/99-SaleaeLogic.rules > /dev/null && echo "finished installing /etc/udev/rules.d/99-SaleaeLogic.rules"`
 
-``
-
-## Logic 1.x Instructions
-
-
-
-*
