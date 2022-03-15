@@ -35,15 +35,11 @@ Click Next. If this fails, continue below.
 
 ### Method 2: "Have-Disk" Manual Installation
 
-{% hint style="info" %}
-Before continuing, please make sure you have the latest Logic software version installed. If you are using an older version, such as 1.1.15, the below steps will create additional problems. Please contact support if you are unsure if you have the correct software installed.
-{% endhint %}
-
 Open the Device Manager. Right-click the Logic device and select Update Driver. Click "Browse my computer for driver software."
 
 Click "Let me pick from a list of device drivers on my computer."
 
-![](https://trello-attachments.s3.amazonaws.com/57215d889e8ae939fe4a2834/630x469/8d291c47af4d57a5d080501b24ed0523/page\_2.PNG)
+![Let me pick from a list of device drivers on my computer](../.gitbook/assets/imageedit\_4\_6385420720.png)
 
 Next, it will ask you for the device type. Select "Universal Serial Bus Controllers."
 
@@ -51,19 +47,17 @@ This option is only present if no existing driver is installed. If a driver is a
 
 Now you will be presented with a window like shown below. Click the "Have Disk..." button.
 
-![](https://trello-attachments.s3.amazonaws.com/57215d889e8ae939fe4a2834/630x470/88234f6fb7d365deebc9cf6b5d4a4eef/page\_3.PNG)
+![Click "Have Disk..."](../.gitbook/assets/imageedit\_6\_7102237241.png)
 
-This will open the install from the disk window, which will assume that you have inserted a floppy disk into drive A with the drivers. Click browse, navigate to the extracted drivers folder, and select Saleae.inf.
+This will open the install from the disk window, which will assume that you have inserted an installation disk into drive A with the drivers. Click browse, navigate to the drivers folder (the location is described above in Method 1), and select `Saleae.inf`.
 
-![](https://trello-attachments.s3.amazonaws.com/57215d889e8ae939fe4a2834/440x239/4b72f41b11b7fba1f873df28df6261da/page\_4.PNG)
-
-![](https://trello-attachments.s3.amazonaws.com/57215d889e8ae939fe4a2834/573x427/9c75de05f81dd754af3f2fe7611ee123/page\_5.PNG)
+![Install From Disk - Click Browse](<../.gitbook/assets/Screen Shot 2022-03-15 at 12.54.29 PM.png>)
 
 At this point, you should see either just the device you have connected or both Logic and Logic16. See below for details before selecting the device you are using.
 
 If the checkbox for "Show compatible hardware" is checked, only 1 device should be shown. If it is not the correct device, then uncheck it to see all available Saleae drivers, as shown below.
 
-![](https://trello-attachments.s3.amazonaws.com/57215d889e8ae939fe4a2834/629x468/cb7a842f13a54506e4b070799e692e85/page\_6.PNG)
+![Uncheck "Show compatible hardware" to list all Logic models](../.gitbook/assets/imageedit\_8\_8349875656.png)
 
 These are all of the drivers that are included with the latest beta software, which you should see in the list when the checkbox for "Show compatible hardware" is not selected.
 
