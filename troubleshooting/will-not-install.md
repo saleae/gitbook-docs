@@ -6,9 +6,16 @@ When installing the Logic 2 software, you may come across the following installa
 
 ![Logic 2 Installer Error](<../.gitbook/assets/image (11).png>)
 
-In case you run into any installation issues like shown above, please try installing the software with the following command line argument to generate a log file (replacing the "x"s with the particular version you are installing). Afterwards, [contact us](https://contact.saleae.com/hc/en-us/requests/new) and attach your `installog.txt` file and we can take a look at what could be causing it.
+In case you run into any installation issues like shown above, please try installing the software with the following command line argument to generate a log file (replacing the "x"s with the particular version you are installing).&#x20;
 
-`"Logic Setup 2.x.xx-master.exe" /L*V installog.txt`
+For example, if your installer is located inside of your Downloads folder, you can run the following commands in Command Prompt.
+
+```
+cd C:\Users\Username\Downloads
+"Logic Setup 2.x.xx-master.exe" /L*V installog.txt
+```
+
+Afterwards, [contact us](https://contact.saleae.com/hc/en-us/requests/new) and attach your `installog.txt` file (it will be generated in the same location as your installer) and we can take a look at what could be causing it.
 
 ### Windows Driver Signature Validation Issue
 
