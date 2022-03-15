@@ -1,20 +1,10 @@
 # Driver Install
 
-Normally, when the Logic software is installed, the product should simply work when connected to the PC. In other cases, such as when using the standalone version of the software, the drivers must be installed manually.
-
-### Prerequisites to Review
-
-#### Using Logic 4, Logic 8, Pro 8, or Pro 16?
-
-If you are using any of the Gen 2 products (Logic 4, Logic 8, Pro 8, Pro 16), you must use the latest version of the [Logic 2 software](https://www.saleae.com/downloads/).
-
-#### Using Original Logic or Logic16?
-
-If you have manually installed the 1st generation Logic or Logic16 drivers in the past, you will need to update to the latest software and then manually install the correct driver again.
+Normally, when the Logic software is installed, the product should simply work when connected to the PC. In case you run into any issues with this, the drivers may need to be installed manually.
 
 #### Device Shows up as _WestBridge_ or _unidentified device_
 
-In Windows, the Saleae Logic may show up as a _WestBridge_ or _unidentified_ device in device manager. If this is the case, then there is a problem with the Saleae driver. Please install the driver per the methods listed in this support article.
+A common issue in Windows is that the Saleae Logic may show up as a _WestBridge_ or _unidentified_ device in device manager. If this is the case, then there is a problem with the Saleae driver. Please install the driver per the methods listed in this support article.
 
 ![Saleae Logic showing up as a WestBridge device](<../.gitbook/assets/Screen Shot 2020-09-10 at 4.26.44 PM.png>)
 
@@ -24,23 +14,22 @@ If the drivers are installed properly, you should see _Saleae Logic X USB Logic 
 
 ### Method 1: New Hardware Wizard Installation
 
-We want to get to the new-hardware wizard for Logic. Please connect Logic and then open the Device Manager.
+We want to get to the new-hardware wizard for Logic. Please connect Logic to the PC and open Device Manager. In Windows 10 and 8.1, you can right-click on the Windows logo in the lower left and select Device Manager.
 
-* In Windows 10 and 8.1, you can right-click on the Windows logo in the lower left and select Device Manager.
-* In Windows 8.0, you can search for the Device Manager from the Start screen.
-* In Windows 7 and Vista, you need to open the Control Panel, select System, and then click the link for Device Manager on the left.
-* In Windows XP,  you will need to open the Control Panel, open System, go to the Hardware tab, and click the button for Device Manager.
-
-In Device Manager, I'm guessing that Logic will show up right away as an unknown device with a warning icon next to it. Right-click this and select Update Driver.
+In Device Manager, Logic might show up right away as an unknown device with a warning icon next to it. Right-click this and select Update Driver.
 
 Select the second option for "Browse my computer for driver software."
 
 Use the Browse button to direct the driver wizard to the Drivers folder, which is located where the Logic software was installed. Make sure the "Include Subfolders" checkbox is checked.
 
-* If the Logic software is already installed, the Drivers folder is here: C:\Program Files\Saleae LLC\Drivers
-*   Otherwise, if using the standalone software, the Drivers folder is here:
+* For the Logic 2 software, the Drivers folder is located below:
+  * `C:\Program Files\Logic\Drivers`
+* For the legacy Logic 1.x software (standalone), the Drivers folder is located below:&#x20;
+  * `\Drivers\Windows`
+* For the legacy Logic 1.x software (installed), the Drivers folder is located below:&#x20;
+  * `C:\Program Files\Saleae LLC\Drivers`
 
-    \Drivers\Windows
+![](../.gitbook/assets/imageedit\_2\_5919687508.png)
 
 Click Next. If this fails, continue below.
 
@@ -145,3 +134,11 @@ Instructions:&#x20;
 6. Open the Logic app
 
 `cat /tmp/.mount_Logic-AZEAnR/resources/linux/99-SaleaeLogic.rules | sudo tee /etc/udev/rules.d/99-SaleaeLogic.rules > /dev/null && echo "finished installing /etc/udev/rules.d/99-SaleaeLogic.rules"`
+
+``
+
+## Logic 1.x Instructions
+
+
+
+*
