@@ -31,6 +31,7 @@ This list contains every distributor currently selling Saleae devices. Please no
 * [Microchip Technology Inc.](http://www.microchipdirect.com/searchparts.aspx?q=saleae\&resperpage=10) - US
 * [Microdevice Technologies](https://www.microdevice.in/products) - India
 * [MicroEmbesys Technologies Pvt Ltd](http://microembesys.com/logic-analyzer/) - India
+* [NTREX](https://www.devicemart.co.kr/goods/view?no=14453007) - South Korea
 * [Oceansky Technology ](http://oceansky-technology.com/commerce/product\_info.php?products\_id=14861\&sid=abf33532e1f39dee3759e0f997ad9779) - Taiwan
 * [Pertech Embedded Solution](http://www.pertech.co.il/saleae/) - Israel
 * [Play-Zone GmbH](http://www.play-zone.ch/en/catalogsearch/result/?q=saleae\&x=0\&y=0) - Switzerland
