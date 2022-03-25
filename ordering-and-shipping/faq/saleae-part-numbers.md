@@ -137,7 +137,7 @@ Note: The prices shown below are in USD currency. When placing an online order, 
 
 * Part Number: SAL-00140
 * HS Code: 85363080000
-* Price (USD): $259.00
+* Price (USD): $299.00
 
 #### Binho Nova Multi-Protocol USB Host Adapter
 
