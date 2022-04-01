@@ -36,7 +36,22 @@ Linux 64-Bit\
 
 ## Older Versions of Logic 1.x
 
+### **Temporary Releases**
+
+We released a temporary fix for processor incompatibilies mentioned in the support article below. The fixes have been implemented in v1.2.40, so these versions have become obsolete and unneeded.&#x20;
+
+{% content-ref url="../../troubleshooting/error-function-device2-setupdevice.md" %}
+[error-function-device2-setupdevice.md](../../troubleshooting/error-function-device2-setupdevice.md)
+{% endcontent-ref %}
+
+We don't recommend running this version of the software, but we will provide it here to help keep an archive of all previously available versions of our software.
+
+* Windows: [Logic-1.2.35](https://downloads.saleae.com/betas/1.2.35/Logic-1.2.35-win64.zip)
+* MacOS: [Logic-1.2.33](https://downloads.saleae.com/betas/1.2.33/Logic-1.2.33-MacOS.dmg)
+
 ### 1.2.29 Beta Download
+
+Before the release of 1.2.40, this was the last version of Logic 1.x that we recommened for use.
 
 Windows\
 [Logic Setup 1.2.29.exe](https://downloads.saleae.com/logic/1.2.29/Logic+Setup+1.2.29.exe)
