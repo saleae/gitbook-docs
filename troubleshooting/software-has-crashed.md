@@ -58,7 +58,13 @@ The following information applies to the older Logic 1.x software.
 
 Please try the following solutions first before contacting support.
 
-* If the Logic software runs fine while the Logic hardware is not connected, but crashes immediately after the Logic hardware is connected to the PC, please follow the troubleshooting steps in the link below. This support article describes steps to look for a commonly found error in the header of the crash log. If the error matches (`Error Function: Device2::SetupDevice`), you can refer to the known solutions in that support article for the particular error.
+* Please try installing the latest version of Logic 1.x available below.
+
+{% content-ref url="../logic-software/legacy-software/older-software-releases.md" %}
+[older-software-releases.md](../logic-software/legacy-software/older-software-releases.md)
+{% endcontent-ref %}
+
+* If the Logic software runs fine while the Logic hardware is not connected, but crashes immediately after the Logic hardware is connected to the PC, you may be running into the issue described in the support article below. This issue is solved by downloading the latest version of Logic 1.x as described above.
 
 {% content-ref url="error-function-device2-setupdevice.md" %}
 [error-function-device2-setupdevice.md](error-function-device2-setupdevice.md)
