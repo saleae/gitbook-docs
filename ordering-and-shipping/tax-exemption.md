@@ -8,10 +8,13 @@ Please wait for our support team's approval email (usually 1-2 business days aft
 
 ### Process for Removing Tax Charges
 
-1. Before placing your order, [contact us](https://contact.saleae.com/hc/en-us/requests/new) and let us know you would like sales tax removed on future orders. Include an attachment of your tax exemption certificate.
-2. Wait for our support team's approval email (usually 1-2 business days after the tax exemption certificate is provided).
-3. After receiving approval, your future orders on [www.saleae.com](https://www.saleae.com) will be tax-exempt when using the email you have provided us.
-4. When placing your order, ensure that taxes have been successfully removed before submitting your order. If taxes still appear on our check out page, please do not submit your order and [contact us](https://contact.saleae.com/hc/en-us/requests/new) to have this resolved.
+This process applies to online orders that will ship to the state of California. Online orders that will ship to all other U.S. states will not be charged taxes by default.
+
+1. Please review [California's Resale Certificate Requirements](https://www.taxes.ca.gov/Sales\_and\_Use\_Tax/ResaleCertificate.html) and ensure that your tax exemption certificate meets these requirements.
+2. Before placing your online order at [www.saleae.com](https://www.saleae.com), please [contact us](https://contact.saleae.com/hc/en-us/requests/new) and let us know you would like sales tax removed on future orders. Include an attachment of your tax exemption certificate.
+3. Wait for our support team's approval email (usually 1-2 business days after the tax exemption certificate is provided).
+4. After receiving approval, your future orders on [www.saleae.com](https://www.saleae.com) will be tax-exempt when using the email you have provided us.
+5. When placing your order, ensure that taxes have been successfully removed before submitting your order. If taxes still appear on our check out page, please do not submit your order and [contact us](https://contact.saleae.com/hc/en-us/requests/new) to have this resolved.
 
 ### Refund of Tax Charges
 
