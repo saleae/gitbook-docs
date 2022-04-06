@@ -150,7 +150,6 @@
   * [The Maximum Sample Rate is Not Selectable](troubleshooting/maximum-sample-rate-not-selectable.md)
   * [The Digital and Analog Recording on the Same Channel Appear Different](troubleshooting/digital-and-analog-appear-different.md)
   * [Advanced USB Debugging for USB 3.0 Users with Linux Kernels 3.3 and Older](troubleshooting/usb-debugging-for-linux-kernels.md)
-  * [Driver Install Fails on Windows XP](troubleshooting/driver-install-fails-on-winxp.md)
   * [Saving or Loading Anything Crashes the Software](troubleshooting/saving-or-loading-anything-crashes-the-sw.md)
   * [Error Message: The application was unable to start correctly (0xc0000005)](troubleshooting/error-message-0xc0000005.md)
   * [Memory Usage with Triggered Captures](troubleshooting/memory-usage-with-triggered-captures.md)
