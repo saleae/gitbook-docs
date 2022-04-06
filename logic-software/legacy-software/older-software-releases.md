@@ -19,7 +19,7 @@ Windows 64-bit standalone release:\
 Please be aware of the following requirements for the Windows standalone release:
 
 * The [Microsoft Visual Studio runtime](https://www.microsoft.com/en-us/download/details.aspx?id=48145) needs to be installed before the software will run.
-* If drivers are not already installed from a previous installation of the Logic software, you will need to install the drivers manually, which are included with the standalone download. Our drivers never change, so if you installed from any Logic version in the past, you will not need to do so again. You can find instructions for installing our drivers in the link below.
+* If drivers are not already installed from a previous installation of the Logic software, you will need to install the drivers manually. You can find instructions for installing our drivers in the link below.
 {% endhint %}
 
 {% content-ref url="../driver-install.md" %}
