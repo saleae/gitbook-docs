@@ -10,7 +10,21 @@ A common issue in Windows is that the Saleae Logic may show up as a _WestBridge_
 
 If the drivers are installed properly, you should see _Saleae Logic X USB Logic Analyzer_ in Device Manager, where "X" is the specific product version (4, 8, Pro 8, Pro 16).
 
-## Windows Instructions
+## Manual Driver Installation (Windows)
+
+### Location of Driver Files
+
+To manually install your drivers on Windows, in case you're running into the issue above, or if you are using the standalone version of our software which doesn't install drivers automatically, you will need access to the driver files. There are several ways of obtaining them mentioned below.
+
+* For the Logic 2 software, the Drivers folder is located below:
+  * `C:\Program Files\Logic\Drivers`
+* For the legacy Logic 1.x software (standalone), the Drivers folder is located below:&#x20;
+  * `<Logic standalone folder>\Drivers\Windows`
+* For the legacy Logic 1.x software (installed), the Drivers folder is located below:&#x20;
+  * `C:\Program Files\Saleae LLC\Drivers`
+* In case you don't have a previous installation of the Logic software, we provide the Drivers folder via the download link below.
+
+{% file src="../.gitbook/assets/Saleae-Logic-Drivers.zip" %}
 
 ### Method 1: New Hardware Wizard Installation
 
@@ -20,14 +34,7 @@ In Device Manager, Logic might show up right away as an unknown device with a wa
 
 Select the second option for "Browse my computer for driver software."
 
-Use the Browse button to direct the driver wizard to the Drivers folder, which is located where the Logic software was installed. Make sure the "Include Subfolders" checkbox is checked.
-
-* For the Logic 2 software, the Drivers folder is located below:
-  * `C:\Program Files\Logic\Drivers`
-* For the legacy Logic 1.x software (standalone), the Drivers folder is located below:&#x20;
-  * `\Drivers\Windows`
-* For the legacy Logic 1.x software (installed), the Drivers folder is located below:&#x20;
-  * `C:\Program Files\Saleae LLC\Drivers`
+Use the Browse button to direct the driver wizard to the Drivers folder, which is detailed above under the section titled _Location of Driver Files._
 
 ![New Hardware Wizard Installation - Browse to Driver Location](../.gitbook/assets/imageedit\_2\_2912895661.png)
 
@@ -49,7 +56,7 @@ Now you will be presented with a window like shown below. Click the "Have Disk..
 
 ![Click "Have Disk..."](../.gitbook/assets/imageedit\_6\_7102237241.png)
 
-This will open the install from the disk window, which will assume that you have inserted an installation disk into drive A with the drivers. Click browse, navigate to the drivers folder (the location is described above in Method 1), and select `Saleae.inf`.
+This will open the install from the disk window, which will assume that you have inserted an installation disk into drive A with the drivers. Click browse, navigate to the drivers folder, which is detailed above under the section titled _Location of Driver Files_, and select `Saleae.inf`.
 
 ![Install From Disk - Click Browse](<../.gitbook/assets/Screen Shot 2022-03-15 at 12.54.29 PM.png>)
 
