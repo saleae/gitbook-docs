@@ -14,7 +14,7 @@ If you believe your Logic hardware is broken, please completely perform the trou
 
 * [Download Logic 2 here](https://www.saleae.com/downloads/)
 
-**3. Test with the older Logic 1.2.18 Software.**
+**3. Test with the older Logic 1.x Software.**
 
 {% content-ref url="../logic-software/legacy-software/older-software-releases.md" %}
 [older-software-releases.md](../logic-software/legacy-software/older-software-releases.md)
