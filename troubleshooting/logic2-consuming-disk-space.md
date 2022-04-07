@@ -13,20 +13,30 @@ Specifically, `analyzer_db` directories are created when protocol analyzers are 
 
 Fortunately, the `analyzer_db` directories are cleared upon restarting the software. Though if you leave the software open for long periods of time, the search indexing system does not delete these `analyzer_db` directories.
 
-### Workaround
+### Workaround #1
 
-In cases where you plan on capturing large amounts of data \(greater than 1 hour\), we recommend the following workaround to have more control over the disk space used during captures:
+In cases where you plan on capturing large amounts of data (usually greater than 1 hour's worth of a capture, but can be much less when the decoded data is dense), we recommend the following workaround to have more control over the disk space used during captures:
 
 1. Save a preset with your protocol analyzer added with your preferred settings
 2. Remove all protocol analyzers before starting your capture
 3. Start your capture
 4. Once the capture is complete, save the capture to ensure that you keep your data in case anything goes wrong.
 5. Load your preset to begin decoding the data
-6. Restart the app before starting a new capture \(to clear the analyzer\_db directories\)
+6. Restart the app before starting a new capture (to clear the analyzer\_db directories)
 
 Instructions for saving/loading a preset and saving captures can be found below.
 
-{% page-ref page="../user-guide/using-logic/saving-loading-and-exporting-data.md" %}
+{% content-ref url="../user-guide/using-logic/saving-loading-and-exporting-data.md" %}
+[saving-loading-and-exporting-data.md](../user-guide/using-logic/saving-loading-and-exporting-data.md)
+{% endcontent-ref %}
+
+### Workaround #2
+
+Another workaround would be to trim your capture such that the amount of decoded data you are working with is greatly reduced. Instructions for trimming your capture can be found below. Please remember to save a copy of your original capture, preferably with all analyzers removed.
+
+{% content-ref url="../user-guide/using-logic/delete-data.md" %}
+[delete-data.md](../user-guide/using-logic/delete-data.md)
+{% endcontent-ref %}
 
 
 
