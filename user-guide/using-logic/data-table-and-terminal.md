@@ -86,6 +86,12 @@ A terminal view is available by clicking the "Terminal" button at the top-right 
 
 ### Limitations of Terminal View
 
+#### Terminal Output is not in Time Order
+
+Currently, our terminal view does not output results in time order if more than one analyzer is outputting data to the terminal. Instead, our terminal view will group the output results by analyzer. We've received requests for adding support for ensuring time order when using multple analyzers. Please feel free to share your feedback on this in the feature request post here: [Feature Request - Terminal Messages to be Timeline Ordered](https://ideas.saleae.com/b/feature-requests/terminal-messages-to-be-timeline-synced/)
+
+![Toolip for this behavior from within the app](<../../.gitbook/assets/Screen Shot 2022-04-08 at 6.12.38 PM.png>)
+
 #### Scroll-back Limit
 
 Our in-app terminal view has a scroll-back limit of 10,000 rows. Once the 10,000 row limit is reached, the oldest rows are deleted.
