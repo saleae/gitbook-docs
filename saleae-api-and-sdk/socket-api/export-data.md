@@ -80,3 +80,11 @@ Note: Only digital channels can support VCD exports. Using `ALL_CHANNELS` will o
 #### Examples When Exporting to CSV
 
 `export_data2, /Users/UserName/Desktop/my_file.csv, SPECIFIC_CHANNELS, 0 DIGITAL, 1 DIGITAL, 2 DIGITAL, 3 DIGITAL, ALL_TIME, CSV, HEADERS, COMMA, SAMPLE_NUMBER, SEPARATE, ROW_PER_CHANGE`
+
+#### Examples When Exporting to MATLAB
+
+For digital only captures:
+
+`export_data2, /Users/UserName/Desktop/my_file.mat, ALL_CHANNELS, ALL_TIME, MATLAB`
+
+`export_data2, /Users/UserName/Desktop/my_file.mat, SPECIFIC_CHANNELS, 2 DIGITAL, ALL_TIME, MATLAB`
