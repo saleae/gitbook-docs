@@ -2,9 +2,9 @@
 
 Need an idea for an electronics project? Want to check out some cool gizmos that our community of users have built using our Logic analyzers? We've got a list of some cool projects below!
 
-*
-*
-*
+* [Inventing Spi Video Capture With A New Tool](https://www.arcanalabs.ca/labnotes/peti/2022/03/15/spi-video-capture.html)
+* [The Dreamdesk Project](https://ma.lwa.re/dreamdesk)
+* [Zynq-7000 Analysis - Bugs and Exploits](https://blog.ropcha.in/part-3-zynq-cve-2021-27208.html)
 * [Design Overview of a Low-Level 8-Bit CPU](https://stuermer.ca/8bitcpu.html)
 * [Go away BitLocker, you´re drunk](https://luemmelsec.github.io/Go-away-BitLocker-you-are-drunk/)
 * [Single-wire: Hardware or software solution?](https://hinterm-ziel.de/index.php/2021/10/30/one-line-only/)
@@ -33,7 +33,3 @@ Need an idea for an electronics project? Want to check out some cool gizmos that
 * [High-performance Color Detector for Under 1$](https://www.instructables.com/High-performance-Color-Detector-for-Under-1/)
 * [Wang 320 Calculator](https://brianwhite94.wixsite.com/electronics/wang-320-calculator-iii)
 * [STM32F103C8 microcontroller example: using SPI as slave (SPI1/SPI2)](https://learnbuildshare.wordpress.com/about/stm32/using-spi-as-slave/)
-
-\
-
-
