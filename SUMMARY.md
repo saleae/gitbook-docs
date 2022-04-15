@@ -91,7 +91,6 @@
   * [API Documentation](extensions/api-documentation.md)
 * [Protocol Analyzers](protocol-analyzers/README.md)
   * [Supported Protocols](protocol-analyzers/supported-protocols.md)
-  * [Community Shared Analyzers](protocol-analyzers/community-shared-protocols.md)
   * [Analyzer User Guides](protocol-analyzers/analyzer-user-guides/README.md)
     * [Async Serial Analyzer - User Guide](protocol-analyzers/analyzer-user-guides/using-async-serial/README.md)
       * [Decode UART](protocol-analyzers/analyzer-user-guides/using-async-serial/decode-uart.md)
@@ -319,6 +318,8 @@
   * [Ideas & Feedback](community/feedback.md)
   * [User Forum](community/forum.md)
   * [Community Projects](community/projects.md)
+  * [Community Created Accessories](community/community-created-accessories.md)
+  * [Community Shared Analyzers](community/community-shared-protocols.md)
 
 ## Tutorials
 
