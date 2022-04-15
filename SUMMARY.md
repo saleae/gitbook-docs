@@ -316,9 +316,9 @@
 * [Returns & Warranty](180-day-return-policy-and-3-year-warranty/README.md)
   * [Submit a Warranty Claim](180-day-return-policy-and-3-year-warranty/process-a-warranty.md)
 * [Community](community/README.md)
-  * [Ideas & Feedback](ideas-and-feedback.md)
-  * [User Forum](community/user-forum.md)
-  * [Community Projects](community/community-projects.md)
+  * [Ideas & Feedback](community/feedback.md)
+  * [User Forum](community/forum.md)
+  * [Community Projects](community/projects.md)
 
 ## Tutorials
 
