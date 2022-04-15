@@ -315,7 +315,10 @@
     * [How to Create Project Content for Saleae](faq/general-faq/writing-for-saleae.md)
 * [Returns & Warranty](180-day-return-policy-and-3-year-warranty/README.md)
   * [Submit a Warranty Claim](180-day-return-policy-and-3-year-warranty/process-a-warranty.md)
-* [Ideas & Feedback](ideas-and-feedback.md)
+* [Community](community/README.md)
+  * [Ideas & Feedback](community/ideas-and-feedback.md)
+  * [User Forum](community/user-forum.md)
+  * [Community Projects](community/community-projects.md)
 
 ## Tutorials
 
