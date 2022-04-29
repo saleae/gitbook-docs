@@ -19,7 +19,11 @@ Further, by default, you will start out with a fully featured and maximally simp
 
 ### **Documentation and Getting Started**
 
-To get started, please first read the Setup guide below. We will be working with the provided Sample Analyzer above.
+The documentation for the Analyzer SDK can be found below:
+
+* [Analyzer\_API.md](https://github.com/saleae/SampleAnalyzer/blob/master/docs/Analyzer\_API.md)
+
+Alternatively, to get started, you can review the Setup guide below. We will be working with the provided Sample Analyzer above.
 
 {% content-ref url="setup.md" %}
 [setup.md](setup.md)
@@ -33,13 +37,7 @@ To get started, please first read the Setup guide below. We will be working with
 [debug.md](debug.md)
 {% endcontent-ref %}
 
-The complete Build documentation is below.
-
-* [SDK Project Build & Install](https://github.com/saleae/SampleAnalyzer/blob/master/docs/Analyzer%20SDK%20Setup.md)
-
-The documentation for the Analyzer SDK can be found in the pdf and on GitHub. This document still needs to be updated and migrated to markdown, but the documentation for the C++ SDK is largely up-to-date, although it is missing details on the Protocol Search system. Please do not use the first section of this for the setup instructions since they are outdated.
-
-* [Protocol Analyzer SDK Documentation](https://github.com/saleae/SampleAnalyzer/blob/master/docs/Saleae%20Analyzer%20SDK%20\(older\).pdf)
+The Sample Analyzer includes build instructions in its included [Readme file](https://github.com/saleae/SampleAnalyzer/blob/master/readme.md).
 
 ### Installing your Custom Analyzers
 
