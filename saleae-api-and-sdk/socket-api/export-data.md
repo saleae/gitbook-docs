@@ -83,8 +83,24 @@ Note: Only digital channels can support VCD exports. Using `ALL_CHANNELS` will o
 
 #### Examples When Exporting to MATLAB
 
-For digital only captures:
+* When both analog and digital channels are enabled:
+
+`export_data2, /Users/UserName/Desktop/my_file.mat, ALL_CHANNELS, ALL_TIME, MATLAB, ADC`
+
+`export_data2, /Users/UserName/Desktop/my_file.mat, SPECIFIC_CHANNELS, ANALOG_AND_DIGITAL, 0 ANALOG, 0 DIGITAL, ALL_TIME, MATLAB, ADC`
+
+`export_data2, /Users/UserName/Desktop/my_file.mat, SPECIFIC_CHANNELS, ANALOG_ONLY, 0 ANALOG, 1 ANALOG, 2 ANALOG, 3 ANALOG, ALL_TIME, MATLAB, VOLTAGE`
+
+`export_data2, /Users/UserName/Desktop/my_file.mat, SPECIFIC_CHANNELS, DIGITAL_ONLY, 0 DIGITAL, 1 DIGITAL, 2 DIGITAL, 3 DIGITAL, ALL_TIME, MATLAB`
+
+* When only digital channels are enabled:
 
 `export_data2, /Users/UserName/Desktop/my_file.mat, ALL_CHANNELS, ALL_TIME, MATLAB`
 
-`export_data2, /Users/UserName/Desktop/my_file.mat, SPECIFIC_CHANNELS, 2 DIGITAL, ALL_TIME, MATLAB`
+`export_data2, /Users/UserName/Desktop/my_file.mat, SPECIFIC_CHANNELS, 0 DIGITAL, 1 DIGITAL, 2 DIGITAL, 3 DIGITAL, ALL_TIME, MATLAB`
+
+* When only analog channels are enabled:
+
+`export_data2, /Users/UserName/Desktop/my_file.mat, SPECIFIC_CHANNELS, 0 ANALOG, 1 ANALOG, 2 ANALOG, 3 ANALOG, ALL_TIME, MATLAB, ADC`
+
+`export_data2, /Users/UserName/Desktop/my_file.mat, ALL_CHANNELS, ALL_TIME, MATLAB, VOLTAGE`
