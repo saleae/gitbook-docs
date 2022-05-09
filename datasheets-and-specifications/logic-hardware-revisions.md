@@ -19,5 +19,5 @@ To check your hardware revision, you will need the latest version of the softwar
 
 ![The Device Info dialog is opened from the capture settings sidebar menu](<../.gitbook/assets/image (12) (1) (1).png>)
 
-![The hardware revision is shown in the last line](<../.gitbook/assets/image (13) (1).png>)
+![The hardware revision is shown in the last line](<../.gitbook/assets/image (13) (1) (1).png>)
 
