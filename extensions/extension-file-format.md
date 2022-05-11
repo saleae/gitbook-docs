@@ -1,6 +1,6 @@
 # Extension File Format
 
-Extensions are composed of at least three files, `extension.json`, `readme.md`, and one or more python files.
+Extensions are composed of at least three files, `extension.json`, `readme.md`, and one or more python files. The Logic 2 software uses **Python version 3.8**.
 
 ### extension.json File Layout
 
