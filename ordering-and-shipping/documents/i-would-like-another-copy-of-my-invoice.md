@@ -1,6 +1,6 @@
 # Receiving Invoices
 
-If you ordered online at [www.saleae.com](https://www.saleae.com), you should have received an email with a link to your invoice when you placed your order.
+If you ordered online at [www.saleae.com](https://www.saleae.com/), you should have received an email with a link to your invoice when you placed your order.
 
 If you are unable to locate that email or if you placed an order over the phone or with a PO, [please contact Saleae support](https://contact.saleae.com/hc/en-us/requests/new).
 

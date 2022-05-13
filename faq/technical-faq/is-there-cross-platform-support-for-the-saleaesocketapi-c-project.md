@@ -4,11 +4,11 @@ The C# wrapper and demo project for the Saleae Socket Scripting API is currently
 
 You can find it here: [https://github.com/saleae/SaleaeSocketApi](https://github.com/saleae/SaleaeSocketApi)
 
-We plan to migrate the project to [.NET Core cli](https://dotnet.github.io) in the future, but we are waiting for at least the first official "tooling" release of .net core cli. The tooling release is the first release that includes visual studio integration.
+We plan to migrate the project to [.NET Core cli](https://dotnet.github.io/) in the future, but we are waiting for at least the first official "tooling" release of .net core cli. The tooling release is the first release that includes visual studio integration.
 
 In the meantime, we have done a quick port of the API to .net core cli. You can download that port here: [http://downloads.saleae.com/SDK/coreSaleaeAPI.zip](http://downloads.saleae.com/SDK/coreSaleaeAPI.zip)
 
-You will also need to install the current version of .net core cli. You can find instructions here: [https://dotnet.github.io/](https://dotnet.github.io)
+You will also need to install the current version of .net core cli. You can find instructions here: [https://dotnet.github.io/](https://dotnet.github.io/)
 
 Once .Net core is installed and working, follow these instructions:
 

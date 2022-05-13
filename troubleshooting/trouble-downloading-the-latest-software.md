@@ -4,7 +4,7 @@ Our software is hosted on Amazon S3, a simple online storage provider. If the li
 
 Here's one quick thing to try. Use the Amazon download links directly instead of the links to downloads.saleae.com, which rely on our DNS record to reach Amazon.
 
-Right-click the "Download Logic" link and copy the link address. Paste the link address in a new browser window and replace the part "[http://downloads.saleae.com/](http://downloads.saleae.com)" with "[https://s3.amazonaws.com/downloads.saleae.com/](https://s3.amazonaws.com/downloads.saleae.com/)"
+Right-click the "Download Logic" link and copy the link address. Paste the link address in a new browser window and replace the part "[http://downloads.saleae.com/](http://downloads.saleae.com/)" with "[https://s3.amazonaws.com/downloads.saleae.com/](https://s3.amazonaws.com/downloads.saleae.com/)"
 
 (Yes, the "downloads.saleae.com" part is still present in the new link.)
 

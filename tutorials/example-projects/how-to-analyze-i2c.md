@@ -4,7 +4,7 @@ Inter-Integrated Circuit (I2C or IIC) is a 2-wire communication protocol that al
 
 The 2 lines used in I2C are Serial Data Line (SDA) and Serial Clock Line (SCL). The lines are [open collector or open drain](https://en.wikipedia.org/wiki/Open\_collector), which means the drivers on the master or devices can pull the lines low but cannot pull them high. This configuration prevents damage to the drivers when more than one device attempts to communicate on the bus at the same time.
 
-Example code is provided below for [Arduino](https://www.arduino.cc), [mbed](https://os.mbed.com), or [AC6 System Workbench for STM32 (SW4STM32)](http://www.openstm32.org).
+Example code is provided below for [Arduino](https://www.arduino.cc/), [mbed](https://os.mbed.com/), or [AC6 System Workbench for STM32 (SW4STM32)](http://www.openstm32.org/).
 
 **Required Materials**
 

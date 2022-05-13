@@ -12,7 +12,7 @@ Need an idea for an electronics project? Want to check out some cool gizmos that
 * [Designing a 24-bit VGA Adapter](https://medium.com/@jeremysee\_2/designing-a-24-bit-vga-adapter-acbcccd3258e)
 * [IC-900 Remote Controller Clone Project Page](https://ke0ff.github.io/RDU900/index.html)
 * [Adding Apple CarPlay to a 2013 Volvo XC70](https://vigue.me/adding-apple-carplay-to-a-2013-volvo-xc70/)
-* [The transformation of my dumb home trainer to a smart Zwift trainer](https://ftmsemu.github.io)
+* [The transformation of my dumb home trainer to a smart Zwift trainer](https://ftmsemu.github.io/)
 * [YouTube - Overspeed Error Detection | Lathe Electronic Leadscrew](https://www.youtube.com/watch?v=sw-kInIFyRg)
 * [YouTube - Saleae Logic Pro Logic Analyzer - Unboxing and first tests](https://www.youtube.com/watch?v=cC8m9CoRXKw)
 * [Fixing a Super Nintendo That Won’t Output Color](https://www.instructables.com/Fixing-a-Super-Nintendo-That-Wont-Output-Color/)

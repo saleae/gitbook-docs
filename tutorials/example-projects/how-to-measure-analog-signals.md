@@ -4,7 +4,7 @@ One useful feature of your Saleae Logic Analyzer is its ability to measure analo
 
 Depending on the number of channels you use, the Logic 8 can sample up to 10 MS/s (bandwidth of 1 MHz). The Logic Pro 8 and Logic Pro 16 can sample up to 50 MS/s (bandwidth of 5 MHz).
 
-Example code is provided below for [Arduino](https://www.arduino.cc), [mbed](https://os.mbed.com), or [AC6 System Workbench for STM32 (SW4STM32)](http://www.openstm32.org).
+Example code is provided below for [Arduino](https://www.arduino.cc/), [mbed](https://os.mbed.com/), or [AC6 System Workbench for STM32 (SW4STM32)](http://www.openstm32.org/).
 
 **Required Materials**
 

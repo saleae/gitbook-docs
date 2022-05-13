@@ -5,7 +5,7 @@ description: Learn how to modify your new Measurement
 # Measurement Extensions
 
 {% hint style="warning" %}
-This guide assumes that you have familiarity with the [Python](https://www.python.org) programming language. It is what will be used to customize our Measurement.
+This guide assumes that you have familiarity with the [Python](https://www.python.org/) programming language. It is what will be used to customize our Measurement.
 {% endhint %}
 
 ## Overview
@@ -104,7 +104,7 @@ This makes it impossible to know exactly how much data will be needed for the gi
 
 For analog measurements, `data` is an instance of `AnalogData`, which is an `iterable` class with the properties `sample_count` and `samples`. `sample_count` is a number, and is the number of analog samples in the data instance. Note - this might not be the total number of analog samples passed to your measurement, since `process_data` may be called more than once if the user selected range spans multiple chunks.
 
-`samples` is a [numpy](https://numpy.org) [ndarray](https://docs.scipy.org/doc/numpy/reference/arrays.ndarray.html). For information handling this type, please refer to the numpy documentation.
+`samples` is a [numpy](https://numpy.org/) [ndarray](https://docs.scipy.org/doc/numpy/reference/arrays.ndarray.html). For information handling this type, please refer to the numpy documentation.
 
 The `process_data` function should not return a value. Instead, it should update the internal state of your class, such that the `measure` function can produce your measurement's results.
 

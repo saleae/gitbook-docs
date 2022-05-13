@@ -5,7 +5,7 @@ description: Learn how to modify your new High Level Analyzer
 # High-Level Analyzer (HLA) Extensions
 
 {% hint style="warning" %}
-This guide assumes that you have familiarity with the [Python](https://www.python.org) programming language. It is what will be used to customize our HLA.
+This guide assumes that you have familiarity with the [Python](https://www.python.org/) programming language. It is what will be used to customize our HLA.
 {% endhint %}
 
 ## Overview

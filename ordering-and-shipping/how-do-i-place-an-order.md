@@ -2,7 +2,7 @@
 
 ### Place an Order Online
 
-* **Navigate** to our[ Home page here](https://www.saleae.com).
+* **Navigate** to our[ Home page here](https://www.saleae.com/).
 * **Click** the **Products** link at the top of the page.
 * **Click Buy now** on the product you would like to purchase. This will take you to the shopping cart page.
 * To add additional items, click Products at the top of the page and click Buy now on any additional logic analyzers you would like to purchase.

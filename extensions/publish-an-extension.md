@@ -12,7 +12,7 @@ Before publishing your extension, you will need to have the following completed.
 [extensions-quickstart.md](extensions-quickstart.md)
 {% endcontent-ref %}
 
-* Your extension must be uploaded to a [GitHub](https://github.com) repository.
+* Your extension must be uploaded to a [GitHub](https://github.com/) repository.
 * You must [create a release](https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository) for your extension.
 
 You can take a look at an [example GitHub repository](https://github.com/timreyes/sampleHLA) for our Sample HLA, which we will use in the following guide.

@@ -10,11 +10,11 @@ Write about your electronics project and get paid!
 \[   ] Focused on your project, not focused on Saleae.\
 \[   ] It’s clear from your writing that you’re genuinely excited about your project.\
 \[   ] Includes mention of Saleae as described below.\
-\[   ] Use [Logic Software v2.x](https://discuss.saleae.com). If you need to use an older version, let us know.
+\[   ] Use [Logic Software v2.x](https://discuss.saleae.com/). If you need to use an older version, let us know.
 
 ### Reward
 
-$200 USD for a project writeup meeting the requirements described here. You can receive a discount code to be used on our website at [www.saleae.com](https://www.saleae.com), a Sparkfun or Adafruit gift certificate, Paypal, or check (US bank).
+$200 USD for a project writeup meeting the requirements described here. You can receive a discount code to be used on our website at [www.saleae.com](https://www.saleae.com/), a Sparkfun or Adafruit gift certificate, Paypal, or check (US bank).
 
 ### Suggestions for what to write about
 

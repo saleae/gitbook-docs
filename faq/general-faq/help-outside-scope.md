@@ -4,7 +4,7 @@ We occasionally receive technical support requests that are either tangentially 
 
 I thoroughly enjoy answering these questions to the best of my ability, providing the best advice I can, even if the solution does not involve our product. However, we're not always able to help as much as I would like, and our support system really isn't the ideal place for us to provide this kind of support.
 
-If you're asking a combination of questions about our product, as well as questions not directly or indirectly related to our products, I strongly encourage you to also post your questions to [Electrical Engineering Stack Overflow (electronics.stackexchange.com)](http://electronics.stackexchange.com).
+If you're asking a combination of questions about our product, as well as questions not directly or indirectly related to our products, I strongly encourage you to also post your questions to [Electrical Engineering Stack Overflow (electronics.stackexchange.com)](http://electronics.stackexchange.com/).
 
 Then send us a link to your question! We can comment or answer it here so our commentary will be public, and others from the community can chime in as well.
 

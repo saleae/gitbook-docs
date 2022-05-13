@@ -8,13 +8,13 @@ You can find the pricing and part numbers for all of our products below:
 [saleae-part-numbers.md](faq/saleae-part-numbers.md)
 {% endcontent-ref %}
 
-To check the cost of shipping, simply add the product to your cart on [www.saleae.com](https://www.saleae.com), select your country, and enter your postal code.
+To check the cost of shipping, simply add the product to your cart on [www.saleae.com](https://www.saleae.com/), select your country, and enter your postal code.
 
 ### Availability
 
-Stock status and ship date estimates can be found on [www.saleae.com](https://www.saleae.com) and are kept up-to-date.
+Stock status and ship date estimates can be found on [www.saleae.com](https://www.saleae.com/) and are kept up-to-date.
 
-To check the stock status and lead time of a product, navigate to [www.saleae.com](https://www.saleae.com), and click the Products button. You may also click on the Accessories button if you are looking to purchase an accessory.
+To check the stock status and lead time of a product, navigate to [www.saleae.com](https://www.saleae.com/), and click the Products button. You may also click on the Accessories button if you are looking to purchase an accessory.
 
 ![Products Button](<../.gitbook/assets/Screen Shot 2021-12-07 at 11.14.24 AM.png>)
 

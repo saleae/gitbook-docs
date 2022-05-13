@@ -4,7 +4,7 @@ Serial Peripheral Interface (SPI) is a communication protocol often used between
 
 Interestingly, SPI connections often rely on two data lines: MISO and MOSI. Because of this, data can be sent between the master and device at the same time (_full duplex_).
 
-Example code is provided below for [Arduino](https://www.arduino.cc), [mbed](https://os.mbed.com), or [AC6 System Workbench for STM32 (SW4STM32)](http://www.openstm32.org).
+Example code is provided below for [Arduino](https://www.arduino.cc/), [mbed](https://os.mbed.com/), or [AC6 System Workbench for STM32 (SW4STM32)](http://www.openstm32.org/).
 
 **Required Materials**
 

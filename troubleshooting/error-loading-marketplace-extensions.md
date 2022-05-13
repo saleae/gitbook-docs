@@ -10,17 +10,17 @@ This typically occurs on PCs that are behind a strict firewall or other security
 
 You will want to whitelist or add the following domains to your SSL no-check list. All of of these URLs are accessed via https requests.
 
-* [https://api.saleae.com/](https://api.saleae.com)
+* [https://api.saleae.com/](https://api.saleae.com/)
   * Used for device calibration download (part 1 of 2)
-* [https://downloads.saleae.com/](https://downloads.saleae.com)
+* [https://downloads.saleae.com/](https://downloads.saleae.com/)
   * Used for device calibration download (part 2 of 2)
   * Used for software auto update (part 1 of 2)
-* [https://logic2api.saleae.com/](https://logic2api.saleae.com)
+* [https://logic2api.saleae.com/](https://logic2api.saleae.com/)
   * Used for software auto update (part 2 of 2)
   * Used for our Marketplace Extensions list
-* [https://raw.githubusercontent.com/](https://raw.githubusercontent.com)
+* [https://raw.githubusercontent.com/](https://raw.githubusercontent.com/)
   * Used for Marketplace extension readme content
-* [https://github.com/](https://github.com)
+* [https://github.com/](https://github.com/)
   * Used for Marketplace extension installation
 
 ### Whitelist Web API Traffic

@@ -2,7 +2,7 @@
 
 When attempting to capture data, you may encounter a ReadTimeout error message: `An error occurred during capture: ReadTimeout`
 
-![ReadTimeout Error in the Logic 2 Software](<../.gitbook/assets/Screen Shot 2020-08-13 at 6.43.57 PM.png>)
+![ReadTimeout Error Pop Up](../.gitbook/assets/ReadTimeout.png)
 
 ### Why Does the Error Message Appear?
 

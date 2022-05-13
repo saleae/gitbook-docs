@@ -15,7 +15,7 @@ This list contains every distributor currently selling Saleae devices. Please no
 * [BTC](https://kamami.pl/22\_saleae) - Poland
 * [ChipCAD Electronics Distribution Ltd](https://www.chipcad.hu/saleae) - Hungary
 * [Core Electronics](http://core-electronics.com.au/search/?q=saleae) - Australia
-* [Double Dragon Electronics Co., Ltd](http://www.sl.com.cn) - China
+* [Double Dragon Electronics Co., Ltd](http://www.sl.com.cn/) - China
 * [electronic-shop sàrl](https://www.electronic-shop.lu/EN/search?q=saleae) - Luxembourg
 * [Elgood Oy](https://www.partco.fi/en/2487-logic-analyzers) - Finland
 * [Elmicro Computer GmbH & Co. KG](http://elmicro.com/de/saleae-logic.html) - Germany
@@ -36,13 +36,13 @@ This list contains every distributor currently selling Saleae devices. Please no
 * [Pertech Embedded Solution](http://www.pertech.co.il/saleae/) - Israel
 * [Play-Zone GmbH](http://www.play-zone.ch/en/catalogsearch/result/?q=saleae\&x=0\&y=0) - Switzerland
 * [RadioBro Corporation](http://www.radiobro.com/development-tools/) - US
-* [Robot R Us](https://www.robot-r-us.com) - Singapore
+* [Robot R Us](https://www.robot-r-us.com/) - Singapore
 * [Robotscience](http://www.robotscience.kr/goods/search?search\_text=saleae\&x=0\&y=0) - South Korea
 * [RobotShop](http://www.robotshop.com/en/catalogsearch/result/index/?general\_brand=Saleae\&q=saleae) - US, Canada, France
-* [SCE in China](http://www.scedg.com) - China
+* [SCE in China](http://www.scedg.com/) - China
 * [Shanghai GEANT Computer Technology](http://www.geant.com.cn/brandshow?id=219) - China
 * [SparkFun Electronics](https://www.sparkfun.com/search/results?term=saleae) - US
-* [Stellar Data](http://stellardata.com) - US
+* [Stellar Data](http://stellardata.com/) - US
 * [TEquipment](http://www.tequipment.net/search/?F\_Keyword=saleae) - US
 * [Uchi Embedded Solutions](http://uchiembedded.co.in/index.html) - India
 * [Vcreatics](http://www.vctec.co.kr/product/search.html?banner\_action=\&keyword=saleae) - South Korea

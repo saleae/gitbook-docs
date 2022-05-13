@@ -23,7 +23,7 @@ Please note that the Socket API automation utility requires the older Logic 1.x 
 * Accept firewall changes if the OS requests it
 
 {% hint style="warning" %}
-For automated environments, the `-socket` command line option was previously used to automatically enable the scripting socket server. Unfortunately, we cannot recommend this moving forward due to a [known bug](https://github.com/saleae/SaleaeSocketApi/issues/14#issuecomment-656691914). We will fix this in a future release, which will be integrated into [Logic v2](https://discuss.saleae.com). For now, please use the Preferences Window as shown above to enable the socket server.
+For automated environments, the `-socket` command line option was previously used to automatically enable the scripting socket server. Unfortunately, we cannot recommend this moving forward due to a [known bug](https://github.com/saleae/SaleaeSocketApi/issues/14#issuecomment-656691914). We will fix this in a future release, which will be integrated into [Logic v2](https://discuss.saleae.com/). For now, please use the Preferences Window as shown above to enable the socket server.
 {% endhint %}
 
 ### Socket API User's Guide

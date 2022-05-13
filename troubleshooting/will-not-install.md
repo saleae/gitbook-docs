@@ -68,7 +68,7 @@ For each item, first perform the test. If the test result is positive (the test 
 * Test: Does your anti-virus detect the logic software or installer as a virus and prevent you from running it?
 *   Corrective Action: First, verify that this is actually a false positive and not an actual issue. Make sure you downloaded the Logic software directly from the [saleae website](https://www.saleae.com/downloads).&#x20;
 
-    &#x20; You can also test the download against other anti-virus programs using the online service [Virus Total](https://www.virustotal.com).
+    &#x20; You can also test the download against other anti-virus programs using the online service [Virus Total](https://www.virustotal.com/).
 
     &#x20; If this is just a false positive, you can either manually ignore the file if your anti-virus allows it, or you can disable your anti-virus.&#x20;
 

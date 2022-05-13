@@ -6,8 +6,8 @@ It is also not possible to import a previously exported CSV file back into the L
 
 You may want to take a look at other wave form viewing tools:
 
-* [GTKWave](http://gtkwave.sourceforge.net)
+* [GTKWave](http://gtkwave.sourceforge.net/)
 * [PulseView](https://sigrok.org/wiki/PulseView)
 * [List of other waveform viewers](https://en.wikipedia.org/wiki/Waveform\_viewer)
 
-If you need to analyze protocol data, you may want to use [PulseView](https://sigrok.org/wiki/PulseView) and [Sigrok](https://sigrok.org)
+If you need to analyze protocol data, you may want to use [PulseView](https://sigrok.org/wiki/PulseView) and [Sigrok](https://sigrok.org/)
