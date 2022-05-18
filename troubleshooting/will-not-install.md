@@ -36,6 +36,12 @@ Based on user reports, we believe there may be issues with Windows 11 Insider Pr
 * Opting out of the Insider Preview build and reverting back to a normal, stable build of Windows 11 seems to have solved this issue for most users. Microsoft has provided instructions on how to leave their Insider program [here](https://insider.windows.com/en-us/leave-program). As of the writing on this support article section, it doesn't look like there is an immediate method for unenrolling your PC from an Insider Preview build besides completing a clean installation of Windows.
 * Another user seems to have solved this issue by starting Windows with the option to load unsigned drivers. You can refer to their [forum post here](https://discuss.saleae.com/t/logic-2-3-37-failed-to-install-on-windows-11/1191/12).
 
+### Reaching out to your IT Deparment
+
+For PCs managed by an IT deparment, either through a corporate network or corporate security plan, you may need to reach out to them for further assistance. We've discovered in the past that some installation issues had been solved by modifying an IT policy, particularly ones that affect what root certificates are trusted on the PC.
+
+We would be happy to chat with them directly as well! In this case, feel free to have them [contact us](https://contact.saleae.com/hc/en-us/requests/new).&#x20;
+
 ## Logic 1.x Software
 
 If you plan on using the older Logic 1.x software, the following information applies.
