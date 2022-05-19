@@ -106,8 +106,8 @@ Check out our HLA data format documentation:
 
 Learn more about building HLAs here:
 
-{% content-ref url="../../extensions/high-level-analyzer-quickstart.md" %}
-[high-level-analyzer-quickstart.md](../../extensions/high-level-analyzer-quickstart.md)
+{% content-ref url="../../extensions/high-level-analyzer-extensions.md" %}
+[high-level-analyzer-extensions.md](../../extensions/high-level-analyzer-extensions.md)
 {% endcontent-ref %}
 
 ```python

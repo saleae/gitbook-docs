@@ -14,8 +14,8 @@ You can browse available extensions and quickly install them from our Extensions
 
 High level analyzers are protocol analyzers that process the output of the existing "low level" analyzers already in the app. You can write your own in Python. This lets you create powerful new analyzers without needing to reinvent the wheel. So far, our favorite application of high level analyzers is converting existing decoded I2C bytes into clean, decoded messages specific to the I2C device we're working with, to easily read recorded I2C traffic without needing to go back to the datasheet.
 
-{% content-ref url="high-level-analyzer-quickstart.md" %}
-[high-level-analyzer-quickstart.md](high-level-analyzer-quickstart.md)
+{% content-ref url="high-level-analyzer-extensions.md" %}
+[high-level-analyzer-extensions.md](high-level-analyzer-extensions.md)
 {% endcontent-ref %}
 
 ### Digital and Analog Measurements

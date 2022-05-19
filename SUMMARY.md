@@ -72,7 +72,7 @@
 * [Software Extensions](extensions/README.md)
   * [Extension Installation](extensions/installing-extensions.md)
   * [Create and Use Extensions](extensions/extensions-quickstart.md)
-  * [High-Level Analyzer (HLA) Extensions](extensions/high-level-analyzer-quickstart.md)
+  * [High-Level Analyzer (HLA) Extensions](extensions/high-level-analyzer-extensions.md)
   * [Measurement Extensions](extensions/measurement-extensions.md)
   * [Extension File Format](extensions/extension-file-format.md)
   * [About Third-Party Extensions](extensions/about-third-party-extensions.md)
