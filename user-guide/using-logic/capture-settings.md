@@ -36,6 +36,12 @@ Please note that changing these settings may affect the available sampling rates
 Sampling Rate Change Popup Warning
 {% endembed %}
 
+When both digital and analog channels are enabled, changing the sampling rate for a certain type of channel (digital or analog), may also change the sampling rate for the other type (digital or analog). This is because certain digital sampling rate selections cannot be combined with certain analog sampling rates (and vice versa) due to architectural limitations.
+
+In the example image below, selecting Digital 125 MS/s will **increase** (<mark style="color:green;">**↑**</mark>) the Analog sampling rate to 6.25 MS/s from its current setting. In addition, selecting Digital 6.25 MS/s will **decrease** (<mark style="color:red;">**↓**</mark>) the Analog sampling rate to 1.5625 MS/s from its current setting.
+
+![Digital Sampling Rate Selections may Change the Analog Sampling Rate](<../../.gitbook/assets/Screen Shot 2022-04-25 at 7.12.41 PM.png>)
+
 ### Digital Voltage Setting
 
 Logic Pro 8, Logic Pro 16, and our Original Logic16 all feature adjustable voltage thresholds, which can be set via the voltage dropdown setting next to the digital sampling rate setting. The _3.3+ Volts_ setting, for example, will set the voltage threshold to half that value, or 1.65 V. Our other logic analyzer models have a fixed voltage threshold, and therefore do not have this setting. For more information on the voltage setting options and thresholds, see our support article on this below.

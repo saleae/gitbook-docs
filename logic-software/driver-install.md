@@ -132,5 +132,22 @@ Instructions:&#x20;
 5. Disconnect and reconnect your Logic analyzer
 6. Open the Logic app
 
-`cat /tmp/.mount_Logic-AZEAnR/resources/linux/99-SaleaeLogic.rules | sudo tee /etc/udev/rules.d/99-SaleaeLogic.rules > /dev/null && echo "finished installing /etc/udev/rules.d/99-SaleaeLogic.rules"`
+`cat /tmp/.mount_Logic-xxxxxx/resources/linux/99-SaleaeLogic.rules | sudo tee /etc/udev/rules.d/99-SaleaeLogic.rules > /dev/null && echo "finished installing /etc/udev/rules.d/99-SaleaeLogic.rules"`
 
+#### Installing the udev Rule Manually
+
+In case you run into any issues with installing the udev rule file using the command mentioned above, you can attempt to install it manually.
+
+1\. Download the udev rule file below.
+
+{% file src="../.gitbook/assets/99-SaleaeLogic.rules" %}
+
+2\. Copy the file into the rules directory with the following command:\
+`sudo cp 99-SaleaeLogic.rules /etc/udev/rules.d`
+
+3\. Verify that the rule file was installed with the following command:\
+`cat /etc/udev/rules.d/99-SaleaeLogic.rules`
+
+4\. If Logic was connected during the install, unplug and reconnect your Logic device to the PC.\
+&#x20;\
+In case this doesn't help with your connection issues on Linux, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) and send us the command line output.
