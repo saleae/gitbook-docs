@@ -152,7 +152,7 @@
   * [Saving or Loading Anything Crashes the Software](troubleshooting/saving-or-loading-anything-crashes-the-sw.md)
   * [Error Message: The application was unable to start correctly (0xc0000005)](troubleshooting/error-message-0xc0000005.md)
   * [Memory Usage with Triggered Captures](troubleshooting/memory-usage-with-triggered-captures.md)
-  * [The Cabinet File disk1.cab has an Invalid Digital Signature](troubleshooting/disk1-cab-has-invalid-digital-signature.md)
+  * [The Cabinet File disk1.cab has an Invalid Digital Signature (Logic 1.x)](troubleshooting/disk1-cab-has-invalid-digital-signature.md)
   * [Software Crashes with Virtual Desktops](troubleshooting/sw-crashes-with-virtual-desktops.md)
   * [Pre-Trigger Buffer is Incomplete](troubleshooting/pre-trigger-buffer-incomplete.md)
   * [Linux Shared Memory Crash](troubleshooting/linux-shared-memory-crash.md)

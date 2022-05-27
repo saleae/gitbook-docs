@@ -1,15 +1,20 @@
-# The Cabinet File disk1.cab has an Invalid Digital Signature
+# The Cabinet File disk1.cab has an Invalid Digital Signature (Logic 1.x)
 
-When installing the Saleae software, the following error message may appear: "A file that is required cannot be installed because the cabinet file \[...]\disk1.cab has an invalid digital signature. This may indicate that the cabinet file is corrupt."
+{% hint style="info" %}
+This support article pertains to the older Logic 1.x software. We recommend using the newer [Logic 2 software](https://www.saleae.com/downloads/) to avoid this error.
+{% endhint %}
 
-**Troubleshooting Steps**
+When installing the older Logic 1.x software, the following error message may appear: "A file that is required cannot be installed because the cabinet file \[...]\disk1.cab has an invalid digital signature. This may indicate that the cabinet file is corrupt."
 
+**Solutions**
+
+* Download and install the newer [Logic 2 software](https://www.saleae.com/downloads/).
 * Try redownloading the install file. In case the certificate was invalidated after downloading, it may be possible that simply downloading a new copy will fix this.
 * Make sure the computer is up-to-date. That is good practice and is likely to resolve this issue.
-* Use the standalone version of the software. That allows you to skip the installation process, bypassing this issue. You can download the latest version of the standalone software below.
+* Use the standalone version of the Logic 1.x software. That allows you to skip the installation process, bypassing this issue. You can download the latest version of the standalone software below.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="../logic-software/legacy-software/older-software-releases.md" %}
+[older-software-releases.md](../logic-software/legacy-software/older-software-releases.md)
 {% endcontent-ref %}
 
 **Contacting Support for Additional Help**
