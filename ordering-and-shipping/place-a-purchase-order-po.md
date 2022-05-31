@@ -1,9 +1,22 @@
 # Place a Purchase Order (PO)
 
+{% hint style="info" %}
+In most cases, for a smoother and faster ordering experience, we recommend ordering online through our website at [www.saleae.com](http://www.saleae.com) with a credit/purchasing card, or PayPal. Domestic US online orders completed by 12pm PST on business days ship same day.&#x20;
+
+If you are unable to pay in advance or by credit card/PayPal, we also have distributors world-wide that might be able to accommodate credit payment terms. We've provided a link to our list of distributors below.
+{% endhint %}
+
+{% content-ref url="distributors.md" %}
+[distributors.md](distributors.md)
+{% endcontent-ref %}
+
+Having mentioned the above note, and in case you are still interested in placing a direct purchase order with us, please ensure your PO meets the requirements below to avoid any processing delays.
+
 ### Requirements and Payment Terms
 
 * Placing a PO is only available for companies who cannot place an order through our website by credit/purchasing card or PayPal.
 * Order total must be at least USD $699.
+* The order must be paid in USD currency.
 * We currently offer Net 30 Term to existing customers with a history of timely payments.&#x20;
 * If this is your first order with us, we will generate a Proforma Invoice for you to Prepay via Wire Transfer. We will ship your order on the first business day after payment is received.
 * Orders placed via PO will be shipped from the US. If the order will be shipping to a country outside the US, there will likely be additional charges for duties and taxes, due on receipt.&#x20;
