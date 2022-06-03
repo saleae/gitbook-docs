@@ -42,6 +42,19 @@ You can jump to a specific row in the data table by hovering your mouse over a d
 
 ![Jumping to a Row in the Data Table](<../../.gitbook/assets/Screen Shot 2021-04-07 at 3.40.30 PM.png>)
 
+### Data Table Scrollbar Limitations
+
+Currently, the contents of the data table are loaded dynamically depending on which section of the data table is currently in view. This approach has some drawbacks which are especially noticeable when navigating the data table with the scrollbar.&#x20;
+
+For example, dragging the scrollbar to the bottom will not immediately jump you to the end of the data table. Instead, new data table rows will be loaded dynamically, and the scrollbar position and size will adjust accordingly. Therefore, the scrollbar will not be scaled correctly with reference to the total count of data table rows.
+
+Workarounds:
+
+* The End and Home keys can be used to instantly jump to the end or beginning of the data table respectively.
+* You can jump directly to a data table row from the waveform. Details on this are described in a section of this support article above.
+
+In case this is something you'd like us to improve, please vote for [this feature request](https://ideas.saleae.com/b/feature-requests/vertical-scrollbar-for-the-analyzer-data-table-view/)!
+
 ### Search Limitations
 
 In most cases, you should be able to search for what you see in the table, just as you would search any other document, spreadsheet, or website. However, in order to improve performance of the search functionality, the search function has a few limitations.
