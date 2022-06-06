@@ -4,40 +4,26 @@
 Instructions for loading existing custom analyzers into the Logic software can be found here: [Import Custom Low Level Analyzer](../../faq/technical-faq/setting-up-developer-directory.md)
 {% endhint %}
 
-The Saleae Protocol Analyzer SDK lets you make your own custom protocol analyzers. The framework is very flexible. You can do everything we can do (we use the same SDK). You'll be creating a shared library (.dll, .so, or .dylib) that will be loaded by the Logic software as a plugin.
+The Saleae Protocol Analyzer SDK lets you make your own custom protocol analyzers. The framework is very flexible. You can do everything we can do (we use the same SDK). You'll be creating a shared library (.dll for Windows, .so for Linux, or .dylib for MacOS) that will be loaded by the Logic software as a plugin.
 
-While there are many advantages to providing the SDK in this format, implementation of a custom protocol will probably take an experienced C++ developer at least a full day, and possibly up to a week, to complete. You will probably want to have had considerable programming experience, probably significant C++ experience, before taking it on.
+While there are many advantages to providing the SDK in this format, implementation of a custom protocol will probably take an experienced C++ developer at least a full day, and possibly up to a week, to complete. You will want to have had considerable programming experience, probably significant C++ experience, before taking it on.
 
 That said, you can get away with implementing only a small part of the full capability of the analyzer. For example, you could have only one setting (the input channel(s) to use), and you could skip creating simulated data to test against, not bothering to provide for data export or tabular display.
 
-Further, by default, you will start out with a fully featured and maximally simple analyzer—SimpleSerialAnalyzer. The documentation will walk you through how to modify it to suit your needs, as well as what parts can be left empty.
+### Documentation and Getting Started
+
+In most cases, you will want to start out with our fully featured, and maximally simple, [SampleAnalyzer](https://github.com/saleae/SampleAnalyzer). In this Github repository, we provide two helpful documents.
+
+1. [Readme](https://github.com/saleae/SampleAnalyzer/blob/master/readme.md) - This document will walk you through how to modify the SampleAnalyzer to suit your needs, including steps to rename, setup, build, and debug your analyzer.
+2. [Analyzer\_API](https://github.com/saleae/SampleAnalyzer/blob/master/docs/Analyzer\_API.md) - This is the documentation for the Saleae C++ Analyzer API.
+
+As an alternative, you may also get started with any of our pre-installed protocol analyzers or one of many community shared protocol analyzers. Source code for both are provided in a section below in this support article.
 
 ### **Latest Analyzer SDK Release**
 
-* [Sample Analyzer on GitHub](https://github.com/saleae/SampleAnalyzer)
+Our SampleAnalyzer automatically fetches the latest library files located on our Analyzer SDK GitHub repository located below.
+
 * [Analyzer SDK on GitHub](https://github.com/saleae/AnalyzerSDK)
-
-### **Documentation and Getting Started**
-
-The documentation for the Analyzer SDK can be found below:
-
-* [Analyzer\_API.md](https://github.com/saleae/SampleAnalyzer/blob/master/docs/Analyzer\_API.md)
-
-Alternatively, to get started, you can review the Setup guide below. We will be working with the provided Sample Analyzer above.
-
-{% content-ref url="setup.md" %}
-[setup.md](setup.md)
-{% endcontent-ref %}
-
-{% content-ref url="build.md" %}
-[build.md](build.md)
-{% endcontent-ref %}
-
-{% content-ref url="debug.md" %}
-[debug.md](debug.md)
-{% endcontent-ref %}
-
-The Sample Analyzer includes build instructions in its included [Readme file](https://github.com/saleae/SampleAnalyzer/blob/master/readme.md).
 
 ### Installing your Custom Analyzers
 
@@ -45,7 +31,7 @@ The Sample Analyzer includes build instructions in its included [Readme file](ht
 [setting-up-developer-directory.md](../../faq/technical-faq/setting-up-developer-directory.md)
 {% endcontent-ref %}
 
-### Protocol Analyzers Source Code
+### Pre-Installed Analyzers Source Code
 
 * [1-Wire Analyzer](https://www.github.com/saleae/one-wire-analyzer)
 * [Async Serial Analyzer](https://www.github.com/saleae/serial-analyzer)&#x20;
@@ -71,6 +57,12 @@ The Sample Analyzer includes build instructions in its included [Readme file](ht
 * [SPI Analyzer](https://www.github.com/saleae/spi-analyzer)&#x20;
 * [SWD Analyzer](https://www.github.com/saleae/swd-analyzer)&#x20;
 * [USB Analyzer](https://www.github.com/saleae/usb-analyzer)
+
+### Community Shared Analyzers
+
+{% content-ref url="../../community/community-shared-protocols.md" %}
+[community-shared-protocols.md](../../community/community-shared-protocols.md)
+{% endcontent-ref %}
 
 ### **Legacy 1.1.14 Release**
 
