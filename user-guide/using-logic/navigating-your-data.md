@@ -2,6 +2,16 @@
 
 In the Logic 2 software, several methods exist for navigating your data. Here are some of the most common methods.
 
+### Marquee Zoom: Zooming by Drag Select
+
+Marquee zoom (i.e. zooming in by drag-selecting a region of the waveform) is available on analog channels.
+
+![Marquee Zoom](<../../.gitbook/assets/Screen Shot 2022-06-07 at 4.06.58 PM.png>)
+
+* Use `Alt-Drag` for XY Range Zoom&#x20;
+* `Ctrl-Drag Up/Down` for Y (Voltage) Range Zoom
+* `Ctrl-Drag Left/Right` for X (Time) Range Zoom
+
 ### Zooming, Panning, & Jumping to Edges
 
 |                        |                                                                                                                             |
