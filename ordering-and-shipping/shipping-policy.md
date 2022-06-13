@@ -6,13 +6,13 @@ To check the shipping options available in your country, simply add an item to t
 
 ### Adding a Shipping Account Number to an Existing Order
 
-We typically do not allow customers to use their own shipping account numbers when placing orders on our website. However, in certain instances, we might be able to modify your order by adding your shipping account number to it after your order has been placed. 
+We typically do not allow customers to use their own shipping account numbers when placing orders on our website. However, in certain instances, we might be able to modify your order by adding your shipping account number to it after your order has been placed.&#x20;
 
 #### Requirements & Important Notes
 
 * We will do our best to accomodate your request, but cannot guarantee that we will be able to modify your order in time before we ship it.
 * We only accept **FedEx, UPS, or DHL** account numbers.
-* Your order must have been purchased in **USD currency** \(Your order number will be in the format USD-XXXX\).
+* Your order must have been purchased in **USD currency** (Your order number will be in the format USD-XXXX).
 * Immediately after placing your order on our website at [www.saleae.com](https://www.saleae.com/), please fill out the [Request to Add Shipping Account Number](https://saleae-support.typeform.com/to/J5vmv2gn) form.
 * Our same-day shipping cutoff for USD orders is 12PM PST, Monday - Friday. Orders placed near the cutoff time have the risk of shipping before we are able to modify it to include your shipping account number.
 * If your shipping account requires you to give us authorization to ship on your account, please authorize us beforehand. Otherwise, this will delay your shipment.
@@ -21,9 +21,9 @@ We typically do not allow customers to use their own shipping account numbers wh
 
 Saleae regularly ships internationally.
 
-If you are shipping to a country outside the US, there will likely be additional charges for duties and taxes, due on receipt. 
+If you are shipping to a country outside the US, there will likely be additional charges for duties and taxes, due on receipt.&#x20;
 
-In some locations \(i.e., most of the EU\), we offer the ability to pre-pay import taxes such as VAT. If this is the case, we can charge you the customs fees and it will be clearly indicated in the shopping cart. Afterwards, you will not get a customs bill. You will see what options are available on the cart page.
+In some locations (i.e., most of the EU), we offer the ability to pre-pay import taxes such as VAT. If this is the case, we can charge you the customs fees and it will be clearly indicated in the shopping cart. Afterwards, you will not get a customs bill. You will see what options are available on the cart page.
 
 ### **Order Emails and Tracking Numbers**
 
@@ -35,29 +35,29 @@ After your order ships, you will receive a second email with a tracking number a
 
 For **online orders** placed at [www.saleae.com](https://www.saleae.com/), the origin of the shipment is determined by the currency your order was paid in. You cannot select the currency. Our cart page selects it automatically depending on the shipping country. Please refer to the table below.
 
-| Currency | Logic Products Ship From... | Accessories Ship From... |
-| :--- | :--- | :--- |
-| USD | South San Francisco, CA | South San Francisco, CA |
-| EUR | Europe \(EuroLogistix\) | Europe \(EuroLogistix\) |
-| GBP | Europe \(EuroLogistix\) | Europe \(EuroLogistix\) |
-| CAD | Canada \(Fulfillment by Amazon\) | South San Francisco, CA |
-| CNY | South San Francisco, CA | South San Francisco, CA |
-| AUD | South San Francisco, CA | South San Francisco, CA |
-| JPY | South San Francisco, CA | South San Francisco, CA |
-| NT$ | South San Francisco, CA | South San Francisco, CA |
+| **Currency** | **Logic Products Ship From...**                                                                                                           | **Accessories Ship From...**                                                                                                              |
+| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| USD          | South San Francisco, CA                                                                                                                   | South San Francisco, CA                                                                                                                   |
+| EUR          | <p>If UPS: Netherlands via EuroLogistix<br><br>If FedEx: South San Francisco, CA (Only if our Netherlands warehouse was out of stock)</p> | <p>If UPS: Netherlands via EuroLogistix<br><br>If FedEx: South San Francisco, CA (Only if our Netherlands warehouse was out of stock)</p> |
+| GBP          | UK via EuroLogistix                                                                                                                       | UK via EuroLogistix                                                                                                                       |
+| CAD          | Canada (Fulfillment by Amazon)                                                                                                            | South San Francisco, CA                                                                                                                   |
+| CNY          | South San Francisco, CA                                                                                                                   | South San Francisco, CA                                                                                                                   |
+| AUD          | South San Francisco, CA                                                                                                                   | South San Francisco, CA                                                                                                                   |
+| JPY          | South San Francisco, CA                                                                                                                   | South San Francisco, CA                                                                                                                   |
+| NT$          | South San Francisco, CA                                                                                                                   | South San Francisco, CA                                                                                                                   |
 
-For **purchase orders \(POs\)**, orders will ship from South San Francisco, CA in USD. This applies even for international orders outside of the US.
+For **purchase orders (POs)**, orders will ship from South San Francisco, CA in USD. This applies even for international orders outside of the US.
 
 ### **No Shipping Days**
 
 Saleae observes the typical United States holidays and does not ship on the following days:
 
-* New Year's Day \(January 1\)
-* Memorial Day \(last Monday in May\)
-* Independence Day \(July 4\)
-* Labor Day \(first Monday in September\)
-* Thanksgiving Day \(fourth Thursday in November\)
-* Christmas Day \(December 25\).
+* New Year's Day (January 1)
+* Memorial Day (last Monday in May)
+* Independence Day (July 4)
+* Labor Day (first Monday in September)
+* Thanksgiving Day (fourth Thursday in November)
+* Christmas Day (December 25).
 
 ### Can You Ship to a PO Box Address?
 
@@ -65,11 +65,9 @@ No, unfortunately we cannot ship to PO Boxes.
 
 ### **In-Stock Items**
 
-Normally, orders placed before 12 pm PST on weekdays are shipped the same day. The stocking status \(in stock or out of stock\) is displayed under each item in your cart.
+Normally, orders placed before 12 pm PST on weekdays are shipped the same day. The stocking status (in stock or out of stock) is displayed under each item in your cart.
 
 ### **Out-of-Stock Items**
 
 If an item is not in stock, an estimated time of shipment is displayed in your cart. This is our estimate, but sometimes it may take longer than indicated. If any of your items are out of stock, your entire order will be held until it can be shipped in full, but you may contact us to make other arrangements.
-
-
 
