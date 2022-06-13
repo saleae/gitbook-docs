@@ -14,11 +14,12 @@ Marquee zoom (i.e. zooming in by drag-selecting a region of the waveform) is ava
 
 ### Zooming, Panning, & Jumping to Edges
 
-|                        |                                                                                                                             |
-| ---------------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| Zooming In and Out     | <p>Mouse Wheel</p><p>Up/Down Arrow Keys</p>                                                                                 |
-| Panning Left and Right | <p>Mouse Click and Drag</p><p>Left/Right Arrow Keys</p>                                                                     |
-| Jumping Between Edges  | <p>Click the "Next Edge" button (shown below)</p><ul><li>Hover your pointer on the right-most edge of the channel</li></ul> |
+|                                 |                                                                                                                                                                                                                    |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Zooming In and Out              | <p>Mouse Wheel</p><p>Up/Down Arrow Keys</p>                                                                                                                                                                        |
+| Panning Left and Right          | <p>Mouse Click and Drag</p><p>Left/Right Arrow Keys</p>                                                                                                                                                            |
+| Jump to Next Edge Offscreen     | <p>Click the "Next Edge" button, which appears when hovering the mouse on the right side of the channel (image shown below).</p><ul><li>Ctrl + Right Arrow (Win/Linux)</li><li>Cmd + Right Arrow (MacOS)</li></ul> |
+| Jump to Previous Edge Offscreen | <p></p><p>Click the "Previous Edge" button, which appears when hovering the mouse on the left side of the channel.</p><ul><li>Ctrl + Left Arrow (Win/Linux)</li><li>Cmd + Left Arrow (MacOS)</li></ul>             |
 
 !["Next Edge" button](<../../.gitbook/assets/Screen Shot 2021-02-10 at 5.25.27 PM (2).png>)
 
