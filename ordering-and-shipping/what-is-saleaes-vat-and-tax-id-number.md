@@ -11,6 +11,12 @@
 | Dun & Bradstreet Number   | DUNS #: 048959933                                                                    |
 | Canadian GST / PST Number | 770324515RT0001                                                                      |
 
+### Saleae W9
+
+Our W-9 Form can be downloaded below.
+
+{% file src="../.gitbook/assets/Saleae Form W9.pdf" %}
+
 ### Saleae VAT Number Table
 
 The Saleae VAT number you refer to will depend on what country the order was shipped to. Please see the table below. Usually, Saleae's VAT number is needed for tax purposes, so please ensure you refer to the correct one. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) for any questions.
