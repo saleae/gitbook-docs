@@ -38,7 +38,7 @@ If you see this error message, try launching the software with the `--no-sandbox
 
 * `./Logic --no-sandbox`
 
-**3. Launch the app with `--disable-gpu` or `--in-process-gpu`**
+#### **3. Launch the app with `--disable-gpu` or `--in-process-gpu`**
 
 Try each one of these command line arguments one at time. We've seen a handful of launch crashes where the Chromium GPU process repeatedly fails to start, causing the app to give up and exit. If you see a console message like "GPU process isn't usable. Goodbye.", this might fix it.
 
