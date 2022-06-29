@@ -38,7 +38,14 @@ If you see this error message, try launching the software with the `--no-sandbox
 
 * `./Logic --no-sandbox`
 
-#### 3. Install libnsl
+**3. Launch the app with `--disable-gpu` or `--in-process-gpu`**
+
+Try each one of these command line arguments one at time. We've seen a handful of launch crashes where the Chromium GPU process repeatedly fails to start, causing the app to give up and exit. If you see a console message like "GPU process isn't usable. Goodbye.", this might fix it.
+
+* `./Logic-2.*-master.AppImage --disable-gpu`
+* `./Logic-2.*-master.AppImage` --in-process-gpu
+
+#### 4. Install libnsl
 
 If you are attempting to run our Logic 2 software on Linux, take a look at the output of the following commands.
 
@@ -55,7 +62,7 @@ It seems that some Linux distributions may have removed libnsl, and that reinsta
 
 `yum install libnsl`
 
-#### 4. Install Ubuntu 18
+#### 5. Install Ubuntu 18+
 
 Unfortunately, newer versions of our Logic 2 software (starting v2.3.33) no longer supports Ubuntu 16 (Ubuntu LTS 16 ended its support in April 2021). We have since updated our Logic 2 software to support Ubuntu 18.04.5+ (64 bit) as mentioned below. We apologize for the inconvenience this causes. Should you have any questions, feel free to [contact us](https://contact.saleae.com/hc/en-us/requests/new).
 
