@@ -32,7 +32,9 @@ Mac OS X 10.8+\
 Linux 64-Bit\
 [https://downloads.saleae.com/logic/1.2.40/Logic-1.2.40-Linux.AppImage](https://downloads.saleae.com/logic/1.2.40/Logic-1.2.40-Linux.AppImage)
 
+#### Extracting the AppImage (Linux)
 
+You can extract the AppImage with `./Logic-1.2.40-Linux.AppImage --appimage-extract`, which will dump the contents to a new directory called squashfs. You can then run the Logic binary directly from there.
 
 ## Older Versions of Logic 1.x
 
