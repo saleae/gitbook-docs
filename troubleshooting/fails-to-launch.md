@@ -43,7 +43,7 @@ If you see this error message, try launching the software with the `--no-sandbox
 Try each one of these command line arguments one at time. We've seen a handful of launch crashes where the Chromium GPU process repeatedly fails to start, causing the app to give up and exit. If you see a console message like "GPU process isn't usable. Goodbye.", this might fix it.
 
 * `./Logic-2.*-master.AppImage --disable-gpu`
-* `./Logic-2.*-master.AppImage` --in-process-gpu
+* `./Logic-2.*-master.AppImage --in-process-gpu`
 
 #### 4. Install libnsl
 

@@ -17,6 +17,10 @@ The Logic 2 software is provided in an AppImage format, which contains all the f
 
 ![Enabling the AppImage file to be executable](<../.gitbook/assets/Screen Shot 2021-01-25 at 9.12.32 PM.png>)
 
+#### Extracting the AppImage
+
+You can extract the AppImage with `./Logic-2.x.xx-master.AppImage --appimage-extract`, which will dump the contents to a new directory called squashfs. You can then run the Logic binary directly from there.
+
 ### MacOS Instructions
 
 First, double-click the Logic 2 .zip file available on our [download page](https://www.saleae.com/downloads/). This will extract the Logic 2 application file. From here, you can double click the Logic 2 app to run it.
