@@ -127,7 +127,7 @@ Instructions:&#x20;
 
 1. Ensure the Logic app is running and your Logic analyzer is connected
 2. Open terminal
-3. Run the command below
+3. Run the command below (replace "xxxxxx" with the characters shown in your "Install a udev rules" popup window)
 4. Close the Logic app
 5. Disconnect and reconnect your Logic analyzer
 6. Open the Logic app

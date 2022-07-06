@@ -38,12 +38,12 @@ If you see this error message, try launching the software with the `--no-sandbox
 
 * `./Logic --no-sandbox`
 
-**3. Launch the app with `--disable-gpu` or `--in-process-gpu`**
+#### **3. Launch the app with `--disable-gpu` or `--in-process-gpu`**
 
 Try each one of these command line arguments one at time. We've seen a handful of launch crashes where the Chromium GPU process repeatedly fails to start, causing the app to give up and exit. If you see a console message like "GPU process isn't usable. Goodbye.", this might fix it.
 
 * `./Logic-2.*-master.AppImage --disable-gpu`
-* `./Logic-2.*-master.AppImage` --in-process-gpu
+* `./Logic-2.*-master.AppImage --in-process-gpu`
 
 #### 4. Install libnsl
 
@@ -62,7 +62,17 @@ It seems that some Linux distributions may have removed libnsl, and that reinsta
 
 `yum install libnsl`
 
-#### 5. Install Ubuntu 18+
+#### 5. Avoid launching the software with root permissions
+
+Instead, you'll want to install the udev rules file to allow the non-elevated application to work with devices. Instructions for installing the udev rules file can be found in the support article below.
+
+{% content-ref url="../logic-software/driver-install.md" %}
+[driver-install.md](../logic-software/driver-install.md)
+{% endcontent-ref %}
+
+We've seen GPU issues on Linux where the application will crash on launch due to the GPU process repeatedly crashing on launch.
+
+#### 6. Install Ubuntu 18+
 
 Unfortunately, newer versions of our Logic 2 software (starting v2.3.33) no longer supports Ubuntu 16 (Ubuntu LTS 16 ended its support in April 2021). We have since updated our Logic 2 software to support Ubuntu 18.04.5+ (64 bit) as mentioned below. We apologize for the inconvenience this causes. Should you have any questions, feel free to [contact us](https://contact.saleae.com/hc/en-us/requests/new).
 
@@ -70,7 +80,7 @@ Unfortunately, newer versions of our Logic 2 software (starting v2.3.33) no long
 [supported-operating-systems.md](../logic-software/supported-operating-systems.md)
 {% endcontent-ref %}
 
-**5. Contacting Support**
+**7. Contacting Support**
 
 In case the solutions above don't help, please [contact us](https://contact.saleae.com/hc/en-us/requests/new) and send us the output of the commands generated from step 3 above.
 
