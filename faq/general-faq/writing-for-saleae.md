@@ -64,4 +64,4 @@ $200 USD for a project writeup meeting the requirements described here. You can 
 
 \[   ] Include a link to your publicly hosted article. \
 \[   ] Include this in your email: “I grant Saleae CC BY-SA rights for this content.” (i.e., give us permission to post your article on our website, and make edits for grammar and format. [https://en.wikipedia.org/wiki/Creative\_Commons\_license](https://en.wikipedia.org/wiki/Creative\_Commons\_license)) \
-\[   ] Include your preferred way of claiming your reward: Sparkfun gift card, Adafruit gift card, Paypal, or Check.
+\[   ] Include your preferred way of claiming your reward: Discount Code for our website, Sparkfun gift card, Adafruit gift card, Paypal, or Check.
