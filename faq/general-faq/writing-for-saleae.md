@@ -14,7 +14,7 @@ Write about your electronics project and get paid!
 
 ### Reward
 
-$200 USD for a project writeup meeting the requirements described here. You can receive a discount code to be used on our website at [www.saleae.com](https://www.saleae.com/), a Sparkfun or Adafruit gift certificate, Paypal, or check (US bank).
+$200 USD for a project writeup meeting the requirements described here. You can receive a discount code to be used on our website at [www.saleae.com](https://www.saleae.com/), or you can receive your reward via Paypal.
 
 ### Suggestions for what to write about
 
@@ -64,4 +64,4 @@ $200 USD for a project writeup meeting the requirements described here. You can 
 
 \[   ] Include a link to your publicly hosted article. \
 \[   ] Include this in your email: “I grant Saleae CC BY-SA rights for this content.” (i.e., give us permission to post your article on our website, and make edits for grammar and format. [https://en.wikipedia.org/wiki/Creative\_Commons\_license](https://en.wikipedia.org/wiki/Creative\_Commons\_license)) \
-\[   ] Include your preferred way of claiming your reward: Sparkfun gift card, Adafruit gift card, Paypal, or Check.
+\[   ] Include your preferred way of claiming your reward: Discount Code for our website, or Paypal.

@@ -90,7 +90,13 @@ For Windows 10, manually installing the [Microsoft Visual Studio 2019 runtime](h
 
 Be sure to select the x64 version if you are using a 64-bit version of Windows. After you have installed the runtime, try restarting the computer and running the Logic 2 software again.
 
+### MacOS Solutions
 
+On MacOS, you may see the `Error Connecting to Socket` message when attempting to start the Logic 2 app while disconnected from the internet. This is unintentional, as the app was designed to be able to run while offline. [In the forum post here](https://discuss.saleae.com/t/failed-to-start-without-network/1682/6), we've found that localhost may not resolve on your machine when disconnected from the internet.
+
+The workaround is to take a look at your `/etc/hosts` file and to check if it contains the following line. If it’s missing, you'll want to add that line back and that should solve the issue.
+
+`127.0.0.1       localhost`
 
 ## Logic 1.x
 
