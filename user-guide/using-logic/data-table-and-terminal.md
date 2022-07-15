@@ -6,7 +6,7 @@
 
 The analyzer data table shows all decoded protocol data in a table format. In general, the search functionality allows you to search for content in any column, except for the 'Start' and 'Duration' columns.
 
-![The Analyzer Data Table Displaying I2C data](<../../.gitbook/assets/Screen Shot 2021-07-14 at 5.33.57 PM.png>)
+![The Analyzer Data Table Displaying I2C data](../../.gitbook/assets/screen-shot-2021-07-14-at-5.33.57-pm.png)
 
 To learn more about the different columns that are used for Saleae's built-in analyzers, please refer to the support article below.
 
@@ -18,7 +18,7 @@ To learn more about the different columns that are used for Saleae's built-in an
 
 By clicking the 3 dots to the right of the search bar, a few options become available.
 
-![Data Table options via 3 dots](<../../.gitbook/assets/Screen Shot 2021-07-14 at 5.36.33 PM.png>)
+![Data Table options via 3 dots](../../.gitbook/assets/screen-shot-2021-07-14-at-5.36.33-pm.png)
 
 * Analyzers can be added or removed to exclude certain analyzers from search results and from appearing in the Data Table.&#x20;
 * The ability to exclude columns from search become available (while keeping them visible in the Data Table). This is useful for excluding columns that may otherwise pollute your search results, such as the 'Type' column, or boolean columns like 'ack' or 'read'.
@@ -27,7 +27,7 @@ By clicking the 3 dots to the right of the search bar, a few options become avai
 
 The ability to hide columns altogether is available by right clicking the column label in the Data Table.
 
-!["Show/Hide Columns" Window via Right Clicking the Data Table Header](<../../.gitbook/assets/Screen Shot 2021-07-14 at 5.47.26 PM.png>)
+!["Show/Hide Columns" Window via Right Clicking the Data Table Header](../../.gitbook/assets/screen-shot-2021-07-14-at-5.47.26-pm.png)
 
 This also excludes them from the search results and is useful when there are too many columns to comfortably display.&#x20;
 
@@ -40,7 +40,7 @@ This also excludes them from the search results and is useful when there are too
 
 You can jump to a specific row in the data table by hovering your mouse over a decoded bubble above the waveform as shown in the image below. A keyboard shortcut (OS-specific) will appear to allow you to perform this action.
 
-![Jumping to a Row in the Data Table](<../../.gitbook/assets/Screen Shot 2021-04-07 at 3.40.30 PM.png>)
+![Jumping to a Row in the Data Table](../../.gitbook/assets/screen-shot-2021-04-07-at-3.40.30-pm.png)
 
 ### Data Table Scrollbar Limitations
 
@@ -95,7 +95,7 @@ This list explains the supported radix of each data type.
 
 A terminal view is available by clicking the "Terminal" button at the top-right of the data table. This allows you to view your data in a terminal-like display format.
 
-![Terminal View showing I2C data](<../../.gitbook/assets/Screen Shot 2021-07-14 at 5.53.44 PM.png>)
+![Terminal View showing I2C data](../../.gitbook/assets/screen-shot-2021-07-14-at-5.53.44-pm.png)
 
 ### Limitations of Terminal View
 
@@ -113,15 +113,15 @@ Our in-app terminal view has a scroll-back limit of 10,000 rows. Once the 10,000
 
 * **Async Serial** - will always attempt to display in ASCII format. If the ASCII opcode doesn't exist, then it will be displayed in hex, separated by backslashes (\\) as shown below. Notice that the first set of opcodes (0 to 0x1F) do not exist and are therefore displayed as hex. As the opcode increments and become valid, ASCII characters are displayed.
 
-![Async Serial Terminal View Example](<../../.gitbook/assets/Screen Shot 2021-09-10 at 5.21.15 PM.png>)
+![Async Serial Terminal View Example](../../.gitbook/assets/screen-shot-2021-09-10-at-5.21.15-pm.png)
 
 * **I2C** - will display addresses and data, as well as read/write status, as shown below.
 
-![I2C Terminal View Example](<../../.gitbook/assets/Screen Shot 2021-09-10 at 5.20.12 PM.png>)
+![I2C Terminal View Example](../../.gitbook/assets/screen-shot-2021-09-10-at-5.20.12-pm.png)
 
 * **SPI** - will display in hex in the format `MOSI / MISO` .
 
-![SPI Terminal View Example](<../../.gitbook/assets/Screen Shot 2021-09-10 at 5.23.44 PM.png>)
+![SPI Terminal View Example](../../.gitbook/assets/screen-shot-2021-09-10-at-5.23.44-pm.png)
 
 * **For all other analyzers** - content will be displayed as shown in the data table.
 

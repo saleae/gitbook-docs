@@ -23,7 +23,7 @@ One of the easiest to use I2C sensors is the inexpensive TMP102 temperature sens
 
 Solder header pins to the TMP102 breakout board, and connect the Nucleo to the TMP102 breakout board as shown in the following diagram. Note that GND, SDA, and SCL are broken out to the male pins to the right of the female Arduino headers on the Nucleo. This setup allows us to attach the Saleae Logic Analyzer wires.
 
-![](<../../.gitbook/assets/i2c\_circuit\_fritzing (1).png>)
+![](../../.gitbook/assets/i2c\_circuit\_fritzing.png)
 
 #### Run Demo Application <a href="#run-demo-application-4" id="run-demo-application-4"></a>
 

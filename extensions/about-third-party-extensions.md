@@ -9,6 +9,6 @@ Before installing an extension, please keep in mind the following:
 * Please treat extensions the same way you would other programs downloaded from the internet.
 * All extensions are open source and can viewed by clicking the “Repository” link in the extension details.
 
-![Repository link from within the extension details](<../.gitbook/assets/Screen Shot 2020-08-28 at 5.12.28 PM.png>)
+![Repository link from within the extension details](../.gitbook/assets/screen-shot-2020-08-28-at-5.12.28-pm.png)
 
 If you have any problems with an extension, please be sure to create an issue on the extension’s GitHub repository. If you suspect an extension does not comply with the [Saleae Marketplace Partner Agreement](https://downloads.saleae.com/Saleae+Marketplace+Partner+Agreement.pdf), please [contact Saleae support](https://contact.saleae.com/hc/en-us/requests/new) or click on the "Report" button from within the extension details.

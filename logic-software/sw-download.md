@@ -2,7 +2,7 @@
 
 ## Logic 2 Software
 
-![Logic 2 Software](<../.gitbook/assets/Screen Shot 2021-12-07 at 12.10.01 PM.png>)
+![Logic 2 Software](<../.gitbook/assets/Screen Shot 2021-12-07 at 12.10.01 PM (1).png>)
 
 ### Download & Installation
 
@@ -45,7 +45,7 @@ In case you would like us to provide a standalone version of our Logic 2 app tha
 
 ## Logic 1.x Software
 
-![Logic 1.x Software](../.gitbook/assets/logic1.png)
+![Logic 1.x Software](<../.gitbook/assets/Screen Shot 2020-09-03 at 7.00.12 PM (2).png>)
 
 If you need to use our older Logic 1.x app for any reason, you can refer to the link below.
 

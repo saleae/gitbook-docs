@@ -40,4 +40,4 @@ An alternative approach (much faster and produces a smaller file) would be to ex
 [binary-export-format-logic-2.md](../faq/technical-faq/binary-export-format-logic-2.md)
 {% endcontent-ref %}
 
-![Exporting to a Binary File](<../.gitbook/assets/Screen Shot 2021-04-12 at 6.30.44 PM.png>)
+![Exporting to a Binary File](../.gitbook/assets/screen-shot-2021-04-12-at-6.30.44-pm.png)

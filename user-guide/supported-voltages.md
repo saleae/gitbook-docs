@@ -29,7 +29,7 @@ Notes:
 
 Logic Pro devices have three selectable voltage threshold options. This setting applies to all the input channels simultaneously.
 
-![Logic Pro 8/16 - Voltage Threshold Setting in the Logic 2 software](<../.gitbook/assets/screen-shot-2020-09-03-at-3.58.18-pm (1) (1).png>)
+![Logic Pro 8/16 - Voltage Threshold Setting in the Logic 2 software](<../.gitbook/assets/screen-shot-2020-09-03-at-3.58.18-pm (1) (1) (1).png>)
 
 The inputs are also implemented with comparators instead of standard CMOS buffers found on Logic 4 and Logic 8. This makes the input-low and input-high voltages very close to each other. The exact behavior of these comparators is not defined here.
 
@@ -109,11 +109,11 @@ If you are using the older Logic 1.x software, the window for setting your volta
 
 ### Logic Pro 8/16 Voltage Setting in Logic 1.x
 
-![Logic Pro 8/16 - Voltage Threshold Options](../.gitbook/assets/LogicPro16.png)
+![Logic Pro 8/16 - Voltage Threshold Options](../.gitbook/assets/logicpro16.png)
 
 ### Logic16 Voltage Setting in Logic 1.x
 
-![Logic16 - Voltage Threshold Options](../.gitbook/assets/Logic16.png)
+![Logic16 - Voltage Threshold Options](../.gitbook/assets/logic16.png)
 
 
 

@@ -2,7 +2,7 @@
 
 The time bar, located at the top of the software, helps with visualizing the time at which events occur in your capture. Right-clicking on the time bar will allow further configuration options.
 
-![](<../../.gitbook/assets/Screen Shot 2021-04-02 at 2.32.18 PM.png>)
+![](../../.gitbook/assets/screen-shot-2021-04-02-at-2.32.18-pm.png)
 
 ### Setting the Time Relative to Events
 
@@ -23,13 +23,13 @@ The Wall Clock Time format setting will only show up when you pan the capture al
 We certainly need to improve the way this feature works in such a way to avoid this confusion. If you have any issues with the way it's implemented now, feel free to vote for improvements [here](https://ideas.saleae.com/b/feature-requests/wall-clock-time-seemingly-doesnt-work)!
 {% endhint %}
 
-![Scroll to the beginning of capture to see Wall Clock Time](<../../.gitbook/assets/Screen Shot 2021-04-21 at 5.14.57 PM.png>)
+![Scroll to the beginning of capture to see Wall Clock Time](../../.gitbook/assets/screen-shot-2021-04-21-at-5.14.57-pm.png)
 
 ### Time Preferences
 
 The Time Preferences may also be opened for further customization on the time bar behavior.
 
-![Time Preferences Window](<../../.gitbook/assets/Screen Shot 2021-04-02 at 2.41.25 PM.png>)
+![Time Preferences Window](../../.gitbook/assets/screen-shot-2021-04-02-at-2.41.25-pm.png)
 
 
 

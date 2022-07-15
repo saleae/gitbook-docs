@@ -4,7 +4,7 @@ In rare cases, you may come across the error message below when trying to purcha
 
 _`"Unfortunately we are unable to ship to PO Boxes"`_
 
-![PO Box Error Message](<../../.gitbook/assets/po box error.png>)
+![PO Box Error Message](../../.gitbook/assets/po-box-error.png)
 
 ### Solution
 

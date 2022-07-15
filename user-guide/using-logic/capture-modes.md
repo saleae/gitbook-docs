@@ -24,13 +24,13 @@ Looping Mode Capture
 
 The trigger mode will continuously record data until a digital trigger is found on a single channel. The four available types of digital triggers are Rising Edge, Falling Edge, High Pulse, and Low Pulse.
 
-![Trigger Mode Capture Settings](<../../.gitbook/assets/Screen Shot 2020-09-23 at 6.25.23 PM.png>)
+![Trigger Mode Capture Settings](../../.gitbook/assets/screen-shot-2020-09-23-at-6.25.23-pm.png)
 
 #### Additional Channel State Triggering
 
 In addition to the edge/pulse trigger which is set on a single digital channel, you can require other digital channels to be either HIGH or LOW to trigger a capture.
 
-![Digital Channel State Conditions for Trigger](<../../.gitbook/assets/Screen Shot 2020-09-23 at 6.32.26 PM.png>)
+![Digital Channel State Conditions for Trigger](../../.gitbook/assets/screen-shot-2020-09-23-at-6.32.26-pm.png)
 
 #### Memory Buffer Setting
 
@@ -38,17 +38,17 @@ In Trigger mode, while waiting for the trigger during a capture, Logic will cont
 
 Please make sure to size the "Memory buffer size" appropriately from within the capture settings panel, such that your PC does not run out of memory while waiting for a trigger.
 
-![Memory Buffer Size Setting](<../../.gitbook/assets/Screen Shot 2020-11-02 at 3.53.54 PM.png>)
+![Memory Buffer Size Setting](../../.gitbook/assets/screen-shot-2020-11-02-at-3.53.54-pm.png)
 
 #### Capture Duration Before and After Trigger
 
 The data that was captured before the trigger can be trimmed down in length. This allows you to specify how much of the data before the trigger is kept when the capture ends.
 
-![Trim pre-trigger data](../../.gitbook/assets/Trim-Pre-Trigger-Data.png)
+![Trim pre-trigger data](../../.gitbook/assets/trim-pre-trigger-data.png)
 
 You can also specify the duration at which the software will continue recording data once the trigger condition is met.
 
-![Capture duration after trigger](../../.gitbook/assets/Duration-after-trigger.png)
+![Capture duration after trigger](<../../.gitbook/assets/duration-after-trigger (1).png>)
 
 #### Jumping to the Trigger Point
 
@@ -57,7 +57,7 @@ Two options exist for jumping to a trigger point after your capture is complete:
 * Via a keyboard shortcut (On Windows it is Ctrl+J)
 * Via clicking on the trigger icon above your capture (shown below)
 
-![Clicking on the Trigger icon will jump the view to the trigger point](<../../.gitbook/assets/Screen Shot 2021-09-08 at 8.56.14 PM.png>)
+![Clicking on the Trigger icon will jump the view to the trigger point](../../.gitbook/assets/screen-shot-2021-09-08-at-8.56.14-pm.png)
 
 At the moment, we don't have a way of automatically jumping to trigger point after a capture. If this is a feature you would like added, please vote for it in the idea post [here](https://ideas.saleae.com/b/feature-requests/jump-to-trigger-point-after-capture/)!
 
@@ -79,7 +79,7 @@ This is due to our Trigger View relying on a new low level analyzer framing form
 Trigger View - SPI Example
 {% endembed %}
 
-![Triggering on a protocol frame](<../../.gitbook/assets/Screen Shot 2020-12-04 at 3.10.17 PM.png>)
+![Triggering on a protocol frame](../../.gitbook/assets/screen-shot-2020-12-04-at-3.10.17-pm.png)
 
 ## Logic 1.x
 
@@ -89,7 +89,7 @@ If you are using the older Logic 1.x software, the following images and instruct
 
 The trigger can be used to start capturing data after a specified digital event occurs. Any data captured before the trigger event will also be included in the capture as specified by the "Pre-trigger buffer size" setting under the Preferences window.
 
-![Pre-trigger Buffer Size Setting](<../../.gitbook/assets/Screen Shot 2020-11-02 at 3.58.45 PM.png>)
+![Pre-trigger Buffer Size Setting](../../.gitbook/assets/screen-shot-2020-11-02-at-3.58.45-pm.png)
 
 Two types of triggers are supported: Trigger on Edge and Trigger on Pulse Width. The trigger can be used to trigger on an event from any channel. To move the event trigger to a different channel, first remove it using the steps at the bottom of this page, and then add it to a different channel.
 

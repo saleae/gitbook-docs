@@ -18,7 +18,7 @@ You will be greeted with an "Export Raw Data" window. From here, you can select 
 
 Scrolling down the "Export Raw Data" window reveals more options, including the desired Export Format, as well as the Export Location. An "Always Replace" option is also available to continuously overwrite your previous exported files in the specified Export Location.
 
-![Export Raw Data Window - 2](<../../.gitbook/assets/Screen Shot 2021-06-28 at 4.48.59 PM.png>)
+![Export Raw Data Window - 2](../../.gitbook/assets/screen-shot-2021-06-28-at-4.48.59-pm.png)
 
 {% hint style="info" %}
 Note: Digital channel entries are only recorded in the export file when data changes. Therefore, the number of entries in the resulting export file are dependent on the number of transitions that occur and not on the number of digital samples in the capture. This helps reduce the file size of the export file.

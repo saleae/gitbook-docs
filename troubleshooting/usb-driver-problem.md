@@ -4,7 +4,7 @@ In Windows, the Logic 2 software may generate the following warning message if i
 
 > Possible USB Host Controller Problem Detected! If you do not experience any connectivity issues with your device, you can safely ignore this message. Select "Do not show again" to hide.
 
-![Possible USB Host Controller Problem Detected](<../.gitbook/assets/Screen Shot 2021-04-02 at 3.32.20 PM.png>)
+![Possible USB Host Controller Problem Detected](<../.gitbook/assets/screen-shot-2021-04-02-at-3.32.20-pm (1).png>)
 
 This message does not indicate the device is not working. Instead, it simply checks your computer against a known list of USB host controller & driver combinations that customers have reported problems with in the past. If you are not experiencing any connectivity issues, you can safely ignore this message.
 

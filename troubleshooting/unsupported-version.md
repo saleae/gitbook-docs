@@ -4,7 +4,7 @@ Upon opening the Logic 1.x software, you may be prompted with the following warn
 
 _This software version is no longer supported. Please update your software at www.saleae.com._
 
-![Unsupported Version Warning Message](<../.gitbook/assets/Screen Shot 2020-08-03 at 5.35.31 PM.png>)
+![Unsupported Version Warning Message](<../.gitbook/assets/Screen Shot 2020-08-03 at 5.35.31 PM (1).png>)
 
 ### Bypassing the Warning Message
 
@@ -12,7 +12,7 @@ You can bypass this warning message by adding an override launch argument.
 
 In Windows, you can add the `--override` launch argument by right-clicking the shortcut and opening the Properties window as shown below.
 
-![Adding the --override launch argument in Windows](<../.gitbook/assets/Screen Shot 2020-07-09 at 2.58.32 PM.png>)
+![Adding the --override launch argument in Windows](../.gitbook/assets/screen-shot-2020-07-09-at-2.58.32-pm.png)
 
 On Ubuntu Linux & MacOS, the launch argument to bypass the warning message will be `-override` (one dash only). You can run this from the terminal.
 

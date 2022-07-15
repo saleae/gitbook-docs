@@ -20,9 +20,9 @@ In cases where the software cannot detect the logic analyzer, we need to determi
 * **MacOS:** \
   Open "System Report" by opening the Apple menu and selecting "About this Mac," and then select "System Report." Afterwards, select USB under Hardware and check for "Westbridge" in the treeview.
 
-![About this Mac](<../.gitbook/assets/Screen Shot 2022-06-08 at 5.37.48 PM (2).png>)
+![About this Mac](<../.gitbook/assets/Screen Shot 2022-06-08 at 5.37.48 PM (1) (1) (2).png>)
 
-![System Report](<../.gitbook/assets/Screen Shot 2022-06-08 at 5.40.20 PM (2).png>)
+![System Report](<../.gitbook/assets/Screen Shot 2022-06-08 at 5.40.20 PM (3) (1).png>)
 
 * **Linux (Ubuntu):** \
   Run `lsusb` from the command line. Check for any device name containing "Saleae" or a VID and PID that matches one of our Logic products. You can refer to the VID/PIDs of our devices in the support article below for reference.

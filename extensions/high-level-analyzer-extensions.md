@@ -140,7 +140,7 @@ Although we don't have the ability to attach debuggers to Python extensions at t
 
 * Use the reload source button in the app to quickly re-run your HLA after editing your source code.
 
-!["Reload Extension" button](<../.gitbook/assets/Screen Shot 2021-07-28 at 5.40.27 PM.png>)
+!["Reload Extension" button](../.gitbook/assets/screen-shot-2021-07-28-at-5.40.27-pm.png)
 
 ## Example - Writing an HLA to search for a value
 

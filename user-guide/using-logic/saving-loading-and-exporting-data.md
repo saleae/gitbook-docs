@@ -10,11 +10,11 @@ To save your current capture tab, click the Options button at the bottom right o
 
 The most recently used capture settings should be automatically loaded in the Logic 2 software upon opening the app. You can also save and load capture settings presets as needed. To open the Presets window, click the Options button at the bottom-right of the software, then click Presets.
 
-![Opening the Presets Window](<../../.gitbook/assets/Screen Shot 2021-02-26 at 3.49.54 PM.png>)
+![Opening the Presets Window](../../.gitbook/assets/screen-shot-2021-02-26-at-3.49.54-pm.png)
 
 This will open the Presets window below. From here, you can manage capture setting presets for the software. To share your presets with others, you can export your preset and import it into a new PC. Click on the 3 dots to the right of your preset to open up the options menu for that preset. This will allow you to load, rename, export, or delete you preset. To import a preset, click the _Import_ button at the bottom of the Presets window.
 
-![Preset Window](<../../.gitbook/assets/Screen Shot 2021-02-26 at 3.52.26 PM.png>)
+![Preset Window](../../.gitbook/assets/screen-shot-2021-02-26-at-3.52.26-pm.png)
 
 ### Legacy Capture Files (.logicdata files)
 

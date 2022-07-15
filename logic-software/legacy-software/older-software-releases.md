@@ -78,7 +78,7 @@ Windows 64-Bit Standalone\
 
 When launching 1.2.29, you may see an "Unsupported Version" notice like shown below.
 
-![Unsupported Version warning message in Logic 1.x](<../../.gitbook/assets/Screen Shot 2020-08-03 at 5.35.31 PM (1).png>)
+![Unsupported Version warning message in Logic 1.x](<../../.gitbook/assets/Screen Shot 2020-08-03 at 5.35.31 PM.png>)
 
 If you see this notice, please start the software using the instructions in the support article below.
 

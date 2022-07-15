@@ -6,7 +6,7 @@ Our support team may request for your USB host controller information in cases w
 2. Open device manager
 3. Expand the section "Universal Serial bus controllers" and locate any & all USB 3.0 host controllers you find there. For each one, please double click to open the properties window, go to the driver tab, and send us screenshots as shown below.
 
-![Finding USB Host Controller Information](<../../.gitbook/assets/Screen Shot 2021-04-02 at 3.12.57 PM.png>)
+![Finding USB Host Controller Information](../../.gitbook/assets/screen-shot-2021-04-02-at-3.12.57-pm.png)
 
 &#x20;    4\. To better identify your host controller you are using, click the details tab, and select "Hardware Ids" from the property selection. Then take a screenshot. It should look similar to the below image.
 

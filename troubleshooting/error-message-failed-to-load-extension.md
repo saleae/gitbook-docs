@@ -4,7 +4,7 @@ When starting the Logic 2 software, the following error message may appear.
 
 > Failed to load extension. An unknown error occurred while installing the extension. Please try again, and contact Saleae support if you still have problems.
 
-![Failed to load extension error message](<../.gitbook/assets/Screen Shot 2021-07-15 at 6.52.18 PM.png>)
+![Failed to load extension error message](../.gitbook/assets/screen-shot-2021-07-15-at-6.52.18-pm.png)
 
 ### Troubleshooting
 

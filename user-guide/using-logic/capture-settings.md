@@ -2,7 +2,7 @@
 
 The Device Settings Panel can be opened up by clicking on the Device Settings icon located on the software's side panel on the right.
 
-![Device Settings Button](<../../.gitbook/assets/Screen Shot 2021-12-07 at 1.51.02 PM (1).png>)
+![Device Settings Button](<../../.gitbook/assets/Screen Shot 2021-12-07 at 1.51.02 PM.png>)
 
 From this panel, several settings can be configured, such as:
 

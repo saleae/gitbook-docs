@@ -2,11 +2,11 @@
 
 First, click the options button at the bottom-right of the software, and select "Preferences."
 
-![](<../../.gitbook/assets/Screen Shot 2021-04-05 at 3.24.11 PM.png>)
+![](../../.gitbook/assets/screen-shot-2021-04-05-at-3.24.11-pm.png)
 
 Then, in the Preferences window, scroll to the bottom until you reach the Custom Low Level Analyzers section.
 
-![](<../../.gitbook/assets/Screen Shot 2021-04-05 at 3.26.38 PM.png>)
+![](../../.gitbook/assets/screen-shot-2021-04-05-at-3.26.38-pm.png)
 
 Use the browse button to select the directory that contains your compiled custom protocol analyzer.
 

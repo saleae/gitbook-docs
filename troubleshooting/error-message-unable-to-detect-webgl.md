@@ -13,7 +13,7 @@ Upon launching the Logic 2 software, you may experience an immediate crash, or a
 
 * `An error occurred in WebGL. Analog channels may stop working. Please save your work and restart the software.`
 
-![WebGL Error Message](<../.gitbook/assets/webgl-analog (1).png>)
+![WebGL Error Message](../.gitbook/assets/webgl-analog.png)
 
 ### Solution #1 - Launch from Command Line
 

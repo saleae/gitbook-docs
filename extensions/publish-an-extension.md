@@ -21,11 +21,11 @@ You can take a look at an [example GitHub repository](https://github.com/timreye
 
 1\. Once you've finished developing your extension, click 'Publish' under the Extensions panel for your extension.
 
-![](<../.gitbook/assets/Screen Shot 2020-06-10 at 8.40.05 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-06-10-at-8.40.05-pm.png)
 
 2\. Clicking 'Publish' should open your browser and load our extensions submission page. Provide your GitHub repository URL here and click 'Submit'.
 
-![](<../.gitbook/assets/Screen Shot 2020-06-11 at 8.52.44 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-06-11-at-8.52.44-pm.png)
 
 3\. Afterwards, you'll be taken to a new page to authorize Saleae Marketplace to access your GitHub account.&#x20;
 
@@ -35,13 +35,13 @@ If clicking "Submit" takes you to an error page on GitHub's website, please ensu
 
 4\. Click 'Authorize' and you should immediately receive an email confirming that your extension has been added to the Marketplace. The web page should also confirm that your extension was submitted successfully.
 
-![](<../.gitbook/assets/Screen Shot 2020-06-11 at 9.31.38 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-06-11-at-9.31.38-pm.png)
 
 5\. Click the three dots at the top of the Extensions panel and click 'Check for Extension Updates.'
 
-![](<../.gitbook/assets/Screen Shot 2020-06-11 at 11.10.17 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-06-11-at-11.10.17-pm.png)
 
 6\. Congratulations! If the publish was successful, your extension should now appear in the software like below.
 
-![](<../.gitbook/assets/Screen Shot 2020-06-11 at 9.17.50 PM.png>)
+![](../.gitbook/assets/screen-shot-2020-06-11-at-9.17.50-pm.png)
 

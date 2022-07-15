@@ -12,7 +12,7 @@ Our support team may request you to send your serial number to us to further inv
 
 ![Opening the Device Information Window](../.gitbook/assets/device-info.png)
 
-![Device Information window showing calibration status](<../.gitbook/assets/Screen Shot 2021-02-17 at 6.11.32 PM.png>)
+![Device Information window showing calibration status](../.gitbook/assets/screen-shot-2021-02-17-at-6.11.32-pm.png)
 
 #### Install Calibration via Logic 2 App
 
@@ -47,7 +47,7 @@ In cases when you are not able to download the calibration file from within the 
 
 When manually downloading the calibration file in Logic 2.x, in rare cases, your browser may open a page that looks like the image below.
 
-![Manual Calibration Access Denied](<../.gitbook/assets/Screen Shot 2020-06-24 at 12.54.46 PM.png>)
+![Manual Calibration Access Denied](../.gitbook/assets/screen-shot-2020-06-24-at-12.54.46-pm.png)
 
 In this case, please submit a [Warranty Request](https://saleae-support.typeform.com/to/E8UPB7) form and we will be happy to help. This may be indicative of hardware failure and we'll most likely want to process a warranty for you.
 

@@ -15,11 +15,11 @@ To demonstrate this, the example code (see below) for the STM32 Nucleo-F446RE ca
 
 To begin, plug 2 cable harnesses into your Saleae Logic Analyzer. Note that the arrow on the harness connector should be facing up and to the left (toward the ‘S’ in Saleae on your Logic Analyzer). While the colors of the wires do not ultimately matter, it can be helpful to have them line up with the resistor color code (from left to right): black, brown, red, orange, yellow, green, blue, violet.
 
-![](../../.gitbook/assets/saleae\_harness\_2.jpg)
+![](<../../.gitbook/assets/saleae\_harness\_2 (1) (1) (1) (1) (1) (1) (1).jpg>)
 
 Connect the wires to the male header pins on the Nucleo board as shown in the diagram. Note that most of the inner male pins are connected to the female pins in the Arduino UNO configuration. For a full pinout of the Nucleo-F446RE, refer to the [pinout section on the mbed page](https://os.mbed.com/platforms/ST-Nucleo-F446RE/#nucleo-pinout).
 
-![](<../../.gitbook/assets/digital\_circuit\_fritzing (1).png>)
+![](../../.gitbook/assets/digital\_circuit\_fritzing.png)
 
 #### Run Demo Application <a href="#run-demo-application" id="run-demo-application"></a>
 
@@ -55,7 +55,7 @@ Click the **Device Settings Button** again to close the configuration window. Yo
 
 Zoom in using your mouse wheel or the plus (+) key. Hover your mouse over a part of the waveform from Channel 0. You should see some text pop up, giving you some information about the pulses. The Logic software will automatically calculate the pulse width (w), the frequency (f), and the period (τ).
 
-![](<../../.gitbook/assets/screen\_08 (1) (1) (1) (1) (1) (1).png>)
+![](<../../.gitbook/assets/screen\_08 (1) (1) (1) (1) (1).png>)
 
 #### Using the Trigger <a href="#using-the-trigger" id="using-the-trigger"></a>
 

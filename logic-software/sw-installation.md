@@ -15,13 +15,17 @@ The Logic 2 software is provided in an AppImage format, which contains all the f
 1. Right-click the AppImage file and click Properties
 2. Check the box that says "Allow executing file as program"
 
-![Enabling the AppImage file to be executable](<../.gitbook/assets/Screen Shot 2021-01-25 at 9.12.32 PM.png>)
+![Enabling the AppImage file to be executable](../.gitbook/assets/screen-shot-2021-01-25-at-9.12.32-pm.png)
+
+#### Extracting the AppImage
+
+You can extract the AppImage with `./Logic-2.x.xx-master.AppImage --appimage-extract`, which will dump the contents to a new directory called squashfs. You can then run the Logic binary directly from there.
 
 ### MacOS Instructions
 
 First, double-click the Logic 2 .zip file available on our [download page](https://www.saleae.com/downloads/). This will extract the Logic 2 application file. From here, you can double click the Logic 2 app to run it.
 
-![Logic 2 app file extracted from .zip](<../.gitbook/assets/Screen Shot 2021-08-06 at 6.22.46 PM.png>)
+![Logic 2 app file extracted from .zip](../.gitbook/assets/screen-shot-2021-08-06-at-6.22.46-pm.png)
 
 ### Windows Instructions
 
@@ -29,7 +33,7 @@ Simply download and run the installer available on our [download page](https://w
 
 ### Install Errors
 
-![Logic 2 Installation Error](<../.gitbook/assets/image (10).png>)
+![Logic 2 Installation Error](<../.gitbook/assets/image (11).png>)
 
 In case you run into any installation issues, please refer to the support article below.
 
@@ -43,7 +47,7 @@ In case you run into any installation issues, please refer to the support articl
 
 If you plan on using the older Logic 1.x software, you can follow the instructions below.
 
-![](<../.gitbook/assets/Screen Shot 2020-09-03 at 7.00.12 PM.png>)
+![](../.gitbook/assets/logic1.png)
 
 The older Logic 1.x software can be downloaded below. Version 1.2.29 is the last version of Logic 1.x.
 

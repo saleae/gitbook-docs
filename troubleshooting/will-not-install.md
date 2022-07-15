@@ -4,7 +4,7 @@
 
 When installing the Logic 2 software, you may come across the following installation error message.
 
-![Logic 2 Installer Error](<../.gitbook/assets/image (11).png>)
+![Logic 2 Installer Error](<../.gitbook/assets/image (10).png>)
 
 In case you run into any installation issues like shown above, please try installing the software with the following command line argument to generate a log file (replacing the "x"s with the particular version you are installing).&#x20;
 
