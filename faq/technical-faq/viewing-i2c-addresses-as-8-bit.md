@@ -4,7 +4,8 @@ Our built-in I2C analyzer displays I2C addresses as a 7-bit value + ACK/NAK bit 
 
 ![I2C decoded with 7-bit addresses](<../../.gitbook/assets/Screen Shot 2021-01-29 at 4.20.11 PM.png>)
 
-In certain scenarios, it may be preferred to view the address field as an 8-bit value without the ACK/NAK bit. We've added a high level analyzer (HLA) extension that allows for this feature.
+In certain scenarios, it may be preferred to view the address field as an 8-bit value (incorporating the R/W bit).
+We've added a high level analyzer (HLA) extension that allows for this feature.
 
 1\. Navigate to the Extensions panel of the software on the right\
 2\. Find the "I2C 8-Bit Address Display extension" and click Install
