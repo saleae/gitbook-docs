@@ -9,6 +9,7 @@ The following analyzers are not officially supported by Saleae, but instead, wer
 * [Async Serial (Dual channel & Packet detection)](https://github.com/martonmiklos/dual-channel-packetiser-serial-analyzer)
 * [CAN-FD](https://github.com/acosmith/Saleae\_CAN-FD\_Analyser) (developed by [acosmith](https://github.com/acosmith))
 * [CAN-FD](https://github.com/pierremolinaro/canfd-plugin-for-saleae-logic-analyzer) (developed by [pierremolinaro](https://github.com/pierremolinaro))
+* [CAN 2.0B](https://github.com/pierremolinaro/can20B-plugin-for-saleae-logic-analyzer)
 * [Digital Command Control](https://www.ejberg.dk/portfolio/saleae-dcc-decoder/)
 * [DHT2x](https://github.com/jakeson21/DHT2xProtocolAnalyzer)
 * [DisplayPort Aux](https://github.com/Alex-the-Smart/DPAUXAnalyzer)
