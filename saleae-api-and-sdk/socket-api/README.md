@@ -1,12 +1,25 @@
-# Socket API - Automation
+# Automation API
+
+## Automation Support for Logic 2
+
+Our pre-release version of the Logic 2 automation interface is available now! We're currently hard at work implementing stability/bug fixes, adding new features, and overall preparing for its official release.
+
+* Details on the release can be found on our discuss forum post below:\
+  [discuss.saleae.com/t/saleae-logic-2-automation-api/1685](https://discuss.saleae.com/t/saleae-logic-2-automation-api/1685)
+* Documentation and python library download can be found below:\
+  [saleae.github.io/logic2-automation/index.html](https://saleae.github.io/logic2-automation/index.html)
+
+Please remember that this is still a pre-release. We intend to make breaking changes to the interface before it is ready for production use. If you run into any issues or have any feedback for us, please [contact us](https://contact.saleae.com/hc/en-us/requests/new).
+
+## Legacy Socket API Automation for Logic 1.x
+
+{% hint style="info" %}
+Please note that our legacy Socket API automation utility requires the older Logic 1.x software.&#x20;
+{% endhint %}
 
 The Socket API scripting utility allows users to programmatically configure our software and trigger captures.
 
 ### Prerequisites - Software Settings
-
-{% hint style="info" %}
-Please note that the Socket API automation utility requires the older Logic 1.x software. The latest Logic 2 software currently does not support this utility, though we do plan to add support for it in the future. Feel free to [vote on the idea here!](https://ideas.saleae.com/b/feature-requests/application-api/)
-{% endhint %}
 
 * Check that you are using the latest version of our legacy Logic 1.x software below.
 
