@@ -21,8 +21,8 @@ To do this, the software includes a TCP socket server. You can develop an applic
 
 You can find the latest socket API and documentation in the link below.
 
-{% content-ref url="../../saleae-api-and-sdk/socket-api/" %}
-[socket-api](../../saleae-api-and-sdk/socket-api/)
+{% content-ref url="../../saleae-api-and-sdk/automation.md" %}
+[automation.md](../../saleae-api-and-sdk/automation.md)
 {% endcontent-ref %}
 
 The documentation and a sample C# application are contained in the zip file posted there. Links to several open source implementations are also posted.

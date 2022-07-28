@@ -1,4 +1,4 @@
-# Analyzer SDK & Automation
+# Automation & Analyzer SDK
 
 ### Protocol Analyzer SDK
 
@@ -22,8 +22,8 @@ Our Socket API is intended to make it easy for the existing Saleae desktop softw
 
 You can find more details on the socket API below.
 
-{% content-ref url="socket-api/" %}
-[socket-api](socket-api/)
+{% content-ref url="automation.md" %}
+[automation.md](automation.md)
 {% endcontent-ref %}
 
 Because the socket API relies on simple text commands sent and received through sockets, any programming language can support it. There are no DLLs or required libraries. We provide a C# client library as well as a C# sample application.
