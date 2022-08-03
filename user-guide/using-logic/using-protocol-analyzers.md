@@ -104,13 +104,17 @@ When a protocol analyzer successfully decodes data, colored regions will appear 
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c96cb44251902be82bf/260x196/3b98e92499a7d0bfaccf2212cbb94795/analyzer\_bubble.png)
 
-In addition to displaying results over the digital waveform (in context), results are displayed in a list in the Decoded Protocols panel on the right of the software.
+### Decoded Protocols Panel
+
+{% hint style="info" %}
+Unfortunately, the Decoded Protocols Panel, in addition to Protocol Search, is no longer available in the Legacy 1.x software due to technical issues. When attempting to enable it in v1.2.40, you will find our note below.
+
+<img src="../../.gitbook/assets/Screen Shot 2022-08-03 at 4.47.39 PM (1).png" alt="" data-size="original">
+{% endhint %}
+
+In addition to displaying results over the digital waveform (in context), results are displayed in a list in the Decoded Protocols panel on the right of the software. Clicking an individual item in this list will zoom to that location in the digital waveform.
 
 ![](https://trello-attachments.s3.amazonaws.com/57215c96cb44251902be82bf/241x166/e1190765c2e3b58eae82d27b0fabb0bd/analyzer\_results.png)
-
-Clicking an individual item in this list will zoom to that location in the digital waveform.
-
-### **Searching Analyzer Results**
 
 To search for a specific result, type the exact text you would like to match. For example, if you would like to find transactions involving the I2C address 0x42, type 0x42 (assuming the display radix is hexadecimal).
 
