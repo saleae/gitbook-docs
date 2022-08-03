@@ -36,6 +36,20 @@ Linux 64-Bit\
 
 You can extract the AppImage with `./Logic-1.2.40-Linux.AppImage --appimage-extract`, which will dump the contents to a new directory called squashfs. You can then run the Logic binary directly from there.
 
+On Linux, please keep in mind that we no longer store the settings.xml file, calibration downloads, and other temporary files in the same directory structure as the application. Those are now stored in standard directories such as the following:
+
+`~/.config/Logic`
+
+or
+
+`~/.local/share/Logic`
+
+#### Where is the Decoded Protocols Panel?
+
+Unfortunately, the Decoded Protocols Panel, in addition to Protocol Search, is no longer available in the Legacy 1.x software due to technical issues. When attempting to enable it in v1.2.40, you will find our note below. Please upgrade to our newer [Logic 2 software](https://www.saleae.com/downloads/) if you need this functionality.
+
+![Decoded Protocol Search is no longer availble in 1.2.40](<../../.gitbook/assets/Screen Shot 2022-08-03 at 4.47.39 PM (1).png>)
+
 ## Older Versions of Logic 1.x
 
 ### **Temporary Releases**
