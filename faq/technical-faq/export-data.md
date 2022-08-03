@@ -2,8 +2,8 @@
 
 The following information pertains to our Legacy Socket API Automation utility for the older Logic 1.x software, which can be found below.
 
-{% content-ref url="../../saleae-api-and-sdk/socket-api.md" %}
-[socket-api.md](../../saleae-api-and-sdk/socket-api.md)
+{% content-ref url="../../saleae-api-and-sdk/automation.md" %}
+[automation.md](../../saleae-api-and-sdk/automation.md)
 {% endcontent-ref %}
 
 ### Exporting Data Using the Python Wrapper

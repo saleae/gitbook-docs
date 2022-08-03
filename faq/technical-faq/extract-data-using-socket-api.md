@@ -13,8 +13,8 @@ In the case of exporting analyzer results (such as I2C packets, serial data, etc
 
 More information about the socket API can be found here:
 
-{% content-ref url="../../saleae-api-and-sdk/socket-api.md" %}
-[socket-api.md](../../saleae-api-and-sdk/socket-api.md)
+{% content-ref url="../../saleae-api-and-sdk/automation.md" %}
+[automation.md](../../saleae-api-and-sdk/automation.md)
 {% endcontent-ref %}
 
 The first two steps listed above can easily be accomplished by using the sample code provided by the socket API.
