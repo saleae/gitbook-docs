@@ -79,6 +79,18 @@ In addition, The Logic 1.2.18 (and prior) software on Linux requires write permi
 [linux-permission-requirements-for-logic-software.md](../troubleshooting/linux-permission-requirements-for-logic-software.md)
 {% endcontent-ref %}
 
+#### Extracting the AppImage (Linux)
+
+You can extract the AppImage with `./Logic-1.2.40-Linux.AppImage --appimage-extract`, which will dump the contents to a new directory called squashfs. You can then run the Logic binary directly from there.
+
+On Linux, please keep in mind that we no longer store the settings.xml file, calibration downloads, and other temporary files in the same directory structure as the application. Those are now stored in standard directories such as the following:
+
+`~/.config/Logic`
+
+or
+
+`~/.local/share/Logic`
+
 ### **Installing for Linux – Driver**
 
 Before using the software with Logic hardware, you'll need to give the application permission to access the device (otherwise you'll have to launch the application with sudo). To do this, unplug any attached Logic device(s). From the command line, navigate to the _Driver_ folder and run the script _installdriver.sh_.
