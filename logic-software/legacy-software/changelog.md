@@ -5,6 +5,7 @@
 Changes in 1.2.40:
 
 1. Adds support for revision 3.0.0 Logic hardware. More information on hardware revisions can be found in the link below.
+2. Remove support for Decoded Protocols panel / table due to technical issues. You will notice that the checkbox for it is grayed out under Preferences > Capture.
 
 {% content-ref url="../../datasheets-and-specifications/logic-hardware-revisions.md" %}
 [logic-hardware-revisions.md](../../datasheets-and-specifications/logic-hardware-revisions.md)
