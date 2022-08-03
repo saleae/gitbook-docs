@@ -44,6 +44,12 @@ We apologize for the inconvenience this causes in the meantime.
 
 ## Logic 1.x
 
+{% hint style="info" %}
+Unfortunately, the Decoded Protocols Panel, in addition to Protocol Search, is no longer available in the Legacy 1.x software due to technical issues. When attempting to enable it in v1.2.40, you will find our note below. Please upgrade to our newer [Logic 2 software](https://www.saleae.com/downloads/) if you need this functionality.
+
+<img src="../.gitbook/assets/Screen Shot 2022-08-03 at 4.47.39 PM (1).png" alt="" data-size="original">
+{% endhint %}
+
 If you are using the older Logic 1.x software, the following troubleshooting guide applies.
 
 ### The Decoded Protocols Window Shows Incorrect Results

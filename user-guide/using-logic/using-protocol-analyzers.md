@@ -107,7 +107,7 @@ When a protocol analyzer successfully decodes data, colored regions will appear 
 ### Decoded Protocols Panel
 
 {% hint style="info" %}
-Unfortunately, the Decoded Protocols Panel, in addition to Protocol Search, is no longer available in the Legacy 1.x software due to technical issues. When attempting to enable it in v1.2.40, you will find our note below.
+Unfortunately, the Decoded Protocols Panel, in addition to Protocol Search, is no longer available in the Legacy 1.x software due to technical issues. When attempting to enable it in v1.2.40, you will find our note below. Please upgrade to our newer [Logic 2 software](https://www.saleae.com/downloads/) if you need this functionality.
 
 <img src="../../.gitbook/assets/Screen Shot 2022-08-03 at 4.47.39 PM (1).png" alt="" data-size="original">
 {% endhint %}
