@@ -2,30 +2,30 @@
 
 The Saleae Logic software includes the following protocol analyzers:
 
-* Asynchronous Serial
-* I2C&#x20;
-* I3C (see section below)
-* SPI (Serial Peripheral Interface)
-* CAN (Controller Area Network)
-* DMX512
-* I2S Audio / PCM
-* Manchester, Differential Manchester, Bi-Phase Space, and Bi-Phase Mark
 * 1-Wire
-* Synchronous Parallel
-* JTAG
-* PS2 Keyboard & Mouse
-* Atmel SWI (Single Wire Interface)
-* LIN (Local Interconnect Network)
-* BISS-C
-* MDIO (Management Data Input/Output)
+* Asynchronous Serial&#x20;
+* Atmel SWI (Single Wire Interface)&#x20;
+* BISS-C&#x20;
+* CAN (Controller Area Network)&#x20;
+* DMX512&#x20;
+* HD44780 Parallel LCD&#x20;
+* HDLC (High-Level Data Link Control)&#x20;
+* HDMI-CEC&#x20;
+* I2C&#x20;
+* I2S Audio / PCM&#x20;
+* I3C (see section below)&#x20;
+* JTAG&#x20;
+* LIN (Local Interconnect Network)&#x20;
+* MDIO (Management Data Input/Output)&#x20;
+* MIDI&#x20;
+* Manchester (Differential, Bi-Phase Space, and Bi-Phase Mark)&#x20;
+* Modbus RTU & ASCII&#x20;
+* PS2 Keyboard & Mouse&#x20;
+* SMBus (includes PMBus and Smart Battery)&#x20;
+* SPI (Serial Peripheral Interface)&#x20;
+* SWD (ARM Serial Wire Debug)&#x20;
+* Synchronous Parallel&#x20;
 * USB Low Speed and Full Speed
-* HDMI-CEC
-* SMBus (includes PMBus and Smart Battery)
-* HDLC (High-Level Data Link Control)
-* Modbus RTU & ASCII
-* MIDI
-* HD44780 Parallel LCD
-* SWD (ARM Serial Wire Debug)
 
 ### I3C Protocol Support
 
