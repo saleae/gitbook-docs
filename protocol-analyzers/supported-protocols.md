@@ -4,6 +4,7 @@ The Saleae Logic software includes the following protocol analyzers:
 
 * Asynchronous Serial
 * I2C&#x20;
+* I3C (see section below)
 * SPI (Serial Peripheral Interface)
 * CAN (Controller Area Network)
 * DMX512
@@ -29,6 +30,8 @@ The Saleae Logic software includes the following protocol analyzers:
 ### I3C Protocol Support
 
 We plan on officially bringing I3C protocol support to Saleae Logic, and we currently have a working solution! If you're interested in more details, [please contact us](https://contact.saleae.com/hc/en-us/requests/new).
+
+![I3C Analyzer running on Logic 2](../.gitbook/assets/i3c-analyzer-in-action.gif)
 
 The I3C analyzer will be released as our first "premium" analyzer, meaning that it will require a paid license to use it within our software (we're currently working out the details behind how this might work). We believe that we can provide an amazing developer experience at a price point that is a great deal for customers who are already using new protocols, and at the same time, helps us generate enough revenue to continue working on new features. We welcome any and all feedback!
 
