@@ -10,7 +10,7 @@
   * [Pricing and Availability](ordering-and-shipping/pricing-and-availability.md)
   * [Discounts](ordering-and-shipping/what-discounts-are-available.md)
   * [Tax & VAT Exemption](ordering-and-shipping/tax-exemption.md)
-  * [Saleae Tax & VAT Information](ordering-and-shipping/what-is-saleaes-vat-and-tax-id-number.md)
+  * [Saleae Business Information](ordering-and-shipping/business-info.md)
   * [Shipping Policy](ordering-and-shipping/shipping-policy.md)
   * [Receiving Invoices](ordering-and-shipping/invoices.md)
   * [Sales FAQ](ordering-and-shipping/faq/README.md)
