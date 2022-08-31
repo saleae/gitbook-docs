@@ -22,27 +22,3 @@ If connecting Logic Pro 8 or Logic Pro 16 to a USB 2.0 port, please read the art
 
 
 
-## Logic 1.x
-
-If you are using the older Logic 1.x software, the following images and instructions apply.
-
-![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/5ae8df88247bf6f48d10a7f2/c07be3d62fc7c1dca63d5c3cf7a1bdd3/Logic-hw.png)
-
-{% hint style="info" %}
-LED not turning on? Refer to the article below to check your LED settings.
-{% endhint %}
-
-{% content-ref url="capture-settings.md" %}
-[capture-settings.md](capture-settings.md)
-{% endcontent-ref %}
-
-{% hint style="info" %}
-If connecting Logic Pro 8 or Logic Pro 16 to a USB 2.0 port, please read the article below. You may be missing out on the fastest sampling rate options and channels.
-{% endhint %}
-
-{% content-ref url="../../troubleshooting/limitations-of-logic-pro-usb2.md" %}
-[limitations-of-logic-pro-usb2.md](../../troubleshooting/limitations-of-logic-pro-usb2.md)
-{% endcontent-ref %}
-
-
-

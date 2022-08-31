@@ -46,7 +46,7 @@ or
 
 #### Where is the Decoded Protocols Panel?
 
-Unfortunately, the Decoded Protocols Panel, in addition to Protocol Search, is no longer available in the Legacy 1.x software due to technical issues. When attempting to enable it in v1.2.40, you will find our note below. Please upgrade to our newer [Logic 2 software](https://www.saleae.com/downloads/) if you need this functionality.
+Unfortunately, the Decoded Protocols Panel, in addition to Protocol Search, is no longer available in 1.2.40 due to technical issues. When attempting to enable it in 1.2.40, you will find our note about it in the screenshot below. Please upgrade to our newer [Logic 2 software](https://www.saleae.com/downloads/) if you need this functionality.
 
 ![Decoded Protocol Search is no longer availble in 1.2.40](<../../.gitbook/assets/Screen Shot 2022-08-03 at 4.47.39 PM.png>)
 

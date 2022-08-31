@@ -68,6 +68,7 @@
   * [Legacy Software](logic-software/legacy-software/README.md)
     * [Logic 1.x Download](logic-software/legacy-software/older-software-releases.md)
     * [Logic 1.x Changelog](logic-software/legacy-software/changelog.md)
+    * [Logic 1.x User Guide](logic-software/legacy-software/logic-1.x-user-guide.md)
 * [Protocol Analyzers](protocol-analyzers/README.md)
   * [Supported Protocols](protocol-analyzers/supported-protocols.md)
   * [Analyzer User Guides](protocol-analyzers/analyzer-user-guides/README.md)

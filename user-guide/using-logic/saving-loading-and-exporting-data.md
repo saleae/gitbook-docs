@@ -28,32 +28,4 @@ For now, please refer to the support article below for more information on this 
 
 
 
-## Logic 1.x
-
-If you are using the older Logic 1.x software, the following images and instructions apply.
-
-### **Saving Captures**
-
-_Note: Saving a capture only saves the currently selected tab._
-
-To save your current capture, click the Options menu on the top right of the software and select Save capture. You can also press CTRL-S.
-
-![](https://trello-attachments.s3.amazonaws.com/57215c974c95a4ba028d9906/412x116/9f724212fc2945aed70e244be2562501/save\_capture.png)
-
-### **Opening Captures**
-
-To open a previously saved capture, click the Options menu on the top right of the software and select Open Capture. You can also press CTRL-O.
-
-![](https://trello-attachments.s3.amazonaws.com/57215c974c95a4ba028d9906/412x84/92d30daf5f31795091fd1cf31ab5a8fe/open\_capture.png)
-
-You can also drag a capture file into the Logic software.
-
-On Windows, you can double-click a capture file to open it in the Logic software.
-
-### **Saving Capture Settings**
-
-To save your capture settings, click the Options button at the top right and select Save Setup. From there, you will be prompted to save a .logicsettings file. The .logicsettings file will save the settings associated with the current active tab. You can find the tabs at the bottom of the software UI.
-
-![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/57215c974c95a4ba028d9906/d5d730c5485a077f0b745792e7b18e5c/save-setup.png)
-
-### ****
+****
