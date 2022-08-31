@@ -100,20 +100,3 @@ The original Logic16 had two selectable threshold settings. There is approximate
 
 * Over-voltage protection provides safety to +/- 50V
   * Note: Over-voltage protection not meant for continuous operation outside of -0.9V to 6V. That makes the device unsuitable for safe, direct recording of RS-232 and similar standards.
-
-
-
-## Logic 1.x
-
-If you are using the older Logic 1.x software, the window for setting your voltage threshold setting will look different. You can refer to the images below if you are using this version of the software.
-
-### Logic Pro 8/16 Voltage Setting in Logic 1.x
-
-![Logic Pro 8/16 - Voltage Threshold Options](../.gitbook/assets/logicpro16.png)
-
-### Logic16 Voltage Setting in Logic 1.x
-
-![Logic16 - Voltage Threshold Options](../.gitbook/assets/logic16.png)
-
-
-
