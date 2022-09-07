@@ -23,9 +23,11 @@ You can extract the AppImage with `./Logic-2.x.xx-master.AppImage --appimage-ext
 
 ### MacOS Instructions
 
-First, double-click the Logic 2 .zip file available on our [download page](https://www.saleae.com/downloads/). This will extract the Logic 2 application file. From here, you can double click the Logic 2 app to run it.
+First, double-click the Logic 2 .zip file available on our [download page](https://www.saleae.com/downloads/). This will extract the Logic 2 application file. From here, you can double click the Logic2 app to run it.
 
 ![Logic 2 app file extracted from .zip](../.gitbook/assets/screen-shot-2021-08-06-at-6.22.46-pm.png)
+
+Alternatively, you can also drag the Logic2 app file into your Applications folder in case you would like to have the app appear in Launchpad.
 
 ### Windows Instructions
 
