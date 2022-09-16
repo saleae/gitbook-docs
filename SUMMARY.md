@@ -190,7 +190,7 @@
   * [Error Message: Capture Stopped](troubleshooting/capture-stopped-error.md)
   * [Error Loading Marketplace Extensions](troubleshooting/error-loading-marketplace-extensions.md)
   * [Error: Capture stopped because backlog data exceeded 90%](troubleshooting/backlog-error.md)
-  * [Error: A device was found, but it was removed before initialization completed](troubleshooting/error-a-device-was-found-but-it-was-removed-before-initialization-completed.md)
+  * [Error: A device was found, but it was removed before initialization completed](troubleshooting/device-removed-before-initialization.md)
   * [Mouse Scrolling Issues](troubleshooting/mouse-scrolling-issues.md)
 * [FAQ](faq/README.md)
   * [Technical FAQ](faq/technical-faq/README.md)
