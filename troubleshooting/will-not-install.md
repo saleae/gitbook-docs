@@ -42,6 +42,18 @@ For PCs managed by an IT deparment, either through a corporate network or corpor
 
 We would be happy to chat with them directly as well! In this case, feel free to have them [contact us](https://contact.saleae.com/hc/en-us/requests/new).&#x20;
 
+### This Installation Package is Not Supported by this Processor Type
+
+<figure><img src="../.gitbook/assets/imageedit_2_5116223340.png" alt=""><figcaption><p>Installation error on 32-bit Operating Systems</p></figcaption></figure>
+
+This error message during installation typically occurs when attempting to install the Logic 2 software on a 32-bit processor or operating system. Please note that 32-bit operating systems are not supported by Logic 2.x. For 32-bit support, please refer to Logic 1.x below.
+
+{% content-ref url="../logic-software/legacy-software/older-software-releases.md" %}
+[older-software-releases.md](../logic-software/legacy-software/older-software-releases.md)
+{% endcontent-ref %}
+
+
+
 ## Logic 1.x Software
 
 If you plan on using the older Logic 1.x software, the following information applies.
