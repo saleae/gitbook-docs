@@ -29,3 +29,14 @@ Note: Digital channel entries are only recorded in the export file when data cha
 To export your individual analyzer results, click the 3 dots next to the particular analyzer you'd like to export data for. Then click "Export to TXT/CSV." You will be greeted with an OS prompt to save your export file.
 
 ![Exporting Analyzer Results](../../.gitbook/assets/export-analyzer.png)
+
+#### This Analyzer's Native Export is Not Supported in Logic 2 - Warning Popup
+
+For some analyzers (namely MDIO, CAN, and LIN), you will run into an error popup that prevents you from exporting the analyzer from the analyzer's drop down menu. In this case, we recommend exporting via the data table instead. More information on this behavior can be found below.
+
+{% content-ref url="../../troubleshooting/this-analyzers-native-export-is-not-supported-in-logic-2.md" %}
+[this-analyzers-native-export-is-not-supported-in-logic-2.md](../../troubleshooting/this-analyzers-native-export-is-not-supported-in-logic-2.md)
+{% endcontent-ref %}
+
+
+
