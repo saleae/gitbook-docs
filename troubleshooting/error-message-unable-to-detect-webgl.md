@@ -15,7 +15,11 @@ Upon launching the Logic 2 software, you may experience an immediate crash, or a
 
 ![WebGL Error Message](../.gitbook/assets/webgl-analog.png)
 
-### Solution #1 - Launch from Command Line
+### Solution #1 - Update you GPU Driver
+
+Please navigate to your GPU hardware's support page and download/install the latest driver update for your GPU. This seemed to solve some reports of this issue, especially for older GPU hardware.
+
+### Solution #2 - Launch from Command Line
 
 A known workaround is to launch Logic 2 from the command line with the `--disable-gpu` command line argument. On Windows, it would be like so:
 
@@ -24,13 +28,13 @@ cd C:\Program Files\Logic
 Logic.exe --disable-gpu
 ```
 
-### Solution #2 - Try Logic 2.3.40
+### Solution #3 - Try Logic 2.3.40
 
-You may want to try launching an older version of the Logic 2 app, specificall [Logic 2.3.40](https://ideas.saleae.com/f/changelog/2340/). As mentioned above, we've received reports of Logic 2.3.41 and later versions having incompatibility issues with certain graphics cards.
+You may want to try launching an older version of the Logic 2 app, specificall [Logic 2.3.40](https://ideas.saleae.com/f/changelog/2340/). As mentioned above, we've received reports of Logic 2.3.41 and later versions having incompatibility issues with certain graphics cards. We don't recommend using this version long term as it is now several versions outdated, but might reveal some clues depending on its behavior.
 
-### Solution #3 - Try Logic 1.x
+### Solution #4 - Try Logic 1.x
 
-If the above solutions fail, you may want to try our older Logic 1.x software downloadable below. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) as well and let us know the tests you have ran, as well as the information we ask for below about your PC.
+If the above solutions fail, you may want to try our older Logic 1.x software downloadable below. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) as well and let us know the tests you have ran, as well as the information we ask for below about your PC. Similar to the previous solution, we don't recommend using this version long term as it is now several versions outdated, but might reveal some clues depending on its behavior.
 
 {% content-ref url="../logic-software/legacy-software/older-software-releases.md" %}
 [older-software-releases.md](../logic-software/legacy-software/older-software-releases.md)
