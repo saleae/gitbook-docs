@@ -55,7 +55,7 @@ When manually downloading the calibration file in Logic 2.x, in rare cases, your
 
 In this case, please submit a [Warranty Request](https://saleae-support.typeform.com/to/E8UPB7) form and we will be happy to help. This may be indicative of hardware failure and we'll most likely want to process a warranty for you.
 
-## **Transferring the Calibration File from One PC to Another**
+#### **Transferring the Calibration File from One PC to Another**
 
 1. Install the latest Logic software on a machine with Internet access.
 2. Open the software and connect the Logic device.
@@ -66,13 +66,19 @@ In this case, please submit a [Warranty Request](https://saleae-support.typeform
 
 Each .cal file is specific to a single device, but the .cal files are saved with the device ID in decimal and not hex, making it hard to tell which is which. If only one device has ever been connected, there will only be one .cal file.
 
-## Do I Have the Latest Calibration File?
+#### Do I Have the Latest Calibration File?
 
 If there is a newer calibration file available for your device, our software should automatically download it as long as it is connected to the internet. Note that we usually do not make updates to the calibration files.
 
 In case you want to check if there is an updated calibration file available, please manually download the calibration file using the instructions above **** and check for the calibration status.
 
-## **Do you Provide Calibration Certificates?**
+#### Can I Manually Adjust Calibration Values for my Logic Device?
+
+This is one of our top requested features for which we would love to work on at some point. However, a proper implementation is a long way off. In the meantime, we have a workaround which will allow users to adjust their calibration file's analog gain & offset manually by a Python script. More information about this can be found below:
+
+* [Discuss Forum - Quick calibration hack to adjust channel gain and offset](https://discuss.saleae.com/t/quick-calibration-hack-to-adjust-channel-gain-and-offset)
+
+#### **Do you Provide Calibration Certificates?**
 
 Our devices do not require periodic recalibration. You can download our statement of calibration below.
 
@@ -80,6 +86,6 @@ Our devices do not require periodic recalibration. You can download our statemen
 
 Specifically, there is no calibration certificate. The devices do undergo a one-time factory calibration process.
 
-## **Having Trouble?**
+#### **Having Trouble?**
 
 If you are having trouble manually downloading the calibration file, we can send it to you. Please [contact support](https://contact.saleae.com/hc/en-us/requests/new), and we can make sure your calibration data gets updated.
