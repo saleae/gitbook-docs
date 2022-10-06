@@ -12,20 +12,27 @@ Neither API provides real-time access to the raw data, and neither API can inter
 
 If you are looking for something like real-time data access, the best option is to either use the socket API to automate the capture and export processes or access the data through the analyzer API.
 
-### Socket API for Automation
+### Automation API
 
-{% hint style="info" %}
-Please note that the Socket API automation utility requires the older Logic 1.x software. The latest Logic 2 software currently does not support this utility, though we do plan to add support for it in the future. Feel free to [vote on the idea here!](https://ideas.saleae.com/b/feature-requests/application-api/)
+Our Automation API is intended to make it easy for the Logic 2 software to be controlled via a Python script. You can find more details on our on our [Logic 2 Automation landing page here](https://www.saleae.com/automation/).
+
+#### About Legacy Logic 1.x Support
+
+{% hint style="warning" %}
+Due to the official release of the newer [Logic 2 Automation API](https://www.saleae.com/automation/), we have officially ended support for our Legacy Logic 1.x Automation API. We highly recommend existing users who currently use our legacy Socket API automation utility in the past with Logic 1.x to migrate their automation utility to Logic 2 using our new Automation API above. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you need help with that.
 {% endhint %}
 
-Our Socket API is intended to make it easy for the existing Saleae desktop software to be controlled by third-party applications or scripts for the purpose of automation.
+A link to our Legacy Logic 1.x Automation Utility is provided below for reference.
 
-You can find more details on the socket API below.
-
-{% content-ref url="automation.md" %}
-[automation.md](automation.md)
+{% content-ref url="automation-legacy-logic1.md" %}
+[automation-legacy-logic1.md](automation-legacy-logic1.md)
 {% endcontent-ref %}
 
-Because the socket API relies on simple text commands sent and received through sockets, any programming language can support it. There are no DLLs or required libraries. We provide a C# client library as well as a C# sample application.
+In addition, please keep in mind that newer versions of our Logic hardware (after revision 3.0.0) will no longer work with the older Logic 1.x software. If this poses any issues, please [contact us](https://contact.saleae.com/hc/en-us/requests/new). A brief summary of our hardware revisions are described in the support article below.
 
-Existing customers have also used the socket API with Python, Labview, C++, and other environments and programming languages.
+{% content-ref url="../datasheets-and-specifications/logic-hardware-revisions.md" %}
+[logic-hardware-revisions.md](../datasheets-and-specifications/logic-hardware-revisions.md)
+{% endcontent-ref %}
+
+
+

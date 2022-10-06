@@ -1,10 +1,14 @@
 # Logic 1.x Download
 
-{% hint style="info" %}
-Starting January 4, 2022, Saleae has released a new hardware revision of our analyzers, starting with Logic Pro 16, which requires the latest version of the Logic 2 software available [here](https://www.saleae.com/downloads/).
+{% hint style="warning" %}
+Starting October of 2022, Saleae has released a new hardware revision of our analyzers, starting with Logic Pro 8, which requires the latest version of the Logic 2 software available [here](https://www.saleae.com/downloads/).
 
-Otherwise, if you require using our legacy Logic 1.x software (typically, due to needing support for our Automation API), these new units will require Logic 1.2.40 available below.&#x20;
+Unfortunately, this newer revision of the hardware will no longer work with our legacy Logic 1.x software.
 {% endhint %}
+
+{% content-ref url="../../datasheets-and-specifications/logic-hardware-revisions.md" %}
+[logic-hardware-revisions.md](../../datasheets-and-specifications/logic-hardware-revisions.md)
+{% endcontent-ref %}
 
 ## Logic 1.2.40
 

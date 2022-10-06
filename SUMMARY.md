@@ -67,6 +67,8 @@
   * [Driver Install](logic-software/driver-install.md)
   * [Legacy Software](logic-software/legacy-software/README.md)
     * [Logic 1.x Download](logic-software/legacy-software/older-software-releases.md)
+    * [Logic 1.x Supported Operating Systems](logic-software/legacy-software/logic-1.x-supported-operating-systems.md)
+    * [Logic 1.x Installation](logic-software/legacy-software/logic-1.x-installation.md)
     * [Logic 1.x Changelog](logic-software/legacy-software/changelog.md)
     * [Logic 1.x User Guide](logic-software/legacy-software/logic-1.x-user-guide.md)
 * [Protocol Analyzers](protocol-analyzers/README.md)

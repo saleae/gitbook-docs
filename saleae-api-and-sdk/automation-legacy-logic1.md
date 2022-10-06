@@ -2,11 +2,17 @@
 
 ## Legacy Socket API Automation for Logic 1.x
 
-{% hint style="info" %}
-Please note that our legacy Socket API automation utility requires the older Logic 1.x software.&#x20;
+{% hint style="warning" %}
+Due to the official release of the newer [Logic 2 Automation API](https://www.saleae.com/automation/), we have officially ended support for our Legacy Logic 1.x Automation API. We highly recommend existing users who currently use our legacy Automation API automation utility with Logic 1.x to migrate their automation utility to Logic 2 using our new Automation API above. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you need help with that.
 {% endhint %}
 
-The Socket API scripting utility allows users to programmatically configure our software and trigger captures.
+Our Legacy Automation API (which we called Socket API in the past) allows users to programmatically configure our software and trigger captures, and requires the older Logic 1.x software.
+
+In addition, please keep in mind that newer versions of our Logic hardware (after revision 3.0.0) will no longer work with the older Logic 1.x software. If this poses any issues, please [contact us](https://contact.saleae.com/hc/en-us/requests/new). A brief summary of our hardware revisions are described in the support article below.
+
+{% content-ref url="../datasheets-and-specifications/logic-hardware-revisions.md" %}
+[logic-hardware-revisions.md](../datasheets-and-specifications/logic-hardware-revisions.md)
+{% endcontent-ref %}
 
 ### Prerequisites - Software Settings
 
