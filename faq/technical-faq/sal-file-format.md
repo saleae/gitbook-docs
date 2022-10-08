@@ -1,8 +1,10 @@
 # Is the .sal File Format Documented?
 
-We unfortunately don't share information about our \*.sal capture file format. The reason we don’t want to publish this is because we're not ready to commit to keeping that documentation up to date. In addition, we want to avoid making breaking changes to the format which could affect 3rd party integrations.&#x20;
+We don't officially share information about our \*.sal capture file format and we're not ready to commit to keeping that documentation up to date. In addition, we want to avoid making breaking changes to the format which could affect 3rd party integrations.&#x20;
 
-For example, the old capture file format of the Logic 1.x software (\*.logicdata) went through 24 serialization changes over the life of the application, including several complete overhauls of the format.
+Having said that, we've gotten a fair amount of questions about the topic, and although our usual response is that it’s not stable and shouldn’t be relied on, there have been enough requests for more information that we thought it was worth creating a dedicated post where we could answer questions. The link to the forum post is below.
+
+* [Discuss Forum - Logic 2 Capture Format (.sal)](https://discuss.saleae.com/t/logic-2-capture-format-sal/1858/1)
 
 The files inside of the \*.sal archive are stored using our internal format, which contains a lot of information specific to acceleration rendering. Also, analog data doesn’t have the DC calibration applied in that format. I strongly recommend not using those files for any 3rd party tools, since the format is subject to change, and the format is not currently documented.
 
