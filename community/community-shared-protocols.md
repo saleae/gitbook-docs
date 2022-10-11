@@ -27,7 +27,6 @@ The following analyzers are not officially supported by Saleae, but instead, wer
 * [NEC IR Remote Control](https://github.com/LiveOverflow/NECAnalyzer) (developed by [LiveOverflow](https://github.com/LiveOverflow))
 * [NEC IR Remote Control](https://github.com/kodizhuk/Salae-Logic-NEC-Analyzer) (developed by [kodizhuk](https://github.com/kodizhuk))
 * [Parallel Analyzer - Clockless](https://github.com/Zweikeks/saleae-logic-SimpleParallelNoClock-Analyzer)
-* [Parallel Analyzer - Clockless (Updated for Logic 2.x)](https://github.com/ablaylock/SimpleParallelNoClock)
 * [PJON (Padded Jittering Operative Network)](https://github.com/aperepel/saleae-pjon-protocol-analyzer)
 * [PWM Analyzer](https://github.com/dustin/logic-pwm)
 * [QSPI (Quad SPI)](https://github.com/dedicatedcomputing/saleae\_qspi)
