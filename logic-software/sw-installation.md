@@ -12,14 +12,26 @@ The software is available free of charge, and can be installed on as many machin
 
 The Logic 2 software is provided in an AppImage format, which contains all the files needed for the software to run. In Linux, you may need to allow executing the file as a program. To do this:
 
-1. Right-click the AppImage file and click Properties
-2. Check the box that says "Allow executing file as program"
+1\. Right-click the AppImage file and click Properties\
+2\. Check the box that says "Allow executing file as program" as shown in the image below.
 
 ![Enabling the AppImage file to be executable](../.gitbook/assets/screen-shot-2021-01-25-at-9.12.32-pm.png)
 
-#### Extracting the AppImage
+3\. Alternatively, you can run the following command to allow exectuing the file as a program.
 
-You can extract the AppImage with `./Logic-2.x.xx-master.AppImage --appimage-extract`, which will dump the contents to a new directory called squashfs. You can then run the Logic binary directly from there.
+`chmod +x Logic-2.x.xx-master.AppImage`
+
+4\. Once the file is allowed to execute as a program, simply double-click the AppImage file to launch the software, or run it from the command line.
+
+`./Logic-2.x.xx-master.AppImage`
+
+#### Issues with Running the AppImage File
+
+If you run into issues with running the AppImage file via the instructions above, you can attempt to extract the Logic binary from the AppImage file with the following command.
+
+`./Logic-2.x.xx-master.AppImage --appimage-extract`
+
+This will dump the contents to a new directory called squashfs. You can then try to run the Logic binary directly from there.
 
 ### MacOS Instructions
 
