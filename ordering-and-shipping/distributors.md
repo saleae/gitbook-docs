@@ -11,7 +11,7 @@ This list contains every distributor currently selling Saleae devices. Please no
 * [Antratek Electronics](https://www.antratek.com/catalogsearch/result/?q=saleae) - Netherlands, Belgium, Germany
 * [Auglit AS](https://www.adroit.no/logikk-analysatorer.html) - Norway
 * [Batronix](http://www.batronix.com/shop/logic-analyzer/Saleae.html) - Germany
-* [Berkin Engineering](http://berkinengineering.com/urunler) - Turkey
+* [Berkin Engineering](https://berkinengineering.com/en/) - Turkey
 * [BTC](https://kamami.pl/22\_saleae) - Poland
 * [ChipCAD Electronics Distribution Ltd](https://www.chipcad.hu/saleae) - Hungary
 * [Core Electronics](http://core-electronics.com.au/search/?q=saleae) - Australia
