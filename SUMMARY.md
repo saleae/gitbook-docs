@@ -54,6 +54,7 @@
     * [Delete Part of your Capture](user-guide/using-logic/delete-data.md)
     * [Analyzers](user-guide/using-logic/using-protocol-analyzers.md)
     * [Data Table & Terminal View](user-guide/using-logic/data-table-and-terminal.md)
+    * [Color Themes](user-guide/using-logic/color-themes.md)
     * [Demo Mode](user-guide/using-logic/demo-mode.md)
     * [Software Glitch Filter](user-guide/using-logic/software-glitch-filter.md)
     * [Keyboard Shortcuts](user-guide/using-logic/keyboard-shortcuts.md)
