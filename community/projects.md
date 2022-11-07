@@ -2,6 +2,7 @@
 
 Need an idea for an electronics project? Want to check out some cool gizmos that our community of users have built using our Logic analyzers? We've got a list of some cool projects below!
 
+* [Building a Custom Keyboard](https://hackaday.io/page/13603-keyboard-not-found-troubles-with-finding-it)
 * [DIY Battery Indicator (Arduino Project)](https://www.youtube.com/watch?v=Mq0WBPKGRew\&t=666s)
 * [GameCube Controller Reverse Engineering](https://jefflongo.dev/posts/gc-controller-reverse-engineering-part-1/)
 * [Getting the GT9110 touchscreen controller working](https://hackaday.io/project/177256-put-a-raspberry-pi-cm4-into-an-original-ipad/log/208187-getting-the-gt9110-touchscreen-controller-working)
