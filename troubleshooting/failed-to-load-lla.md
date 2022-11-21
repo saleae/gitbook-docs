@@ -2,9 +2,32 @@
 
 This support article describes some common errors that you may run into when attempting to load a custom low level analyzer into the Logic 2 app.
 
-### Initial Error Message on MacOS
+### Attempting to Load a .so File (Instead of a .dylib File)
 
-When first attempting to import a custom analyzer on **MacOS**, please follow the workaround below.
+Some custom analyzer repositories may provide the MacOS analyzer library file as a `.so` file (rather than a `.dylib` file). If so, you may be greeted with the following error pop up upon attempting to load the analyzer. The fix for this is described in the steps below.
+
+<figure><img src="../.gitbook/assets/Screen Shot 2022-11-21 at 12.27.07 PM.png" alt=""><figcaption><p>Failed to Load a .so file</p></figcaption></figure>
+
+1.  Update the file extension to a `.dylib` file. To do this, right click the .so file, click "Get Info", then change the file extension type to `.dylib` like shown below. When the confirmation pop-up window to change the file type appears, click "Use `.dylib`".
+
+    <figure><img src="../.gitbook/assets/Screen Shot 2022-11-21 at 12.23.45 PM.png" alt=""><figcaption><p>Change file extension type to .dylib</p></figcaption></figure>
+
+
+
+    <figure><img src="../.gitbook/assets/Screen Shot 2022-11-21 at 11.49.11 AM.png" alt=""><figcaption><p>Click "Use .dylib"</p></figcaption></figure>
+2.  Upon loading your new .dylib file into the Logic 2 app, you may be greeted with a new security error from MacOS like shown below.\
+
+
+    <figure><img src="../.gitbook/assets/Screen Shot 2022-11-21 at 11.49.39 AM.png" alt=""><figcaption><p>.dylib file cannot be verified by MacOS</p></figcaption></figure>
+
+    To get around this error, you will need to allow this file through MacOS's security. Navigate to MacOS's System Preferences, and select Security & Privacy. Under the "Allow apps downloaded from..." section, select "Allow Anyway next to the `.dylib` file that was recently blocked by MacOS.\
+
+
+    <figure><img src="../.gitbook/assets/Screen Shot 2022-11-21 at 11.50.06 AM.png" alt=""><figcaption><p>Allow .dylib analyzer</p></figcaption></figure>
+
+### Custom Analyzers Originally Built on Logic 1.x
+
+When first attempting to import a custom analyzer that was originally built for Logic 1.x, you may be greeted with a "Failed to Load Custom Analyzer" error like below. The solution for this is described in the steps below, which will change how the custom analyzer library locates the libAnalyzer.dylib library, which has a different relative path than the older Logic 1.x software.&#x20;
 
 > Failed to load custom analyzer...\
 > Unable to load library...
@@ -17,8 +40,6 @@ When first attempting to import a custom analyzer on **MacOS**, please follow th
 
     `install_name_tool -change @executable_path/libAnalyzer.dylib @rpath/libAnalyzer.dylib libYourCustomAnalyzer.dylib`
 4. close the terminal, and open the Logic 2 application again.
-
-This will change how the custom analyzer library locates the libAnalyzer.dylib library, which has a different relative path than the older Logic 1.x software.&#x20;
 
 You may see the same error on Linux or Windows. If this happens, there may be a problem with the custom analyzer you are trying to load. Please contact the analyzer author or Saleae support.
 

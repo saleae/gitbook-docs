@@ -10,15 +10,15 @@ Then, in the Preferences window, scroll to the bottom until you reach the Custom
 
 Use the browse button to select the directory that contains your compiled custom protocol analyzer.
 
-* Windows -> .dll
-* Linux -> .so
-* MacOS -> .dylib
+* Windows -> `.dll`
+* Linux -> `.so`
+* MacOS -> `.dylib` **(Note: This may appear as a .so file provided by some custom analyzer repositories. If so, please see the "MacOS Errors" section below)**
 
 Finally, save the dialog and restart the software. Your custom analyzer should now appear in the list of available protocol analyzers!
 
-### Logic 2 MacOS Instructions
+### MacOS Errors
 
-If you're running the app on MacOS, you may run into a "Failed to Load Custom Analyzer" error message upon startup when the app attempts to load your .dylib low level analyzer. There is another step you may need to take in order for your custom analyzer to work, which is described in the support article below.
+If you're running the app on MacOS, you may run into a "Failed to Load Custom Analyzer" error message upon startup when the app attempts to load your `.dylib` (or provided `.so`) low level analyzer. The fixes for this are described in the support article below.
 
 {% content-ref url="../../troubleshooting/failed-to-load-lla.md" %}
 [failed-to-load-lla.md](../../troubleshooting/failed-to-load-lla.md)
