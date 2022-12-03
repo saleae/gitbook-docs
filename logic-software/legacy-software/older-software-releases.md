@@ -58,13 +58,11 @@ Unfortunately, the Decoded Protocols Panel, in addition to Protocol Search, is n
 
 ### **Temporary Releases**
 
-We released a temporary fix for processor incompatibilies mentioned in the support article below. The fixes have been implemented in v1.2.40, so these versions have become obsolete and unneeded.&#x20;
+We released a temporary fix for processor incompatibilies mentioned in the support article below. The fixes have been implemented in v1.2.40, however, you may still need to use the temporary release versions mentioned below (v1.2.35 for Windows and v1.2.33 for MacOS) if you require using the Decoded Protocols Panel, which is not included in v1.2.40 due to technical issues.
 
 {% content-ref url="../../troubleshooting/error-function-device2-setupdevice.md" %}
 [error-function-device2-setupdevice.md](../../troubleshooting/error-function-device2-setupdevice.md)
 {% endcontent-ref %}
-
-We don't recommend running this version of the software, but we will provide it here to help keep an archive of all previously available versions of our software.
 
 * Windows: [Logic-1.2.35](https://downloads.saleae.com/betas/1.2.35/Logic-1.2.35-win64.zip)
 * MacOS: [Logic-1.2.33](https://downloads.saleae.com/betas/1.2.33/Logic-1.2.33-MacOS.dmg)
