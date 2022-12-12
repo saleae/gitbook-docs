@@ -2,6 +2,7 @@
 
 Need an idea for an electronics project? Want to check out some cool gizmos that our community of users have built using our Logic analyzers? We've got a list of some cool projects below!
 
+* [ECU & Telemetry System for Prom Racing’s P22 FSE Vehicle](https://74hct00n.github.io/P22\_ECU\_Telemetry/)
 * [Building a Custom Keyboard](https://hackaday.io/page/13603-keyboard-not-found-troubles-with-finding-it)
 * [DIY Battery Indicator (Arduino Project)](https://www.youtube.com/watch?v=Mq0WBPKGRew\&t=666s)
 * [GameCube Controller Reverse Engineering](https://jefflongo.dev/posts/gc-controller-reverse-engineering-part-1/)
