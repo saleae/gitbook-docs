@@ -2,9 +2,11 @@
 
 None of the Saleae devices electrically isolate the ground of the device under test from the host PC’s USB port ground. For most applications, this merely requires extra care from the user to prevent accidental ground loop short circuits. However, there are applications where electrical isolation between the device under test and the host PC is absolutely required.
 
-### USB 3.0 Isolator
+### USB 3.0 SuperSpeed 1kV Isolator
 
 We currently sell a third-party USB 3.0 Isolator via our [Accessories page](https://www.saleae.com/accessories). Please note that it may not be available for purchase in all countries. Feel free to [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you have any specific questions regarding this USB isolator!
+
+![](../../.gitbook/assets/SAL-00140\_8.jpeg)
 
 * 1 kV continuous isolation (data and power)
 * SuperSpeed ​​USB 3.0 - 5 Gbps
