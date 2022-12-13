@@ -26,8 +26,7 @@ You can also fully isolate the host PC and all other attached peripherals from o
 
 ### USB 2.0 Isolator
 
-There is one [USB 2.0 high-speed isolator](https://intona.eu/en/products/) on the market that we've tested it here, and it works very well.\
-
+There is one [USB 2.0 high-speed isolator](https://intona.eu/en/products/) on the market that we've tested it here, and it works very well.
 
 Unfortunately, there is one limitation. It can only provide 300mA of current to the downstream port, which is less than the standard 500mA from USB 2.0 ports. This is not a problem for Logic 4 or Logic 8. However, Logic Pro 8 and Logic Pro 16 will require the USB 3.0 Super-Speed Isolator mentioned above.
 
