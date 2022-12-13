@@ -4,7 +4,7 @@ None of the Saleae devices electrically isolate the ground of the device under t
 
 ### USB 3.0 Isolator
 
-[Saleae Accessories - USB 3.0 Super-Speed 1kV Isolator](https://usd.saleae.com/collections/accessories/products/usb-3-0-superspeed-isolator)
+We currently sell a third-party USB 3.0 Isolator via our [Accessories page](https://www.saleae.com/accessories). Please note that it may not be available for purchase in all countries. Feel free to [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you have any specific questions regarding this USB isolator!
 
 * 1 kV continuous isolation (data and power)
 * SuperSpeed ​​USB 3.0 - 5 Gbps
@@ -13,8 +13,6 @@ None of the Saleae devices electrically isolate the ground of the device under t
 * Includes Power Supply for US, CN, AU, EU and UK.
 * Compatible with all Saleae Logic Analyzers
 * Rugged aluminum housing with rubber bumpers
-
-Please contact us if you have any specific questions regarding this USB isolator.
 
 ### Isolating the Inputs Before They Reach Logic
 
