@@ -1,12 +1,18 @@
 # Installation Errors
 
-### The Logic Setup Wizard ended prematurely
+### The Older Version of Logic Cannot be Removed
 
-When installing the Logic 2 software, you may come across the following installation error message.
+The error message upon installation is likely caused by a missing or mis-referenced uninstaller file location. Unfortunately, we're unsure of what exactly causes this error, however we've detailed a solution below.
+
+<figure><img src="../.gitbook/assets/imageedit_4_3546198021.png" alt=""><figcaption><p>The Older Version of Logic Cannot be Removed</p></figcaption></figure>
+
+Specifically, Microsoft has made available an [Install and Uninstall troubleshooter](https://support.microsoft.com/en-us/topic/fix-problems-that-block-programs-from-being-installed-or-removed-cca7d1b6-65a9-3d98-426b-e9f927e1eb4d) which might help. The troubleshooter should provide steps for you to follow, and you'll want to locate the our software from the list of available software to uninstall. Once you've uninstalled it via this method, you may attempt to re-install the latest version of our Logic software.
+
+### The Logic Setup Wizard Ended Prematurely
+
+In case you run into the issue below, please try installing the software the command line argument described below to generate a log file (replacing the "x"s with the particular version you are installing).&#x20;
 
 ![Logic 2 Installer Error](<../.gitbook/assets/image (10).png>)
-
-In case you run into any installation issues like shown above, please try installing the software with the following command line argument to generate a log file (replacing the "x"s with the particular version you are installing).&#x20;
 
 For example, if your installer is located inside of your Downloads folder, you can run the following commands in Command Prompt.
 
