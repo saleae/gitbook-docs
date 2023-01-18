@@ -136,3 +136,14 @@ We use xtermjs for our in-app terminal. According to the xtermjs GitHub issue li
 {% embed url="https://github.com/xtermjs/xterm.js/issues/3178" %}
 
 If you're running into this issue, please vote/comment on our [idea post here](https://ideas.saleae.com/b/feature-requests/bug-terminal-text-doesnt-reflow-properly-when-panel-is-resized/), which we are using to track this bug.
+
+#### Terminal Text Seems to be Missing
+
+Our intention was for the terminal to respond appropriately to '\r' (CR, carriage return) and '\n' (LF, line feed) when encountered in the serial analyzer data, to help make the terminal work like a serial terminal. Having said that, serial data that only outputs '\r', but not '\n', will cause terminal text to get deleted since the missing '\n' is not moving the cursor one line forward.
+
+To work around this in the meantime, we have released an extension via our Extensions Marketplace called "Carriage Return to Line Feed Converter."
+
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-01-17 at 6.10.56 PM.png" alt=""><figcaption><p>Carriage Return to Line Feed Converter Extension</p></figcaption></figure>
+
+
+
