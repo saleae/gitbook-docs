@@ -107,7 +107,10 @@ Currently, our terminal view does not output results in time order if more than 
 
 #### Scroll-back Limit
 
-Our in-app terminal view has a scroll-back limit of 10,000 rows. Once the 10,000 row limit is reached, the oldest rows are deleted.
+Our in-app terminal view has a scroll-back limit of 10,000 rows. Once the 10,000 row limit is reached, the oldest rows are deleted. However, starting version 2.4.4, we added an experimental environment variable override to specify longer terminal scrollback limits.
+
+* `set SALEAE_SCROLLBACK_LIMIT=1000000` for Windows
+* `export SALEAE_SCROLLBACK_LIMIT=1000000` for MacOS and Linux
 
 #### Radix Display within the Terminal
 
