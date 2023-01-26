@@ -36,6 +36,12 @@ This also excludes them from the search results and is useful when there are too
 * The data table respects your display radix selection for each analyzer, including high-level analyzers.
 * When searching, matching cells will be highlighted, and the matching section of the contents will also be highlighted.
 
+### Jumping to a Waveform Bubble from the Data Table
+
+You can jump to a specific decoded bubble above the waveform from the data table by hovering your mouse over the data table row of interest. An "arrow" icon will appear to the right of the data table row while hovering over it. Click on the "arrow" icon to have the waveform view jump to the appropriate waveform bubble of interest.
+
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-01-26 at 3.18.47 PM.png" alt=""><figcaption><p>Jumping to a Waveform Bubble from the Data Table</p></figcaption></figure>
+
 ### Jumping to a Data Table Row from the Waveform
 
 You can jump to a specific row in the data table by hovering your mouse over a decoded bubble above the waveform as shown in the image below. A keyboard shortcut (OS-specific) will appear to allow you to perform this action.
