@@ -2,7 +2,7 @@
 
 The Saleae Logic software includes a software protocol analyzer for the I2S digital audio protocol.
 
-The specification for the I2S audio protocol can be found from Sparkfun's website \(document by Philips Semiconductors\) below:
+The specification for the I2S audio protocol can be found from Sparkfun's website (document by Philips Semiconductors) below:
 
 [I2S bus specification](https://www.sparkfun.com/datasheets/BreakoutBoards/I2SBUS.pdf)
 
@@ -16,23 +16,37 @@ The Saleae I2S analyzer does not support any Mono formats.
 
 ### **Common Problems**
 
-* Unable to display results in a signed decimal format, even when the I2S settings have signed number selected. Unsigned numbers are always shown.
+#### Unable to display results in a signed decimal format
 
-![unsigned problem](https://trello-attachments.s3.amazonaws.com/563bcc5548813a99d37d24c3/290x91/dab45355226161740fa4c5f30c74abd4/unsigned_issue.PNG)
+Even when the I2S settings have signed number selected, unsigned numbers may always be shown.
 
-* This issue is solved by changing the display radix from ascii to decimal. Although a decimal number is shown, the single quotes indicate that the ascii display mode is active, but the number is considered a non-displayable character \(in this case, outside of the low ascii range completely\) so the text string defaults to unsigned decimal. Changing the display radix to decimal will show the signed number.
+![unsigned problem](https://trello-attachments.s3.amazonaws.com/563bcc5548813a99d37d24c3/290x91/dab45355226161740fa4c5f30c74abd4/unsigned\_issue.PNG)
 
-{% page-ref page="../../faq/technical-faq/changing-the-display-radix.md" %}
+This issue is solved by changing the display radix from ascii to decimal. Although a decimal number is shown, the single quotes indicate that the ascii display mode is active, but the number is considered a non-displayable character (in this case, outside of the low ascii range completely) so the text string defaults to unsigned decimal. Changing the display radix to decimal will show the signed number.
 
-* Decoder displays "Error: bits don't divide evenly between subframes" or decoder does not display the data correctly as shown below.
+{% content-ref url="../../faq/technical-faq/changing-the-display-radix.md" %}
+[changing-the-display-radix.md](../../faq/technical-faq/changing-the-display-radix.md)
+{% endcontent-ref %}
+
+#### Analyer Result displays "Error: bits don't divide evenly between subframes"
+
+The analyzer result may also not display the data correctly. An image of the error is provided below.
 
 ![i2s error](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/563bcc5548813a99d37d24c3/90d5f3fbdeed46908d3221dd647fcf17/I2S-error.png)
 
-* In the figure above, the data bits are transitioning during the clock falling edge, but the I2S/PCM Analyzer is also set to read on the clock falling edge. That means the bits are being decoded at the exact moment the bits are changing. That will cause errors and will be very sensitive to changes in the sample rate. Change the I2S/PCM Analyzer setting to "Data is valid and should be read on the CLOCK rising edge."
+In the image above, the data bits are transitioning during the clock falling edge, but the I2S/PCM Analyzer is also set to read on the clock falling edge as shown by the "down" arrows on the clock signal.&#x20;
+
+That means the bits are being decoded at the exact moment the bits are changing, which will cause errors and will be very sensitive to changes in the sample rate. Change the I2S/PCM Analyzer setting for CLOCK State to either Rising edge or Falling edge depending on the correct clock edge that your data requires.
+
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-01-30 at 4.55.55 PM.png" alt=""><figcaption><p>CLOCK State Rising Edge and Falling Edge setting</p></figcaption></figure>
 
 ### Converting I2S/PCM Captures into WAV Files
 
 For more information on this, please see the link below.
 
-{% page-ref page="../../faq/technical-faq/convert-i2s-pcm-to-audio.md" %}
+{% content-ref url="../../faq/technical-faq/convert-i2s-pcm-to-audio.md" %}
+[convert-i2s-pcm-to-audio.md](../../faq/technical-faq/convert-i2s-pcm-to-audio.md)
+{% endcontent-ref %}
+
+
 
