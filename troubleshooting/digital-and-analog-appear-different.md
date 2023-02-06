@@ -54,6 +54,6 @@ Examples of significant deviation between digital and analog signals:
 
 ![15 MHz](https://trello-attachments.s3.amazonaws.com/564d0c176891eac4bb895921/368x258/d7ae2f9dd85a1b8aa166f7c5324825dd/15\_MHz.PNG)
 
-**Phase Difference between a Digital and Analog Recording**
+**Phase Difference between Analog and Digital Channels**
 
-The phase difference between the digital channels and the analog channels should be +/- 1 analog sample.
+Typically, analog channels will be delayed by about 1 analog sample when compared to the same digital channel, as shown in the images provided above.
