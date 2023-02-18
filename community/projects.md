@@ -2,7 +2,6 @@
 
 Need an idea for an electronics project? Want to check out some cool gizmos that our community of users have built using our Logic analyzers? We've got a list of some cool projects below!
 
-* [A Proof-of-Concept Custom Controller and Hardware HUD for Hardspace Shipbreaker](https://www.mov-eax-rgb.net/blog/custom-hardspace-controller/)
 * [I2C Communication, Raspberry Pi, Pico and Arduino](https://www.youtube.com/watch?v=5YEZSWvD1Gc)
 * [ECU & Telemetry System for Prom Racing’s P22 FSE Vehicle](https://74hct00n.github.io/P22\_ECU\_Telemetry/)
 * [Building a Custom Keyboard](https://hackaday.io/page/13603-keyboard-not-found-troubles-with-finding-it)

@@ -31,4 +31,4 @@ Below are diagrams of the connectors on the new Saleae logic analyzers. Note tha
 
 ![image](https://trello-attachments.s3.amazonaws.com/5695c29055857cc7e20b14b7/1256x789/1aed537fb698a14b0f3c77e4a48ddda7/board\_layout\_detail.png)
 
-These diagrams are available on [OnShape](http://www.onshape.com), named "Saleae Pinout Gen2." A free account is required with OnShape to view them.
+These diagrams are available on [OnShape](http://www.onshape.com), named [Saleae Pinout Gen2](https://cad.onshape.com/documents/3639851e3a52499691159c81/w/c1d2f96bff954fc38299a060/e/9a4c6d0887ae4833a561c8c2). A free account is required with OnShape to view them.
