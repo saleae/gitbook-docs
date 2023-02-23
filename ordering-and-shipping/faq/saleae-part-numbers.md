@@ -124,14 +124,14 @@ Note: The prices shown below are in USD currency. When placing an online order, 
 * ECCN: EAR99
 * HS Code: 8205.70.0000
 * Country of Origin: Sweden
-* Price (USD): $169.00
+* Price (USD): $129.00
 
 **PCBite SP10**
 
 * ECCN: EAR99
 * HS Code: 9030.90.0000
 * Country of Origin: Sweden
-* Price (USD): $59.00
+* Price (USD): $39.00
 
 #### USB 3.0 SuperSpeed 1kV Isolator
 
