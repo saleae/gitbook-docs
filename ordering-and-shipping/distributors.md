@@ -6,7 +6,7 @@ This list contains every distributor currently selling Saleae devices. Please no
 * [Abra Electronics Inc](https://abra-electronics.com/?subcats=Y\&pcode\_from\_q=Y\&pshort=Y\&pfull=Y\&pname=Y\&pkeywords=Y\&search\_performed=Y\&q=saleae\&dispatch=products.search) - US, Canada
 * [Adafruit Industries](https://www.adafruit.com/?q=Saleae&) - US
 * [Akizuki Denshi Tsucho Co., Ltd](http://akizukidenshi.com/catalog/goods/search.aspx?search=x\&keyword=saleae\&image=%8C%9F%8D%F5) - Japan
-* [ALLDAQ](https://shop.alldaq.com/Messinstrumente-Netzgeraete/Logic-Analyzer-von-Saleae:::83\_3250.html) - Germany
+* [ALLDAQ](https://shop.alldaq.com/advanced\_search\_result.php?keywords=saleae) - Germany
 * [Amazing Tech](http://amazingtech.com.cn/cn/index.php) - China, Singapore
 * [Antratek Electronics](https://www.antratek.com/catalogsearch/result/?q=saleae) - Netherlands, Belgium, Germany
 * [Auglit AS](https://www.adroit.no/logikk-analysatorer.html) - Norway
