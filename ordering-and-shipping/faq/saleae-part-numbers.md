@@ -116,9 +116,9 @@ Note: The prices shown below are in USD currency. When placing an online order, 
 * HS Code: 8544420000
 * Price (USD): $5.95&#x20;
 
-### External Accessories
+### Third-Party Accessories
 
-#### PCBite Kit
+#### Sensepeek PCBite Kit: Hands-free probing solution
 
 * Part Number: SAL-00174
 * ECCN: EAR99
@@ -126,23 +126,23 @@ Note: The prices shown below are in USD currency. When placing an online order, 
 * Country of Origin: Sweden
 * Price (USD): $129.00
 
-**PCBite SP10**
+**Sensepeek PCBite SP10: Hands-free probes (set of 2)**
 
 * ECCN: EAR99
 * HS Code: 9030.90.0000
 * Country of Origin: Sweden
 * Price (USD): $39.00
 
-#### USB 3.0 SuperSpeed 1kV Isolator
-
-* Part Number: SAL-00140
-* HS Code: 85363080000
-* Price (USD): $299.00
-
 #### Binho Nova Multi-Protocol USB Host Adapter
 
 * Part Number: SAL-00173
 * Price (USD): $229.00
+
+#### ALLDAQ USB 3.0 SuperSpeed 1kV Isolator
+
+* Part Number: SAL-00140
+* HS Code: 85363080000
+* Price (USD): $299.00
 
 ### Test Clips, & Wire Harnesses - Gen **1**
 
