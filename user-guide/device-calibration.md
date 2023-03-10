@@ -16,7 +16,7 @@ Our support team may request you to send your serial number to us to further inv
 
 ![Opening the Device Information Window](../.gitbook/assets/device-info.png)
 
-![Device Information window showing calibration status](../.gitbook/assets/screen-shot-2021-02-17-at-6.11.32-pm.png)
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Device Information window showing calibration status</p></figcaption></figure>
 
 #### Install Calibration via Logic 2 App
 
