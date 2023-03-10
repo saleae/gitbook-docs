@@ -18,9 +18,11 @@ In cases where the software cannot detect the logic analyzer, we need to determi
 ![Device Manager](../.gitbook/assets/DeviceManagerBorder.png)
 
 * **MacOS:** \
-  Open "System Report" by opening the Apple menu and selecting "About this Mac," and then select "System Report." Afterwards, select USB under Hardware and check for "Westbridge" in the treeview.
+  Open "System Report" by opening the Apple menu and selecting "About this Mac," and then select "More Info..." Afterwards, scroll down and select "System Report..." In the new window, select Hardware > USB > check for "Westbridge" in the treeview. \
+  \
+  Again, **please make sure the Saleae Software is not running** running when checking this. Otherwise, the "Westbridge" device will not appear with the relevant information we are looking for.
 
-![About this Mac](<../.gitbook/assets/Screen Shot 2022-06-08 at 5.37.48 PM (1) (1) (2).png>)
+<figure><img src="../.gitbook/assets/Screenshot 2023-03-10 at 3.14.30 PM.png" alt=""><figcaption><p>System Settings > About > General window</p></figcaption></figure>
 
 ![System Report](<../.gitbook/assets/Screen Shot 2022-06-08 at 5.40.20 PM (3) (1).png>)
 
