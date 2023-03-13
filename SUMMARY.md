@@ -196,6 +196,7 @@
   * [This Analyzer's Native Export is Not Supported in Logic 2](troubleshooting/this-analyzers-native-export-is-not-supported-in-logic-2.md)
   * [Mouse Scrolling Issues](troubleshooting/mouse-scrolling-issues.md)
   * [Error: A device was found, but it was removed before initialization completed](troubleshooting/device-removed-before-initialization.md)
+  * [Error: An unknown error occurred during device connection](troubleshooting/error-an-unknown-error-occurred-during-device-connection.md)
   * [Visual Studio Error: Failed to Launch Debug Adapter](troubleshooting/visual-studio-error-failed-to-launch-debug-adapter.md)
 * [FAQ](faq/README.md)
   * [Technical FAQ](faq/technical-faq/README.md)
