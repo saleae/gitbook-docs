@@ -19,14 +19,14 @@ Note: The prices shown below are in USD currency. When placing an online order, 
 * Part Number: SAL-00111
 * ECCN: 3A992.a
 * HS Code: 9030840000
-* Price (USD): $479.00
+* Price (USD): $499.00
 
 **Saleae Logic 8 Red**
 
 * Part Number: SAL-00112
 * ECCN: 3A992.a
 * HS Code: 9030840000
-* Price (USD): $479.00&#x20;
+* Price (USD): $499.00&#x20;
 
 **Saleae Logic Pro 8 Black**
 
@@ -47,14 +47,14 @@ Note: The prices shown below are in USD currency. When placing an online order, 
 * Part Number: SAL-00115
 * ECCN: 3A992.a
 * HS Code: 9030840000
-* Price (USD): $1399.00&#x20;
+* Price (USD): $1499.00&#x20;
 
 **Saleae Logic Pro 16 Red**
 
 * Part Number: SAL-00116
 * ECCN: 3A992.a
 * HS Code: 9030840000
-* Price (USD): $1399.00&#x20;
+* Price (USD): $1499.00&#x20;
 
 ## Accessories
 
@@ -65,35 +65,51 @@ Note: The prices shown below are in USD currency. When placing an online order, 
 * Part Number: SAL-00097
 * ECCN: EAR99
 * HS Code: 8544420000
-* Price (USD): $9.95&#x20;
+* Price (USD): $12.95&#x20;
 
 **Wire Harness - 2x4 to Test Clips (Channels 4-7)**
 
 * Part Number: SAL-00098
 * ECCN: EAR99
 * HS Code: 8544420000
-* Price (USD): $9.95&#x20;
+* Price (USD): $12.95&#x20;
 
 **Wire Harness - 2x4 to Test Clips (Channels 8-11)**
 
 * Part Number: SAL-00099
 * ECCN: EAR99
 * HS Code: 8544420000
-* Price (USD): $9.95&#x20;
+* Price (USD): $12.95&#x20;
 
 **Wire Harness - 2x4 to Test Clips (Channels 12-15)**
 
 * Part Number: SAL-00100
 * ECCN: EAR99
 * HS Code: 8544420000
-* Price (USD): $9.95&#x20;
+* Price (USD): $12.95&#x20;
 
 **Test Clips 8-Pack (Gen 2)**
 
 * Part Number: SAL-00093
 * ECCN: EAR99
 * HS Code: 8546.90.0000
-* Price (USD): $17.95&#x20;
+* Price (USD): $23.95&#x20;
+
+**Logic-to-2x4 Header (Gen 2)**
+
+* Part Number: SAL-00117
+* ECCN: EAR99
+* HS Code: 8544420000
+* Price (USD): $12.95
+
+**Logic-to-Wires (Gen 2)**
+
+* Part Number: SAL-00118
+* ECCN: EAR99
+* HS Code: 8544420000
+* Price (USD): $7.95
+
+### Third-Party Accessories
 
 #### Nano-size Test Clip
 
@@ -101,22 +117,6 @@ Note: The prices shown below are in USD currency. When placing an online order, 
 * ECCN: EAR99
 * HS Code: 8546.90.0000
 * Price (USD): $15.99
-
-**Logic-to-2x4 Header (Gen 2)**
-
-* Part Number: SAL-00117
-* ECCN: EAR99
-* HS Code: 8544420000
-* Price (USD): $9.95&#x20;
-
-**Logic-to-Wires (Gen 2)**
-
-* Part Number: SAL-00118
-* ECCN: EAR99
-* HS Code: 8544420000
-* Price (USD): $5.95&#x20;
-
-### Third-Party Accessories
 
 #### Sensepeek PCBite Kit: Hands-free probing solution
 
@@ -153,14 +153,14 @@ The following accessories are compatible with our discontinued Original Logic an
 * Part Number: SAL-00094
 * ECCN: EAR99
 * HS Code: 8544.42.9000
-* Price (USD): $9.95&#x20;
+* Price (USD): $12.95&#x20;
 
 **Test Clips 9-Pack (Gen 1)**
 
 * Part Number: SAL-00092
 * ECCN: EAR99
 * HS Code: 8546.90.0000
-* Price (USD): $19.95
+* Price (USD): $25.95
 
 ## Discontinued Products
 
