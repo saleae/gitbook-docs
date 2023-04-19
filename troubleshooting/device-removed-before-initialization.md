@@ -14,7 +14,9 @@ This error message may appear during device operation, or upon connecting your L
 
 4\. Test your Logic hardware using another USB cable.
 
-5\. Most commonly, users have reported issues with certain versions of Intel's USB 3.1 eXtensible Host Controller driver like shown in the image below. The issues were solved by navigating to the USB host controller driver from Device Manager, uninstalling the driver (click "Uninstall Device" under the Driver tab in Device Manager), and restarting the PC. In all cases, including our tests, the same version ended up being installed upon the PC restarting.
+5\. Try removing all other USB devices from your PC before connecting Logic.
+
+6\. Most commonly, users have reported issues with certain versions of Intel's USB 3.1 eXtensible Host Controller driver like shown in the image below. The issues were solved by navigating to the USB host controller driver from Device Manager, uninstalling the driver (click "Uninstall Device" under the Driver tab in Device Manager), and restarting the PC. In all cases, including our tests, the same version ended up being installed upon the PC restarting.
 
 <figure><img src="https://saleae.zendesk.com/attachments/token/PCigwvvDRSXMt84XJXxFRy126/?name=image.png&#x26;lotus_request=true" alt=""><figcaption><p>USB Host Controller Driver Tab</p></figcaption></figure>
 
