@@ -70,7 +70,7 @@ Each .cal file is specific to a single device, but the .cal files are saved with
 
 If there is a newer calibration file available for your device, our software should automatically download it as long as it is connected to the internet. Note that we usually do not make updates to the calibration files.
 
-In case you want to check if there is an updated calibration file available, please manually download the calibration file using the instructions above **** and check for the calibration status.
+In case you want to check if there is an updated calibration file available, please manually download the calibration file using the instructions above and check for the calibration status.
 
 #### Can I Manually Adjust Calibration Values for my Logic Device?
 

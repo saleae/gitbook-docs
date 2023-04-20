@@ -4,7 +4,7 @@
 
 The Logic 2 Software is supported in the following operating systems and can be downloaded via the link below.
 
-[**Logic 2 Software Download**](https://www.saleae.com/downloads/)****
+[**Logic 2 Software Download**](https://www.saleae.com/downloads/)
 
 * Windows 8, 10, & 11 (64 bit)
 * MacOS 10.14+&#x20;

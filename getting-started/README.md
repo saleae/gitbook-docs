@@ -8,7 +8,7 @@ We recommend getting started with the **Setup** guide below.
 [setup.md](setup.md)
 {% endcontent-ref %}
 
-You may also want to check out our [**Tutorial Video Playlist**](https://www.youtube.com/playlist?list=PLUdiafhsYS1R\_0x4Vo0OXf4pD7HkiBnHt) **** to learn more about our software's features.
+You may also want to check out our [**Tutorial Video Playlist**](https://www.youtube.com/playlist?list=PLUdiafhsYS1R\_0x4Vo0OXf4pD7HkiBnHt) to learn more about our software's features.
 
 {% embed url="https://www.youtube.com/playlist?list=PLUdiafhsYS1R_0x4Vo0OXf4pD7HkiBnHt" %}
 

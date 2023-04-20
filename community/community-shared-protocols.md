@@ -69,4 +69,4 @@ Some of the community analyzers listed above are distributed as source code (not
 
 * [Enrichable SPI Analyzer](https://github.com/coddingtonbear/saleae-enrichable-spi-analyzer) with an [Example Implementation](https://github.com/coddingtonbear/saleae-scriptable-spi-analyzer/blob/master/examples/custom\_class.py)
 * [HLA Stream Parser](https://github.com/andreobi/HLA\_Stream\_Parser)
-* ****[BitLocker SPI Toolkit (HLA)](https://github.com/FSecureLABS/bitlocker-spi-toolkit)
+* [BitLocker SPI Toolkit (HLA)](https://github.com/FSecureLABS/bitlocker-spi-toolkit)
