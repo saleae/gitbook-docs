@@ -153,14 +153,7 @@ The following accessories are compatible with our discontinued Original Logic an
 * Part Number: SAL-00094
 * ECCN: EAR99
 * HS Code: 8544.42.9000
-* Price (USD): $12.95&#x20;
-
-**Test Clips 9-Pack (Gen 1)**
-
-* Part Number: SAL-00092
-* ECCN: EAR99
-* HS Code: 8546.90.0000
-* Price (USD): $25.95
+* Price (USD): $12.95
 
 ## Discontinued Products
 
