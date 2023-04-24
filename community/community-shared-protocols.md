@@ -34,7 +34,7 @@ The following analyzers are not officially supported by Saleae, but instead, wer
 * [Realtek TX2/RX2](https://github.com/pzl/Saleae-Realtek-T-RX2)
 * [Robotis Dynamixel Servos](https://github.com/KurtE/SaleaeDynamixelAnalyzer)
 * [S/PDIF](https://github.com/pfrench42/saleae\_spdif)
-* [SD/MMC](https://github.com/dirker/sdmmc-analyzer)
+* [SD/MMC](https://github.com/airbus-seclab/sdmmc-analyzer)
 * [SDIO](https://github.com/bdodge/SDIOanalyzer) (developed by [bdodge](https://github.com/bdodge))
 * [SDIO](https://github.com/ewfuentes/SaleaeSDIOAnalyzer) (developed by [ewfuentes](https://github.com/ewfuentes))
 * [SDQ for Apple Lightning, MagSafe, and Battery](https://github.com/nezza/SDQAnalyzer) &#x20;
