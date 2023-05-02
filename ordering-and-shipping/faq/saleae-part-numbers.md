@@ -14,6 +14,8 @@ Note: The prices shown below are in USD currency. When placing an online order, 
 
 ## Saleae Logic Analyzers
 
+The Logic analyzer models listed below are referred to as our Gen 2 Logic analyzers.
+
 **Saleae Logic 8 Black**
 
 * Part Number: SAL-00111
@@ -54,11 +56,11 @@ Note: The prices shown below are in USD currency. When placing an online order, 
 * Part Number: SAL-00116
 * ECCN: 3A992.a
 * HS Code: 9030840000
-* Price (USD): $1499.00&#x20;
+* Price (USD): $1499.00
 
-## Accessories
+## Saleae-Branded Accessories (for Gen 2 Logic analyzers)
 
-### Cables, Test Clips, & Wire Harnesses - Gen 2
+The following Saleae-Branded accessories are compatible with our Gen 2 Logic analyzers (Logic Pro 16, Logic Pro 8, Logic 8, and Logic 4).
 
 **Wire Harness - 2x4 to Test Clips (Channels 0-3)**
 
@@ -88,28 +90,39 @@ Note: The prices shown below are in USD currency. When placing an online order, 
 * HS Code: 8544420000
 * Price (USD): $12.95&#x20;
 
-**Test Clips 8-Pack (Gen 2)**
+**Test Clips 8-Pack**
 
 * Part Number: SAL-00093
 * ECCN: EAR99
 * HS Code: 8546.90.0000
 * Price (USD): $23.95&#x20;
 
-**Logic-to-2x4 Header (Gen 2)**
+**Logic-to-2x4 Header**
 
 * Part Number: SAL-00117
 * ECCN: EAR99
 * HS Code: 8544420000
 * Price (USD): $12.95
 
-**Logic-to-Wires (Gen 2)**
+**Logic-to-Wires**
 
 * Part Number: SAL-00118
 * ECCN: EAR99
 * HS Code: 8544420000
 * Price (USD): $7.95
 
-### Third-Party Accessories
+## Saleae-Branded Accessories (for Gen 1 Logic analyzers)
+
+The following Saleae-Branded accessories are compatible with our discontinued Gen 1 Logic analyzers (Original Logic and Logic16).
+
+**Extra Test Lead Set (Gen 1)**
+
+* Part Number: SAL-00094
+* ECCN: EAR99
+* HS Code: 8544.42.9000
+* Price (USD): $12.95
+
+## Third-Party Accessories
 
 #### Nano-size Test Clip
 
@@ -144,17 +157,6 @@ Note: The prices shown below are in USD currency. When placing an online order, 
 * HS Code: 85363080000
 * Price (USD): $299.00
 
-### Test Clips, & Wire Harnesses - Gen **1**
-
-The following accessories are compatible with our discontinued Original Logic and Logic16.
-
-**Extra Test Lead Set (Gen 1)**
-
-* Part Number: SAL-00094
-* ECCN: EAR99
-* HS Code: 8544.42.9000
-* Price (USD): $12.95
-
 ## Discontinued Products
 
 #### Saleae Logic 4 Black
@@ -165,10 +167,10 @@ The following accessories are compatible with our discontinued Original Logic an
 
 * SAL-00110
 
-#### **Saleae Original Logic**
+#### **Saleae Original Logic (Gen 1)**
 
 * SALEAE001
 
-#### Saleae Logic16
+#### Saleae Logic16 (Gen 1)
 
 * SALEAE009
