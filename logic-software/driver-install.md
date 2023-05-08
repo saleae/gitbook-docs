@@ -148,6 +148,8 @@ In case you run into any issues with installing the udev rule file using the com
 3\. Verify that the rule file was installed with the following command:\
 `cat /etc/udev/rules.d/99-SaleaeLogic.rules`
 
-4\. If Logic was connected during the install, unplug and reconnect your Logic device to the PC.\
+4\. If Logic was connected during the install, unplug and reconnect your Logic device to the PC.
+
+5\. If at this point, the udev rule has still not installed properly, please disconnect your Logic device and restart your PC and test again afterwards.\
 &#x20;\
-In case this doesn't help with your connection issues on Linux, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) and send us the command line output.
+In case the above steps don't help, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) and send us the command line output from the udev rull install commands above.
