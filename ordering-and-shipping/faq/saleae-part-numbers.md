@@ -90,13 +90,6 @@ The following Saleae-Branded accessories are compatible with our Gen 2 Logic ana
 * HS Code: 8544420000
 * Price (USD): $12.95&#x20;
 
-**Test Clips 8-Pack**
-
-* Part Number: SAL-00093
-* ECCN: EAR99
-* HS Code: 8546.90.0000
-* Price (USD): $23.95&#x20;
-
 **Logic-to-2x4 Header**
 
 * Part Number: SAL-00117
@@ -111,6 +104,20 @@ The following Saleae-Branded accessories are compatible with our Gen 2 Logic ana
 * HS Code: 8544420000
 * Price (USD): $7.95
 
+**Test Clips 8-Pack**
+
+* Part Number: SAL-00093
+* ECCN: EAR99
+* HS Code: 8546.90.0000
+* Price (USD): $23.95&#x20;
+
+**Nano-size Test Clip**
+
+* Part Number: SAL-00165
+* ECCN: EAR99
+* HS Code: 8546.90.0000
+* Price (USD): $15.99
+
 ## Saleae-Branded Accessories (for Gen 1 Logic analyzers)
 
 The following Saleae-Branded accessories are compatible with our discontinued Gen 1 Logic analyzers (Original Logic and Logic16).
@@ -124,13 +131,6 @@ The following Saleae-Branded accessories are compatible with our discontinued Ge
 
 ## Third-Party Accessories
 
-#### Nano-size Test Clip
-
-* Part Number: SAL-00165
-* ECCN: EAR99
-* HS Code: 8546.90.0000
-* Price (USD): $15.99
-
 #### Sensepeek PCBite Kit: Hands-free probing solution
 
 * Part Number: SAL-00174
@@ -141,6 +141,7 @@ The following Saleae-Branded accessories are compatible with our discontinued Ge
 
 **Sensepeek PCBite SP10: Hands-free probes (set of 2)**
 
+* Part Number: SAL-00183
 * ECCN: EAR99
 * HS Code: 9030.90.0000
 * Country of Origin: Sweden
