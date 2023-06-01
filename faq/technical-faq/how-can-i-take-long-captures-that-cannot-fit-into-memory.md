@@ -2,40 +2,53 @@
 
 **Managing Memory Usage in the Saleae Application**
 
-The Saleae software does not support streaming captured data to disk. Instead, a single capture has to reside in memory until it is saved and closed.
+The Logic 2 software does not support streaming captured data to disk. Instead, a single capture has to reside in memory until it is saved and closed.
 
 There are several ways to reduce or manage the memory usage of the software:
 
 * Reduce the capture duration.
 * Reduce the analog sample rate if analog channels are used.
-* Save and close captures before taking new ones. After saving the capture (options -> save capture), move the capture to a new tab (button next to the capture tab) and then close it using the tab menu (tab gear icon -> close).
-* Disable analog up-sampled pipeline in the software preferences (options -> preferences -> capture tab -> uncheck "Enable Upsampled Pipeline" ) to reduce analog memory consumption by about 4 times.
+* Save and close captures before taking new ones. After saving the capture (options -> save capture), close it by clicking the 'x' icon on the capture tab.
 
 **API Information**
 
-To get around this issue, an API can be used to automate the process of taking shorter captures, saving them, and then starting more captures. That will allow you to break a single long capture into a series of shorter captures with only small gaps between captures.
+To get around this issue, our Python Automation API for the Logic 2 software can be used to automate the process of taking shorter captures, saving them, and then starting more captures. That will allow you to break a single long capture into a series of shorter captures with only small gaps between captures.
 
-The software includes a system for automating normal software interactions such as changing capture settings, starting captures, saving files, or exporting data.
-
-To do this, the software includes a TCP socket server. You can develop an application that connects to this socket server and then sends simple text commands to the software such as "CAPTURE\_TO\_FILE" to trigger specific actions. The software will then respond with "ACK", "NAK", or other information once the command has executed.
-
-You can find the latest socket API and documentation in the link below.
-
-{% content-ref url="../../saleae-api-and-sdk/automation.md" %}
-[automation.md](../../saleae-api-and-sdk/automation.md)
-{% endcontent-ref %}
-
-The documentation and a sample C# application are contained in the zip file posted there. Links to several open source implementations are also posted.
+The software includes a system for automating normal software interactions such as changing capture settings, starting captures, saving files, or exporting data. The documentation for our Python Automation API for Logic 2 can be found below:\
+[https://saleae.github.io/logic2-automation/](https://saleae.github.io/logic2-automation/)
 
 **Automating Long Recordings**
 
-The software already has exceptionally deep buffer capabilities. However, there are still cases where longer recording would be preferred, for hours or even days. Since the software can't be used to record continuously for that length of time, the long capture must be broken into a series of shorter captures that are saved to disk. That results in small delays between captures that will result in lost data; however, in most cases, the save and capture restart time is well under 1 second. This operation usually only needs to be performed once an hour.
+The software already has exceptionally deep buffer capabilities. However, there are still cases where longer recording would be preferred, for hours or even days. Since the software can't be used to record continuously for that length of time, the long capture must be broken into a series of shorter captures that are saved to disk. That results in small delays between captures that will result in lost data; however, in most cases, the save and capture restart time is well under 1 second.&#x20;
 
-For this operation, you can either use the existing sample code or create your own application from scratch. The basic process is to use one command over and over again. That command is "CAPUTRE\_TO\_FILE". See the documentation for more details. Once the capture has completed and the file has been saved, the software will reply over the socket "ACK". Then the software is ready to receive a new capture to file command.
+This operation usually only needs to be performed once an hour. You can either use the existing sample Python script linked below, or create your own application from scratch. \
+[https://saleae.github.io/logic2-automation/getting\_started.html](https://saleae.github.io/logic2-automation/getting\_started.html)
 
 **Importing the Captured Data for Processing**
 
-Once a capture is complete, the captured data will still be in the Logic software and not sent to your custom application. In order to access that data for further processing, you will need to export that to a file and then load that file into your application. The exception is protocol data, which can be streamed through the socket interface.
+Once a capture is complete, the captured data will still be in the Logic 2 software and not sent to your custom application. In order to access that data for further processing, you will need to export that to a file and then load that file into your application. The sample Python script above provides an example for exporting the contents of the Data Table.
+
+**Limitations**
+
+There are several limitations to this approach that you should consider:
+
+* The gaps between captures are unavoidable.
+* The captures cannot be appended to each other to produce one extra long capture later. They will stay in separate files.
+* The protocol results cannot be accessed in real time. Instead, you must wait for the capture to complete before you can export the protocol results.
+
+## Legacy Logic 1.x Software
+
+In the older Logic 1.x Socket API Automation Utility (currently no longer supported), the software includes a TCP socket server to perform automation functions. The documentation for this can be found below.
+
+{% content-ref url="../../saleae-api-and-sdk/automation-legacy-logic1.md" %}
+[automation-legacy-logic1.md](../../saleae-api-and-sdk/automation-legacy-logic1.md)
+{% endcontent-ref %}
+
+You can develop an application that connects to this socket server and then sends simple text commands to the software such as "CAPTURE\_TO\_FILE" to trigger specific actions. The software will then respond with "ACK", "NAK", or other information once the command has executed.
+
+The basic process is to use one command over and over again. That command is "CAPUTRE\_TO\_FILE". See the documentation for more details. Once the capture has completed and the file has been saved, the software will reply over the socket "ACK". Then the software is ready to receive a new capture to file command.
+
+**Importing the Captured Data for Processing**
 
 First, use the new preferred EXPORT\_DATA2 function in the latest socket API to export the capture to a format that's the easiest for you to process. Binary export is recommended for dense, long captures, but the CSV format could be easier to parse if you are not used to working with raw binary files.
 
@@ -74,13 +87,3 @@ To suppress these popups, simply start the application with the command line opt
     &#x20; EXPORT\_ANALYZER&#x20;
 
     &#x20; Please review the documentation for specific command arguments.
-
-**Limitations**
-
-There are several limitations to this approach that you should consider:
-
-* The gaps between captures are unavoidable.
-* The captures cannot be appended to each other to produce one extra long capture later. They will stay in separate files.
-* The protocol results cannot be accessed in real time. Instead, you must wait for the capture to complete before you can export the protocol results.
-
-If you have any questions or need any help working with the scripting API, please [contact support](https://support.saleae.com/hc/en-us/requests/new).
