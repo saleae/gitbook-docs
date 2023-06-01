@@ -740,9 +740,9 @@ Linux 64 bit
 
 Windows:
 
-[Logic 1.1.18 Beta - Windows 32 bit](https://downloads.saleae.com/betas/1.1.18/Logic+Setup+1.1.18+/\(32-bit/\).exe)
+[Logic 1.1.18 Beta - Windows 32 bit](https://downloads.saleae.com/betas/1.1.18/Logic+Setup+1.1.18+\(32-bit\).exe)
 
-[Logic 1.1.18 Beta - Windows 64 bit](https://downloads.saleae.com/betas/1.1.18/Logic+Setup+1.1.18+/\(64-bit/\).exe)
+[Logic 1.1.18 Beta - Windows 64 bit](https://downloads.saleae.com/betas/1.1.18/Logic+Setup+1.1.18+\(64-bit\).exe)
 
 OS X:
 

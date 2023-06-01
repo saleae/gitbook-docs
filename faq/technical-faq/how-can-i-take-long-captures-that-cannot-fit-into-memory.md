@@ -1,7 +1,5 @@
 # How Can I Take Long Captures That Cannot Fit into Memory?
 
-**Managing Memory Usage in the Saleae Application**
-
 The Logic 2 software does not support streaming captured data to disk. Instead, a single capture has to reside in memory until it is saved and closed.
 
 There are several ways to reduce or manage the memory usage of the software:
