@@ -8,7 +8,13 @@ To save your current capture tab, click the Options button at the bottom right o
 
 ### Saving & Opening Presets
 
-The most recently used capture settings should be automatically loaded in the Logic 2 software upon opening the app. You can also save and load capture settings presets as needed. To open the Presets window, click the Options button at the bottom-right of the software, then click Presets.
+The most recently used capture settings should be automatically loaded in the Logic 2 software upon opening the app. You can also save and load capture settings presets as needed.
+
+{% hint style="info" %}
+Please note that when connecting our USB 3.0 Logic analyzers (Logic Pro 8 and Logic Pro 16) via a USB 2.0 cable, capture settings will not persist. In this case, we recommend saving capture setting presets as described below.
+{% endhint %}
+
+To open the Presets window, click the Options button at the bottom-right of the software, then click Presets.
 
 ![Opening the Presets Window](../../.gitbook/assets/screen-shot-2021-02-26-at-3.49.54-pm.png)
 
