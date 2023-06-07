@@ -14,7 +14,13 @@ When connected via USB 2.0, Logic Pro 8 & Logic Pro 16 operate with a lower maxi
 
 In addition, Logic Pro 16 draws slightly more current than what USB 2.0 ports are rated. Because of this, by default, only 8 of the 16 channels are active when connected to a USB 2.0 port.&#x20;
 
+### Capture Settings Will Not Persist
 
+When connecting our USB 3.0 Logic analyzers (Logic Pro 8 and Logic Pro 16) via a USB 2.0 cable, capture settings will not persist when closing and re-opening the software. In this case, we recommend saving capture setting presets as described in the support article below.
+
+{% content-ref url="../user-guide/using-logic/saving-loading-and-exporting-data.md" %}
+[saving-loading-and-exporting-data.md](../user-guide/using-logic/saving-loading-and-exporting-data.md)
+{% endcontent-ref %}
 
 ## Legacy Information for Logic 1.x Only
 
