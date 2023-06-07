@@ -28,8 +28,16 @@ To generate a sample export file, perform the following:
 
 **Sample asynchronous serial export file:**
 
-![Serial Data](https://trello-attachments.s3.amazonaws.com/55f0a61a10f9f592573a4205/58ee6859e178f96cf5d1220e/584fca0e7d974b58b62a98c289922e03/async.PNG)
+<div align="left">
+
+<img src="https://trello-attachments.s3.amazonaws.com/55f0a61a10f9f592573a4205/58ee6859e178f96cf5d1220e/584fca0e7d974b58b62a98c289922e03/async.PNG" alt="Serial Data">
+
+</div>
 
 **Sample I2C export file:**
 
-![I2C data](https://trello-attachments.s3.amazonaws.com/55f0a61a10f9f592573a4205/58ee6859e178f96cf5d1220e/af21b87703465b5ba48e1b6d1956c01c/i2c.PNG)
+<div align="left">
+
+<img src="https://trello-attachments.s3.amazonaws.com/55f0a61a10f9f592573a4205/58ee6859e178f96cf5d1220e/af21b87703465b5ba48e1b6d1956c01c/i2c.PNG" alt="I2C data">
+
+</div>

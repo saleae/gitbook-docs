@@ -12,12 +12,20 @@ In this guide, we will walk your through creating an HLA (High Level Analyzer) e
 3\. Under 'Generate from template', choose the type of extension you would like to create. For this example, we will create a High Level Analyzer.\
 4\. _**(Optional)**_ Click 'Additional Information' to fill in information about your extension.
 
-![](../.gitbook/assets/screen-shot-2020-06-10-at-8.29.50-pm.png)
+<div align="center">
+
+<img src="../.gitbook/assets/screen-shot-2020-06-10-at-8.29.50-pm.png" alt="">
+
+</div>
 
 5\. Click 'Save As...' to save and select your location.\
 6\. You should now see your new extension listed as 'Local' in the software.
 
-![](../.gitbook/assets/screen-shot-2020-06-10-at-8.29.13-pm.png)
+<div align="center">
+
+<img src="../.gitbook/assets/screen-shot-2020-06-10-at-8.29.13-pm.png" alt="">
+
+</div>
 
 ## Using a High Level Analyzer Extension
 
@@ -29,11 +37,19 @@ I2C.sal
 
 2\. Click the Analyzers '+' button to add our Sample HLA.&#x20;
 
-![](../.gitbook/assets/screen-shot-2020-06-10-at-8.28.18-pm.png)
+<div align="center">
+
+<img src="../.gitbook/assets/screen-shot-2020-06-10-at-8.28.18-pm.png" alt="">
+
+</div>
 
 3\. In the settings popup, select 'I2C' under Input Analyzer. For the rest of the settings, you can leave them as default and click 'Finish'. Once you add the HLA, you can see it as a virtual channel as shown in the image below.
 
-![](../.gitbook/assets/screen-shot-2020-06-10-at-8.24.29-pm.png)
+<div align="center">
+
+<img src="../.gitbook/assets/screen-shot-2020-06-10-at-8.24.29-pm.png" alt="">
+
+</div>
 
 ### Customize your High Level Analyzer
 

@@ -25,7 +25,11 @@ Navigate to the driver tab. Click the button "driver details"
 
 Note the files listed in the "driver files" list.
 
-![file list](https://trello-attachments.s3.amazonaws.com/56314184f791c8285ee1ee1a/330x239/cddb891b8a276dba1411761d74e9bfa1/driver\_file\_list.png)
+<div align="left">
+
+<img src="https://trello-attachments.s3.amazonaws.com/56314184f791c8285ee1ee1a/330x239/cddb891b8a276dba1411761d74e9bfa1/driver_file_list.png" alt="file list">
+
+</div>
 
 These four drivers are part of the WinUSB driver, which all Saleae devices use on all versions of Windows. Note that 4 files are listed - if not all 4 drivers are listed, that's OK.
 

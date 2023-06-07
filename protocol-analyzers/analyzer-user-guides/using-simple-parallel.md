@@ -21,7 +21,11 @@ Keep in mind that this isn't the "state" mode you may have seen in other logic a
 
 The settings for the parallel analyzer are described in this section. First, for all unused data bits, change the selected channel to "None". For instance, if you're using a 4-bit data bus, change D4-D15 to "None" in the settings as shown below.
 
-![](<../../.gitbook/assets/settings (1).png>)
+<div align="center">
+
+<img src="../../.gitbook/assets/settings (1).png" alt="">
+
+</div>
 
 Then, correctly assign the data bits you are using to the corresponding channels.
 

@@ -20,9 +20,13 @@ Scrolling down the "Export Raw Data" window reveals more options, including the 
 
 ![Export Raw Data Window - 2](../../.gitbook/assets/screen-shot-2021-06-28-at-4.48.59-pm.png)
 
-{% hint style="info" %}
-Note: Digital channel entries are only recorded in the export file when data changes. Therefore, the number of entries in the resulting export file are dependent on the number of transitions that occur and not on the number of digital samples in the capture. This helps reduce the file size of the export file.
-{% endhint %}
+#### Format of the Raw Data Export
+
+Digital channel entries are only recorded in the export file when data changes. Therefore, the number of entries in the resulting export file are dependent on the number of transitions that occur and not on the number of digital samples in the capture. This helps reduce the file size of the export file.
+
+Having said that, we always create a new entry on the final digital sample, meaning that the last 2 entries in your raw data export file will not include any data changes on the digital channels. This is because we want to help the user determine how much data was captured and exported down the last sample, even though there were no data changes.
+
+<figure><img src="../../.gitbook/assets/Screenshot 2023-06-07 at 5.34.28 PM.png" alt=""><figcaption><p>Last sample in the capture will always be printed</p></figcaption></figure>
 
 ### Exporting Analyzer Results
 

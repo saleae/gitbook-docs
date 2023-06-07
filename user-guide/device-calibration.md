@@ -14,7 +14,11 @@ Our support team may request you to send your serial number to us to further inv
 2. Click the three dots next to your device name on the top-right
 3. Click Device Info to view the device's calibration status and serial number
 
-![Opening the Device Information Window](../.gitbook/assets/device-info.png)
+<div align="center">
+
+<img src="../.gitbook/assets/device-info.png" alt="Opening the Device Information Window">
+
+</div>
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Device Information window showing calibration status</p></figcaption></figure>
 
