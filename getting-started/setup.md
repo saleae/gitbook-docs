@@ -8,7 +8,7 @@ Connect one or more cable harnesses to the Saleae Logic Analyzer. Note that each
 
 ![](<../.gitbook/assets/saleae\_harness\_2 (1) (1) (1) (1) (1) (1) (1) (1).jpg>)
 
-The unlabeled black wires are ground (GND), and the signal wires are labeled 0-8 (repeated if you have the Logic Pro 16). Looking straight at the ports of the analyzer, the top row of pins are labeled 0-8.
+The unlabeled black wires are ground (GND), and the signal wires are labeled 0-7 (repeated if you have the Logic Pro 16). Looking straight at the ports of the analyzer, the top row of pins are labeled 0-7.
 
 ![](../.gitbook/assets/saleae\_annotated\_pins.png)
 
