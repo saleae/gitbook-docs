@@ -1,6 +1,12 @@
 # How to Create Project Content for Saleae
 
-Write about your electronics project and get paid!
+Write about your electronics project and get paid!&#x20;
+
+The support article below lists some past submissions from our community of users who have created project content using our Logic analyzers. Feel free to use them as reference, and check out some unique and amazing electronics projects!
+
+{% content-ref url="../../community/projects.md" %}
+[projects.md](../../community/projects.md)
+{% endcontent-ref %}
 
 ### General Requirements
 
