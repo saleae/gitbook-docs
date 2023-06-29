@@ -1,6 +1,16 @@
-# MATLAB Data Export Format
+# MATLAB Data Export Format - Legacy Logic 1.x
 
-The Saleae software can export digital recordings, analog recordings, and recordings of both digital and analog channels to a \*.mat file.
+{% hint style="info" %}
+Please note that the MATLAB data export option is only available in our legacy Logic 1.x software and is currently not available as an export option in our latest [Logic 2 software](https://www.saleae.com/downloads/). We no longer officially support the older Logic 1.x software, however, we continue to provide is as-is for anyone that needs it (download link below).
+
+If you'd like to see support for MATLAB exports added to our latest Logic 2 software, please [add your vote/comment here](https://ideas.saleae.com/b/feature-requests/export-to-matlab-mat-file-format/)!
+{% endhint %}
+
+{% content-ref url="../../logic-software/legacy-software/older-software-releases.md" %}
+[older-software-releases.md](../../logic-software/legacy-software/older-software-releases.md)
+{% endcontent-ref %}
+
+Our legacy Logic 1.x software can export digital recordings, analog recordings, and recordings of both digital and analog channels to a \*.mat file.
 
 If one or more digital channels are present in the export, the following variables will be added to the file, which will then be added to your workspace on loading:
 

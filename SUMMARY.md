@@ -239,7 +239,7 @@
     * [What Sampling Rate Should I Use?](faq/technical-faq/what-sample-rate-is-required.md)
     * [Can I Share Data Captures with Others?](faq/technical-faq/can-i-share-data-captures.md)
     * [Binary Export Format (Digital) - Logic 1.x](faq/technical-faq/binary-data-export-format.md)
-    * [MATLAB Data Export Format](faq/technical-faq/matlab-data-export-format.md)
+    * [MATLAB Data Export Format - Legacy Logic 1.x](faq/technical-faq/matlab-data-export-format.md)
     * [Recording Multiple Protocols at the Same Time](faq/technical-faq/recording-multiple-protocols.md)
     * [Changing the Display Radix (Base)](faq/technical-faq/changing-the-display-radix.md)
     * [Which Logic Analyzer Should I Get?](faq/technical-faq/which-logic-analyzer-to-get.md)
