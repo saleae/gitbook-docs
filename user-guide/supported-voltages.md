@@ -14,16 +14,21 @@ There might be some small variation in the precise threshold voltage channel to 
 
 ### **Logic 8**
 
-Logic 8 has a fixed input voltage threshold.
+Logic 8 has a fixed input voltage threshold for its digital channels.
 
-* Voltage input low: 0.6 volts
-* Voltage input high: 1.2 volts
+* Voltage input low: 0.6V
+* Voltage input high: 1.2V
 * Over-voltage protection provides safety to +/- 25V
 
 Notes:
 
 * The 1.2V input voltage high spec allows Logic 8 to be used directly with the CAN low channel of 3.3V CAN.
 * Recommended IO standards: 5.0V, 3.3V, 2.5V, 1.8V
+* For Logic 8's digital channels, the range between 0.6V and 1.2V results in undefined behavior. For signals that might cross this range slowly (e.g. I2C signals due to its relatively slow rise/fall times caused by its open drain topology), you may want to ensure that the software glitch filter is enabled to filter out any potential glitches that might cause decoding errors.
+
+{% content-ref url="using-logic/software-glitch-filter.md" %}
+[software-glitch-filter.md](using-logic/software-glitch-filter.md)
+{% endcontent-ref %}
 
 ### **Logic Pro 8 and Logic Pro 16**
 
