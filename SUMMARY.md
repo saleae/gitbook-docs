@@ -212,7 +212,7 @@
     * [Converting I2S/PCM Captures into Audio](faq/technical-faq/convert-i2s-pcm-to-audio.md)
     * [My Capture Shows an Uneven Duty Cycle](faq/technical-faq/my-capture-shows-an-uneven-duty-cycle.md)
     * [Can I Create or Edit .logicdata Files?](faq/technical-faq/can-i-create-or-edit-logicdata-files.md)
-    * [Can Saleae Logic Run on ARM Processors?](faq/technical-faq/can-logic-run-on-arm.md)
+    * [Can Saleae Logic Run on ARM / Apple Processors?](faq/technical-faq/can-logic-run-on-arm.md)
     * [What Annotations Are Supported?](faq/technical-faq/what-annotations-are-supported.md)
     * [Time & Memory Saving Tools](faq/technical-faq/time-and-memory-saving-tools.md)
     * [How Can I Record Power Consumption?](faq/technical-faq/how-can-i-record-power-consumption.md)
