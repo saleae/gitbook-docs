@@ -35,7 +35,7 @@ This list contains every distributor currently selling Saleae devices. Please no
 * [Pertech Embedded Solution](http://www.pertech.co.il/saleae/) - Israel
 * [Play-Zone GmbH](http://www.play-zone.ch/en/catalogsearch/result/?q=saleae\&x=0\&y=0) - Switzerland
 * [RadioBro Corporation](http://www.radiobro.com/development-tools/) - US
-* [Robot R Us](https://www.robot-r-us.com/) - Singapore
+* [Robot R Us](https://robot-r-us.com.sg/?s=saleae\&post\_type=product) - Singapore
 * [Robotscience](http://www.robotscience.kr/goods/search?search\_text=saleae\&x=0\&y=0) - South Korea
 * [RobotShop](http://www.robotshop.com/en/catalogsearch/result/index/?general\_brand=Saleae\&q=saleae) - US, Canada, France
 * [SCE in China](http://www.scedg.com/) - China
