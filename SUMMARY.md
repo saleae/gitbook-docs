@@ -179,7 +179,6 @@
   * [Error Message: StartCommandError](troubleshooting/start-command-error.md)
   * [Logic 2 Error Messages](troubleshooting/logic-2-error-messages.md)
   * [PC Detection Test](troubleshooting/pc-detection-test.md)
-  * [Apple M1 Support](troubleshooting/apple-m1-support.md)
   * [CentOS Compatibility Issues](troubleshooting/centos-compatibility-issues.md)
   * [Error Message: Failed to Load Extension](troubleshooting/error-message-failed-to-load-extension.md)
   * [CSV Export is Slow](troubleshooting/csv-export-slow.md)
