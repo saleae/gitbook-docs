@@ -10,4 +10,4 @@ The Logic 2 Software is supported in the following operating systems and can be 
 * MacOS 10.14+&#x20;
 * Ubuntu 18.04.5+ (64 bit)
 
-Please note that 32 bit operating systems are not supported by Logic 2.x. For 32 bit support, please refer to Logic 1.x below.
+Please note that 32 bit operating systems are not supported by Logic 2.x. For 32 bit support, please refer to our legacy Logic 1.x software.
