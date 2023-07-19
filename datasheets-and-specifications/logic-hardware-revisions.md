@@ -1,8 +1,6 @@
 # Logic Hardware Revisions
 
-### What is the Difference Between Hardware Revisions?
-
-All revisions of the hardware have the same performance and capabilities. However, there are a few changes to the hardware that you should keep in mind. Here is a summary below.
+### Hardware Revision Changelog
 
 * Revision 6.0.0 - Minor component change. There is no update in specifications.
 * Revision 5.0.0 - We've updated our FPGA due to supply chain shortages. These revisions will no longer work with our legacy Logic 1.x software and will require the latest version of the Logic 2 software available [here](https://www.saleae.com/downloads/). The specifications as outlined in our datasheets do not change.
@@ -10,6 +8,12 @@ All revisions of the hardware have the same performance and capabilities. Howeve
 * Revision 1.2.0 - No notable change here. We were hoping to release a hardware performance improvement starting here, but we unfortunately weren't able to do so.
 * Revision 1.0.0 - We updated our ADC due to EOL. There is no functional difference between this and the previous revision.
 * Revision 0.0.0 - This is the original launch revision of the hardware.
+
+{% hint style="info" %}
+The main difference between most major hardware revisions is the FPGA or ADC used, which has no impact on end user functionality or signal quality.&#x20;
+
+Additionally, a newly manufactured device may be tagged with a previous revision. For example, if it uses an FPGA from a previous hardware revision, we may tag it with that revision number.
+{% endhint %}
 
 ### Checking your Device's Hardware Revision
 
