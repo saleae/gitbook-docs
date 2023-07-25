@@ -6,13 +6,13 @@ The Saleae Logic software includes the ability to decode SMBus data. The SMBus A
 
 The SMBus Analyzer has the following settings.
 
-![SMBus Analyzer Settings](../../.gitbook/assets/smbus-settings.png)
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-25 at 6.11.11 PM.png" alt=""><figcaption><p>SMBus Analyzer Settings</p></figcaption></figure>
 
 First, select the channels for the SMBDAT and SMBCLK lines.
 
 Then, select the SMBus decode level. This will change the way the decoded captured data is displayed on the Logic software.
 
-![SMBus Decode Level Setting](../../.gitbook/assets/smbus-decode-level.png)
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-25 at 6.12.23 PM.png" alt=""><figcaption><p>SMBus Decode Level Setting</p></figcaption></figure>
 
 ### **SMBus Decode Level Setting**
 
@@ -22,13 +22,22 @@ Then, select the SMBus decode level. This will change the way the decoded captur
 Changing the Display Radix setting in the Logic software will not change the way the SMBus data is displayed. Instead, you must change the display format using the SMBus decode level setting.
 {% endhint %}
 
-![Signals Decode Level Setting](../../.gitbook/assets/smbus-signals.png)
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-25 at 6.14.41 PM.png" alt=""><figcaption><p>Signals Decode Level Setting</p></figcaption></figure>
 
 **Bytes:** This will show the data in hex format, decode it as a read or write operation, and will display the bytes as an ACK or NACK. If PEC on packets need to be calculated and shown on screen, then SMBus, PMBus, or Smart Battery should be selected.
 
-![Bytes Decode Level Setting](../../.gitbook/assets/byte-settings.png)
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-25 at 6.15.20 PM.png" alt=""><figcaption><p>Bytes Decode Level Setting</p></figcaption></figure>
 
 **SMBus, PMBus, & Smart Battery:** Set this to the appropriate protocol you will be decoding. When enabling the "Calculate PEC on packets" setting, the PEC will be shown when the data is decoded.
 
-![SMBus, PMBus, & Smart Battery Setting](../../.gitbook/assets/pec.png)
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-25 at 6.16.09 PM.png" alt=""><figcaption><p>SMBus, PMBus, &#x26; Smart Battery Setting</p></figcaption></figure>
+
+### SMBus Symbol Definitions
+
+Here is a quick summary of the symbol definitions in the waveform in order of them appearing in a single SMBus transaction. Note that a transaction can be made up of multiple 8-bit words.
+
+* Green circle = Start condition for the entire transaction
+* Circle matching color of waveform = Stop bit for an 8-bit word (except the last one)
+* Red circle = Stop bit for the last 8-bit word
+* Orange square = Stop condition for the entire transaction
 
