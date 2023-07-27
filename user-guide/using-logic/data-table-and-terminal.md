@@ -31,11 +31,6 @@ The ability to hide columns altogether is available by right clicking the column
 
 This also excludes them from the search results and is useful when there are too many columns to comfortably display.&#x20;
 
-### Other Notes
-
-* The data table respects your display radix selection for each analyzer, including high-level analyzers.
-* When searching, matching cells will be highlighted, and the matching section of the contents will also be highlighted.
-
 ### Jumping to a Waveform Bubble from the Data Table
 
 You can jump to a specific decoded bubble above the waveform from the data table by hovering your mouse over the data table row of interest. An "arrow" icon will appear to the right of the data table row while hovering over it. Click on the "arrow" icon to have the waveform view jump to the appropriate waveform bubble of interest.
@@ -47,31 +42,6 @@ You can jump to a specific decoded bubble above the waveform from the data table
 You can jump to a specific row in the data table by hovering your mouse over a decoded bubble above the waveform as shown in the image below. A keyboard shortcut (OS-specific) will appear to allow you to perform this action.
 
 ![Jumping to a Row in the Data Table](../../.gitbook/assets/screen-shot-2021-04-07-at-3.40.30-pm.png)
-
-### Data Table Scrollbar Limitations
-
-Currently, the contents of the data table are loaded dynamically depending on which section of the data table is currently in view. This approach has some drawbacks which are especially noticeable when navigating the data table with the scrollbar.&#x20;
-
-For example, dragging the scrollbar to the bottom will not immediately jump you to the end of the data table. Instead, new data table rows will be loaded dynamically, and the scrollbar position and size will adjust accordingly. Therefore, the scrollbar will not be scaled correctly with reference to the total count of data table rows.
-
-Workarounds:
-
-* The End and Home keys can be used to instantly jump to the end or beginning of the data table respectively.
-* You can jump directly to a data table row from the waveform. Details on this are described in a section of this support article above.
-
-In case this is something you'd like us to improve, please vote for [this feature request](https://ideas.saleae.com/b/feature-requests/vertical-scrollbar-for-the-analyzer-data-table-view/)!
-
-### Search Limitations
-
-In most cases, you should be able to search for what you see in the table, just as you would search any other document, spreadsheet, or website. However, in order to improve performance of the search functionality, the search function has a few limitations.
-
-In general, the search system is case-insensitive. If you would like to use case-sensitive search, please support [this feature request](https://saleae.upvoty.com/b/feature-requests/add-option-to-make-analyzer-data-table-search-case-sensitive).
-
-Limitations:
-
-* The 'Start' and 'Duration' columns can't be searched.
-* when searching data shown in hexadecimal or binary, searching for a hex or binary number starting with '0x' or '0b' will force the search to match the beginning of the number. However, searching for '0', 'x', or '0x' by itself will not match the hex or binary prefix. This is a departure from the normal "search for what you see" functionality, but will eliminate accidental searches which may match with all rows of an analyzer.
-* when searching a byte array data type (like MISO, MOSI, and many other analyzer result types) that are displayed in the ASCII display radix, you may see dot characters ('.') in positions where the data isn't a displayable ASCII character. These characters cannot be searched for. Only ASCII characters can be searched. For example, if a cell displays 'ab...yz' you can search for 'a', 'b', 'ab', 'y', 'z', and 'yz' to match it, but you can't search for 'ab...yz' because the dot ('.') characters are unmatchable.
 
 ### Display Radix Information
 
@@ -96,6 +66,46 @@ This list explains the supported radix of each data type.
 | Boolean          | true               | true               | true        | true        | true                                                               |
 | String           | "hello world"      | hello world        | hello world | hello world | hello world                                                        |
 | Byte Array       | \[0x48, 0x69, 0x0] | 0x486900           | Hi\0        | 72 105 0    | 0b1001000110100100000000                                           |
+
+### Other Notes about the Data Table
+
+* The data table respects your display radix selection for each analyzer, including high-level analyzers.
+* When searching, matching cells will be highlighted, and the matching section of the contents will also be highlighted.
+
+### Limitations of the Data Table
+
+#### Scrollbar Limitations
+
+Currently, the contents of the data table are loaded dynamically depending on which section of the data table is currently in view. This approach has some drawbacks which are especially noticeable when navigating the data table with the scrollbar.&#x20;
+
+For example, dragging the scrollbar to the bottom will not immediately jump you to the end of the data table. Instead, new data table rows will be loaded dynamically, and the scrollbar position and size will adjust accordingly. Therefore, the scrollbar will not be scaled correctly with reference to the total count of data table rows.
+
+Workarounds:
+
+* The End and Home keys can be used to instantly jump to the end or beginning of the data table respectively.
+* You can jump directly to a data table row from the waveform. Details on this are described in a section of this support article above.
+
+In case this is something you'd like us to improve, please vote for [this feature request](https://ideas.saleae.com/b/feature-requests/vertical-scrollbar-for-the-analyzer-data-table-view/)!
+
+#### Search Limitations
+
+In most cases, you should be able to search for what you see in the table, just as you would search any other document, spreadsheet, or website. However, in order to improve performance of the search functionality, the search function has a few limitations.
+
+In general, the search system is case-insensitive. If you would like to use case-sensitive search, please support [this feature request](https://saleae.upvoty.com/b/feature-requests/add-option-to-make-analyzer-data-table-search-case-sensitive).
+
+Limitations:
+
+* The 'Start' and 'Duration' columns can't be searched.
+* when searching data shown in hexadecimal or binary, searching for a hex or binary number starting with '0x' or '0b' will force the search to match the beginning of the number. However, searching for '0', 'x', or '0x' by itself will not match the hex or binary prefix. This is a departure from the normal "search for what you see" functionality, but will eliminate accidental searches which may match with all rows of an analyzer.
+* when searching a byte array data type (like MISO, MOSI, and many other analyzer result types) that are displayed in the ASCII display radix, you may see dot characters ('.') in positions where the data isn't a displayable ASCII character. These characters cannot be searched for. Only ASCII characters can be searched. For example, if a cell displays 'ab...yz' you can search for 'a', 'b', 'ab', 'y', 'z', and 'yz' to match it, but you can't search for 'ab...yz' because the dot ('.') characters are unmatchable.
+
+#### The Data Table May Show Unrecognizable Values
+
+When using low level analyzers (LLAs) such as our Async Serial or SPI analyzer, you may notice issues with how values appear in the data table, specifically while viewing results in decimal format. More information on this can be found in the support article below.
+
+{% content-ref url="../../troubleshooting/data-table-shows-incorrect-values.md" %}
+[data-table-shows-incorrect-values.md](../../troubleshooting/data-table-shows-incorrect-values.md)
+{% endcontent-ref %}
 
 ## Terminal View
 
