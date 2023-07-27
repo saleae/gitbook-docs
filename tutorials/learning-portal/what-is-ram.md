@@ -40,6 +40,6 @@ The software will estimate the RAM/memory usage on the device settings popover.
 
 Besides modifying the capture settings or buying more RAM, our Socket API automation script allows users to break extremely long captures into a series of shorter captures that are saved to the hard disk. You can read more about how to implement this below.
 
-{% content-ref url="../../faq/technical-faq/how-can-i-take-long-captures-that-cannot-fit-into-memory.md" %}
-[how-can-i-take-long-captures-that-cannot-fit-into-memory.md](../../faq/technical-faq/how-can-i-take-long-captures-that-cannot-fit-into-memory.md)
+{% content-ref url="../../faq/technical-faq/limitations-with-long-captures.md" %}
+[limitations-with-long-captures.md](../../faq/technical-faq/limitations-with-long-captures.md)
 {% endcontent-ref %}

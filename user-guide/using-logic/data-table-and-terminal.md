@@ -99,7 +99,7 @@ Limitations:
 * when searching data shown in hexadecimal or binary, searching for a hex or binary number starting with '0x' or '0b' will force the search to match the beginning of the number. However, searching for '0', 'x', or '0x' by itself will not match the hex or binary prefix. This is a departure from the normal "search for what you see" functionality, but will eliminate accidental searches which may match with all rows of an analyzer.
 * when searching a byte array data type (like MISO, MOSI, and many other analyzer result types) that are displayed in the ASCII display radix, you may see dot characters ('.') in positions where the data isn't a displayable ASCII character. These characters cannot be searched for. Only ASCII characters can be searched. For example, if a cell displays 'ab...yz' you can search for 'a', 'b', 'ab', 'y', 'z', and 'yz' to match it, but you can't search for 'ab...yz' because the dot ('.') characters are unmatchable.
 
-#### The Data Table May Show Unrecognizable Values
+#### The Data Table May Show Incorrect Values
 
 When using low level analyzers (LLAs) such as our Async Serial or SPI analyzer, you may notice issues with how values appear in the data table, specifically while viewing results in decimal format. More information on this can be found in the support article below.
 

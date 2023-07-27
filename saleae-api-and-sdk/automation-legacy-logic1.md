@@ -6,7 +6,9 @@
 Due to the official release of the newer [Logic 2 Automation API](https://www.saleae.com/automation/), we have officially ended support for our Legacy Logic 1.x Automation API. We highly recommend existing users who currently use our legacy Automation API automation utility with Logic 1.x to migrate their automation utility to Logic 2 using our new Automation API above. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you need help with that.
 {% endhint %}
 
-Our Legacy Automation API (which we called Socket API in the past) allows users to programmatically configure our software and trigger captures, and requires the older Logic 1.x software.
+Our Legacy Automation API (which we called Socket API in the past) allows users to programmatically configure our software and trigger captures, and requires the older Logic 1.x software.&#x20;
+
+The basic premise is that you can develop an application that connects to this socket server and then sends simple text commands to the software such as "CAPTURE\_TO\_FILE" to trigger specific actions. The software will then respond with "ACK", "NAK", or other information once the command has executed.
 
 In addition, please keep in mind that newer versions of our Logic hardware (after revision 3.0.0) will no longer work with the older Logic 1.x software. If this poses any issues, please [contact us](https://contact.saleae.com/hc/en-us/requests/new). A brief summary of our hardware revisions are described in the support article below.
 
@@ -81,3 +83,48 @@ If you would like to share your application, feel free to send us a link to it o
 ### Which Export Options are Available via Socket API?
 
 The Socket API currently supports the raw export feature and the protocol-specific export feature. However, the socket API does not support exporting the protocol search results.
+
+### How Can I Take Long Captures That Cannot Fit into Memory?&#x20;
+
+The basic process is to use one command over and over again. That command is "CAPUTRE\_TO\_FILE". Once the capture has completed and the file has been saved, the software will reply over the socket "ACK". Then the software is ready to receive a new capture to file command.
+
+**Importing the Captured Data for Processing**
+
+First, use the EXPORT\_DATA2 function to export the capture to a format that's the easiest for you to process. Binary export is recommended for dense, long captures, but the CSV format could be easier to parse if you are not used to working with raw binary files.
+
+The export command will ACK once the export is complete. After that, you will need to load the exported file and parse it how you see fit.
+
+There is no way to access the captured data in real time through this API. The protocol analyzer SDK is the closest option to real-time data access, but it is only intended for developing custom decoder plugins.
+
+**Automatically Exporting Protocol Data Such As SPI**
+
+You may also want to automate the process of exporting the decoded protocol data. Additional commands for this can be found in the documentation.
+
+**Suppressing Notification Dialogs**
+
+When running an automated script, you will want to prevent standard dialogs from appearing that block normal operation. These dialogs include:
+
+* Capture failure message (can't keep up, failed to start, etc.)
+* Error reporter
+* Out of memory exception message
+
+To suppress these popups, simply start the application with the command line option "-disablepopups".
+
+**Common Applications**
+
+*   Automating the process of starting a capture with a trigger and exporting the protocol results after the capture
+
+    &#x20; This can be done by either pre-setting the trigger in the software or setting it using the API command SET\_TRIGGER.
+
+    &#x20; The basic flow to automatically start the capture and export protocol results would look like this:
+
+    &#x20; CAPTURE or CAPTURE\_TO\_FILE
+
+    &#x20; Call IS\_PROCESSING\_COMPLETE in a loop until it returns TRUE
+
+    &#x20; GET\_ANALYZERS and get the index of your analyzer (which can change between captures)
+
+    &#x20; EXPORT\_ANALYZER&#x20;
+
+    &#x20; Please review the documentation for specific command arguments.
+
