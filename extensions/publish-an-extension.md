@@ -35,6 +35,12 @@ You can take a look at an [example GitHub repository](https://github.com/timreye
 
 </div>
 
+{% hint style="info" %}
+If clicking the Publish button doesn't open your browser, you can manually reach our Extensions Marketplace Publish site via the link below:
+
+[https://marketplace.saleae.com/publish](https://marketplace.saleae.com/publish)
+{% endhint %}
+
 3\. Afterwards, you'll be taken to a new page to authorize Saleae Marketplace to access your GitHub account.&#x20;
 
 {% hint style="info" %}
