@@ -271,7 +271,7 @@
     * [Import Custom Low Level Analyzer](faq/technical-faq/setting-up-developer-directory.md)
     * [OSX Analyzer SDK Xcode Setup](faq/technical-faq/osx-analyzer-sdk-xcode-setup.md)
     * [Can Custom Analyzers Process Analog Channels?](faq/technical-faq/can-custom-analyzers-process-analog-channels.md)
-    * [Limitations with Long Overnight Captures](faq/technical-faq/limitations-with-long-captures.md)
+    * [Automating Long Overnight Captures](faq/technical-faq/limitations-with-long-captures.md)
     * [What Options Are There to Export Multiple Protocol Analyzer Results into the Same File?](faq/technical-faq/what-options-are-there-to-export-multiple-protocol-analyzer-results-into-the-same-file.md)
     * [Do the Saleae Devices Support AC Coupling?](faq/technical-faq/do-the-saleae-devices-support-ac-coupling.md)
     * [Suggestions for Capturing Multiple Instances of a Triggered Event Automatically](faq/technical-faq/suggestions-for-capturing-multiple-instances-of-a-triggered-event-automatically.md)
