@@ -1,5 +1,11 @@
 # Binary Export Format - Logic 2
 
+The binary file format summarized in this support article pertains to binary files exported via exporting raw data described in the link below.
+
+{% content-ref url="../../user-guide/using-logic/exporting-data.md" %}
+[exporting-data.md](../../user-guide/using-logic/exporting-data.md)
+{% endcontent-ref %}
+
 In Logic 2, both digital and analog binary files start with the same header, which can be used to determine the type of data stored in the file.
 
 * All multi-byte values are in little endian byte-order
@@ -7,7 +13,7 @@ In Logic 2, both digital and analog binary files start with the same header, whi
 
 Digital and analog binary files have the same initial header that can be used to determine whether it is a valid Saleae binary export file, the version, and whether it contains analog or digital data.
 
-```text
+```
 byte[8] identifier;
 int32 version;
 int32 type;
@@ -15,17 +21,17 @@ int32 type;
 
 For Saleae binary exports, the identifier will always be `<SALEAE>`. The current version is `0`.
 
-Types:  
-`0` - Digital  
+Types:\
+`0` - Digital\
 `1` - Analog
 
 The remaining format is based on the type of the data.
 
 ## Digital
 
-File structure \(starting with the shared header above\)
+File structure (starting with the shared header above)
 
-```text
+```
 byte[8] identifier;
 int32 version;
 int32 type;
@@ -39,9 +45,9 @@ for each transition in num_transitions
 
 ## Analog
 
-File structure \(starting with the shared header above\)
+File structure (starting with the shared header above)
 
-```text
+```
 byte[8] identifier;
 int32 version;
 int32 type;
@@ -117,7 +123,7 @@ if __name__ == '__main__':
 
 Example output:
 
-```text
+```
 Opening binary4/digital_5.bin
 Identifier: <SALEAE>
 Version: 0
@@ -199,7 +205,7 @@ if __name__ == '__main__':
 
 Example output:
 
-```text
+```
 Opening binary_export/analog_5.bin
 Identifier: <SALEAE>
 Version: 0
@@ -230,9 +236,13 @@ A community user has generously shared their C-based binary parser for digital c
 
 If you are using Logic 1.x, please refer to the articles below.
 
-{% page-ref page="binary-data-export-format.md" %}
+{% content-ref url="binary-data-export-format.md" %}
+[binary-data-export-format.md](binary-data-export-format.md)
+{% endcontent-ref %}
 
-{% page-ref page="data-export-format-analog-binary.md" %}
+{% content-ref url="data-export-format-analog-binary.md" %}
+[data-export-format-analog-binary.md](data-export-format-analog-binary.md)
+{% endcontent-ref %}
 
 
 
