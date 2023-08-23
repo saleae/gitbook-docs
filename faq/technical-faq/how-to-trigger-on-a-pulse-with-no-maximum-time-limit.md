@@ -1,8 +1,14 @@
-# How to Trigger On a Pulse with No Maximum Time Limit
+# How to Trigger On a Pulse with No Maximum Time Limit - Logic 1.x
 
 {% hint style="info" %}
-Unfortunately, this feature is not yet available in Logic 2. Vote for it [here!](https://ideas.saleae.com/b/feature-requests/trigg-on-signal-state-low-high-after-x-time/)
+This support article refers to a feature available in our older Logic 1.x software (which is no longer officiall supported). The download link for it is available below.
+
+Unfortunately, this feature is not yet available in our current Logic 2 software. Vote for it [here!](https://ideas.saleae.com/b/feature-requests/trigg-on-signal-state-low-high-after-x-time/)
 {% endhint %}
+
+{% content-ref url="../../logic-software/legacy-software/older-software-releases.md" %}
+[older-software-releases.md](../../logic-software/legacy-software/older-software-releases.md)
+{% endcontent-ref %}
 
 The pulse width trigger in the Saleae Logic software has extra features to allow it to be used to detect events other than pulses.
 

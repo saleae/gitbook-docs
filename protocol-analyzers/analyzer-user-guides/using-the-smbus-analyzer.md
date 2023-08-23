@@ -41,3 +41,5 @@ Here is a quick summary of the symbol definitions in the waveform in order of th
 * Red circle = Stop bit for the last 8-bit word
 * Orange square = Stop condition for the entire transaction
 
+I also wanted to add that it’s normal for the SDA line to go high briefly when the component driving the SDA line low switches between the master and the slave device. For example, when the master device finishes transmitting data, it will then release the SDA line, allowing the slave to pull it low to signal the ACK. There is sometimes a brief time during the switch where neither component is pulling the line low, which can produce short positive pulse. This is usually before or after a ACK/NAK bit.
+

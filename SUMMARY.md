@@ -248,7 +248,7 @@
     * [Which Saleae Devices Support Analog Recording?](faq/technical-faq/which-saleae-devices-support-analog-recording.md)
     * [How to Manage Protocol Analyzers when Using the Socket API](faq/technical-faq/how-to-manage-protocol-analyzers-when-using-the-socket-api.md)
     * [How to Export Serial Protocol Results to a Raw Binary File](faq/technical-faq/how-to-export-serial-protocol-results-to-a-raw-binary-file.md)
-    * [How to Trigger On a Pulse with No Maximum Time Limit](faq/technical-faq/how-to-trigger-on-a-pulse-with-no-maximum-time-limit.md)
+    * [How to Trigger On a Pulse with No Maximum Time Limit - Logic 1.x](faq/technical-faq/how-to-trigger-on-a-pulse-with-no-maximum-time-limit.md)
     * [Finding Your USB 3.0 Host Controller Information](faq/technical-faq/usb-3.0-host-controller-info.md)
     * [Logic Reports Different USB Current Requirements](faq/technical-faq/logic-reports-different-usb-current-requirements.md)
     * [Is It Possible to Adjust the Logic Thresholds for the Digital Inputs?](faq/technical-faq/adjusting-thresholds.md)
