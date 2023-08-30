@@ -20,6 +20,7 @@ This list contains every distributor currently selling Saleae devices. Please no
 * [Elgood Oy](https://www.partco.fi/en/2487-logic-analyzers) - Finland
 * [Elmicro Computer GmbH & Co. KG](http://elmicro.com/de/saleae-logic.html) - Germany
 * [Embedded Fruit](http://www.embeddedfruit.de/SaleaeProdukte) - Germany
+* [eVision Systems GmbH](https://evision-webshop.eu/measuring-testing/analyzer/logic-analyzer) - Germany
 * [EXP GmbH](https://www.exp-tech.de/saleae/) - Germany
 * [Generation Robots](https://www.generationrobots.com/en/83\_saleae) - France
 * [HANYI Technologies (Shanghai) Co., Ltd ](http://www.han-yi-tech.com/product/129.html) - China
