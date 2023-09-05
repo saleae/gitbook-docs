@@ -34,7 +34,7 @@ Having mentioned the above note, and in case you are still interested in placing
 [saleae-part-numbers.md](faq/saleae-part-numbers.md)
 {% endcontent-ref %}
 
-* Shipping Option: Please either include your FedEx/UPS Account Number, OR indicate "Saleae Prepay Shipping - Add to Invoice"
+* Shipping Option: Please either include your FedEx/UPS/DHL Account Number, OR indicate "Saleae Prepay Shipping - Add to Invoice"
 * Email address and contact information for your Accounts Payable Department
 * Payment Term: Prepay via Wire Transfer or Net 30 Days from Date of Invoice&#x20;
 
