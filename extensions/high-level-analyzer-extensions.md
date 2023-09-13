@@ -4,9 +4,7 @@ description: Learn how to modify your new High Level Analyzer
 
 # High-Level Analyzer (HLA) Extensions
 
-{% hint style="warning" %}
 This guide assumes that you have familiarity with the [Python](https://www.python.org/) programming language. It is what will be used to customize our HLA.
-{% endhint %}
 
 ## Overview
 
@@ -150,7 +148,7 @@ Now that we've gone over the different parts of an HLA, we will be updating our 
 
 In the Extensions Quickstart you should have downloaded and opened a capture of i2c data. For this quickstart we will be using a capture of Async Serial data that repeats the message "Hello Saleae".
 
-{% file src="../.gitbook/assets/hla-quickstart.zip" %}
+{% file src="../.gitbook/assets/hla-quickstart (1).zip" %}
 Async Serial Example Data
 {% endfile %}
 
