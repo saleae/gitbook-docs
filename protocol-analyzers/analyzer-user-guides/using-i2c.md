@@ -22,7 +22,7 @@ Please note that I2C addresses are displayed as 7-bit numbers. We share a suppor
 [viewing-i2c-addresses-as-8-bit.md](../../faq/technical-faq/viewing-i2c-addresses-as-8-bit.md)
 {% endcontent-ref %}
 
-### **Common Issus with Noise Around Clock Edges**
+### **Common Issues with Noise Around Clock Edges**
 
 If you notice that our I2C analyzer fails to decode data, a common failure point is typically glitches/noise around the SCL signal edges. I2C is particularly vulnerable to this issue due to the slow rise times caused by the open drain bus topology. The relatively slow signal rise time through the threshold region of the logic analyzer input buffer can sometimes cause these glitches to occur.
 
