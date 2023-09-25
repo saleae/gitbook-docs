@@ -23,6 +23,7 @@ The following analyzers are not officially supported by Saleae, but instead, wer
 * [MIPI DSI LP Analyzer](https://github.com/stawiski/Saleae-MIPI-DSI-LP-Analyzer)
 * [MIPI RFFE v1](https://github.com/alejmrm/RFFEAnalyzer)
 * [MIPI RFFE v2](https://github.com/blargony/RFFEAnalyzer)
+* [MSP430 Bi-Spy-wire (BSW) Analyzer](https://github.com/bigjosh/BSWAnalyzer)
 * [N64 Controller](https://github.com/lunixbochs/n64-saleae-logic)
 * [NAND (JEDEC / ONFI) Analyzer](https://github.com/shuffle2/NandAnalyzer)
 * [NEC IR Remote Control](https://github.com/LiveOverflow/NECAnalyzer) (developed by [LiveOverflow](https://github.com/LiveOverflow))
