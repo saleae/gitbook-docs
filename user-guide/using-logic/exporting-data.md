@@ -42,5 +42,7 @@ For some analyzers (namely MDIO, CAN, and LIN), you will run into an error popup
 [this-analyzers-native-export-is-not-supported-in-logic-2.md](../../troubleshooting/this-analyzers-native-export-is-not-supported-in-logic-2.md)
 {% endcontent-ref %}
 
+## Community Shared Export File Parser
 
+A community user has generously shared their Python-based export file parser. Their GitHub repository for it can be found here: [Saleae Output Parser](https://github.com/idaholab/Saleae\_Output\_Parser)
 

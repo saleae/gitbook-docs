@@ -228,7 +228,7 @@ Number of samples: 1667072
 ...
 ```
 
-## 3rd Party Binary Parser
+## Community Shared Binary Parser
 
 A community user has generously shared their C-based binary parser for digital channels! Their GitHub repository for it can be found here: [saleae-binparser](https://github.com/znuh/saleae-binparser)
 
