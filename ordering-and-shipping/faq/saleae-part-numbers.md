@@ -143,14 +143,6 @@ The following Saleae-Branded accessories are compatible with our Gen 2 Logic ana
 * Country of Origin: Sweden
 * Price (USD): $84.95
 
-**Sensepeek PCBite SP10: Hands-free probes (set of 2)**
-
-* Part Number: SAL-00183
-* ECCN: EAR99
-* HS Code: 9030.90.0000
-* Country of Origin: Sweden
-* Price (USD): $30.00
-
 **Sensepeek PCBite Magnifier for PCBite Hands-Free Probes**
 
 * Part Number: SAL-00188
