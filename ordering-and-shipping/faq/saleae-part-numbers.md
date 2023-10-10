@@ -146,23 +146,19 @@ The following Saleae-Branded accessories are compatible with our Gen 2 Logic ana
 **Sensepeek PCBite Magnifier for PCBite Hands-Free Probes**
 
 * Part Number: SAL-00188
+* Country of Origin: Sweden
 * Price (USD): $64.95
 
 **Sensepeek Insulated XL Base Plate for PCBite Products & Accessories**
 
 * Part Number: SAL-00189
+* Country of Origin: Sweden
 * Price (USD): $64.95
 
 #### Binho Nova Multi-Protocol USB Host Adapter
 
 * Part Number: SAL-00173
 * Price (USD): $229.00
-
-#### ALLDAQ USB 3.0 SuperSpeed 1kV Isolator
-
-* Part Number: SAL-00140
-* HS Code: 85363080000
-* Price (USD): $299.00
 
 ## Discontinued Products
 
