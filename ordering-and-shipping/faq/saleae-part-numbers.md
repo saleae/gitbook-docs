@@ -90,6 +90,13 @@ The following Saleae-Branded accessories are compatible with our Gen 2 Logic ana
 * HS Code: 8544420000
 * Price (USD): $12.95&#x20;
 
+**Wire Harness (2x4) for PCBite probes to Logic Analyzers**
+
+* Part Number: SAL-00187
+* ECCN: EAR99
+* HS Code: 8544420000
+* Price (USD): $12.95&#x20;
+
 **Logic-to-2x4 Header**
 
 * Part Number: SAL-00117
@@ -118,26 +125,23 @@ The following Saleae-Branded accessories are compatible with our Gen 2 Logic ana
 * HS Code: 8546.90.0000
 * Price (USD): $15.99
 
-## Saleae-Branded Accessories (for Gen 1 Logic analyzers)
-
-The following Saleae-Branded accessories are compatible with our discontinued Gen 1 Logic analyzers (Original Logic and Logic16).
-
-**Extra Test Lead Set (Gen 1)**
-
-* Part Number: SAL-00094
-* ECCN: EAR99
-* HS Code: 8544.42.9000
-* Price (USD): $12.95
-
 ## Third-Party Accessories
 
-#### Sensepeek PCBite Kit: Hands-free probing solution
+#### Sensepeek PCBite Kit with 4x SQ10 probes and test wires
 
-* Part Number: SAL-00174
+* Part Number: SAL-00185
 * ECCN: EAR99
 * HS Code: 8205.70.0000
 * Country of Origin: Sweden
-* Price (USD): $129.00
+* Price (USD): $149.95
+
+#### **Sensepeek PCBite SQ10: Hands-free probes (set of 4)**
+
+* Part Number: SAL-00186
+* ECCN: EAR99
+* HS Code: 9030.90.0000
+* Country of Origin: Sweden
+* Price (USD): $84.95
 
 **Sensepeek PCBite SP10: Hands-free probes (set of 2)**
 
@@ -145,7 +149,17 @@ The following Saleae-Branded accessories are compatible with our discontinued Ge
 * ECCN: EAR99
 * HS Code: 9030.90.0000
 * Country of Origin: Sweden
-* Price (USD): $39.00
+* Price (USD): $30.00
+
+**Sensepeek PCBite Magnifier for PCBite Hands-Free Probes**
+
+* Part Number: SAL-00188
+* Price (USD): $64.95
+
+**Sensepeek Insulated XL Base Plate for PCBite Products & Accessories**
+
+* Part Number: SAL-00189
+* Price (USD): $64.95
 
 #### Binho Nova Multi-Protocol USB Host Adapter
 
@@ -175,3 +189,10 @@ The following Saleae-Branded accessories are compatible with our discontinued Ge
 #### Saleae Logic16 (Gen 1)
 
 * SALEAE009
+
+**Extra Test Lead Set (Gen 1) for Original Logic and Logic16**
+
+* Part Number: SAL-00094
+* ECCN: EAR99
+* HS Code: 8544.42.9000
+* Price (USD): $12.95
