@@ -131,7 +131,7 @@ The following Saleae-Branded accessories are compatible with our Gen 2 Logic ana
 
 * Part Number: SAL-00185
 * ECCN: EAR99
-* HS Code: 8205.70.0000
+* HS Code: 820570
 * Country of Origin: Sweden
 * Price (USD): $149.95
 
@@ -139,19 +139,21 @@ The following Saleae-Branded accessories are compatible with our Gen 2 Logic ana
 
 * Part Number: SAL-00186
 * ECCN: EAR99
-* HS Code: 9030.90.0000
+* HS Code: 903090
 * Country of Origin: Sweden
 * Price (USD): $84.95
 
 **Sensepeek PCBite Magnifier for PCBite Hands-Free Probes**
 
 * Part Number: SAL-00188
+* HS Code: 903090
 * Country of Origin: Sweden
 * Price (USD): $64.95
 
 **Sensepeek Insulated XL Base Plate for PCBite Products & Accessories**
 
 * Part Number: SAL-00189
+* HS Code: 903090
 * Country of Origin: Sweden
 * Price (USD): $64.95
 
