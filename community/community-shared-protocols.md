@@ -18,6 +18,7 @@ The following analyzers are not officially supported by Saleae, but instead, wer
 * [InfraRed](https://github.com/procule/IRAnalyzer)
 * [ISO7816 (smart cards and secure elements)](https://github.com/nezza/ISO7816Analyzer)
 * [Low Pin Count (LPC) Analyzer](https://github.com/shuffle2/LpcAnalyzer)
+* [Low Pin Count (LPC) Clockless Analyzer](https://github.com/stacksmashing/LPCClocklessAnalyzer)
 * [Luos Analyzer](https://github.com/Luos-io/Analyzer)
 * [MBus](https://github.com/lab11/MBusAnalzyer)
 * [MIPI DSI LP Analyzer](https://github.com/stawiski/Saleae-MIPI-DSI-LP-Analyzer)
