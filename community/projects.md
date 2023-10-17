@@ -45,3 +45,4 @@ Need an idea for an electronics project? Want to check out some cool gizmos that
 * [High-performance Color Detector for Under 1$](https://www.instructables.com/High-performance-Color-Detector-for-Under-1/)
 * [Wang 320 Calculator](https://brianwhite94.wixsite.com/electronics/wang-320-calculator-iii)
 * [STM32F103C8 microcontroller example: using SPI as slave (SPI1/SPI2)](https://learnbuildshare.wordpress.com/about/stm32/using-spi-as-slave/)
+* [HACKADAY PRIZE 2023: CIRCUIT SCOUT: Robotic System for Probe Placement on PCB](https://hackaday.io/project/192272-circuitscout)
