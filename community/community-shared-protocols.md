@@ -47,6 +47,7 @@ The following analyzers are not officially supported by Saleae, but instead, wer
 * [Smart Cards and SIM cards (with added features)](https://github.com/watsug/saleae-logic-ISO7816-smartcard-Analyser)
 * [SPI Flash](https://github.com/kasjer/saleae\_spiflash)
 * [TDM Analyzer](https://github.com/bitswype/saleae\_tdm\_analyer)
+* [Time Delta](https://github.com/GrandFatherADI/TimeDelta)
 * [TWI Analyzer](https://github.com/szechyjs/TwiAnalyzer)
 * [USB Analyzer (This version filters out SOF packets)](https://github.com/jonathangjertsen/usb-analyzer)
 * [Vehicle Area Network (VAN) Analyzer](https://github.com/morcibacsi/VanAnalyzer)
