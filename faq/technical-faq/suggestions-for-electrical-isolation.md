@@ -4,7 +4,9 @@ None of the Saleae devices electrically isolate the ground of the device under t
 
 ### USB 3.0 SuperSpeed 1kV Isolator
 
-We currently sell a third-party USB 3.0 Isolator via our [Accessories page](https://www.saleae.com/accessories). Please note that it may not be available for purchase in all countries. Feel free to [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you have any specific questions regarding this USB isolator!
+{% hint style="info" %}
+The ALLDAQ USB 3.0 SuperSpeed Isolator pictured below is no longer available for purchase on our website. We've left it's specifications here for reference. At the moment, this can be purchased [directly from ALLDAQ](https://www.alldaq.com/).
+{% endhint %}
 
 ![](../../.gitbook/assets/SAL-00140\_8.jpeg)
 
