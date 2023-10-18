@@ -14,6 +14,11 @@ If you believe that the Logic hardware is the source of crosstalk issues, please
 2. Record data on the channel connected to the high speed data line, as well as its adjacent channels (for example, if Channel 1 is connected to the high speed data line, then record data on Channel 0, 1, and 2, while leaving Channels 0 and 2 disconnected from the DUT).&#x20;
 3. Does crosstalk appear on adjacent channels, even though they are disconnected from the DUT? If this is the case, then crosstalk is probably occurring from either the Logic probes, or from within the Logic hardware itself.
 
+### Suggestions to Avoid Crosstalk
+
+* You may try twisting together your Logic input channel's wire with its dedicated ground wire. Logic Pro 16, Logic Pro 8, Logic 8, and Logic 4 all have input channels with their own dedicated ground wires.
+* If possible, you may want to spread out the channel usage as well (e.g. use only CH1, 3, 5, and 7).
+
 ### Contacting Saleae About Crosstalk Issues
 
 When contacting us, please provide the following:
