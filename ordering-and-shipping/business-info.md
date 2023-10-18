@@ -1,4 +1,4 @@
-# Saleae Tax & VAT Information
+# Saleae Business Information
 
 ### Saleae Business Information
 
@@ -15,13 +15,13 @@
 
 Our W-9 Form can be downloaded below.
 
-{% file src="../.gitbook/assets/Saleae Form W9.pdf" %}
+{% file src="../.gitbook/assets/Saleae W9 Form.pdf" %}
 
 ### Saleae VAT Number Table
 
 The Saleae VAT number you refer to will depend on what country the order was shipped to. Please see the table below. Usually, Saleae's VAT number is needed for tax purposes, so please ensure you refer to the correct one. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) for any questions.
 
-* [Verify our VAT number here](http://ec.europa.eu/taxation\_customs/vies/vatResponse.html)
+* [Verify our VAT number here](https://ec.europa.eu/taxation\_customs/vies/)
 
 | For Orders Delivered To...   | Saleae VAT Number |
 | ---------------------------- | ----------------- |
