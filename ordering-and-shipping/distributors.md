@@ -4,11 +4,11 @@ This list contains authorized distributors selling Saleae devices. Please note t
 <img src="https://github.com/saleae/gitbook-docs/assets/143648606/eca04bc3-ace4-4ded-85ce-97f980267c2a" width="300">
 
 ### Americas
-- **Canada**
+#### Canada
   - [Amazon Canada](https://www.amazon.ca/Logic-Pro-Red-Ultra-Portable-Frustration/dp/B074TVSLN1/)
   - [Abra Electronics Inc](https://abra-electronics.com/?subcats=Y&pcode_from_q=Y&pshort=Y&pfull=Y&pname=Y&pkeywords=Y&search_performed=Y&q=saleae&dispatch=products.search)
   - [RobotShop](http://www.robotshop.com/en/catalogsearch/result/index/?general_brand=Saleae&q=saleae)
-- **US**
+#### US
   - [Amazon USA](https://www.amazon.com/Logic-Black-Saleae-8-Channel-Analyzer/dp/B0749G85W2/ref=sr_1_1?s=hi&ie=UTF8&qid=1516658879&sr=1-1&keywords=saleae)
   - [Abra Electronics Inc](https://abra-electronics.com/?subcats=Y&pcode_from_q=Y&pshort=Y&pfull=Y&pname=Y&pkeywords=Y&search_performed=Y&q=saleae&dispatch=products.search)
   - [Adafruit Industries](https://www.adafruit.com/?q=Saleae&)
@@ -22,14 +22,14 @@ This list contains authorized distributors selling Saleae devices. Please note t
   - [TEquipment](http://www.tequipment.net/search/?F_Keyword=saleae)
 
 ### Europe
-- **Belgium**
+#### Belgium
   - [Antratek Electronics](https://www.antratek.com/catalogsearch/result/?q=saleae)
-- **Finland**
+#### Finland
   - [Elgood Oy](https://www.partco.fi/en/2487-logic-analyzers)
-- **France**
+#### France
   - [Generation Robots](https://www.generationrobots.com/en/83_saleae)
   - [RobotShop](http://www.robotshop.com/en/catalogsearch/result/index/?general_brand=Saleae&q=saleae)
-- **Germany**
+#### Germany
   - [Amazon Germany](https://www.amazon.de/-/en/SAL-00113/dp/B074TNNGS8/ref=sr_1_4?crid=3M24JK3NPYFLG)
   - [ALLDAQ](https://shop.alldaq.com/advanced_search_result.php?keywords=saleae)
   - [Antratek Electronics](https://www.antratek.com/catalogsearch/result/?q=saleae)
@@ -40,55 +40,55 @@ This list contains authorized distributors selling Saleae devices. Please note t
   - [EXP GmbH](https://www.exp-tech.de/saleae/)
   - [Meilhaus Electronic GmbH](https://www.meilhaus.de/infos/saleae/)
   - [Zeitech](http://www.zeitech.de/navi.php?suchausdruck=saleae&JTLSHOP=g8lkc975vlv09krapogli19am3)
-- **Hungary**
+#### Hungary
   - [ChipCAD Electronics Distribution Ltd](https://www.chipcad.hu/saleae)
-- **Italy**
+#### Italy
   - [Batter Fly](https://www.batterfly.com/shop/saleae)
-- **Luxembourg**
+#### Luxembourg
   - [electronic-shop sàrl](https://www.electronic-shop.lu/EN/search?q=saleae)
-- **Netherlands**
+#### Netherlands
   - [Antratek Electronics](https://www.antratek.com/catalogsearch/result/?q=saleae)
-- **Norway**
+#### Norway
   - [Auglit AS](https://www.adroit.no/logikk-analysatorer.html)
-- **Poland**
+#### Poland
   - [BTC](https://kamami.pl/22_saleae)
-- **Sweden**
+#### Sweden
   - [The LAB eShop](https://thelabeshop.com/collections/saleae/Product)
-- **Switzerland**
+#### Switzerland
   - [Play-Zone GmbH](http://www.play-zone.ch/en/catalogsearch/result/?q=saleae&x=0&y=0)
-- **Turkey**
+#### Turkey
   - [Berkin Engineering](https://berkinengineering.com/en/)
-- **United Kingdom**
+#### United Kingdom
   - [Amazon United Kingdom](https://www.amazon.co.uk/Logic-Pro-16-Red-16-Channel/dp/B074TK7T3H/)
   - [The LAB eShop](https://thelabeshop.com/collections/saleae/Product)
 
 ### Asia
-- **Australia**
+## Australia
   - [Core Electronics](http://core-electronics.com.au/search/?q=saleae)
-- **China**
+#### China
   - [Amazing Tech](http://amazingtech.com.cn/cn/index.php)
   - [Double Dragon Electronics Co., Ltd](http://www.sl.com.cn/)
   - [HANYI Technologies (Shanghai) Co., Ltd](http://www.han-yi-tech.com/product/129.html)
   - [SCE in China](http://www.scedg.com/)
   - [Shanghai GEANT Computer Technology](http://www.geant.com.cn/brandshow?id=219)
-- **India**
+#### India
   - [Innovate Software Solutions Pvt. Ltd.](http://innovatesolutions.net/shop/logic-4/)
   - [MicroEmbesys Technologies Pvt Ltd](http://microembesys.com/logic-analyzer/)
   - [Uchi Embedded Solutions](http://uchiembedded.co.in/index.html)
-- **Israel**
+#### Israel
   - [Pertech Embedded Solution](http://www.pertech.co.il/saleae/)
-- **Japan**
+#### Japan
   - [Akizuki Denshi Tsucho Co., Ltd](http://akizukidenshi.com/catalog/goods/search.aspx?search=x&keyword=saleae&image=%8C%9F%8D%F5)
-- **Singapore**
+#### Singapore
   - [Amazing Tech](http://amazingtech.com.cn/cn/index.php)
   - [Robot R Us](https://robot-r-us.com.sg/?s=saleae&post_type=product)
-- **South Korea**
+#### South Korea
   - [NTREX](https://www.devicemart.co.kr/goods/view?no=14453007)
   - [Oceansky Technology](http://oceansky-technology.com/commerce/advanced_search_result.php?keywords=saleae&sid=abf33532e1f39dee3759e0f997ad9779&x=0&y=0)
   - [Robotscience](http://www.robotscience.kr/goods/search?search_text=saleae&x=0&y=0)
   - [Vcreatics](http://www.vctec.co.kr/product/search.html?banner_action=&keyword=saleae)
-- **Taiwan**
+#### Taiwan
   - [Oceansky Technology](http://oceansky-technology.com/commerce/advanced_search_result.php?keywords=saleae&sid=abf33532e1f39dee3759e0f997ad9779&x=0&y=0)
-- **Thailand**
+#### Thailand
   - [Venus Supply](http://www.thaieasyelec.com/products/tools-instruments.html)
 
