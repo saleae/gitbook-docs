@@ -63,7 +63,7 @@ This list contains authorized distributors selling Saleae devices. Please note t
   - [The LAB eShop](https://thelabeshop.com/collections/saleae/Product)
 
 ### Asia
-## Australia
+#### Australia
   - [Core Electronics](http://core-electronics.com.au/search/?q=saleae)
 #### China
   - [Amazing Tech](http://amazingtech.com.cn/cn/index.php)
