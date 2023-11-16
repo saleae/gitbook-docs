@@ -20,33 +20,29 @@ This list contains authorized distributors selling Saleae devices. Please note t
 #### Belgium
   - [Antratek Electronics](https://www.antratek.com/catalogsearch/result/?q=saleae)
 #### Finland
-  - [Elgood Oy](https://www.partco.fi/en/2487-logic-analyzers)
+  - [Elgood Partco - The Electronics Shop](https://www.partco.fi/fi/2487-logiikka-analysaattorit#/valmistaja-saleae)
 #### France
   - [Generation Robots](https://www.generationrobots.com/en/83_saleae)
-  - [RobotShop](http://www.robotshop.com/en/catalogsearch/result/index/?general_brand=Saleae&q=saleae)
+  - [RobotShop](https://eu.robotshop.com/fr/search?type=product&options%5Bprefix%5D=last&options%5Bunavailable_products%5D=last&q=saleae)
 #### Germany
   - [Amazon Germany](https://www.amazon.de/-/en/SAL-00113/dp/B074TNNGS8/ref=sr_1_4?crid=3M24JK3NPYFLG)
   - [ALLDAQ](https://shop.alldaq.com/advanced_search_result.php?keywords=saleae)
   - [Antratek Electronics](https://www.antratek.com/catalogsearch/result/?q=saleae)
   - [Batronix](http://www.batronix.com/shop/logic-analyzer/Saleae.html)
   - [Elmicro Computer GmbH & Co. KG](http://elmicro.com/de/saleae-logic.html)
-  - [Embedded Fruit](http://www.embeddedfruit.de/SaleaeProdukte)
   - [eVision Systems GmbH](https://evision-webshop.eu/measuring-testing/analyzer/logic-analyzer)
-  - [EXP GmbH](https://www.exp-tech.de/saleae/)
+  - [EXP Tech GmbH](https://exp-tech.de/search?q=saleae)
   - [Meilhaus Electronic GmbH](https://www.meilhaus.de/infos/saleae/)
-  - [Zeitech](http://www.zeitech.de/navi.php?suchausdruck=saleae&JTLSHOP=g8lkc975vlv09krapogli19am3)
 #### Hungary
   - [ChipCAD Electronics Distribution Ltd](https://www.chipcad.hu/saleae)
 #### Italy
   - [Batter Fly](https://www.batterfly.com/shop/saleae)
-#### Luxembourg
-  - [electronic-shop sàrl](https://www.electronic-shop.lu/EN/search?q=saleae)
 #### Netherlands
   - [Antratek Electronics](https://www.antratek.com/catalogsearch/result/?q=saleae)
 #### Norway
   - [Auglit AS](https://www.adroit.no/logikk-analysatorer.html)
 #### Poland
-  - [BTC](https://kamami.pl/22_saleae)
+  - [BTC Kamami](https://kamami.pl/module/jzsphinxsearch/jsssearch?searchstring=saleae)
 #### Sweden
   - [The LAB eShop](https://thelabeshop.com/collections/saleae/Product)
 #### Switzerland
