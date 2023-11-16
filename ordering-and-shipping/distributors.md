@@ -6,20 +6,15 @@ This list contains authorized distributors selling Saleae devices. Please note t
 ### Americas
 #### Canada
   - [Amazon Canada](https://www.amazon.ca/Logic-Pro-Red-Ultra-Portable-Frustration/dp/B074TVSLN1/)
-  - [Abra Electronics Inc](https://abra-electronics.com/?subcats=Y&pcode_from_q=Y&pshort=Y&pfull=Y&pname=Y&pkeywords=Y&search_performed=Y&q=saleae&dispatch=products.search)
-  - [RobotShop](http://www.robotshop.com/en/catalogsearch/result/index/?general_brand=Saleae&q=saleae)
+  - [RobotShop](https://www.robotshop.com/search?type=product&options%5Bprefix%5D=last&options%5Bunavailable_products%5D=last&q=saleae)
 #### US
   - [Amazon USA](https://www.amazon.com/Logic-Black-Saleae-8-Channel-Analyzer/dp/B0749G85W2/ref=sr_1_1?s=hi&ie=UTF8&qid=1516658879&sr=1-1&keywords=saleae)
-  - [Abra Electronics Inc](https://abra-electronics.com/?subcats=Y&pcode_from_q=Y&pshort=Y&pfull=Y&pname=Y&pkeywords=Y&search_performed=Y&q=saleae&dispatch=products.search)
   - [Adafruit Industries](https://www.adafruit.com/?q=Saleae&)
-  - [Instrument Engineers](http://instrumentengineers.com/logicanalyzers.aspx)
-  - [James Electronics LTD (Jameco Electronics)](https://www.jameco.com/webapp/wcs/stores/servlet/StoreCatalogDrillDownView?langId=-1&storeId=10001&catalogId=10001&freeText=saleae&search_type=jamecoall)
+  - [James Electronics LTD (Jameco Electronics)](https://www.jameco.com/shop/KeywordSearchResultView?langId=-1&storeId=10001&catalogId=10001&search_type_c=jamecoall&freeText=saleae)
   - [Microchip Technology Inc.](https://www.microchipdirect.com/product/search/all/saleae)
-  - [RadioBro Corporation](http://www.radiobro.com/development-tools/)
-  - [RobotShop](http://www.robotshop.com/en/catalogsearch/result/index/?general_brand=Saleae&q=saleae)
+  - [RobotShop](https://www.robotshop.com/search?type=product&options%5Bprefix%5D=last&options%5Bunavailable_products%5D=last&q=saleae)
   - [SparkFun Electronics](https://www.sparkfun.com/search/results?term=saleae)
-  - [Stellar Data](http://stellardata.com/)
-  - [TEquipment](http://www.tequipment.net/search/?F_Keyword=saleae)
+  - [TEquipment](https://www.tequipment.net/search/?F_Keyword=saleae%20logic)
 
 ### Europe
 #### Belgium
