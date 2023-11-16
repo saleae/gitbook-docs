@@ -75,7 +75,7 @@ This list contains authorized distributors selling Saleae devices. Please note t
   - [Uchi Embedded Solutions](https://uchiembedded.co.in/Logic_Analyzers.html)
 #### Japan
   - [Akizuki Denshi Tsucho Co., Ltd](http://akizukidenshi.com/catalog/goods/search.aspx?search=x&keyword=saleae&image=%8C%9F%8D%F5)
-### Malaysia
+#### Malaysia
 - [ContactThings](https://contacthings.com/)
 #### Singapore
   - [Amazing Tech](http://amazingtech.com.cn/cn/index.php)
