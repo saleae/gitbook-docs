@@ -57,15 +57,15 @@ This list contains authorized distributors selling Saleae devices. Please note t
 #### Australia
   - [Core Electronics](http://core-electronics.com.au/search/?q=saleae)
 #### China
-  - [Amazing Tech](http://amazingtech.com.cn/cn/index.php)
+  - [Amazing Tech](https://amazingtech.com.cn/search.php?search_query=saleae&x=0&y=0)
   - [Double Dragon Electronics Co., Ltd](http://www.sl.com.cn/)
-  - [HANYI Technologies (Shanghai) Co., Ltd](http://www.han-yi-tech.com/product/129.html)
+  - [HANYI Technologies (Shanghai) Co., Ltd](http://www.han-yi-tech.com/products_view.asp?id=585&clsid=8&fid=8#a1)
   - [SCE in China](http://www.scedg.com/)
   - [Shanghai GEANT Computer Technology](http://www.geant.com.cn/brandshow?id=219)
 #### India
-  - [Innovate Software Solutions Pvt. Ltd.](http://innovatesolutions.net/shop/logic-4/)
+  - [Innovate Software Solutions Pvt. Ltd.](https://www.innovatesolutions.net/cart/)
   - [MicroEmbesys Technologies Pvt Ltd](http://microembesys.com/logic-analyzer/)
-  - [Uchi Embedded Solutions](http://uchiembedded.co.in/index.html)
+  - [Uchi Embedded Solutions](https://uchiembedded.co.in/Logic_Analyzers.html)
 #### Israel
   - [Pertech Embedded Solution](http://www.pertech.co.il/saleae/)
 #### Japan
@@ -76,10 +76,10 @@ This list contains authorized distributors selling Saleae devices. Please note t
 #### South Korea
   - [NTREX](https://www.devicemart.co.kr/goods/view?no=14453007)
   - [Oceansky Technology](http://oceansky-technology.com/commerce/advanced_search_result.php?keywords=saleae&sid=abf33532e1f39dee3759e0f997ad9779&x=0&y=0)
-  - [Robotscience](http://www.robotscience.kr/goods/search?search_text=saleae&x=0&y=0)
+  - [Robotscience Mall](http://www.robotscience.kr/goods/search?search_text=saleae&x=0&y=0)
   - [Vcreatics](http://www.vctec.co.kr/product/search.html?banner_action=&keyword=saleae)
 #### Taiwan
   - [Oceansky Technology](http://oceansky-technology.com/commerce/advanced_search_result.php?keywords=saleae&sid=abf33532e1f39dee3759e0f997ad9779&x=0&y=0)
 #### Thailand
-  - [Venus Supply](http://www.thaieasyelec.com/products/tools-instruments.html)
+  - [Venus Supply](https://www.thaieasyelec.com/search?q=saleae)
 
