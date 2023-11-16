@@ -19,6 +19,8 @@ This list contains authorized distributors selling Saleae devices. Please note t
 ### Europe
 #### Belgium
   - [Antratek Electronics](https://www.antratek.com/catalogsearch/result/?q=saleae)
+### Bulgaria
+  - [RTelecom](https://www.rtelecom.net/)
 #### Finland
   - [Elgood Partco - The Electronics Shop](https://www.partco.fi/fi/2487-logiikka-analysaattorit#/valmistaja-saleae)
 #### France
@@ -35,6 +37,8 @@ This list contains authorized distributors selling Saleae devices. Please note t
   - [Meilhaus Electronic GmbH](https://www.meilhaus.de/infos/saleae/)
 #### Hungary
   - [ChipCAD Electronics Distribution Ltd](https://www.chipcad.hu/saleae)
+#### Israel
+  - [Pertech Embedded Solution](http://www.pertech.co.il/saleae/)
 #### Italy
   - [Batter Fly](https://www.batterfly.com/shop/saleae)
 #### Netherlands
@@ -43,12 +47,15 @@ This list contains authorized distributors selling Saleae devices. Please note t
   - [Auglit AS](https://www.adroit.no/logikk-analysatorer.html)
 #### Poland
   - [BTC Kamami](https://kamami.pl/module/jzsphinxsearch/jsssearch?searchstring=saleae)
+### Spain
+  - [RTelecom](https://www.rtelecom.net/)
 #### Sweden
   - [The LAB eShop](https://thelabeshop.com/collections/saleae/Product)
 #### Switzerland
   - [Play-Zone GmbH](http://www.play-zone.ch/en/catalogsearch/result/?q=saleae&x=0&y=0)
 #### Turkey
   - [Berkin Engineering](https://berkinengineering.com/en/)
+  - [Kami Teknoloji](https://www.kamitekno.com)
 #### United Kingdom
   - [Amazon United Kingdom](https://www.amazon.co.uk/Logic-Pro-16-Red-16-Channel/dp/B074TK7T3H/)
   - [The LAB eShop](https://thelabeshop.com/collections/saleae/Product)
@@ -66,10 +73,10 @@ This list contains authorized distributors selling Saleae devices. Please note t
   - [Innovate Software Solutions Pvt. Ltd.](https://www.innovatesolutions.net/cart/)
   - [MicroEmbesys Technologies Pvt Ltd](http://microembesys.com/logic-analyzer/)
   - [Uchi Embedded Solutions](https://uchiembedded.co.in/Logic_Analyzers.html)
-#### Israel
-  - [Pertech Embedded Solution](http://www.pertech.co.il/saleae/)
 #### Japan
   - [Akizuki Denshi Tsucho Co., Ltd](http://akizukidenshi.com/catalog/goods/search.aspx?search=x&keyword=saleae&image=%8C%9F%8D%F5)
+### Malaysia
+- [ContactThings](https://contacthings.com/)
 #### Singapore
   - [Amazing Tech](http://amazingtech.com.cn/cn/index.php)
   - [Robot R Us](https://robot-r-us.com.sg/?s=saleae&post_type=product)
