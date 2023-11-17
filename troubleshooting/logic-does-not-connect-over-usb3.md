@@ -9,7 +9,7 @@ In some cases, even the USB 2.0 Saleae devices will not operate properly over US
 First, check to see if the device is operating at high speed (USB 2.0) or super speed (USB 3.0).
 
 * Disable all analog inputs and all but 4 of the digital inputs. Check to see if 500 MS/s is an available option. Over USB 3.0, it will be present. Over USB 2.0, the maximum sample rate will be 50 MS/s.
-* Also, Logic Pro 16 by default will disable its second set of inputs, 8–15, when connected over USB 3.0 due to power limitations.
+* Also, Logic Pro 16 by default will disable its second set of inputs, 8–15, when connected over USB 2.0 due to power limitations.
 
 Second, check the basics:
 
