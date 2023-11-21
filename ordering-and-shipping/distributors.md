@@ -14,6 +14,7 @@ This list contains authorized distributors selling Saleae devices. Please note t
   - [Microchip Technology Inc.](https://www.microchipdirect.com/product/search/all/saleae)
   - [RobotShop](https://www.robotshop.com/search?type=product&options%5Bprefix%5D=last&options%5Bunavailable_products%5D=last&q=saleae)
   - [SparkFun Electronics](https://www.sparkfun.com/search/results?term=saleae)
+  - [TestEquity](https://www.testequity.com/brand/Saleae/category/all)
   - [TEquipment](https://www.tequipment.net/search/?F_Keyword=saleae%20logic)
 
 ### Europe
