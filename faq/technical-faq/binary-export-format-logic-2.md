@@ -1,10 +1,22 @@
 # Binary Export Format - Logic 2
 
-The binary file format summarized in this support article pertains to binary files exported via exporting raw data described in the link below.
+{% hint style="info" %}
+The binary file format summarized in this support article pertains to binary files exported via exporting raw data described in the support article linked below.
+{% endhint %}
 
 {% content-ref url="../../user-guide/using-logic/exporting-data.md" %}
 [exporting-data.md](../../user-guide/using-logic/exporting-data.md)
 {% endcontent-ref %}
+
+{% hint style="info" %}
+If you were looking into converting your .sal capture file into the binary file format described in the support article, you can refer to the support article linked below.
+{% endhint %}
+
+{% content-ref url="sal-file-format.md" %}
+[sal-file-format.md](sal-file-format.md)
+{% endcontent-ref %}
+
+## Binary Export Format - Logic 2
 
 In Logic 2, both digital and analog binary files start with the same header, which can be used to determine the type of data stored in the file.
 
