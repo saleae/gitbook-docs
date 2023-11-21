@@ -59,6 +59,7 @@ This list contains authorized distributors selling Saleae devices. Please note t
 #### United Kingdom
   - [Amazon United Kingdom](https://www.amazon.co.uk/Logic-Pro-16-Red-16-Channel/dp/B074TK7T3H/)
   - [The LAB eShop](https://thelabeshop.com/collections/saleae/Product)
+  - [Lambda](https://www.lambdaphoto.co.uk/)
 
 ### Asia
 #### Australia
@@ -71,6 +72,7 @@ This list contains authorized distributors selling Saleae devices. Please note t
   - [Shanghai GEANT Computer Technology](http://www.geant.com.cn/brandshow?id=219)
 #### India
   - [Innovate Software Solutions Pvt. Ltd.](https://www.innovatesolutions.net/cart/)
+  - [MaxEye](https://maxeyetech.com/)
   - [MicroEmbesys Technologies Pvt Ltd](http://microembesys.com/logic-analyzer/)
   - [Uchi Embedded Solutions](https://uchiembedded.co.in/Logic_Analyzers.html)
 #### Japan
