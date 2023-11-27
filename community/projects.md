@@ -2,6 +2,7 @@
 
 Need an idea for an electronics project? Want to check out some cool gizmos that our community of users have built using our Logic analyzers? We've got a list of some cool projects below!
 
+* [Simple 8085 Computer](https://tomnisbet.github.io/Simple8085/)
 * [Building an FPGA Game Boy emulator](https://eli.lipsitz.net/posts/fpga-gameboy-emulator/)
 * [Reverse Engineering a La Gard Electronic Safe Lock](https://medium.com/@two06/reverse-engineering-a-la-gard-electronic-safe-lock-468aa74cb0d4)
 * [ESPHome Multiprotocol Smart Home Hub](https://vigue.me/posts/esphome-multiprotocol-smart-home-hub)
