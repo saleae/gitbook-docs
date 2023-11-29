@@ -83,7 +83,10 @@ This list contains authorized distributors selling Saleae devices. Please note t
 - [ContactThings](https://contacthings.com/)
 ### Singapore
   - [Amazing Tech](http://amazingtech.com.cn/cn/index.php)
+  - [Elecsoft Solutions](http://www.elecsoftsolution.com)
   - [Robot R Us](https://robot-r-us.com.sg/?s=saleae&post_type=product)
+### South Africa
+ - [KMeasure](https://www.kmeasure.co.za)
 ### South Korea
   - [NTREX](https://www.devicemart.co.kr/goods/view?no=14453007)
   - [Oceansky Technology](http://oceansky-technology.com/commerce/advanced_search_result.php?keywords=saleae&sid=abf33532e1f39dee3759e0f997ad9779&x=0&y=0)
