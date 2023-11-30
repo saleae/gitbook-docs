@@ -93,6 +93,7 @@ This list contains authorized distributors selling Saleae devices. Please note t
   - [Robotscience Mall](http://www.robotscience.kr/goods/search?search_text=saleae&x=0&y=0)
   - [Vcreatics](http://www.vctec.co.kr/product/search.html?banner_action=&keyword=saleae)
 ### Taiwan
+  - [Eagle Tek](http://www.eagletek.com.tw)
   - [Oceansky Technology](http://oceansky-technology.com/commerce/advanced_search_result.php?keywords=saleae&sid=abf33532e1f39dee3759e0f997ad9779&x=0&y=0)
 ### Thailand
   - [Venus Supply](https://www.thaieasyelec.com/search?q=saleae)
