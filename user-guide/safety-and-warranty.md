@@ -107,8 +107,8 @@ To isolate the USB 2.0 high-speed connection, you can consider using the [Intona
 
 Saleae products are covered by a 3-year warranty, regardless of where you purchased the product. For more information, see the article below.
 
-{% content-ref url="broken-reference" %}
-[Broken link](broken-reference)
+{% content-ref url="../180-day-return-policy-and-3-year-warranty/" %}
+[180-day-return-policy-and-3-year-warranty](../180-day-return-policy-and-3-year-warranty/)
 {% endcontent-ref %}
 
 If you believe your Logic hardware is broken, please follow the troubleshooting steps in the article below.
