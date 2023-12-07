@@ -73,6 +73,7 @@ This list contains authorized distributors selling Saleae devices. Please note t
   - [SCE in China](http://www.scedg.com/)
   - [Shanghai GEANT Computer Technology](http://www.geant.com.cn/brandshow?id=219)
 ### India
+  - [ELSYS Technologies](https://www.elsys.co.in/)
   - [Innovate Software Solutions Pvt. Ltd.](https://www.innovatesolutions.net/cart/)
   - [MaxEye](https://maxeyetech.com/)
   - [MicroEmbesys Technologies Pvt Ltd](http://microembesys.com/logic-analyzer/)
