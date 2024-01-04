@@ -80,7 +80,13 @@ Unfortunately, newer versions of our Logic 2 software (starting v2.3.33) no long
 [supported-operating-systems.md](../logic-software/supported-operating-systems.md)
 {% endcontent-ref %}
 
-**7. Contacting Support**
+**7. On Fedora, try installing `libxcrypt-compat`**
+
+Although Fedora is not an operating system that we officially support, [a user on our forums](https://discuss.saleae.com/t/analyser-software-stops-with-error-connecting-to-socket/2503/5?u=timreyes) suggested that running the following command solved the "Error Connecting to Socket" error on Fedora 39.
+
+`sudo dnf install libxcrypt-compat`
+
+**8. Contacting Support**
 
 In case the solutions above don't help, please [contact us](https://contact.saleae.com/hc/en-us/requests/new) and send us the output of the commands generated from step 3 above.
 
