@@ -80,6 +80,8 @@ Unfortunately, newer versions of our Logic 2 software (starting v2.3.33) no long
 [supported-operating-systems.md](../logic-software/supported-operating-systems.md)
 {% endcontent-ref %}
 
+**7. If you are Running on Fedora**
+
 **7. Contacting Support**
 
 In case the solutions above don't help, please [contact us](https://contact.saleae.com/hc/en-us/requests/new) and send us the output of the commands generated from step 3 above.
