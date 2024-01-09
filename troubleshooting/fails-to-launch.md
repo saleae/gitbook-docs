@@ -86,7 +86,13 @@ Although Fedora is not an operating system that we officially support, [a user o
 
 `sudo dnf install libxcrypt-compat`
 
-**8. Contacting Support**
+**8. FUSE issues with Logic 2 on Ubuntu 22.04**
+
+We package the Logic 2 software using AppImage, which depends on FUSE 2.x. Ubuntu 22.04 and other recent distributions have removed FUSE 2.x by default, replacing it with FUSE 3.x, which is not compatible with AppImages. We're looking into a simple long term solution, but in the meantime, simply installing FUSE 2.x should solve the problem. For more details and distro-specific instructions, please check the AppImage FUSE install documentation linked below:
+
+* [https://docs.appimage.org/user-guide/troubleshooting/fuse.html](https://docs.appimage.org/user-guide/troubleshooting/fuse.html)
+
+**9. Contacting Support**
 
 In case the solutions above don't help, please [contact us](https://contact.saleae.com/hc/en-us/requests/new) and send us the output of the commands generated from step 3 above.
 
