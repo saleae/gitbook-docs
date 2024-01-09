@@ -21,6 +21,7 @@ The following analyzers are not officially supported by Saleae, but instead, wer
 * [Low Pin Count (LPC) Clockless Analyzer](https://github.com/stacksmashing/LPCClocklessAnalyzer)
 * [Luos Analyzer](https://github.com/Luos-io/Analyzer)
 * [MBus](https://github.com/lab11/MBusAnalzyer)
+* [Microchip SWI Analyzer](https://github.com/MicrochipTech/MicrochipSWILowLevelAnalyzer)
 * [MIPI DSI LP Analyzer](https://github.com/stawiski/Saleae-MIPI-DSI-LP-Analyzer)
 * [MIPI RFFE v1](https://github.com/alejmrm/RFFEAnalyzer)
 * [MIPI RFFE v2](https://github.com/blargony/RFFEAnalyzer)
