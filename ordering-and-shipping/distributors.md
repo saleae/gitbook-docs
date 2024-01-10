@@ -59,7 +59,7 @@ This list contains authorized distributors selling Saleae devices. Please note t
   - [Kami Teknoloji](https://www.kamitekno.com)
 ### United Kingdom
   - [Amazon United Kingdom](https://www.amazon.co.uk/Logic-Pro-16-Red-16-Channel/dp/B074TK7T3H/)
-  - [The Debug Store] (https://thedebugstore.com/)
+  - [The Debug Store](https://thedebugstore.com/collections/saleae-catalogue-uk)
   - [The LAB eShop](https://thelabeshop.com/collections/saleae/Product)
   - [Lambda](https://www.lambdaphoto.co.uk/)
 
