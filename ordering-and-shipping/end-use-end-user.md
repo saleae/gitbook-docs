@@ -1,4 +1,4 @@
-# End-Use - End-User Statement Collection
+# End Use and End User Statement Submission
 
 End-Use / End-User information is required for all purchases outside the United States of America. This process is essential for ensuring compliance with export control regulations.
 To proceed, please download and review Form BIS-711. This form is required for certain exports, reexports, and transfers (in-country) and helps us verify the end-use and end-users of our products.
