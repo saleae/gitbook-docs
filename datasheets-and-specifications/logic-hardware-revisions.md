@@ -20,7 +20,7 @@ Additionally, a newly manufactured device may be tagged with a previous revision
 To check your hardware revision, you will need the latest version of the software available [here](https://www.saleae.com/downloads/).
 
 1. Connect your Saleae device
-2. Open the the device info dialog
+2. Open the device info dialog
 3. Check the hardware revision
 
 ![The Device Info dialog is opened from the capture settings sidebar menu](<../.gitbook/assets/image (12) (1) (1).png>)
