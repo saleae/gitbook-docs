@@ -56,24 +56,28 @@ A complete list of product numbers and names, including accessories, can be foun
 
 **Logic 4**
 
-![Logic 4](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/564d05d539a3f7b98f1e72fc/d15cb006a5a429db28124519f0ee8c53/logic4.jpg)
+<figure><img src="../../.gitbook/assets/Logic4.jpeg" alt="" width="375"><figcaption><p>Logic 4</p></figcaption></figure>
 
 **Logic 8**
 
-![Logic 8](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/564d05d539a3f7b98f1e72fc/44bd2f6a009911156cfab11e71ca0484/Logic8.jpg)
+_Note: The bottom of the device will read either "Logic 8" or "Logic Pro 8" to differentiate between the two models._
+
+<figure><img src="../../.gitbook/assets/SAL-00111 (1).jpg" alt="" width="375"><figcaption><p>Logic 8</p></figcaption></figure>
 
 **Logic Pro 8**
 
-![Logic Pro 8](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/564d05d539a3f7b98f1e72fc/0e76e1e0e6c4c9be56b1042600cd0ec9/logicPro8.jpg)
+_Note: The bottom of the device will read either "Logic 8" or "Logic Pro 8" to differentiate between the two models._
+
+<figure><img src="../../.gitbook/assets/SAL-00111 (2).jpg" alt="" width="375"><figcaption><p>Logic Pro 8</p></figcaption></figure>
 
 **Logic Pro 16**
 
-![Logic Pro 16](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/564d05d539a3f7b98f1e72fc/79923d0a1ae509df2a238f53b342d111/LogicPro16.jpg)
+<figure><img src="../../.gitbook/assets/SAL-00115.jpg" alt="" width="375"><figcaption><p>Logic Pro 16</p></figcaption></figure>
 
 **Original Logic**
 
-![Original Logic](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/564d05d539a3f7b98f1e72fc/f3bb49af490139d6d074ee6375046d4b/Logic.jpg)
+<figure><img src="../../.gitbook/assets/OLogic.jpeg" alt="" width="375"><figcaption><p>Original Logic</p></figcaption></figure>
 
-**Original Logic16**
+**Logic16**
 
-![Logic16](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/564d05d539a3f7b98f1e72fc/6073e48a297cdc86766c3c242f4197e2/Logic16.jpg)
+<figure><img src="../../.gitbook/assets/Logic16.jpeg" alt="" width="375"><figcaption><p>Logic16</p></figcaption></figure>
