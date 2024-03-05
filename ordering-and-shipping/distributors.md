@@ -117,6 +117,7 @@ This list contains authorized distributors selling Saleae devices. Please note t
 ### India
 
 * [ELSYS Technologies](https://www.elsystechnologies.com/saleae-logic-analyzer/)
+* [Fab.to.Lab](https://www.fabtolab.com/)
 * [Innovate Software Solutions Pvt. Ltd.](https://www.innovatesolutions.net/cart/)
 * [MaxEye](https://maxeyetech.com/)
 * [MicroEmbesys Technologies Pvt Ltd](http://microembesys.com/logic-analyzer/)
