@@ -22,6 +22,16 @@ This will open the Presets window below. From here, you can manage capture setti
 
 ![Preset Window](../../.gitbook/assets/screen-shot-2021-02-26-at-3.52.26-pm.png)
 
+### Backing Up your Presets or Bulk Transferring Presets
+
+Your Logic software's settings, including Logic Preset configurations, are stored in a config.json file. This config file can be found in the location described in the support article below.
+
+{% content-ref url="../../troubleshooting/location-of-your-config-file.md" %}
+[location-of-your-config-file.md](../../troubleshooting/location-of-your-config-file.md)
+{% endcontent-ref %}
+
+You may want to backup your config file in case you wanted to backup all of the Logic Presets that you have created. This will also allow you to transfer all of your Logic Presets to another PC.
+
 ### Legacy Capture Files (.logicdata files)
 
 To manage and open legacy capture files that were generated using the older Logic 1.x software (in .logicdata file format), you will need a copy of the older Logic 1.x software installed on your PC. Currently, we don't have a way of importing these capture files into the Logic 2 app. We're currently tracking user need for this feature in the [idea post here](https://ideas.saleae.com/b/feature-requests/import-logicdata-capture/).
