@@ -130,6 +130,7 @@
   * [Getting your Machine ID](troubleshooting/sharing-your-machine-id.md)
   * [Getting your Software Crash Logs](troubleshooting/sharing-crash-logs.md)
   * [Getting the Console Output](troubleshooting/console-output.md)
+  * [Location of Your Config File](troubleshooting/location-of-your-config-file.md)
   * [Error Message: ReadTimeout](troubleshooting/device-not-able-to-keep-up.md)
   * [The Captured Data Looks Incorrect](troubleshooting/captured-data-looks-incorrect.md)
   * [The Captured Data is Corrupted](troubleshooting/the-captured-data-is-corrupted.md)
