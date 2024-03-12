@@ -1,4 +1,4 @@
-# Error Message: Unable to detect WebGL
+# Error Message: Unable to detect WebGL and Other GPU Issues
 
 {% hint style="info" %}
 We've received reports of Logic 2.3.41 and later versions having incompatibility issues with certain graphics cards released greater than 8 years ago, namely AMD Radeon graphics cards. We're monitoring a list of graphics cards with known incompatiliby issues with our app in the [forum post here](https://ideas.saleae.com/b/feature-requests/support-older-graphics-cards/).
@@ -19,13 +19,20 @@ Upon launching the Logic 2 software, you may experience an immediate crash, or a
 
 Please navigate to your GPU hardware's support page and download/install the latest driver update for your GPU. This seemed to solve some reports of this issue, especially for older GPU hardware.
 
-### Solution #2 - Launch from Command Line
+### Solution #2 - Launch from Command Line with Launch Arguments
 
 A known workaround is to launch Logic 2 from the command line with the `--disable-gpu` command line argument. On Windows, it would be like so:
 
 ```
 cd C:\Program Files\Logic
 Logic.exe --disable-gpu
+```
+
+If the above argument doesn't solve it, try the `--in-process-gpu` command line argument. On Windows, it would be like so:
+
+```
+cd C:\Program Files\Logic
+Logic.exe --in-process-gpu
 ```
 
 ### Solution #3 - Try Logic 2.3.40

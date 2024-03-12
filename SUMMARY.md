@@ -173,7 +173,7 @@
   * [Crashes Caused by macOS Mojave (10.14)](troubleshooting/mojave-crashes.md)
   * [Troubleshooting Signal Crosstalk](troubleshooting/crosstalk.md)
   * [Error Message: DeviceSetupFailure](troubleshooting/device-setup-failure.md)
-  * [Error Message: Unable to detect WebGL](troubleshooting/error-message-unable-to-detect-webgl.md)
+  * [Error Message: Unable to detect WebGL and Other GPU Issues](troubleshooting/error-message-unable-to-detect-webgl.md)
   * [Warning Message: Unsupported Version](troubleshooting/unsupported-version.md)
   * [Error Function: Device2::SetupDevice](troubleshooting/error-function-device2-setupdevice.md)
   * [Warning Message: Possible USB Host Controller Problem Detected](troubleshooting/usb-driver-problem.md)
