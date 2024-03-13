@@ -130,7 +130,7 @@ Our in-app terminal view has a scroll-back limit of 10,000 rows. Once the 10,000
 
 #### Radix Display within the Terminal
 
-* **Async Serial** - will always attempt to display in ASCII format. If the ASCII opcode doesn't exist, then it will be displayed in hex, separated by backslashes (\\) as shown below. Notice that the first set of opcodes (0 to 0x1F) do not exist and are therefore displayed as hex. As the opcode increments and become valid, ASCII characters are displayed.
+* **Async Serial & Manchester** - will always attempt to display in ASCII format. If the ASCII opcode doesn't exist, then it will be displayed in hex, separated by backslashes (\\) as shown below. Notice that the first set of opcodes (0 to 0x1F) do not exist and are therefore displayed as hex. As the opcode increments and become valid, ASCII characters are displayed.
 
 ![Async Serial Terminal View Example](../../.gitbook/assets/screen-shot-2021-09-10-at-5.21.15-pm.png)
 
