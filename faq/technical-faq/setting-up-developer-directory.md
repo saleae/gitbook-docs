@@ -4,6 +4,7 @@ First, click the Settings button to open the Settings window.&#x20;
 
 * On Windows: Edit > Settings
 * On MacOS: Logic2 > Settings
+* On Ubuntu: Edit > Settings
 
 <figure><img src="../../.gitbook/assets/edit-settings.png" alt="" width="548"><figcaption><p>Settings Menu</p></figcaption></figure>
 
