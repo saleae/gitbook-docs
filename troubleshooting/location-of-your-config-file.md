@@ -7,7 +7,7 @@ On Windows, please note that you will need to [**show hidden files, folders, and
 {% endhint %}
 
 ```
-On Windows 10:
+On Windows 10/11:
     %APPDATA%\Logic\config.json
 On MacOS:
     ~/Library/Application Support/Logic/config.json
