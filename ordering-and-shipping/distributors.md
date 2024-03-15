@@ -105,6 +105,7 @@ This list contains authorized distributors selling Saleae devices. Please note t
 ### Australia
 
 * [Core Electronics](http://core-electronics.com.au/search/?q=saleae)
+* [OzHack](https://ozhack.com/)
 
 ### China
 
