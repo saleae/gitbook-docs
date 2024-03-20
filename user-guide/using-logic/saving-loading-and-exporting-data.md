@@ -2,9 +2,9 @@
 
 ### Saving & Opening Captures
 
-To save your current capture tab, click the Options button at the bottom right of the software, and click "Save Capture." To open an existing capture file (.sal file format), click the Options button and click "Open Capture."
+To save your current capture tab, click File > Save Capture. To open an existing capture file (.sal file format), click File > Open Capture.
 
-![Saving and opening captures](../../.gitbook/assets/save-open-capture.png)
+<figure><img src="../../.gitbook/assets/Screenshot 2024-03-20 at 5.11.22 PM.png" alt=""><figcaption><p>Saving and opening captures</p></figcaption></figure>
 
 ### Saving & Opening Presets
 
@@ -14,9 +14,9 @@ The most recently used capture settings should be automatically loaded in the Lo
 Please note that when connecting our USB 3.0 Logic analyzers (Logic Pro 8 and Logic Pro 16) via a USB 2.0 cable, capture settings will not persist when closing and re-opening the software. In this case, we recommend saving capture setting presets as described below.
 {% endhint %}
 
-To open the Presets window, click the Options button at the bottom-right of the software, then click Presets.
+To open the Presets window, click File > Presets from the top menu.
 
-![Opening the Presets Window](../../.gitbook/assets/screen-shot-2021-02-26-at-3.49.54-pm.png)
+<figure><img src="../../.gitbook/assets/Screenshot 2024-03-20 at 5.13.32 PM.png" alt=""><figcaption><p>Presets Menu Option</p></figcaption></figure>
 
 This will open the Presets window below. From here, you can manage capture setting presets for the software. To share your presets with others, you can export your preset and import it into a new PC. Click on the 3 dots to the right of your preset to open up the options menu for that preset. This will allow you to load, rename, export, or delete you preset. To import a preset, click the _Import_ button at the bottom of the Presets window.
 
