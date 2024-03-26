@@ -77,14 +77,15 @@ In this example the HLA decodes the received I2C data one frame at a time, where
 #### An example set of states follows:
 1. *Idle:* Waiting for I2C transaction to begin
 2. *I2C Device Address:* 7-bit device address is read, direction bit (read/write) is determined
-3. *Transaction Type:* Determined based on direction bit and device (e.g., register write, register read, EEPROM write, EEPROM read)
-4. *Register Address (optional):* Some devices require a register address byte, width depends on device (typically 8-bits or 16-bits)
-5. *Data:* Device will either send or receive a data byte, while the total number of bytes depends on device and transaction type an I2C HLA will be evaluated in each individual byte with no memory of preceeding bytes unless a state machine is used.
-   - *Mode Seelection:* In some cases the first data byte puts the device into different modes
+  - Note that the I2C LLA automatically shifts the address back right by 1 bit to recover the original 7-bit address.
+4. *Transaction Type:* Determined based on direction bit and device (e.g., register write, register read, EEPROM write, EEPROM read)
+5. *Register Address (optional):* Some devices require a register address byte, width depends on device (typically 8-bits or 16-bits)
+6. *Data:* Device will either send or receive a data byte, while the total number of bytes depends on device and transaction type an I2C HLA will be evaluated in each individual byte with no memory of preceeding bytes unless a state machine is used.
+   - *Mode Selection:* In some cases the first data byte puts the device into different modes
         - Follow-on bytes may then be then either be data, commands, or parameters
         - The different states as well as commands and number of pamaters must be tacked by the state machine for proper decoding
         - Additionally keeping track of both transaction and frame begin and end times are critical for annotation placement
-6. *Stop:* I2C stop condition signals end of transaction, return to Idle state
+7. *Stop:* I2C stop condition signals end of transaction, return to Idle state
 
 
 ### Instruction Set
