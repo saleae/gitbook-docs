@@ -93,8 +93,8 @@ Developing an instruction set in JSON is another best practice that allows you t
 
 ```
 instructions = {
-    0x81: {"name": "Set Contrast Control", "description": "Set contrast, next byte is the contrast value (0-255)", "bytes": 2},
-    0xA4: {"name": "Entire Display OFF", "description": "Turn off the entire display", "bytes": 1},
-    0xA5: {"name": "Entire Display ON", "description": "Turn on the entire display", "bytes": 1}
+    0x81: {"name": "Set Contrast Control", "param_description": "Contrast values (0-255)", "params": 1},
+    0xA4: {"name": "Entire Display OFF", "param_description": "", "params": 0},
+    0xA5: {"name": "Entire Display ON", "param_description": "", "params": 0}
 }
 ```
