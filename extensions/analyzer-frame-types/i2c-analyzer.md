@@ -25,6 +25,18 @@ When building an HLA to decode these frames into readable annotations, the inter
 | `ack`     | bool  | True when the address was ACKed, false when NAKed                 |
 | `error`   | str   | (optional) Present if an there was a problem reading the I2C data |
 
+#### Example
+Store the address as an integer and display it on the terminal as a hex value
+```
+if frame.type == 'address':
+  address = frame.data['address'][0]
+  print(f"Address: {hex(address)}")
+```
+Result
+```
+Data: 0x3C
+```
+
 ### Frame Type: `"data"`
 
 * I2C data byte
@@ -34,6 +46,18 @@ When building an HLA to decode these frames into readable annotations, the inter
 | `data`   | byte | single 8 bit data word                                             |
 | `ack`    | bool  | True when the data byte was ACKed, false when NAKed               |
 | `error`  | str   | (optional) Present if an there was a problem reading the I2C data |
+
+#### Example
+Store the data value as an integer and display it on the terminal as a hex value
+```
+if frame.type == 'data':
+  data = frame.data['data'][0]
+  print(f"Data: {hex(data)}")
+```
+Result:
+```
+Data: 0x00
+```
 
 ### Frame Type: `"start"`
 
