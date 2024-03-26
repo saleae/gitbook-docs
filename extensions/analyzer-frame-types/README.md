@@ -70,3 +70,40 @@ Here is an example of you you might handle different frame types from I2C:
         elif frame.type == 'stop':
             print('I2C stop condition')
 ```
+
+### State Managment
+In this example the HLA decodes the received I2C data one frame at a time, where each frame is a single byte.  State management is critical, keeping track of the entire transaction and recognizing muti-byte data.  
+
+#### An example set of states follows:
+1. *Idle:* Waiting for I2C transaction to begin
+2. *I2C Device Address:* 7-bit device address is read, direction bit (read/write) is determined
+3. *Transaction Type:* Determined based on direction bit and device (e.g., register write, register read, EEPROM write, EEPROM read)
+4. *Register Address (optional):* Some devices require a register address byte, width depends on device (typically 8-bits or 16-bits)
+5. *Data:* Device will either send or receive a data byte, while the total number of bytes depends on device and transaction type an I2C HLA will be evaluated in each individual byte with no memory of preceeding bytes unless a state machine is used.
+   - *Mode Seelection:* In some cases the first data byte puts the device into different modes
+        - Follow-on bytes may then be then either be data, commands, or parameters
+        - The different states as well as commands and number of pamaters must be tacked by the state machine for proper decoding
+        - Additionally keeping track of both transaction and frame begin and end times are critical for annotation placement
+6. *Stop:* I2C stop condition signals end of transaction, return to Idle state
+
+
+### Instruction Set
+Developing an instruction set in JSON is another best practice that allows you to quickly build an HLA that interprets received data into human readable annotations.
+
+```
+{
+  "instructions": [
+    {
+      "code": "0x01",
+      "name": "Command 1",
+      "parameters": 0,
+      "description": "Performs an Action."
+    },
+    {
+      "code": "0x02",
+      "name": "Command 2",
+      "parameters": 1,
+      "description": "Performs an action based on parameter: (0 = option 0, 1 = option 1, 2 = option 2)."
+    }
+}
+```
