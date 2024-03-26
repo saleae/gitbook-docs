@@ -20,7 +20,7 @@ When building an HLA to decode these frames into readable annotations, the inter
 
 | Property  | Type  | Description                                                       |
 | --------- | ----- | ----------------------------------------------------------------- |
-| `address` | bytes | The 7 bit I2C address                                             |
+| `address` | byte  | The 7 bit I2C address                                             |
 | `read`    | bool  | True for read operations, false for write operations              |
 | `ack`     | bool  | True when the address was ACKed, false when NAKed                 |
 | `error`   | str   | (optional) Present if an there was a problem reading the I2C data |
@@ -31,7 +31,7 @@ When building an HLA to decode these frames into readable annotations, the inter
 
 | Property | Type  | Description                                                       |
 | -------- | ----- | ----------------------------------------------------------------- |
-| `data`   | bytes | 8 bit data word                                                   |
+| `data`   | byte | single 8 bit data word                                             |
 | `ack`    | bool  | True when the data byte was ACKed, false when NAKed               |
 | `error`  | str   | (optional) Present if an there was a problem reading the I2C data |
 
