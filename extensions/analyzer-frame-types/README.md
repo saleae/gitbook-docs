@@ -60,11 +60,11 @@ Here is an example of you you might handle different frame types from I2C:
     def decode(self, frame):
         if frame.type == 'address':
             if frame.data['read'] == True:
-                print('read from ' + str(frame.data['address']))
+                print('read from ' + str(frame.data['address'][0]))
             else
-                print('write to ' + str(frame.data['address']))
+                print('write to ' + str(frame.data['address'][0]))
         elif frame.type == 'data':
-            print(frame.data['data'])
+            print(frame.data['data'][0])
         elif frame.type == 'start':
             print('I2C start condition')
         elif frame.type == 'stop':
@@ -92,19 +92,9 @@ In this example the HLA decodes the received I2C data one frame at a time, where
 Developing an instruction set in JSON is another best practice that allows you to quickly build an HLA that interprets received data into human readable annotations.
 
 ```
-{
-  "instructions": [
-    {
-      "code": "0x01",
-      "name": "Command 1",
-      "parameters": 0,
-      "description": "Performs an Action."
-    },
-    {
-      "code": "0x02",
-      "name": "Command 2",
-      "parameters": 1,
-      "description": "Performs an action based on parameter: (0 = option 0, 1 = option 1, 2 = option 2)."
-    }
+instructions = {
+    0x81: {"name": "Set Contrast Control", "description": "Set contrast, next byte is the contrast value (0-255)", "bytes": 2},
+    0xA4: {"name": "Entire Display OFF", "description": "Turn off the entire display", "bytes": 1},
+    0xA5: {"name": "Entire Display ON", "description": "Turn on the entire display", "bytes": 1}
 }
 ```
