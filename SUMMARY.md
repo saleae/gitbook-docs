@@ -198,6 +198,7 @@
   * [Error: A device was found, but it was removed before initialization completed](troubleshooting/device-removed-before-initialization.md)
   * [Error: An unknown error occurred during device connection](troubleshooting/error-an-unknown-error-occurred-during-device-connection.md)
   * [Visual Studio Error: Failed to Launch Debug Adapter](troubleshooting/visual-studio-error-failed-to-launch-debug-adapter.md)
+  * [VS Code Fails to Launch Python Automation API Script](troubleshooting/vs-code-fails-to-launch-python-automation-api-script.md)
 * [FAQ](faq/README.md)
   * [Technical FAQ](faq/technical-faq/README.md)
     * [System Requirements for Saleae Products](faq/technical-faq/system-requirements-for-saleae-products.md)
