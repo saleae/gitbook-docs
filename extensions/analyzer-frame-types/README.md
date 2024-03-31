@@ -72,20 +72,23 @@ Here is an example of you you might handle different frame types from I2C:
 ```
 
 ### State Managment
-In this example the HLA decodes the received I2C data one frame at a time, where each frame is a single byte.  State management is critical, keeping track of the entire transaction and recognizing muti-byte data.  
+In some cases, such in I2C HLA programming, each frame only contains a single byte.  Therefore a state machine is needed to track if the transaction has started and properly interpret multiple byes in mult-byte instructions.  For example the first byte of the data payload may put the device into a 'command receive' mode, with commands and parameters that follow. A data byte might be interpreted differently if the same device were in 'memory register receive' mode.  The following example provides some recommendations for state mangement.
 
 #### An example set of states follows:
 1. *Idle:* Waiting for I2C transaction to begin
-2. *I2C Device Address:* 7-bit device address is read, direction bit (read/write) is determined
-  - Note that the I2C LLA automatically shifts the address back right by 1 bit to recover the original 7-bit address.
-4. *Transaction Type:* Determined based on direction bit and device (e.g., register write, register read, EEPROM write, EEPROM read)
-5. *Register Address (optional):* Some devices require a register address byte, width depends on device (typically 8-bits or 16-bits)
-6. *Data:* Device will either send or receive a data byte, while the total number of bytes depends on device and transaction type an I2C HLA will be evaluated in each individual byte with no memory of preceeding bytes unless a state machine is used.
-   - *Mode Selection:* In some cases the first data byte puts the device into different modes
-        - Follow-on bytes may then be then either be data, commands, or parameters
-        - The different states as well as commands and number of pamaters must be tacked by the state machine for proper decoding
-        - Additionally keeping track of both transaction and frame begin and end times are critical for annotation placement
-7. *Stop:* I2C stop condition signals end of transaction, return to Idle state
+   - State: waiting for Start
+3. *Start:* I2C start condition signals the beginning of the transaction
+   - State: waiting for the expected device Address
+5. *I2C Device Address:* Typically a 7-bit device address is read, direction bit (read/write) is determined
+   - State: waiting for Data
+   - Note that the I2C LLA automatically shifts the address back right by 1 bit to recover the original 7-bit address.
+4. *Data:* Data can be supplied as one or more bytes, but the LLA (low level analyzer) only pass them to the HLA one byte at a time.
+   - Therefore if a command is folowed by a parameter, the state must be tracked to be able to tie the two together
+   - Additionally if device supports different 'modes' those would need to be tracked in order to intepret commands and prameters correctly.
+   - State: Loop waiting for Data unitl Stop is received
+       - Sub-State: (sub-states may be needed depending on how the part interprets each incoming data frame) 
+5. *Stop:* I2C stop condition signals end of transaction, return to Idle state
+  - State: return to Idle
 
 
 ### Instruction Set
