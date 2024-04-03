@@ -131,6 +131,7 @@ This list contains authorized distributors selling Saleae devices. Please note t
 ### Malaysia
 
 * [ContactThings](https://contacthings.com/)
+* [Elecsoft Solution](http://www.elecsoftsolution.com)
 
 ### Singapore
 
