@@ -135,7 +135,7 @@ This list contains authorized distributors selling Saleae devices. Please note t
 ### Singapore
 
 * [Amazing Tech](http://amazingtech.com.cn/cn/index.php)
-* [Elecsoft Solutions](http://www.elecsoftsolution.com)
+* [Elecsoft Solution](http://www.elecsoftsolution.com)
 * [Robot R Us](https://robot-r-us.com.sg/?s=saleae\&post\_type=product)
 
 ### South Africa
