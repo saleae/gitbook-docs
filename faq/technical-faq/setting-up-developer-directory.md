@@ -12,13 +12,7 @@ Then, in the Settings window, scroll to the bottom until you reach the Custom Lo
 
 ![Custom Low Level Analyzers Directory Location](../../.gitbook/assets/screen-shot-2021-04-05-at-3.26.38-pm.png)
 
-You must specify a machine to start, using the command line.
-
-Usage: VirtualBoxVM --startvm \<name|UUID> Starts the VirtualBox virtual machine with the given name or unique identifier (UUID). the browse button to select the directory that contains your compiled custom protocol analyzer.
-
-* Windows -> `.dll`
-* Linux -> `.so`
-* MacOS -> `.dylib` **(Note: This may appear as a .so file provided by some custom analyzer repositories. If so, please see the "MacOS Errors" section below)**
+Click the browse button to select the directory that contains your compiled custom protocol analyzer.
 
 Finally, save the dialog and restart the software. Your custom analyzer should now appear in the list of available protocol analyzers!
 
