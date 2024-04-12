@@ -72,27 +72,28 @@ Here is an example of you you might handle different frame types from I2C:
 ```
 
 ### State Managment
-In some cases, such in I2C HLA programming, each frame only contains a single byte.  Therefore a state machine is needed to track if the transaction has started and properly interpret multiple byes in mult-byte instructions.  For example the first byte of the data payload may put the device into a 'command receive' mode, with commands and parameters that follow. A data byte might be interpreted differently if the same device were in 'memory register receive' mode.  The following example provides some recommendations for state mangement.
+In some cases, such in I2C HLA programming, each frame only contains a single byte.  Therefore a state machine is needed to keep track of the byes as they are received so that thye can be properly interpreted, specifically if multiple control modes or multi-byte instructions are required.  For example the first byte of the data payload is often the slave addres, followed by a control byte. The control byte would determine if follow-on bytes should be interpreted as commands or memory register data. The following example provides some recommendations for state mangement.
 
 #### An example set of states follows:
 1. *Idle:* Waiting for I2C transaction to begin
-   - State: waiting for Start
-3. *Start:* I2C start condition signals the beginning of the transaction
-   - State: waiting for the expected device Address
-5. *I2C Device Address:* Typically a 7-bit device address is read, direction bit (read/write) is determined
-   - State: waiting for Data
+   - Next State: waiting for Start
+2. *Start:* I2C start condition signals the beginning of the transaction
+   - Next State: waiting for the expected slave device Address
+3. *I2C Slave Address:* Typically a 7-bit device address is read, direction bit (read/write) is determined
+   - Next State: waiting for wainting for control byte
    - Note that the I2C LLA automatically shifts the address back right by 1 bit to recover the original 7-bit address.
-4. *Data:* Data can be supplied as one or more bytes, but the LLA (low level analyzer) only pass them to the HLA one byte at a time.
-   - Therefore if a command is folowed by a parameter, the state must be tracked to be able to tie the two together
-   - Additionally if device supports different 'modes' those would need to be tracked in order to intepret commands and prameters correctly.
-   - State: Loop waiting for Data unitl Stop is received
-       - Sub-State: (sub-states may be needed depending on how the part interprets each incoming data frame) 
-5. *Stop:* I2C stop condition signals end of transaction, return to Idle state
-  - State: return to Idle
+4. *I2C Control Byte:* When used, it often determines  how follow-on bytes should be interpreted (commands or data)
+   - Next State: waiting for data
+4. *Data:* Data can be supplied as one or more bytes
+   - The I2C LLA (low level analyzer) pass data bytes, one byte at a time to the HLA for decoding.
+   - If a multi-byte instruction is received, tracking of the previous byte(s) may be requied to interpret the current byte correctly.
+   - Next State: Loop to receive next Data byte until Stop is received
+6. *Stop:* I2C stop condition signals the end of the transaction
+  - Next State: return to Idle
 
 
-### Instruction Set
-Developing an instruction set in JSON is another best practice that allows you to quickly build an HLA that interprets received data into human readable annotations.
+### Instruction Set Lookup Table
+Developing an instruction set lookup table in JSON is best practice that allows you to quickly build an analyzer that interprets received data into human readable annotations. Often at a minum the instruction, name, and numbrer of parameters is needed to build out the state machine.
 
 ```
 instructions = {
