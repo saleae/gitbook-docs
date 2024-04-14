@@ -7,7 +7,7 @@ I2C communication involves two roles: a master and a slave. The master initiates
 I2C communication is captured as frames by a built-in low-level I2C analyzer. Each frame represents one byte of information. Frame types are defined below including: start, address, data, and stop.
 
 ### Data Frame Evaluation
-The HLA evaluates each byte of the transaction as its own 'frame' received from the built-in I2C low-level analyzer. Decoding the sequence of frames in the HLA may require a state machine if preceding frames change the way future frames should be interpreted. One example includes that the first data frame indicates a command with the next frame including a parameter.
+The HLA executes once for each incoming frame. Each frame contains only one byte. Each transaction begins with a start frame, an address frame, and then any number of data frames, ending with a stop frame. A state machine is often needed to decode multi-byte (multi-frame) sequences such as a command followed by a parameter.
 
 ## Output Frame Format
 
