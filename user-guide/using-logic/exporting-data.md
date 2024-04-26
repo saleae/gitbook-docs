@@ -10,7 +10,7 @@ The Logic 2 software allows exporting of the entire Data Table, which can includ
 
 To export raw data from your capture, click the Options button at the bottom right of the software, then click "Export Raw Data."
 
-![Exporting Raw Data](../../.gitbook/assets/export-raw-data.png)
+<figure><img src="../../.gitbook/assets/file-menu.png" alt="" width="563"><figcaption><p>Export Raw Data</p></figcaption></figure>
 
 You will be greeted with an "Export Raw Data" window. From here, you can select the channels you would like to include in your export, the analog downsample ratio (if analog channels are included), and the time range.
 
