@@ -29,3 +29,11 @@ Several Logic accessories have been made available by our community of users. Th
 * Thingiverse Download: [https://www.thingiverse.com/thing:3473347](https://www.thingiverse.com/thing:3473347)
 
 ![Logic Pro 16 Desktop Organizer by BuildXYZ](../.gitbook/assets/e1a84da32242e03b838653b751a6350e\_preview\_featured.jpg)
+
+
+### Saleae Tower-of-Hanoi Organizer
+
+* by Helmut Lord
+* Printables Download: [https://www.printables.com/model/860963-saleae-tower-of-hanoi-organizer](https://www.printables.com/model/860963-saleae-tower-of-hanoi-organizer)
+
+![Saleae Tower-of-Hanoi Organizer](https://media.printables.com/media/prints/860963/images/6615309_e44c9996-eb73-43fc-b84b-3198434e3188_5d384b96-e8bf-4376-baf9-ba77458ca830/ezgifcom-optimize.gif)
