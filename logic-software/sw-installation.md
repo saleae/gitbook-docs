@@ -27,7 +27,11 @@ The Logic 2 software is provided in an AppImage format, which contains all the f
 
 #### Issues with Running the AppImage File
 
-If you run into issues with running the AppImage file via the instructions above, you can attempt to extract the Logic binary from the AppImage file with the following command.
+Starting Ubuntu 24.04, you may need to run our app with the `--no-sandbox` argument like so. Otherwise, the app may fail to launch.
+
+`./Logic-2.x.xx-master.AppImage --no-sandbox`
+
+In other error cases (not common), you can attempt to extract the Logic binary from the AppImage file with the following command.
 
 `./Logic-2.x.xx-master.AppImage --appimage-extract`
 
