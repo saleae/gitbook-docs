@@ -22,6 +22,7 @@ The following analyzers are not officially supported by Saleae, but instead, wer
 * [Luos Analyzer](https://github.com/Luos-io/Analyzer)
 * [MBus](https://github.com/lab11/MBusAnalzyer)
 * [Microchip SWI Analyzer](https://github.com/MicrochipTech/MicrochipSWILowLevelAnalyzer)
+* [Microchip 10BASE-T1S](https://github.com/MicrochipTech/oa-tc6-saleae-extension)
 * [MIPI DSI LP Analyzer](https://github.com/stawiski/Saleae-MIPI-DSI-LP-Analyzer)
 * [MIPI RFFE v1](https://github.com/alejmrm/RFFEAnalyzer)
 * [MIPI RFFE v2](https://github.com/blargony/RFFEAnalyzer)
