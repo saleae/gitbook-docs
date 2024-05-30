@@ -8,34 +8,27 @@ You may want to move Logic to its own host controller when running into the issu
 
 To move the logic analyzer to its own host controller, with no other devices on that host controller, your PC will need at least 2 host controllers. Some laptops will only have one. Follow the steps below for your specific operating system.
 
-### **Windows**
+### Windows
 
-1.  Determine what host controllers are installed on your PC.
+1. Open Device Manager
+2. Connect your Logic device (do not open the software)
+3. Locate your Logic device under the section "Universal Serial Bus Controllers" in Device Manager
+4.  Select your Logic device, so it is highlighted\
 
-    &#x20;Open device manager (Control Panel -> System -> Device Manager).
 
-    &#x20;Expand the section "Universal Serial Bus Controllers."
+    <figure><img src="../../.gitbook/assets/select-logic-device.png" alt=""><figcaption><p>Select your Logic device</p></figcaption></figure>
+5.  From the view menu, select "View devices by connection (Note, your Logic device needs to be selected when you do this, otherwise it will be lost in the tree view)\
 
-    &#x20;Locate host controllers. If you are unsure of which devices are host controllers, their names usually follow these rules:
 
-    &#x20;USB 2.0 host controllers usually contain the word "enhanced" in their name (e.g., "Intel XXX series chipset USB2 Enhanced Host Controller").
+    <figure><img src="../../.gitbook/assets/view-by-connection.png" alt=""><figcaption><p>View Devices by connection</p></figcaption></figure>
+6.  The view will transform, but your Logic device should be still selected. Now trace the tree view up to locate the USB eXtensible host controller that is associated with it.\
 
-    &#x20;USB 3.0 host controllers either mention USB 3.0, "XHCI" or "eXtensible";
 
-    &#x20;host controllers never include the word "hub" or "device."
-2.  Connect the logic analyzer and highlight it in device manager.
-
-    &#x20;It's important to highlight it; otherwise, it will be impossible to find after the next step.
-
-    &#x20;![Locate Logic](https://trello-attachments.s3.amazonaws.com/55f866a4276782e3b2ae822a/492x290/97480150dab7875181aa9987d49f18e6/select\_logic.PNG)
-3.  Switch the view to show devices by connection.
-
-    ![By connection](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/55f866a4276782e3b2ae822a/2b59af3d8666c70b71047b72dc10d950/switch\_view.png) ![Logic connection](https://trello-attachments.s3.amazonaws.com/55f866a4276782e3b2ae822a/457x172/80ce0ef7dfb11b6cf8d711894fcc16eb/new\_view.PNG)
-4.  Expand all host controllers so you can see other devices connected to the PC.
-
-    &#x20;![expanded devices](https://trello-attachments.s3.amazonaws.com/55f866a4276782e3b2ae822a/478x323/0804410bea2403138400de1041102310/expanded\_connections.PNG)
-5. You can now see which host each USB device is connected to. You can move devices from port to port until they appear on the other host controller. The easiest way to do this is to attach all non-logic analyzers to a single hub and move that port to port until it's on the other host controller.
-6. Test Logic performance. Optionally, repeat, putting Logic on the other host(s).
+    <figure><img src="../../.gitbook/assets/locate-usb-extensible.png" alt=""><figcaption><p>Locate the USB eXtensible Host Controller Associated with your Logic</p></figcaption></figure>
+7. Note which host controller it is (USB 3.1 or USB 3.2)
+8. From the view menu, change back to "Devices by type"
+9. Move the your Logic device to a new USB port
+10. Repeat the process from step 3, until you've checked every port on your computer
 
 ### **OS X**
 
