@@ -1,6 +1,6 @@
 # Community Shared Analyzers
 
-The following analyzers are not officially supported by Saleae, but instead, were kindly shared by our community of users. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you need any help. Also, If you have your own analyzer you would like to see featured here, let us know!
+The following analyzers are not officially supported nor developed by Saleae, but instead, were kindly shared by our community of users. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you need any help. Also, If you have your own analyzer you would like to see featured here, let us know!
 
 ### **Community Shared Low Level Analyzers (LLAs)**
 
@@ -15,6 +15,7 @@ The following analyzers are not officially supported by Saleae, but instead, wer
 * [DHT2x](https://github.com/jakeson21/DHT2xProtocolAnalyzer)
 * [DisplayPort Aux](https://github.com/Alex-the-Smart/DPAUXAnalyzer)
 * [Gamecube Controller Analyzer](https://github.com/jefflongo/GameCubeControllerAnalyzer)
+* [I3C Analyzer](https://github.com/xyphro/XyphroLabs-I3C-Saleae-Protocol-Analyzer) (developed by [xyphro](https://github.com/xyphro))
 * [InfraRed](https://github.com/procule/IRAnalyzer)
 * [ISO7816 (smart cards and secure elements)](https://github.com/nezza/ISO7816Analyzer)
 * [Low Pin Count (LPC) Analyzer](https://github.com/shuffle2/LpcAnalyzer)
@@ -42,7 +43,7 @@ The following analyzers are not officially supported by Saleae, but instead, wer
 * [SD/MMC](https://github.com/airbus-seclab/sdmmc-analyzer)
 * [SDIO](https://github.com/bdodge/SDIOanalyzer) (developed by [bdodge](https://github.com/bdodge))
 * [SDIO](https://github.com/ewfuentes/SaleaeSDIOAnalyzer) (developed by [ewfuentes](https://github.com/ewfuentes))
-* [SDQ for Apple Lightning, MagSafe, and Battery](https://github.com/nezza/SDQAnalyzer) &#x20;
+* [SDQ for Apple Lightning, MagSafe, and Battery](https://github.com/nezza/SDQAnalyzer)
 * [SENT Analyzer](https://github.com/melexis/SENTAnalyzer)
 * [Smart Cards and SIM cards](https://github.com/dirkx/saleae-logic-ISO7816-smartcard-Analyser)
 * [Smart Cards and SIM cards (with added features)](https://github.com/watsug/saleae-logic-ISO7816-smartcard-Analyser)
