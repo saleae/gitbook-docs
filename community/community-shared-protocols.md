@@ -15,6 +15,7 @@ The following analyzers are not officially supported nor developed by Saleae, bu
 * [DHT2x](https://github.com/jakeson21/DHT2xProtocolAnalyzer)
 * [DisplayPort Aux](https://github.com/Alex-the-Smart/DPAUXAnalyzer)
 * [Gamecube Controller Analyzer](https://github.com/jefflongo/GameCubeControllerAnalyzer)
+* [I2C Analyzer](https://github.com/argentum-systems/saleae-i2c-analyzer) (with built-in glitch rejection)
 * [I3C Analyzer](https://github.com/xyphro/XyphroLabs-I3C-Saleae-Protocol-Analyzer) (developed by [xyphro](https://github.com/xyphro))
 * [InfraRed](https://github.com/procule/IRAnalyzer)
 * [ISO7816 (smart cards and secure elements)](https://github.com/nezza/ISO7816Analyzer)
