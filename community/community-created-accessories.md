@@ -37,3 +37,11 @@ Several Logic accessories have been made available by our community of users. Th
 * Printables Download: [https://www.printables.com/model/860963-saleae-tower-of-hanoi-organizer](https://www.printables.com/model/860963-saleae-tower-of-hanoi-organizer)
 
 ![Saleae Tower-of-Hanoi Organizer](https://media.printables.com/media/prints/860963/images/6615309_e44c9996-eb73-43fc-b84b-3198434e3188_5d384b96-e8bf-4376-baf9-ba77458ca830/ezgifcom-optimize.gif)
+
+
+### Tigard Saleae Stripe
+
+* by Cut Trace
+* Available Here: https://www.tindie.com/products/cuttrace/tigard-saleae-stripe/
+
+![Tigard to Saleae Adapter](https://github.com/saleae/gitbook-docs/assets/143648606/6f9adac0-9111-4eec-a2cf-c7f05645e01a)
