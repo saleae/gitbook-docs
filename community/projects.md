@@ -2,6 +2,7 @@
 
 Need an idea for an electronics project? Want to check out some cool gizmos that our community of users have built using our Logic analyzers? We've got a list of some cool projects below!
 
+* [Modern WiFi Nixie Clock with USB-C & RGB Backlighting](https://vigue.me/posts/nixie-clock)
 * [Seattle Subway project](https://blog.nart.org/2024/02/03/seattle-subway/)
 * [Sensor evaluation: from an idea to a PCB in a day](https://tugrazracing.github.io/sensor-evaluation)
 * [Simple 8085 Computer](https://tomnisbet.github.io/Simple8085/)
