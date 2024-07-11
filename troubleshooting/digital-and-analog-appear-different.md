@@ -23,9 +23,6 @@ Examples of significant deviation between digital and analog signals:
     &#x20; The digital input will show a 5 MHz square wave.
 
     &#x20; The analog input will show a 5 MHz sine wave.
-
-![5 MHz](https://trello-attachments.s3.amazonaws.com/564d0c176891eac4bb895921/376x246/da48ebb65662cbf7532108126b366fb7/5\_MHz.PNG)
-
 *   Logic Pro 8 or 16: 10 MHz square wave
 
     &#x20; Digital Sample Rate: 50 MSPS or greater
@@ -37,9 +34,6 @@ Examples of significant deviation between digital and analog signals:
     &#x20; The analog input will show an attenuated 10 MHz sine wave.
 
     &#x20; The peak-to-peak amplitude will be attenuated by the 5 MHz AA filter.
-
-![10 MHz](https://trello-attachments.s3.amazonaws.com/564d0c176891eac4bb895921/381x264/c66cfcd73699443617f31e54b311f9b9/10\_MHz.PNG)
-
 *   Logic Pro 8 or 16: 15 MHz square wave
 
     &#x20; Digital Sample Rate: 100 MSPS or greater
@@ -51,8 +45,6 @@ Examples of significant deviation between digital and analog signals:
     &#x20; The analog input will show a flat line.
 
     &#x20; Zoomed in, the analog data points will form a highly attenuated 15 MHz sine wave.
-
-![15 MHz](https://trello-attachments.s3.amazonaws.com/564d0c176891eac4bb895921/368x258/d7ae2f9dd85a1b8aa166f7c5324825dd/15\_MHz.PNG)
 
 **Phase Difference between Analog and Digital Channels**
 
