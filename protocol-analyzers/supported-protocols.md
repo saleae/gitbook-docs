@@ -26,6 +26,7 @@ The Saleae Logic software includes the following protocol analyzers:
 * SWD (ARM Serial Wire Debug)&#x20;
 * Synchronous Parallel&#x20;
 * USB Low Speed and Full Speed
+* [+50 More Commmunity Shared Protocols](https://support.saleae.com/community/community-shared-protocols)
 
 ### I3C Protocol Support
 
