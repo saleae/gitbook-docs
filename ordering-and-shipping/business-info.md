@@ -5,7 +5,7 @@
 | Category                  | Value                                                                                |
 | ------------------------- | ------------------------------------------------------------------------------------ |
 | Address                   | <p>Saleae, Inc.<br>408 N Canal St<br>Unit A <br>South San Francisco, CA<br>94080</p> |
-| Phone & Fax               | <p>Phone #: +1 (510) 984-2463<br>Fax #: (415) 684-7727</p>                           |
+| Phone                     | +1 (510) 984-2463                                                                    |
 | U.S. Tax ID Number        | 35-2530870                                                                           |
 | Unique Entity ID (UEI)    | YLV3BL7JC9K5                                                                         |
 | Dun & Bradstreet Number   | DUNS #: 048959933                                                                    |
@@ -15,7 +15,9 @@
 
 Our W-9 Form can be downloaded below.
 
-{% file src="../.gitbook/assets/Saleae W9 Form.pdf" %}
+{% file src="../.gitbook/assets/Saleae W9 Form (1).pdf" %}
+Saleae W9 Form
+{% endfile %}
 
 ### Saleae VAT Number Table
 
