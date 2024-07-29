@@ -54,6 +54,7 @@ The following analyzers are not officially supported nor developed by Saleae, bu
 * [TWI Analyzer](https://github.com/szechyjs/TwiAnalyzer)
 * [USB Analyzer (This version filters out SOF packets)](https://github.com/jonathangjertsen/usb-analyzer)
 * [Vehicle Area Network (VAN) Analyzer](https://github.com/morcibacsi/VanAnalyzer)
+* [Wiegand Protocol Analyzer](https://github.com/AndrewTabs1038/Wiegand-Analyzer)
 
 ### Installing a Low Level Analyzer
 
