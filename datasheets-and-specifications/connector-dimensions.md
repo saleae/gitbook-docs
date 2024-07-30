@@ -27,8 +27,6 @@ The Gen 1 accessories are compatible with these devices:
 
 You can add female right-angle headers to the edge of your board, or vertical headers to mount the logic analyzer vertically to your board.
 
-Below are diagrams of the connectors on the new Saleae logic analyzers. Note that Logic 8 and Logic Pro 8 have the same dimensions.
-
 ### Dimensions for the Connectors
 
 The dimensions for the connectors on our Logic products are available on [OnShape](http://www.onshape.com), named [Saleae Pinout Gen2](https://cad.onshape.com/documents/3639851e3a52499691159c81/w/c1d2f96bff954fc38299a060/e/9a4c6d0887ae4833a561c8c2). A free account is required with OnShape to view them.
