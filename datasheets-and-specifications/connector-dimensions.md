@@ -13,15 +13,15 @@ Our 4x2 connectors are comprised of:
 
 The Gen 2 accessories are compatible with these devices:
 
-* Logic 4
 * Logic 8
 * Logic Pro 8
 * Logic Pro 16
 
 The Gen 1 accessories are compatible with these devices:
 
-* original Logic (discontinued)
-* original Logic16 (discontinued)
+* Original Logic (discontinued)
+* Original Logic16 (discontinued)
+* Logic 4 (discontinued)
 
 ### 2. Add Female right-angle / Vertical headers to your PCB
 
