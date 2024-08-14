@@ -40,5 +40,5 @@ The Saleae VAT number you refer to will depend on what country the order was shi
 
 ### Is Saleae SAM Registered?
 
-Yes, we are SAM registered.
+Yes, we are SAM registered as a small business.
 
