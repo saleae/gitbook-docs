@@ -65,7 +65,7 @@ All Saleae products listed below are in compliance with the EU Council Directive
 
 ### **UK Declaration of Conformity**
 
-{% file src="../.gitbook/assets/uk_declaration_of_conformity.pdf" caption="UK Declaration of Conformity" %}
+{% file src="../.gitbook/assets/EU_Declaration_of Conformity.pdf" caption="UK Declaration of Conformity" %}
 
 ## **RoHS Declaration Document**
 
