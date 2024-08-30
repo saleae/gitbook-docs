@@ -10,9 +10,9 @@ This button allows you to check your logic analyzer's connection status with the
 
 {% embed url="https://vimeo.com/454544519" %}
 
-### 2. Enabling and Disabling Input Channels
+### 2. Configuring Input Channels & Setting the Sampling Rate
 
-Any enabled input channels are shown here. Use the Capture Settings panel to enable or disable channels.
+Use the Capture Settings panel to enable or disable channels, and to configure the sample rate for the configured channels.
 
 {% embed url="https://vimeo.com/454542912" %}
 
