@@ -9,6 +9,7 @@
 | U.S. Tax ID Number        | 35-2530870                                                                           |
 | Unique Entity ID (UEI)    | YLV3BL7JC9K5                                                                         |
 | Dun & Bradstreet Number   | DUNS #: 048959933                                                                    |
+| CAGE Code                 | 7PR74                                                                                |
 | Canadian GST / PST Number | 770324515RT0001                                                                      |
 
 ### Saleae W9
