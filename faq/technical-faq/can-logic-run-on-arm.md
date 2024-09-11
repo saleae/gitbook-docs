@@ -6,7 +6,11 @@ Starting Logic 2.4.8, we now provide an Apple silicon build of our software [dow
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-07-11 at 4.46.33 PM.png" alt=""><figcaption><p>Download for Apple Silicon</p></figcaption></figure>
 
-## About Raspberry Pi / Android Support
+## Windows ARM Support
+
+Our software does not officially support ARM on Windows, however, a potential workaround is summarized in the [forum post here](https://discuss.saleae.com/t/microsoft-surface/3043/5).
+
+## Raspberry Pi / Android Support
 
 Having said that, the Logic Software cannot run on Raspberry Pi or Android devices. It would be really cool and helpful for many. Hopefully, we will have the chance to do it. Currently, we are tracking this idea [here](https://ideas.saleae.com/b/feature-requests/provide-arm-builds-for-logic-2/). Feel free to comment/vote on it!
 
