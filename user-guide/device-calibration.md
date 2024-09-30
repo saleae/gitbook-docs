@@ -20,7 +20,7 @@ Our support team may request you to send your serial number to us to further inv
 
 </div>
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption><p>Device Information window showing calibration status</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption><p>Device Information window showing calibration status</p></figcaption></figure>
 
 #### Install Calibration via Logic 2 App
 
@@ -55,7 +55,7 @@ In cases when you are not able to download the calibration file from within the 
 
 When manually downloading the calibration file in Logic 2.x, in rare cases, your browser may open a page that looks like the image below.
 
-![Manual Calibration Access Denied](../.gitbook/assets/screen-shot-2020-06-24-at-12.54.46-pm.png)
+![Manual Calibration Access Denied](<../.gitbook/assets/Screen Shot 2020-06-24 at 12.54.46 PM.png>)
 
 In this case, please submit a [Warranty Request](https://saleae-support.typeform.com/to/E8UPB7) form and we will be happy to help. This may be indicative of hardware failure and we'll most likely want to process a warranty for you.
 
@@ -86,7 +86,7 @@ This is one of our top requested features for which we would love to work on at 
 
 Our devices do not require periodic recalibration. You can download our statement of calibration below.
 
-{% file src="../.gitbook/assets/Statement_of_Calibration (2).pdf" %}
+{% file src="../.gitbook/assets/Statement_of_Calibration.pdf" %}
 
 Specifically, there is no calibration certificate. The devices do undergo a one-time factory calibration process.
 

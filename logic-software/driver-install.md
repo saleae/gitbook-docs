@@ -6,7 +6,7 @@ Normally, when the Logic software is installed, the product should simply work w
 
 A common issue in Windows is that the Saleae Logic may show up as a _WestBridge_ or _unidentified_ device in device manager. If this is the case, then there is a problem with the Saleae driver. Please install the driver per the methods listed in this support article.
 
-![Saleae Logic showing up as a WestBridge device](../.gitbook/assets/screen-shot-2020-09-10-at-4.26.44-pm.png)
+![Saleae Logic showing up as a WestBridge device](<../.gitbook/assets/Screen Shot 2020-09-10 at 4.26.44 PM.png>)
 
 If the drivers are installed properly, you should see _Saleae Logic X USB Logic Analyzer_ in Device Manager, where "X" is the specific product version (4, 8, Pro 8, Pro 16).
 
@@ -121,7 +121,7 @@ If at the end of this process you still get an error, please [contact support](h
 
 When the Logic 2 software is opened, a udev rule file is checked. If the udev rule is missing, then an error message will popup to prompt you to install the proper udev rule file. The good news is that, if you see this popup, then our software was able to detect the device. Follow the instructions to open the terminal and run the command to install the udev file.
 
-![](../.gitbook/assets/screen-shot-2020-10-22-at-2.48.48-pm.png)
+![](<../.gitbook/assets/Screen Shot 2020-10-22 at 2.48.48 PM.png>)
 
 Instructions:&#x20;
 

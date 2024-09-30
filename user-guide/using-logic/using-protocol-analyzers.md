@@ -24,7 +24,7 @@ When zooming out, we've implemented a feature that merges seperate protocol bubb
 
 In case an analyzer is producing incorrect results, or in case an analyzer has gotten stuck processing data, one solution might be to restart the analyzer. This will have the same effect as deleting and re-adding the analyzer, and may allow the analyzer to get unstuck from a bad state. To restart the analyzer, click on the three dots next to the analyzer and select "Restart." [Contact us](https://contact.saleae.com/hc/en-us/requests/new) if this occurs as this may be a bug in the analyzer.
 
-![](../../.gitbook/assets/analyzer\_restart.png)
+![](../../.gitbook/assets/Analyzer\_restart.png)
 
 #### 2. Filtering Glitches from your Capture Data
 

@@ -2,7 +2,7 @@
 
 ## Logic 2 Software
 
-![Logic 2 Software](<../.gitbook/assets/Screen Shot 2021-12-07 at 12.10.01 PM (1).png>)
+![Logic 2 Software](<../.gitbook/assets/Screen Shot 2021-12-07 at 12.10.01 PM.png>)
 
 ### Download & Installation
 
@@ -12,7 +12,7 @@ The latest version of the Logic 2 software can be downloaded below. This is the 
 
 All previous versions of the Logic 2 software can be found below, including a history of the major updates that were implemented in each version.
 
-* ****[**Logic 2 Changelog**](https://ideas.saleae.com/f/changelog/)****
+* [**Logic 2 Changelog**](https://ideas.saleae.com/f/changelog/)
 
 Instructions for installation and solutions for commonly found errors can be found in the support article below.
 

@@ -15,7 +15,7 @@ The Logic 2 software is provided in an AppImage format, which contains all the f
 1\. Right-click the AppImage file and click Properties\
 2\. Check the box that says "Allow executing file as program" as shown in the image below.
 
-![Enabling the AppImage file to be executable](../.gitbook/assets/screen-shot-2021-01-25-at-9.12.32-pm.png)
+![Enabling the AppImage file to be executable](<../.gitbook/assets/Screen Shot 2021-01-25 at 9.12.32 PM.png>)
 
 3\. Alternatively, you can run the following command to allow exectuing the file as a program.
 
@@ -41,7 +41,7 @@ This will dump the contents to a new directory called squashfs. You can then try
 
 First, double-click the Logic 2 .zip file available on our [download page](https://www.saleae.com/downloads/). This will extract the Logic 2 application file. From here, you can double click the Logic2 app to run it.
 
-![Logic 2 app file extracted from .zip](../.gitbook/assets/screen-shot-2021-08-06-at-6.22.46-pm.png)
+![Logic 2 app file extracted from .zip](<../.gitbook/assets/Screen Shot 2021-08-06 at 6.22.46 PM.png>)
 
 Alternatively, you can also drag the Logic2 app file into your Applications folder in case you would like to have the app appear in Launchpad.
 
@@ -51,7 +51,7 @@ Simply download and run the installer available on our [download page](https://w
 
 ### Install Errors
 
-![Logic 2 Installation Error](<../.gitbook/assets/image (11).png>)
+![Logic 2 Installation Error](<../.gitbook/assets/image (10).png>)
 
 In case you run into any installation issues, please refer to the support article below.
 

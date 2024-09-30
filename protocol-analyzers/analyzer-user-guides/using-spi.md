@@ -2,7 +2,7 @@
 
 The Saleae software includes a protocol analyzer for the Serial Peripheral Interface (SPI) bus.
 
-![SPI Decoding in the Logic 2 Software](../../.gitbook/assets/spi-example.png)
+![SPI Decoding in the Logic 2 Software](../../.gitbook/assets/SPI-Example.png)
 
 SPI uses a Clock signal, two data signals (MISO and MOSI), and an Enable signal. That is the most common configuration of SPI, but other variants exist.
 
@@ -62,7 +62,7 @@ Shown here is a typical issue where the alignment is off. You can clearly see th
 
 However, even though the analyzer is decoding the data in groups of 8 bits, it is not starting on the correct bit. Instead, it is taking some bits from the end of the previous byte and adding them to the bits at the beginning of the next byte.
 
-![SPI Analyzer Alignment Issue](../../.gitbook/assets/screen-shot-2021-09-20-at-5.33.24-pm.png)
+![SPI Analyzer Alignment Issue](<../../.gitbook/assets/Screen Shot 2021-09-20 at 5.33.24 PM.png>)
 
 Here are the two most common causes of this:
 

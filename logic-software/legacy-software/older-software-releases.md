@@ -1,9 +1,7 @@
-# Logic 1.x Download
+# Logic 1.x Download (Deprecated)
 
 {% hint style="warning" %}
-Starting October of 2022, Saleae has released a new hardware revision of our analyzers, starting with Logic Pro 8, which requires the latest version of the Logic 2 software available [here](https://www.saleae.com/downloads/).
-
-Unfortunately, this newer revision of the hardware will no longer work with our legacy Logic 1.x software.
+Starting October of 2022, Saleae has released a new hardware revision of our Logic analyzers which requires the latest version of the Logic 2 software available [here](https://www.saleae.com/downloads/). This newer revision of the hardware will **no longer work with our legacy Logic 1.x software**.
 {% endhint %}
 
 {% content-ref url="../../datasheets-and-specifications/logic-hardware-revisions.md" %}
@@ -52,7 +50,7 @@ or
 
 Unfortunately, the Decoded Protocols Panel, in addition to Protocol Search, is no longer available in 1.2.40 due to technical issues. When attempting to enable it in 1.2.40, you will find our note about it in the screenshot below. Please upgrade to our newer [Logic 2 software](https://www.saleae.com/downloads/) if you need this functionality.
 
-![Decoded Protocol Search is no longer availble in 1.2.40](<../../.gitbook/assets/Screen Shot 2022-08-03 at 4.47.39 PM.png>)
+![Decoded Protocol Search is no longer availble in 1.2.40](<../../.gitbook/assets/Screen Shot 2022-08-03 at 4.47.39 PM (1).png>)
 
 ## Older Versions of Logic 1.x
 

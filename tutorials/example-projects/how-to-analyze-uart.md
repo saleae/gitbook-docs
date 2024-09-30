@@ -17,7 +17,7 @@ Note that on the Nucleo-F446RE, the UART lines used to communicate with the host
 
 Connect the GND wire to an available ground pin on the Nucleo. Connect Channel 0 to TX and connect Channel 1 to RX.
 
-![](<../../.gitbook/assets/uart\_circuit\_fritzing (1).png>)
+![](<../../.gitbook/assets/uart\_circuit\_fritzing (1) (1).png>)
 
 #### Run Demo Application <a href="#run-demo-application-2" id="run-demo-application-2"></a>
 

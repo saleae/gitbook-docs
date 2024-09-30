@@ -12,7 +12,7 @@ You can bypass this warning message by adding an override launch argument.
 
 In Windows, you can add the `--override` launch argument by right-clicking the shortcut and opening the Properties window as shown below.
 
-![Adding the --override launch argument in Windows](../.gitbook/assets/screen-shot-2020-07-09-at-2.58.32-pm.png)
+![Adding the --override launch argument in Windows](<../.gitbook/assets/Screen Shot 2020-07-09 at 2.58.32 PM.png>)
 
 On Ubuntu Linux & MacOS, the launch argument to bypass the warning message will be `-override` (one dash only). You can run this from the terminal.
 

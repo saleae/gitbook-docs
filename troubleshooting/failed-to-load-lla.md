@@ -32,7 +32,7 @@ When first attempting to import a custom analyzer that was originally built for 
 > Failed to load custom analyzer...\
 > Unable to load library...
 
-![Initial Error upon Loading LLA on MacOS](<../.gitbook/assets/image (3).png>)
+![Initial Error upon Loading LLA on MacOS](<../.gitbook/assets/image (19).png>)
 
 1. Open the Terminal (open Spotlight -> search "Terminal" -> press enter)
 2. navigate to the directory containing your custom analyzer (e.g. `cd ~/Downloads/mylla`)

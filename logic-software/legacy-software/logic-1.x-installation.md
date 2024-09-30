@@ -1,10 +1,18 @@
-# Logic 1.x Installation
+# Logic 1.x Installation (Deprecated)
+
+{% hint style="warning" %}
+Starting October of 2022, Saleae has released a new hardware revision of our Logic analyzers which requires the latest version of the Logic 2 software available [here](https://www.saleae.com/downloads/). This newer revision of the hardware will **no longer work with our legacy Logic 1.x software**.
+{% endhint %}
+
+{% content-ref url="../../datasheets-and-specifications/logic-hardware-revisions.md" %}
+[logic-hardware-revisions.md](../../datasheets-and-specifications/logic-hardware-revisions.md)
+{% endcontent-ref %}
 
 ## Logic 1.x Software
 
 If you plan on using the older Logic 1.x software, you can follow the instructions below.
 
-![](../../.gitbook/assets/logic1.png)
+![](<../../.gitbook/assets/Screen Shot 2020-09-03 at 7.00.12 PM.png>)
 
 The older Logic 1.x software can be downloaded below. Version 1.2.29 is the last version of Logic 1.x.
 

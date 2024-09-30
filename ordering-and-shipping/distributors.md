@@ -28,10 +28,6 @@ This list contains authorized distributors selling Saleae devices. Please note t
 
 * [Antratek Electronics](https://www.antratek.com/catalogsearch/result/?q=saleae)
 
-### Bulgaria
-
-* [RTelecom](https://www.rtelecom.net/)
-
 ### Finland
 
 * [Elgood Partco - The Electronics Shop](https://www.partco.fi/fi/2487-logiikka-analysaattorit#/valmistaja-saleae)
@@ -75,10 +71,6 @@ This list contains authorized distributors selling Saleae devices. Please note t
 ### Poland
 
 * [BTC Kamami](https://kamami.pl/module/jzsphinxsearch/jsssearch?searchstring=saleae)
-
-### Spain
-
-* [RTelecom](https://www.rtelecom.net/)
 
 ### Sweden
 

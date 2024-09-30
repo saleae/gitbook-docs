@@ -16,11 +16,11 @@ Please note that the glitch filter must be configured before the capture is take
 
 You can find the glitch filter settings via the 'Device Settings' panel button to the right of the software. You will need to click the slider and add the appropriate channels to enable it.
 
-![Glitch Filter Setting](../../.gitbook/assets/screen-shot-2021-03-17-at-4.54.31-pm.png)
+![Glitch Filter Setting](<../../.gitbook/assets/Screen Shot 2021-03-17 at 4.54.31 PM.png>)
 
 When editing the glitch filter value, you may select a unit of time, such as ns (nanosecond), us (microsecond), and ms (millisecond). You may also use non-integer values.
 
-![Glitch filter values](../../.gitbook/assets/screen-shot-2021-03-17-at-4.57.17-pm.png)
+![Glitch filter values](<../../.gitbook/assets/Screen Shot 2021-03-17 at 4.57.17 PM.png>)
 
 ### What is a Glitch Filter?
 

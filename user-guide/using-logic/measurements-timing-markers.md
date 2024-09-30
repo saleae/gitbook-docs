@@ -24,13 +24,13 @@ The "Clock Stats" and the "Voltage RMS" measurement extensions are installed by 
 
 Timing Markers in the Logic 2 software can be added via the "Timing Markers & Measurements" side panel button on the right. Two types of timing markers exist: (1) Single Marker and (2) Marker Pair.
 
-![Adding Timing Markers](../../.gitbook/assets/screen-shot-2021-04-02-at-2.19.22-pm.png)
+![Adding Timing Markers](<../../.gitbook/assets/Screen Shot 2021-04-02 at 2.19.22 PM.png>)
 
 #### Adding Notes to Timing Markers and Editing Colors
 
 By clicking on the timing markers at the top of the software, text notes can be added and colors can be changed. You can also delete timing markers from here by clicking on the "trashcan" icon.
 
-![](<../../.gitbook/assets/screen-shot-2021-04-02-at-2.21.43-pm (1).png>)
+![](<../../.gitbook/assets/Screen Shot 2021-04-02 at 2.21.43 PM (1).png>)
 
 
 
@@ -38,4 +38,4 @@ By clicking on the timing markers at the top of the software, text notes can be 
 
 A Notes section can be found in the "Timing Markers, Measurements & Notes" side panel button on the right as shown in the image below. This allows you to type in notes that are relevant for your captured data. The panel can also be resized both vertically and horizontally by hovering your mouse pointer on the separating edges of the panel.
 
-![Adding Notes to your Capture](../../.gitbook/assets/screen-shot-2021-07-14-at-5.08.53-pm.png)
+![Adding Notes to your Capture](<../../.gitbook/assets/Screen Shot 2021-07-14 at 5.08.53 PM.png>)

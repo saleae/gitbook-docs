@@ -23,7 +23,7 @@ You can take a look at an [example GitHub repository](https://github.com/timreye
 
 <div align="left">
 
-<img src="../.gitbook/assets/screen-shot-2020-06-10-at-8.40.05-pm.png" alt="">
+<img src="../.gitbook/assets/Screen Shot 2020-06-10 at 8.40.05 PM.png" alt="">
 
 </div>
 
@@ -31,7 +31,7 @@ You can take a look at an [example GitHub repository](https://github.com/timreye
 
 <div align="left">
 
-<img src="../.gitbook/assets/screen-shot-2020-06-11-at-8.52.44-pm.png" alt="">
+<img src="../.gitbook/assets/Screen Shot 2020-06-11 at 8.52.44 PM.png" alt="">
 
 </div>
 
@@ -51,7 +51,7 @@ If clicking "Submit" takes you to an error page on GitHub's website, please ensu
 
 <div align="left">
 
-<img src="../.gitbook/assets/screen-shot-2020-06-11-at-9.31.38-pm.png" alt="">
+<img src="../.gitbook/assets/Screen Shot 2020-06-11 at 9.31.38 PM.png" alt="">
 
 </div>
 
@@ -59,7 +59,7 @@ If clicking "Submit" takes you to an error page on GitHub's website, please ensu
 
 <div align="left">
 
-<img src="../.gitbook/assets/screen-shot-2020-06-11-at-11.10.17-pm.png" alt="">
+<img src="../.gitbook/assets/Screen Shot 2020-06-11 at 11.10.17 PM.png" alt="">
 
 </div>
 
@@ -67,7 +67,7 @@ If clicking "Submit" takes you to an error page on GitHub's website, please ensu
 
 <div align="left">
 
-<img src="../.gitbook/assets/screen-shot-2020-06-11-at-9.17.50-pm.png" alt="">
+<img src="../.gitbook/assets/Screen Shot 2020-06-11 at 9.17.50 PM.png" alt="">
 
 </div>
 

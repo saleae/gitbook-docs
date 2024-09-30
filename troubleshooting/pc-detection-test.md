@@ -36,7 +36,7 @@ Next, open "System Report" by opening the Apple menu and selecting "About this M
 
 On Intel-based Macbooks, a "Westbridge" device should be listed in the USB Device Tree like in the image below.
 
-![System Report on Intel-Based Macbooks](<../.gitbook/assets/Screen Shot 2022-06-08 at 5.40.20 PM (3) (1).png>)
+![System Report on Intel-Based Macbooks](<../.gitbook/assets/Screen Shot 2022-06-08 at 5.40.20 PM.png>)
 
 On Apple-silicon based Macbooks, a "Vender-Specific Device" should be listed in the USB Device Tree like in the image below.
 

@@ -18,7 +18,7 @@ You will be greeted with an "Export Raw Data" window. From here, you can select 
 
 Scrolling down the "Export Raw Data" window reveals more options, including the desired Export Format, as well as the Export Location. An "Always Replace" option is also available to continuously overwrite your previous exported files in the specified Export Location.
 
-![Export Raw Data Window - 2](../../.gitbook/assets/screen-shot-2021-06-28-at-4.48.59-pm.png)
+![Export Raw Data Window - 2](<../../.gitbook/assets/Screen Shot 2021-06-28 at 4.48.59 PM.png>)
 
 #### Format of the Raw Data Export
 

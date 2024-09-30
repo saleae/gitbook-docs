@@ -81,8 +81,7 @@ class MyHla(HighLevelAnalyzer):
     my_choices_setting = ChoicesSetting(label='My Choice', ['A', 'B'])
 ```
 
-This declares our new HLA class, which extends from HighLevelAnalyzer, and 3 settings options that will be shown within the Logic 2 UI.
-Note: if the name of the class MyHla() is used it must be referenced in the accompanying json file. Note that Hla() is the default value.
+This declares our new HLA class, which extends from HighLevelAnalyzer, and 3 settings options that will be shown within the Logic 2 UI. Note: if the name of the class MyHla() is used it must be referenced in the accompanying json file. Note that Hla() is the default value.
 
 #### Output formats
 
@@ -139,7 +138,7 @@ Although we don't have the ability to attach debuggers to Python extensions at t
 
 * Use the reload source button in the app to quickly re-run your HLA after editing your source code.
 
-!["Reload Extension" button](../.gitbook/assets/screen-shot-2021-07-28-at-5.40.27-pm.png)
+!["Reload Extension" button](<../.gitbook/assets/Screen Shot 2021-07-28 at 5.40.27 PM.png>)
 
 ## Example - Writing an HLA to search for a value
 

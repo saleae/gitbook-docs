@@ -26,7 +26,7 @@ For orders shipping to Europe, you may enter your VAT number by clicking on the 
 
 ![VAT exempt checkbox on the product page](<../.gitbook/assets/Screen Shot 2022-08-03 at 3.15.29 PM.png>)
 
-![VAT exempt checkbox on the cart page](../.gitbook/assets/screen-shot-2020-11-18-at-10.54.53-pm.png)
+![VAT exempt checkbox on the cart page](<../.gitbook/assets/Screen Shot 2020-11-18 at 10.54.53 PM.png>)
 
 
 

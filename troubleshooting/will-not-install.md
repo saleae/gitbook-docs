@@ -12,7 +12,7 @@ Specifically, Microsoft has made available an [Install and Uninstall troubleshoo
 
 In case you run into the issue below, please try installing the software the command line argument described below to generate a log file (replacing the "x"s with the particular version you are installing).&#x20;
 
-![Logic 2 Installer Error](<../.gitbook/assets/image (10).png>)
+![Logic 2 Installer Error](<../.gitbook/assets/image (5).png>)
 
 For example, if your installer is located inside of your Downloads folder, you can run the following commands in Command Prompt.
 

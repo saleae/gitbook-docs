@@ -10,7 +10,7 @@ First, click the Settings button to open the Settings window.&#x20;
 
 Then, in the Settings window, scroll to the bottom until you reach the Custom Low Level Analyzers section.
 
-![Custom Low Level Analyzers Directory Location](../../.gitbook/assets/screen-shot-2021-04-05-at-3.26.38-pm.png)
+![Custom Low Level Analyzers Directory Location](<../../.gitbook/assets/Screen Shot 2021-04-05 at 3.26.38 PM.png>)
 
 Click the browse button to select the directory that contains your compiled custom protocol analyzer.
 

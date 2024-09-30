@@ -17,7 +17,7 @@ Example code is provided below for [Arduino](https://www.arduino.cc/), [mbed](ht
 
 For this example, you will only need 1 harness plugged into your Logic Analyzer. We will be using channel 0.&#x20;
 
-![](<../../.gitbook/assets/saleae\_harness\_1 (3) (3) (3) (3) (3) (2) (1) (2).jpg>)
+![](<../../.gitbook/assets/saleae\_harness\_1 (3) (3) (3) (3) (3) (2) (2).jpg>)
 
 Connect the channel 0 and GND wires to the Nucleo board as shown below. Note that pin PA\_4 (A2 on the Arduino headers) is DAC\_OUT1 (digital-to-analog converter output 1) on the Nucleo-F446RE.
 

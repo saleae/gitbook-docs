@@ -15,7 +15,7 @@ To demonstrate this, the example code (see below) for the STM32 Nucleo-F446RE ca
 
 To begin, plug 2 cable harnesses into your Saleae Logic Analyzer. Note that the arrow on the harness connector should be facing up and to the left (toward the ‘S’ in Saleae on your Logic Analyzer). While the colors of the wires do not ultimately matter, it can be helpful to have them line up with the resistor color code (from left to right): black, brown, red, orange, yellow, green, blue, violet.
 
-![](<../../.gitbook/assets/saleae\_harness\_2 (1) (1) (1) (1) (1) (1) (1).jpg>)
+![](../../.gitbook/assets/saleae\_harness\_2.jpg)
 
 Connect the wires to the male header pins on the Nucleo board as shown in the diagram. Note that most of the inner male pins are connected to the female pins in the Arduino UNO configuration. For a full pinout of the Nucleo-F446RE, refer to the [pinout section on the mbed page](https://os.mbed.com/platforms/ST-Nucleo-F446RE/#nucleo-pinout).
 

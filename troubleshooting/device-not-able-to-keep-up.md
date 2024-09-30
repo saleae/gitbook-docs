@@ -35,7 +35,7 @@ This may indicate a potentially different issue and could be caused by one of th
 
 * If a USB hub is required to use your Logic analyzer (for example, your PC only has USB-C ports and you require a USB-C hub), please try disabling USB selective suspend. An example in Windows is shown below via right clicking your USB hub in Device Manager and clicking Properties. Then navigate to the Power Management tab and you will find an options to "Allow the computer to turn off this device to save power." Uncheck this option.
 
-![Try disabling selective suspend for your USB hub](../.gitbook/assets/screen-shot-2021-07-14-at-5.22.16-pm.png)
+![Try disabling selective suspend for your USB hub](<../.gitbook/assets/Screen Shot 2021-07-14 at 5.22.16 PM.png>)
 
 ### **Contacting Support for Additional Help**
 

@@ -6,7 +6,7 @@ In this guide, we will walk your through creating an HLA (High Level Analyzer) e
 
 1. Click the 'Extensions' panel button on the right of the software
 
-![](../.gitbook/assets/screen-shot-2020-05-21-at-3.50.11-pm.png)
+![](<../.gitbook/assets/Screen Shot 2020-05-21 at 3.50.11 PM.png>)
 
 2\. Click 'Create Extension'\
 3\. Under 'Generate from template', choose the type of extension you would like to create. For this example, we will create a High Level Analyzer.\
@@ -14,7 +14,7 @@ In this guide, we will walk your through creating an HLA (High Level Analyzer) e
 
 <div align="center">
 
-<img src="../.gitbook/assets/screen-shot-2020-06-10-at-8.29.50-pm.png" alt="">
+<img src="../.gitbook/assets/Screen Shot 2020-06-10 at 8.29.50 PM.png" alt="">
 
 </div>
 
@@ -23,7 +23,7 @@ In this guide, we will walk your through creating an HLA (High Level Analyzer) e
 
 <div align="center">
 
-<img src="../.gitbook/assets/screen-shot-2020-06-10-at-8.29.13-pm.png" alt="">
+<img src="../.gitbook/assets/Screen Shot 2020-06-10 at 8.29.13 PM.png" alt="">
 
 </div>
 
@@ -31,7 +31,7 @@ In this guide, we will walk your through creating an HLA (High Level Analyzer) e
 
 1\. To test the new Sample HLA, capture any protocol data for [one of the supported analyzers](analyzer-frame-types/), and add the appropriate protocol analyzer. We've provided an I2C capture below in case you don't have a protocol data recording available.
 
-{% file src="../.gitbook/assets/i2c.sal" %}
+{% file src="../.gitbook/assets/I2C.sal" %}
 I2C.sal
 {% endfile %}
 
@@ -39,7 +39,7 @@ I2C.sal
 
 <div align="center">
 
-<img src="../.gitbook/assets/screen-shot-2020-06-10-at-8.28.18-pm.png" alt="">
+<img src="../.gitbook/assets/Screen Shot 2020-06-10 at 8.28.18 PM.png" alt="">
 
 </div>
 
@@ -47,7 +47,7 @@ I2C.sal
 
 <div align="center">
 
-<img src="../.gitbook/assets/screen-shot-2020-06-10-at-8.24.29-pm.png" alt="">
+<img src="../.gitbook/assets/Screen Shot 2020-06-10 at 8.24.29 PM.png" alt="">
 
 </div>
 
@@ -65,7 +65,7 @@ The software currently has a few built-in measurements already installed and rea
 
 To see your new measurement in action, take a capture of digital data and add a measurement to it as shown above. You should see the new measurements:
 
-![Measurement metrics](../.gitbook/assets/screen-shot-2020-05-27-at-7.19.26-pm.png)
+![Measurement metrics](<../.gitbook/assets/Screen Shot 2020-05-27 at 7.19.26 PM.png>)
 
 ### Customize your Measurement <a href="#customize-your-high-level-analyzer" id="customize-your-high-level-analyzer"></a>
 
