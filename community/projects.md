@@ -2,6 +2,7 @@
 
 Need an idea for an electronics project? Want to check out some cool gizmos that our community of users have built using our Logic analyzers? We've got a list of some cool projects below!
 
+* [Reverse Engineering a Pet Camera](https://stackdecoded.com/reversing-petcam/)
 * [Hacking the GL.iNet SFT1200](https://brv.sh/hacking-the-gl.inet-sft1200/)
 * [Laser Rangefinder Reverse Engineering](https://andreivladescu.github.io/Reverse-Engineering-Laser-Rangefinder/)
 * [Smart Stove Monitor](https://ambersileyang.hashnode.dev/smart-stove-monitor)
