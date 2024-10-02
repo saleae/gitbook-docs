@@ -12,9 +12,27 @@ Then, in the Settings window, scroll to the bottom until you reach the Custom Lo
 
 ![Custom Low Level Analyzers Directory Location](<../../.gitbook/assets/Screen Shot 2021-04-05 at 3.26.38 PM.png>)
 
-Click the browse button to select the directory that contains your compiled custom protocol analyzer.
+Click the browse button to select the directory that contains your compiled custom protocol analyzer. Depending on your OS, your custom built analyer will be located in the folder below by default.
 
-Finally, save the dialog and restart the software. Your custom analyzer should now appear in the list of available protocol analyzers!
+#### Windows:
+
+```
+\build\Analyzers\Release\<Custom Analyzer>.dll
+```
+
+#### MacOS:
+
+```
+/build/Analyzers/<Custom Analyzer>.so
+```
+
+#### Ubuntu:
+
+```
+/build/Analyzers/<Custom Analyzer>.so
+```
+
+Once the folder location containing your custom analyzer is specified, save the dialog and restart the software. Your custom analyzer should now appear in the list of available protocol analyzers!
 
 ### MacOS Errors
 
