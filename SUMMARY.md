@@ -92,6 +92,7 @@
   * [Measurement Extensions](extensions/measurement-extensions.md)
   * [Extension File Format](extensions/extension-file-format.md)
   * [About Third-Party Extensions](extensions/about-third-party-extensions.md)
+  * [Disabling Marketplace Extensions](extensions/disabling-marketplace-extensions.md)
   * [Publish an Extension](extensions/publish-an-extension.md)
   * [HLA - Analyzer Frame Format](extensions/analyzer-frame-types/README.md)
     * [Async Serial - Frame Format](extensions/analyzer-frame-types/serial-analyzer.md)
