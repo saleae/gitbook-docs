@@ -17,6 +17,7 @@ This list contains authorized distributors selling Saleae devices. Please note t
 * [Adafruit Industries](https://www.adafruit.com/?q=Saleae&)
 * [James Electronics LTD (Jameco Electronics)](https://www.jameco.com/shop/KeywordSearchResultView?langId=-1\&storeId=10001\&catalogId=10001\&search\_type\_c=jamecoall\&freeText=saleae)
 * [Microchip Technology Inc.](https://www.microchipdirect.com/product/search/all/saleae)
+* [Mouser Electronics, Inc.](https://www.mouser.com/c/?m=Saleae)
 * [RobotShop](https://www.robotshop.com/search?type=product\&options%5Bprefix%5D=last\&options%5Bunavailable\_products%5D=last\&q=saleae)
 * [SparkFun Electronics](https://www.sparkfun.com/search/results?term=saleae)
 * [TestEquity](https://www.testequity.com/brand/Saleae/category/all)
