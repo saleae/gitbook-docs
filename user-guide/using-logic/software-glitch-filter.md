@@ -32,4 +32,4 @@ Please note that the Logic Pro devices have narrow hysteresis thresholds, which 
 [supported-voltages.md](../supported-voltages.md)
 {% endcontent-ref %}
 
-The glitch filter can be set for any individual digital channel. We recommend only adding the filter to channels where noise is a problem. The glitch filter rejects all pulses narrower than a specific width. That width can be specified either by a specific maximum time.
+The glitch filter can be set for any individual digital channel. We recommend only adding the filter to channels where noise is a problem. The glitch filter will reject all pulses narrower than the specified width.
