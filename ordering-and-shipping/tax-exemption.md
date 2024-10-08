@@ -6,11 +6,15 @@
 Please wait for our support team's approval email (usually 1-2 business days after the tax exemption certificate is provided) before placing your tax exempt order. Our process is highlighted below.
 {% endhint %}
 
-### Process for Removing Tax Charges
+### Process for Removing Tax Charges (US Orders)
 
-This process applies to online orders that will ship to the state of California. Online orders that will ship to all other U.S. states will not be charged taxes by default.
+We currently charge taxes on orders that ship to the following US states:
 
-1. Please review [California's Resale Certificate Requirements](https://www.taxes.ca.gov/Sales\_and\_Use\_Tax/ResaleCertificate.html) and ensure that your tax exemption certificate meets these requirements.
+* Arizona, California, Colorado, Florida, Illinois, Maryland, Massachusetts, Michigan, Minnesota, Pennsylvania, Texas, Washington
+
+Online orders that will ship to all other U.S. states will not be charged taxes by default. The process below can be followed to remove tax charges for tax-exempt orders that will be shipping to the above listed US states.
+
+1. Please ensure that your tax exemption certificate meets the requirements for your particular state. You can refer to [California's Resale Certificate Requirements](https://www.taxes.ca.gov/Sales\_and\_Use\_Tax/ResaleCertificate.html) as an example.
 2. Before placing your online order at [www.saleae.com](https://www.saleae.com/), please [contact us](https://contact.saleae.com/hc/en-us/requests/new) and let us know you would like sales tax removed on future orders. Include an attachment of your tax exemption certificate.
 3. Wait for our support team's approval email (usually 1-2 business days after the tax exemption certificate is provided).
 4. After receiving approval, your future orders on [www.saleae.com](https://www.saleae.com/) will be tax-exempt when using the email you have provided us.
