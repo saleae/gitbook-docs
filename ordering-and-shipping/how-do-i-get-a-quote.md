@@ -1,10 +1,8 @@
-# How to Get a Quote
+# Get a Quote
 
 You can click on the link below to submit a quote request form. Once submitted, please allow some time (typically one business day) and we will reach out to you via email with your quote in PDF format.
 
 * ### [Get a Quote](https://saleae-support.typeform.com/to/WnpOte)
-
-##
 
 ### Quote Request Form Not Working?
 
