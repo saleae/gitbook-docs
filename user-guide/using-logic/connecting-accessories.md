@@ -1,20 +1,18 @@
 # Logic Accessories
 
-## Gen 2 Logic Accessories
-
-The following accessories and instructions apply to our Gen 2 products - Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16.
+The following accessories and instructions apply to the following Saleae Logic products - Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16.
 
 ### **Wire Harness (Gen 2 Version)**
 
 A 2x4 wire harness is used by Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16, which are our 2nd-generation logic analyzers.
 
-![2x4 Wire Harness](https://trello-attachments.s3.amazonaws.com/57215c90531737cce422992f/400x231/79023c1e979c03d8db6b3103c30927e8/11\_small.jpg)
+<figure><img src="../../.gitbook/assets/SAL-00097.webp" alt="" width="563"><figcaption><p>2x4 Wire Harness</p></figcaption></figure>
 
 ### **Connecting the Wire Harness**
 
 If you have Logic 4, Logic 8, or Logic Pro 8/16, then you have one or more 2x4 wire harnesses. The four black leads are ground and should be on the bottom. The four colored leads are the signal inputs and should be on the top. There is an indication of this orientation on the back of the device.
 
-![](https://trello-attachments.s3.amazonaws.com/57215c90531737cce422992f/400x286/2bed434b565a948eda840a10a1d6477a/Logic\_Gen\_2\_Wire\_Harness\_Connection.jpg)
+<figure><img src="../../.gitbook/assets/Logic Accessory Connection (1).jpg" alt=""><figcaption><p>Connecting the Wire Harness</p></figcaption></figure>
 
 Note that the test lead color matches the channels in the software. The colors reflect the resistor color code for numbers 0–7. The numerical channel number is on the white heat shrink at the ends of the leads. The lead ends are made up of the following parts:
 
@@ -31,7 +29,7 @@ Note that the ground leads are shorted internally. Therefore, when signal integr
 
 All Logic products come with enough test clips for every test lead. These test clips have two metal pins that can be inserted into the connector at the end of each test lead. Only one of the metal pins needs to be connected to a single test lead connector.
 
-![](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/57215c90531737cce422992f/30ee8a4c58cd97cde782a7f01b247895/test-clip-connection.png)
+<figure><img src="../../.gitbook/assets/Connecting the Test Clip.jpg" alt="" width="428"><figcaption><p>Connecting the Test Clip(s)</p></figcaption></figure>
 
 ### **Connecting to Headers**
 
@@ -49,13 +47,13 @@ The following accessories and instructions apply to our Gen 1 products - Origina
 
 A 1x9 wire harness is used by the Original Logic and Logic16, which are our 1st-generation products.
 
-![1x9 Wire Harness](https://trello-attachments.s3.amazonaws.com/57215c90531737cce422992f/400x231/b03f9a1030ab24689cd4d4c51cbba700/15\_small.jpg)
+<figure><img src="../../.gitbook/assets/SAL-00094.webp" alt="" width="563"><figcaption><p>1x9 Wire Harness</p></figcaption></figure>
 
 ### **Connecting the Wire Harness**
 
 If you have the original Logic or Logic 16, then you have one or more 1x9 wire harnesses. These harnesses are colored according to the resistor color code for 0–7. The colors match the channel colors in the software. The ground wire is grey and has a GROUND label on the white heat shrink. Turn the device over for a ground symbol, and make sure the grey test lead aligns with this symbol.
 
-![](https://trello-attachments.s3.amazonaws.com/57215c90531737cce422992f/400x300/3cbff1eee93b43855110b62a4b837e14/Generation\_1\_Wire\_Harnness\_Connection.jpg)
+<figure><img src="../../.gitbook/assets/Connecting the 1x9 Wire Harness.jpg" alt=""><figcaption></figcaption></figure>
 
 ### **Signal Integrity with the Gen 1 Harness**
 
