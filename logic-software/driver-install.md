@@ -129,8 +129,9 @@ Instructions:&#x20;
 2. Open terminal
 3. Run the command below (replace "xxxxxx" with the characters shown in your "Install a udev rules" popup window)
 4. Close the Logic app
-5. Disconnect and reconnect your Logic analyzer
-6. Open the Logic app
+5. Log out & log back in to your PC
+6. Disconnect and reconnect your Logic analyzer
+7. Open the Logic app
 
 `cat /tmp/.mount_Logic-xxxxxx/resources/linux/99-SaleaeLogic.rules | sudo tee /etc/udev/rules.d/99-SaleaeLogic.rules > /dev/null && echo "finished installing /etc/udev/rules.d/99-SaleaeLogic.rules"`
 
@@ -138,18 +139,18 @@ Instructions:&#x20;
 
 In case you run into any issues with installing the udev rule file using the command mentioned above, you can attempt to install it manually.
 
-1\. Download the udev rule file below.
+1. Download the udev rule file below.
 
 {% file src="../.gitbook/assets/99-SaleaeLogic.rules" %}
 
-2\. Copy the file into the rules directory with the following command:\
-`sudo cp 99-SaleaeLogic.rules /etc/udev/rules.d`
+2. Copy the file into the rules directory with the following command:\
+   `sudo cp 99-SaleaeLogic.rules /etc/udev/rules.d`
+3. Verify that the rule file was installed with the following command:\
+   `cat /etc/udev/rules.d/99-SaleaeLogic.rules`
+4. Close the Logic app
+5. Log out & log back in to your PC
+6. If your Logic analyzer was connected to your PC during this process, disconnect and reconnect your Logic analyzer
+7. Open the Logic app
+8. If at this point, the udev rule has still not installed properly, please disconnect your Logic device and restart your PC and test again afterwards.
 
-3\. Verify that the rule file was installed with the following command:\
-`cat /etc/udev/rules.d/99-SaleaeLogic.rules`
-
-4\. If Logic was connected during the install, unplug and reconnect your Logic device to the PC.
-
-5\. If at this point, the udev rule has still not installed properly, please disconnect your Logic device and restart your PC and test again afterwards.\
-&#x20;\
 In case the above steps don't help, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) and send us the command line output from the udev rull install commands above.
