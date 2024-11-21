@@ -199,6 +199,7 @@
   * [Error: An unknown error occurred during device connection](troubleshooting/error-an-unknown-error-occurred-during-device-connection.md)
   * [Visual Studio Error: Failed to Launch Debug Adapter](troubleshooting/visual-studio-error-failed-to-launch-debug-adapter.md)
   * [VS Code Fails to Launch Python Automation API Script](troubleshooting/vs-code-fails-to-launch-python-automation-api-script.md)
+  * [Analog Waveforms Do Not Appear on Linux](troubleshooting/analog-waveforms-do-not-appear-on-linux.md)
 * [FAQ](faq/README.md)
   * [Technical FAQ](faq/technical-faq/README.md)
     * [System Requirements for Saleae Products](faq/technical-faq/system-requirements-for-saleae-products.md)
