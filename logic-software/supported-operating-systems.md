@@ -8,7 +8,7 @@ The Logic 2 Software is supported in the following operating systems and can be 
 
 * Windows 10, & 11 (x64)
 * MacOS 10.14+ (Intel / ARM Apple silicon)
-* Ubuntu 18.04.5+ (64-bit)
+* Ubuntu 20.04+ (64-bit)
 
 ### About Windows 8 Support
 
