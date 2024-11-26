@@ -24,11 +24,19 @@ For now, if you feel your graphics card may be the culprit, you may try the trou
 
 ### Linux Solutions
 
-#### 1. Try running the latest version of Logic 2
+#### 1. Ensure you are running a supported version of Ubuntu
+
+Our list of supported operating systems can be found in the link below. You'll want to ensure you are running a supported version of Ubuntu.
+
+{% content-ref url="../logic-software/supported-operating-systems.md" %}
+[supported-operating-systems.md](../logic-software/supported-operating-systems.md)
+{% endcontent-ref %}
+
+#### 2. Try running the latest version of Logic 2
 
 Starting version v2.3.22, we fixed an issue with the software immediately crashing upon opening on Linux. You can download the latest version of the software [here](https://www.saleae.com/downloads/).
 
-#### 2. Launch the app with `--no-sandbox`
+#### 3. Launch the app with `--no-sandbox`
 
 When launching the software from the terminal normally, you may see the following error message.
 
@@ -38,14 +46,14 @@ If you see this error message, try launching the software with the `--no-sandbox
 
 * `./Logic --no-sandbox`
 
-#### **3. Launch the app with `--disable-gpu` or `--in-process-gpu`**
+#### **4. Launch the app with `--disable-gpu` or `--in-process-gpu`**
 
 Try each one of these command line arguments one at time. We've seen a handful of launch crashes where the Chromium GPU process repeatedly fails to start, causing the app to give up and exit. If you see a console message like "GPU process isn't usable. Goodbye.", this might fix it.
 
 * `./Logic-2.*-master.AppImage --disable-gpu`
 * `./Logic-2.*-master.AppImage --in-process-gpu`
 
-#### 4. Install libnsl
+#### 5. Install libnsl
 
 If you are attempting to run our Logic 2 software on Linux, take a look at the output of the following commands.
 
@@ -62,7 +70,7 @@ It seems that some Linux distributions may have removed libnsl, and that reinsta
 
 `yum install libnsl`
 
-#### 5. Avoid launching the software with root permissions
+#### 6. Avoid launching the software with root permissions
 
 Instead, you'll want to install the udev rules file to allow the non-elevated application to work with devices. Instructions for installing the udev rules file can be found in the support article below.
 
@@ -71,14 +79,6 @@ Instead, you'll want to install the udev rules file to allow the non-elevated ap
 {% endcontent-ref %}
 
 We've seen GPU issues on Linux where the application will crash on launch due to the GPU process repeatedly crashing on launch.
-
-#### 6. Install Ubuntu 18+
-
-Unfortunately, newer versions of our Logic 2 software (starting v2.3.33) no longer supports Ubuntu 16 (Ubuntu LTS 16 ended its support in April 2021). We have since updated our Logic 2 software to support Ubuntu 18.04.5+ (64 bit) as mentioned below. We apologize for the inconvenience this causes. Should you have any questions, feel free to [contact us](https://contact.saleae.com/hc/en-us/requests/new).
-
-{% content-ref url="../logic-software/supported-operating-systems.md" %}
-[supported-operating-systems.md](../logic-software/supported-operating-systems.md)
-{% endcontent-ref %}
 
 **7. On Fedora, try installing `libxcrypt-compat`**
 
