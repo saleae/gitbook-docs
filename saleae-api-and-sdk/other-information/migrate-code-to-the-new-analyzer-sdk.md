@@ -18,14 +18,14 @@ The latest source code to all analyzers can be found below.
 **Update Steps**
 
 1\. Inherit from Analyzer2 instead of Analyzer in the .h ex:\
-_SerialAnalyzer.h_
+&#xNAN;_&#x53;erialAnalyzer.h_
 
 ```
 class ANALYZER_EXPORT SerialAnalyzer : public Analyzer2
 ```
 
 2\. Implement the function _SetupResults_ in .cpp ex:\
-_SerialAnalyzer.cpp_
+&#xNAN;_&#x53;erialAnalyzer.cpp_
 
 ```
 void SerialAnalyzer::SetupResults()   

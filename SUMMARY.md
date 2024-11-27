@@ -140,7 +140,7 @@
   * [Error Message: Out of Memory Exception Was Thrown](troubleshooting/error-out-of-memory-exception.md)
   * [PC Performance Issues with Logic](troubleshooting/pc-performance-issues.md)
   * [Data Export Is Not Working](troubleshooting/the-logic-softwares-data-export-feature-is-not-working-properly.md)
-  * [Error Message: A Logic Device Was Found, but There Was a Problem Connecting to It](troubleshooting/error-a-logic-device-found.md)
+  * [Error Message: A device was found, but the software was unable to access it](troubleshooting/error-a-logic-device-found.md)
   * [Trouble Downloading the Latest Software](troubleshooting/trouble-downloading-the-latest-software.md)
   * [Logic Does Not Connect over USB 3.0](troubleshooting/logic-does-not-connect-over-usb3.md)
   * [Why Am I Seeing Spikes in the Digital Capture?](troubleshooting/seeing-spikes-in-digital-capture.md)

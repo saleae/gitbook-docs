@@ -28,7 +28,7 @@ You will want to whitelist or add the following domains to your SSL no-check lis
 In case whitelisting the above URLs doesn't solve this for you, you may need to whitelist additional web API traffic that contains certain properties listed below.
 
 * Check if the web traffic IP is outside of your network's own IP range.
-* Check if the header contains _Electron._ Our application is _Electron-_based and attempts to use Google Chrome’s stock network stack to make web requests and download files.
+* Check if the header contains _Electron._ Our application is _Electron-_&#x62;ased and attempts to use Google Chrome’s stock network stack to make web requests and download files.
 * Check if traffic comes from a Saleae domain or GitHub domain like listed above.
 
 In some cases, the Logic 2 software itself needs to be authenticated with the network before it can make successful web requests, and unfortunately we don’t have a solution for that at the moment.

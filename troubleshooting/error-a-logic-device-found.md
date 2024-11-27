@@ -1,8 +1,10 @@
-# Error Message: A Logic Device Was Found, but There Was a Problem Connecting to It
+# Error Message: A device was found, but the software was unable to access it
 
 ### Windows Error Message
 
-> A Logic device was found, but there was a problem connecting to it. Another application may be using it. Please let us know if the issue persists.
+> A device was found, but the software was unable to access it. Another instance of the Saleae software may be connected to the device.
+
+<figure><img src="../.gitbook/assets/win-another-instance.png" alt="" width="500"><figcaption><p>Windows error message</p></figcaption></figure>
 
 When the software detects a logic analyzer connected to the PC, it asks the operating system for an exclusive handle to the device. This error message is shown when that request is denied.
 
@@ -10,7 +12,7 @@ For a small number of users, this error is shown incorrectly. It is displayed ev
 
 If the title bar says "Connected" after closing this error message, the device and software are actually working normally.
 
-If the title bar says "Disconnected" after closing the error message, then something is wrong. Check for other instances of Logic.exe and close them. Then remove and reconnect the device. If no other instances of Logic.exe are running, you may want to try restarting your computer and then [contact support](https://contact.saleae.com/hc/en-us/requests/new).
+If the software still does not detect the connected device, then something is wrong. Check for other instances of Logic.exe and close them. Then remove and reconnect the device. If no other instances of Logic.exe are running, you may want to try restarting your computer and then [contact support](https://contact.saleae.com/hc/en-us/requests/new).
 
 ### Linux Error Message
 
