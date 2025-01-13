@@ -16,7 +16,13 @@ This error message may appear during device operation, or upon connecting your L
 
 5\. Try removing all other USB devices from your PC before connecting Logic.
 
-6\. In some cases, this issue can be resolved by uninstalling the USB 3 host controller driver, and allowing Windows to automatically re-install the same driver during a reboot. Specifically, this may solve the problem for users with the  Intel USB 3.1 eXtensible Host Controller, like the one shown in the image below. If you have an Intel based USB 3 host controller,  first navigate to the USB host controller driver from Device Manager and double click it to open the properties window, (be sure it's the Intel eXtensible Host Controller) then uninstall the driver by clicking "Uninstall Device" under the Driver tab in the device properties, and restart the PC. Once restarted, Windows will automatically re-install the same driver, and in many cases, this resolved the connectivity issue with our devices.
+6\. Try manually installing the Saleae drivers via the instructions in the below support article.
+
+{% content-ref url="../logic-software/driver-install.md" %}
+[driver-install.md](../logic-software/driver-install.md)
+{% endcontent-ref %}
+
+7\. In some cases, this issue can be resolved by uninstalling the USB 3 host controller driver, and allowing Windows to automatically re-install the same driver during a reboot. Specifically, this may solve the problem for users with the  Intel USB 3.1 eXtensible Host Controller, like the one shown in the image below. If you have an Intel based USB 3 host controller,  first navigate to the USB host controller driver from Device Manager and double click it to open the properties window, (be sure it's the Intel eXtensible Host Controller) then uninstall the driver by clicking "Uninstall Device" under the Driver tab in the device properties, and restart the PC. Once restarted, Windows will automatically re-install the same driver, and in many cases, this resolved the connectivity issue with our devices.
 
 <figure><img src="https://saleae.zendesk.com/attachments/token/PCigwvvDRSXMt84XJXxFRy126/?name=image.png&#x26;lotus_request=true" alt=""><figcaption><p>USB Host Controller Driver Tab</p></figcaption></figure>
 
