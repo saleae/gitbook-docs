@@ -31,6 +31,14 @@ When reviewing user submitted installog.txt files, a common error we see is the 
 
 This is typically solved by performing a Windows Update.
 
+### Manually Installing your Saleae Drivers
+
+Some users have reported that installing the Saleae drivers manually via the methods listed in the support article below solves various install issues.
+
+{% content-ref url="../logic-software/driver-install.md" %}
+[driver-install.md](../logic-software/driver-install.md)
+{% endcontent-ref %}
+
 ### Known Issues with Windows 11 Insider Preview Builds
 
 Installation issues on Windows 11 are typically caused when you are running on an Insider Preview build of Windows 11. We're currently tracking issue reports of this in the [bug report here](https://ideas.saleae.com/b/feature-requests/issues-on-windows-11/).
