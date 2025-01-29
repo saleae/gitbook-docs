@@ -45,7 +45,7 @@ This list contains authorized distributors selling Saleae devices. Please note t
 * [Antratek Electronics](https://www.antratek.com/catalogsearch/result/?q=saleae)
 * [Batronix](http://www.batronix.com/shop/logic-analyzer/Saleae.html)
 * [Elmicro Computer GmbH & Co. KG](http://elmicro.com/de/saleae-logic.html)
-* [eVision Systems GmbH](https://evision-webshop.eu/measuring-testing/analyzer/logic-analyzer)
+* [eVision Instruments GmbH](https://evision-webshop.eu/measuring-testing/analyzer/logic-analyzer)
 * [EXP Tech GmbH](https://exp-tech.de/search?q=saleae)
 * [Meilhaus Electronic GmbH](https://www.meilhaus.de/infos/saleae/)
 
