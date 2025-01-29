@@ -24,20 +24,13 @@ After your order ships, you will receive a second email with a tracking number a
 
 ### Where Will My Order Ship From?
 
-For **online orders** placed at [www.saleae.com](https://www.saleae.com/), the origin of the shipment is determined by the currency your order was paid in. You cannot select the currency. Our cart page selects it automatically depending on the shipping country. Please refer to the table below.
+For **online orders** placed at [www.saleae.com](https://www.saleae.com/), you can view the shipping origin at the bottom right of the cart page underneath the Checkout button, like shown in the example image below.
 
-| **Currency** | **Logic Products Ship From...**                                                                                                           | **Accessories Ship From...**                                                                                                              |
-| ------------ | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| USD          | South San Francisco, CA                                                                                                                   | South San Francisco, CA                                                                                                                   |
-| EUR          | <p>If UPS: Netherlands via EuroLogistix<br><br>If FedEx: South San Francisco, CA (Only if our Netherlands warehouse was out of stock)</p> | <p>If UPS: Netherlands via EuroLogistix<br><br>If FedEx: South San Francisco, CA (Only if our Netherlands warehouse was out of stock)</p> |
-| GBP          | UK via EuroLogistix                                                                                                                       | UK via EuroLogistix                                                                                                                       |
-| CAD          | Canada (Fulfillment by Amazon)                                                                                                            | South San Francisco, CA                                                                                                                   |
-| CNY          | South San Francisco, CA                                                                                                                   | South San Francisco, CA                                                                                                                   |
-| AUD          | South San Francisco, CA                                                                                                                   | South San Francisco, CA                                                                                                                   |
-| JPY          | South San Francisco, CA                                                                                                                   | South San Francisco, CA                                                                                                                   |
-| NT$          | South San Francisco, CA                                                                                                                   | South San Francisco, CA                                                                                                                   |
+<figure><img src="../.gitbook/assets/Screenshot 2025-01-29 at 2.53.16 PM.png" alt=""><figcaption><p>Shipping origin location</p></figcaption></figure>
 
-For **purchase orders (POs)**, orders will ship from South San Francisco, CA in USD. This applies even for international orders outside of the US.
+The origin of the shipment is determined by the shipping country destination that is selected. Please note that you cannot select the currency, as this is automatically determined based on the destination country for the shipment.
+
+Additionally, direct purchase orders (POs) that are processed via email will always ship from Austin, TX, and will be paid in USD currency. This applies even for shipments that will be delivered outside of the US.
 
 ### **No Shipping Days**
 
