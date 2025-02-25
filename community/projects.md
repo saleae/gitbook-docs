@@ -2,6 +2,7 @@
 
 Need an idea for an electronics project? Want to check out some cool gizmos that our community of users have built using our Logic analyzers? We've got a list of some cool projects below!
 
+* [Custom Lithium-Titanate (LTO) Battery Pack and Battery Management System (BMS)](https://far-mat42.github.io/custom-escooter/Battery-and-BMS.html)
 * [Exploiting DIR-600 Router](https://andreivladescu.github.io/Exploiting-DIR-600-Router/)
 * [Reverse Engineering a Pet Camera](https://stackdecoded.com/reversing-petcam/)
 * [Hacking the GL.iNet SFT1200](https://brv.sh/hacking-the-gl.inet-sft1200/)
@@ -17,7 +18,7 @@ Need an idea for an electronics project? Want to check out some cool gizmos that
 * [ESPHome Multiprotocol Smart Home Hub](https://vigue.me/posts/esphome-multiprotocol-smart-home-hub)
 * [A Proof-of-Concept Custom Controller and Hardware HUD for Hardspace Shipbreaker](https://www.mov-eax-rgb.net/blog/custom-hardspace-controller/)
 * [I2C Communication, Raspberry Pi, Pico and Arduino](https://www.youtube.com/watch?v=5YEZSWvD1Gc)
-* [ECU & Telemetry System for Prom Racing’s P22 FSE Vehicle](https://74hct00n.github.io/P22\_ECU\_Telemetry/)
+* [ECU & Telemetry System for Prom Racing’s P22 FSE Vehicle](https://74hct00n.github.io/P22_ECU_Telemetry/)
 * [Building a Custom Keyboard](https://hackaday.io/page/13603-keyboard-not-found-troubles-with-finding-it)
 * [DIY Battery Indicator (Arduino Project)](https://www.youtube.com/watch?v=Mq0WBPKGRew\&t=666s)
 * [GameCube Controller Reverse Engineering](https://jefflongo.dev/posts/gc-controller-reverse-engineering-part-1/)
@@ -31,7 +32,7 @@ Need an idea for an electronics project? Want to check out some cool gizmos that
 * [Go away BitLocker, you´re drunk](https://luemmelsec.github.io/Go-away-BitLocker-you-are-drunk/)
 * [Single-wire: Hardware or software solution?](https://hinterm-ziel.de/index.php/2021/10/30/one-line-only/)
 * [NAMINUKAS - walking, driving, wall climbing & tool using robot](https://naminukas.kikaitachi.com/blog/fport-protocol)
-* [Designing a 24-bit VGA Adapter](https://medium.com/@jeremysee\_2/designing-a-24-bit-vga-adapter-acbcccd3258e)
+* [Designing a 24-bit VGA Adapter](https://medium.com/@jeremysee_2/designing-a-24-bit-vga-adapter-acbcccd3258e)
 * [IC-900 Remote Controller Clone Project Page](https://ke0ff.github.io/RDU900/index.html)
 * [Adding Apple CarPlay to a 2013 Volvo XC70](https://vigue.me/adding-apple-carplay-to-a-2013-volvo-xc70/)
 * [The transformation of my dumb home trainer to a smart Zwift trainer](https://ftmsemu.github.io/)
