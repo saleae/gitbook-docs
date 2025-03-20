@@ -1,12 +1,12 @@
 # Decode Differential and High Voltage Data
 
-## Decode Differential and High Voltage Data
-
 {% hint style="info" %}
 Please review the supported IO voltage thresholds of the product you are using as well as its over-voltage protection. The details for each product can be found below.
 {% endhint %}
 
-{% page-ref page="../../user-guide/supported-voltages.md" %}
+{% content-ref url="../../user-guide/supported-voltages.md" %}
+[supported-voltages.md](../../user-guide/supported-voltages.md)
+{% endcontent-ref %}
 
 ### **RS-232, RS-485, and RS-422**
 
@@ -17,21 +17,20 @@ Please review the supported IO voltage thresholds of the product you are using a
 
 ### **12V and 24V TTL Logic**
 
-* Connecting to higher voltage signals with the new Logic 4, Logic 8, Logic Pro 8, or the Logic Pro 16.
+*   Connecting to higher voltage signals with the new Logic 4, Logic 8, Logic Pro 8, or the Logic Pro 16.
 
-  All four of the new Saleae devices include over-voltage protection to +/- 25 volts. It’s perfectly safe to connect any signal up to this range directly to its inputs.
+    All four of the new Saleae devices include over-voltage protection to +/- 25 volts. It’s perfectly safe to connect any signal up to this range directly to its inputs.
 
-  This may work for most applications. However, keep in mind that the logic threshold \(the trip-point voltage that determines if the input is a logic 0 or a logic 1\) is very low compared to a 12-volt signal. If your signal does not swing all the way to ground or has a very slow transition speed, it may skew the results or simply not read correctly. In these cases, you may want to use a resistor divider to reduce the voltage level, so the trip point will appear to be higher relative to your signal. Keep the bandwidth requirements and Logic’s input capacity in mind when creating a resistor divider.
+    This may work for most applications. However, keep in mind that the logic threshold (the trip-point voltage that determines if the input is a logic 0 or a logic 1) is very low compared to a 12-volt signal. If your signal does not swing all the way to ground or has a very slow transition speed, it may skew the results or simply not read correctly. In these cases, you may want to use a resistor divider to reduce the voltage level, so the trip point will appear to be higher relative to your signal. Keep the bandwidth requirements and Logic’s input capacity in mind when creating a resistor divider.
+*   Connecting to higher voltage signals with the original Logic or Logic16.
 
-* Connecting to higher voltage signals with the original Logic or Logic16.
+    Logic's and Logic16's inputs operate up to 5 volts and have over-voltage protection to protect against short transients up to higher voltages. However, neither product can be directly connected to signals outside the 0V to 5V range.
 
-  Logic's and Logic16's inputs operate up to 5 volts and have over-voltage protection to protect against short transients up to higher voltages. However, neither product can be directly connected to signals outside the 0V to 5V range.
+    To connect Logic to a higher voltage signal, you have several options. In the general case, the best solution is to use a level shifting IC or adapter to convert to a lower voltage.
 
-  To connect Logic to a higher voltage signal, you have several options. In the general case, the best solution is to use a level shifting IC or adapter to convert to a lower voltage.
+    You may also be able to use a resistor divider. However, this will either reduce the input bandwidth of Logic or consume extra power from your circuit, depending on the resistor values.
 
-  You may also be able to use a resistor divider. However, this will either reduce the input bandwidth of Logic or consume extra power from your circuit, depending on the resistor values.
-
-### **Controller Area Network**
+### **CAN (Controller Area Network)**
 
 * Generally, we recommend converting CAN to a single-ended TTL signal before connecting it to Logic. However, in most cases, you can connect the CAN low signal directly to the Logic analyzer. CAN low is electrically similar to single-ended CAN and can be interpreted by our CAN analyzer.
 * Note: If you are using the original Logic16, make sure you have selected the lower voltage setting for 1.8V to 3.3V logic.
@@ -40,21 +39,21 @@ Please review the supported IO voltage thresholds of the product you are using a
 * We recommend verifying that CAN low does swing below the required voltage before making a purchase. Otherwise, a voltage divider or a CAN adapter may be required.
 * The Saleae devices and CAN analyzer were designed with single-ended CAN in mind, for development of CAN devices that contain a CAN transceiver IC. The recommended way to record CAN data is to probe the single-ended signal between the CAN transceiver IC and the application processor.
 
-### **ECL \(Emitter Coupled Logic\)**
+### **ECL (Emitter Coupled Logic)**
 
-ECL logic swings between -1.75 volts \(logic low\) and -0.9 volts \(logic high\). Because none of the Saleae products offer threshold options below ground, ECL cannot be directly recorded with digital inputs. The Logic Pro devices can record these signals in analog, but only at very low bandwidths, and the recorded signal can only be viewed in analog—protocol analyzers and digital measurements can't be applied.
+ECL logic swings between -1.75 volts (logic low) and -0.9 volts (logic high). Because none of the Saleae products offer threshold options below ground, ECL cannot be directly recorded with digital inputs. The Logic Pro devices can record these signals in analog, but only at very low bandwidths, and the recorded signal can only be viewed in analog—protocol analyzers and digital measurements can't be applied.
 
-### **PECL \(Positive Emitter Coupled Logic\)**
+### **PECL (Positive Emitter Coupled Logic)**
 
-PECL swings from +3.4 volts \(logic low\) to +4.2 volts \(logic high\).
+PECL swings from +3.4 volts (logic low) to +4.2 volts (logic high).
 
 The highest threshold option for a Saleae product is only 1.65 volts on the Logic Pro devices, which is not high enough to properly record the PECL signals using the digital inputs. You may want to consider level shifting the signal down or recording it with the analog inputs at a much lower bandwidth.
 
-### **LVDS \(Low Voltage Differential Signaling\)**
+### **LVDS (Low Voltage Differential Signaling)**
 
 As mentioned before, none of the Saleae products have differential inputs. They are single-ended only. Ideally, LVDS signals should be recorded downstream of an LVDS line receiver or transceiver.
 
-Recording directly with single-ended inputs: In situations with programmable drive strength or termination resistors, you may need to first check the signal voltages using the analog recording mode of the new Saleae products. Then check the recorded signals against the voltage threshold\(s\) for the product you are using.
+Recording directly with single-ended inputs: In situations with programmable drive strength or termination resistors, you may need to first check the signal voltages using the analog recording mode of the new Saleae products. Then check the recorded signals against the voltage threshold(s) for the product you are using.
 
 ### **Ethernet**
 
@@ -64,5 +63,4 @@ It is not possible to directly record Ethernet signals with Saleae devices. Howe
 
 10 Mbit data with Manchester encoding has a bandwidth of 20 MHz. To record this with a Saleae device, a minimum sample rate of 80 MHz is required. For this, Logic 8, Logic Pro 8, Logic Pro 16, and the original Logic 16 would be suitable. Be sure to verify the IO standards of the device you will use before implementing the necessary single-ended conversion.
 
-100BASE-T Ethernet and faster cannot be recorded because the signal is tri-state. \(+1V, -1V, and 0V\). No Saleae device is capable of recording digital signals with 3 states, and the analog inputs do not have the required bandwidth to record 100BASE-T signals. Also, protocol decoders cannot be used on analog signals.
-
+100BASE-T Ethernet and faster cannot be recorded because the signal is tri-state. (+1V, -1V, and 0V). No Saleae device is capable of recording digital signals with 3 states, and the analog inputs do not have the required bandwidth to record 100BASE-T signals. Also, protocol decoders cannot be used on analog signals.
