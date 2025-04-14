@@ -14,16 +14,16 @@ You can browse available extensions and quickly install them from our Extensions
 
 High level analyzers are protocol analyzers that process the output of the existing "low level" analyzers already in the app. You can write your own in Python. This lets you create powerful new analyzers without needing to reinvent the wheel. So far, our favorite application of high level analyzers is converting existing decoded I2C bytes into clean, decoded messages specific to the I2C device we're working with, to easily read recorded I2C traffic without needing to go back to the datasheet.
 
-{% content-ref url="high-level-analyzer-extensions.md" %}
-[high-level-analyzer-extensions.md](high-level-analyzer-extensions.md)
+{% content-ref url="high-level-analyzer-extensions/" %}
+[high-level-analyzer-extensions](high-level-analyzer-extensions/)
 {% endcontent-ref %}
 
 ### Digital and Analog Measurements
 
 Digital and analog measurement extensions let you write python code that processes a selected range of analog or digital data, and produces metrics. For example, if you would like to calculate the jitter in a digital clock recording, You can simply write a python script which iterates over the transitions in the selected range, and computes the deviation from nominal. Once written, just shift+click a region of a digital channel, and your measurement result will appear in the list with the other measurements!
 
-{% content-ref url="measurement-extensions.md" %}
-[measurement-extensions.md](measurement-extensions.md)
+{% content-ref url="measurement-extensions/" %}
+[measurement-extensions](measurement-extensions/)
 {% endcontent-ref %}
 
 

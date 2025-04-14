@@ -5,12 +5,12 @@ description: Learn how to modify your new Measurement
 # Measurement Extensions
 
 {% hint style="warning" %}
-This guide assumes that you have familiarity with the [Python](https://www.python.org/) programming language. It is what will be used to customize our Measurement.
+This guide assumes that you have familiarity with the [Python](https://www.python.org/) programming language. It is what will be used to customize our Measurement. Browse user shared [Analog Measurement Extensions](analog-measurement-extensions.md) and [Digital Measurement Extensions](digital-measurement-extensions.md) for own use or inspiration.
 {% endhint %}
 
 ## Overview
 
-This guide assumes [you have generated](extensions-quickstart.md) a new Digital Measurement. In this guide you will learn about:
+This guide assumes [you have generated](../extensions-quickstart.md) a new Digital Measurement. In this guide you will learn about:
 
 1. The files included in the Digital Measurement template extension and what they are.
 2. The different parts of `DigitalMeasurement.py`.
@@ -25,7 +25,7 @@ In your new Measurement extension folder you will find 3 files:
 * `extension.json`
   * Every extension must have this file in its root directory.
   * Contains metadata about the extension, and the HLAs and Measurement scripts that are included with the extension.
-  * See [Extension File Format](extension-file-format.md) for more information.
+  * See [Extension File Format](../extension-file-format.md) for more information.
 * `DigitalMeasurement.py` or `AnalogMeasurement.py`
   * Python source code for your measurement.
 
@@ -54,7 +54,7 @@ class MyDigitalMeasurement(DigitalMeasurer):
     return values
 ```
 
-Analog measurements are implemented with a class template that looks like below. Take a look at [`voltage_peak_to_peak.py`](https://github.com/saleae/logic2-extensions-examples/blob/master/voltagePeakToPeak/voltage\_peak\_to\_peak.py) to see how this was modified for an example analog extension.
+Analog measurements are implemented with a class template that looks like below. Take a look at [`voltage_peak_to_peak.py`](https://github.com/saleae/logic2-extensions-examples/blob/master/voltagePeakToPeak/voltage_peak_to_peak.py) to see how this was modified for an example analog extension.
 
 ```python
 from saleae.range_measurements import AnalogMeasurer
@@ -133,7 +133,7 @@ def process_data(self, data):
           self.edge_count += 1
 ```
 
-Currently, the `DigitalData` collection will first include the starting time and bit state, and then every transition that exists in the user selected range, if any. It also exposes the starting and ending time of the user-selected measurement range. Consult the [API Documentation](api-documentation.md) for details.
+Currently, the `DigitalData` collection will first include the starting time and bit state, and then every transition that exists in the user selected range, if any. It also exposes the starting and ending time of the user-selected measurement range. Consult the [API Documentation](../api-documentation.md) for details.
 
 ### Measure
 
@@ -146,10 +146,10 @@ in the future, we may allow the user to select which metrics to compute. To avoi
 ## What's Next?
 
 * Browse the Saleae Marketplace in Logic 2 for more ideas and examples of extensions you can create.
-* [Publish your extension](publish-an-extension.md) to the Saleae Marketplace!
+* [Publish your extension](../publish-an-extension.md) to the Saleae Marketplace!
 
-{% content-ref url="publish-an-extension.md" %}
-[publish-an-extension.md](publish-an-extension.md)
+{% content-ref url="../publish-an-extension.md" %}
+[publish-an-extension.md](../publish-an-extension.md)
 {% endcontent-ref %}
 
 
