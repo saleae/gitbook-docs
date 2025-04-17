@@ -315,6 +315,7 @@
     * [Is Silent Installation Supported?](faq/technical-faq/is-silent-installation-supported.md)
     * [Is the .sal File Format Documented?](faq/technical-faq/sal-file-format.md)
     * [Export Data via Socket API](faq/technical-faq/export-data.md)
+    * [Running Logic in a CI Environment on Windows with the SYSTEM Account](faq/technical-faq/running-logic-in-a-ci-environment-on-windows-with-the-system-account.md)
   * [General FAQ](faq/general-faq/README.md)
     * [How Do I Get More Help on an Issue That's Outside the Scope of Saleae Support?](faq/general-faq/help-outside-scope.md)
     * [How to Identify Each Saleae Device](faq/general-faq/identify-each-saleae-device.md)
