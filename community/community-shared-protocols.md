@@ -9,7 +9,8 @@ The following analyzers are not officially supported nor developed by Saleae, bu
 * [Async Serial (Dual channel & Packet detection) ★ 0](https://github.com/martonmiklos/dual-channel-packetiser-serial-analyzer)
 * [CAN-FD ★ 8](https://github.com/acosmith/Saleae_CAN-FD_Analyser) (developed by [acosmith](https://github.com/acosmith))
 * [CAN-FD ★ 30](https://github.com/pierremolinaro/canfd-plugin-for-saleae-logic-analyzer) (developed by [pierremolinaro](https://github.com/pierremolinaro))
-* [CAN 2.0B ★ 13](https://github.com/pierremolinaro/can20B-plugin-for-saleae-logic-analyzer) 
+* [CAN-XL](https://github.com/xdvorakv/Saleae_CAN-XL_Protocol_Analyzer)
+* [CAN 2.0B ★ 13](https://github.com/pierremolinaro/can20B-plugin-for-saleae-logic-analyzer)
 * [DCC Analyzer ★ 1](https://github.com/nmradcc/DCCAnalyzer)
 * [Digital Command Control](https://www.ejberg.dk/portfolio/saleae-dcc-decoder/)
 * [DHT2x ★ 7](https://github.com/jakeson21/DHT2xProtocolAnalyzer)
@@ -40,7 +41,7 @@ The following analyzers are not officially supported nor developed by Saleae, bu
 * [Quadrature ★ 14](https://github.com/dirkx/Quadrature-Saleae-Analyser)
 * [Realtek TX2/RX2 ★ 9](https://github.com/pzl/Saleae-Realtek-T-RX2)
 * [Robotis Dynamixel Servos ★ 2](https://github.com/KurtE/SaleaeDynamixelAnalyzer)
-* [S/PDIF ★ 17](https://github.com/pfrench42/saleae\_spdif)
+* [S/PDIF ★ 17](https://github.com/pfrench42/saleae_spdif)
 * [SD/MMC ★ 37](https://github.com/airbus-seclab/sdmmc-analyzer)
 * [SDIO ★ 9](https://github.com/bdodge/SDIOanalyzer) (developed by [bdodge](https://github.com/bdodge))
 * [SDIO ★ 33](https://github.com/ewfuentes/SaleaeSDIOAnalyzer) (developed by [ewfuentes](https://github.com/ewfuentes))
@@ -48,8 +49,8 @@ The following analyzers are not officially supported nor developed by Saleae, bu
 * [SENT Analyzer ★ 12](https://github.com/melexis/SENTAnalyzer)
 * [Smart Cards and SIM cards ★ 37](https://github.com/dirkx/saleae-logic-ISO7816-smartcard-Analyser)
 * [Smart Cards and SIM cards (with added features) ★ 13](https://github.com/watsug/saleae-logic-ISO7816-smartcard-Analyser)
-* [SPI Flash ★ 41](https://github.com/kasjer/saleae\_spiflash)
-* [TDM Analyzer ★ 12](https://github.com/bitswype/saleae\_tdm\_analyer)
+* [SPI Flash ★ 41](https://github.com/kasjer/saleae_spiflash)
+* [TDM Analyzer ★ 12](https://github.com/bitswype/saleae_tdm_analyer)
 * [Time Delta ★ 1](https://github.com/GrandFatherADI/TimeDelta)
 * [TWI Analyzer ★ 4](https://github.com/szechyjs/TwiAnalyzer)
 * [USB Analyzer (This version filters out SOF packets) ★ 1](https://github.com/jonathangjertsen/usb-analyzer)
@@ -77,6 +78,6 @@ Some of the community analyzers listed above are distributed as source code (not
 ### Community Shared Protocol Tools
 
 * [UsbInsight ★ 5](https://github.com/maehw/UsbInsight) - USB LS/FS Decoder for Saleae Logic CSV Exports
-* [Enrichable SPI Analyzer ★ 6](https://github.com/coddingtonbear/saleae-enrichable-spi-analyzer) with an [Example Implementation](https://github.com/coddingtonbear/saleae-scriptable-spi-analyzer/blob/master/examples/custom\_class.py)
+* [Enrichable SPI Analyzer ★ 6](https://github.com/coddingtonbear/saleae-enrichable-spi-analyzer) with an [Example Implementation](https://github.com/coddingtonbear/saleae-scriptable-spi-analyzer/blob/master/examples/custom_class.py)
 * [HLA Stream Parser ★ 0](https://github.com/andreobi/HLA_Stream_Parser)
 * [BitLocker SPI Toolkit (HLA) ★ 297](https://github.com/FSecureLABS/bitlocker-spi-toolkit)
