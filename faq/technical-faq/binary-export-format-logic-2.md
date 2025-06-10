@@ -18,6 +18,13 @@ If you were looking into converting your .sal capture file into the binary file 
 
 ## Binary Export Format - Logic 2
 
+{% hint style="info" %}
+This documentation is for binary export version 0, which is still in use for Logic 8, Logic Pro 8, and Logic Pro 16. Upcoming products use version 1, which is documented here: [binary-and-csv-export-formats-logic-2-2025-update.md](binary-and-csv-export-formats-logic-2-2025-update.md "mention")\
+Logic 8, Logic Pro 8, and Logic Pro 16 exports will be updated to use the new version 1 binary export format soon, but for now, they only support the original version, version 0.
+{% endhint %}
+
+
+
 In Logic 2, both digital and analog binary files start with the same header, which can be used to determine the type of data stored in the file.
 
 * All multi-byte values are in little endian byte-order

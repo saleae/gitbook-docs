@@ -307,6 +307,7 @@
     * [Is My Capture Data Private?](faq/technical-faq/is-my-capture-data-private.md)
     * [Ethernet Connectivity Suggestions](faq/technical-faq/ethernet-connectivity.md)
     * [Binary Export Format - Logic 2](faq/technical-faq/binary-export-format-logic-2.md)
+    * [Binary and CSV Export Formats - Logic 2 - 2025 Update](faq/technical-faq/binary-and-csv-export-formats-logic-2-2025-update.md)
     * [Viewing I2C Addresses as 8-bit](faq/technical-faq/viewing-i2c-addresses-as-8-bit.md)
     * [Can I use Python Packages in my Custom Extension?](faq/technical-faq/python-package-support.md)
     * [Are the Inputs Synchronously Sampled or Sweep Sampled?](faq/technical-faq/are-the-inputs-synchronously-sampled-or-sweep-sampled.md)
