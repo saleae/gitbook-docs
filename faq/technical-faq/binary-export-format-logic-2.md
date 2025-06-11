@@ -1,29 +1,23 @@
 # Binary Export Format - Logic 2
 
 {% hint style="info" %}
-The binary file format summarized in this support article pertains to binary files exported via exporting raw data described in the support article linked below.
+This documentation is for binary export version 0, which is still in use for Logic 8, Logic Pro 8, and Logic Pro 16. Upcoming products use version 1, which is documented here: [binary-and-csv-export-formats-logic-2-2025-update.md](binary-and-csv-export-formats-logic-2-2025-update.md "mention")\
+Logic 8, Logic Pro 8, and Logic Pro 16 exports will be updated to use the new version 1 binary export format soon, but for now, they only support the original version, version 0.
 {% endhint %}
+
+The binary file format summarized in this support article pertains to binary files exported via exporting raw data described in the support article linked below.
 
 {% content-ref url="../../user-guide/using-logic/exporting-data.md" %}
 [exporting-data.md](../../user-guide/using-logic/exporting-data.md)
 {% endcontent-ref %}
 
-{% hint style="info" %}
 If you were looking into converting your .sal capture file into the binary file format described in the support article, you can refer to the support article linked below.
-{% endhint %}
 
 {% content-ref url="sal-file-format.md" %}
 [sal-file-format.md](sal-file-format.md)
 {% endcontent-ref %}
 
-## Binary Export Format - Logic 2
-
-{% hint style="info" %}
-This documentation is for binary export version 0, which is still in use for Logic 8, Logic Pro 8, and Logic Pro 16. Upcoming products use version 1, which is documented here: [binary-and-csv-export-formats-logic-2-2025-update.md](binary-and-csv-export-formats-logic-2-2025-update.md "mention")\
-Logic 8, Logic Pro 8, and Logic Pro 16 exports will be updated to use the new version 1 binary export format soon, but for now, they only support the original version, version 0.
-{% endhint %}
-
-
+## Binary Format Summary
 
 In Logic 2, both digital and analog binary files start with the same header, which can be used to determine the type of data stored in the file.
 
@@ -46,7 +40,7 @@ Types:\
 
 The remaining format is based on the type of the data.
 
-## Digital
+## Digital Structure
 
 File structure (starting with the shared header above)
 
@@ -62,7 +56,7 @@ for each transition in num_transitions
     double transition_time;
 ```
 
-## Analog
+## Analog Structure
 
 File structure (starting with the shared header above)
 
