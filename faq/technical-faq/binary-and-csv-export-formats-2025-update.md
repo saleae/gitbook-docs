@@ -1,16 +1,15 @@
-# Binary and CSV Export Formats - Logic 2 - 2025 Update
+# Binary and CSV Export Formats - 2025 Update
 
-The Logic 2 binary export file format is being updated to support new Saleae products.
+{% hint style="info" %}
+The Logic 2 binary export file format is being updated to support new Saleae products. This documentation is for binary export version 1.
 
-Existing products, including Logic 8, Logic Pro 8, and Logic Pro 16 still use the original binary export (version 0) however those will be updated to support the new export format soon.
+Existing products, including Logic 8, Logic Pro 8, and Logic Pro 16, still use the original binary export (version 0), however those will be updated to support the new export format soon.
 
-Version 0, still in use for Logic 8, Logic Pro 8, and Logic Pro 16, is documented here:
+Version 0, still in use for Logic 8, Logic Pro 8, and Logic Pro 16, is documented in the support article linked below.\
+[binary-export-format-logic-2.md](binary-export-format-logic-2.md "mention")
+{% endhint %}
 
-{% content-ref url="binary-export-format-logic-2.md" %}
-[binary-export-format-logic-2.md](binary-export-format-logic-2.md)
-{% endcontent-ref %}
-
-### Binary Export format
+## Binary Export Format (Version 1)
 
 Logic 2 exports both digital and analog data in binary formats that start with a common header to identify the file type and version.
 
@@ -22,8 +21,6 @@ Logic 2 exports both digital and analog data in binary formats that start with a
 * Version 0 files are still used for non-MSO devices
 
 #### Common Header
-
-
 
 All binary export files start with this header:
 
@@ -39,8 +36,6 @@ int32 type;           // 0 = Digital, 1 = Analog
 * `1` - Analog data
 
 #### Digital Binary Format (Version 1)
-
-
 
 The current digital format supports gaps in data and multiple sampling configurations:
 
@@ -69,8 +64,6 @@ for each chunk in chunk_count:
 
 #### Analog Binary Format (Version 1)
 
-
-
 The current analog format supports multiple waveforms with trigger information:
 
 ```
@@ -95,13 +88,9 @@ for each waveform in waveform_count:
 * `trigger_time` indicates when the trigger occurred
 * `downsample` factor indicates if data was decimated during export
 
-#### Python Parsing Examples
+## Python Parsing Examples
 
-
-
-**Digital Data Parser**
-
-
+### **Digital Data Parser**
 
 ```python
 import struct
@@ -215,9 +204,7 @@ if __name__ == '__main__':
     print_digital_data(data)
 ```
 
-**Analog Data Parser**
-
-
+### **Analog Data Parser**
 
 ```python
 import struct

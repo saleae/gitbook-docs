@@ -1,7 +1,7 @@
-# Binary Export Format - Logic 2
+# Binary Export Format - Version 0
 
 {% hint style="info" %}
-This documentation is for binary export version 0, which is still in use for Logic 8, Logic Pro 8, and Logic Pro 16. Upcoming products use version 1, which is documented here: [binary-and-csv-export-formats-logic-2-2025-update.md](binary-and-csv-export-formats-logic-2-2025-update.md "mention")\
+This documentation is for binary export version 0, which is still in use for Logic 8, Logic Pro 8, and Logic Pro 16. Upcoming products use version 1, which is documented here: [binary-and-csv-export-formats-2025-update.md](binary-and-csv-export-formats-2025-update.md "mention")\
 Logic 8, Logic Pro 8, and Logic Pro 16 exports will be updated to use the new version 1 binary export format soon, but for now, they only support the original version, version 0.
 {% endhint %}
 
@@ -17,7 +17,7 @@ If you were looking into converting your .sal capture file into the binary file 
 [sal-file-format.md](sal-file-format.md)
 {% endcontent-ref %}
 
-## Binary Format Summary
+## Binary Export Format (Version 0)
 
 In Logic 2, both digital and analog binary files start with the same header, which can be used to determine the type of data stored in the file.
 
@@ -40,7 +40,7 @@ Types:\
 
 The remaining format is based on the type of the data.
 
-## Digital Structure
+#### Digital Binary Format (Version 0)
 
 File structure (starting with the shared header above)
 
@@ -56,7 +56,7 @@ for each transition in num_transitions
     double transition_time;
 ```
 
-## Analog Structure
+#### Analog Binary Format (Version 0)
 
 File structure (starting with the shared header above)
 
