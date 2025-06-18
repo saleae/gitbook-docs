@@ -115,7 +115,7 @@ This list contains authorized distributors selling Saleae devices. Please note t
 * [Innovate Software Solutions Pvt. Ltd.](https://www.innovatesolutions.net/cart/)
 * [MaxEye](https://maxeyetech.com/)
 * [MicroEmbesys Technologies Pvt Ltd](http://microembesys.com/logic-analyzer/)
-* [Uchi Embedded Solutions](https://uchiembedded.co.in/Logic_Analyzers.html)
+* [Uchi Embedded Solutions](https://www.uchiembedded.co.in/analyzers)
 
 ### Japan
 
