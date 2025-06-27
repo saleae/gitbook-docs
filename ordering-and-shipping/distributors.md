@@ -25,6 +25,10 @@ This list contains authorized distributors selling Saleae devices. Please note t
 
 ## Europe
 
+### Austria
+
+* [x.test GmbH](https://eshop.xtest.at/)
+
 ### Belgium
 
 * [Antratek Electronics](https://www.antratek.com/catalogsearch/result/?q=saleae)
