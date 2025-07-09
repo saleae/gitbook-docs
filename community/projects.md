@@ -2,6 +2,7 @@
 
 Need an idea for an electronics project? Want to check out some cool gizmos that our community of users have built using our Logic analyzers? We've got a list of some cool projects below!
 
+* [Taking a look under the hood: Bolt E-Scooter ECU Reverse Engineering](https://medium.com/@colgiuovidiu591/taking-a-look-under-the-hood-bolt-e-scooter-ecu-reverse-engineering-7260f4399643)
 * [Custom Lithium-Titanate (LTO) Battery Pack and Battery Management System (BMS)](https://far-mat42.github.io/custom-escooter/Battery-and-BMS.html)
 * [Exploiting DIR-600 Router](https://andreivladescu.github.io/Exploiting-DIR-600-Router/)
 * [Reverse Engineering a Pet Camera](https://stackdecoded.com/reversing-petcam/)
