@@ -96,13 +96,13 @@ def parse_digital(f):
     if identifier != b"<SALEAE>":
         raise Exception("Not a saleae file")
 
-    version, datatype = struct.unpack('=ii', f.read(8))
+    version, datatype = struct.unpack('<ii', f.read(8))
 
     if version != expected_version or datatype != TYPE_DIGITAL:
         raise Exception("Unexpected data type: {}".format(datatype))
 
     # Parse digital-specific data
-    initial_state, begin_time, end_time, num_transitions = struct.unpack('=iddq', f.read(28))
+    initial_state, begin_time, end_time, num_transitions = struct.unpack('<iddq', f.read(28))
 
     # Parse transition times
     transition_times = array.array('d')
@@ -182,13 +182,13 @@ def parse_analog(f):
     if identifier != b"<SALEAE>":
         raise Exception("Not a saleae file")
 
-    version, datatype = struct.unpack('=ii', f.read(8))
+    version, datatype = struct.unpack('<ii', f.read(8))
 
     if version != expected_version or datatype != TYPE_ANALOG:
         raise Exception("Unexpected data type: {}".format(datatype))
 
     # Parse analog-specific data
-    begin_time, sample_rate, downsample, num_samples = struct.unpack('=dqqq', f.read(32))
+    begin_time, sample_rate, downsample, num_samples = struct.unpack('<dqqq', f.read(32))
 
     # Parse samples
     samples = array.array("f")
