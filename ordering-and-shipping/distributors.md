@@ -90,6 +90,10 @@ This list contains authorized distributors selling Saleae devices. Please note t
 * [Berkin Engineering](https://berkinengineering.com/en/)
 * [Kami Teknoloji](https://www.kamitekno.com)
 
+### Ukraine
+
+* [EVONET.UA LLC](https://evo.net.ua/)
+
 ### United Kingdom
 
 * [Amazon United Kingdom](https://www.amazon.co.uk/Logic-Pro-16-Red-16-Channel/dp/B074TK7T3H/)
