@@ -92,7 +92,7 @@ This list contains authorized distributors selling Saleae devices. Please note t
 
 ### Ukraine
 
-* [EVONET.UA LLC](https://evo.net.ua/)
+* [EVONET.UA LLC](https://evo.net.ua/katalog/search/?q=saleae)
 
 ### United Kingdom
 
