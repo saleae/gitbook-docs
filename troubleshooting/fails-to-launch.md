@@ -53,7 +53,7 @@ Try each one of these command line arguments one at time. We've seen a handful o
 * `./Logic-2.*-master.AppImage --disable-gpu`
 * `./Logic-2.*-master.AppImage --in-process-gpu`
 
-#### 5. Install libnsl
+#### 5. Install missing libraries
 
 If you are attempting to run our Logic 2 software on Linux, take a look at the output of the following commands.
 
@@ -69,6 +69,8 @@ Open the generated output file and search for a line similar to the following:
 It seems that some Linux distributions may have removed libnsl, and that reinstalling it solves this issue. The command to install it will depend on the package repository for your specific OS. For example, for the yum package manager:
 
 `yum install libnsl`
+
+Depending on your Linux distro, other libraries may be missing which you may need to install, as a user mentioned that `libcrypt.so.1` was missing on their Linux installation.
 
 #### 6. Avoid launching the software with root permissions
 
