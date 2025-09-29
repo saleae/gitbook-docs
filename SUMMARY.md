@@ -66,6 +66,7 @@
   * [Installation](logic-software/sw-installation.md)
   * [Firmware Updates](logic-software/firmware-updates.md)
   * [Driver Install](logic-software/driver-install.md)
+  * [Extensions, APIs, and SDKs](logic-software/extensions-apis-and-sdks.md)
   * [Legacy Software](logic-software/legacy-software/README.md)
     * [Logic 1.x Download (Deprecated)](logic-software/legacy-software/older-software-releases.md)
     * [Logic 1.x Installation (Deprecated)](logic-software/legacy-software/logic-1.x-installation.md)
