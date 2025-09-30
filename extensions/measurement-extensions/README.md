@@ -1,5 +1,5 @@
 ---
-description: Learn how to creare and modify your Measurement Extensions
+description: Learn how to create and modify your Measurement Extensions
 ---
 
 # Measurement Extensions
