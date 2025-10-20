@@ -1,6 +1,6 @@
 # Saleae Support
 
-Welcome to our support site! Quickly find information using the **search bar** located at the top-right.
+Welcome to our support site! Quickly find information using the **search bar** located at the top right.
 
 Whether you own the Saleae Logic or not, the best way to discover Saleae Logic would be to follow our **Getting Started** guide below.
 
