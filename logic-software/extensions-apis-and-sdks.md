@@ -32,8 +32,8 @@ Logic 2 comes with [23 built-in protocol analyzers](https://support.saleae.com/p
 
 ### [Logic 2 Automation (Python)](https://saleae.github.io/logic2-automation/)
 
-If you're looking to automate measurements in Logic 2, the Logic 2 Automation Interface allows you to remote-control the Logic 2 application using gRPC ([https://grpc.io/](https://grpc.io/)) and is exposed as a Python library which wraps the gRPC interface.
+The Logic 2 Automation API allows you to record, analyze, export, and save captures using Saleae's Logic 2 software and USB Logic Analyzers (Logic 8, Pro 8, and Pro 16). Saleae provides a python library, as well as direct gRPC ([https://grpc.io/](https://grpc.io/))  support, which can be used directly from any gRPC supported language (C#, C++, Java, Javascript, Go, etc.)
 
 ### [Logic MSO Automation (Python)](https://docs.saleae.com/mso-api/v0.5.1/)
 
-Our new headless Logic MSO Automation API enables direct Python control of the Logic MSO hardware through a lightweight driver layer. This streamlined approach is ideal for data collection and analysis when the digital protocol decoders found in Logic 2 are not needed.
+Our new headless Logic MSO Automation API enables direct Python control of the Logic MSO hardware through a lightweight library. This streamlined approach is ideal for data collection and analysis when the digital protocol decoders found in Logic 2 are not needed.
