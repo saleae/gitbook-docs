@@ -61,8 +61,8 @@ The following analyzers are not officially supported nor developed by Saleae, bu
 
 The instructions for installing an analyzer is described in the article below.
 
-{% content-ref url="../faq/technical-faq/setting-up-developer-directory.md" %}
-[setting-up-developer-directory.md](../faq/technical-faq/setting-up-developer-directory.md)
+{% content-ref url="../troubleshooting/technical-faq/setting-up-developer-directory.md" %}
+[setting-up-developer-directory.md](../troubleshooting/technical-faq/setting-up-developer-directory.md)
 {% endcontent-ref %}
 
 In case the library file (.dll, .so, or .dylib depending on your OS) is not provided in the respective GitHub repository, then you will need to build it.

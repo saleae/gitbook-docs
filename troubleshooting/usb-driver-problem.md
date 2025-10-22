@@ -16,8 +16,8 @@ The two known USB host controller driver combinations with problems (ASMedia hos
 
 if you are running into any connectivity issues, feel free to collect the information about your USB host controller (instructions in the support article below) and contact [Saleae support](https://contact.saleae.com/hc/en-us/requests/new).
 
-{% content-ref url="../faq/technical-faq/usb-3.0-host-controller-info.md" %}
-[usb-3.0-host-controller-info.md](../faq/technical-faq/usb-3.0-host-controller-info.md)
+{% content-ref url="technical-faq/usb-3.0-host-controller-info.md" %}
+[usb-3.0-host-controller-info.md](technical-faq/usb-3.0-host-controller-info.md)
 {% endcontent-ref %}
 
 #### Troubleshooting your Connection
@@ -80,8 +80,8 @@ Note: `lsusb` must be run when the Saleae Logic device is connected.
 
 In our older Logic 1.x software, you can identify which USB 3.0 host controller(s) is installed on your system. Most machines will have a single USB 3.0 host controller and two USB 2.0 host controllers. To find the installed host controller(s), please follow the instructions below.
 
-{% content-ref url="../faq/technical-faq/usb-3.0-host-controller-info.md" %}
-[usb-3.0-host-controller-info.md](../faq/technical-faq/usb-3.0-host-controller-info.md)
+{% content-ref url="technical-faq/usb-3.0-host-controller-info.md" %}
+[usb-3.0-host-controller-info.md](technical-faq/usb-3.0-host-controller-info.md)
 {% endcontent-ref %}
 
 ## Unsupported Operating Systems
@@ -99,7 +99,7 @@ These driver links should only be used if you are using Windows 7. Not all drive
 * **Host: Renesas/NEC** \
   Source: From card or motherboard vendor \
   Version: 2.1.36.0 \
-  Link: [https://www.rosewill.com/rosewill-rc-505-2-port-usb-3-0-pci-express-card.html#product\_tabs\_Downloads](https://www.rosewill.com/rosewill-rc-505-2-port-usb-3-0-pci-express-card.html#product\_tabs\_Downloads)
+  Link: [https://www.rosewill.com/rosewill-rc-505-2-port-usb-3-0-pci-express-card.html#product\_tabs\_Downloads](https://www.rosewill.com/rosewill-rc-505-2-port-usb-3-0-pci-express-card.html#product_tabs_Downloads)
 * **Host: Intel 7 series** \
   Source: Direct (Intel) \
   Version: 1.0.10.255 \
@@ -111,11 +111,11 @@ These driver links should only be used if you are using Windows 7. Not all drive
 * **Host: ASMedia 3.0 or 3.1** \
   Source: From card or motherboard vendor \
   Version: 1.16.23.0 \
-  Link: [https://www.asus.com/Motherboard-Accessories/USB\_31\_TYPEA\_CARD/HelpDesk\_Download/](https://www.asus.com/Motherboard-Accessories/USB\_31\_TYPEA\_CARD/HelpDesk\_Download/) Note: All ASMedia devices (3.0 and 3.1) use the same driver
+  Link: [https://www.asus.com/Motherboard-Accessories/USB\_31\_TYPEA\_CARD/HelpDesk\_Download/](https://www.asus.com/Motherboard-Accessories/USB_31_TYPEA_CARD/HelpDesk_Download/) Note: All ASMedia devices (3.0 and 3.1) use the same driver
 * **Host: ETRON** \
   Source: Direct (Etron) \
   Version: 1.0.0.118 \
-  Link: [http://www.etron.com/en/products/u3hc\_detial.php?Product\_ID=6](http://www.etron.com/en/products/u3hc\_detial.php?Product\_ID=6) \
+  Link: [http://www.etron.com/en/products/u3hc\_detial.php?Product\_ID=6](http://www.etron.com/en/products/u3hc_detial.php?Product_ID=6) \
   Note: Click link in navigation for "Driver Download." Used for all models/revisions
 * **Host: Texas Instruments** \
   Source: Direct (Ti) \

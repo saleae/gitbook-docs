@@ -28,7 +28,7 @@ In addition, please keep in mind that newer versions of our Logic hardware (afte
 * Next, we must enable the scripting socket server. Open Options Menu at the top of the software.
 * Select Preferences
 * Under the Developer Tab, check the box to enable socket server\
-  &#x20;![](https://trello-attachments.s3.amazonaws.com/5615390cb22fd44d4ccedc6f/396x306/67677307eaf2bd57d85b18c834c92149/check\_box.png)
+  &#x20;![](https://trello-attachments.s3.amazonaws.com/5615390cb22fd44d4ccedc6f/396x306/67677307eaf2bd57d85b18c834c92149/check_box.png)
 * Save Changes
 * Accept firewall changes if the OS requests it
 
@@ -52,8 +52,8 @@ For simple automation requirements, we suggest using our [Python Sample Applicat
 
 The [Python Sample Application](https://github.com/saleae/python-saleae-cli) implements a very basic form of data export via csv. If more export options are needed, please see the article below:
 
-{% content-ref url="../faq/technical-faq/export-data.md" %}
-[export-data.md](../faq/technical-faq/export-data.md)
+{% content-ref url="../troubleshooting/technical-faq/export-data.md" %}
+[export-data.md](../troubleshooting/technical-faq/export-data.md)
 {% endcontent-ref %}
 
 You may also send supported socket commands directly via the terminal using the Python wrapper, as shown below. See our [list of supported commands](https://github.com/saleae/SaleaeSocketApi/blob/master/Doc/Logic%20Socket%20API%20Users%20Guide.md).

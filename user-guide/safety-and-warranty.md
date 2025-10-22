@@ -10,8 +10,8 @@ The input channels on Saleae Logic analyzers are not electrically isolated from 
 
 Suggestions for electrical isolation can be found in the link below:
 
-{% content-ref url="../faq/technical-faq/suggestions-for-electrical-isolation.md" %}
-[suggestions-for-electrical-isolation.md](../faq/technical-faq/suggestions-for-electrical-isolation.md)
+{% content-ref url="../troubleshooting/technical-faq/suggestions-for-electrical-isolation.md" %}
+[suggestions-for-electrical-isolation.md](../troubleshooting/technical-faq/suggestions-for-electrical-isolation.md)
 {% endcontent-ref %}
 
 ### **High Voltage Safety**

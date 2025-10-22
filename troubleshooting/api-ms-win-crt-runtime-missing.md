@@ -4,8 +4,8 @@ Versions of the Saleae Logic Windows software starting with 1.2.11 require the M
 
 Details for the standalone installation can be found here:
 
-{% content-ref url="../faq/technical-faq/standalone-software-info.md" %}
-[standalone-software-info.md](../faq/technical-faq/standalone-software-info.md)
+{% content-ref url="technical-faq/standalone-software-info.md" %}
+[standalone-software-info.md](technical-faq/standalone-software-info.md)
 {% endcontent-ref %}
 
 If you see either of the below errors, it is possible that the runtime is not installed properly.
@@ -45,4 +45,4 @@ If the software still does not launch after trying the troubleshooting steps, pl
 
 Example:
 
-![all msvc versions installed](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/5a7908b0d5066be3af960718/e679644cb7b9edf8d23253829f167af8/all\_msvcs.png)
+![all msvc versions installed](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/5a7908b0d5066be3af960718/e679644cb7b9edf8d23253829f167af8/all_msvcs.png)

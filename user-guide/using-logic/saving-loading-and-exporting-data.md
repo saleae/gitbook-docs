@@ -38,8 +38,8 @@ To manage and open legacy capture files that were generated using the older Logi
 
 For now, please refer to the support article below for more information on this topic.
 
-{% content-ref url="../../faq/technical-faq/open-logicdata-files.md" %}
-[open-logicdata-files.md](../../faq/technical-faq/open-logicdata-files.md)
+{% content-ref url="../../troubleshooting/technical-faq/open-logicdata-files.md" %}
+[open-logicdata-files.md](../../troubleshooting/technical-faq/open-logicdata-files.md)
 {% endcontent-ref %}
 
 

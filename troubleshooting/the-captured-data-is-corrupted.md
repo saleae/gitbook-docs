@@ -2,8 +2,8 @@
 
 If you are seeing issues with corrupt data in your recording, please check your host controller driver version using the instructions in the link below.
 
-{% content-ref url="../faq/technical-faq/usb-3.0-host-controller-info.md" %}
-[usb-3.0-host-controller-info.md](../faq/technical-faq/usb-3.0-host-controller-info.md)
+{% content-ref url="technical-faq/usb-3.0-host-controller-info.md" %}
+[usb-3.0-host-controller-info.md](technical-faq/usb-3.0-host-controller-info.md)
 {% endcontent-ref %}
 
 ### Known Issues with VIA USB Host Controllers

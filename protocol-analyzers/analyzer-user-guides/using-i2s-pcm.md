@@ -20,12 +20,12 @@ The Saleae I2S analyzer does not support any Mono formats.
 
 Even when the I2S settings have signed number selected, unsigned numbers may always be shown.
 
-![unsigned problem](https://trello-attachments.s3.amazonaws.com/563bcc5548813a99d37d24c3/290x91/dab45355226161740fa4c5f30c74abd4/unsigned\_issue.PNG)
+![unsigned problem](https://trello-attachments.s3.amazonaws.com/563bcc5548813a99d37d24c3/290x91/dab45355226161740fa4c5f30c74abd4/unsigned_issue.PNG)
 
 This issue is solved by changing the display radix from ascii to decimal. Although a decimal number is shown, the single quotes indicate that the ascii display mode is active, but the number is considered a non-displayable character (in this case, outside of the low ascii range completely) so the text string defaults to unsigned decimal. Changing the display radix to decimal will show the signed number.
 
-{% content-ref url="../../faq/technical-faq/changing-the-display-radix.md" %}
-[changing-the-display-radix.md](../../faq/technical-faq/changing-the-display-radix.md)
+{% content-ref url="../../troubleshooting/technical-faq/changing-the-display-radix.md" %}
+[changing-the-display-radix.md](../../troubleshooting/technical-faq/changing-the-display-radix.md)
 {% endcontent-ref %}
 
 #### Analyer Result displays "Error: bits don't divide evenly between subframes"
@@ -44,8 +44,8 @@ That means the bits are being decoded at the exact moment the bits are changing,
 
 For more information on this, please see the link below.
 
-{% content-ref url="../../faq/technical-faq/convert-i2s-pcm-to-audio.md" %}
-[convert-i2s-pcm-to-audio.md](../../faq/technical-faq/convert-i2s-pcm-to-audio.md)
+{% content-ref url="../../troubleshooting/technical-faq/convert-i2s-pcm-to-audio.md" %}
+[convert-i2s-pcm-to-audio.md](../../troubleshooting/technical-faq/convert-i2s-pcm-to-audio.md)
 {% endcontent-ref %}
 
 

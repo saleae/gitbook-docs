@@ -29,8 +29,8 @@ This may indicate a potentially different issue and could be caused by one of th
 * If using the newer Logic products, disable all analog channels, enable a single digital channel, and note the maximum digital sampling rate that can capture data consistently without the error. Capturing analog data at any sampling rate maximizes the bandwidth usage capability of Logic, so we want to disable analog to effectively lower Logic's USB bandwidth usage.
 * If on USB 2.0, try moving all attached devices to one host controller so Logic has its own host controller. Try both host controllers since one may perform better than the other. Instructions to test this are below.
 
-{% content-ref url="../faq/technical-faq/move-logic-to-its-own-host-controller.md" %}
-[move-logic-to-its-own-host-controller.md](../faq/technical-faq/move-logic-to-its-own-host-controller.md)
+{% content-ref url="technical-faq/move-logic-to-its-own-host-controller.md" %}
+[move-logic-to-its-own-host-controller.md](technical-faq/move-logic-to-its-own-host-controller.md)
 {% endcontent-ref %}
 
 * If a USB hub is required to use your Logic analyzer (for example, your PC only has USB-C ports and you require a USB-C hub), please try disabling USB selective suspend. An example in Windows is shown below via right clicking your USB hub in Device Manager and clicking Properties. Then navigate to the Power Management tab and you will find an options to "Allow the computer to turn off this device to save power." Uncheck this option.
@@ -46,8 +46,8 @@ If the error persists after trying the troubleshooting steps, please [contact su
 * What OS you are using, the version of that OS, and if it is 32-bit or 64-bit
 * The host controller(s) installed in your system, including the driver version. See the article below for instructions on how to find it.
 
-{% content-ref url="../faq/technical-faq/usb-3.0-host-controller-info.md" %}
-[usb-3.0-host-controller-info.md](../faq/technical-faq/usb-3.0-host-controller-info.md)
+{% content-ref url="technical-faq/usb-3.0-host-controller-info.md" %}
+[usb-3.0-host-controller-info.md](technical-faq/usb-3.0-host-controller-info.md)
 {% endcontent-ref %}
 
 * Screenshots or a detailed description of the error message(s) you're seeing in the software
@@ -59,7 +59,7 @@ If you are using the older Logic 1.x software, the following error message will 
 
 `We're sorry, but the device was not able to keep up with this sample rate. If you continue to see this message, please contact Saleae technical support. Would you like to keep the data collected so far?`
 
-![Logic can't keep up](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/55f0e75a10f9f592573a8232/035ff5a3b79830f7bcd2dccca570674f/logic\_cant\_keep\_up.png)
+![Logic can't keep up](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/55f0e75a10f9f592573a8232/035ff5a3b79830f7bcd2dccca570674f/logic_cant_keep_up.png)
 
 ## **Considerations for the Original Logic**
 

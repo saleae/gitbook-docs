@@ -18,8 +18,8 @@ In the settings, specify which input channels are used for the I2C signals SDA a
 
 Please note that I2C addresses are displayed as 7-bit numbers. We share a support article below to help display I2C addresses as 8-bit if preferred.
 
-{% content-ref url="../../faq/technical-faq/viewing-i2c-addresses-as-8-bit.md" %}
-[viewing-i2c-addresses-as-8-bit.md](../../faq/technical-faq/viewing-i2c-addresses-as-8-bit.md)
+{% content-ref url="../../troubleshooting/technical-faq/viewing-i2c-addresses-as-8-bit.md" %}
+[viewing-i2c-addresses-as-8-bit.md](../../troubleshooting/technical-faq/viewing-i2c-addresses-as-8-bit.md)
 {% endcontent-ref %}
 
 ### **Common Issues with Noise Around Clock Edges**

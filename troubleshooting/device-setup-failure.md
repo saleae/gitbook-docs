@@ -27,6 +27,6 @@ _"We're sorry, but an error occurred when issuing the start command to the devic
 
 As mentioned in the _DeviceSetupFailure_ section above shown in the Logic 2 software, Etron USB host controllers may be the cause of the issue. You can check your USB host controller information from within the Logic 1.x software by following the instructions in the support article below.
 
-{% content-ref url="../faq/technical-faq/usb-3.0-host-controller-info.md" %}
-[usb-3.0-host-controller-info.md](../faq/technical-faq/usb-3.0-host-controller-info.md)
+{% content-ref url="technical-faq/usb-3.0-host-controller-info.md" %}
+[usb-3.0-host-controller-info.md](technical-faq/usb-3.0-host-controller-info.md)
 {% endcontent-ref %}

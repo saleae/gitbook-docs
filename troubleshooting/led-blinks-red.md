@@ -28,8 +28,8 @@ Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if the red
 * Did your Saleae Logic previously work on your PC?
 * Share the following screenshot of your USB host controller with us.
 
-{% content-ref url="../faq/technical-faq/usb-3.0-host-controller-info.md" %}
-[usb-3.0-host-controller-info.md](../faq/technical-faq/usb-3.0-host-controller-info.md)
+{% content-ref url="technical-faq/usb-3.0-host-controller-info.md" %}
+[usb-3.0-host-controller-info.md](technical-faq/usb-3.0-host-controller-info.md)
 {% endcontent-ref %}
 
 

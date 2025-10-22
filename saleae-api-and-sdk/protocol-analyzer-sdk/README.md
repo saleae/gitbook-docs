@@ -1,7 +1,7 @@
 # Protocol Analyzer SDK
 
 {% hint style="info" %}
-Instructions for loading existing custom analyzers into the Logic software can be found here: [Import Custom Low Level Analyzer](../../faq/technical-faq/setting-up-developer-directory.md)
+Instructions for loading existing custom analyzers into the Logic software can be found here: [Import Custom Low Level Analyzer](../../troubleshooting/technical-faq/setting-up-developer-directory.md)
 {% endhint %}
 
 The Saleae Protocol Analyzer SDK lets you make your own custom protocol analyzers. The framework is very flexible. You can do everything we can do (we use the same SDK). You'll be creating a shared library (.dll for Windows, .so for Linux, or .dylib for MacOS) that will be loaded by the Logic software as a plugin.
@@ -15,7 +15,7 @@ That said, you can get away with implementing only a small part of the full capa
 In most cases, you will want to start out with our fully featured, and maximally simple, [SampleAnalyzer](https://github.com/saleae/SampleAnalyzer). In this Github repository, we provide two helpful documents.
 
 1. [Readme](https://github.com/saleae/SampleAnalyzer/blob/master/readme.md) - This document will walk you through how to modify the SampleAnalyzer to suit your needs, including steps to rename, setup, build, and debug your analyzer.
-2. [Analyzer\_API](https://github.com/saleae/SampleAnalyzer/blob/master/docs/Analyzer\_API.md) - This is the documentation for the Saleae C++ Analyzer API.
+2. [Analyzer\_API](https://github.com/saleae/SampleAnalyzer/blob/master/docs/Analyzer_API.md) - This is the documentation for the Saleae C++ Analyzer API.
 
 As an alternative, you may also get started with any of our pre-installed protocol analyzers or one of many community shared protocol analyzers. Source code for both are provided in a section below in this support article.
 
@@ -27,8 +27,8 @@ Our SampleAnalyzer automatically fetches the latest library files located on our
 
 ### Installing your Custom Analyzers
 
-{% content-ref url="../../faq/technical-faq/setting-up-developer-directory.md" %}
-[setting-up-developer-directory.md](../../faq/technical-faq/setting-up-developer-directory.md)
+{% content-ref url="../../troubleshooting/technical-faq/setting-up-developer-directory.md" %}
+[setting-up-developer-directory.md](../../troubleshooting/technical-faq/setting-up-developer-directory.md)
 {% endcontent-ref %}
 
 ### Pre-Installed Analyzers Source Code

@@ -29,7 +29,7 @@ If the software is able to capture data, but the captured data looks random or c
 
 Even with the Logic hardware inputs disconnected, the analog capture may look like the image below. The solution is to simply download the [latest version of Logic software](https://www.saleae.com/downloads/). We made some incremental changes to the Logic hardware (no new functionality) that makes it incompatible with Logic software versions prior to 1.2.15.
 
-![](../.gitbook/assets/2018-09-19\_1124.png)
+![](../.gitbook/assets/2018-09-19_1124.png)
 
 **Check the Ground Connection**
 
@@ -124,12 +124,12 @@ If your digital capture looks correct but the analog capture does not, please se
 
 See this article for more information about the maximum digital and analog bandwidth for each device:
 
-{% content-ref url="../faq/technical-faq/what-is-the-maximum-bandwidth.md" %}
-[what-is-the-maximum-bandwidth.md](../faq/technical-faq/what-is-the-maximum-bandwidth.md)
+{% content-ref url="technical-faq/what-is-the-maximum-bandwidth.md" %}
+[what-is-the-maximum-bandwidth.md](technical-faq/what-is-the-maximum-bandwidth.md)
 {% endcontent-ref %}
 
 For more information about the bandwidth requirements for any given signal, please see this article:
 
-{% content-ref url="../faq/technical-faq/what-sample-rate-is-required.md" %}
-[what-sample-rate-is-required.md](../faq/technical-faq/what-sample-rate-is-required.md)
+{% content-ref url="technical-faq/what-sample-rate-is-required.md" %}
+[what-sample-rate-is-required.md](technical-faq/what-sample-rate-is-required.md)
 {% endcontent-ref %}

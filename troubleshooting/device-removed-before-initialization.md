@@ -34,8 +34,8 @@ If the error message persists, please [contact us](https://contact.saleae.com/hc
 
 2\. Share your USB host controller information like shown in the support article below. Screenshots would be great.
 
-{% content-ref url="../faq/technical-faq/usb-3.0-host-controller-info.md" %}
-[usb-3.0-host-controller-info.md](../faq/technical-faq/usb-3.0-host-controller-info.md)
+{% content-ref url="technical-faq/usb-3.0-host-controller-info.md" %}
+[usb-3.0-host-controller-info.md](technical-faq/usb-3.0-host-controller-info.md)
 {% endcontent-ref %}
 
 3\. Share your crash logs with us. To collect logs on windows, you can run the application from the console like so:\
@@ -46,8 +46,8 @@ The logs will be printed directly to the console while the application is runnin
 
 4\. Let us know which specific Saleae Logic model you own. You can refer to the support article below.
 
-{% content-ref url="../faq/general-faq/identify-each-saleae-device.md" %}
-[identify-each-saleae-device.md](../faq/general-faq/identify-each-saleae-device.md)
+{% content-ref url="general-faq/identify-each-saleae-device.md" %}
+[identify-each-saleae-device.md](general-faq/identify-each-saleae-device.md)
 {% endcontent-ref %}
 
 5\. Share your Machine ID.
