@@ -32,7 +32,7 @@
   * [Logic Hardware Revisions](datasheets-and-specifications/logic-hardware-revisions.md)
   * [Logic Dimensions](datasheets-and-specifications/connector-dimensions.md)
   * [Compliance Documents](datasheets-and-specifications/compliance-documentation.md)
-* [Pricing and Availability](pricing-and-availability.md)
+* [Pricing & Availability](pricing-and-availability.md)
 * [Returns & Warranty](180-day-return-policy-and-3-year-warranty/README.md)
   * [Submit a Warranty Claim](180-day-return-policy-and-3-year-warranty/process-a-warranty.md)
 * [Getting Started](getting-started/README.md)
