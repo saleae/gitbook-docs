@@ -21,19 +21,11 @@ You can take a look at an [example GitHub repository](https://github.com/timreye
 
 1\. Once you've finished developing your extension, click 'Publish' under the Extensions panel for your extension.
 
-<div align="left">
-
-<img src="../.gitbook/assets/Screen Shot 2020-06-10 at 8.40.05 PM.png" alt="">
-
-</div>
+<div align="left"><img src="../../../.gitbook/assets/Screen Shot 2020-06-10 at 8.40.05 PM.png" alt=""></div>
 
 2\. Clicking 'Publish' should open your browser and load our extensions submission page. Provide your GitHub repository URL here and click 'Submit'.
 
-<div align="left">
-
-<img src="../.gitbook/assets/Screen Shot 2020-06-11 at 8.52.44 PM.png" alt="">
-
-</div>
+<div align="left"><img src="../../../.gitbook/assets/Screen Shot 2020-06-11 at 8.52.44 PM.png" alt=""></div>
 
 {% hint style="info" %}
 If clicking the Publish button doesn't open your browser, you can manually reach our Extensions Marketplace Publish site via the link below:
@@ -49,25 +41,13 @@ If clicking "Submit" takes you to an error page on GitHub's website, please ensu
 
 4\. Click 'Authorize' and you should immediately receive an email confirming that your extension has been added to the Marketplace. The web page should also confirm that your extension was submitted successfully.
 
-<div align="left">
-
-<img src="../.gitbook/assets/Screen Shot 2020-06-11 at 9.31.38 PM.png" alt="">
-
-</div>
+<div align="left"><img src="../../../.gitbook/assets/Screen Shot 2020-06-11 at 9.31.38 PM.png" alt=""></div>
 
 5\. Click the three dots at the top of the Extensions panel and click 'Check for Extension Updates.'
 
-<div align="left">
-
-<img src="../.gitbook/assets/Screen Shot 2020-06-11 at 11.10.17 PM.png" alt="">
-
-</div>
+<div align="left"><img src="../../../.gitbook/assets/Screen Shot 2020-06-11 at 11.10.17 PM.png" alt=""></div>
 
 6\. Congratulations! If the publish was successful, your extension should now appear in the software like below.
 
-<div align="left">
-
-<img src="../.gitbook/assets/Screen Shot 2020-06-11 at 9.17.50 PM.png" alt="">
-
-</div>
+<div align="left"><img src="../../../.gitbook/assets/Screen Shot 2020-06-11 at 9.17.50 PM.png" alt=""></div>
 

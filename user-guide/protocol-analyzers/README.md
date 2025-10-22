@@ -10,14 +10,14 @@ Check out Saleae's **officially supported protocol analyzers** below.
 
 Our passionate users have also been kind to share several **community-developed protocol analyzers**. Although we don't officially support these analyzers, it's a great resource for sharing your work amongst engineers!
 
-{% content-ref url="../community/community-shared-protocols.md" %}
-[community-shared-protocols.md](../community/community-shared-protocols.md)
+{% content-ref url="../../community/community-shared-protocols.md" %}
+[community-shared-protocols.md](../../community/community-shared-protocols.md)
 {% endcontent-ref %}
 
 Can't find an analyzer you need? **Develop your own protocol analyzer** using our Protocol Analyzer SDK below.
 
-{% content-ref url="../saleae-api-and-sdk/protocol-analyzer-sdk/" %}
-[protocol-analyzer-sdk](../saleae-api-and-sdk/protocol-analyzer-sdk/)
+{% content-ref url="../extensions-apis-and-sdks/saleae-api-and-sdk/protocol-analyzer-sdk/" %}
+[protocol-analyzer-sdk](../extensions-apis-and-sdks/saleae-api-and-sdk/protocol-analyzer-sdk/)
 {% endcontent-ref %}
 
 

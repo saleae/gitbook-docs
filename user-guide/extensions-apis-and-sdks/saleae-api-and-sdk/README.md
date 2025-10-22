@@ -1,4 +1,4 @@
-# Automation & Analyzer SDK
+# Automation API & Analyzer SDK
 
 ### Protocol Analyzer SDK
 
@@ -30,8 +30,8 @@ A link to our Legacy Logic 1.x Automation Utility is provided below for referenc
 
 In addition, please keep in mind that newer versions of our Logic hardware (after revision 3.0.0) will no longer work with the older Logic 1.x software. If this poses any issues, please [contact us](https://contact.saleae.com/hc/en-us/requests/new). A brief summary of our hardware revisions are described in the support article below.
 
-{% content-ref url="../datasheets-and-specifications/logic-hardware-revisions.md" %}
-[logic-hardware-revisions.md](../datasheets-and-specifications/logic-hardware-revisions.md)
+{% content-ref url="../../../datasheets-and-specifications/logic-hardware-revisions.md" %}
+[logic-hardware-revisions.md](../../../datasheets-and-specifications/logic-hardware-revisions.md)
 {% endcontent-ref %}
 
 

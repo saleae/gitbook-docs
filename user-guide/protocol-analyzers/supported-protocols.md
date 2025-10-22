@@ -32,7 +32,7 @@ The Saleae Logic software includes the following protocol analyzers:
 
 We've worked closely with the team at Binho LLC to develop a 3rd party I3C Protocol Analyzer plugin for our Saleae Logic software! This plugin is developed by Binho LLC and will require a paid license to use it within our software. If you're interested in more details, [please contact us here](https://contact.saleae.com/hc/en-us/requests/new)!
 
-![I3C Analyzer running on Logic 2](../.gitbook/assets/i3c-analyzer-in-action.gif)
+![I3C Analyzer running on Logic 2](../../.gitbook/assets/i3c-analyzer-in-action.gif)
 
 ### Analyzer User Guides
 
@@ -46,8 +46,8 @@ We provide user guides for a handful of our protocol analyzers, which we have li
 
 Some Logic users have created their own protocol analyzers. The following list of analyzers are available but not officially supported by Saleae.
 
-{% content-ref url="../community/community-shared-protocols.md" %}
-[community-shared-protocols.md](../community/community-shared-protocols.md)
+{% content-ref url="../../community/community-shared-protocols.md" %}
+[community-shared-protocols.md](../../community/community-shared-protocols.md)
 {% endcontent-ref %}
 
 ### **Do all Saleae logic analyzer models support these protocols?**

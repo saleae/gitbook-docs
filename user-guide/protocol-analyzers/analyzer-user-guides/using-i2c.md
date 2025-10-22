@@ -2,7 +2,7 @@
 
 The Saleae software includes a protocol analyzer for the I2C protocol.
 
-![I2C Decoding in the Logic 2 Software](<../../.gitbook/assets/Screen Shot 2021-08-30 at 5.59.27 PM.png>)
+![I2C Decoding in the Logic 2 Software](<../../../.gitbook/assets/Screen Shot 2021-08-30 at 5.59.27 PM.png>)
 
 The I2C protocol is a synchronous serial interface that uses one clock channel (SCL) and one data channel (SDA). The analyzer will parse the address, direction (read/write) data, and ACK/NAK frame from I2C transactions.&#x20;
 
@@ -12,14 +12,14 @@ It will also use markers to indicate the start and stop conditions. This is indi
 
 In the settings, specify which input channels are used for the I2C signals SDA and SCL.&#x20;
 
-![I2C Analyzer Settings](<../../.gitbook/assets/Screen Shot 2021-08-30 at 6.01.34 PM.png>)
+![I2C Analyzer Settings](<../../../.gitbook/assets/Screen Shot 2021-08-30 at 6.01.34 PM.png>)
 
 ### Viewing I2C Addresses as 8-bit
 
 Please note that I2C addresses are displayed as 7-bit numbers. We share a support article below to help display I2C addresses as 8-bit if preferred.
 
-{% content-ref url="../../troubleshooting/technical-faq/viewing-i2c-addresses-as-8-bit.md" %}
-[viewing-i2c-addresses-as-8-bit.md](../../troubleshooting/technical-faq/viewing-i2c-addresses-as-8-bit.md)
+{% content-ref url="../../../troubleshooting/technical-faq/viewing-i2c-addresses-as-8-bit.md" %}
+[viewing-i2c-addresses-as-8-bit.md](../../../troubleshooting/technical-faq/viewing-i2c-addresses-as-8-bit.md)
 {% endcontent-ref %}
 
 ### **Common Issues with Noise Around Clock Edges**
@@ -28,12 +28,12 @@ If you notice that our I2C analyzer fails to decode data, a common failure point
 
 You may notice where the analyzer seems to decode less than 9 bits per frame, or incorrect results. If you notice this, carefully zoom in around each clock edge in the problem frame and check to see if there is a "glitch" or narrow pulse present next to the clock transition that is causing a clock edge to be detected as multiple edges.
 
-![Glitch in SCL Signal](<../../.gitbook/assets/Screen Shot 2021-08-30 at 6.07.47 PM.png>)
+![Glitch in SCL Signal](<../../../.gitbook/assets/Screen Shot 2021-08-30 at 6.07.47 PM.png>)
 
 This can happen for several reasons, and we've added a software feature to allow these "glitches" to be filtered out. See this article for instructions.
 
-{% content-ref url="../../user-guide/using-logic/software-glitch-filter.md" %}
-[software-glitch-filter.md](../../user-guide/using-logic/software-glitch-filter.md)
+{% content-ref url="../../using-logic/software-glitch-filter.md" %}
+[software-glitch-filter.md](../../using-logic/software-glitch-filter.md)
 {% endcontent-ref %}
 
 Besides using the glitch filter, you may also want to try reducing the sample rate of the capture, using a different IO voltage option if supported by your logic analyzer, or filtering the electrical signal at the hardware level.

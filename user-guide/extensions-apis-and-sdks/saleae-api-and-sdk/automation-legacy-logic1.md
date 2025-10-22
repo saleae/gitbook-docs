@@ -12,16 +12,16 @@ The basic premise is that you can develop an application that connects to this s
 
 In addition, please keep in mind that newer versions of our Logic hardware (after revision 3.0.0) will no longer work with the older Logic 1.x software. If this poses any issues, please [contact us](https://contact.saleae.com/hc/en-us/requests/new). A brief summary of our hardware revisions are described in the support article below.
 
-{% content-ref url="../datasheets-and-specifications/logic-hardware-revisions.md" %}
-[logic-hardware-revisions.md](../datasheets-and-specifications/logic-hardware-revisions.md)
+{% content-ref url="../../../datasheets-and-specifications/logic-hardware-revisions.md" %}
+[logic-hardware-revisions.md](../../../datasheets-and-specifications/logic-hardware-revisions.md)
 {% endcontent-ref %}
 
 ### Prerequisites - Software Settings
 
 * Check that you are using the latest version of our legacy Logic 1.x software below.
 
-{% content-ref url="../logic-software/legacy-software/older-software-releases.md" %}
-[older-software-releases.md](../logic-software/legacy-software/older-software-releases.md)
+{% content-ref url="../../../logic-software/legacy-software/older-software-releases.md" %}
+[older-software-releases.md](../../../logic-software/legacy-software/older-software-releases.md)
 {% endcontent-ref %}
 
 * We highly recommend suppressing notifications and error messages while running your automation script. These notifications may block normal operation and can be suppressed by starting the application with the command line option `-disablepopups`&#x20;
@@ -52,8 +52,8 @@ For simple automation requirements, we suggest using our [Python Sample Applicat
 
 The [Python Sample Application](https://github.com/saleae/python-saleae-cli) implements a very basic form of data export via csv. If more export options are needed, please see the article below:
 
-{% content-ref url="../troubleshooting/technical-faq/export-data.md" %}
-[export-data.md](../troubleshooting/technical-faq/export-data.md)
+{% content-ref url="../../../troubleshooting/technical-faq/export-data.md" %}
+[export-data.md](../../../troubleshooting/technical-faq/export-data.md)
 {% endcontent-ref %}
 
 You may also send supported socket commands directly via the terminal using the Python wrapper, as shown below. See our [list of supported commands](https://github.com/saleae/SaleaeSocketApi/blob/master/Doc/Logic%20Socket%20API%20Users%20Guide.md).

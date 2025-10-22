@@ -1,4 +1,4 @@
-# Software Extensions
+# Extensions
 
 Extensions are Python modules that enhance the debugging process by providing powerful analysis tools on top of your data. There are currently three types of extensions available:&#x20;
 
@@ -8,7 +8,7 @@ Extensions are Python modules that enhance the debugging process by providing po
 
 You can browse available extensions and quickly install them from our Extensions Marketplace by clicking the Extensions button located at the right side of the software. You can also publish your own creation! Over time, we'll be able to build up a collection of extensions. We can't wait to see what kinds of extensions will be shared there.
 
-![Extensions Marketplace](<../.gitbook/assets/Screen Shot 2021-12-07 at 2.57.20 PM.png>)
+![Extensions Marketplace](<../../../.gitbook/assets/Screen Shot 2021-12-07 at 2.57.20 PM.png>)
 
 ### High Level Analyzers
 

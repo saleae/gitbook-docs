@@ -18,8 +18,8 @@ Unfortunately, there is no way to edit the settings individually. If you need to
 
 The analyzer settings are saved in that string. You can either save several \*.logicsettings files to guess which value corresponds to which setting, or you can download the source code to all of the analyzers below:
 
-{% content-ref url="../../saleae-api-and-sdk/protocol-analyzer-sdk/" %}
-[protocol-analyzer-sdk](../../saleae-api-and-sdk/protocol-analyzer-sdk/)
+{% content-ref url="../../user-guide/extensions-apis-and-sdks/saleae-api-and-sdk/protocol-analyzer-sdk/" %}
+[protocol-analyzer-sdk](../../user-guide/extensions-apis-and-sdks/saleae-api-and-sdk/protocol-analyzer-sdk/)
 {% endcontent-ref %}
 
 See AnalyzerSettings::SaveSettings() for details. Be careful when editing the file from your application to preserve all other characters in the file. Also, the length of the string might be serialized in binary, so changing the length of the string could be difficult.

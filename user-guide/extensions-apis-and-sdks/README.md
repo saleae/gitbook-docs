@@ -8,11 +8,11 @@ description: >-
 
 ## Extensions
 
-### [High-Level Analyzers (Python)](../extensions/high-level-analyzer-extensions/)
+### [High-Level Analyzers (Python)](extensions/high-level-analyzer-extensions/)
 
 High level analyzers are python based protocol analyzers that process the output of the existing protocol analyzers (Low-Level Analyzers)  in the Logic 2 application. They are frequently used to turn decoded protocol output into human readable messages, and can also be used analyze packets, track states, find anomalies, and more.
 
-### [Analog Measurements (Python)](../extensions/measurement-extensions/)
+### [Analog Measurements (Python)](extensions/measurement-extensions/)
 
 Write python code that processes a selected range of analog data point-by-point and outputs a parametric result to the application window. Analog Measurements are used for calculating values like max voltage, min voltage, and rise time, and allows you to build (and share) your own analog measurements.
 

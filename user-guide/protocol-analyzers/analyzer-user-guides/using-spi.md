@@ -2,7 +2,7 @@
 
 The Saleae software includes a protocol analyzer for the Serial Peripheral Interface (SPI) bus.
 
-![SPI Decoding in the Logic 2 Software](../../.gitbook/assets/SPI-Example.png)
+![SPI Decoding in the Logic 2 Software](../../../.gitbook/assets/SPI-Example.png)
 
 SPI uses a Clock signal, two data signals (MISO and MOSI), and an Enable signal. That is the most common configuration of SPI, but other variants exist.
 
@@ -52,7 +52,7 @@ In many cases, there is no chip select signal available for an SPI bus that need
 
 The SPI analyzer included in the Saleae Logic software supports this case. In the event you record SPI data and there is no valid enable signal, simply change the "Enable" channel in the SPI analyzer settings to "None" as shown here:
 
-![Setting Enable to "None"](../../.gitbook/assets/enable-none.png)
+![Setting Enable to "None"](../../../.gitbook/assets/enable-none.png)
 
 ### Solving Alignment Issues
 
@@ -62,7 +62,7 @@ Shown here is a typical issue where the alignment is off. You can clearly see th
 
 However, even though the analyzer is decoding the data in groups of 8 bits, it is not starting on the correct bit. Instead, it is taking some bits from the end of the previous byte and adding them to the bits at the beginning of the next byte.
 
-![SPI Analyzer Alignment Issue](<../../.gitbook/assets/Screen Shot 2021-09-20 at 5.33.24 PM.png>)
+![SPI Analyzer Alignment Issue](<../../../.gitbook/assets/Screen Shot 2021-09-20 at 5.33.24 PM.png>)
 
 Here are the two most common causes of this:
 
@@ -76,8 +76,8 @@ Here's how this is done:
 1. Place a timing marker just before the start of the first valid SPI byte.
 2. Delete the data before the timing marker **(please note this cannot be undone)**. Instructions are provided in the support article below.
 
-{% content-ref url="../../user-guide/using-logic/delete-data.md" %}
-[delete-data.md](../../user-guide/using-logic/delete-data.md)
+{% content-ref url="../../using-logic/delete-data.md" %}
+[delete-data.md](../../using-logic/delete-data.md)
 {% endcontent-ref %}
 
 
@@ -90,19 +90,19 @@ If using the older Logic 1.x software, the following information applies.
 
 First, add the timing marker by clicking the A1 button on the right side of the screen. Then click on the graph at the location where you would like to place it, as shown here:
 
-![](https://trello-attachments.s3.amazonaws.com/5849c1dba38920d68e9733a1/983x224/fbc91d4d609e7172001e7317a9f83bbf/spi\_marker.png)
+![](https://trello-attachments.s3.amazonaws.com/5849c1dba38920d68e9733a1/983x224/fbc91d4d609e7172001e7317a9f83bbf/spi_marker.png)
 
 Next, open the SPI analyzer settings menu and select "Re-run starting at timing marker...". From that list, select the timing marker you just placed.
 
 Screenshots:
 
-![](https://trello-attachments.s3.amazonaws.com/5849c1dba38920d68e9733a1/327x308/6f7490b8faa9c50e70505e5acd95797b/spi\_menu.png)
+![](https://trello-attachments.s3.amazonaws.com/5849c1dba38920d68e9733a1/327x308/6f7490b8faa9c50e70505e5acd95797b/spi_menu.png)
 
-![](https://trello-attachments.s3.amazonaws.com/5849c1dba38920d68e9733a1/269x203/1c8a98c69e38c2ffa2af6d706d9f43cb/spi\_select\_marker.png)
+![](https://trello-attachments.s3.amazonaws.com/5849c1dba38920d68e9733a1/269x203/1c8a98c69e38c2ffa2af6d706d9f43cb/spi_select_marker.png)
 
 After a moment, the SPI analyzer will automatically reprocess the capture. The data should now be aligned correctly, as shown here:
 
-![](https://trello-attachments.s3.amazonaws.com/5849c1dba38920d68e9733a1/735x230/76d9f1a07444eced8720f5be5d163c79/spi\_finished.png)
+![](https://trello-attachments.s3.amazonaws.com/5849c1dba38920d68e9733a1/735x230/76d9f1a07444eced8720f5be5d163c79/spi_finished.png)
 
 ### **Other Common Issues**
 

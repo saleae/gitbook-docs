@@ -6,8 +6,8 @@ Unfortunately, our software does not natively support this feature. Currently, a
 
 In addition, the I2S analyzer source code is available, in case anyone would like to try implementing their own version using our Protocol Analyzer SDK below.
 
-{% content-ref url="../../saleae-api-and-sdk/protocol-analyzer-sdk/" %}
-[protocol-analyzer-sdk](../../saleae-api-and-sdk/protocol-analyzer-sdk/)
+{% content-ref url="../../user-guide/extensions-apis-and-sdks/saleae-api-and-sdk/protocol-analyzer-sdk/" %}
+[protocol-analyzer-sdk](../../user-guide/extensions-apis-and-sdks/saleae-api-and-sdk/protocol-analyzer-sdk/)
 {% endcontent-ref %}
 
 ### Comparing an I2S/PCM Capture with an Existing Audio File

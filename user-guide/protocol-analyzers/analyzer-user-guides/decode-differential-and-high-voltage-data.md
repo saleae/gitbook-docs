@@ -4,8 +4,8 @@
 Please review the supported IO voltage thresholds of the product you are using as well as its over-voltage protection. The details for each product can be found below.
 {% endhint %}
 
-{% content-ref url="../../user-guide/supported-voltages.md" %}
-[supported-voltages.md](../../user-guide/supported-voltages.md)
+{% content-ref url="../../supported-voltages.md" %}
+[supported-voltages.md](../../supported-voltages.md)
 {% endcontent-ref %}
 
 ### **RS-232, RS-485, and RS-422**

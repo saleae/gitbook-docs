@@ -1,7 +1,7 @@
 # Protocol Analyzer SDK
 
 {% hint style="info" %}
-Instructions for loading existing custom analyzers into the Logic software can be found here: [Import Custom Low Level Analyzer](../../troubleshooting/technical-faq/setting-up-developer-directory.md)
+Instructions for loading existing custom analyzers into the Logic software can be found here: [Import Custom Low Level Analyzer](../../../../troubleshooting/technical-faq/setting-up-developer-directory.md)
 {% endhint %}
 
 The Saleae Protocol Analyzer SDK lets you make your own custom protocol analyzers. The framework is very flexible. You can do everything we can do (we use the same SDK). You'll be creating a shared library (.dll for Windows, .so for Linux, or .dylib for MacOS) that will be loaded by the Logic software as a plugin.
@@ -27,8 +27,8 @@ Our SampleAnalyzer automatically fetches the latest library files located on our
 
 ### Installing your Custom Analyzers
 
-{% content-ref url="../../troubleshooting/technical-faq/setting-up-developer-directory.md" %}
-[setting-up-developer-directory.md](../../troubleshooting/technical-faq/setting-up-developer-directory.md)
+{% content-ref url="../../../../troubleshooting/technical-faq/setting-up-developer-directory.md" %}
+[setting-up-developer-directory.md](../../../../troubleshooting/technical-faq/setting-up-developer-directory.md)
 {% endcontent-ref %}
 
 ### Pre-Installed Analyzers Source Code
@@ -60,8 +60,8 @@ Our SampleAnalyzer automatically fetches the latest library files located on our
 
 ### Community Shared Analyzers
 
-{% content-ref url="../../community/community-shared-protocols.md" %}
-[community-shared-protocols.md](../../community/community-shared-protocols.md)
+{% content-ref url="../../../../community/community-shared-protocols.md" %}
+[community-shared-protocols.md](../../../../community/community-shared-protocols.md)
 {% endcontent-ref %}
 
 ### **Legacy 1.1.14 Release**
