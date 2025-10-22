@@ -2,11 +2,11 @@
 
 * [Saleae Support](README.md)
 * [Orders & Shipping](ordering-and-shipping/README.md)
+  * [Get a Quote](ordering-and-shipping/how-do-i-get-a-quote.md)
   * [Place an Online Order](ordering-and-shipping/how-do-i-place-an-order.md)
   * [Place a Purchase Order (PO)](ordering-and-shipping/place-a-purchase-order-po.md)
-  * [Get a Quote](ordering-and-shipping/how-do-i-get-a-quote.md)
-  * [Check your Order Status](ordering-and-shipping/check-your-order-status.md)
   * [Distributors](ordering-and-shipping/distributors.md)
+  * [Check your Order Status](ordering-and-shipping/check-your-order-status.md)
   * [Discounts](ordering-and-shipping/what-discounts-are-available.md)
   * [Tax & VAT Exemption](ordering-and-shipping/tax-exemption.md)
   * [Saleae Business Information](ordering-and-shipping/business-info.md)
