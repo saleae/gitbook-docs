@@ -24,7 +24,7 @@ Mirroring analog measurements, Digital measurements allow you to write python co
 
 ## SDK
 
-### [Protocol Analyzer SDK (C++)](https://support.saleae.com/protocol-analyzers)
+### [Protocol Analyzer SDK (C++)](saleae-api-and-sdk/protocol-analyzer-sdk/)
 
 Logic 2 comes with [23 built-in protocol analyzers](https://support.saleae.com/protocol-analyzers/supported-protocols) and features more than [50 community shared analyzers](https://support.saleae.com/community/community-shared-protocols). Use the [Protocol Analyzer SDK](https://support.saleae.com/protocol-analyzers) to develop and share your own. Protocol Analyzers are also commonly referred to as LLAs or Low Level Analyzers.
 
