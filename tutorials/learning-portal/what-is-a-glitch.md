@@ -10,8 +10,8 @@ Glitches can cause protocol analyzers to incorrectly interpret the underlying da
 
 To learn more about our software glitch filter, see our user guide on it below.
 
-{% content-ref url="../../user-guide/using-logic/software-glitch-filter.md" %}
-[software-glitch-filter.md](../../user-guide/using-logic/software-glitch-filter.md)
+{% content-ref url="../../product/user-guide/using-logic/software-glitch-filter.md" %}
+[software-glitch-filter.md](../../product/user-guide/using-logic/software-glitch-filter.md)
 {% endcontent-ref %}
 
 ### Why is this Useful?&#x20;

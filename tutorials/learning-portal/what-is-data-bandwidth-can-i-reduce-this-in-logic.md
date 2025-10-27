@@ -11,8 +11,8 @@ If needed, there are several methods to reduce Logic's USB bandwidth usage. Sinc
 3. Using Logic through a USB hub
 4. Running into the error message linked below, signaling low bandwidth availability
 
-{% content-ref url="../../troubleshooting/device-not-able-to-keep-up.md" %}
-[device-not-able-to-keep-up.md](../../troubleshooting/device-not-able-to-keep-up.md)
+{% content-ref url="../../getting-help/troubleshooting/device-not-able-to-keep-up.md" %}
+[device-not-able-to-keep-up.md](../../getting-help/troubleshooting/device-not-able-to-keep-up.md)
 {% endcontent-ref %}
 
 ### Situations to Avoid
@@ -35,4 +35,4 @@ When capturing only analog channels, reducing the sampling rate will reduce the 
 
 When capturing both digital and analog channels in the same capture, the selection of the sampling rate combination **does not** change the USB bandwidth usage of Logic. In order to reduce Logic's USB bandwidth usage in this case, you will need to lower the Performance percentage setting. This will decrease speeds of the available sampling rate combinations, and therefore, also decreases the memory usage of captures.
 
-![Reducing USB bandwidth usage via Performance setting](../../.gitbook/assets/2018-10-09\_1339.png)
+![Reducing USB bandwidth usage via Performance setting](../../.gitbook/assets/2018-10-09_1339.png)
