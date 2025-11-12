@@ -2,6 +2,21 @@
 
 Several Logic accessories have been made available by our community of users. These are listed below. If you've created an accessory that you'd like to share, [let us know](https://contact.saleae.com/hc/en-us/requests/new)!
 
+### 3D Logic MSO Desktop Stand
+
+* created by [Wietsman](https://discuss.saleae.com/u/wietsman/summary) from our [Discuss Forum](https://discuss.saleae.com/t/3d-logic-mso-desktop-stand/3554)
+* Maker Page: [https://makerworld.com/en/models/1945526-saleae-logic-mso-modular-desktop-stand#profileId-2089924](https://makerworld.com/en/models/1945526-saleae-logic-mso-modular-desktop-stand#profileId-2089924)
+
+<div data-full-width="false"><figure><img src="../../.gitbook/assets/mso-stand.jpg" alt=""><figcaption></figcaption></figure></div>
+
+* Features:
+  * a holder for 2 scope probes
+  * a row of 20 test clamp organizer
+  * 2 accessories trays with dividers
+  * front storage of cables for the logic analyzer
+  * Intake and outtake to support the mechanical cooling of the Logic MSO
+  * modular build so it can be extended with anything needed
+
 ### 10:1 Attenuator
 
 * Product Page: [http://www.hunterembedded.co.uk/products/](http://www.hunterembedded.co.uk/products/)
