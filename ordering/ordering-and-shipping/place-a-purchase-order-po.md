@@ -15,7 +15,7 @@ Having mentioned the above note, and in case you are still interested in placing
 ### Requirements and Payment Terms
 
 * Placing a PO is only available for companies who cannot place an order through our website by credit/purchasing card or PayPal.
-* Order total must be at least USD $999.
+* Order total must be at least USD $499.
 * The order must be paid in USD currency.
 * We currently offer Net 30 Term to existing customers with a history of timely payments.&#x20;
 * If this is your first order with us, we will generate a Proforma Invoice for you to Prepay via Wire Transfer. We will ship your order on the first business day after payment is received.
