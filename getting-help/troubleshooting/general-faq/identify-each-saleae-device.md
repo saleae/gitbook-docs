@@ -1,22 +1,8 @@
 # How to Identify Each Saleae Device
 
-The current products:
-
-* Logic 8
-* Logic Pro 8
-* Logic Pro 16
-
-The discontinued products:
-
-* Logic 4
-* Logic
-* Logic16
-
 On the back of every product is the name of the product.
 
-The new products feature an embossed Saleae logo on the top. On the back, the Saleae logo is laser etched, along with the name of the product.
-
-Each of the four new products is available in red and in black.
+Logic 4, 8, Pro 8, and Pro 16 feature an embossed Saleae logo on the top. On the back, the Saleae logo is laser etched, along with the name of the product. Each of these four products is available in red or black and feature all-aluminum enclosures with metal feet.
 
 For the Logic16, now usually referred to as the original Logic16, there is no logo on the top, but it does feature a green LED. On the back, Logic16 includes the name "Logic16" and the website www.saleae.com.
 
@@ -24,9 +10,7 @@ For the Logic, now usually referred to as the original Logic, there is also no l
 
 The original Logic has gone through several enclosure variations. All are black anodized aluminum. The original enclosure design was all aluminum, with the name and website laser etched on the back (the side with the visible screws). Newer versions included a rubber base, which includes the name and website as part of the mold, the same as the original Logic16.
 
-The new generation of products have all-aluminum enclosures with metal feet.
-
-There can be understandable confusion between the original Logic and the new Logic 8, and there is also some confusion between the original Logic16 and the new Logic Pro 16. In these cases, we often refer to the older units as first generation, or gen 1. In some cases, the original Logic is referred to as Old School Logic.
+There can be understandable confusion between the original Logic and the new Logic 8, and there is also some confusion between the original Logic16 and the new Logic Pro 16. In these cases, we often refer to the older units as first generation, or gen 1.
 
 **Product Names and Product Part Numbers**
 
