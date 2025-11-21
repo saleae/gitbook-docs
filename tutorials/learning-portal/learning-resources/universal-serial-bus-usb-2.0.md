@@ -1,8 +1,6 @@
-# Universal Serial Bus \(USB\) 2.0
+# Universal Serial Bus (USB) 2.0
 
-## Universal Serial Bus \(USB\) 2.0
-
-USB 1.1/2.0 uses a single differential serial bus to communicate between a computer and peripheral device. Note that Saleae devices can currently only decode low-speed \(1.5Mbps\) and full-speed \(12Mbps\) USB traffic.
+USB 1.1/2.0 uses a single differential serial bus to communicate between a computer and peripheral device. Note that Saleae devices can currently only decode low-speed (1.5Mbps) and full-speed (12Mbps) USB traffic.
 
 **Top Resources**
 
@@ -14,16 +12,15 @@ USB 1.1/2.0 uses a single differential serial bus to communicate between a compu
 
 * [FTDI Breakout](https://www.sparkfun.com/products/9716)
 * [USB Bit Whacker](https://www.sparkfun.com/products/762)
-* [Pinguino 18F2550 Dev Board](http://anceop.com/?action=page&param=viewProduct&id=16278)
+* [Pinguino 18F2550 Dev Board](http://anceop.com/?action=page\&param=viewProduct\&id=16278)
 
 **What Logic Decodes**
 
-[ ![](https://trello-attachments.s3.amazonaws.com/57215da0d6b19b4ab3609e8c/1065x250/fe6433c77f393c51f0cf6a8178fd756a/USB1.png) ](https://trello-attachments.s3.amazonaws.com/57215da0d6b19b4ab3609e8c/1065x250/fe6433c77f393c51f0cf6a8178fd756a/USB1.png)
+<figure><img src="../../../.gitbook/assets/USB1.png" alt=""><figcaption></figcaption></figure>
 
 * Sync
 * Setup
 * Address
 * CRC
-* Data Byte\(s\)
+* Data Byte(s)
 * ACK Bit
-

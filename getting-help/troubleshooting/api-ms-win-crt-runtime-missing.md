@@ -45,4 +45,4 @@ If the software still does not launch after trying the troubleshooting steps, pl
 
 Example:
 
-![all msvc versions installed](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/5a7908b0d5066be3af960718/e679644cb7b9edf8d23253829f167af8/all_msvcs.png)
+<figure><img src="../../.gitbook/assets/all_msvcs.png" alt=""><figcaption></figcaption></figure>
