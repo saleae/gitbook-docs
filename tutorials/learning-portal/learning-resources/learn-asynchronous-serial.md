@@ -1,32 +1,30 @@
 # Learn Asynchronous Serial
 
-## Learn Asynchronous Serial
-
-Asynchronous serial \(often called simply "serial"\) generally refers to single-wire, half-duplex communication where data bits are located at fixed time intervals after a start bit. Instead of using a dedicated clock line, asynchronous serial requires the receiver to sample the incoming signal at specific time intervals after a start bit's leading edge.
+Asynchronous serial (often called simply "serial") generally refers to single-wire, half-duplex communication where data bits are located at fixed time intervals after a start bit. Instead of using a dedicated clock line, asynchronous serial requires the receiver to sample the incoming signal at specific time intervals after a start bit's leading edge.
 
 ### **Topology – Where Do the Wires Go?**
 
-Async Serial data is sent with just one wire \(not including ground\). In most cases, there is one device that is the sender and one or more devices that listen.
+Async Serial data is sent with just one wire (not including ground). In most cases, there is one device that is the sender and one or more devices that listen.
 
-![](https://trello-attachments.s3.amazonaws.com/57215d6370ea3b4f27eb4ead/899x337/616bb96b9e2989f99288ed0900713144/Topology.png)
+<figure><img src="../../../.gitbook/assets/Topology.png" alt=""><figcaption></figcaption></figure>
 
-If communication needs to be two-way, then generally you need to add another wire for the other direction. These wires are often referred to as TX \(outgoing transmission\) and RX \(receiving line\) to convey their direction with respect to a particular device.
+If communication needs to be two-way, then generally you need to add another wire for the other direction. These wires are often referred to as TX (outgoing transmission) and RX (receiving line) to convey their direction with respect to a particular device.
 
-![](https://trello-attachments.s3.amazonaws.com/57215d6370ea3b4f27eb4ead/637x268/ef8a90030bac5b85e158b3abdaf6260e/Topology1.png)
+<figure><img src="../../../.gitbook/assets/Topology1.png" alt=""><figcaption></figcaption></figure>
 
 ### **Voltages**
 
-Serial uses two voltage levels to convey information—1 and 0. The exact voltages that represent 1 and 0 can be different, depending on the setup, but both sides of the communication need to use the same voltages. In "logic level" serial, the voltages are 0V for a digital 0 and the logic-high voltage for digital 1. \(The logic high voltage would be something like 5V, 3.3V, etc., depending on the application.\) When using the RS-232 electrical standard \(used by older computers and equipment but still being used today, although considerably less so\), Logic 0 is 15V, and Logic 1 is -15V. A bit backward-seeming, yes. A lot of equipment cheats a little and doesn't use +/-15V, opting instead for voltages that are easier to generate such as +/-7V. This is still RS-232 compliant and will work with RS-232 equipment.
+Serial uses two voltage levels to convey information—1 and 0. The exact voltages that represent 1 and 0 can be different, depending on the setup, but both sides of the communication need to use the same voltages. In "logic level" serial, the voltages are 0V for a digital 0 and the logic-high voltage for digital 1. (The logic high voltage would be something like 5V, 3.3V, etc., depending on the application.) When using the RS-232 electrical standard (used by older computers and equipment but still being used today, although considerably less so), Logic 0 is 15V, and Logic 1 is -15V. A bit backward-seeming, yes. A lot of equipment cheats a little and doesn't use +/-15V, opting instead for voltages that are easier to generate such as +/-7V. This is still RS-232 compliant and will work with RS-232 equipment.
 
 | Serial Type | Logic 0 | Logic 1 |
-| :--- | :--- | :--- |
-| 5V | 0V | 5V |
-| 3.3V | 0V | 3.3V |
-| RS-232 | 15V | -15V |
+| ----------- | ------- | ------- |
+| 5V          | 0V      | 5V      |
+| 3.3V        | 0V      | 3.3V    |
+| RS-232      | 15V     | -15V    |
 
 ### **How Do You Transmit Information with Only One Wire?**
 
-Since you only have one wire to work with, the only way to send information is by using some sort of timing scheme that both sides agree on. We'll start by agreeing on the amount of time each bit gets on the wire \(we'll start calling it a bus now\) before the next bit replaces it. Bus just means wire, or group of wires.
+Since you only have one wire to work with, the only way to send information is by using some sort of timing scheme that both sides agree on. We'll start by agreeing on the amount of time each bit gets on the wire (we'll start calling it a bus now) before the next bit replaces it. Bus just means wire, or group of wires.
 
 ### **The Bits on the Bus Go One at a Time**
 
@@ -34,19 +32,19 @@ When you talk about bit rates, you're really describing how long each bit has on
 
 ### **Sending Bits to a Friend in Another Room, Using a Switch**
 
-Imagine you are putting bits on the bus, once every second. You use a stop watch. Every second, you decide the next bit to send and then move a switch to either on or off \(1 or 0\). It turns on \(or off\) a light in another room. Remember, the light may or may not change every bit. Maybe you need to send a lot of 1s in a row. For example:
+Imagine you are putting bits on the bus, once every second. You use a stop watch. Every second, you decide the next bit to send and then move a switch to either on or off (1 or 0). It turns on (or off) a light in another room. Remember, the light may or may not change every bit. Maybe you need to send a lot of 1s in a row. For example:
 
-![](https://trello-attachments.s3.amazonaws.com/57215d6370ea3b4f27eb4ead/845x303/b818b9caf3fb88221380b61b32a5b4a3/Rooms.png)
+<figure><img src="../../../.gitbook/assets/Rooms.png" alt=""><figcaption></figcaption></figure>
 
-In the middle of each second \(.5 seconds after the new bit is on the bus and .5 seconds before the next one\), your friend writes down the value—1 if the light is on, 0 if the light is off.
+In the middle of each second (.5 seconds after the new bit is on the bus and .5 seconds before the next one), your friend writes down the value—1 if the light is on, 0 if the light is off.
 
-![](https://trello-attachments.s3.amazonaws.com/57215d6370ea3b4f27eb4ead/1091x520/2bddb93a77bb7f19656bf4ad2d887c3e/Rooms2.png)
+<figure><img src="../../../.gitbook/assets/Rooms2.png" alt=""><figcaption></figcaption></figure>
 
 ### **Ways your friend could get confused**
 
 However, there are some issues with this approach. For example, if you don't yell into the other room, how does your friend know exactly when you started sending bits?
 
-What if their watch \(or yours\) isn't very accurate, and over a long time, they start writing down bits at the wrong times? They think they are writing down the bit exactly in the middle of the time it's on the bus, but that starts to drift. It can drift so far that ever so often they end up skipping a bit or adding an extra bit. You can imagine the mayhem that will produce if these bits are supposed to be grouped into bytes, which they usually are.
+What if their watch (or yours) isn't very accurate, and over a long time, they start writing down bits at the wrong times? They think they are writing down the bit exactly in the middle of the time it's on the bus, but that starts to drift. It can drift so far that ever so often they end up skipping a bit or adding an extra bit. You can imagine the mayhem that will produce if these bits are supposed to be grouped into bytes, which they usually are.
 
 ### **More Speed, More Problems**
 
@@ -60,13 +58,13 @@ If we could come up with a way to resynchronize our clocks ever so often, we cou
 
 Well, you might point out, one great way to synchronize our clocks would be to reset them every single time the bit on the bus changes from a 0 to a 1, or a 1 to a 0. That is a great idea! Congrats if you already thought of it.
 
-![](https://trello-attachments.s3.amazonaws.com/57215d6370ea3b4f27eb4ead/949x339/b16ab4b469c2596c52d4f585204e9cd9/Reset.png)
+<figure><img src="../../../.gitbook/assets/Reset.png" alt=""><figcaption></figcaption></figure>
 
 ### **But What If the Sender Is Sending a LOT of 0s or a LOT of 1s?**
 
 If the sender sends a lot of 0s or a lot of 1s, then we wind up with the same problem. We don't have a chance to resynchronize our cheap clocks.
 
-![](https://trello-attachments.s3.amazonaws.com/57215d6370ea3b4f27eb4ead/944x399/c0082caf6e46f1be67d1d192205e6f06/Reset2.png)
+<figure><img src="../../../.gitbook/assets/Reset2.png" alt=""><figcaption></figcaption></figure>
 
 You might think that won't happen in real life or not very often, in any case. But remember, we need a solution that works in general for every situation.
 
@@ -92,11 +90,11 @@ How do we know when enough time has passed that we're now in the middle of our f
 
 **8 Data Bits – Why Not More or Less?**
 
-By convention, serial usually has 8 data bits after the start bit. It's enough for exactly one byte. However, any variation is possible, especially if you are making up your own serial data protocol. You can have as many or as few data bits as you like. Just remember the problem of timing drift \(what if our nifty 128-bit serial packet was all zeros? We might need to have better, more expensive clocks or, equivalently, run at slower bit rates\).
+By convention, serial usually has 8 data bits after the start bit. It's enough for exactly one byte. However, any variation is possible, especially if you are making up your own serial data protocol. You can have as many or as few data bits as you like. Just remember the problem of timing drift (what if our nifty 128-bit serial packet was all zeros? We might need to have better, more expensive clocks or, equivalently, run at slower bit rates).
 
 **The Stop Bit – What Is It Even For? It Looks Indistinguishable from the Idle Period That Follows It**
 
-The stop bit \(or bits\) come after the very last data bit is finished. They are logic 1—the same as idle. In fact, there may be quite a bit of idle time after the stop bit.
+The stop bit (or bits) come after the very last data bit is finished. They are logic 1—the same as idle. In fact, there may be quite a bit of idle time after the stop bit.
 
 Here's the secret. It's not really a bit. It's just a minimum, guaranteed amount of idle time.
 
@@ -106,7 +104,7 @@ Well, we need to resynchronize. We need to make absolutely sure that the receive
 
 ### **What's the Deal with 1.5 Stop Bits, or 2 Stop Bits, etc.?**
 
-As you've probably guessed by now, the more stop bits we put in, the more idle time we are guaranteeing there will be—and the less we need to rely on the receiver's \(or transmitter's\) clock to be really good.
+As you've probably guessed by now, the more stop bits we put in, the more idle time we are guaranteeing there will be—and the less we need to rely on the receiver's (or transmitter's) clock to be really good.
 
 ### **What Happens after the Stop Bits?**
 
@@ -114,7 +112,7 @@ What happens after the previous serial frame is completely finished, stop bits a
 
 ### **What's a Framing Error?**
 
-Let's say you're listening to serial bit sequence—start bit, data bits, stop bit\(s\)—which is known as a frame. And let’s say you're listening to those stop bits that, as you might imagine, had better be logic 1s, the idle logic level.
+Let's say you're listening to serial bit sequence—start bit, data bits, stop bit(s)—which is known as a frame. And let’s say you're listening to those stop bits that, as you might imagine, had better be logic 1s, the idle logic level.
 
 Instead of logic 1s, however, you discover that they are 0s, or in any event, they aren't solid 1s. This is known as a framing error. It means that something has gone wrong and we're not synchronized properly. That could happen if we were assuming the data was a different bit rate than it really was, or if we started listening to serial data right in the middle of a transmission.
 
@@ -126,15 +124,15 @@ If the sender was sending a checksum, CRC, or some other known sequence, it woul
 
 ### **What Order Do Data Bits Get Sent In—Most Significant Bit First, or Least Bit Significant First?**
 
-Most significant and least significant refer to the location of a bit in a byte. In the byte 128 \(0x80, 0b 1000 0000\), the most significant bit is a 1, and all the other bits are 0s. In the byte 1 \(0x01, 0b 0000 0001\), the least significant bit is a 1, and all the other bits are 0s.
+Most significant and least significant refer to the location of a bit in a byte. In the byte 128 (0x80, 0b 1000 0000), the most significant bit is a 1, and all the other bits are 0s. In the byte 1 (0x01, 0b 0000 0001), the least significant bit is a 1, and all the other bits are 0s.
 
 The convention for async serial data is that the least significant bit goes first, and the rest of the bits follow in order. However, it can easily be the other way around, so be sure to check. Normal RS-232 style serial is always least significant first.
 
 ### **What's This About a Parity Bit?**
 
-The parity bit was an extra \(9th, typically\) bit that was added to a serial frame to act as a crude error detection mechanism.
+The parity bit was an extra (9th, typically) bit that was added to a serial frame to act as a crude error detection mechanism.
 
-If a system was using odd parity \(that means that if you took all the data bits and the parity bit and added up all the 1s\), it would give you an odd number. For example, if the byte was 0x01, then the number of 1s is already odd, so the transmitter would make the parity bit a 0. However, if the number of 1s was even \(e.g., there were 4 1s\), the parity bit would be set to a 1 so the total would become odd.
+If a system was using odd parity (that means that if you took all the data bits and the parity bit and added up all the 1s), it would give you an odd number. For example, if the byte was 0x01, then the number of 1s is already odd, so the transmitter would make the parity bit a 0. However, if the number of 1s was even (e.g., there were 4 1s), the parity bit would be set to a 1 so the total would become odd.
 
 The opposite would be true for a system using even parity.
 
@@ -144,13 +142,13 @@ Note that this is a fairly primitive error detection mechanism by today's standa
 
 ### **Out-of-the-Box Limitations with Serial, and Some Ways to Improve It**
 
-In addition to not having a good method to detect errors, there is also no way to address certain bytes to a particular receiver \(if there is more than one\). There is also no good method of reliably "dropping in" on an ongoing transmission.
+In addition to not having a good method to detect errors, there is also no way to address certain bytes to a particular receiver (if there is more than one). There is also no good method of reliably "dropping in" on an ongoing transmission.
 
 These limitations can all be overcome by the addition of higher layers of abstraction. In fact, it is quite possible to run TCP/IP over a two-way serial connection.
 
-A simpler improvement is MP Mode \(also called 9-bit serial and multiprocessor mode\). That adds an extra bit to specify if a given byte is an address or data. That allows many listeners on a single line to be given data \(perhaps commands\) individually.
+A simpler improvement is MP Mode (also called 9-bit serial and multiprocessor mode). That adds an extra bit to specify if a given byte is an address or data. That allows many listeners on a single line to be given data (perhaps commands) individually.
 
-You may want to invent your own, higher-level protocol. For example, you could create a packet structure where the first byte is a particular header code such as 0x21 \(to pick a random number\), the next 2 bytes was an address, the next 4 bytes were some data, and the last 2 bytes was a 16-bit CRC \(or something like that\). You could build up quite an impressive robust communication system using regular old serial as the transmission medium.
+You may want to invent your own, higher-level protocol. For example, you could create a packet structure where the first byte is a particular header code such as 0x21 (to pick a random number), the next 2 bytes was an address, the next 4 bytes were some data, and the last 2 bytes was a 16-bit CRC (or something like that). You could build up quite an impressive robust communication system using regular old serial as the transmission medium.
 
 ### **What Exactly Does Asynchronous Serial Mean?**
 
@@ -164,7 +162,7 @@ Examples of synchronous serial protocols include SPI, I2C, and Async Serial/PCM.
 
 ### **How Do I Use RS-232 Serial with a Microcontroller?**
 
-RS-232 voltages will probably damage your microcontroller and won't work in any event. You have to convert it. The MAX232 IC \(such as [http://www.sparkfun.com/products/316](http://www.sparkfun.com/products/316)\) \(and its many variants\) is a good way to do it. There are other ways as well. There are also many adapter modules you can buy such as:
+RS-232 voltages will probably damage your microcontroller and won't work in any event. You have to convert it. The MAX232 IC (such as [http://www.sparkfun.com/products/316](http://www.sparkfun.com/products/316)) (and its many variants) is a good way to do it. There are other ways as well. There are also many adapter modules you can buy such as:
 
 * [http://www.sparkfun.com/products/449](http://www.sparkfun.com/products/449)
 * [http://www.sparkfun.com/products/8780](http://www.sparkfun.com/products/8780)
@@ -175,7 +173,7 @@ RS-232 is on the way out. But serial, since it is just so simple and useful, is 
 
 ### **Async Serial in a USB World**
 
-USB has almost entirely replaced RS-232 and the associated DB-9 and DB-25 connectors on the back of PCs. However, because serial is so easy to use \(especially compared with USB\), many USB adapters have been created, both providing RS-232 as well as logic-level serial. Remember, RS-232 voltages will probably damage your microcontroller and won't work anyway, and you have to convert it. The MAX232 IC \(such as [http://www.sparkfun.com/products/316](http://www.sparkfun.com/products/316)\) \(and its many variants\) is a good way to do it. Here are some other adapter modules you can buy:
+USB has almost entirely replaced RS-232 and the associated DB-9 and DB-25 connectors on the back of PCs. However, because serial is so easy to use (especially compared with USB), many USB adapters have been created, both providing RS-232 as well as logic-level serial. Remember, RS-232 voltages will probably damage your microcontroller and won't work anyway, and you have to convert it. The MAX232 IC (such as [http://www.sparkfun.com/products/316](http://www.sparkfun.com/products/316)) (and its many variants) is a good way to do it. Here are some other adapter modules you can buy:
 
 * [http://www.sparkfun.com/products/8531](http://www.sparkfun.com/products/8531)
 * [http://www.sparkfun.com/products/718](http://www.sparkfun.com/products/718)
@@ -183,13 +181,13 @@ USB has almost entirely replaced RS-232 and the associated DB-9 and DB-25 connec
 
 ### **An Example of Receiving Serial Data on a Microcontroller**
 
-Let's take a moment to look at how we would pull off reading serial if we didn't have a fancy serial peripheral \(or the boss says we need to use a dirt-cheap $.10 microcontroller that doesn't have one\).
+Let's take a moment to look at how we would pull off reading serial if we didn't have a fancy serial peripheral (or the boss says we need to use a dirt-cheap $.10 microcontroller that doesn't have one).
 
-To make things simple, we'll assume that our function is called when the bus is idle \(not right in the middle of some serial data\).
+To make things simple, we'll assume that our function is called when the bus is idle (not right in the middle of some serial data).
 
 **An Example of Receiving Serial Data on a Microcontroller**
 
-```text
+```
 U8 GetSerialByte()
 
 {
@@ -234,25 +232,25 @@ U8 GetSerialByte()
 
 When doing this sort of thing in code, be aware that all operations such as looping, testing bits, setting bits, and so on take time. Note that in the sample above, we have branches that take different amounts of time, depending on conditions. We would want to balance that:
 
-```text
+```
 if( serial_input == high ) serial_byte |= 0x80; else serial_byte |= 0x00;
 ```
 
 Even though the 2nd operation does nothing, it will burn the same amount of time as in the opposite case.
 
-If you use loops for timing \(they usually do not behave ideally\), there will be an extra delay in the call and return, for instance.
+If you use loops for timing (they usually do not behave ideally), there will be an extra delay in the call and return, for instance.
 
-While you can, in principle, use the microcontroller's data sheet to exactly predict the timing everything takes, it generally is easier to tweak your algorithm using a logic analyzer. For example, you could toggle a pin whenever you read the serial input. You could then look at this pin and compare it with the real serial data, tweaking where needed to make the timing perfect. When you take out the pin toggle code, you'll want to replace it with some NOPs that take the same amount of time. \(Or you can leave it in but change it to operate on a pin that doesn't really exist.\)
+While you can, in principle, use the microcontroller's data sheet to exactly predict the timing everything takes, it generally is easier to tweak your algorithm using a logic analyzer. For example, you could toggle a pin whenever you read the serial input. You could then look at this pin and compare it with the real serial data, tweaking where needed to make the timing perfect. When you take out the pin toggle code, you'll want to replace it with some NOPs that take the same amount of time. (Or you can leave it in but change it to operate on a pin that doesn't really exist.)
 
 ### **What Are the Settings for the Saleae Serial Analyzer?**
 
 **Bit Rate**
 
-Bit rate is the number of bits per second being sent. Note: This is also often called baud rate, but that is a term that actually is more relevant to modems and typically misused. It does not actually mean bits per second \([http://en.wikipedia.org/wiki/Baud](http://en.wikipedia.org/wiki/Baud)\).
+Bit rate is the number of bits per second being sent. Note: This is also often called baud rate, but that is a term that actually is more relevant to modems and typically misused. It does not actually mean bits per second ([http://en.wikipedia.org/wiki/Baud](http://en.wikipedia.org/wiki/Baud)).
 
 You can figure out what the bit rate is by recording some data and then measuring how wide the stop bit is.
 
-In the example above, the pulse width of a single bit is measured at about 0.104ms. That is the "bit period," or how long each bit is on the bus. Taking 1/period gives us the frequency and, in this case, yields 9592 bps \(ah hah! probably 9600 bps is what they're going for\).
+In the example above, the pulse width of a single bit is measured at about 0.104ms. That is the "bit period," or how long each bit is on the bus. Taking 1/period gives us the frequency and, in this case, yields 9592 bps (ah hah! probably 9600 bps is what they're going for).
 
 Once you know the bit rate, you can enter it into the serial analyzer settings.
 
@@ -278,11 +276,11 @@ You can specify if bits arrive—most significant bit first or least significant
 
 **Inverted**
 
-Sometimes, serial can be inverted logic high means 0 and logic low means 1. If the data look like the idle level is low \(rather than the more common high\), then it might be inverted.
+Sometimes, serial can be inverted logic high means 0 and logic low means 1. If the data look like the idle level is low (rather than the more common high), then it might be inverted.
 
 **MP Mode**
 
-MP Mode \(also called multiprocessor mode, muti-drop, or 9-bit serial\) is a version of serial where the most significant data bit \(almost always the last bit\) indicates if the preceding 8 bits are data or an address.
+MP Mode (also called multiprocessor mode, muti-drop, or 9-bit serial) is a version of serial where the most significant data bit (almost always the last bit) indicates if the preceding 8 bits are data or an address.
 
 **Serial Data as Displayed on Saleae Logic Analyzers**
 
@@ -301,7 +299,7 @@ If there is a framing error or parity error detected, a red dot will appear wher
 * [Tal Tech Tutorial](http://www.taltech.com/datacollection/articles/serial_intro)
 * [SparkFun Tutorial](https://learn.sparkfun.com/tutorials/serial-communication)
 * [Wikipedia](http://en.wikipedia.org/wiki/Asynchronous_serial_communication)
-* [Parallax Textbook PDF](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=6&ved=0CFIQFjAF&url=http%3A%2F%2Fforums.parallax.com%2Fattachment.php%3Fattachmentid%3D72648%26d%3D1282407806&ei=HZxcUry6K6vYigKWx4CQBA&usg=AFQjCNGs_caLb8AnQ8HO5-WzaRnSsrnEBA&cad=rja)
+* [Parallax Textbook PDF](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=6\&ved=0CFIQFjAF\&url=http%3A%2F%2Fforums.parallax.com%2Fattachment.php%3Fattachmentid%3D72648%26d%3D1282407806\&ei=HZxcUry6K6vYigKWx4CQBA\&usg=AFQjCNGs_caLb8AnQ8HO5-WzaRnSsrnEBA\&cad=rja)
 
 **Example Async Serial Parts**
 
@@ -311,11 +309,9 @@ If there is a framing error or parity error detected, a red dot will appear wher
 
 **What Logic Decodes**
 
-[ ![](https://trello-attachments.s3.amazonaws.com/57215da0d6b19b4ab3609e8c/1220x144/2fd9ac0621006d0659bee67428b0cc09/serial.png) ](https://trello-attachments.s3.amazonaws.com/57215da0d6b19b4ab3609e8c/1220x144/2fd9ac0621006d0659bee67428b0cc09/serial.png)
+<figure><img src="../../../.gitbook/assets/async serial example.png" alt=""><figcaption></figcaption></figure>
 
 * Start Bit
 * Data Bits
 * Parity Bit
 * Stop Bit
-* Autodetect Baud Rate
-

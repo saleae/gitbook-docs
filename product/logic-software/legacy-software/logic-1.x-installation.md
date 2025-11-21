@@ -32,7 +32,7 @@ You can try running the standalone version of the software, which does not need 
 
 Simply download, double-click, and drag the Logic software into the Application folder. It is the same as other Mac software you have installed in the past.
 
-![](https://trello-attachments.s3.amazonaws.com/57215c9156830ea18c233b08/598x252/840af37d70fab6d86f4fff3db5136566/osx_install.png)
+<figure><img src="../../../.gitbook/assets/osx_install.png" alt=""><figcaption></figcaption></figure>
 
 ### **Installing for Linux**
 

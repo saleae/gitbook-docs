@@ -4,7 +4,7 @@ I2C is a very common communication protocol typically used by microcontrollers t
 
 ### **Topology**
 
-<figure><img src="../../../.gitbook/assets/Topology.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Topology (1).png" alt=""><figcaption></figcaption></figure>
 
 I2C uses just two wires: a data line called SDA and a clock line called SCL. Even as you add more devices to the bus, there are still only two wires.
 

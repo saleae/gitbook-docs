@@ -53,14 +53,6 @@ If the error persists after trying the troubleshooting steps, please [contact su
 * Screenshots or a detailed description of the error message(s) you're seeing in the software
 * Description of how often the failure is occurring and if there is any pattern to the issue
 
-## Logic 1.x
-
-If you are using the older Logic 1.x software, the following error message will appear.
-
-`We're sorry, but the device was not able to keep up with this sample rate. If you continue to see this message, please contact Saleae technical support. Would you like to keep the data collected so far?`
-
-![Logic can't keep up](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/55f0e75a10f9f592573a8232/035ff5a3b79830f7bcd2dccca570674f/logic_cant_keep_up.png)
-
 ## **Considerations for the Original Logic**
 
 * On some computers, the Original Logic might not be able to consistently capture at its maximum sample rate of 24 MSPS or even at 16 MSPS. However, on most computers, the device should be able to reliably capture at 12 MSPS. This is due to its small device side buffer.
@@ -69,3 +61,11 @@ If, even after trying the above recommendations, your Original Logic can't recor
 
 * Add a new host controller to your PC, either a PCI express card or a laptop ExpressCard.
 * Upgrade to a newer Saleae product that has larger device side buffers.
+
+## Logic 1.x
+
+If you are using the older Logic 1.x software, the following error message will appear.
+
+`We're sorry, but the device was not able to keep up with this sample rate. If you continue to see this message, please contact Saleae technical support. Would you like to keep the data collected so far?`
+
+<figure><img src="../../.gitbook/assets/logic_cant_keep_up.png" alt=""><figcaption></figcaption></figure>
