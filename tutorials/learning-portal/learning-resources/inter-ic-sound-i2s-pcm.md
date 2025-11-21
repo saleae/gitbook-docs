@@ -1,7 +1,5 @@
 # Learn I2S / PCM
 
-## Inter-IC Sound (I2S / PCM)
-
 I2S is a synchronous serial bus used for digital audio. It typically consists of a data, clock, and word select line.
 
 **Top Resources**

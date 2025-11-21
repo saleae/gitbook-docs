@@ -1,7 +1,5 @@
 # 1-Wire
 
-## 1-Wire
-
 As the name implies, 1-Wire has only one wire. The wire provides both power and low-speed data. Each peripheral on the bus has its own capacitor to retain power while the bus is low.
 
 **Top Resources**

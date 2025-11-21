@@ -1,7 +1,5 @@
 # Learn CAN – Controller Area Network
 
-## Learn CAN – Controller Area Network
-
 CAN (controller area network) is a differential serial bus typically used in automotive and industrial applications for sensor data collection and system control.
 
 ### **Topology**
@@ -254,17 +252,3 @@ Note that that the frame identifier is thus related to the priority of the frame
 * [Stand-alone CAN Controller](http://ww1.microchip.com/downloads/en/DeviceDoc/21801F.pdf)
 * [PIC18F66K80 with CAN](http://ww1.microchip.com/downloads/en/DeviceDoc/39977c.pdf)
 * [TI 3.3V CAN Transceiver](http://focus.ti.com/lit/ds/symlink/sn65hvd230.pdf)
-
-**What Logic Decodes**
-
-<figure><img src="../../../.gitbook/assets/CAN.png" alt=""><figcaption></figcaption></figure>
-
-* Start Bit
-* Identifier (Arbitration Frame)
-* Extended Frames
-* Control Frame
-* Data Bytes
-* CRC
-* ACK/NAKs
-* Stop Bit
-* Stuffed Bits

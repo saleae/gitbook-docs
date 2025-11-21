@@ -1,7 +1,5 @@
 # PS/2 Keyboard/Mouse
 
-## PS/2 Keyboard/Mouse
-
 PS/2 is a serial protocol used for communication between a computer and a keyboard and mouse. While PS/2 has been largely replaced by USB in consumer applications, it is very easy to interface with a microcontroller.
 
 **Top Resources**
@@ -17,7 +15,7 @@ PS/2 is a serial protocol used for communication between a computer and a keyboa
 
 **What Logic Decodes**
 
-[ ![](https://trello-attachments.s3.amazonaws.com/57215da0d6b19b4ab3609e8c/1361x247/81b5b745c5ec429aa3d2e54c3e7f2a85/PS2.png) ](https://trello-attachments.s3.amazonaws.com/57215da0d6b19b4ab3609e8c/1361x247/81b5b745c5ec429aa3d2e54c3e7f2a85/PS2.png)
+<figure><img src="../../../.gitbook/assets/PS2 (1).png" alt=""><figcaption></figcaption></figure>
 
 * Start Bit
 * Command Byte
@@ -25,4 +23,3 @@ PS/2 is a serial protocol used for communication between a computer and a keyboa
 * Parity Bit
 * Stop Bit
 * ACK Bit
-

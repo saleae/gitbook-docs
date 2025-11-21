@@ -215,14 +215,3 @@ Not surprisingly, there is some disagreement as to how the address and direction
 * [Temperature sensor](http://www.sparkfun.com/products/9418)
 * [Accelerometer](http://www.sparkfun.com/products/9836)
 * [Gyro](http://www.sparkfun.com/products/10612)
-
-**What Logic Decodes**
-
-<figure><img src="../../../.gitbook/assets/I2C.png" alt=""><figcaption></figcaption></figure>
-
-* Start Bit
-* Address Byte
-* Read/Write Bit
-* ACK/NAK
-* Data Byte(s)
-* Stop Bit

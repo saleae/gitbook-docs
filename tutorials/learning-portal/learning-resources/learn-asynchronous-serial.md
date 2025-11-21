@@ -306,12 +306,3 @@ If there is a framing error or parity error detected, a red dot will appear wher
 * [MAX3232 Breakout](https://www.sparkfun.com/products/11189)
 * [USB to Serial Breakout Board](https://www.sparkfun.com/products/718)
 * [USB to RS232 Cable](https://www.sparkfun.com/products/11304)
-
-**What Logic Decodes**
-
-<figure><img src="../../../.gitbook/assets/async serial example.png" alt=""><figcaption></figcaption></figure>
-
-* Start Bit
-* Data Bits
-* Parity Bit
-* Stop Bit
