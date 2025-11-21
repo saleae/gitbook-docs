@@ -26,4 +26,4 @@ As mentioned in the error popup, there are two immediate workarounds to this iss
 2. Disable unused channels
 3. Disable the glitch filter if used
 
-This will help give our app a little extra processing bandwidth while looking for a trigger. As another workaround, you may also increase the Memory buffer amount. This won't prevent the backlog from occurring, but instead will delay it.\
+This will help give our app a little extra processing bandwidth while looking for a trigger. As another workaround, you may also increase the Memory buffer amount. This won't prevent the backlog from occurring, but instead will delay it.<br>

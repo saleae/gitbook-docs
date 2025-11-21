@@ -15,13 +15,11 @@ Some custom analyzer repositories may provide the MacOS analyzer library file as
 
 
     <figure><img src="../../.gitbook/assets/Screen Shot 2022-11-21 at 11.49.11 AM.png" alt=""><figcaption><p>Click "Use .dylib"</p></figcaption></figure>
-2.  Upon loading your new .dylib file into the Logic 2 app, you may be greeted with a new security error from MacOS like shown below.\
-
+2.  Upon loading your new .dylib file into the Logic 2 app, you may be greeted with a new security error from MacOS like shown below.<br>
 
     <figure><img src="../../.gitbook/assets/Screen Shot 2022-11-21 at 11.49.39 AM.png" alt=""><figcaption><p>.dylib file cannot be verified by MacOS</p></figcaption></figure>
 
-    To get around this error, you will need to allow this file through MacOS's security. Navigate to MacOS's System Preferences, and select Security & Privacy. Under the "Allow apps downloaded from..." section, select "Allow Anyway next to the `.dylib` file that was recently blocked by MacOS.\
-
+    To get around this error, you will need to allow this file through MacOS's security. Navigate to MacOS's System Preferences, and select Security & Privacy. Under the "Allow apps downloaded from..." section, select "Allow Anyway next to the `.dylib` file that was recently blocked by MacOS.<br>
 
     <figure><img src="../../.gitbook/assets/Screen Shot 2022-11-21 at 11.50.06 AM.png" alt=""><figcaption><p>Allow .dylib analyzer</p></figcaption></figure>
 

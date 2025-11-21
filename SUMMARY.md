@@ -22,7 +22,6 @@
     * [Does Saleae Have a Trade-In or Upgrade Plan?](ordering/ordering-and-shipping/faq/does-saleae-have-a-trade-in-or-upgrade-plan.md)
     * [How Can I Find the Current Status of My Order?](ordering/ordering-and-shipping/faq/how-can-i-find-the-current-status-of-my-order.md)
     * [Part Numbers, ECCN, HS Codes, and Country of Origin](ordering/ordering-and-shipping/faq/saleae-part-numbers.md)
-    * [Discontinued Products](ordering/ordering-and-shipping/faq/discontinued-products.md)
     * [International Customs and Duty Information](ordering/ordering-and-shipping/faq/international-customs-and-duty-information.md)
     * [Does Saleae Offer Demo Units or Units on Loan?](ordering/ordering-and-shipping/faq/does-saleae-offer-demo-units.md)
     * [When Is My Card Charged?](ordering/ordering-and-shipping/faq/when-is-my-card-charged.md)
