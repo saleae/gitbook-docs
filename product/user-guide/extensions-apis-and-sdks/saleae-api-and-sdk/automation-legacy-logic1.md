@@ -27,8 +27,7 @@ In addition, please keep in mind that newer versions of our Logic hardware (afte
 * We highly recommend suppressing notifications and error messages while running your automation script. These notifications may block normal operation and can be suppressed by starting the application with the command line option `-disablepopups`&#x20;
 * Next, we must enable the scripting socket server. Open Options Menu at the top of the software.
 * Select Preferences
-* Under the Developer Tab, check the box to enable socket server\
-  &#x20;![](https://trello-attachments.s3.amazonaws.com/5615390cb22fd44d4ccedc6f/396x306/67677307eaf2bd57d85b18c834c92149/check_box.png)
+* Under the Developer Tab, check the box to enable socket server
 * Save Changes
 * Accept firewall changes if the OS requests it
 

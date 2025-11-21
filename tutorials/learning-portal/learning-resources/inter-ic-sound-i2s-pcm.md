@@ -1,12 +1,12 @@
 # Learn I2S / PCM
 
-## Inter-IC Sound \(I2S / PCM\)
+## Inter-IC Sound (I2S / PCM)
 
 I2S is a synchronous serial bus used for digital audio. It typically consists of a data, clock, and word select line.
 
 **Top Resources**
 
-* [Wikipedia](http://en.wikipedia.org/wiki/I²S)
+* [Wikipedia](http://en.wikipedia.org/wiki/I%C2%B2S)
 * [SparkFun I2S Spec](https://www.sparkfun.com/datasheets/BreakoutBoards/I2SBUS.pdf)
 * [I2S to MSP430 Tutorial](http://www.ti.com/lit/an/slaa449a/slaa449a.pdf)
 
@@ -19,10 +19,9 @@ I2S is a synchronous serial bus used for digital audio. It typically consists of
 
 **What Logic Decodes**
 
-[ ![](https://trello-attachments.s3.amazonaws.com/57215da0d6b19b4ab3609e8c/1501x363/eec3d2b52e0d4303183e344a76f3809a/i2s.png) ](https://trello-attachments.s3.amazonaws.com/57215da0d6b19b4ab3609e8c/1501x363/eec3d2b52e0d4303183e344a76f3809a/i2s.png)
+<figure><img src="../../../.gitbook/assets/i2s.png" alt=""><figcaption></figcaption></figure>
 
 * Serial Clock
-* World Select Line \(WS\)
-* Serial Data Line \(SD\)
+* World Select Line (WS)
+* Serial Data Line (SD)
 * Left and right audio
-

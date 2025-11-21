@@ -20,7 +20,7 @@ The Saleae I2S analyzer does not support any Mono formats.
 
 Even when the I2S settings have signed number selected, unsigned numbers may always be shown.
 
-![unsigned problem](https://trello-attachments.s3.amazonaws.com/563bcc5548813a99d37d24c3/290x91/dab45355226161740fa4c5f30c74abd4/unsigned_issue.PNG)
+<figure><img src="../../../../.gitbook/assets/unsigned_issue.png" alt=""><figcaption></figcaption></figure>
 
 This issue is solved by changing the display radix from ascii to decimal. Although a decimal number is shown, the single quotes indicate that the ascii display mode is active, but the number is considered a non-displayable character (in this case, outside of the low ascii range completely) so the text string defaults to unsigned decimal. Changing the display radix to decimal will show the signed number.
 
@@ -32,7 +32,7 @@ This issue is solved by changing the display radix from ascii to decimal. Althou
 
 The analyzer result may also not display the data correctly. An image of the error is provided below.
 
-![i2s error](https://trello-attachments.s3.amazonaws.com/55f0ad9685db3c82f0f3aeba/563bcc5548813a99d37d24c3/90d5f3fbdeed46908d3221dd647fcf17/I2S-error.png)
+<figure><img src="../../../../.gitbook/assets/I2S-error.png" alt=""><figcaption></figcaption></figure>
 
 In the image above, the data bits are transitioning during the clock falling edge, but the I2S/PCM Analyzer is also set to read on the clock falling edge as shown by the "down" arrows on the clock signal.&#x20;
 
@@ -47,6 +47,3 @@ For more information on this, please see the link below.
 {% content-ref url="../../../../getting-help/troubleshooting/technical-faq/convert-i2s-pcm-to-audio.md" %}
 [convert-i2s-pcm-to-audio.md](../../../../getting-help/troubleshooting/technical-faq/convert-i2s-pcm-to-audio.md)
 {% endcontent-ref %}
-
-
-

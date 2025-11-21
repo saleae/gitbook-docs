@@ -11,18 +11,18 @@ First, close the software and unplug and reconnect the Logic.
 
 Open Device Manager:
 
-![step 1](https://trello-attachments.s3.amazonaws.com/5696b1e35e3457ace8ba0551/413x518/18af9b6ab3b33234b69e768a5dfc0e51/1\_-\_open\_device\_manager.png)
+<figure><img src="../../../.gitbook/assets/1_-_open_device_manager.png" alt=""><figcaption></figcaption></figure>
 
 Using the view menu, change the display to "Devices by connection."
 
-![step 2](https://trello-attachments.s3.amazonaws.com/5696b1e35e3457ace8ba0551/340x404/40708b07977af3e33e21ac34ffb493db/2\_-\_switch\_view.png)
+<figure><img src="../../../.gitbook/assets/2_-_switch_view.png" alt=""><figcaption></figcaption></figure>
 
 If your motherboard has an integrated USB 3.0 host controller such as an Intel USB 3.0 host controller, it will be easy to locate on the PCI bus. Just expand the tree view, as shown in the image below. You can continue to expand items under the host controller to view all USB devices and hubs attached to that host.
 
-![step 3](https://trello-attachments.s3.amazonaws.com/5696b1e35e3457ace8ba0551/795x833/f28f3f6000eb9633b8479c210cc6cf92/3\_-\_intel\_3.0\_port.png)
+<figure><img src="../../../.gitbook/assets/3_-_intel_3.0_port.png" alt=""><figcaption></figcaption></figure>
 
 If you are using an add-on USB 3.0 host controller such as a PCI express card, it will be under one additional layer in the tree view. For example, the Texas Instruments USB 3.0 host controller is shown in the green box with the Logic Pro 8 attached.
 
 If the device is connected to a USB 2.0 port, it will be associated with one of the two "Enhanced" USB host controllers, as shown in the red box. "Enhanced" specifically refers to USB 2.0 host controllers, and your device will not be able to run at USB 3.0 speeds if it is connected to this host.
 
-![step 4](https://trello-attachments.s3.amazonaws.com/5696b1e35e3457ace8ba0551/691x875/eb049dcac3a09a8573c1b2c7ed39b420/4\_-\_other\_ports.png)
+<figure><img src="../../../.gitbook/assets/4_-_other_ports.png" alt=""><figcaption></figcaption></figure>

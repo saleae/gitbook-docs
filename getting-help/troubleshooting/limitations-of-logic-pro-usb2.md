@@ -28,6 +28,6 @@ On our older [Logic software v1.x](https://support.saleae.com/logic-software/lat
 
 If you're sure the port that you are using can supply at least 700mA of current, then you can manually enable the second bank in the preferences dialog.
 
-![](https://trello-attachments.s3.amazonaws.com/57215d5e1bba46c6dc477691/370x89/84f215669e2d2faed536936a5db3cd3a/usb3_power.PNG)
+<figure><img src="../../.gitbook/assets/usb3_power.png" alt=""><figcaption></figcaption></figure>
 
 Most powered USB hubs will be able to provide enough current to power Logic Pro 16. If you enable this feature but Logic Pro 16 is unable to draw enough current to power both banks, it may disconnect from the PC when it connects to the software, or it may disconnect when a capture is started.
