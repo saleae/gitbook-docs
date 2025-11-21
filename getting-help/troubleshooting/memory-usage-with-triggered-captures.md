@@ -32,7 +32,7 @@ This is a particular concern when taking a capture with a trigger that does not 
 
 During the capture, press the "More Detail" link on the capture progress dialog. This will show the state of the capture and processing backlog.
 
-![Progress Dialog](https://trello-attachments.s3.amazonaws.com/55f0a61a10f9f592573a4205/58f268b2b1ed5dd58e181477/3d67bd143c740b2b3f7296774bf37f03/backlog.PNG)
+<figure><img src="../../.gitbook/assets/backlog (1).png" alt=""><figcaption></figcaption></figure>
 
 * "Waiting for trigger..." indicates that the software has not yet detected the trigger condition. Once the trigger has been detected, the dialog information changes.
 * Digital Samples Collected: This is the total number of digital samples that have been recorded by the device since the start of the capture.

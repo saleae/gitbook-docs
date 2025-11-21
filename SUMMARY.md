@@ -226,8 +226,6 @@
     * [Electrical Isolation Suggestions](getting-help/troubleshooting/technical-faq/suggestions-for-electrical-isolation.md)
     * [FCC and CE Testing Recommendations](getting-help/troubleshooting/technical-faq/fcc-and-ce-testing-recommendations.md)
     * ['Save Capture' and 'Export Data' is Disabled in the Software](getting-help/troubleshooting/technical-faq/save-capture-and-export-data-disabled.md)
-    * [File Format Description for Exporting Protocol Analyzer Results](getting-help/troubleshooting/technical-faq/file-format-description-for-exporting-protocol-analyzer-results.md)
-    * [Is There a Newer Version of the Software Available?](getting-help/troubleshooting/technical-faq/is-there-a-newer-version-of-the-software-available.md)
     * [Is There a Way to Change the Window Resolution?](getting-help/troubleshooting/technical-faq/changing-window-resolution.md)
     * [How Can I Extract Recorded Data Using Socket API?](getting-help/troubleshooting/technical-faq/extract-data-using-socket-api.md)
     * [Does the Software Support Windows 10 Tablets or Windows RT Tablets?](getting-help/troubleshooting/technical-faq/tablet-support.md)
