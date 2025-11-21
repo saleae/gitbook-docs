@@ -12,39 +12,53 @@ The analog path for all devices first goes through a high-order, anti-aliasing f
 
 In addition to the hardware AA filter, there is a digital-analog filter that engages for sample rates lower than the advertised sample rate. This is called the decimation filter. It will filter the data further before down sampling so data sampled at lower rates does not suffer from aliasing from frequency components that made it through the analog AA filter.
 
-Examples of significant deviation between digital and analog signals:
+### Examples of Deviation Between Digital and Analog Signals
 
 *   Logic Pro 8 or 16: 5 MHz square wave
 
-    &#x20; Digital Sample Rate: 25 MSPS or greater
+    Digital Sample Rate: 25 MSPS or greater
 
-    &#x20; Analog Sample Rate: 50 MSPS (maximum)
+    Analog Sample Rate: 50 MSPS (maximum)
 
-    &#x20; The digital input will show a 5 MHz square wave.
+    The digital input will show a 5 MHz square wave.
 
-    &#x20; The analog input will show a 5 MHz sine wave.
+    The analog input will show a 5 MHz sine wave.
+
+    <div align="left"><figure><img src="../../.gitbook/assets/5_MHz (1).png" alt=""><figcaption></figcaption></figure></div>
+
+
+
 *   Logic Pro 8 or 16: 10 MHz square wave
 
-    &#x20; Digital Sample Rate: 50 MSPS or greater
+    Digital Sample Rate: 50 MSPS or greater
 
-    &#x20; Analog Sample Rate: 50 MSPS (maximum)
+    Analog Sample Rate: 50 MSPS (maximum)
 
-    &#x20; The digital input will show a 10 MHz square wave.
+    The digital input will show a 10 MHz square wave.
 
-    &#x20; The analog input will show an attenuated 10 MHz sine wave.
+    The analog input will show an attenuated 10 MHz sine wave.
 
-    &#x20; The peak-to-peak amplitude will be attenuated by the 5 MHz AA filter.
+    The peak-to-peak amplitude will be attenuated by the 5 MHz AA filter.
+
+    <div align="left"><figure><img src="../../.gitbook/assets/10_MHz (2).png" alt=""><figcaption></figcaption></figure></div>
+
+
+
 *   Logic Pro 8 or 16: 15 MHz square wave
 
-    &#x20; Digital Sample Rate: 100 MSPS or greater
+    Digital Sample Rate: 100 MSPS or greater
 
-    &#x20; Analog Sample Rate: 50 MSPS (maximum)
+    Analog Sample Rate: 50 MSPS (maximum)
 
-    &#x20; The digital input will show a 15 MHz square wave.
+    The digital input will show a 15 MHz square wave.
 
-    &#x20; The analog input will show a flat line.
+    The analog input will show a flat line.
 
-    &#x20; Zoomed in, the analog data points will form a highly attenuated 15 MHz sine wave.
+    Zoomed in, the analog data points will form a highly attenuated 15 MHz sine wave.
+
+    <div align="left"><figure><img src="../../.gitbook/assets/15_MHz.png" alt=""><figcaption></figcaption></figure></div>
+
+
 
 **Phase Difference between Analog and Digital Channels**
 
