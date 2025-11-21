@@ -158,7 +158,6 @@
     * [Can I Create or Edit .logicdata Files?](getting-help/troubleshooting/technical-faq/can-i-create-or-edit-logicdata-files.md)
     * [Can Saleae Logic Run on ARM / Apple Processors?](getting-help/troubleshooting/technical-faq/can-logic-run-on-arm.md)
     * [What Annotations Are Supported?](getting-help/troubleshooting/technical-faq/what-annotations-are-supported.md)
-    * [Time & Memory Saving Tools](getting-help/troubleshooting/technical-faq/time-and-memory-saving-tools.md)
     * [How Can I Record Power Consumption?](getting-help/troubleshooting/technical-faq/how-can-i-record-power-consumption.md)
     * [Moving Logic to Its Own Host Controller](getting-help/troubleshooting/technical-faq/move-logic-to-its-own-host-controller.md)
     * [How Long Does It Take to Save a File?](getting-help/troubleshooting/technical-faq/how-long-does-it-take-to-save-a-file.md)

@@ -19,12 +19,11 @@ The BiSS C protocol is typically used for the collection of sensor data and the 
 
 **What Logic Decodes**
 
-[ ![](https://trello-attachments.s3.amazonaws.com/57215da0d6b19b4ab3609e8c/1492x249/b54f7567d02d6b833e09fbe5253cef1f/BiSSC.png) ](https://trello-attachments.s3.amazonaws.com/57215da0d6b19b4ab3609e8c/1492x249/b54f7567d02d6b833e09fbe5253cef1f/BiSSC.png)
+<figure><img src="../../../.gitbook/assets/BiSSC.png" alt=""><figcaption></figcaption></figure>
 
 * Clock MA Sync
 * Slave Ack
 * Start Bit
 * Sensor Data
 * Actuator Data
-* Timeout \(Stop\)
-
+* Timeout (Stop)

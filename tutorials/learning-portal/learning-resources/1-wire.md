@@ -21,11 +21,10 @@ As the name implies, 1-Wire has only one wire. The wire provides both power and 
 
 **What Logic Decodes**
 
-[ ![](https://trello-attachments.s3.amazonaws.com/57215da0d6b19b4ab3609e8c/1478x141/b9d54ec7b7e2f0bbdba9185165def8d2/1wire.png) ](https://trello-attachments.s3.amazonaws.com/57215da0d6b19b4ab3609e8c/1478x141/b9d54ec7b7e2f0bbdba9185165def8d2/1wire.png)
+<figure><img src="../../../.gitbook/assets/1wire.png" alt=""><figcaption></figcaption></figure>
 
 * 1-Wire Reset
 * Presence Pulse
 * Overdrive commands and data
 * All Standard ROM commands
 * Data Bytes
-
