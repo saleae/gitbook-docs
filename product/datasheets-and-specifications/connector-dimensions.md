@@ -4,7 +4,9 @@ Below are several recommendations for integrating the Saleae devices into new de
 
 ### 1. Add Male Headers to your PCB
 
-You can add 4x2 male headers to your PCB and use the Saleae accessory cable "Logic-to-2x4 Header (Gen 2)" to connect any of the current Saleae logic analyzers to your circuit. [Accessories can be purchased here](https://www.saleae.com/accessories).
+You can add 4x2 male headers to your PCB and use the Saleae accessory cable "Logic-to-2x4 Header (Gen 2)" to connect any of the current Saleae logic analyzers to your circuit.
+
+* [Accessories can be purchased here](https://www.saleae.com/accessories)
 
 Our 4x2 connectors are comprised of:
 
