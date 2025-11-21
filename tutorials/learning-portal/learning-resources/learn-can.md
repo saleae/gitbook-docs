@@ -14,17 +14,17 @@ The CAN bus itself is a single long cable with CAN nodes connected very close to
 
 Yes:
 
-![](https://trello-attachments.s3.amazonaws.com/57215d59658a3abf8cf6f277/974x122/e190bf0dbd287a3b32462f70286c29b9/Yes.png)
+<figure><img src="../../../.gitbook/assets/Yes.png" alt=""><figcaption></figcaption></figure>
 
 No:
 
-![](https://trello-attachments.s3.amazonaws.com/57215d59658a3abf8cf6f277/957x459/1c35102812d414fbdac740293d213673/No.png)
+<figure><img src="../../../.gitbook/assets/No.png" alt=""><figcaption></figcaption></figure>
 
 ### **Electrical**
 
 The cable consists of a single differential pair, typically twisted, with a characteristic impedance of 120 ohms. The far ends of the cable are terminated with 120-ohm resistors.
 
-![](https://trello-attachments.s3.amazonaws.com/57215d59658a3abf8cf6f277/1088x276/bc55197e073141983eb4ae99be8cc189/Electrical.png)
+<figure><img src="../../../.gitbook/assets/Electrical (1).png" alt=""><figcaption></figcaption></figure>
 
 Typically, a ground wire is also provided. To prevent ground loops and reference voltage differences, it should be the only ground reference used. Some CAN transceivers are isolated to get around this limitation. Power is also commonly provided. A connector is not part of the physical layer specification, but the DB9 connector is common.
 
@@ -40,7 +40,7 @@ In the recessive state, no node (CAN device) drives the bus. Since both ends of 
 
 In the dominant state, one end of the differential pair, called CANL, is pulled low, while the other end, CANH, is pulled high (generally 5V or 3.3V). Naturally, that overrides the recessive state, and thus the name.
 
-![](https://trello-attachments.s3.amazonaws.com/57215d59658a3abf8cf6f277/1065x120/0b69f4e1d832b9ce270c969c440cbbb5/Dominant.png)
+<figure><img src="../../../.gitbook/assets/Dominant.png" alt=""><figcaption></figcaption></figure>
 
 ### **Similarity to Single-Ended, Pulled-Up Bus**
 
@@ -62,11 +62,9 @@ The dominant state on the CAN bus is there where there is voltage (5 or 3.3V) ac
 
 Notice that once you are on the microcontroller side, the IO voltages do match the logical states (positive logic). In other words, on the microcontroller side, 0V is logic 0, and 5/3.3V is logic 1. It looks very similar to the CMOS-level serial since the idle state is 1.
 
-![](https://trello-attachments.s3.amazonaws.com/57215d59658a3abf8cf6f277/1015x167/7cd780aa5b3632d4a7845f313cf35988/States1.png)
+<figure><img src="../../../.gitbook/assets/States1.png" alt=""><figcaption></figcaption></figure>
 
-&#x20;
-
-![](https://trello-attachments.s3.amazonaws.com/57215d59658a3abf8cf6f277/1095x179/f7c74368cc3b3dc2908bad676187a651/States2.png)
+<figure><img src="../../../.gitbook/assets/States2.png" alt=""><figcaption></figcaption></figure>
 
 ### **Bits on the Bus**
 
@@ -90,15 +88,15 @@ If 5 zeros are sent in a row, CAN requires that a 1 be sent next. That extra bit
 
 If 5 ones are sent in a row, CAN requires that a 0 be sent next. That extra bit will be thrown away by the receiver.
 
-![](https://trello-attachments.s3.amazonaws.com/57215d59658a3abf8cf6f277/673x170/229d640d2a4d218b653006b32eb34000/BitStuffing.png)
+<figure><img src="../../../.gitbook/assets/BitStuffing.png" alt=""><figcaption></figcaption></figure>
 
 Remember that even if the next bit in the data would cause the needed transition, the receiver won't know that. You must insert the extra bit.
 
-![](https://trello-attachments.s3.amazonaws.com/57215d59658a3abf8cf6f277/742x193/c4807b9c465c0266846e64f28b241a5c/BitStuffing1.png)
+<figure><img src="../../../.gitbook/assets/BitStuffing1.png" alt=""><figcaption></figcaption></figure>
 
 There is one gotcha worth mentioning. 0 0 0 0 0 will be followed by a stuffed 1. Let's say another 4 1s then follow. Does that count as 5 ones or 4? It counts as 5—so yes, we would then stuff a 0. Remember that the point is to limit the time you can go without seeing a transition.
 
-![](https://trello-attachments.s3.amazonaws.com/57215d59658a3abf8cf6f277/743x178/2b917b18ade7ba2f252681c1f0b5d2f9/Bitstuffing3.png)
+<figure><img src="../../../.gitbook/assets/Bitstuffing3.png" alt=""><figcaption></figcaption></figure>
 
 If a receiver received 6 consecutive bits in a row, that is considered an error, and it throws away any subsequent data.
 
@@ -122,7 +120,7 @@ A single bit, the RTR (remote transmission request) bit determines if a frame is
 
 **Standard (11-Bit ID) Frames**
 
-![](https://trello-attachments.s3.amazonaws.com/57215d59658a3abf8cf6f277/1428x214/a35b8da77685f9034fdcf6c151bd3e92/StandardFrames.png)
+<figure><img src="../../../.gitbook/assets/StandardFrames.png" alt=""><figcaption></figcaption></figure>
 
 **SOF Bit**
 
@@ -170,7 +168,7 @@ The END of frame is simply a sequence of 7 recessive bits. This provides padding
 
 **Extended (29-Bit ID) Frames**
 
-![](https://trello-attachments.s3.amazonaws.com/57215d59658a3abf8cf6f277/1428x205/126c1dedfd9469fba7cbed1fe75d39d5/ExtendedFrames.png)
+<figure><img src="../../../.gitbook/assets/ExtendedFrames.png" alt=""><figcaption></figcaption></figure>
 
 **SOF Bit**
 
@@ -236,8 +234,8 @@ Note that that the frame identifier is thus related to the priority of the frame
 
 **References**
 
-| [Wikipedia](http://en.wikipedia.org/wiki/Controller\_area\_network) | [Texas Instruments](http://focus.ti.com/lit/an/slla270/slla270.pdf) | [BOSCH CAN Specification 2.0](http://esd.cs.ucr.edu/webres/can20.pdf) |
-| ------------------------------------------------------------------- | ------------------------------------------------------------------- | --------------------------------------------------------------------- |
+| [Wikipedia](http://en.wikipedia.org/wiki/Controller_area_network) | [Texas Instruments](http://focus.ti.com/lit/an/slla270/slla270.pdf) | [BOSCH CAN Specification 2.0](http://esd.cs.ucr.edu/webres/can20.pdf) |
+| ----------------------------------------------------------------- | ------------------------------------------------------------------- | --------------------------------------------------------------------- |
 
 **Example CAN Devices**
 
@@ -248,7 +246,7 @@ Note that that the frame identifier is thus related to the priority of the frame
 
 **Top Resources**
 
-* [Wikipedia](http://en.wikipedia.org/wiki/Controller\_area\_network)
+* [Wikipedia](http://en.wikipedia.org/wiki/Controller_area_network)
 * [Bosch CAN Specification 2.0](http://esd.cs.ucr.edu/webres/can20.pdf)
 
 **Example CAN Parts**
@@ -258,8 +256,6 @@ Note that that the frame identifier is thus related to the priority of the frame
 * [TI 3.3V CAN Transceiver](http://focus.ti.com/lit/ds/symlink/sn65hvd230.pdf)
 
 **What Logic Decodes**
-
-[ <img src="https://trello-attachments.s3.amazonaws.com/57215da0d6b19b4ab3609e8c/1433x136/ce4914ae47d52a9374cac511acfc1ade/CAN.png" alt="" data-size="original"> ](https://trello-attachments.s3.amazonaws.com/57215da0d6b19b4ab3609e8c/1433x136/ce4914ae47d52a9374cac511acfc1ade/CAN.png)
 
 * Start Bit
 * Identifier (Arbitration Frame)
