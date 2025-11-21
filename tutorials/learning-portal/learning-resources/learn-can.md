@@ -257,6 +257,8 @@ Note that that the frame identifier is thus related to the priority of the frame
 
 **What Logic Decodes**
 
+<figure><img src="../../../.gitbook/assets/CAN.png" alt=""><figcaption></figcaption></figure>
+
 * Start Bit
 * Identifier (Arbitration Frame)
 * Extended Frames

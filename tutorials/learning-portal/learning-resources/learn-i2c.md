@@ -4,7 +4,11 @@ I2C is a very common communication protocol typically used by microcontrollers t
 
 ### **Topology**
 
+<figure><img src="../../../.gitbook/assets/Topology.png" alt=""><figcaption></figcaption></figure>
+
 I2C uses just two wires: a data line called SDA and a clock line called SCL. Even as you add more devices to the bus, there are still only two wires.
+
+<figure><img src="../../../.gitbook/assets/Topology2.png" alt=""><figcaption></figcaption></figure>
 
 Both I2C lines are open-drain and are pulled up with a resistor. To put a 1 on the wire, you change your output to high-z. To put a 0 on the wire, pull it low.
 
@@ -20,14 +24,21 @@ With synchronous serial in general (including SPI), the data line is allowed to 
 
 During normal data transfer, the data line may only change when the clock is low.
 
+<figure><img src="../../../.gitbook/assets/Sync.png" alt=""><figcaption></figcaption></figure>
+
 Since changing the data line when the clock is high is not allowed during normal data transfer, I2C "reserves" this case and uses it to signal a synchronization event.
 
 There are two ways the data line can change while the clock is high. It can transition from 0 to 1 while the clock is high, or it can transition from 1 to 0. In I2C, these each mean something specific.
 
 ### **START and STOP – I2C's Synchronization Events**
 
-* A START event occurs when the CLK (clock) is high and SDL (data line) falls (1 to 0).
-* A STOP event occurs when the CLK (clock) is high and SDL (data line) rises (0 to 1).
+* A START event occurs when the CLK (clock) is high and SDA (data line) falls (1 to 0).
+
+<figure><img src="../../../.gitbook/assets/Start.png" alt=""><figcaption></figcaption></figure>
+
+* A STOP event occurs when the CLK (clock) is high and SDA (data line) rises (0 to 1).
+
+<figure><img src="../../../.gitbook/assets/Stop.png" alt=""><figcaption></figcaption></figure>
 
 ### **Selecting a Slave to Talk To – Without Enable Lines**
 
@@ -43,6 +54,8 @@ In I2C, addresses are 7-bits long.
 
 As long as SDA (data) does not change when CLK (clock) is high, data can be sent on the bus. CLK will go low, SDA will change to a 1 or 0 if it needs to, and then the clock will go high. In I2C, a clock rising edge means that the data line is valid.
 
+<figure><img src="../../../.gitbook/assets/Write.png" alt=""><figcaption></figcaption></figure>
+
 CLK then goes low again, and the process repeats. During the time that SCK is high, SDA should not change unless the master is trying to signal START or STOP.
 
 Bits are written with the most significant bit first.
@@ -53,9 +66,13 @@ Bits are written with the most significant bit first.
 
 When the bus is idle, no one is pulling either line low. They are both pulled up.
 
+<figure><img src="../../../.gitbook/assets/Idle.png" alt=""><figcaption></figcaption></figure>
+
 **Start Event**
 
 The master pulls the SDA (data) line low. Since the CLK is still high, this special situation is recognized by anyone listening as a START event. The START event means "listen up in case your name is called."
+
+<figure><img src="../../../.gitbook/assets/Stop (1).png" alt=""><figcaption></figcaption></figure>
 
 **Address, Read/Write Bit**
 
@@ -64,6 +81,8 @@ Next, the master writes out 7 address bits (most significant first, as with all 
 The master pulls the clock line low, changes (if required) the data line, and brings the clock line high, writing the first bit. Then the clock line is pulled low again, and the process repeats.
 
 The 8th bit is the direction bit. If this bit is a 0, it means this: Hey, device, I'm going to write some data to you. If it is a 1, it means this: Hey, device, please send me some data.
+
+<figure><img src="../../../.gitbook/assets/ReadWrite.png" alt=""><figcaption></figcaption></figure>
 
 **Acknowledge**
 
@@ -82,6 +101,10 @@ The master can now write (or read) as much data as it wants from the slave. More
 Data is sent one byte (8 bits) at a time, MSB first. If writing data to the device, the master controls both the data line and the clock line. If reading data from the device, the master controls just the clock line and lets the slave pull down the data line as it needs to.
 
 Each byte sent or received is followed by a NAK (leaving the data line high) or ACK (pulling the data line low) by the slave. This acknowledgment bit is the 9th bit.
+
+<figure><img src="../../../.gitbook/assets/Byte.png" alt=""><figcaption></figcaption></figure>
+
+In the image above, we send (or receive) the 0b 10101010, followed by an acknowledge.
 
 **Clock Stretching**
 
@@ -154,10 +177,12 @@ Often, datasheets will refer to the slave's address as an 8-bit number, which in
 
 Not surprisingly, there is some disagreement as to how the address and direction should be displayed. Therefore, the Saleae I2C analyzer has the following display options:
 
+<figure><img src="../../../.gitbook/assets/Address.png" alt=""><figcaption></figcaption></figure>
+
 **Reference**
 
-| [Wikipedia](http://en.wikipedia.org/wiki/I%C2%B2C) | [I2C Specification 2.1](http://www.nxp.com/documents/user\_manual/UM10204.pdf) |
-| -------------------------------------------------- | ------------------------------------------------------------------------------ |
+| [Wikipedia](http://en.wikipedia.org/wiki/I%C2%B2C) | [I2C Specification 2.1](http://www.nxp.com/documents/user_manual/UM10204.pdf) |
+| -------------------------------------------------- | ----------------------------------------------------------------------------- |
 
 **Example I2C Devices**
 
@@ -172,7 +197,7 @@ Not surprisingly, there is some disagreement as to how the address and direction
 **Top Resources**
 
 * [Wikipedia](http://en.wikipedia.org/wiki/I%C2%B2C)
-* [I2C Specification 2.1](http://www.nxp.com/documents/user\_manual/UM10204.pdf)
+* [I2C Specification 2.1](http://www.nxp.com/documents/user_manual/UM10204.pdf)
 * [SparkFun Tutorial](https://learn.sparkfun.com/tutorials/i2c/introduction)
 * [NXP I2C Overview (video)](http://www.youtube.com/watch?v=BcWixZcZ6JY\&list=PLB1BE22BA36431CFD)
 
@@ -192,6 +217,8 @@ Not surprisingly, there is some disagreement as to how the address and direction
 * [Gyro](http://www.sparkfun.com/products/10612)
 
 **What Logic Decodes**
+
+<figure><img src="../../../.gitbook/assets/I2C.png" alt=""><figcaption></figcaption></figure>
 
 * Start Bit
 * Address Byte

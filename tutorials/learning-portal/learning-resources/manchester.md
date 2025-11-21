@@ -8,8 +8,8 @@ The Saleae Manchester analyzer also includes differential Manchester bi-phase sp
 
 **Resources**
 
-* [Wikipedia](http://en.wikipedia.org/wiki/Manchester\_code)
+* [Wikipedia](http://en.wikipedia.org/wiki/Manchester_code)
 
 **What Logic Decodes**
 
-[ ![](https://trello-attachments.s3.amazonaws.com/57215da0d6b19b4ab3609e8c/981x137/ce2d64cc35324aed076859d9bf6f1193/Manchester.png) ](https://trello-attachments.s3.amazonaws.com/57215da0d6b19b4ab3609e8c/981x137/ce2d64cc35324aed076859d9bf6f1193/Manchester.png)
+<figure><img src="../../../.gitbook/assets/Manchester.png" alt=""><figcaption></figcaption></figure>
