@@ -80,8 +80,8 @@ This happens rarely, and is a known issue at the moment. The root problem is tha
 
 There are two main options in the short term to work around this.
 
-1. If you only need to read data from a single analyzer, and not multiple analyzers combined into one export, then you can use our older, analyzer-specific export option. The format is a little different, but it's consistent.\
-   [Exporting Analyzer Results](https://app.gitbook.com/o/-LICsJZZBwqsT1au1oTJ/s/-LIrtSD7SNp69UxQ-5QC/~/edit/~/changes/1244/product/user-guide/using-logic/exporting-data#exporting-analyzer-results)
+1. If you only need to read data from a single analyzer, and not multiple analyzers combined into one export, then you can use our older, analyzer-specific export option. The format is a little different, but it's consistent. Instructions can be found below, under the _Exporting Analyzer Results_ section\
+   [Exporting Data](exporting-data.md)
 2. We usually use a CSV parsing library that makes it easy to access values by header name, like pandas for python, where we can simply use string names for stuff like \["address"] and it will grab data from the correct column. This makes it easy to parse the export format independent of column order.
 
 Long term, we don't have a solution planned for this yet. The data table has to handle many different columns from different analyzers, including custom user created analyzers. We would like to add the ability to manually re-order the columns, or we could perhaps automatically keep them in alphabetical order, but I'm not sure any of these solutions will be that helpful. Ultimately, I think we may want to expand analyzers to allow them to control their column order, however that won't address the case where analyzers of different types are added, especially if some of their columns overlap.
