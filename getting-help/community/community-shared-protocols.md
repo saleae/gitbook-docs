@@ -77,6 +77,7 @@ Some of the community analyzers listed above are distributed as source code (not
 
 ### Community Shared Protocol Tools
 
+* [Saleae Bitparser HLA](https://github.com/dudmuck/saleae-bitparser-hla) - SPI decoder for Saleae Logic 2 binary exports that feeds data to a High Level Analyzer
 * [UsbInsight ★ 5](https://github.com/maehw/UsbInsight) - USB LS/FS Decoder for Saleae Logic CSV Exports
 * [Enrichable SPI Analyzer ★ 6](https://github.com/coddingtonbear/saleae-enrichable-spi-analyzer) with an [Example Implementation](https://github.com/coddingtonbear/saleae-scriptable-spi-analyzer/blob/master/examples/custom_class.py)
 * [HLA Stream Parser ★ 0](https://github.com/andreobi/HLA_Stream_Parser)
