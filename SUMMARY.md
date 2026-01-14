@@ -296,7 +296,6 @@
   * [Input Channels are Missing](getting-help/troubleshooting/channels-are-missing.md)
   * [Exported MATLAB File Does Not Open](getting-help/troubleshooting/exported-matlab-file-does-not-open.md)
   * [Saleae Logic LED Blinks Red](getting-help/troubleshooting/led-blinks-red.md)
-  * [Crashes Caused by macOS Mojave (10.14)](getting-help/troubleshooting/mojave-crashes.md)
   * [Troubleshooting Signal Crosstalk](getting-help/troubleshooting/crosstalk.md)
   * [Error Message: DeviceSetupFailure](getting-help/troubleshooting/device-setup-failure.md)
   * [Error Message: Unable to detect WebGL and Other GPU Issues](getting-help/troubleshooting/error-message-unable-to-detect-webgl.md)
