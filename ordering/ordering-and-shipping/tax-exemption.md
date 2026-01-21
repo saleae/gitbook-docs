@@ -2,23 +2,11 @@
 
 ## Tax Exemption Process for U.S. Orders
 
-{% hint style="info" %}
-Please wait for our support team's approval email (usually 1-2 business days after the tax exemption certificate is provided) before placing your tax exempt order. Our process is highlighted below.
-{% endhint %}
-
-### Process for Removing Tax Charges (US Orders)
-
-We currently charge taxes on orders that ship to the following US states:
-
-* Arizona, California, Colorado, Florida, Illinois, Maryland, Massachusetts, Michigan, Minnesota, Pennsylvania, Texas, Washington
-
-Online orders that will ship to all other U.S. states will not be charged taxes by default. The process below can be followed to remove tax charges for tax-exempt orders that will be shipping to the above listed US states.
-
 1. Please ensure that your tax exemption certificate meets the requirements for your particular state. You can refer to [California's Resale Certificate Requirements](https://www.taxes.ca.gov/Sales_and_Use_Tax/ResaleCertificate.html) as an example.
 2. Before placing your online order at [www.saleae.com](https://www.saleae.com/), please [contact us](https://contact.saleae.com/hc/en-us/requests/new) and let us know you would like sales tax removed on future orders. Include an attachment of your tax exemption certificate.
-3. Wait for our support team's approval email (usually 1-2 business days after the tax exemption certificate is provided).
-4. After receiving approval, your future orders on [www.saleae.com](https://www.saleae.com/) will be tax-exempt when using the email you have provided us.
-5. When placing your order, ensure that taxes have been successfully removed before submitting your order. If taxes still appear on our check out page, please do not submit your order and [contact us](https://contact.saleae.com/hc/en-us/requests/new) to have this resolved.
+3. Our support team will reply within 1 business day after the tax exemption certificate is submitted.
+4. After approval, your future orders on [www.saleae.com](https://www.saleae.com/) will be tax-exempt when using the email you have provided to us.
+5. When placing your order, ensure that taxes have been successfully removed before submitting your order. If taxes still appear on our check out page, please do not submit your order and [contact us](https://contact.saleae.com/hc/en-us/requests/new) and we can help look into it for you!
 
 ### Refund of Tax Charges
 
