@@ -14,12 +14,12 @@ If you are looking for something like real-time data access, the best option is 
 
 ### Automation API
 
-Our Automation API is intended to make it easy for the Logic 2 software to be controlled via a Python script. You can find more details on our on our [Logic 2 Automation landing page here](https://www.saleae.com/automation/).
+Our Automation API is intended to make it easy for the Logic 2 software to be controlled via a Python script. You can find more details in the [Logic 2 Automation API docs](https://saleae.github.io/logic2-automation/).
 
 #### About Legacy Logic 1.x Support
 
 {% hint style="warning" %}
-Due to the official release of the newer [Logic 2 Automation API](https://www.saleae.com/automation/), we have officially ended support for our Legacy Logic 1.x Automation API. We highly recommend existing users who currently use our legacy Socket API automation utility in the past with Logic 1.x to migrate their automation utility to Logic 2 using our new Automation API above. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you need help with that.
+Due to the official release of the newer [Logic 2 Automation API](https://saleae.github.io/logic2-automation/), we have officially ended support for our Legacy Logic 1.x Automation API. We highly recommend existing users who currently use our legacy Socket API automation utility in the past with Logic 1.x to migrate their automation utility to Logic 2 using our new Automation API above. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you need help with that.
 {% endhint %}
 
 A link to our Legacy Logic 1.x Automation Utility is provided below for reference.
