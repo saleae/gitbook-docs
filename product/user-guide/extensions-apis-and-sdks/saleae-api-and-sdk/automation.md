@@ -2,6 +2,8 @@
 
 ## Automation Support for Logic 2
 
-The new Logic 2 Automation API is now available, starting in Logic 2.4.0! You can find more information on this on our [Logic 2 Automation landing page](https://www.saleae.com/automation/).
+The Logic 2 Automation API allows you to record, analyze, export, and save captures using Saleae's Logic 2 software and USB Logic Analyzers (Logic 8, Pro 8, and Pro 16).
 
-If you run into any issues or have any feedback for us, please [contact us](https://contact.saleae.com/hc/en-us/requests/new).
+For full documentation, see the [Logic 2 Automation API docs](https://saleae.github.io/logic2-automation/).
+
+If you run into any issues or have any feedback for us, please [contact us](https://www.saleae.com/contact).
