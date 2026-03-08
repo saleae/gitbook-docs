@@ -2,16 +2,16 @@
 
 You may wish to review asynchronous sampling before continuing.
 
-{% content-ref url="what-is-asynchronous-sampling.md" %}
-[what-is-asynchronous-sampling.md](what-is-asynchronous-sampling.md)
+{% content-ref url="../../specifications-hardware/electrical-characteristics/what-is-asynchronous-sampling.md" %}
+[what-is-asynchronous-sampling.md](../../specifications-hardware/electrical-characteristics/what-is-asynchronous-sampling.md)
 {% endcontent-ref %}
 
 When recording a signal using asynchronous sampling, like in the case of the Saleae products, the exact time of the rising and falling edges of the signal is not recorded. Instead, the signal is periodically sampled at the specified sample rate, and only the state during those samples is recorded. In effect, the precise times of the rising and falling edges are rounded to the nearest sample.
 
 That can be complicated by the non-zero rise and fall time of the signal. If a signal is sampled during a transition, it is recorded as a logic high or a logic low, based on the current voltage of the signal compared to the recording device's logic threshold voltages. See logic thresholds for details for below.
 
-{% content-ref url="../../../product/user-guide/supported-voltages.md" %}
-[supported-voltages.md](../../../product/user-guide/supported-voltages.md)
+{% content-ref url="../../specifications-hardware/electrical-characteristics/supported-voltages.md" %}
+[supported-voltages.md](../../specifications-hardware/electrical-characteristics/supported-voltages.md)
 {% endcontent-ref %}
 
 There are several reasons the recorded shape of a signal may not look like the expected shape.

@@ -24,8 +24,8 @@ Even when the I2S settings have signed number selected, unsigned numbers may alw
 
 This issue is solved by changing the display radix from ascii to decimal. Although a decimal number is shown, the single quotes indicate that the ascii display mode is active, but the number is considered a non-displayable character (in this case, outside of the low ascii range completely) so the text string defaults to unsigned decimal. Changing the display radix to decimal will show the signed number.
 
-{% content-ref url="../../../../getting-help/troubleshooting/technical-faq/changing-the-display-radix.md" %}
-[changing-the-display-radix.md](../../../../getting-help/troubleshooting/technical-faq/changing-the-display-radix.md)
+{% content-ref url="../../logic-software/viewing-and-analyzing-data/changing-the-display-radix.md" %}
+[changing-the-display-radix.md](../../logic-software/viewing-and-analyzing-data/changing-the-display-radix.md)
 {% endcontent-ref %}
 
 #### Analyer Result displays "Error: bits don't divide evenly between subframes"
@@ -44,6 +44,6 @@ That means the bits are being decoded at the exact moment the bits are changing,
 
 For more information on this, please see the link below.
 
-{% content-ref url="../../../../getting-help/troubleshooting/technical-faq/convert-i2s-pcm-to-audio.md" %}
-[convert-i2s-pcm-to-audio.md](../../../../getting-help/troubleshooting/technical-faq/convert-i2s-pcm-to-audio.md)
+{% content-ref url="./convert-i2s-pcm-to-audio.md" %}
+[convert-i2s-pcm-to-audio.md](./convert-i2s-pcm-to-audio.md)
 {% endcontent-ref %}

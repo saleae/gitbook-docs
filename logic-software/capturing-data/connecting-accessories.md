@@ -63,8 +63,8 @@ When using Logic16 with more than 8 inputs, we recommend connecting the second g
 
 Several Logic accessories have been made available by our community of users. These are listed in the support article below.
 
-{% content-ref url="../../../getting-help/community/community-created-accessories.md" %}
-[community-created-accessories.md](../../../getting-help/community/community-created-accessories.md)
+{% content-ref url="../../community-contact/community-created-accessories.md" %}
+[community-created-accessories.md](../../community-contact/community-created-accessories.md)
 {% endcontent-ref %}
 
 

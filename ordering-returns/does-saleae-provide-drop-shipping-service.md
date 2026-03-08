@@ -4,8 +4,8 @@ We don't offer discounts for drop-shipping. Generally, we prefer distributors wh
 
 You can view more about our discount options below:
 
-{% content-ref url="../what-discounts-are-available.md" %}
-[what-discounts-are-available.md](../what-discounts-are-available.md)
+{% content-ref url="./what-discounts-are-available.md" %}
+[what-discounts-are-available.md](./what-discounts-are-available.md)
 {% endcontent-ref %}
 
 

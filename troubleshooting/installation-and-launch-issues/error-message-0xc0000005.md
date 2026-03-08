@@ -16,8 +16,8 @@ This affects all releases of our software after and including version 1.1.21. Re
 
 Version 1.1.20 is very old and does not support the current hardware products (Logic 4, Logic 8, Logic Pro 8, Logic Pro 16). Older versions of our software can be downloaded below.
 
-{% content-ref url="../../product/logic-software/legacy-software/older-software-releases.md" %}
-[older-software-releases.md](../../product/logic-software/legacy-software/older-software-releases.md)
+{% content-ref url="../../logic-software/download-and-installation/older-software-releases.md" %}
+[older-software-releases.md](../../logic-software/download-and-installation/older-software-releases.md)
 {% endcontent-ref %}
 
 **Steps to Verify That a Compatability Issue Is Preventing the Software to Launch**

@@ -6,8 +6,8 @@ Simulation mode allows potential users to explore the features of the software b
 
 You can read more about simulation mode below.
 
-{% content-ref url="../../../product/user-guide/using-logic/demo-mode.md" %}
-[demo-mode.md](../../../product/user-guide/using-logic/demo-mode.md)
+{% content-ref url="../../logic-software/capturing-data/demo-mode.md" %}
+[demo-mode.md](../../logic-software/capturing-data/demo-mode.md)
 {% endcontent-ref %}
 
 

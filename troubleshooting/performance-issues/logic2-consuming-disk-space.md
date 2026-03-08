@@ -26,16 +26,16 @@ In cases where you plan on capturing large amounts of data (usually greater than
 
 Instructions for saving/loading a preset and saving captures can be found below.
 
-{% content-ref url="../../product/user-guide/using-logic/saving-loading-and-exporting-data.md" %}
-[saving-loading-and-exporting-data.md](../../product/user-guide/using-logic/saving-loading-and-exporting-data.md)
+{% content-ref url="../../logic-software/saving-and-exporting-data/saving-loading-and-exporting-data.md" %}
+[saving-loading-and-exporting-data.md](../../logic-software/saving-and-exporting-data/saving-loading-and-exporting-data.md)
 {% endcontent-ref %}
 
 ### Workaround #2
 
 Another workaround would be to trim your capture such that the amount of decoded data you are working with is greatly reduced. Instructions for trimming your capture can be found below. Please remember to save a copy of your original capture, preferably with all analyzers removed.
 
-{% content-ref url="../../product/user-guide/using-logic/delete-data.md" %}
-[delete-data.md](../../product/user-guide/using-logic/delete-data.md)
+{% content-ref url="../../logic-software/viewing-and-analyzing-data/delete-data.md" %}
+[delete-data.md](../../logic-software/viewing-and-analyzing-data/delete-data.md)
 {% endcontent-ref %}
 
 

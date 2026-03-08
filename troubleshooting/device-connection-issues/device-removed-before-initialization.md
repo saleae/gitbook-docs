@@ -18,8 +18,8 @@ This error message may appear during device operation, or upon connecting your L
 
 6\. Try manually installing the Saleae drivers via the instructions in the below support article.
 
-{% content-ref url="../../product/logic-software/driver-install.md" %}
-[driver-install.md](../../product/logic-software/driver-install.md)
+{% content-ref url="../../logic-software/download-and-installation/driver-install.md" %}
+[driver-install.md](../../logic-software/download-and-installation/driver-install.md)
 {% endcontent-ref %}
 
 7\. In some cases, this issue can be resolved by uninstalling the USB 3 host controller driver, and allowing Windows to automatically re-install the same driver during a reboot. Specifically, this may solve the problem for users with the  Intel USB 3.1 eXtensible Host Controller, like the one shown in the image below. If you have an Intel based USB 3 host controller,  first navigate to the USB host controller driver from Device Manager and double click it to open the properties window, (be sure it's the Intel eXtensible Host Controller) then uninstall the driver by clicking "Uninstall Device" under the Driver tab in the device properties, and restart the PC. Once restarted, Windows will automatically re-install the same driver, and in many cases, this resolved the connectivity issue with our devices.
@@ -34,8 +34,8 @@ If the error message persists, please [contact us](https://contact.saleae.com/hc
 
 2\. Share your USB host controller information like shown in the support article below. Screenshots would be great.
 
-{% content-ref url="technical-faq/usb-3.0-host-controller-info.md" %}
-[usb-3.0-host-controller-info.md](technical-faq/usb-3.0-host-controller-info.md)
+{% content-ref url="../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md" %}
+[usb-3.0-host-controller-info.md](../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md)
 {% endcontent-ref %}
 
 3\. Share your crash logs with us. To collect logs on windows, you can run the application from the console like so:\
@@ -46,14 +46,14 @@ The logs will be printed directly to the console while the application is runnin
 
 4\. Let us know which specific Saleae Logic model you own. You can refer to the support article below.
 
-{% content-ref url="general-faq/identify-each-saleae-device.md" %}
-[identify-each-saleae-device.md](general-faq/identify-each-saleae-device.md)
+{% content-ref url="../../getting-started/identify-each-saleae-device.md" %}
+[identify-each-saleae-device.md](../../getting-started/identify-each-saleae-device.md)
 {% endcontent-ref %}
 
 5\. Share your Machine ID.
 
-{% content-ref url="sharing-your-machine-id.md" %}
-[sharing-your-machine-id.md](sharing-your-machine-id.md)
+{% content-ref url="../diagnostic-tools/sharing-your-machine-id.md" %}
+[sharing-your-machine-id.md](../diagnostic-tools/sharing-your-machine-id.md)
 {% endcontent-ref %}
 
 

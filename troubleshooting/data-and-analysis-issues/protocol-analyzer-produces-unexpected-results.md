@@ -30,8 +30,8 @@ Finally, submit all this to [support](https://contact.saleae.com/hc/en-us/reques
 
     &#x20; Looking at a clocked (synchronous) protocol? If you see missing decoded words or the byte alignment gets offset (words are not starting/stopping on the correct bit), there could be single sample wide glitches appearing near the clock edges. Check all the edges to see if they have clock arrow markers on them. If one clock edge is missing the arrow marker, zoom in on that edge as far as it will go. You might find two clock edges right next to each other, causing an offset in the results. That can be resolved using the software glitch filter below.
 
-{% content-ref url="../../product/user-guide/using-logic/software-glitch-filter.md" %}
-[software-glitch-filter.md](../../product/user-guide/using-logic/software-glitch-filter.md)
+{% content-ref url="../../logic-software/viewing-and-analyzing-data/software-glitch-filter.md" %}
+[software-glitch-filter.md](../../logic-software/viewing-and-analyzing-data/software-glitch-filter.md)
 {% endcontent-ref %}
 
 *   Logic analyzer capture begins after communication starts, and protocol analyzer is unable to re-synchronize.

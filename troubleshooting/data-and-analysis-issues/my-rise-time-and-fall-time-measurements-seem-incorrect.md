@@ -6,8 +6,8 @@ Inside Logic 8, Logic Pro 8, and Logic Pro 16, there is a digital analog filter 
 
 You can read more about Logic's filter stages below.
 
-{% content-ref url="digital-and-analog-appear-different.md" %}
-[digital-and-analog-appear-different.md](digital-and-analog-appear-different.md)
+{% content-ref url="../capture-and-recording-issues/digital-and-analog-appear-different.md" %}
+[digital-and-analog-appear-different.md](../capture-and-recording-issues/digital-and-analog-appear-different.md)
 {% endcontent-ref %}
 
 This means that when measuring at lower sample rates, the rise and fall times may appear longer than they actually are due to our decimation filter. Because of this, rise and fall times should be measured at your device's highest advertised sample rate.

@@ -6,8 +6,8 @@ If you need the ability to run code against the analog data, the best option is 
 
 Socket API details are below.
 
-{% content-ref url="../../../product/user-guide/extensions-apis-and-sdks/saleae-api-and-sdk/automation.md" %}
-[automation.md](../../../product/user-guide/extensions-apis-and-sdks/saleae-api-and-sdk/automation.md)
+{% content-ref url="../automation-api/automation.md" %}
+[automation.md](../automation-api/automation.md)
 {% endcontent-ref %}
 
 If you are a Matlab user, exporting directly to Matlab may be best.

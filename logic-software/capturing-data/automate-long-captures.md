@@ -15,14 +15,14 @@ If you'd like to report any issues you run into while capturing data spanning se
 * A description of the error you are running into, including any error messages.
 * Your capture settings (or perhaps share your Capture Preset file)
 
-{% content-ref url="../../../product/user-guide/using-logic/saving-loading-and-exporting-data.md" %}
-[saving-loading-and-exporting-data.md](../../../product/user-guide/using-logic/saving-loading-and-exporting-data.md)
+{% content-ref url="../saving-and-exporting-data/saving-loading-and-exporting-data.md" %}
+[saving-loading-and-exporting-data.md](../saving-and-exporting-data/saving-loading-and-exporting-data.md)
 {% endcontent-ref %}
 
 * &#x20;Your Machine ID
 
-{% content-ref url="../sharing-your-machine-id.md" %}
-[sharing-your-machine-id.md](../sharing-your-machine-id.md)
+{% content-ref url="../../troubleshooting/diagnostic-tools/sharing-your-machine-id.md" %}
+[sharing-your-machine-id.md](../../troubleshooting/diagnostic-tools/sharing-your-machine-id.md)
 {% endcontent-ref %}
 
 ### Reducing Memory Usage of the Software

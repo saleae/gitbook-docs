@@ -35,8 +35,8 @@ This is typically solved by performing a Windows Update.
 
 Some users have reported that installing the Saleae drivers manually via the methods listed in the support article below solves various install issues.
 
-{% content-ref url="../../product/logic-software/driver-install.md" %}
-[driver-install.md](../../product/logic-software/driver-install.md)
+{% content-ref url="../../logic-software/download-and-installation/driver-install.md" %}
+[driver-install.md](../../logic-software/download-and-installation/driver-install.md)
 {% endcontent-ref %}
 
 ### Known Issues with Windows 11 Insider Preview Builds
@@ -62,8 +62,8 @@ We would be happy to chat with them directly as well! In this case, feel free to
 
 This error message during installation typically occurs when attempting to install the Logic 2 software on a 32-bit processor or operating system. Please note that 32-bit operating systems are not supported by Logic 2.x. For 32-bit support, please refer to Logic 1.x below.
 
-{% content-ref url="../../product/logic-software/legacy-software/older-software-releases.md" %}
-[older-software-releases.md](../../product/logic-software/legacy-software/older-software-releases.md)
+{% content-ref url="../../logic-software/download-and-installation/older-software-releases.md" %}
+[older-software-releases.md](../../logic-software/download-and-installation/older-software-releases.md)
 {% endcontent-ref %}
 
 
@@ -86,8 +86,8 @@ For each item, first perform the test. If the test result is positive (the test 
 * Test: Are you using an unsupported operating system?
 * Corrective Action: Use a supported operating system.
 
-{% content-ref url="../../product/logic-software/supported-operating-systems.md" %}
-[supported-operating-systems.md](../../product/logic-software/supported-operating-systems.md)
+{% content-ref url="../../logic-software/download-and-installation/supported-operating-systems.md" %}
+[supported-operating-systems.md](../../logic-software/download-and-installation/supported-operating-systems.md)
 {% endcontent-ref %}
 
 ### **Wrong Installer Downloaded**
@@ -117,8 +117,8 @@ For each item, first perform the test. If the test result is positive (the test 
 
     &#x20; You can find all the download links for the latest beta, including the standalone releases below.
 
-{% content-ref url="../../product/logic-software/legacy-software/older-software-releases.md" %}
-[older-software-releases.md](../../product/logic-software/legacy-software/older-software-releases.md)
+{% content-ref url="../../logic-software/download-and-installation/older-software-releases.md" %}
+[older-software-releases.md](../../logic-software/download-and-installation/older-software-releases.md)
 {% endcontent-ref %}
 
 ### **The Saleae Drivers Are Preventing the Software from Installing**
@@ -127,8 +127,8 @@ For each item, first perform the test. If the test result is positive (the test 
 * Corrective Action: Download the standalone version of the software as described above. Then attempt a manual driver install using the new hardware/update driver wizard.
 * If the same error persists during the manual driver install, please check the driver install help found below.
 
-{% content-ref url="../../product/logic-software/driver-install.md" %}
-[driver-install.md](../../product/logic-software/driver-install.md)
+{% content-ref url="../../logic-software/download-and-installation/driver-install.md" %}
+[driver-install.md](../../logic-software/download-and-installation/driver-install.md)
 {% endcontent-ref %}
 
 ### **The Software Will Not Launch (All Platforms)**

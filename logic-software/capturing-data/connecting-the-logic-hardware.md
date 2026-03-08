@@ -16,8 +16,8 @@ Connecting Logic to your PC
 If connecting Logic Pro 8 or Logic Pro 16 to a USB 2.0 port, please read the article below. You may receive a warning notification from within the software which indicates that the available channels and sampling rate options may be limited.
 {% endhint %}
 
-{% content-ref url="../../../getting-help/troubleshooting/limitations-of-logic-pro-usb2.md" %}
-[limitations-of-logic-pro-usb2.md](../../../getting-help/troubleshooting/limitations-of-logic-pro-usb2.md)
+{% content-ref url="../../troubleshooting/device-connection-issues/limitations-of-logic-pro-usb2.md" %}
+[limitations-of-logic-pro-usb2.md](../../troubleshooting/device-connection-issues/limitations-of-logic-pro-usb2.md)
 {% endcontent-ref %}
 
 

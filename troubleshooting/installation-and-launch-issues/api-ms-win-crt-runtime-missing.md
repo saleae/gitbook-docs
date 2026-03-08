@@ -4,8 +4,8 @@ Versions of the Saleae Logic Windows software starting with 1.2.11 require the M
 
 Details for the standalone installation can be found here:
 
-{% content-ref url="technical-faq/standalone-software-info.md" %}
-[standalone-software-info.md](technical-faq/standalone-software-info.md)
+{% content-ref url="../../logic-software/download-and-installation/standalone-software-info.md" %}
+[standalone-software-info.md](../../logic-software/download-and-installation/standalone-software-info.md)
 {% endcontent-ref %}
 
 If you see either of the below errors, it is possible that the runtime is not installed properly.
@@ -25,8 +25,8 @@ If you see either of the below errors, it is possible that the runtime is not in
     After you have installed the runtime, try restarting the computer and running Logic again.
 3. If the above steps don't solve the issue, please try installing and running version 1.2.10 of our software. You can find it below.
 
-{% content-ref url="../../product/logic-software/legacy-software/older-software-releases.md" %}
-[older-software-releases.md](../../product/logic-software/legacy-software/older-software-releases.md)
+{% content-ref url="../../logic-software/download-and-installation/older-software-releases.md" %}
+[older-software-releases.md](../../logic-software/download-and-installation/older-software-releases.md)
 {% endcontent-ref %}
 
 **Contacting Support for Additional Help**

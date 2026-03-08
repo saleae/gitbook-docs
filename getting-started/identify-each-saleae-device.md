@@ -32,8 +32,8 @@ Note: "Red" or "Black" is not written on the device. This refers to the enclosur
 
 A complete list of product numbers and names, including accessories, can be found below.
 
-{% content-ref url="../../../ordering/ordering-and-shipping/faq/saleae-part-numbers.md" %}
-[saleae-part-numbers.md](../../../ordering/ordering-and-shipping/faq/saleae-part-numbers.md)
+{% content-ref url="../specifications-hardware/datasheets-and-compliance/saleae-part-numbers.md" %}
+[saleae-part-numbers.md](../specifications-hardware/datasheets-and-compliance/saleae-part-numbers.md)
 {% endcontent-ref %}
 
 **Product Images**

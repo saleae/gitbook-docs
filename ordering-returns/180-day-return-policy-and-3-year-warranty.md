@@ -16,8 +16,8 @@ The 3-year warranty always applies, regardless of where you purchased the produc
 
 Please follow the instructions in the link below to submit your warranty claim.
 
-{% content-ref url="process-a-warranty.md" %}
-[process-a-warranty.md](process-a-warranty.md)
+{% content-ref url="./process-a-warranty.md" %}
+[process-a-warranty.md](./process-a-warranty.md)
 {% endcontent-ref %}
 
 

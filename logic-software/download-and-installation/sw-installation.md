@@ -2,8 +2,8 @@
 
 Before installing the software, please review the supported operating systems in the link below.
 
-{% content-ref url="supported-operating-systems.md" %}
-[supported-operating-systems.md](supported-operating-systems.md)
+{% content-ref url="./supported-operating-systems.md" %}
+[supported-operating-systems.md](./supported-operating-systems.md)
 {% endcontent-ref %}
 
 The software is available free of charge, and can be installed on as many machines as you like. The latest release of the Logic 2 software can be downloaded [here](https://www.saleae.com/downloads/)!
@@ -81,8 +81,8 @@ Simply download and run the installer available on our [download page](https://w
 
 In case you run into any installation issues, please refer to the support article below.
 
-{% content-ref url="../../getting-help/troubleshooting/will-not-install.md" %}
-[will-not-install.md](../../getting-help/troubleshooting/will-not-install.md)
+{% content-ref url="../../troubleshooting/installation-and-launch-issues/will-not-install.md" %}
+[will-not-install.md](../../troubleshooting/installation-and-launch-issues/will-not-install.md)
 {% endcontent-ref %}
 
 

@@ -10,8 +10,8 @@ The input channels on Saleae Logic analyzers are not electrically isolated from 
 
 Suggestions for electrical isolation can be found in the link below:
 
-{% content-ref url="../../getting-help/troubleshooting/technical-faq/suggestions-for-electrical-isolation.md" %}
-[suggestions-for-electrical-isolation.md](../../getting-help/troubleshooting/technical-faq/suggestions-for-electrical-isolation.md)
+{% content-ref url="../electrical-characteristics/suggestions-for-electrical-isolation.md" %}
+[suggestions-for-electrical-isolation.md](../electrical-characteristics/suggestions-for-electrical-isolation.md)
 {% endcontent-ref %}
 
 ### **High Voltage Safety**
@@ -113,8 +113,8 @@ Saleae products are covered by a 3-year warranty, regardless of where you purcha
 
 If you believe your Logic hardware is broken, please follow the troubleshooting steps in the article below.
 
-{% content-ref url="../../ordering/180-day-return-policy-and-3-year-warranty/process-a-warranty.md" %}
-[process-a-warranty.md](../../ordering/180-day-return-policy-and-3-year-warranty/process-a-warranty.md)
+{% content-ref url="../../ordering-returns/process-a-warranty.md" %}
+[process-a-warranty.md](../../ordering-returns/process-a-warranty.md)
 {% endcontent-ref %}
 
 

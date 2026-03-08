@@ -20,8 +20,8 @@ We plan to improve the performance of our software, but in the meantime, here ar
 2. Export only a few channels
 3. Export to binary rather than CSV. We also have a sample python script to read binary data (provided in the link below, at the bottom of the article).
 
-{% content-ref url="technical-faq/binary-export-format-logic-2.md" %}
-[binary-export-format-logic-2.md](technical-faq/binary-export-format-logic-2.md)
+{% content-ref url="../../logic-software/saving-and-exporting-data/binary-export-format-logic-2.md" %}
+[binary-export-format-logic-2.md](../../logic-software/saving-and-exporting-data/binary-export-format-logic-2.md)
 {% endcontent-ref %}
 
 ### How Many Digital Transitions are in my Captured Data? <a href="#how-many-digital-transitions-are-in-my-captured-data" id="how-many-digital-transitions-are-in-my-captured-data"></a>
@@ -36,8 +36,8 @@ Since export performance is related to how many digital transitions occur in you
 
 An alternative approach (much faster and produces a smaller file) would be to export to a binary file. More details on the binary file format can be found in the link below.
 
-{% content-ref url="technical-faq/binary-export-format-logic-2.md" %}
-[binary-export-format-logic-2.md](technical-faq/binary-export-format-logic-2.md)
+{% content-ref url="../../logic-software/saving-and-exporting-data/binary-export-format-logic-2.md" %}
+[binary-export-format-logic-2.md](../../logic-software/saving-and-exporting-data/binary-export-format-logic-2.md)
 {% endcontent-ref %}
 
 ![Exporting to a Binary File](<../../.gitbook/assets/Screen Shot 2021-04-12 at 6.30.44 PM.png>)

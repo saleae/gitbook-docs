@@ -2,8 +2,8 @@
 
 In almost all cases, you should use the latest release of the Saleae software, Logic 2. It can be found here below:
 
-{% content-ref url="../../../product/logic-software/sw-download.md" %}
-[sw-download.md](../../../product/logic-software/sw-download.md)
+{% content-ref url="./sw-download.md" %}
+[sw-download.md](./sw-download.md)
 {% endcontent-ref %}
 
 ## Logic 1.x (older)
@@ -28,8 +28,8 @@ The last version of the software to support OS X 10.4 and OS X 10.5 was the Logi
 
 The last release of the Saleae software to support OS X 10.6 was 1.1.18, which you can find here:
 
-{% content-ref url="../../../product/logic-software/legacy-software/older-software-releases.md" %}
-[older-software-releases.md](../../../product/logic-software/legacy-software/older-software-releases.md)
+{% content-ref url="./older-software-releases.md" %}
+[older-software-releases.md](./older-software-releases.md)
 {% endcontent-ref %}
 
 **CentOs**

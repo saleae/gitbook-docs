@@ -4,8 +4,8 @@
 Starting October of 2022, Saleae has released a new hardware revision of our Logic analyzers which requires the latest version of the Logic 2 software available [here](https://www.saleae.com/downloads/). This newer revision of the hardware will **no longer work with our legacy Logic 1.x software**.
 {% endhint %}
 
-{% content-ref url="../../datasheets-and-specifications/logic-hardware-revisions.md" %}
-[logic-hardware-revisions.md](../../datasheets-and-specifications/logic-hardware-revisions.md)
+{% content-ref url="../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md" %}
+[logic-hardware-revisions.md](../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md)
 {% endcontent-ref %}
 
 Changes in 1.2.40:
@@ -13,8 +13,8 @@ Changes in 1.2.40:
 1. Adds support for revision 3.0.0 Logic hardware. More information on hardware revisions can be found in the link below.
 2. Remove support for Decoded Protocols panel / table due to technical issues. You will notice that the checkbox for it is grayed out under Preferences > Capture.
 
-{% content-ref url="../../datasheets-and-specifications/logic-hardware-revisions.md" %}
-[logic-hardware-revisions.md](../../datasheets-and-specifications/logic-hardware-revisions.md)
+{% content-ref url="../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md" %}
+[logic-hardware-revisions.md](../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md)
 {% endcontent-ref %}
 
 Changes in 1.2.29 Beta:

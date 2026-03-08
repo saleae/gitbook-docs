@@ -2,8 +2,8 @@
 
 You may want to move Logic to its own host controller when running into the issue described in the below article.
 
-{% content-ref url="../device-not-able-to-keep-up.md" %}
-[device-not-able-to-keep-up.md](../device-not-able-to-keep-up.md)
+{% content-ref url="../capture-and-recording-issues/device-not-able-to-keep-up.md" %}
+[device-not-able-to-keep-up.md](../capture-and-recording-issues/device-not-able-to-keep-up.md)
 {% endcontent-ref %}
 
 To move the logic analyzer to its own host controller, with no other devices on that host controller, your PC will need at least 2 host controllers. Some laptops will only have one. Follow the steps below for your specific operating system.

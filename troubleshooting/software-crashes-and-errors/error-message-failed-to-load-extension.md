@@ -14,8 +14,8 @@ This might help determine which extension is somehow causing this error message 
 
 Instructions for how to uninstall an extension is described in the article below.
 
-{% content-ref url="../../product/user-guide/extensions-apis-and-sdks/extensions/installing-extensions.md" %}
-[installing-extensions.md](../../product/user-guide/extensions-apis-and-sdks/extensions/installing-extensions.md)
+{% content-ref url="../../extensions-api/extensions/installing-extensions.md" %}
+[installing-extensions.md](../../extensions-api/extensions/installing-extensions.md)
 {% endcontent-ref %}
 
 #### Manually Install the Two Default Extensions

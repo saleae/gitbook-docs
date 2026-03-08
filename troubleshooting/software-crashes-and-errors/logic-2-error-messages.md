@@ -12,24 +12,24 @@ Click on the error code in the table below to learn more about that specific err
 
 These error messages do not have an error code associated with them. You can learn more in the links below.
 
-{% content-ref url="error-message-unable-to-detect-webgl.md" %}
-[error-message-unable-to-detect-webgl.md](error-message-unable-to-detect-webgl.md)
+{% content-ref url="./error-message-unable-to-detect-webgl.md" %}
+[error-message-unable-to-detect-webgl.md](./error-message-unable-to-detect-webgl.md)
 {% endcontent-ref %}
 
-{% content-ref url="limitations-of-logic-pro-usb2.md" %}
-[limitations-of-logic-pro-usb2.md](limitations-of-logic-pro-usb2.md)
+{% content-ref url="../device-connection-issues/limitations-of-logic-pro-usb2.md" %}
+[limitations-of-logic-pro-usb2.md](../device-connection-issues/limitations-of-logic-pro-usb2.md)
 {% endcontent-ref %}
 
-{% content-ref url="usb-driver-problem.md" %}
-[usb-driver-problem.md](usb-driver-problem.md)
+{% content-ref url="../device-connection-issues/usb-driver-problem.md" %}
+[usb-driver-problem.md](../device-connection-issues/usb-driver-problem.md)
 {% endcontent-ref %}
 
 ### Sharing your Machine ID
 
 Our support team may require you to send your Machine ID to help us investigate any issues you may be having when using our software. Please refer to the link below to share your Machine ID with us.
 
-{% content-ref url="sharing-your-machine-id.md" %}
-[sharing-your-machine-id.md](sharing-your-machine-id.md)
+{% content-ref url="../diagnostic-tools/sharing-your-machine-id.md" %}
+[sharing-your-machine-id.md](../diagnostic-tools/sharing-your-machine-id.md)
 {% endcontent-ref %}
 
 

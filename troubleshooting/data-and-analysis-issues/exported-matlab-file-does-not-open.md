@@ -14,8 +14,8 @@ One solution is to export the capture into multiple, smaller MATLAB files. Click
 
 For details on the exported format of MATLAB files, see the article below.
 
-{% content-ref url="technical-faq/matlab-data-export-format.md" %}
-[matlab-data-export-format.md](technical-faq/matlab-data-export-format.md)
+{% content-ref url="../../logic-software/saving-and-exporting-data/matlab-data-export-format.md" %}
+[matlab-data-export-format.md](../../logic-software/saving-and-exporting-data/matlab-data-export-format.md)
 {% endcontent-ref %}
 
 

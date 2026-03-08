@@ -16,8 +16,8 @@ All previous versions of the Logic 2 software can be found below, including a hi
 
 Instructions for installation and solutions for commonly found errors can be found in the support article below.
 
-{% content-ref url="sw-installation.md" %}
-[sw-installation.md](sw-installation.md)
+{% content-ref url="./sw-installation.md" %}
+[sw-installation.md](./sw-installation.md)
 {% endcontent-ref %}
 
 ### Do you Provide a Standalone Version for Logic 2?
@@ -31,8 +31,8 @@ Please be aware of the following requirements for the Windows standalone release
 * If drivers are not already installed from a previous installation of the Logic software, you will need to install the drivers manually. You can find instructions for installing our drivers in the link below.
 {% endhint %}
 
-{% content-ref url="driver-install.md" %}
-[driver-install.md](driver-install.md)
+{% content-ref url="./driver-install.md" %}
+[driver-install.md](./driver-install.md)
 {% endcontent-ref %}
 
 There are a few reasons we don't want to publish a standalone version of the Logic 2 app:

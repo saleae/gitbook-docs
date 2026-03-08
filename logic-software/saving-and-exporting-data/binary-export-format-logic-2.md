@@ -1,21 +1,21 @@
 # Binary Export Format - Version 0
 
 {% hint style="info" %}
-This documentation is for binary export version 0, which is still in use for Logic 8, Logic Pro 8, and Logic Pro 16. Upcoming products use version 1, which is documented in the support article here: [binary-and-csv-export-formats-2025-update.md](binary-and-csv-export-formats-2025-update.md "mention")
+This documentation is for binary export version 0, which is still in use for Logic 8, Logic Pro 8, and Logic Pro 16. Upcoming products use version 1, which is documented in the support article here: [binary-and-csv-export-formats-2025-update.md](./binary-and-csv-export-formats-2025-update.md "mention")
 
 Logic 8, Logic Pro 8, and Logic Pro 16 exports will be updated to use the new version 1 binary export format soon, but for now, they only support the original version, version 0.
 {% endhint %}
 
 The binary file format summarized in this support article pertains to binary files exported via exporting raw data described in the support article linked below.
 
-{% content-ref url="../../../product/user-guide/using-logic/exporting-data.md" %}
-[exporting-data.md](../../../product/user-guide/using-logic/exporting-data.md)
+{% content-ref url="./exporting-data.md" %}
+[exporting-data.md](./exporting-data.md)
 {% endcontent-ref %}
 
 If you were looking into converting your .sal capture file into the binary file format described in the support article, you can refer to the support article linked below.
 
-{% content-ref url="sal-file-format.md" %}
-[sal-file-format.md](sal-file-format.md)
+{% content-ref url="./sal-file-format.md" %}
+[sal-file-format.md](./sal-file-format.md)
 {% endcontent-ref %}
 
 ## Binary Export Format (Version 0)
@@ -250,10 +250,10 @@ A community user has generously shared their C-based binary parser for digital c
 
 If you are using Logic 1.x, please refer to the articles below.
 
-{% content-ref url="binary-data-export-format.md" %}
-[binary-data-export-format.md](binary-data-export-format.md)
+{% content-ref url="./binary-data-export-format.md" %}
+[binary-data-export-format.md](./binary-data-export-format.md)
 {% endcontent-ref %}
 
-{% content-ref url="data-export-format-analog-binary.md" %}
-[data-export-format-analog-binary.md](data-export-format-analog-binary.md)
+{% content-ref url="./data-export-format-analog-binary.md" %}
+[data-export-format-analog-binary.md](./data-export-format-analog-binary.md)
 {% endcontent-ref %}

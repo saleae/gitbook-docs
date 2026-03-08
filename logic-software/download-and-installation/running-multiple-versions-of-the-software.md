@@ -6,14 +6,14 @@ Look for stand-alone versions of the software and older versions belo:
 
 ### Logic 2
 
-{% content-ref url="../../../product/logic-software/sw-download.md" %}
-[sw-download.md](../../../product/logic-software/sw-download.md)
+{% content-ref url="./sw-download.md" %}
+[sw-download.md](./sw-download.md)
 {% endcontent-ref %}
 
 ### Logic 1.x (Legacy)
 
-{% content-ref url="../../../product/logic-software/legacy-software/older-software-releases.md" %}
-[older-software-releases.md](../../../product/logic-software/legacy-software/older-software-releases.md)
+{% content-ref url="./older-software-releases.md" %}
+[older-software-releases.md](./older-software-releases.md)
 {% endcontent-ref %}
 
 

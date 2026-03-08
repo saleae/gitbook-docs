@@ -35,16 +35,16 @@ The side panel buttons offer various ways to configure your logic analyzer setti
 
 ![Side Panel Buttons](<../../../.gitbook/assets/Screen Shot 2020-09-23 at 5.02.24 PM.png>)
 
-{% content-ref url="capture-settings.md" %}
-[capture-settings.md](capture-settings.md)
+{% content-ref url="../capturing-data/capture-settings.md" %}
+[capture-settings.md](../capturing-data/capture-settings.md)
 {% endcontent-ref %}
 
-{% content-ref url="using-protocol-analyzers.md" %}
-[using-protocol-analyzers.md](using-protocol-analyzers.md)
+{% content-ref url="./using-protocol-analyzers.md" %}
+[using-protocol-analyzers.md](./using-protocol-analyzers.md)
 {% endcontent-ref %}
 
-{% content-ref url="measurements-timing-markers.md" %}
-[measurements-timing-markers.md](measurements-timing-markers.md)
+{% content-ref url="./measurements-timing-markers.md" %}
+[measurements-timing-markers.md](./measurements-timing-markers.md)
 {% endcontent-ref %}
 
 {% content-ref url="../extensions-apis-and-sdks/extensions/" %}

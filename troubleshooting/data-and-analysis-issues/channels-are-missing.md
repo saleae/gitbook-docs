@@ -27,8 +27,8 @@ Sometimes, channels may be hidden from view even if they are enabled under Logic
 
 Logic Pro 8 and Logic Pro 16 can be used with USB 2.0 ports under certain limitations as described in the article below.
 
-{% content-ref url="limitations-of-logic-pro-usb2.md" %}
-[limitations-of-logic-pro-usb2.md](limitations-of-logic-pro-usb2.md)
+{% content-ref url="../device-connection-issues/limitations-of-logic-pro-usb2.md" %}
+[limitations-of-logic-pro-usb2.md](../device-connection-issues/limitations-of-logic-pro-usb2.md)
 {% endcontent-ref %}
 
 When used with a USB 2.0 port, Logic Pro 16 will only have 8 channels available, as opposed to having 16 channels available when used with a USB 3.0 port.

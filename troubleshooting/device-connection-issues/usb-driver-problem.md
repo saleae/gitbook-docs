@@ -16,8 +16,8 @@ The two known USB host controller driver combinations with problems (ASMedia hos
 
 if you are running into any connectivity issues, feel free to collect the information about your USB host controller (instructions in the support article below) and contact [Saleae support](https://contact.saleae.com/hc/en-us/requests/new).
 
-{% content-ref url="technical-faq/usb-3.0-host-controller-info.md" %}
-[usb-3.0-host-controller-info.md](technical-faq/usb-3.0-host-controller-info.md)
+{% content-ref url="../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md" %}
+[usb-3.0-host-controller-info.md](../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md)
 {% endcontent-ref %}
 
 #### Troubleshooting your Connection
@@ -80,8 +80,8 @@ Note: `lsusb` must be run when the Saleae Logic device is connected.
 
 In our older Logic 1.x software, you can identify which USB 3.0 host controller(s) is installed on your system. Most machines will have a single USB 3.0 host controller and two USB 2.0 host controllers. To find the installed host controller(s), please follow the instructions below.
 
-{% content-ref url="technical-faq/usb-3.0-host-controller-info.md" %}
-[usb-3.0-host-controller-info.md](technical-faq/usb-3.0-host-controller-info.md)
+{% content-ref url="../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md" %}
+[usb-3.0-host-controller-info.md](../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md)
 {% endcontent-ref %}
 
 ## Unsupported Operating Systems

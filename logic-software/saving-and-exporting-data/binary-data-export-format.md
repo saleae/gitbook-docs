@@ -36,8 +36,8 @@ The following Export Format and Binary Settings will produce a binary data expor
 
 Analog binary analog export does contain a basic header before the data sections. You can find full details on the analog binary export format here:
 
-{% content-ref url="data-export-format-analog-binary.md" %}
-[data-export-format-analog-binary.md](data-export-format-analog-binary.md)
+{% content-ref url="./data-export-format-analog-binary.md" %}
+[data-export-format-analog-binary.md](./data-export-format-analog-binary.md)
 {% endcontent-ref %}
 
 

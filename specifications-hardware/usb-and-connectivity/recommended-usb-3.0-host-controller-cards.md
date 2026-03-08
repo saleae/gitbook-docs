@@ -25,22 +25,22 @@ We have not yet performed a full evaluation on "ExpressCard" Laptop add on cards
 
 ### Instructions to identify currently installed host controllers
 
-{% content-ref url="usb-3.0-host-controller-info.md" %}
-[usb-3.0-host-controller-info.md](usb-3.0-host-controller-info.md)
+{% content-ref url="./usb-3.0-host-controller-info.md" %}
+[usb-3.0-host-controller-info.md](./usb-3.0-host-controller-info.md)
 {% endcontent-ref %}
 
 ### Latest driver information
 
-{% content-ref url="../../troubleshooting/usb-driver-problem.md" %}
-[usb-driver-problem.md](../../troubleshooting/usb-driver-problem.md)
+{% content-ref url="../../troubleshooting/device-connection-issues/usb-driver-problem.md" %}
+[usb-driver-problem.md](../../troubleshooting/device-connection-issues/usb-driver-problem.md)
 {% endcontent-ref %}
 
 ### Known Issues with VIA Host Controllers
 
 There is a known issue with corrupting data captures when using Saleae Logic with VIA host controllers. The simple fix is to update the VIA host controller driver. More information on the issue can be found below.
 
-{% content-ref url="../../troubleshooting/the-captured-data-is-corrupted.md" %}
-[the-captured-data-is-corrupted.md](../../troubleshooting/the-captured-data-is-corrupted.md)
+{% content-ref url="../../troubleshooting/capture-and-recording-issues/the-captured-data-is-corrupted.md" %}
+[the-captured-data-is-corrupted.md](../../troubleshooting/capture-and-recording-issues/the-captured-data-is-corrupted.md)
 {% endcontent-ref %}
 
 

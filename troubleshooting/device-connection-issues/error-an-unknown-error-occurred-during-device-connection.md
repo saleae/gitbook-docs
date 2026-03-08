@@ -8,8 +8,8 @@ This error message may appear during device operation, or upon connecting your L
 
 Please follow the troubleshooting instructions and instructions for contacting support in the support article below. We will need to gather the information requested from that support article to help look into this issue.
 
-{% content-ref url="device-removed-before-initialization.md" %}
-[device-removed-before-initialization.md](device-removed-before-initialization.md)
+{% content-ref url="./device-removed-before-initialization.md" %}
+[device-removed-before-initialization.md](./device-removed-before-initialization.md)
 {% endcontent-ref %}
 
 

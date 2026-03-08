@@ -6,8 +6,8 @@ Please note that the MATLAB data export option is only available in our legacy L
 If you'd like to see support for MATLAB exports added to our latest Logic 2 software, please [add your vote/comment here](https://ideas.saleae.com/b/feature-requests/export-to-matlab-mat-file-format/)!
 {% endhint %}
 
-{% content-ref url="../../../product/logic-software/legacy-software/older-software-releases.md" %}
-[older-software-releases.md](../../../product/logic-software/legacy-software/older-software-releases.md)
+{% content-ref url="../download-and-installation/older-software-releases.md" %}
+[older-software-releases.md](../download-and-installation/older-software-releases.md)
 {% endcontent-ref %}
 
 Our legacy Logic 1.x software can export digital recordings, analog recordings, and recordings of both digital and analog channels to a \*.mat file.

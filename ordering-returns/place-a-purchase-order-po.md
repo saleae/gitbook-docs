@@ -6,8 +6,8 @@ In most cases, for a smoother and faster ordering experience, we recommend order
 If you are unable to pay in advance or by credit card/PayPal, we also have distributors world-wide that might be able to accommodate credit payment terms. We've provided a link to our list of distributors below.
 {% endhint %}
 
-{% content-ref url="distributors.md" %}
-[distributors.md](distributors.md)
+{% content-ref url="./distributors.md" %}
+[distributors.md](./distributors.md)
 {% endcontent-ref %}
 
 Having mentioned the above note, and in case you are still interested in placing a direct purchase order with us, please ensure your PO meets the requirements below to avoid any processing delays.
@@ -30,8 +30,8 @@ Having mentioned the above note, and in case you are still interested in placing
 * Product Name
 * Quantities, and Prices in USD (Prices can be found in the support article linked below)
 
-{% content-ref url="faq/saleae-part-numbers.md" %}
-[saleae-part-numbers.md](faq/saleae-part-numbers.md)
+{% content-ref url="../specifications-hardware/datasheets-and-compliance/saleae-part-numbers.md" %}
+[saleae-part-numbers.md](../specifications-hardware/datasheets-and-compliance/saleae-part-numbers.md)
 {% endcontent-ref %}
 
 * Shipping Option: Please either include your FedEx/UPS/DHL Account Number, OR indicate "Saleae Prepay Shipping - Add to Invoice"
@@ -60,8 +60,8 @@ Having mentioned the above note, and in case you are still interested in placing
 
 Please follow the instructions in the support article below to request a quote.
 
-{% content-ref url="how-do-i-get-a-quote.md" %}
-[how-do-i-get-a-quote.md](how-do-i-get-a-quote.md)
+{% content-ref url="./how-do-i-get-a-quote.md" %}
+[how-do-i-get-a-quote.md](./how-do-i-get-a-quote.md)
 {% endcontent-ref %}
 
 

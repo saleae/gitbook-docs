@@ -18,8 +18,8 @@ We don't have a note annotation but would like to add one. In the meantime, I re
 
 Annotations are covered in the user's guide below:
 
-{% content-ref url="../../../product/user-guide/using-logic/measurements-timing-markers.md" %}
-[measurements-timing-markers.md](../../../product/user-guide/using-logic/measurements-timing-markers.md)
+{% content-ref url="./measurements-timing-markers.md" %}
+[measurements-timing-markers.md](./measurements-timing-markers.md)
 {% endcontent-ref %}
 
 

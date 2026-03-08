@@ -18,8 +18,8 @@ In the settings, specify which input channels are used for the I2C signals SDA a
 
 Please note that I2C addresses are displayed as 7-bit numbers. We share a support article below to help display I2C addresses as 8-bit if preferred.
 
-{% content-ref url="../../../../getting-help/troubleshooting/technical-faq/viewing-i2c-addresses-as-8-bit.md" %}
-[viewing-i2c-addresses-as-8-bit.md](../../../../getting-help/troubleshooting/technical-faq/viewing-i2c-addresses-as-8-bit.md)
+{% content-ref url="../../logic-software/viewing-and-analyzing-data/viewing-i2c-addresses-as-8-bit.md" %}
+[viewing-i2c-addresses-as-8-bit.md](../../logic-software/viewing-and-analyzing-data/viewing-i2c-addresses-as-8-bit.md)
 {% endcontent-ref %}
 
 ### **Common Issues with Noise Around Clock Edges**
@@ -32,8 +32,8 @@ You may notice where the analyzer seems to decode less than 9 bits per frame, or
 
 This can happen for several reasons, and we've added a software feature to allow these "glitches" to be filtered out. See this article for instructions.
 
-{% content-ref url="../../using-logic/software-glitch-filter.md" %}
-[software-glitch-filter.md](../../using-logic/software-glitch-filter.md)
+{% content-ref url="../../logic-software/viewing-and-analyzing-data/software-glitch-filter.md" %}
+[software-glitch-filter.md](../../logic-software/viewing-and-analyzing-data/software-glitch-filter.md)
 {% endcontent-ref %}
 
 Besides using the glitch filter, you may also want to try reducing the sample rate of the capture, using a different IO voltage option if supported by your logic analyzer, or filtering the electrical signal at the hardware level.

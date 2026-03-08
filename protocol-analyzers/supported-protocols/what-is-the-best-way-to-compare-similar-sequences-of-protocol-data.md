@@ -19,14 +19,14 @@ If the sequence you're trying to compare is longer in length or is more complex 
 
 For details on how to export to CSV, see this guide:
 
-{% content-ref url="../../../product/user-guide/using-logic/saving-loading-and-exporting-data.md" %}
-[saving-loading-and-exporting-data.md](../../../product/user-guide/using-logic/saving-loading-and-exporting-data.md)
+{% content-ref url="../../logic-software/saving-and-exporting-data/saving-loading-and-exporting-data.md" %}
+[saving-loading-and-exporting-data.md](../../logic-software/saving-and-exporting-data/saving-loading-and-exporting-data.md)
 {% endcontent-ref %}
 
 Also, be sure to use a display base that is best suited for your data (usually either Hex or ASCII).
 
-{% content-ref url="changing-the-display-radix.md" %}
-[changing-the-display-radix.md](changing-the-display-radix.md)
+{% content-ref url="../../logic-software/viewing-and-analyzing-data/changing-the-display-radix.md" %}
+[changing-the-display-radix.md](../../logic-software/viewing-and-analyzing-data/changing-the-display-radix.md)
 {% endcontent-ref %}
 
 I recommend copying the contents from each export file into a master Excel document. You may want to start with 1 sheet per export, but eventually, you will want to move many instances of the sequence into the same sheet.

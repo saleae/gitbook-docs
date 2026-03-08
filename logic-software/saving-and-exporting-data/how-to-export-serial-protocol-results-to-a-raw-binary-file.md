@@ -14,11 +14,11 @@ If you would prefer to export a binary file whose contents are strictly the valu
     &#x20;SaleaeUtility.cmd \path\to\input\file.csv \path\to\output\file.bin
 5. Done!
 
-{% content-ref url="changing-the-display-radix.md" %}
-[changing-the-display-radix.md](changing-the-display-radix.md)
+{% content-ref url="../viewing-and-analyzing-data/changing-the-display-radix.md" %}
+[changing-the-display-radix.md](../viewing-and-analyzing-data/changing-the-display-radix.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../../product/user-guide/using-logic/saving-loading-and-exporting-data.md" %}
-[saving-loading-and-exporting-data.md](../../../product/user-guide/using-logic/saving-loading-and-exporting-data.md)
+{% content-ref url="./saving-loading-and-exporting-data.md" %}
+[saving-loading-and-exporting-data.md](./saving-loading-and-exporting-data.md)
 {% endcontent-ref %}
 

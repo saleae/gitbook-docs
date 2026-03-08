@@ -4,8 +4,8 @@ The Logic software includes a feature to suppress short digital pulses in the re
 
 There are several sources of noise in digital captures. You can learn more about them below.
 
-{% content-ref url="../../../getting-help/troubleshooting/seeing-spikes-in-digital-capture.md" %}
-[seeing-spikes-in-digital-capture.md](../../../getting-help/troubleshooting/seeing-spikes-in-digital-capture.md)
+{% content-ref url="../../troubleshooting/capture-and-recording-issues/seeing-spikes-in-digital-capture.md" %}
+[seeing-spikes-in-digital-capture.md](../../troubleshooting/capture-and-recording-issues/seeing-spikes-in-digital-capture.md)
 {% endcontent-ref %}
 
 ### Enabling the Glitch Filter
@@ -28,8 +28,8 @@ The glitch filter is purely a software filter on top of the recorded data. Using
 
 Please note that the Logic Pro devices have narrow hysteresis thresholds, which can cause noise around transitions in some cases. When using lower voltage thresholds with larger swing signals, noise on the signal when it is in the low state can easily be picked up by the Saleae devices, even when the normal receiver of the signal rejects it. More information on our devices' voltage thresholds can be found in the support article below.
 
-{% content-ref url="../supported-voltages.md" %}
-[supported-voltages.md](../supported-voltages.md)
+{% content-ref url="../../specifications-hardware/electrical-characteristics/supported-voltages.md" %}
+[supported-voltages.md](../../specifications-hardware/electrical-characteristics/supported-voltages.md)
 {% endcontent-ref %}
 
 The glitch filter can be set for any individual digital channel. We recommend only adding the filter to channels where noise is a problem. The glitch filter will reject all pulses narrower than the specified width.

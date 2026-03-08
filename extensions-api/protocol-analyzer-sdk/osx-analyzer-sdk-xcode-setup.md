@@ -146,8 +146,8 @@ This guide was written using the 1.1.32 Analyzer SDK, Xcode version 7.2.1, and O
 
 * Before proceeding, see this article with instructions to configure the software to load your new analyzer.
 
-{% content-ref url="setting-up-developer-directory.md" %}
-[setting-up-developer-directory.md](setting-up-developer-directory.md)
+{% content-ref url="./setting-up-developer-directory.md" %}
+[setting-up-developer-directory.md](./setting-up-developer-directory.md)
 {% endcontent-ref %}
 
 * Be sure to select the folder where the debug version of the custom analyzer is saved.

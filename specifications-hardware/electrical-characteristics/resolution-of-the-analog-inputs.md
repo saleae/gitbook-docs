@@ -2,8 +2,8 @@
 
 The vertical resolution (ADC bits) depends on the product used. For more information about the frequency resolution of the products, see below.
 
-{% content-ref url="what-is-the-maximum-bandwidth.md" %}
-[what-is-the-maximum-bandwidth.md](what-is-the-maximum-bandwidth.md)
+{% content-ref url="./what-is-the-maximum-bandwidth.md" %}
+[what-is-the-maximum-bandwidth.md](./what-is-the-maximum-bandwidth.md)
 {% endcontent-ref %}
 
 ### Logic 4

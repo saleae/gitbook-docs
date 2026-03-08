@@ -10,16 +10,16 @@ In cases where the software cannot detect the logic analyzer, we need to determi
 
 4\. If the PC detects the Logic device properly, open the Logic software. If the Logic software still does not detect your device, then the hardware is likely OK and this may be a software issue. Proceed to _Part 2: Troubleshooting the Connection to the Software_, found in the support article linked below.
 
-{% content-ref url="logic-not-detected.md" %}
-[logic-not-detected.md](logic-not-detected.md)
+{% content-ref url="../device-connection-issues/logic-not-detected.md" %}
+[logic-not-detected.md](../device-connection-issues/logic-not-detected.md)
 {% endcontent-ref %}
 
 ### **Windows:**&#x20;
 
 Open Device Manager. Expand the section "Universal Serial Bus controllers" and check for "Saleae Logic X USB Logic Analyzer" where "X" is the specific product version (4, 8, Pro 8, Pro 16, etc.). If "unidentified device" or "Westbridge" appears, then there is a problem with the Saleae driver. In these cases, please follow the instructions in the support article below to re-install your Saleae driver.
 
-{% content-ref url="../../product/logic-software/driver-install.md" %}
-[driver-install.md](../../product/logic-software/driver-install.md)
+{% content-ref url="../../logic-software/download-and-installation/driver-install.md" %}
+[driver-install.md](../../logic-software/download-and-installation/driver-install.md)
 {% endcontent-ref %}
 
 ![Device Manager](../../.gitbook/assets/DeviceManagerBorder.png)
@@ -46,8 +46,8 @@ On Apple-silicon based Macbooks, a "Vender-Specific Device" should be listed in 
 
 Run `lsusb` from the command line. Check for any device name containing "Saleae" or a VID and PID that matches one of our Logic products. You can refer to the VID/PIDs of our devices in the support article below for reference.
 
-{% content-ref url="the-devices-usb-vid-and-pid-failed.md" %}
-[the-devices-usb-vid-and-pid-failed.md](the-devices-usb-vid-and-pid-failed.md)
+{% content-ref url="../device-connection-issues/the-devices-usb-vid-and-pid-failed.md" %}
+[the-devices-usb-vid-and-pid-failed.md](../device-connection-issues/the-devices-usb-vid-and-pid-failed.md)
 {% endcontent-ref %}
 
 ![Linux Terminal - lsusb](<../../.gitbook/assets/Screen Shot 2022-06-10 at 4.13.16 PM.png>)

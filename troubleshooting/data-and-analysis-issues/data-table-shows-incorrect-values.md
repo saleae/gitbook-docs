@@ -26,12 +26,12 @@ In the meantime (and since we don't have a native solution implemented), we have
 
 Instructions to install and use extensions can be found in the links below.
 
-{% content-ref url="../../product/user-guide/extensions-apis-and-sdks/extensions/installing-extensions.md" %}
-[installing-extensions.md](../../product/user-guide/extensions-apis-and-sdks/extensions/installing-extensions.md)
+{% content-ref url="../../extensions-api/extensions/installing-extensions.md" %}
+[installing-extensions.md](../../extensions-api/extensions/installing-extensions.md)
 {% endcontent-ref %}
 
-{% content-ref url="../../product/user-guide/extensions-apis-and-sdks/extensions/extensions-quickstart.md" %}
-[extensions-quickstart.md](../../product/user-guide/extensions-apis-and-sdks/extensions/extensions-quickstart.md)
+{% content-ref url="../../extensions-api/extensions/extensions-quickstart.md" %}
+[extensions-quickstart.md](../../extensions-api/extensions/extensions-quickstart.md)
 {% endcontent-ref %}
 
 When the extension is used, new rows in the data table will be created which contain the values produced by the extension. In cases where the issues above are present, the extension will display the proper values. You may subsequently hide the results of the original LLA (in this case, the incorrect results of the Async Serial analyzer) so that only the correct results from the Unsigned Integer Display extension appear.

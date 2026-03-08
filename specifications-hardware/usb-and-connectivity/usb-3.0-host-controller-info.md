@@ -38,8 +38,8 @@ For support finding the latest driver for your host controller, or on the reques
 
 You can find a complete list of the latest driver releases for Windows 7 below:
 
-{% content-ref url="../usb-driver-problem.md" %}
-[usb-driver-problem.md](../usb-driver-problem.md)
+{% content-ref url="../../troubleshooting/device-connection-issues/usb-driver-problem.md" %}
+[usb-driver-problem.md](../../troubleshooting/device-connection-issues/usb-driver-problem.md)
 {% endcontent-ref %}
 
 **OS X and Linux**

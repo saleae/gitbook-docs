@@ -33,16 +33,16 @@ If the quote request form is somehow not working on your end, please [contact su
 
 For reference, you may refer to the list of products we sell below.
 
-{% content-ref url="faq/saleae-part-numbers.md" %}
-[saleae-part-numbers.md](faq/saleae-part-numbers.md)
+{% content-ref url="../specifications-hardware/datasheets-and-compliance/saleae-part-numbers.md" %}
+[saleae-part-numbers.md](../specifications-hardware/datasheets-and-compliance/saleae-part-numbers.md)
 {% endcontent-ref %}
 
 ### Placing a Purchase Order?
 
 If you plan on placing a purchase order, please review the requirements and process below before submitting your quote:
 
-{% content-ref url="place-a-purchase-order-po.md" %}
-[place-a-purchase-order-po.md](place-a-purchase-order-po.md)
+{% content-ref url="./place-a-purchase-order-po.md" %}
+[place-a-purchase-order-po.md](./place-a-purchase-order-po.md)
 {% endcontent-ref %}
 
 

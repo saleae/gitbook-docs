@@ -18,8 +18,8 @@ We've received reports of some graphics cards causing immediate crashes when lau
 
 For now, if you feel your graphics card may be the culprit, you may try the troubleshooting steps in the support article below.
 
-{% content-ref url="error-message-unable-to-detect-webgl.md" %}
-[error-message-unable-to-detect-webgl.md](error-message-unable-to-detect-webgl.md)
+{% content-ref url="../software-crashes-and-errors/error-message-unable-to-detect-webgl.md" %}
+[error-message-unable-to-detect-webgl.md](../software-crashes-and-errors/error-message-unable-to-detect-webgl.md)
 {% endcontent-ref %}
 
 ### Linux Solutions
@@ -28,8 +28,8 @@ For now, if you feel your graphics card may be the culprit, you may try the trou
 
 Our list of supported operating systems can be found in the link below. You'll want to ensure you are running a supported version of Ubuntu.
 
-{% content-ref url="../../product/logic-software/supported-operating-systems.md" %}
-[supported-operating-systems.md](../../product/logic-software/supported-operating-systems.md)
+{% content-ref url="../../logic-software/download-and-installation/supported-operating-systems.md" %}
+[supported-operating-systems.md](../../logic-software/download-and-installation/supported-operating-systems.md)
 {% endcontent-ref %}
 
 #### 2. Try running the latest version of Logic 2
@@ -76,8 +76,8 @@ Depending on your Linux distro, other libraries may be missing which you may nee
 
 Instead, you'll want to install the udev rules file to allow the non-elevated application to work with devices. Instructions for installing the udev rules file can be found in the support article below.
 
-{% content-ref url="../../product/logic-software/driver-install.md" %}
-[driver-install.md](../../product/logic-software/driver-install.md)
+{% content-ref url="../../logic-software/download-and-installation/driver-install.md" %}
+[driver-install.md](../../logic-software/download-and-installation/driver-install.md)
 {% endcontent-ref %}
 
 We've seen GPU issues on Linux where the application will crash on launch due to the GPU process repeatedly crashing on launch.

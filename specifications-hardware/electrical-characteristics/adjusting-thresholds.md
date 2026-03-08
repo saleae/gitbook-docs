@@ -2,8 +2,8 @@
 
 Some of the Saleae logic analyzers do support selectable thresholds. Full details on the threshold options for each product can be found here:
 
-{% content-ref url="../../../product/user-guide/supported-voltages.md" %}
-[supported-voltages.md](../../../product/user-guide/supported-voltages.md)
+{% content-ref url="./supported-voltages.md" %}
+[supported-voltages.md](./supported-voltages.md)
 {% endcontent-ref %}
 
 However, none of the products support a continuously variable user selectable threshold voltage. Specifically, that means that for devices with selectable thresholds, only a few fixed options can be chosen from. The user cannot choose a threshold voltage outside of the provided list of options.

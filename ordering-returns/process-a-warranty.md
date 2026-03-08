@@ -12,8 +12,8 @@ If you believe your Logic hardware is broken, please completely perform the trou
 
 * In cases where the software cannot detect the logic analyzer, we need to determine if the PC itself can detect the Logic device. Please follow the steps in the link below.
 
-{% content-ref url="../../getting-help/troubleshooting/pc-detection-test.md" %}
-[pc-detection-test.md](../../getting-help/troubleshooting/pc-detection-test.md)
+{% content-ref url="../troubleshooting/diagnostic-tools/pc-detection-test.md" %}
+[pc-detection-test.md](../troubleshooting/diagnostic-tools/pc-detection-test.md)
 {% endcontent-ref %}
 
 **3. Test with the Latest Logic 2 Software.**
@@ -36,8 +36,8 @@ If you believe your Logic hardware is broken, please completely perform the trou
 
 * If the VID and PID are incorrect, then the hardware maybe faulty. Stop here and submit a [Warranty Request](https://saleae-support.typeform.com/to/E8UPB7).
 
-{% content-ref url="../../getting-help/troubleshooting/the-devices-usb-vid-and-pid-failed.md" %}
-[the-devices-usb-vid-and-pid-failed.md](../../getting-help/troubleshooting/the-devices-usb-vid-and-pid-failed.md)
+{% content-ref url="../troubleshooting/device-connection-issues/the-devices-usb-vid-and-pid-failed.md" %}
+[the-devices-usb-vid-and-pid-failed.md](../troubleshooting/device-connection-issues/the-devices-usb-vid-and-pid-failed.md)
 {% endcontent-ref %}
 
 **8. If you are troubleshooting Logic Pro 8 or Pro 16, ensure the latest USB 3.0 Host Controller is installed.**&#x20;
@@ -45,8 +45,8 @@ If you believe your Logic hardware is broken, please completely perform the trou
 * Update the driver, if possible, and run the tests again. The latest host controller drivers are provided in the link below.
 * The windows driver update check will NOT update USB 3.0 host controller drivers. These are not included in the Windows update driver database and must be manually updated.
 
-{% content-ref url="../../getting-help/troubleshooting/usb-driver-problem.md" %}
-[usb-driver-problem.md](../../getting-help/troubleshooting/usb-driver-problem.md)
+{% content-ref url="../troubleshooting/device-connection-issues/usb-driver-problem.md" %}
+[usb-driver-problem.md](../troubleshooting/device-connection-issues/usb-driver-problem.md)
 {% endcontent-ref %}
 
 ### PC Fails to Detect Logic

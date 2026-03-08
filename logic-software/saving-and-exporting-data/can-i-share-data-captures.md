@@ -8,8 +8,8 @@ No device is required to open saved captures. Simply ask the recipient to instal
 
 For more information about version requirements, see below.
 
-{% content-ref url="open-logicdata-files.md" %}
-[open-logicdata-files.md](open-logicdata-files.md)
+{% content-ref url="./open-logicdata-files.md" %}
+[open-logicdata-files.md](./open-logicdata-files.md)
 {% endcontent-ref %}
 
 

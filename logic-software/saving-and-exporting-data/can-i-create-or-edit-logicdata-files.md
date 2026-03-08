@@ -6,8 +6,8 @@ That is because the files are generated with boost binary serialization and cont
 
 If you need to get data out of the logic software, we recommend using the export features. You can find more information in our user guide below.
 
-{% content-ref url="../../../product/user-guide/using-logic/saving-loading-and-exporting-data.md" %}
-[saving-loading-and-exporting-data.md](../../../product/user-guide/using-logic/saving-loading-and-exporting-data.md)
+{% content-ref url="./saving-loading-and-exporting-data.md" %}
+[saving-loading-and-exporting-data.md](./saving-loading-and-exporting-data.md)
 {% endcontent-ref %}
 
 

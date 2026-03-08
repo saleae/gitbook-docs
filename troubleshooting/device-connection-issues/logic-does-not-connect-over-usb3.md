@@ -34,14 +34,14 @@ If you are unable to use the Logic Pro 8 or Logic Pro 16 on USB 3.0 ports at USB
 
 Locate your installed host controller and driver version:
 
-{% content-ref url="technical-faq/usb-3.0-host-controller-info.md" %}
-[usb-3.0-host-controller-info.md](technical-faq/usb-3.0-host-controller-info.md)
+{% content-ref url="../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md" %}
+[usb-3.0-host-controller-info.md](../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md)
 {% endcontent-ref %}
 
 Check for driver updates:
 
-{% content-ref url="usb-driver-problem.md" %}
-[usb-driver-problem.md](usb-driver-problem.md)
+{% content-ref url="./usb-driver-problem.md" %}
+[usb-driver-problem.md](./usb-driver-problem.md)
 {% endcontent-ref %}
 
 Original instructions (pre 1.2.5):

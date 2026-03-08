@@ -26,8 +26,8 @@ This will open the Presets window below. From here, you can manage capture setti
 
 Your Logic software's settings, including Logic Preset configurations, are stored in a config.json file. This config file can be found in the location described in the support article below.
 
-{% content-ref url="../../../getting-help/troubleshooting/location-of-your-config-file.md" %}
-[location-of-your-config-file.md](../../../getting-help/troubleshooting/location-of-your-config-file.md)
+{% content-ref url="../settings-and-preferences/location-of-your-config-file.md" %}
+[location-of-your-config-file.md](../settings-and-preferences/location-of-your-config-file.md)
 {% endcontent-ref %}
 
 You may want to backup your config file in case you wanted to backup all of the Logic Presets that you have created. This will also allow you to transfer all of your Logic Presets to another PC.
@@ -38,8 +38,8 @@ To manage and open legacy capture files that were generated using the older Logi
 
 For now, please refer to the support article below for more information on this topic.
 
-{% content-ref url="../../../getting-help/troubleshooting/technical-faq/open-logicdata-files.md" %}
-[open-logicdata-files.md](../../../getting-help/troubleshooting/technical-faq/open-logicdata-files.md)
+{% content-ref url="./open-logicdata-files.md" %}
+[open-logicdata-files.md](./open-logicdata-files.md)
 {% endcontent-ref %}
 
 

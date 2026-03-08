@@ -4,8 +4,8 @@
 Starting October of 2022, Saleae has released a new hardware revision of our Logic analyzers which requires the latest version of the Logic 2 software available [here](https://www.saleae.com/downloads/). This newer revision of the hardware will **no longer work with our legacy Logic 1.x software**.
 {% endhint %}
 
-{% content-ref url="../../datasheets-and-specifications/logic-hardware-revisions.md" %}
-[logic-hardware-revisions.md](../../datasheets-and-specifications/logic-hardware-revisions.md)
+{% content-ref url="../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md" %}
+[logic-hardware-revisions.md](../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md)
 {% endcontent-ref %}
 
 ## Logic 1.x Software
@@ -16,8 +16,8 @@ If you plan on using the older Logic 1.x software, you can follow the instructio
 
 The older Logic 1.x software can be downloaded below. Version 1.2.29 is the last version of Logic 1.x.
 
-{% content-ref url="older-software-releases.md" %}
-[older-software-releases.md](older-software-releases.md)
+{% content-ref url="./older-software-releases.md" %}
+[older-software-releases.md](./older-software-releases.md)
 {% endcontent-ref %}
 
 ### **Installing for Windows**
@@ -40,8 +40,8 @@ Download the zip file and extract it. The software will run from this folder. Yo
 
 In addition, The Logic 1.2.18 (and prior) software on Linux requires write permissions to several directories in order to run. More information on this below.
 
-{% content-ref url="../../../getting-help/troubleshooting/linux-permission-requirements-for-logic-software.md" %}
-[linux-permission-requirements-for-logic-software.md](../../../getting-help/troubleshooting/linux-permission-requirements-for-logic-software.md)
+{% content-ref url="../../troubleshooting/platform-specific-issues/linux-permission-requirements-for-logic-software.md" %}
+[linux-permission-requirements-for-logic-software.md](../../troubleshooting/platform-specific-issues/linux-permission-requirements-for-logic-software.md)
 {% endcontent-ref %}
 
 #### Extracting the AppImage (Linux)

@@ -10,20 +10,20 @@ Audio signals have a minimum bandwidth of 22 kHz. When measuring things like bat
 
 Once you have identified the bandwidth requirements, multiply them by the above factors to determine the minimum sample rates. Then understand which product is capable of these sample rates. Don't forget to take into account the number of signals you will need to record at once. Most of the Saleae devices have a trade-off for higher sample rates on fewer channels, so if you need to record a large number of signals at once, make sure you verify the sample rate options with that channel count below.
 
-{% content-ref url="what-is-the-maximum-bandwidth.md" %}
-[what-is-the-maximum-bandwidth.md](what-is-the-maximum-bandwidth.md)
+{% content-ref url="../../specifications-hardware/electrical-characteristics/what-is-the-maximum-bandwidth.md" %}
+[what-is-the-maximum-bandwidth.md](../../specifications-hardware/electrical-characteristics/what-is-the-maximum-bandwidth.md)
 {% endcontent-ref %}
 
 Also, don't forget to check the digital IO voltage levels and the analog input voltage range of each product below.
 
-{% content-ref url="../../../product/user-guide/supported-voltages.md" %}
-[supported-voltages.md](../../../product/user-guide/supported-voltages.md)
+{% content-ref url="../../specifications-hardware/electrical-characteristics/supported-voltages.md" %}
+[supported-voltages.md](../../specifications-hardware/electrical-characteristics/supported-voltages.md)
 {% endcontent-ref %}
 
 Finally, if you need to record for more than 30 seconds at a time, consult this article regarding maximum buffer size below.
 
-{% content-ref url="how-long-can-i-record-data.md" %}
-[how-long-can-i-record-data.md](how-long-can-i-record-data.md)
+{% content-ref url="./how-long-can-i-record-data.md" %}
+[how-long-can-i-record-data.md](./how-long-can-i-record-data.md)
 {% endcontent-ref %}
 
 **Examples**

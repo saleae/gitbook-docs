@@ -6,8 +6,8 @@ The LED is first turned on by the software once the device has successfully conn
 
 During error situations, the LED will blink red. More information on this behavior can be found in the support article below:
 
-{% content-ref url="../../troubleshooting/led-blinks-red.md" %}
-[led-blinks-red.md](../../troubleshooting/led-blinks-red.md)
+{% content-ref url="../../troubleshooting/diagnostic-tools/led-blinks-red.md" %}
+[led-blinks-red.md](../../troubleshooting/diagnostic-tools/led-blinks-red.md)
 {% endcontent-ref %}
 
 

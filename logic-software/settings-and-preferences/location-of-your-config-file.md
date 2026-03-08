@@ -17,8 +17,8 @@ On Linux Ubuntu:
 
 This config file also contains all of your Logic Presets that you have configured in the software. More information on Logic Presets can be found in the link below.
 
-{% content-ref url="../../product/user-guide/using-logic/saving-loading-and-exporting-data.md" %}
-[saving-loading-and-exporting-data.md](../../product/user-guide/using-logic/saving-loading-and-exporting-data.md)
+{% content-ref url="../saving-and-exporting-data/saving-loading-and-exporting-data.md" %}
+[saving-loading-and-exporting-data.md](../saving-and-exporting-data/saving-loading-and-exporting-data.md)
 {% endcontent-ref %}
 
 You may want to backup your config file in case you wanted to backup all of the Logic Presets that you have created. This will also allow you to transfer all of your Logic Presets to another PC.

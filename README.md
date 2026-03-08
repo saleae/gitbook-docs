@@ -12,12 +12,12 @@ Whether you own the Saleae Logic or not, the best way to discover Saleae Logic w
 
 Ready to **purchase your own Saleae Logic?** Place an order or request a quote below!
 
-{% content-ref url="ordering/ordering-and-shipping/how-do-i-place-an-order.md" %}
-[how-do-i-place-an-order.md](ordering/ordering-and-shipping/how-do-i-place-an-order.md)
+{% content-ref url="ordering-returns/how-do-i-place-an-order.md" %}
+[how-do-i-place-an-order.md](ordering-returns/how-do-i-place-an-order.md)
 {% endcontent-ref %}
 
-{% content-ref url="ordering/ordering-and-shipping/how-do-i-get-a-quote.md" %}
-[how-do-i-get-a-quote.md](ordering/ordering-and-shipping/how-do-i-get-a-quote.md)
+{% content-ref url="ordering-returns/how-do-i-get-a-quote.md" %}
+[how-do-i-get-a-quote.md](ordering-returns/how-do-i-get-a-quote.md)
 {% endcontent-ref %}
 
 

@@ -13,8 +13,8 @@ When installing the older Logic 1.x software, the following error message may ap
 * Make sure the computer is up-to-date. That is good practice and is likely to resolve this issue.
 * Use the standalone version of the Logic 1.x software. That allows you to skip the installation process, bypassing this issue. You can download the latest version of the standalone software below.
 
-{% content-ref url="../../product/logic-software/legacy-software/older-software-releases.md" %}
-[older-software-releases.md](../../product/logic-software/legacy-software/older-software-releases.md)
+{% content-ref url="../../logic-software/download-and-installation/older-software-releases.md" %}
+[older-software-releases.md](../../logic-software/download-and-installation/older-software-releases.md)
 {% endcontent-ref %}
 
 **Contacting Support for Additional Help**

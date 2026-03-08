@@ -7,8 +7,8 @@ To solve this issue, we recommend using the following version of the software.
 * [Logic 2](https://www.saleae.com/downloads/)
 * Logic 1.2.40 (Download link provided below)
 
-{% content-ref url="../../product/logic-software/legacy-software/older-software-releases.md" %}
-[older-software-releases.md](../../product/logic-software/legacy-software/older-software-releases.md)
+{% content-ref url="../../logic-software/download-and-installation/older-software-releases.md" %}
+[older-software-releases.md](../../logic-software/download-and-installation/older-software-releases.md)
 {% endcontent-ref %}
 
 In case you have any trouble with the solutions above, please [contact us](https://contact.saleae.com/hc/en-us/requests/new) and we can help towards a resolution.
@@ -28,8 +28,8 @@ Function: Device2::SetupDevice, Line: 118
 
 The location of the generated crash logs can be found in the support article below.
 
-{% content-ref url="sharing-crash-logs.md" %}
-[sharing-crash-logs.md](sharing-crash-logs.md)
+{% content-ref url="../diagnostic-tools/sharing-crash-logs.md" %}
+[sharing-crash-logs.md](../diagnostic-tools/sharing-crash-logs.md)
 {% endcontent-ref %}
 
 We discovered this to be a bug with our logic analyzers in combination with the following processors, OSes, and PC models.

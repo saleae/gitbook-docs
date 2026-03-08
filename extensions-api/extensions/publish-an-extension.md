@@ -8,8 +8,8 @@ Before publishing your extension, you will need to have the following completed.
 
 * You have finished developing your extension and are ready to share it. You can follow along with our Extensions Quickstart guide below as a starting point.
 
-{% content-ref url="extensions-quickstart.md" %}
-[extensions-quickstart.md](extensions-quickstart.md)
+{% content-ref url="./extensions-quickstart.md" %}
+[extensions-quickstart.md](./extensions-quickstart.md)
 {% endcontent-ref %}
 
 * Your extension must be uploaded to a [GitHub](https://github.com/) repository.

@@ -46,8 +46,8 @@ We provide user guides for a handful of our protocol analyzers, which we have li
 
 Some Logic users have created their own protocol analyzers. The following list of analyzers are available but not officially supported by Saleae.
 
-{% content-ref url="../../../getting-help/community/community-shared-protocols.md" %}
-[community-shared-protocols.md](../../../getting-help/community/community-shared-protocols.md)
+{% content-ref url="../../community-contact/community-shared-protocols.md" %}
+[community-shared-protocols.md](../../community-contact/community-shared-protocols.md)
 {% endcontent-ref %}
 
 ### **Do all Saleae logic analyzer models support these protocols?**

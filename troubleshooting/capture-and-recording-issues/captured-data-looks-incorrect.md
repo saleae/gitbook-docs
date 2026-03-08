@@ -10,8 +10,8 @@ For each item, first perform the test. If the test result is positive (the test 
 
 If the issue you are experiencing is that some or all of your capture attempts immediately fail with the error message shown in the link below, please read the below article.
 
-{% content-ref url="device-not-able-to-keep-up.md" %}
-[device-not-able-to-keep-up.md](device-not-able-to-keep-up.md)
+{% content-ref url="./device-not-able-to-keep-up.md" %}
+[device-not-able-to-keep-up.md](./device-not-able-to-keep-up.md)
 {% endcontent-ref %}
 
 ### The Captured Data is Corrupted
@@ -21,8 +21,8 @@ If the software is able to capture data, but the captured data looks random or c
 1. Make sure the software detects the Logic hardware properly (the top bar of the software should display "Connected").
 2. Check your USB Host Controller driver. There is a known issue with VIA USB host controllers. See below.
 
-{% content-ref url="the-captured-data-is-corrupted.md" %}
-[the-captured-data-is-corrupted.md](the-captured-data-is-corrupted.md)
+{% content-ref url="./the-captured-data-is-corrupted.md" %}
+[the-captured-data-is-corrupted.md](./the-captured-data-is-corrupted.md)
 {% endcontent-ref %}
 
 ### The Analog Capture Looks Extremely Noisy
@@ -106,8 +106,8 @@ Please verify the following:
 
 * Test: First, check the supported IO standards for the Logic analyzer that you are using below.
 
-{% content-ref url="../../product/user-guide/supported-voltages.md" %}
-[supported-voltages.md](../../product/user-guide/supported-voltages.md)
+{% content-ref url="../../specifications-hardware/electrical-characteristics/supported-voltages.md" %}
+[supported-voltages.md](../../specifications-hardware/electrical-characteristics/supported-voltages.md)
 {% endcontent-ref %}
 
 * Verify that the logic high voltage is above the logic high threshold, and make sure that the logic low voltage (usually 0 volts) is below the logic low threshold voltage of the device.
@@ -118,18 +118,18 @@ Please verify the following:
 
 If your digital capture looks correct but the analog capture does not, please see this article:
 
-{% content-ref url="digital-and-analog-appear-different.md" %}
-[digital-and-analog-appear-different.md](digital-and-analog-appear-different.md)
+{% content-ref url="./digital-and-analog-appear-different.md" %}
+[digital-and-analog-appear-different.md](./digital-and-analog-appear-different.md)
 {% endcontent-ref %}
 
 See this article for more information about the maximum digital and analog bandwidth for each device:
 
-{% content-ref url="technical-faq/what-is-the-maximum-bandwidth.md" %}
-[what-is-the-maximum-bandwidth.md](technical-faq/what-is-the-maximum-bandwidth.md)
+{% content-ref url="../../specifications-hardware/electrical-characteristics/what-is-the-maximum-bandwidth.md" %}
+[what-is-the-maximum-bandwidth.md](../../specifications-hardware/electrical-characteristics/what-is-the-maximum-bandwidth.md)
 {% endcontent-ref %}
 
 For more information about the bandwidth requirements for any given signal, please see this article:
 
-{% content-ref url="technical-faq/what-sample-rate-is-required.md" %}
-[what-sample-rate-is-required.md](technical-faq/what-sample-rate-is-required.md)
+{% content-ref url="../../logic-software/capturing-data/what-sample-rate-is-required.md" %}
+[what-sample-rate-is-required.md](../../logic-software/capturing-data/what-sample-rate-is-required.md)
 {% endcontent-ref %}

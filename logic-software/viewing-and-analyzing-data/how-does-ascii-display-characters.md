@@ -13,8 +13,8 @@ When in this mode, common characters such as alpha-numeric characters and punctu
 
 * In many cases, ASCII is not the ideal display radix. You can change the display radix by following the instructions here:
 
-{% content-ref url="changing-the-display-radix.md" %}
-[changing-the-display-radix.md](changing-the-display-radix.md)
+{% content-ref url="./changing-the-display-radix.md" %}
+[changing-the-display-radix.md](./changing-the-display-radix.md)
 {% endcontent-ref %}
 
 * One of the most helpful display bases when dealing with mixed ASCII text and raw data is "ASCII & Hex," which will display both values for each byte.
