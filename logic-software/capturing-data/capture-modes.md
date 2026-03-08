@@ -69,7 +69,7 @@ Please note that Trigger View is only supported for the analyzers listed in the 
 This is due to our Trigger View relying on a new low level analyzer framing format that we call “frame v2.” Only a handful of analyzers support “frame v2” at the moment, and these are the analyzers that work with Trigger View. We eventually want to extend Trigger View support to all analyzers in the future. Feel free to vote on this feature request [here](https://ideas.saleae.com/b/feature-requests/trigger-view-support-for-more-analyzers/)!
 </div>
 
-[analyzer-frame-types](../extensions-apis-and-sdks/extensions/analyzer-frame-types/)
+[analyzer-frame-types](../../extensions-api/hla-frame-format-reference/serial-analyzer.md)
 
 {% embed url="https://vimeo.com/489642936" %}
 Trigger View - SPI Example

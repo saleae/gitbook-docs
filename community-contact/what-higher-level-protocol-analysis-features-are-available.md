@@ -16,5 +16,5 @@ In some cases, you may be able to export the results from the protocol analyzer 
 
 It's also possible to modify the source code for the Saleae logic analyzers to accomplish higher-level decoding or add more features.
 
-[protocol-analyzer-sdk](../../../product/user-guide/extensions-apis-and-sdks/saleae-api-and-sdk/protocol-analyzer-sdk/)
+[protocol-analyzer-sdk](../extensions-api/protocol-analyzer-sdk/protocol-analyzer-sdk.md)
 

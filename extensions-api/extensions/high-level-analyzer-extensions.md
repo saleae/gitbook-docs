@@ -174,7 +174,7 @@ Our HLA (top) is outputting a frame for every frame from the input analyzer (bot
 
 The goal is to search for a message within the input analyzer, but first we need to understand what frames the input analyzer (Async Serial in this case) produces so we can know what frames will be passed into the `decode(frame:` [`AnalyzerFrame`](./api-documentation.md#class-saleae-analyzers-highlevelanalyzer)`)` function.
 
-The frame formats are documented under [Analyzer Frame Types](../analyzer-frame-types/), where we can find [Async Serial](../hla-frame-format-reference/serial-analyzer.md).
+The frame formats are documented under [Analyzer Frame Types](../hla-frame-format-reference/serial-analyzer.md), where we can find [Async Serial](../hla-frame-format-reference/serial-analyzer.md).
 
 The Async Serial output is simple - it only outputs one frame type, `data`, with 3 fields: `data` , `error`, and `address`. The serial data we are looking at will not be configured to produce frames with the `address` field, so we can ignore that.
 
@@ -326,7 +326,7 @@ The final output after reloading:
 
 ## What's Next?
 
-* Find out about other analyzers and the AnalyzerFrames they output in the [Analyzer Frame Types](../analyzer-frame-types/) documentation.
+* Find out about other analyzers and the AnalyzerFrames they output in the [Analyzer Frame Types](../hla-frame-format-reference/serial-analyzer.md) documentation.
 * Use the [API Documentation](./api-documentation.md) as a reference.
 * Browse the Saleae Marketplace in Logic 2 for more ideas and examples of extensions you can create.
 * [Publish your extension](./publish-an-extension.md) to the Saleae Marketplace!

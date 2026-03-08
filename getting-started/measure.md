@@ -2,5 +2,5 @@ Hover your mouse pointer over any signal data to get automatic measurements, suc
 
 {% embed url="https://vimeo.com/452008986" %}
 
-To learn more, see the [Measurements & Timing Markers ](https://saleae.gitbook.io/docs/user-guide/using-logic/measurements-timing-markers-and-bookmarks)section of the User Guide.
+To learn more, see the [Measurements & Timing Markers ](../logic-software/viewing-and-analyzing-data/measurements-timing-markers.md)section of the User Guide.
 

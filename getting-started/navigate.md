@@ -2,4 +2,4 @@ Once you have captured data, you can zoom in and out of your captured data by us
 
 {% embed url="https://vimeo.com/452005194" %}
 
-To learn more navigation actions, see the [Keyboard Shortcuts](https://support.saleae.com/user-guide/using-logic/keyboard-shortcuts) & [Navigating the Software](https://saleae.gitbook.io/docs/user-guide/using-logic/navigating-the-software) sections of the User Guide.
+To learn more navigation actions, see the [Keyboard Shortcuts](../logic-software/settings-and-preferences/keyboard-shortcuts.md) & [Navigating the Software](../logic-software/viewing-and-analyzing-data/navigating-the-software.md) sections of the User Guide.

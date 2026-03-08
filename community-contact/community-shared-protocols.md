@@ -67,7 +67,7 @@ In case the library file (.dll, .so, or .dylib depending on your OS) is not prov
 
 Some of the community analyzers listed above are distributed as source code (not including the required library file) and will require our Protocol Analyzer SDK in the article below to compile it and build the appropriate library file for that analyzer.
 
-[protocol-analyzer-sdk](../../product/user-guide/extensions-apis-and-sdks/saleae-api-and-sdk/protocol-analyzer-sdk/)
+[protocol-analyzer-sdk](../extensions-api/protocol-analyzer-sdk/protocol-analyzer-sdk.md)
 
 ### Community Shared Protocol Tools
 

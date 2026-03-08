@@ -1,6 +1,6 @@
 If you are building your custom analyzer from one of our pre-installed analyzers listed in the article below, then you may want to rename the analyzer to suit your needs.
 
-[.](./)
+[.](protocol-analyzer-sdk.md)
 
 The rename\_analyzer.py script as shared in our [SampleAnalyzer](https://github.com/saleae/SampleAnalyzer) only works with the SampleAnalyzer. If you plan on building a custom analyzer using another existing analyzer as a starting point, then the steps below will help rename your analyzer so that it appears in the software as you'd like.
 

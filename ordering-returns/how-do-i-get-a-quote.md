@@ -10,7 +10,7 @@ If the quote request form is somehow not working on your end, please [contact su
 
 * Email address
 * How will you place your order? (select an option below)
-  * Purchase Order (via wire transfer). [Please see requirements here](https://support.saleae.com/ordering-and-shipping/place-a-purchase-order-po).
+  * Purchase Order (via wire transfer). [Please see requirements here](place-a-purchase-order-po.md).
   * Online at [www.saleae.com](https://www.google.com/url?q=http://www.saleae.com&sa=D&ust=1540340346557000&usg=AFQjCNHWDUcQbtcB6hb6MAF9xUwaJzjC4A) (via credit card or PayPal)
 * Products and Quantity
 * Shipping City and Country

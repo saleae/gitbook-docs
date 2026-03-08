@@ -2,7 +2,7 @@ Welcome to our support site! Quickly find information using the **search bar** l
 
 Whether you own the Saleae Logic or not, the best way to discover Saleae Logic would be to follow our **Getting Started** guide below.
 
-[getting-started](product/getting-started/)
+[getting-started](./getting-started/setup.md)
 
 
 

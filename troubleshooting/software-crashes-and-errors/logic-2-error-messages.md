@@ -2,9 +2,9 @@ Click on the error code in the table below to learn more about that specific err
 
 | Error Code                                                                            | Description                                                                                                                        |
 | ------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------- |
-| [StartCommandError](https://support.saleae.com/troubleshooting/start-command-error)   | This error message appears when the Start command fails.                                                                           |
-| [DeviceSetupFailure](https://support.saleae.com/troubleshooting/device-setup-failure) | This error message appears when the Start command fails.                                                                           |
-| [ReadTimeout](https://support.saleae.com/troubleshooting/device-not-able-to-keep-up)  | This error message appears when the device side buffer has run out of memory caused by delays on the USB line during data capture. |
+| [StartCommandError](../device-connection-issues/start-command-error.md)   | This error message appears when the Start command fails.                                                                           |
+| [DeviceSetupFailure](../device-connection-issues/device-setup-failure.md) | This error message appears when the Start command fails.                                                                           |
+| [ReadTimeout](../capture-and-recording-issues/device-not-able-to-keep-up.md)  | This error message appears when the device side buffer has run out of memory caused by delays on the USB line during data capture. |
 
 ### General Error Messages
 

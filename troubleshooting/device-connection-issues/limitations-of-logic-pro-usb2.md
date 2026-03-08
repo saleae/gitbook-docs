@@ -20,7 +20,7 @@ When connecting our USB 3.0 Logic analyzers (Logic Pro 8 and Logic Pro 16) via a
 
 ## Legacy Information for Logic 1.x Only
 
-On our older [Logic software v1.x](https://support.saleae.com/logic-software/latest-stable-release-download), you can manually override the USB 2.0 power restriction to allow 16 channels.
+On our older [Logic software v1.x](/downloads), you can manually override the USB 2.0 power restriction to allow 16 channels.
 
 If you're sure the port that you are using can supply at least 700mA of current, then you can manually enable the second bank in the preferences dialog.
 
