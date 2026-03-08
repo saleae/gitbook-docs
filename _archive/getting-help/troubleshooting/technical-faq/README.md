@@ -1,4 +1,0 @@
-# Technical FAQ
-
-
-

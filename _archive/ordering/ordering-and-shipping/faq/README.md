@@ -1,4 +1,0 @@
-# Sales FAQ
-
-
-
