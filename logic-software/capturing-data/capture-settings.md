@@ -19,12 +19,13 @@ From this panel, several settings can be configured, such as:
 Our tutorial video below demonstrates setting some basic settings such as enabling/disabling channels, settings the sampling rate and voltage, and specific settings related to the _Timer_ capture type.
 
 <div class="video-embed"><iframe src="https://www.youtube.com/embed/XhWKoFj_p9k" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
-<p class="text-sm text-gray-500 text-center mt-1">### Channels &amp; Sampling Rate
 
-Individual digital and analog channels can be enabled and disabled as needed. In addition, the sampling rate for digital and analog channels respectively can also be adjusted. 
+### Channels & Sampling Rate
 
-{% embed url=&quot;https://vimeo.com/454542912&quot; %}
-Enabling/Disabling Channels</p>
+Individual digital and analog channels can be enabled and disabled as needed. In addition, the sampling rate for digital and analog channels respectively can also be adjusted.
+
+<div class="video-embed"><iframe src="https://player.vimeo.com/video/454542912" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+<p class="text-sm text-gray-500 text-center mt-1">Enabling/Disabling Channels</p>
 
 Please note that changing these settings may affect the available sampling rates for other channels. This is due to the total amount of available bandwidth that our logic analyzers can support. When this happens, you will receive a popup about the sampling rate change like shown below.
 
