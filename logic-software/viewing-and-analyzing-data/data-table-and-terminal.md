@@ -93,7 +93,7 @@ Workarounds:
 * The End and Home keys can be used to instantly jump to the end or beginning of the data table respectively.
 * You can jump directly to a data table row from the waveform. Details on this are described in a section of this support article above.
 
-In case this is something you'd like us to improve, please vote for [this feature request](https://ideas.saleae.com/b/feature-requests/vertical-scrollbar-for-the-analyzer-data-table-view/)!
+In case this is something you'd like us to improve, please vote for [this feature request](https://ideas.saleae.com)!
 
 #### Search Limitations
 
@@ -123,7 +123,7 @@ A terminal view is available by clicking the "Terminal" button at the top-right 
 
 #### Terminal Output is not in Time Order
 
-Currently, our terminal view does not output results in time order if more than one analyzer is outputting data to the terminal. Instead, our terminal view will group the output results by analyzer. We've received requests for adding support for ensuring time order when using multple analyzers. Please feel free to share your feedback on this in the feature request post here: [Feature Request - Terminal Messages to be Timeline Ordered](https://ideas.saleae.com/b/feature-requests/terminal-messages-to-be-timeline-synced/)
+Currently, our terminal view does not output results in time order if more than one analyzer is outputting data to the terminal. Instead, our terminal view will group the output results by analyzer. We've received requests for adding support for ensuring time order when using multple analyzers. Please feel free to share your feedback on this in the feature request post here: [Feature Request - Terminal Messages to be Timeline Ordered](https://ideas.saleae.com)
 
 ![Toolip for this behavior from within the app](/support-assets/Screen%20Shot%202022-04-08%20at%206.12.38%20PM.png)
 
@@ -160,7 +160,7 @@ We use xtermjs for our in-app terminal. According to the xtermjs GitHub issue li
 
 <a href="https://github.com/xtermjs/xterm.js/issues/3178" target="_blank" rel="noopener">https://github.com/xtermjs/xterm.js/issues/3178</a>
 
-If you're running into this issue, please vote/comment on our [idea post here](https://ideas.saleae.com/b/feature-requests/bug-terminal-text-doesnt-reflow-properly-when-panel-is-resized/), which we are using to track this bug.
+If you're running into this issue, please vote/comment on our [idea post here](https://ideas.saleae.com), which we are using to track this bug.
 
 #### Terminal Text Seems to be Missing
 

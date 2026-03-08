@@ -61,7 +61,7 @@ $200 USD for a project writeup meeting the requirements described here. You can 
 
 ### When you’re done
 
-[Contact us](https://contact.saleae.com/hc/en-us/requests/new) and include the following information:
+[Contact us](/contact) and include the following information:
 
 \[   ] Include a link to your publicly hosted article. \
 \[   ] Include this in your email: “I grant Saleae CC BY-SA rights for this content.” (i.e., give us permission to post your article on our website, and make edits for grammar and format. [https://en.wikipedia.org/wiki/Creative\_Commons\_license](https://en.wikipedia.org/wiki/Creative\_Commons\_license)) \

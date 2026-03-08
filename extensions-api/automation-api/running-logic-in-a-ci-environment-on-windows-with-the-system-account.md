@@ -26,4 +26,4 @@ This additional `--disable-gpu` flag ensures that Logic can operate in the SYSTE
 * Always ensure that your CI runner has the necessary permissions to access the Logic hardware connected to your machine.
 * For further details on setting up Logic in CI environments, refer to our [Automation API Documentation here](https://saleae.github.io/logic2-automation/).
 
-If you encounter any issues or have questions, please [contact our support team](https://contact.saleae.com/hc/en-us/requests/new).
+If you encounter any issues or have questions, please [contact our support team](/contact).

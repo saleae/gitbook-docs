@@ -28,7 +28,7 @@ The Saleae Logic software includes the following protocol analyzers:
 
 ### I3C Protocol Analyzer (3rd Party)
 
-We've worked closely with the team at Binho LLC to develop a 3rd party I3C Protocol Analyzer plugin for our Saleae Logic software! This plugin is developed by Binho LLC and will require a paid license to use it within our software. If you're interested in more details, [please contact us here](https://contact.saleae.com/hc/en-us/requests/new)!
+We've worked closely with the team at Binho LLC to develop a 3rd party I3C Protocol Analyzer plugin for our Saleae Logic software! This plugin is developed by Binho LLC and will require a paid license to use it within our software. If you're interested in more details, [please contact us here](/contact)!
 
 ![I3C Analyzer running on Logic 2](/support-assets/i3c-analyzer-in-action.gif)
 
@@ -52,4 +52,4 @@ Yes. However, you will need to use a device with sufficient bandwidth to record 
 
 Unfortunately, we have not yet ported the UNI/O analyzer from Logic v1 into the newer Logic v2 software. Specifically, it requires separate API functions that we simply haven't had the chance to implement yet. It's not on the roadmap at the moment, though we would like to gauge user interest in this before we commit to it, as porting this analyzer into Logic v2 would require quite a bit of work as compared to porting our other analyzers.
 
-You can vote for this idea [here](https://ideas.saleae.com/b/feature-requests/port-the-uni-o-analyzer-into-logic-2).
+You can vote for this idea [here](https://ideas.saleae.com).

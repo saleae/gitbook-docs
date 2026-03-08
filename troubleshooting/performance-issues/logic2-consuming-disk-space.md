@@ -1,4 +1,4 @@
-If this is happening to you, please [contact us](https://contact.saleae.com/hc/en-us/requests/new) and let us know where the disk space is being used, how much is being used, and how you are using the software.
+If this is happening to you, please [contact us](/contact) and let us know where the disk space is being used, how much is being used, and how you are using the software.
 
 ### Possible Reason for this Issue
 

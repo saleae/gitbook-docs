@@ -25,7 +25,7 @@ If you see either of the below errors, it is possible that the runtime is not in
 
 **Contacting Support for Additional Help**
 
-If the software still does not launch after trying the troubleshooting steps, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) with the following information:
+If the software still does not launch after trying the troubleshooting steps, please [contact support](/contact) with the following information:
 
 1. The version of Windows you are using and if it is 32-bit or 64-bit.
 2. A screenshot of the error message you are seeing

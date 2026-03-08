@@ -37,7 +37,7 @@ Having mentioned the above note, and in case you are still interested in placing
 #### Method 1 – Prepayment
 
 1. Get a Quote (optional step - please see instructions below this article)
-2. Create a PO document and send it to us by [writing to support](https://contact.saleae.com/hc/en-us/requests/new)​. You may also use the quote generated above as your PO
+2. Create a PO document and send it to us by [writing to support](/contact)​. You may also use the quote generated above as your PO
 3. We will reply with a Proforma Invoice, including our bank information.
 4. Send the payment to Saleae. Important: Please let us know via email once the payment is sent.
 5. We will ship the order on the first business day after the payment is received.
@@ -45,7 +45,7 @@ Having mentioned the above note, and in case you are still interested in placing
 #### Method 2 – NET30 Payment Terms (for existing customers only)
 
 1. Get a Quote (optional step - please see instructions below this article)
-2. Create a PO document and send it to us by [writing to support](https://contact.saleae.com/hc/en-us/requests/new). You may also use the quote generated above as your PO
+2. Create a PO document and send it to us by [writing to support](/contact). You may also use the quote generated above as your PO
 3. We will reply with an Invoice, and the order will ship.
 4. Send the payment to Saleae. Important: Please let us know via email once the payment is sent.
 5. Payment must be received within 30 days of the invoice date.

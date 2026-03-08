@@ -13,7 +13,7 @@ This error message appears when the Start command fails. The solutions below wil
 
 We have also seen this issue in the past when using our logic analyzer with Etron USB host controllers. If you find that your PC has an _Etron USB 3.0 eXtensible Host Controller_, please try other USB ports. This may help determine if your USB host controller is the source of the issue.
 
-If the solutions above don't help, please [contact support](https://contact.saleae.com/hc/en-us/requests/new).
+If the solutions above don't help, please [contact support](/contact).
 
 ## Logic 1.x
 

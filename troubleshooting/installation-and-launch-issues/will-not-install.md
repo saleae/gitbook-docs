@@ -19,7 +19,7 @@ cd C:\Users\Username\Downloads
 "Logic Setup 2.x.xx-master.exe" /L*V installog.txt
 ```
 
-Afterwards, [contact us](https://contact.saleae.com/hc/en-us/requests/new) and attach your `installog.txt` file (it will be generated in the same location as your installer) and we can take a look at what could be causing the install error.
+Afterwards, [contact us](/contact) and attach your `installog.txt` file (it will be generated in the same location as your installer) and we can take a look at what could be causing the install error.
 
 ### Windows Driver Signature Validation Issue
 
@@ -37,7 +37,7 @@ Some users have reported that installing the Saleae drivers manually via the met
 
 ### Known Issues with Windows 11 Insider Preview Builds
 
-Installation issues on Windows 11 are typically caused when you are running on an Insider Preview build of Windows 11. We're currently tracking issue reports of this in the [bug report here](https://ideas.saleae.com/b/feature-requests/issues-on-windows-11/).
+Installation issues on Windows 11 are typically caused when you are running on an Insider Preview build of Windows 11. We're currently tracking issue reports of this in the [bug report here](https://ideas.saleae.com).
 
 Based on user reports, we believe there may be issues with Windows 11 Insider Preview buils that prevent our driver's signature from being validated, similar to the Windows issue we share above. We haven't figured out why this happens exactly, but the following workarounds might solve this for you.
 
@@ -50,7 +50,7 @@ Based on user reports, we believe there may be issues with Windows 11 Insider Pr
 
 For PCs managed by an IT deparment, either through a corporate network or corporate security plan, you may need to reach out to them for further assistance. We've discovered in the past that some installation issues had been solved by modifying an IT policy, particularly ones that affect what root certificates are trusted on the PC.
 
-We would be happy to chat with them directly as well! In this case, feel free to have them [contact us](https://contact.saleae.com/hc/en-us/requests/new). 
+We would be happy to chat with them directly as well! In this case, feel free to have them [contact us](/contact). 
 
 ### This Installation Package is Not Supported by this Processor Type
 

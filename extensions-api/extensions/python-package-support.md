@@ -1,4 +1,4 @@
-Although we don't support this yet, it's certainly something we will want to support in the future. We're currently tracking the feature request [here](https://ideas.saleae.com/b/feature-requests/hla-support-python-dependencies/), so feel free to vote and comment on it!
+Although we don't support this yet, it's certainly something we will want to support in the future. We're currently tracking the feature request [here](https://ideas.saleae.com), so feel free to vote and comment on it!
 
 ### Workaround
 

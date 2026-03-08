@@ -77,7 +77,7 @@ All Saleae products listed below are in compliance with the EU Council Directive
 
 Although we currently do not provide any other compliance documents outside of what is listed above, we understand that industries such as automotive, industrial, and aerospace (to name a few) require additional compliance documents to use our logic analyzers in strict test environments.
 
-We're currently compiling a list of requirements in the idea post below [here](https://ideas.saleae.com/b/feature-requests/provide-additional-compliance-documents). We'd love to hear your requirements as well!
+We're currently compiling a list of requirements in the idea post below [here](https://ideas.saleae.com). We'd love to hear your requirements as well!
 
 ## About CE Markings on our Products
 

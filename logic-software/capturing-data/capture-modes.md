@@ -55,7 +55,7 @@ Two options exist for jumping to a trigger point after your capture is complete:
 
 ![Clicking on the Trigger icon will jump the view to the trigger point](/support-assets/Screen%20Shot%202021-09-08%20at%208.56.14%20PM.png)
 
-At the moment, we don't have a way of automatically jumping to trigger point after a capture. If this is a feature you would like added, please vote for it in the idea post [here](https://ideas.saleae.com/b/feature-requests/jump-to-trigger-point-after-capture/)!
+At the moment, we don't have a way of automatically jumping to trigger point after a capture. If this is a feature you would like added, please vote for it in the idea post [here](https://ideas.saleae.com)!
 
 ### Trigger View - Triggering on a Protocol Result
 
@@ -64,7 +64,7 @@ Navigate to the "Analyzers" panel and enable "Trigger View." From there, select 
 <div class="callout callout-info">
 Please note that Trigger View is only supported for the analyzers listed in the support article link below (Titled _HLA - Analyzer Frame Format_). This means that custom analyzers, including pre-installed analyzers that are not listed, will not work with Trigger View.
 
-This is due to our Trigger View relying on a new low level analyzer framing format that we call “frame v2.” Only a handful of analyzers support “frame v2” at the moment, and these are the analyzers that work with Trigger View. We eventually want to extend Trigger View support to all analyzers in the future. Feel free to vote on this feature request [here](https://ideas.saleae.com/b/feature-requests/trigger-view-support-for-more-analyzers/)!
+This is due to our Trigger View relying on a new low level analyzer framing format that we call “frame v2.” Only a handful of analyzers support “frame v2” at the moment, and these are the analyzers that work with Trigger View. We eventually want to extend Trigger View support to all analyzers in the future. Feel free to vote on this feature request [here](https://ideas.saleae.com)!
 </div>
 
 [analyzer-frame-types](/support/extensions-api/hla-frame-format-reference/serial-analyzer)

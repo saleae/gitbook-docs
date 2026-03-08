@@ -10,8 +10,8 @@ The Saleae Logic produces data at a fixed rate and can't tolerate periodic delay
 
 This may indicate a potentially different issue and could be caused by one of the following:
 
-* The USB cable could be bad. Please try another USB cable or [contact support](https://contact.saleae.com/hc/en-us/requests/new) for a replacement.
-* On Windows, the USB host controller driver may be outdated. Please [contact support](https://contact.saleae.com/hc/en-us/requests/new), and we can help ensure you have the absolute latest drivers for your device.
+* The USB cable could be bad. Please try another USB cable or [contact support](/contact) for a replacement.
+* On Windows, the USB host controller driver may be outdated. Please [contact support](/contact), and we can help ensure you have the absolute latest drivers for your device.
 * On OS X, the error may occur when sampling while a thunderbolt display is connected. Connecting Logic to a USB port on the thunderbolt display has solved the problem in the past.
 
 ### **Troubleshooting Steps**
@@ -35,7 +35,7 @@ This may indicate a potentially different issue and could be caused by one of th
 
 ### **Contacting Support for Additional Help**
 
-If the error persists after trying the troubleshooting steps, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) and include the following information:
+If the error persists after trying the troubleshooting steps, please [contact support](/contact) and include the following information:
 
 * Detailed results of all the troubleshooting steps
 * Which Logic device you are using

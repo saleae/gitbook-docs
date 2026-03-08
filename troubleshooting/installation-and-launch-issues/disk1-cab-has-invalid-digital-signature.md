@@ -15,7 +15,7 @@ When installing the older Logic 1.x software, the following error message may ap
 
 **Contacting Support for Additional Help**
 
-If none of the troubleshooting steps solve the problem, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) and include the following information:
+If none of the troubleshooting steps solve the problem, please [contact support](/contact) and include the following information:
 
 * Where you downloaded the Saleae software
 * What version you are trying to install

@@ -104,7 +104,7 @@ Solution steps if the device incorrectly appears as "Logic Pro" under Device Man
 
 ### Contacting Us for Further Support
 
-If at the end of this process you still get an error, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) and include the following information:
+If at the end of this process you still get an error, please [contact support](/contact) and include the following information:
 
 * What OS and OS version you are using and if it is 32-bit or 64-bit.
 * If the device has worked on this PC before.
@@ -151,4 +151,4 @@ In case you run into any issues with installing the udev rule file using the com
 7. Open the Logic app
 8. If at this point, the udev rule has still not installed properly, please disconnect your Logic device and restart your PC and test again afterwards.
 
-In case the above steps don't help, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) and send us the command line output from the udev rull install commands above.
+In case the above steps don't help, please [contact support](/contact) and send us the command line output from the udev rull install commands above.

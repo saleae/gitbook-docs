@@ -1,7 +1,7 @@
 <div class="callout callout-info">
 This support article refers to a feature available in our older Logic 1.x software (which is no longer officiall supported). The download link for it is available below.
 
-Unfortunately, this feature is not yet available in our current Logic 2 software. Vote for it [here!](https://ideas.saleae.com/b/feature-requests/trigg-on-signal-state-low-high-after-x-time/)
+Unfortunately, this feature is not yet available in our current Logic 2 software. Vote for it [here!](https://ideas.saleae.com)
 </div>
 
 [Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)

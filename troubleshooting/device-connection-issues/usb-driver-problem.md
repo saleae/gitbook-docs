@@ -12,7 +12,7 @@ The two known USB host controller driver combinations with problems (ASMedia hos
 
 ### Contacting Support and Troubleshooting your Connection
 
-if you are running into any connectivity issues, feel free to collect the information about your USB host controller (instructions in the support article below) and contact [Saleae support](https://contact.saleae.com/hc/en-us/requests/new).
+if you are running into any connectivity issues, feel free to collect the information about your USB host controller (instructions in the support article below) and contact [Saleae support](/contact).
 
 [Finding Your USB 3.0 Host Controller Information](/support/specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info)
 

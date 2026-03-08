@@ -58,7 +58,7 @@ For more information on the available capture modes and their specific settings,
 ### LED Settings and Color
 
 <div class="callout callout-info">
-Unfortunately this feature is not available in the newer Logic 2 software. If you would like to see this feature implemented, please vote on it [here](https://ideas.saleae.com/b/feature-requests/change-the-led-color-on-the-unit/)!
+Unfortunately this feature is not available in the newer Logic 2 software. If you would like to see this feature implemented, please vote on it [here](https://ideas.saleae.com)!
 </div>
 
 

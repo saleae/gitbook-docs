@@ -1,14 +1,14 @@
 ## Legacy Socket API Automation for Logic 1.x
 
 <div class="callout callout-warning">
-Due to the official release of the newer [Logic 2 Automation API](https://saleae.github.io/logic2-automation/), we have officially ended support for our Legacy Logic 1.x Automation API. We highly recommend existing users who currently use our legacy Automation API automation utility with Logic 1.x to migrate their automation utility to Logic 2 using our new Automation API above. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you need help with that.
+Due to the official release of the newer [Logic 2 Automation API](https://saleae.github.io/logic2-automation/), we have officially ended support for our Legacy Logic 1.x Automation API. We highly recommend existing users who currently use our legacy Automation API automation utility with Logic 1.x to migrate their automation utility to Logic 2 using our new Automation API above. Please [contact us](/contact) if you need help with that.
 </div>
 
 Our Legacy Automation API (which we called Socket API in the past) allows users to programmatically configure our software and trigger captures, and requires the older Logic 1.x software. 
 
 The basic premise is that you can develop an application that connects to this socket server and then sends simple text commands to the software such as "CAPTURE\_TO\_FILE" to trigger specific actions. The software will then respond with "ACK", "NAK", or other information once the command has executed.
 
-In addition, please keep in mind that newer versions of our Logic hardware (after revision 3.0.0) will no longer work with the older Logic 1.x software. If this poses any issues, please [contact us](https://contact.saleae.com/hc/en-us/requests/new). A brief summary of our hardware revisions are described in the support article below.
+In addition, please keep in mind that newer versions of our Logic hardware (after revision 3.0.0) will no longer work with the older Logic 1.x software. If this poses any issues, please [contact us](/contact). A brief summary of our hardware revisions are described in the support article below.
 
 [Logic Hardware Revisions](/support/specifications-hardware/datasheets-and-compliance/logic-hardware-revisions)
 

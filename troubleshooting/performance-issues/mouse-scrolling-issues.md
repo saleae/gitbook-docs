@@ -15,4 +15,4 @@ If you experience the above behavior (or something similar), please verify if yo
 
 For example, the Logitech MX Master 3 and MX Anywhere 3S has software called _Logitech Options_, which provides an option for “smooth scrolling.” Users have reported that enabling this setting solves their scrolling issues. You may need to experiment with the settings available for your specific mouse.
 
-Although we haven't found the root cause of this issue, feel free to [contact us](https://contact.saleae.com/hc/en-us/requests/new) in case you may be using a different mouse model, or if the above solutions don't work for you.
+Although we haven't found the root cause of this issue, feel free to [contact us](/contact) in case you may be using a different mouse model, or if the above solutions don't work for you.

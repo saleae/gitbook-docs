@@ -14,7 +14,7 @@ Once you have finished reviewing the common issues section and the issue still p
 
 Before submitting the issue, we suggest that you also test the analyzer in simulation mode. That will cause the software to produce sample data for that analyzer. You can compare the sample data to your own, which might help explain the issue. To generate simulation data, simply remove any attached logic analyzer(s). Then make sure you have an analyzer added on the capture tab with the settings you were using. Then press Start Simulation. That will produce simulated protocol data.
 
-Finally, submit all this to [support](https://contact.saleae.com/hc/en-us/requests/new). Our online form supports attachments. If the capture is too large to attach, even compressed, please write support, and we can arrange a dropbox upload link.
+Finally, submit all this to [support](/contact). Our online form supports attachments. If the capture is too large to attach, even compressed, please write support, and we can arrange a dropbox upload link.
 
 **Common Causes of Protocol Result Errors**
 

@@ -28,6 +28,6 @@ These four drivers are part of the WinUSB driver, which all Saleae devices use o
 * WinUSBCoInstaller.dll
 * WUDFUpdate\_01007.dll
 
-If any other files are listed, please take a screenshot and send that to [Saleae support](https://contact.saleae.com/hc/en-us/requests/new)
+If any other files are listed, please take a screenshot and send that to [Saleae support](/contact)
 
 Those other files most likely belong to another driver which has attached itself to the Saleae device.

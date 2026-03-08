@@ -4,7 +4,7 @@ If you have finished developing a custom Low Level Analyzer (LLA) using our Prot
 
 [Community Shared Analyzers](/support/community-contact/community-shared-protocols)
 
-Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you are interested in having your LLA featured in the list above.
+Please [contact us](/contact) if you are interested in having your LLA featured in the list above.
 
 ## Formatting your LLA
 

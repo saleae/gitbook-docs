@@ -1,4 +1,4 @@
-In some cases, our support team may request for your machine ID to investigate bugs on the [Logic v2 software](https://ideas.saleae.com/f/changelog/). To find your machine ID, click on Help > About Logic 2.
+In some cases, our support team may request for your machine ID to investigate bugs on the [Logic v2 software](https://ideas.saleae.com/changelog/). To find your machine ID, click on Help > About Logic 2.
 
 <figure><img src="/support-assets/Screenshot%202024-03-28%20at%204.41.46%20PM.png" alt=""><figcaption><p>Help > About Logic 2</p></figcaption></figure>
 

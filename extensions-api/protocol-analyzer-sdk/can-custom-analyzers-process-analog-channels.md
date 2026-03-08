@@ -10,5 +10,5 @@ If you are a Matlab user, exporting directly to Matlab may be best.
 
 Otherwise, exporting to the raw data format or to CSV would be the best bet for post=processing analog data.
 
-In the future, we would like to add support for analog analyzers. You can vote for this feature suggestion [here](https://ideas.saleae.com/b/feature-requests/run-analyzer-on-an-analog-channel/).
+In the future, we would like to add support for analog analyzers. You can vote for this feature suggestion [here](https://ideas.saleae.com).
 

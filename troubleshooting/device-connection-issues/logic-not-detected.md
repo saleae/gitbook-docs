@@ -100,7 +100,7 @@ Example: You connect the device and then start the software. The software then s
 
 ## Contacting Support
 
-If the device is not connecting to the software successfully after following the above procedure, you will need to [contact support](https://contact.saleae.com/hc/en-us/requests/new).
+If the device is not connecting to the software successfully after following the above procedure, you will need to [contact support](/contact).
 
 Please provide the following information:
 

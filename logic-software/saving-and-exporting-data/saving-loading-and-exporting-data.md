@@ -30,7 +30,7 @@ You may want to backup your config file in case you wanted to backup all of the 
 
 ### Legacy Capture Files (.logicdata files)
 
-To manage and open legacy capture files that were generated using the older Logic 1.x software (in .logicdata file format), you will need a copy of the older Logic 1.x software installed on your PC. Currently, we don't have a way of importing these capture files into the Logic 2 app. We're currently tracking user need for this feature in the [idea post here](https://ideas.saleae.com/b/feature-requests/import-logicdata-capture/).
+To manage and open legacy capture files that were generated using the older Logic 1.x software (in .logicdata file format), you will need a copy of the older Logic 1.x software installed on your PC. Currently, we don't have a way of importing these capture files into the Logic 2 app. We're currently tracking user need for this feature in the [idea post here](https://ideas.saleae.com).
 
 For now, please refer to the support article below for more information on this topic.
 

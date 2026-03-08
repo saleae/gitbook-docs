@@ -10,7 +10,7 @@ Our software does not officially support ARM on Windows, however, a potential wo
 
 ## Raspberry Pi / Android Support
 
-Having said that, the Logic Software cannot run on Raspberry Pi or Android devices. It would be really cool and helpful for many. Hopefully, we will have the chance to do it. Currently, we are tracking this idea [here](https://ideas.saleae.com/b/feature-requests/provide-arm-builds-for-logic-2/). Feel free to comment/vote on it!
+Having said that, the Logic Software cannot run on Raspberry Pi or Android devices. It would be really cool and helpful for many. Hopefully, we will have the chance to do it. Currently, we are tracking this idea [here](https://ideas.saleae.com). Feel free to comment/vote on it!
 
 Specifically, several key things (at the minimum) need to happen before we can support these platforms. It is something we've thought a lot about, and there is a possibility that we will do it in the future, but for now, we can't spare the resources. It would make sense in the context of some larger plans we are considering. 
 

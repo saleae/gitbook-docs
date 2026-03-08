@@ -21,7 +21,7 @@ When contacting us from within the app, we will be interested in the following i
 
 #### Contact Us via our Contact Form
 
-If the software crashes prevent you from sending in your support request, please [contact us](https://contact.saleae.com/hc/en-us/requests/new) directly with the following information.
+If the software crashes prevent you from sending in your support request, please [contact us](/contact) directly with the following information.
 
 * The information requested above under the "Contact Us From Within the App" section
 * Your machine ID (instructions below)
@@ -85,7 +85,7 @@ On Linux:
 
 ### **Contacting Support**
 
-When [contacting support](https://contact.saleae.com/hc/en-us/requests/new), please include the following information.
+When [contacting support](/contact), please include the following information.
 
 * Results of the tests under 'Common Solutions' above
 * Saleae Logic software version (found in the software title bar)

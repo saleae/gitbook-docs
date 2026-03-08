@@ -19,7 +19,7 @@ The red LED blinking could be caused by several factors listed below.
 
 ### Contacting Support
 
-Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if the red LED continues to blink even after trying the tests above. Include the following information.
+Please [contact us](/contact) if the red LED continues to blink even after trying the tests above. Include the following information.
 
 * Let us know the results of the tests listed above.
 * How many times does the Red LED blink? Is it a consistent number? (The number of times the LED blinks refers to a certain error code)

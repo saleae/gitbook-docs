@@ -11,4 +11,4 @@ Logic is not a good fit for the following applications:
 * small voltages at high resolution (such as less than 100mVpp)
 * analog voltages outside the range of 0-5V (Logic 4, Logic 8) or -10V – 10V (Logic Pro 8, Logic Pro 16).
 
-Several users have requested that we add oscilloscope-like features, such as repeated triggers. You can vote and comment for the idea [here](https://ideas.saleae.com/b/feature-requests/repeated-trigger-capture/)!
+Several users have requested that we add oscilloscope-like features, such as repeated triggers. You can vote and comment for the idea [here](https://ideas.saleae.com)!

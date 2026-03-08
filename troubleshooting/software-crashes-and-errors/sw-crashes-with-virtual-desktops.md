@@ -4,4 +4,4 @@ Overall, that looks like a compatibility problem with QT5, the UI framework we u
 
 As a workaround, customers have reported that maximizing and restoring the window brings back software responsiveness and functionality.
 
-If you're not able to get the software working using the maximize and restore solution above, please [contact support](https://contact.saleae.com/hc/en-us/requests/new).
+If you're not able to get the software working using the maximize and restore solution above, please [contact support](/contact).

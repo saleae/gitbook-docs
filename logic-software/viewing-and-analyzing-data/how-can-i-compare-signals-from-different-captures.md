@@ -1,4 +1,4 @@
-Currently, the software does not contain specific features for comparing data between captures. You can comment on and vote for this in the [feature request post here](https://ideas.saleae.com/b/feature-requests/compare-two-captures/)!
+Currently, the software does not contain specific features for comparing data between captures. You can comment on and vote for this in the [feature request post here](https://ideas.saleae.com)!
 
 Currently, the best way to compare signals from two or more captures is as follows:
 

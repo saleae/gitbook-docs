@@ -1,4 +1,4 @@
-Want to **share an idea for a new feature**? Post your idea on our [Ideas Forum](https://ideas.saleae.com/b/feature-requests/)!
+Want to **share an idea for a new feature**? Post your idea on our [Ideas Forum](https://ideas.saleae.com)!
 
 You can share, vote, and comment on ideas there. This helps us prioritize our roadmap and gives us an idea of what features matter most to you.
 

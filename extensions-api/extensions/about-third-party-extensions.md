@@ -9,4 +9,4 @@ Before installing an extension, please keep in mind the following:
 
 ![Repository link from within the extension details](/support-assets/Screen%20Shot%202020-08-28%20at%205.12.28%20PM.png)
 
-If you have any problems with an extension, please be sure to create an issue on the extension’s GitHub repository. If you suspect an extension does not comply with the [Saleae Marketplace Partner Agreement](https://downloads.saleae.com/Saleae+Marketplace+Partner+Agreement.pdf), please [contact Saleae support](https://contact.saleae.com/hc/en-us/requests/new) or click on the "Report" button from within the extension details.
+If you have any problems with an extension, please be sure to create an issue on the extension’s GitHub repository. If you suspect an extension does not comply with the [Saleae Marketplace Partner Agreement](https://downloads.saleae.com/Saleae+Marketplace+Partner+Agreement.pdf), please [contact Saleae support](/contact) or click on the "Report" button from within the extension details.

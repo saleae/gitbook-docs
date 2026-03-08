@@ -19,4 +19,4 @@ Here are the correct VID and PID pairs for each products found in the Saleae dri
 
 Make sure you have selected the Logic device. You may want to remove it and reconnect it to verify that the entry correctly disappears and then comes back.
 
-If your device no longer identifies properly, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) about a replacement.
+If your device no longer identifies properly, please [contact support](/contact) about a replacement.

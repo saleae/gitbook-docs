@@ -7,7 +7,7 @@ To solve this issue, we recommend using the following version of the software.
 
 [Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
 
-In case you have any trouble with the solutions above, please [contact us](https://contact.saleae.com/hc/en-us/requests/new) and we can help towards a resolution.
+In case you have any trouble with the solutions above, please [contact us](/contact) and we can help towards a resolution.
 
 ### Background Information
 

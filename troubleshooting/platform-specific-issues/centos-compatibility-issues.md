@@ -9,7 +9,7 @@ In addition, we don't have the resources to significantly expand the operating s
 [Supported Operating Systems](/support/logic-software/download-and-installation/supported-operating-systems)
 
 To help us track interest in CentOS support, we would appreciate it if you add your votes and comments here:\
-[https://ideas.saleae.com/b/feature-requests/support-redhat-7-and-or-centos-7-linux](https://ideas.saleae.com/b/feature-requests/support-redhat-7-and-or-centos-7-linux)
+[https://ideas.saleae.com)
 
 ### CentOS 6 (Linux glibc Support)
 

@@ -4,7 +4,7 @@ You can click on the link below to submit a quote request form. Once submitted, 
 
 ### Quote Request Form Not Working?
 
-If the quote request form is somehow not working on your end, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) and send in the following information.
+If the quote request form is somehow not working on your end, please [contact support](/contact) and send in the following information.
 
 #### Information Required for Quote
 

@@ -8,7 +8,7 @@ Because of this, you may encounter issues when attempting to leave a capture run
 
 #### Contacting Support
 
-If you'd like to report any issues you run into while capturing data spanning several hours in length or more, please [contact us](https://contact.saleae.com/hc/en-us/requests/new) with the information below.
+If you'd like to report any issues you run into while capturing data spanning several hours in length or more, please [contact us](/contact) with the information below.
 
 * A description of the error you are running into, including any error messages.
 * Your capture settings (or perhaps share your Capture Preset file)

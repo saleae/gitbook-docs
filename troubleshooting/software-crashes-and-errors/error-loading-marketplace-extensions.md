@@ -31,4 +31,4 @@ In case whitelisting the above URLs doesn't solve this for you, you may need to 
 
 In some cases, the Logic 2 software itself needs to be authenticated with the network before it can make successful web requests, and unfortunately we don’t have a solution for that at the moment.
 
-If you are still unable to resolve this issue after following the above troubleshooting steps, please [contact us](https://contact.saleae.com/hc/en-us/requests/new).
+If you are still unable to resolve this issue after following the above troubleshooting steps, please [contact us](/contact).

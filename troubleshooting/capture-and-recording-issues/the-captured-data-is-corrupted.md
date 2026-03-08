@@ -8,4 +8,4 @@ We have seen issues in the past when using our Logic analyzers with **VIA USB Ho
 
 [Warning Message: Possible USB Host Controller Problem Detected](/support/troubleshooting/device-connection-issues/usb-driver-problem)
 
-If you don't own a VIA host controller, and are still seeing issues with corrupted capture data, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) and include the screenshot of your USB 3.0 Host Controller information, as well as screenshots and explanations of the corrupted captures.
+If you don't own a VIA host controller, and are still seeing issues with corrupted capture data, please [contact support](/contact) and include the screenshot of your USB 3.0 Host Controller information, as well as screenshots and explanations of the corrupted captures.

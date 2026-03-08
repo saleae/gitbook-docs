@@ -10,7 +10,7 @@ For a small number of users, this error is shown incorrectly. It is displayed ev
 
 If the title bar says "Connected" after closing this error message, the device and software are actually working normally.
 
-If the software still does not detect the connected device, then something is wrong. Check for other instances of Logic.exe and close them. Then remove and reconnect the device. If no other instances of Logic.exe are running, you may want to try restarting your computer and then [contact support](https://contact.saleae.com/hc/en-us/requests/new).
+If the software still does not detect the connected device, then something is wrong. Check for other instances of Logic.exe and close them. Then remove and reconnect the device. If no other instances of Logic.exe are running, you may want to try restarting your computer and then [contact support](/contact).
 
 ### Linux Error Message
 

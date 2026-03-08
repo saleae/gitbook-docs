@@ -12,7 +12,7 @@ We've highlighted some potential causes and solutions below.
 
 ### Unsupported Graphics Cards
 
-We've received reports of some graphics cards causing immediate crashes when launching the Logic 2 software. We're currently logging a list of graphics cards that have been reported to crash the app in the [forum post here](https://ideas.saleae.com/b/feature-requests/support-older-graphics-cards/). Based on the list of graphics cards we have gathered, it seems that graphics cards released more than 8 years ago has some issues with running our software, but we don't have conclusive evidence yet.
+We've received reports of some graphics cards causing immediate crashes when launching the Logic 2 software. We're currently logging a list of graphics cards that have been reported to crash the app in the [forum post here](https://ideas.saleae.com). Based on the list of graphics cards we have gathered, it seems that graphics cards released more than 8 years ago has some issues with running our software, but we don't have conclusive evidence yet.
 
 For now, if you feel your graphics card may be the culprit, you may try the troubleshooting steps in the support article below.
 
@@ -88,7 +88,7 @@ We package the Logic 2 software using AppImage, which depends on FUSE 2.x. Ubunt
 
 **9. Contacting Support**
 
-In case the solutions above don't help, please [contact us](https://contact.saleae.com/hc/en-us/requests/new) and send us the output of the commands generated from step 3 above.
+In case the solutions above don't help, please [contact us](/contact) and send us the output of the commands generated from step 3 above.
 
 ### Windows 10 Solutions
 

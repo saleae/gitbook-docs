@@ -1,4 +1,4 @@
-Logic Pro 8 & Logic Pro 16 can both be used with USB 2.0 or USB 3.0 ports. However, there are some restrictions when using them with USB 2.0 ports. In [Logic v2.x](https://ideas.saleae.com/f/changelog/), you will be prompted with the following message.
+Logic Pro 8 & Logic Pro 16 can both be used with USB 2.0 or USB 3.0 ports. However, there are some restrictions when using them with USB 2.0 ports. In [Logic v2.x](https://ideas.saleae.com/changelog/), you will be prompted with the following message.
 
 _Your Logic Pro is running as a USB 2.0 device. The sample rate will be limited and some channels might be disabled. Please verify that your USB cable and USB port support USB 3.0._
 

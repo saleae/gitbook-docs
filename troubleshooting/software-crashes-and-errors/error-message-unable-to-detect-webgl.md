@@ -1,5 +1,5 @@
 <div class="callout callout-info">
-We've received reports of Logic 2.3.41 and later versions having incompatibility issues with certain graphics cards released greater than 8 years ago, namely AMD Radeon graphics cards. We're monitoring a list of graphics cards with known incompatiliby issues with our app in the [forum post here](https://ideas.saleae.com/b/feature-requests/support-older-graphics-cards/).
+We've received reports of Logic 2.3.41 and later versions having incompatibility issues with certain graphics cards released greater than 8 years ago, namely AMD Radeon graphics cards. We're monitoring a list of graphics cards with known incompatiliby issues with our app in the [forum post here](https://ideas.saleae.com).
 </div>
 
 Upon launching the Logic 2 software, you may experience an immediate crash, or an error message may appear, stating either of the following:
@@ -35,17 +35,17 @@ Logic.exe --in-process-gpu
 
 ### Solution #3 - Try Logic 2.3.40
 
-You may want to try launching an older version of the Logic 2 app, specificall [Logic 2.3.40](https://ideas.saleae.com/f/changelog/2340/). As mentioned above, we've received reports of Logic 2.3.41 and later versions having incompatibility issues with certain graphics cards. We don't recommend using this version long term as it is now several versions outdated, but might reveal some clues depending on its behavior.
+You may want to try launching an older version of the Logic 2 app, specificall [Logic 2.3.40](https://ideas.saleae.com/changelog/2340/). As mentioned above, we've received reports of Logic 2.3.41 and later versions having incompatibility issues with certain graphics cards. We don't recommend using this version long term as it is now several versions outdated, but might reveal some clues depending on its behavior.
 
 ### Solution #4 - Try Logic 1.x
 
-If the above solutions fail, you may want to try our older Logic 1.x software downloadable below. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) as well and let us know the tests you have ran, as well as the information we ask for below about your PC. Similar to the previous solution, we don't recommend using this version long term as it is now several versions outdated, but might reveal some clues depending on its behavior.
+If the above solutions fail, you may want to try our older Logic 1.x software downloadable below. Please [contact us](/contact) as well and let us know the tests you have ran, as well as the information we ask for below about your PC. Similar to the previous solution, we don't recommend using this version long term as it is now several versions outdated, but might reveal some clues depending on its behavior.
 
 [Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
 
 ### Contacting Support
 
-When [contacting us](https://contact.saleae.com/hc/en-us/requests/new), please let us know the following information about your PC.
+When [contacting us](/contact), please let us know the following information about your PC.
 
 * Results of the Troubleshooting Steps listed above
 * PC make and model
@@ -55,7 +55,7 @@ When [contacting us](https://contact.saleae.com/hc/en-us/requests/new), please l
 * CPU
 * If Google Chrome can run properly, please go to `chrome://gpu` from within Chrome and send us the output
 * Results of the following tests ([WebGL v1](https://webglreport.com/?v=1) and [WebGL v2](https://webglreport.com/?v=2))
-* In case you can launch [Logic 2.3.40](https://ideas.saleae.com/f/changelog/2340/) successfully, please send us your machine ID. Instructions are linked below.
+* In case you can launch [Logic 2.3.40](https://ideas.saleae.com/changelog/2340/) successfully, please send us your machine ID. Instructions are linked below.
 
 [Getting your Machine ID](/support/troubleshooting/diagnostic-tools/sharing-your-machine-id)
 

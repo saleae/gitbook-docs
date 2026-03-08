@@ -1,4 +1,4 @@
-The following analyzers are not officially supported nor developed by Saleae, but instead, were kindly shared by our community of users. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you need any help. Also, If you have your own analyzer you would like to see featured here, let us know!
+The following analyzers are not officially supported nor developed by Saleae, but instead, were kindly shared by our community of users. Please [contact us](/contact) if you need any help. Also, If you have your own analyzer you would like to see featured here, let us know!
 
 ### **Community Shared Low Level Analyzers (LLAs)**
 

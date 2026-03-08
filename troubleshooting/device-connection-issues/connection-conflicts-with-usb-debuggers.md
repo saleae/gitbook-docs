@@ -16,5 +16,5 @@ Other USB debuggers and IDE software that have been reported to conflict with ou
 * Atmel-ICE
 * Atmel Studio
 
-We're currently tracking reports of this issue in the [idea forum post here](https://ideas.saleae.com/b/feature-requests/connection-conflicts-with-usb-debuggers/). Feel free to comment on the forum post if you're running into the same issue.
+We're currently tracking reports of this issue in the [idea forum post here](https://ideas.saleae.com). Feel free to comment on the forum post if you're running into the same issue.
 

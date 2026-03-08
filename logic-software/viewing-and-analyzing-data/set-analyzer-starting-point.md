@@ -26,5 +26,5 @@ We're looking into ways to improve the behavior of our analyzers with respect to
 
 If you have any feedback, feel free to let us know below!
 
-* [Ideas Forum](https://ideas.saleae.com/b/feature-requests/)
-* [Contact Us](https://contact.saleae.com/hc/en-us/requests/new)
+* [Ideas Forum](https://ideas.saleae.com)
+* [Contact Us](/contact)

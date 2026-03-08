@@ -24,7 +24,7 @@ This error message may appear during device operation, or upon connecting your L
 
 ### Contacting Support
 
-If the error message persists, please [contact us](https://contact.saleae.com/hc/en-us/requests/new) directly with the following information.
+If the error message persists, please [contact us](/contact) directly with the following information.
 
 1\. The results of the troubleshooting tests above.
 

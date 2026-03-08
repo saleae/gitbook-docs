@@ -86,4 +86,4 @@ Specifically, there is no calibration certificate. The devices do undergo a one-
 
 #### **Having Trouble?**
 
-If you are having trouble manually downloading the calibration file, we can send it to you. Please [contact support](https://contact.saleae.com/hc/en-us/requests/new), and we can make sure your calibration data gets updated.
+If you are having trouble manually downloading the calibration file, we can send it to you. Please [contact support](/contact), and we can make sure your calibration data gets updated.

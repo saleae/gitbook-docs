@@ -19,7 +19,7 @@ Although there may not be a workaround we can provide at the chip level, you can
 
 ### Contacting Support
 
-Although the behavior above is expected, please feel free to [contact us](https://contact.saleae.com/hc/en-us/requests/new) with the information below and we would be happy to look into a potential workaround for you.
+Although the behavior above is expected, please feel free to [contact us](/contact) with the information below and we would be happy to look into a potential workaround for you.
 
 1. The results of the troubleshooting steps listed above
 2. The make and model of your computer

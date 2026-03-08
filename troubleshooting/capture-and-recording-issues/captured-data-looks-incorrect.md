@@ -41,7 +41,7 @@ Please verify the following:
       If you are using any of the other devices (Logic16, Logic 4, Logic 8, Logic Pro 8, or Logic Pro 16), all inputs should be low.
 
       All analog channels should be approximately 0 volts, +/- 0.02 volts. If any of the signals are off by as much as 0.2 volts, that could mean a calibration problem. If any analog signal is off by more than 0.2 volts, it could indicate device failure.
-* Corrective Action: [Contact support](https://contact.saleae.com/hc/en-us/requests/new) about a warranty repair or replacement. 
+* Corrective Action: [Contact support](/contact) about a warranty repair or replacement. 
 
 **Perform a Basic Channel Functional Test**
 
@@ -56,7 +56,7 @@ Please verify the following:
       You can end the capture early if you finish before the capture completes. If you are unable to finish testing all the channels within the capture time, either repeat the process faster or extend the capture time.
 
       In the capture, verify that each channel is initially low (high in the case of the original Logic.) Verify that only one channel goes high at a time and that the channels go high in order from 0 to the last channel. Make sure that none of the high pulses are out of order, such as channel 2 going high before channel 1. Note that since the original Logic's inputs are pulled up internally and the test is performed with ground, the pulses in question should be low and not high. If the device used has analog channels, make sure the analog channels display the same behavior.
-* Corrective Action: Any issues in the recorded capture could indicate damaged input buffers, shorted channels, or other problems. If any results found are unexpected, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) about a warranty repair or replacement. 
+* Corrective Action: Any issues in the recorded capture could indicate damaged input buffers, shorted channels, or other problems. If any results found are unexpected, please [contact support](/contact) about a warranty repair or replacement. 
 
 **Verify That the Load Impedance of the Logic Analyzer Will Not Interfere with Your Circuit**
 
