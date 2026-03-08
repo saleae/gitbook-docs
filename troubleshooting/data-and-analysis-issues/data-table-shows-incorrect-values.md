@@ -8,19 +8,19 @@ The known issues with the data table are as follows. These are certainly things 
 
 In the image below, you will notice that the Async Serial decoded results above the waveform (unsigned values) do not match the values appearing in the data table (signed values). Our data table unfortunately doesn't have a schema to tell if a value is signed or unsigned. Everything in the way we handle data tables are all as signed values.
 
-![Data Table Values Appear as Signed](<../../.gitbook/assets/Screen Shot 2022-01-19 at 6.53.06 PM.png>)
+![Data Table Values Appear as Signed](/support-assets/Screen%20Shot%202022-01-19%20at%206.53.06%20PM.png)
 
 #### Decimal values appear as an array of values
 
 In the image below, you will notice that the values in the data table appear as a series of array values, rather than a single value that matches the decoded data above the waveform. This happens when the LLA (Async Serial analyzer in the example below) is configured for greater than 8 bits of data.
 
-![Data Table Values appear as an Array of Values](<../../.gitbook/assets/Screen Shot 2022-01-19 at 6.59.33 PM.png>)
+![Data Table Values appear as an Array of Values](/support-assets/Screen%20Shot%202022-01-19%20at%206.59.33%20PM.png)
 
 ### Workaround
 
 In the meantime (and since we don't have a native solution implemented), we have published a Marketplace Extension available from within the app called "Unsigned Integer Display."
 
-![Unsigned Integer Display Extension](../../.gitbook/assets/cb0225a3117bb898451fbedc7e3435cf8aefbd07.png)
+![Unsigned Integer Display Extension](/support-assets/cb0225a3117bb898451fbedc7e3435cf8aefbd07.png)
 
 Instructions to install and use extensions can be found in the links below.
 
@@ -30,7 +30,7 @@ Instructions to install and use extensions can be found in the links below.
 
 When the extension is used, new rows in the data table will be created which contain the values produced by the extension. In cases where the issues above are present, the extension will display the proper values. You may subsequently hide the results of the original LLA (in this case, the incorrect results of the Async Serial analyzer) so that only the correct results from the Unsigned Integer Display extension appear.
 
-![Unsigned Integer Display Extension Values in the Data Table](../../.gitbook/assets/16a4d5779cf2884a077909a0a00022bc72bc3e0b.png)
+![Unsigned Integer Display Extension Values in the Data Table](/support-assets/16a4d5779cf2884a077909a0a00022bc72bc3e0b.png)
 
 We apologize for the inconvenience this causes in the meantime.
 
@@ -41,7 +41,7 @@ We apologize for the inconvenience this causes in the meantime.
 <div class="callout callout-info">
 Unfortunately, the Decoded Protocols Panel, in addition to Protocol Search, is no longer available in the Legacy 1.x software due to technical issues. When attempting to enable it in v1.2.40, you will find our note below. Please upgrade to our newer [Logic 2 software](https://www.saleae.com/downloads/) if you need this functionality.
 
-<img src="../../.gitbook/assets/Screen Shot 2022-08-03 at 4.47.39 PM (1).png" alt="" data-size="original">
+<img src="/support-assets/Screen%20Shot%202022-08-03%20at%204.47.39%20PM%20(1).png" alt="" data-size="original">
 </div>
 
 If you are using the older Logic 1.x software, the following troubleshooting guide applies.

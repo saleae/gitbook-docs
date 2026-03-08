@@ -4,11 +4,11 @@ Asynchronous serial (often called simply "serial") generally refers to single-wi
 
 Async Serial data is sent with just one wire (not including ground). In most cases, there is one device that is the sender and one or more devices that listen.
 
-<figure><img src="../../.gitbook/assets/Topology.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/Topology.png" alt=""><figcaption></figcaption></figure>
 
 If communication needs to be two-way, then generally you need to add another wire for the other direction. These wires are often referred to as TX (outgoing transmission) and RX (receiving line) to convey their direction with respect to a particular device.
 
-<figure><img src="../../.gitbook/assets/Topology1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/Topology1.png" alt=""><figcaption></figcaption></figure>
 
 ### **Voltages**
 
@@ -32,11 +32,11 @@ When you talk about bit rates, you're really describing how long each bit has on
 
 Imagine you are putting bits on the bus, once every second. You use a stop watch. Every second, you decide the next bit to send and then move a switch to either on or off (1 or 0). It turns on (or off) a light in another room. Remember, the light may or may not change every bit. Maybe you need to send a lot of 1s in a row. For example:
 
-<figure><img src="../../.gitbook/assets/Rooms.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/Rooms.png" alt=""><figcaption></figcaption></figure>
 
 In the middle of each second (.5 seconds after the new bit is on the bus and .5 seconds before the next one), your friend writes down the value—1 if the light is on, 0 if the light is off.
 
-<figure><img src="../../.gitbook/assets/Rooms2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/Rooms2.png" alt=""><figcaption></figcaption></figure>
 
 ### **Ways your friend could get confused**
 
@@ -56,13 +56,13 @@ If we could come up with a way to resynchronize our clocks ever so often, we cou
 
 Well, you might point out, one great way to synchronize our clocks would be to reset them every single time the bit on the bus changes from a 0 to a 1, or a 1 to a 0. That is a great idea! Congrats if you already thought of it.
 
-<figure><img src="../../.gitbook/assets/Reset.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/Reset.png" alt=""><figcaption></figcaption></figure>
 
 ### **But What If the Sender Is Sending a LOT of 0s or a LOT of 1s?**
 
 If the sender sends a lot of 0s or a lot of 1s, then we wind up with the same problem. We don't have a chance to resynchronize our cheap clocks.
 
-<figure><img src="../../.gitbook/assets/Reset2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/Reset2.png" alt=""><figcaption></figcaption></figure>
 
 You might think that won't happen in real life or not very often, in any case. But remember, we need a solution that works in general for every situation.
 

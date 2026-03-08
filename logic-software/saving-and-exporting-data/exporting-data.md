@@ -2,21 +2,21 @@
 
 The Logic 2 software allows exporting of the entire Data Table, which can include entries from all of your added analyzers. To export the Data Table, click the 3 dots to the right of "Data," then click "Export Table."
 
-![Exporting the Data Table](../../.gitbook/assets/data-table-export.png)
+![Exporting the Data Table](/support-assets/data-table-export.png)
 
 ### Exporting Raw Data
 
 To export raw data from your capture, click the Options button at the bottom right of the software, then click "Export Raw Data."
 
-<figure><img src="../../.gitbook/assets/file-menu.png" alt="" width="563"><figcaption><p>Export Raw Data</p></figcaption></figure>
+<figure><img src="/support-assets/file-menu.png" alt="" width="563"><figcaption><p>Export Raw Data</p></figcaption></figure>
 
 You will be greeted with an "Export Raw Data" window. From here, you can select the channels you would like to include in your export, the analog downsample ratio (if analog channels are included), and the time range.
 
-![Export Raw Data Window - 1](../../.gitbook/assets/export1.png)
+![Export Raw Data Window - 1](/support-assets/export1.png)
 
 Scrolling down the "Export Raw Data" window reveals more options, including the desired Export Format, as well as the Export Location. An "Always Replace" option is also available to continuously overwrite your previous exported files in the specified Export Location.
 
-![Export Raw Data Window - 2](<../../.gitbook/assets/Screen Shot 2021-06-28 at 4.48.59 PM.png>)
+![Export Raw Data Window - 2](/support-assets/Screen%20Shot%202021-06-28%20at%204.48.59%20PM.png)
 
 #### Format of the Raw Data Export
 
@@ -24,13 +24,13 @@ Digital channel entries are only recorded in the export file when data changes. 
 
 Having said that, we always create a new entry on the final digital sample, meaning that the last 2 entries in your raw data export file will not include any data changes on the digital channels. This is because we want to help the user determine how much data was captured and exported down the last sample, even though there were no data changes.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-06-07 at 5.34.28 PM.png" alt=""><figcaption><p>Last sample in the capture will always be printed</p></figcaption></figure>
+<figure><img src="/support-assets/Screenshot%202023-06-07%20at%205.34.28%20PM.png" alt=""><figcaption><p>Last sample in the capture will always be printed</p></figcaption></figure>
 
 ### Exporting Analyzer Results
 
 To export your individual analyzer results, click the 3 dots next to the particular analyzer you'd like to export data for. Then click "Export to TXT/CSV." You will be greeted with an OS prompt to save your export file.
 
-![Exporting Analyzer Results](../../.gitbook/assets/export-analyzer.png)
+![Exporting Analyzer Results](/support-assets/export-analyzer.png)
 
 #### This Analyzer's Native Export is Not Supported in Logic 2 - Warning Popup
 

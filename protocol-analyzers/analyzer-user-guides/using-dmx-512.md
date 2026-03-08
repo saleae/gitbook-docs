@@ -6,7 +6,7 @@ To use the DMX-512 analyzer, first add it using the add analyzer menu on the rig
 
 In the analyzer settings, specify which input channel will be used for the serial data. You will also need to specify if the DMX-1986 4 μs MAB will be used.
 
-<figure><img src="../../.gitbook/assets/DMX-512 settings.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/DMX-512%20settings.png" alt=""><figcaption></figcaption></figure>
 
 Checking the "Accept DMX-1986 4us MAB" box will allow compatibility with legacy equipment that uses the DMX-512 original specification from 1986, which had a fixed 4 μs MAB. Most modern DMX-512 equipment will not need this setting checked, so we leave it unselected by default.
 

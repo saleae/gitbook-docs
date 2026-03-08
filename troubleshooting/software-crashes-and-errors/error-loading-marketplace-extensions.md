@@ -1,6 +1,6 @@
 When clicking on our Extensions button on the side panel, you may come across the error message, "Error loading Marketplace Extensions," like shown below.
 
-![Error loading Marketplace Extensions](<../../.gitbook/assets/Screen Shot 2022-03-03 at 5.55.21 PM.png>)
+![Error loading Marketplace Extensions](/support-assets/Screen%20Shot%202022-03-03%20at%205.55.21%20PM.png)
 
 This typically occurs on PCs that are behind a strict firewall or other security measure. Because of this, access to our Marketplace Extensions might be denied. You will most likely need to work with your IT department to resolve this, and we provide a list of actions they can take below.
 

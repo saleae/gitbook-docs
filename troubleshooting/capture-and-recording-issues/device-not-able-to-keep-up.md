@@ -1,6 +1,6 @@
 When attempting to capture data, you may encounter a ReadTimeout error message: `An error occurred during capture: ReadTimeout`
 
-![ReadTimeout Error Pop Up](../../.gitbook/assets/ReadTimeout.png)
+![ReadTimeout Error Pop Up](/support-assets/ReadTimeout.png)
 
 ### Why Does the Error Message Appear?
 
@@ -31,7 +31,7 @@ This may indicate a potentially different issue and could be caused by one of th
 
 * If a USB hub is required to use your Logic analyzer (for example, your PC only has USB-C ports and you require a USB-C hub), please try disabling USB selective suspend. An example in Windows is shown below via right clicking your USB hub in Device Manager and clicking Properties. Then navigate to the Power Management tab and you will find an options to "Allow the computer to turn off this device to save power." Uncheck this option.
 
-![Try disabling selective suspend for your USB hub](<../../.gitbook/assets/Screen Shot 2021-07-14 at 5.22.16 PM.png>)
+![Try disabling selective suspend for your USB hub](/support-assets/Screen%20Shot%202021-07-14%20at%205.22.16%20PM.png)
 
 ### **Contacting Support for Additional Help**
 
@@ -62,4 +62,4 @@ If you are using the older Logic 1.x software, the following error message will 
 
 `We're sorry, but the device was not able to keep up with this sample rate. If you continue to see this message, please contact Saleae technical support. Would you like to keep the data collected so far?`
 
-<figure><img src="../../.gitbook/assets/logic_cant_keep_up.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/logic_cant_keep_up.png" alt=""><figcaption></figcaption></figure>

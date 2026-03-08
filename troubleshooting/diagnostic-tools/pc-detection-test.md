@@ -16,7 +16,7 @@ Open Device Manager. Expand the section "Universal Serial Bus controllers" and c
 
 [Driver Install](../../logic-software/download-and-installation/driver-install.md)
 
-![Device Manager](../../.gitbook/assets/DeviceManagerBorder.png)
+![Device Manager](/support-assets/DeviceManagerBorder.png)
 
 ### **MacOS:** 
 
@@ -26,15 +26,15 @@ Next, open "System Report" by opening the Apple menu and selecting "About this M
 \
 **Please make sure the Logic Software is not running** running when checking this. Otherwise, the device will not appear with the relevant information we are looking for.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-03-10 at 3.19.52 PM.png" alt=""><figcaption><p>System Settings > About > General window</p></figcaption></figure>
+<figure><img src="/support-assets/Screenshot%202023-03-10%20at%203.19.52%20PM.png" alt=""><figcaption><p>System Settings > About > General window</p></figcaption></figure>
 
 On Intel-based Macbooks, a "Westbridge" device should be listed in the USB Device Tree like in the image below.
 
-![System Report on Intel-Based Macbooks](<../../.gitbook/assets/Screen Shot 2022-06-08 at 5.40.20 PM.png>)
+![System Report on Intel-Based Macbooks](/support-assets/Screen%20Shot%202022-06-08%20at%205.40.20%20PM.png)
 
 On Apple-silicon based Macbooks, a "Vender-Specific Device" should be listed in the USB Device Tree like in the image below.
 
-<figure><img src="../../.gitbook/assets/unnamed (2).png" alt=""><figcaption><p>System Report on Apple-Based Macbooks</p></figcaption></figure>
+<figure><img src="/support-assets/unnamed%20(2).png" alt=""><figcaption><p>System Report on Apple-Based Macbooks</p></figcaption></figure>
 
 ### **Linux (Ubuntu):** 
 
@@ -42,4 +42,4 @@ Run `lsusb` from the command line. Check for any device name containing "Saleae"
 
 [Device USB VID and PID Information](../device-connection-issues/the-devices-usb-vid-and-pid-failed.md)
 
-![Linux Terminal - lsusb](<../../.gitbook/assets/Screen Shot 2022-06-10 at 4.13.16 PM.png>)
+![Linux Terminal - lsusb](/support-assets/Screen%20Shot%202022-06-10%20at%204.13.16%20PM.png)

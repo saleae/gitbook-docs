@@ -10,4 +10,4 @@ The Atmel Single Wire Interface (SWI) is a special purpose interface primarily u
 
 **What Logic Decodes**
 
-<figure><img src="../../.gitbook/assets/SWI.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/SWI.png" alt=""><figcaption></figcaption></figure>

@@ -4,12 +4,12 @@ To begin, download and install the _Logic 2_ software from the [Logic 2 download
 
 Connect one or more cable harnesses to the Saleae Logic Analyzer. Note that each cable harness has an arrow on the top of the connector. This arrow should point up (same side as the Saleae logo) and to the left (the side with the ‘S’ in Saleae).
 
-![](<../.gitbook/assets/saleae_harness_2 (1) (1) (1) (1) (1) (1).jpg>)
+![](/support-assets/saleae_harness_2%20(1)%20(1)%20(1)%20(1)%20(1)%20(1).jpg)
 
 The unlabeled black wires are ground (GND), and the signal wires are labeled 0-7 (repeated if you have the Logic Pro 16). Looking straight at the ports of the analyzer, the top row of pins are labeled 0-7.
 
-![](<../.gitbook/assets/saleae_annotated_pins (1).png>)
+![](/support-assets/saleae_annotated_pins%20(1).png)
 
 Build your test circuit, connect at least one ground wire to your circuit's ground node, and connect one or more signal wires to the nodes you wish to measure. Note that all ground pins are shorted internally. Therefore, only one ground pin needs to be connected to your test circuit at a minimum.
 
-![](<../.gitbook/assets/saleae_example_circuit (1) (1) (1) (1).jpg>)
+![](/support-assets/saleae_example_circuit%20(1)%20(1)%20(1)%20(1).jpg)

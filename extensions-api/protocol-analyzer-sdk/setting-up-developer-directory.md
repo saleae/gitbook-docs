@@ -4,11 +4,11 @@ First, click the Settings button to open the Settings window.
 * On MacOS: Logic2 > Settings
 * On Ubuntu: Edit > Settings
 
-<figure><img src="../../.gitbook/assets/edit-settings.png" alt="" width="548"><figcaption><p>Settings Menu</p></figcaption></figure>
+<figure><img src="/support-assets/edit-settings.png" alt="" width="548"><figcaption><p>Settings Menu</p></figcaption></figure>
 
 Then, in the Settings window, scroll to the bottom until you reach the Custom Low Level Analyzers section.
 
-![Custom Low Level Analyzers Directory Location](<../../.gitbook/assets/Screen Shot 2021-04-05 at 3.26.38 PM.png>)
+![Custom Low Level Analyzers Directory Location](/support-assets/Screen%20Shot%202021-04-05%20at%203.26.38%20PM.png)
 
 Click the browse button to select the directory that contains your compiled custom protocol analyzer. Depending on your OS, your custom built analyer will be located in the folder below by default.
 

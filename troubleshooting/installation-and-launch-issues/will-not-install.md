@@ -2,7 +2,7 @@
 
 The error message upon installation is likely caused by a missing or mis-referenced uninstaller file location. Unfortunately, we're unsure of what exactly causes this error, however we've detailed a solution below.
 
-<figure><img src="../../.gitbook/assets/imageedit_4_3546198021.png" alt=""><figcaption><p>The Older Version of Logic Cannot be Removed</p></figcaption></figure>
+<figure><img src="/support-assets/imageedit_4_3546198021.png" alt=""><figcaption><p>The Older Version of Logic Cannot be Removed</p></figcaption></figure>
 
 Specifically, Microsoft has made available an [Install and Uninstall troubleshooter](https://support.microsoft.com/en-us/topic/fix-problems-that-block-programs-from-being-installed-or-removed-cca7d1b6-65a9-3d98-426b-e9f927e1eb4d) which might help. The troubleshooter should provide steps for you to follow, and you'll want to locate the our software from the list of available software to uninstall. Once you've uninstalled it via this method, you may attempt to re-install the latest version of our Logic software.
 
@@ -10,7 +10,7 @@ Specifically, Microsoft has made available an [Install and Uninstall troubleshoo
 
 In case you run into the issue below, please try installing the software the command line argument described below to generate a log file (replacing the "x"s with the particular version you are installing). 
 
-![Logic 2 Installer Error](<../../.gitbook/assets/image (5).png>)
+![Logic 2 Installer Error](/support-assets/image%20(5).png)
 
 For example, if your installer is located inside of your Downloads folder, you can run the following commands in Command Prompt.
 
@@ -54,7 +54,7 @@ We would be happy to chat with them directly as well! In this case, feel free to
 
 ### This Installation Package is Not Supported by this Processor Type
 
-<figure><img src="../../.gitbook/assets/imageedit_2_5116223340.png" alt=""><figcaption><p>Installation error on 32-bit Operating Systems</p></figcaption></figure>
+<figure><img src="/support-assets/imageedit_2_5116223340.png" alt=""><figcaption><p>Installation error on 32-bit Operating Systems</p></figcaption></figure>
 
 This error message during installation typically occurs when attempting to install the Logic 2 software on a 32-bit processor or operating system. Please note that 32-bit operating systems are not supported by Logic 2.x. For 32-bit support, please refer to Logic 1.x below.
 

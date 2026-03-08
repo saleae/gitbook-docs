@@ -10,7 +10,7 @@ To check the cost of shipping and taxes, follow the steps in the support article
 
 [Place an Online Order](./how-do-i-place-an-order.md)
 
-<figure><img src="../.gitbook/assets/Screen Shot 2022-10-12 at 1.35.16 PM.png" alt=""><figcaption><p>Shipping and Tax Charges during Checkout</p></figcaption></figure>
+<figure><img src="/support-assets/Screen%20Shot%202022-10-12%20at%201.35.16%20PM.png" alt=""><figcaption><p>Shipping and Tax Charges during Checkout</p></figcaption></figure>
 
 ### Availability
 
@@ -18,11 +18,11 @@ Stock status and ship date estimates can be found on [www.saleae.com](https://ww
 
 To check the stock status and lead time of a product, navigate to [www.saleae.com](https://www.saleae.com/), and click either the "Buy Logic Analyzers" button or the "Accessories" button at the top depending on the product you would like to check.
 
-<figure><img src="../.gitbook/assets/Screen Shot 2022-10-12 at 1.40.31 PM.png" alt=""><figcaption><p>Buy Logic Analyzers and Accessories Buttons</p></figcaption></figure>
+<figure><img src="/support-assets/Screen%20Shot%202022-10-12%20at%201.40.31%20PM.png" alt=""><figcaption><p>Buy Logic Analyzers and Accessories Buttons</p></figcaption></figure>
 
 For Logic analyzer products, click "Buy Logic Analyzers" at the top and select the product of interest. Afterwards, select the destination country at the bottom-right and you will find a note about its stock status and when it will ship.
 
-<figure><img src="../.gitbook/assets/Screen Shot 2022-10-12 at 1.43.50 PM.png" alt=""><figcaption><p>Stock status and estimated ship date</p></figcaption></figure>
+<figure><img src="/support-assets/Screen%20Shot%202022-10-12%20at%201.43.50%20PM.png" alt=""><figcaption><p>Stock status and estimated ship date</p></figcaption></figure>
 
 For Accessories, click "Accessories" at the top and select the accessory of interest. Afterwards, select the destination country at the bottom-right and you will find a note about its stock status and when it will ship, similar to the image above.
 

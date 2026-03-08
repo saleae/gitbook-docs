@@ -31,4 +31,4 @@ When capturing only analog channels, reducing the sampling rate will reduce the 
 
 When capturing both digital and analog channels in the same capture, the selection of the sampling rate combination **does not** change the USB bandwidth usage of Logic. In order to reduce Logic's USB bandwidth usage in this case, you will need to lower the Performance percentage setting. This will decrease speeds of the available sampling rate combinations, and therefore, also decreases the memory usage of captures.
 
-![Reducing USB bandwidth usage via Performance setting](../../.gitbook/assets/2018-10-09_1339.png)
+![Reducing USB bandwidth usage via Performance setting](/support-assets/2018-10-09_1339.png)

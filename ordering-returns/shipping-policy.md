@@ -24,7 +24,7 @@ After your order ships, you will receive a second email with a tracking number a
 
 For **online orders** placed at [www.saleae.com](https://www.saleae.com/), you can view the shipping origin at the bottom right of the cart page underneath the Checkout button, like shown in the example image below.
 
-<figure><img src="../.gitbook/assets/Screenshot 2025-01-29 at 2.53.16 PM.png" alt=""><figcaption><p>Shipping origin location</p></figcaption></figure>
+<figure><img src="/support-assets/Screenshot%202025-01-29%20at%202.53.16%20PM.png" alt=""><figcaption><p>Shipping origin location</p></figcaption></figure>
 
 The origin of the shipment is determined by the shipping country destination that is selected. Please note that you cannot select the currency, as this is automatically determined based on the destination country for the shipment.
 

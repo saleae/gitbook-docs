@@ -21,7 +21,7 @@ To check your hardware revision, you will need the latest version of the softwar
 2. Open the device info dialog
 3. Check the hardware revision
 
-![The Device Info dialog is opened from the capture settings sidebar menu](<../../.gitbook/assets/image (16).png>)
+![The Device Info dialog is opened from the capture settings sidebar menu](/support-assets/image%20(16).png)
 
-![The hardware revision is shown in the last line](<../../.gitbook/assets/image (23).png>)
+![The hardware revision is shown in the last line](/support-assets/image%20(23).png)
 

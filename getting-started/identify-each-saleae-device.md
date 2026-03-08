@@ -36,28 +36,28 @@ A complete list of product numbers and names, including accessories, can be foun
 
 **Logic 4**
 
-<figure><img src="../.gitbook/assets/Logic4.jpeg" alt="" width="375"><figcaption><p>Logic 4</p></figcaption></figure>
+<figure><img src="/support-assets/Logic4.jpeg" alt="" width="375"><figcaption><p>Logic 4</p></figcaption></figure>
 
 **Logic 8**
 
 _Note: The bottom of the device will read either "Logic 8" or "Logic Pro 8" to differentiate between the two models._
 
-<figure><img src="../.gitbook/assets/SAL-00111 (1).jpg" alt="" width="375"><figcaption><p>Logic 8</p></figcaption></figure>
+<figure><img src="/support-assets/SAL-00111%20(1).jpg" alt="" width="375"><figcaption><p>Logic 8</p></figcaption></figure>
 
 **Logic Pro 8**
 
 _Note: The bottom of the device will read either "Logic 8" or "Logic Pro 8" to differentiate between the two models._
 
-<figure><img src="../.gitbook/assets/SAL-00111 (2).jpg" alt="" width="375"><figcaption><p>Logic Pro 8</p></figcaption></figure>
+<figure><img src="/support-assets/SAL-00111%20(2).jpg" alt="" width="375"><figcaption><p>Logic Pro 8</p></figcaption></figure>
 
 **Logic Pro 16**
 
-<figure><img src="../.gitbook/assets/SAL-00115.jpg" alt="" width="375"><figcaption><p>Logic Pro 16</p></figcaption></figure>
+<figure><img src="/support-assets/SAL-00115.jpg" alt="" width="375"><figcaption><p>Logic Pro 16</p></figcaption></figure>
 
 **Original Logic**
 
-<figure><img src="../.gitbook/assets/OLogic.jpeg" alt="" width="375"><figcaption><p>Original Logic</p></figcaption></figure>
+<figure><img src="/support-assets/OLogic.jpeg" alt="" width="375"><figcaption><p>Original Logic</p></figcaption></figure>
 
 **Logic16**
 
-<figure><img src="../.gitbook/assets/Logic16.jpeg" alt="" width="375"><figcaption><p>Logic16</p></figcaption></figure>
+<figure><img src="/support-assets/Logic16.jpeg" alt="" width="375"><figcaption><p>Logic16</p></figcaption></figure>

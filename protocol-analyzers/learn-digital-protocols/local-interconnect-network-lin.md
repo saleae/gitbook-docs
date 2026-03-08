@@ -15,7 +15,7 @@ LIN (Local Interconnect Network) is used for communication between components in
 
 **What Logic Decodes**
 
-<figure><img src="../../.gitbook/assets/LIN.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/LIN.png" alt=""><figcaption></figcaption></figure>
 
 * Break
 * Sync

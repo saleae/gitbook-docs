@@ -2,7 +2,7 @@
 
 Starting Logic 2.4.8, we now provide an Apple silicon build of our software [downloadable here](https://www.saleae.com/downloads/)!
 
-<figure><img src="../../.gitbook/assets/Screenshot 2023-07-11 at 4.46.33 PM.png" alt=""><figcaption><p>Download for Apple Silicon</p></figcaption></figure>
+<figure><img src="/support-assets/Screenshot%202023-07-11%20at%204.46.33%20PM.png" alt=""><figcaption><p>Download for Apple Silicon</p></figcaption></figure>
 
 ## Windows ARM Support
 

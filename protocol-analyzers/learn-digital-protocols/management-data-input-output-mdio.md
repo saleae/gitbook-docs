@@ -12,7 +12,7 @@ MDIO is a two-wire serial used to read and write the contents of registers in a 
 
 **What Logic Decodes**
 
-<figure><img src="../../.gitbook/assets/MDIO.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/MDIO.png" alt=""><figcaption></figcaption></figure>
 
 * Start of Frame
 * OP Code

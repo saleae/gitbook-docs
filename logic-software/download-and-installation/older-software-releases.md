@@ -6,7 +6,7 @@ Starting October of 2022, Saleae has released a new hardware revision of our Log
 
 ## Logic 1.2.40
 
-![](<../../.gitbook/assets/Screen Shot 2022-03-10 at 8.21.14 PM.png>)
+![](/support-assets/Screen%20Shot%202022-03-10%20at%208.21.14%20PM.png)
 
 ### 1.2.**40** Download Links
 
@@ -44,7 +44,7 @@ or
 
 Unfortunately, the Decoded Protocols Panel, in addition to Protocol Search, is no longer available in 1.2.40 due to technical issues. When attempting to enable it in 1.2.40, you will find our note about it in the screenshot below. Please upgrade to our newer [Logic 2 software](https://www.saleae.com/downloads/) if you need this functionality.
 
-![Decoded Protocol Search is no longer availble in 1.2.40](<../../.gitbook/assets/Screen Shot 2022-08-03 at 4.47.39 PM (1).png>)
+![Decoded Protocol Search is no longer availble in 1.2.40](/support-assets/Screen%20Shot%202022-08-03%20at%204.47.39%20PM%20(1).png)
 
 ## Older Versions of Logic 1.x
 
@@ -84,7 +84,7 @@ Windows 64-Bit Standalone\
 
 When launching 1.2.29, you may see an "Unsupported Version" notice like shown below.
 
-![Unsupported Version warning message in Logic 1.x](<../../.gitbook/assets/Screen Shot 2020-08-03 at 5.35.31 PM.png>)
+![Unsupported Version warning message in Logic 1.x](/support-assets/Screen%20Shot%202020-08-03%20at%205.35.31%20PM.png)
 
 If you see this notice, please start the software using the instructions in the support article below.
 

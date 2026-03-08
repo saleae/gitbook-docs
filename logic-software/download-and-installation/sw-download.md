@@ -1,6 +1,6 @@
 ## Logic 2 Software
 
-![Logic 2 Software](<../../.gitbook/assets/Screen Shot 2021-12-07 at 12.10.01 PM.png>)
+![Logic 2 Software](/support-assets/Screen%20Shot%202021-12-07%20at%2012.10.01%20PM.png)
 
 ### Download & Installation
 

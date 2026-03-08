@@ -46,7 +46,7 @@ Set the maximum transfer size to about 60 URBs worth, 1&#x36;_&#x31;02&#x34;_&#x
 
 To do so, open the preferences dialog from the main options menu and navigate to the developer tab. Check the box to limit the max transfer size and then enter the new maximum transfer size in bytes.
 
-<figure><img src="../../.gitbook/assets/set_transfer_size.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/set_transfer_size.png" alt=""><figcaption></figcaption></figure>
 
 Then perform a series of test captures at different sample rates, digital only. Please test a good spread between 1 channel at 1 MSPS to all 4 channels at 500 MSPS. Make sure to include testing 1 channel at 500 MSPS, then 2 channels, and then 3 channels.
 

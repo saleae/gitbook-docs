@@ -2,7 +2,7 @@ When capturing multiple channels of data, you might notice some amount of crosst
 
 In the example image below, Channel 0 is recording a high speed signal, while Channel 1 is connected to the DUT Ground. You would expect Channel 1 to show a flat line to indicate ground, but due to crosstalk, this is not the case.
 
-![Crosstalk occurring between Channel 0 and Channel 1](../../.gitbook/assets/2018-11-08_1541.png)
+![Crosstalk occurring between Channel 0 and Channel 1](/support-assets/2018-11-08_1541.png)
 
 ### Determine the Crosstalk Sources
 

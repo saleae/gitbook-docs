@@ -34,4 +34,4 @@ An alternative approach (much faster and produces a smaller file) would be to ex
 
 [Binary Export Format - Version 0](../../logic-software/saving-and-exporting-data/binary-export-format-logic-2.md)
 
-![Exporting to a Binary File](<../../.gitbook/assets/Screen Shot 2021-04-12 at 6.30.44 PM.png>)
+![Exporting to a Binary File](/support-assets/Screen%20Shot%202021-04-12%20at%206.30.44%20PM.png)

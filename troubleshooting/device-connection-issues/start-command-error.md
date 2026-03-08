@@ -1,6 +1,6 @@
 In the Logic 2 software, you may encounter a _StartCommandError_ message when starting a capture like shown below.
 
-![StartCommandError Message](<../../.gitbook/assets/Screen Shot 2020-10-06 at 5.04.34 PM.png>)
+![StartCommandError Message](/support-assets/Screen%20Shot%202020-10-06%20at%205.04.34%20PM.png)
 
 ### Known Solutions
 

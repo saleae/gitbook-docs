@@ -1,6 +1,6 @@
 A glitch in data is usually identified by a relatively tiny, and unintentional, pulse in voltage as shown below. This can occur due to radiated noise caused by nearby electronics, noise in the circuit itself, extremely slow rise/fall times in the digital data, poor PCB layout, and many other reasons.
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Glitch in the SCL signal</p></figcaption></figure>
+<figure><img src="/support-assets/image.png" alt=""><figcaption><p>Glitch in the SCL signal</p></figcaption></figure>
 
 ### The Software Glitch Filter to the Rescue
 

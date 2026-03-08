@@ -28,7 +28,7 @@ This is a particular concern when taking a capture with a trigger that does not 
 
 During the capture, press the "More Detail" link on the capture progress dialog. This will show the state of the capture and processing backlog.
 
-<figure><img src="../../.gitbook/assets/backlog (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/backlog%20(1).png" alt=""><figcaption></figcaption></figure>
 
 * "Waiting for trigger..." indicates that the software has not yet detected the trigger condition. Once the trigger has been detected, the dialog information changes.
 * Digital Samples Collected: This is the total number of digital samples that have been recorded by the device since the start of the capture.

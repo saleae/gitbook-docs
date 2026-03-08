@@ -13,7 +13,7 @@ DMX512 (Digital MultipleX) is a protocol used to control lighting and special ef
 
 **What Logic Decodes**
 
-<figure><img src="../../.gitbook/assets/DMX.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/DMX.png" alt=""><figcaption></figcaption></figure>
 
 * Break Condition
 * Mark-After-Break

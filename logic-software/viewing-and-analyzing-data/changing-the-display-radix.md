@@ -7,10 +7,10 @@ Just about every part of the software that displays a number can display it in a
 
 The display radix can be changed for each individual analyzer added to your capture by clicking the three dots to the right of your analyzer as shown below.
 
-![Setting the Display Radix for an Individual Analyzer](../../.gitbook/assets/radix.png)
+![Setting the Display Radix for an Individual Analyzer](/support-assets/radix.png)
 
 You can also change the display radix by right-clicking on a protocol result above the waveform like in the image below.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2025-08-11 at 4.27.08 PM.png" alt=""><figcaption><p>Rick-clicking an analyzer result to change the display radix</p></figcaption></figure>
+<figure><img src="/support-assets/Screenshot%202025-08-11%20at%204.27.08%20PM.png" alt=""><figcaption><p>Rick-clicking an analyzer result to change the display radix</p></figcaption></figure>
 
 Note that some numbers, such as indexes, might not change radix. This is the case for the DMX-512 analyzer and several other analyzers that use indexes.

@@ -22,7 +22,7 @@ In addition to the hardware AA filter, there is a digital-analog filter that eng
 
     The analog input will show a 5 MHz sine wave.
 
-    <div align="left"><figure><img src="../../.gitbook/assets/5_MHz (1).png" alt=""><figcaption></figcaption></figure></div>
+    <div align="left"><figure><img src="/support-assets/5_MHz%20(1).png" alt=""><figcaption></figcaption></figure></div>
 
 
 
@@ -38,7 +38,7 @@ In addition to the hardware AA filter, there is a digital-analog filter that eng
 
     The peak-to-peak amplitude will be attenuated by the 5 MHz AA filter.
 
-    <div align="left"><figure><img src="../../.gitbook/assets/10_MHz (2).png" alt=""><figcaption></figcaption></figure></div>
+    <div align="left"><figure><img src="/support-assets/10_MHz%20(2).png" alt=""><figcaption></figcaption></figure></div>
 
 
 
@@ -54,7 +54,7 @@ In addition to the hardware AA filter, there is a digital-analog filter that eng
 
     Zoomed in, the analog data points will form a highly attenuated 15 MHz sine wave.
 
-    <div align="left"><figure><img src="../../.gitbook/assets/15_MHz.png" alt=""><figcaption></figcaption></figure></div>
+    <div align="left"><figure><img src="/support-assets/15_MHz.png" alt=""><figcaption></figcaption></figure></div>
 
 
 

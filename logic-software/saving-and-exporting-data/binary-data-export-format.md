@@ -26,9 +26,9 @@ The first entry will always be the first sample in the export range and will con
 
 The following Export Format and Binary Settings will produce a binary data export file as shown below.
 
-![](../../.gitbook/assets/2019-06-27_1936.png)
+![](/support-assets/2019-06-27_1936.png)
 
-![](../../.gitbook/assets/2019-06-27_1947.png)
+![](/support-assets/2019-06-27_1947.png)
 
 ### What About Analog Data? 
 

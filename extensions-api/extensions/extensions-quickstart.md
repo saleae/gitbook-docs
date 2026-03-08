@@ -4,18 +4,18 @@ In this guide, we will walk your through creating an HLA (High Level Analyzer) e
 
 1. Click the 'Extensions' panel button on the right of the software
 
-![](<../../.gitbook/assets/Screen Shot 2020-05-21 at 3.50.11 PM.png>)
+![](/support-assets/Screen%20Shot%202020-05-21%20at%203.50.11%20PM.png)
 
 2\. Click 'Create Extension'\
 3\. Under 'Generate from template', choose the type of extension you would like to create. For this example, we will create a High Level Analyzer.\
 4\. _**(Optional)**_ Click 'Additional Information' to fill in information about your extension.
 
-<div align="center"><img src="../../.gitbook/assets/Screen Shot 2020-06-10 at 8.29.50 PM.png" alt=""></div>
+<div align="center"><img src="/support-assets/Screen%20Shot%202020-06-10%20at%208.29.50%20PM.png" alt=""></div>
 
 5\. Click 'Save As...' to save and select your location.\
 6\. You should now see your new extension listed as 'Local' in the software.
 
-<div align="center"><img src="../../.gitbook/assets/Screen Shot 2020-06-10 at 8.29.13 PM.png" alt=""></div>
+<div align="center"><img src="/support-assets/Screen%20Shot%202020-06-10%20at%208.29.13%20PM.png" alt=""></div>
 
 ## Using a High Level Analyzer Extension
 
@@ -25,11 +25,11 @@ In this guide, we will walk your through creating an HLA (High Level Analyzer) e
 
 2\. Click the Analyzers '+' button to add our Sample HLA. 
 
-<div align="center"><img src="../../.gitbook/assets/Screen Shot 2020-06-10 at 8.28.18 PM.png" alt=""></div>
+<div align="center"><img src="/support-assets/Screen%20Shot%202020-06-10%20at%208.28.18%20PM.png" alt=""></div>
 
 3\. In the settings popup, select 'I2C' under Input Analyzer. For the rest of the settings, you can leave them as default and click 'Finish'. Once you add the HLA, you can see it as a virtual channel as shown in the image below.
 
-<div align="center"><img src="../../.gitbook/assets/Screen Shot 2020-06-10 at 8.24.29 PM.png" alt=""></div>
+<div align="center"><img src="/support-assets/Screen%20Shot%202020-06-10%20at%208.24.29%20PM.png" alt=""></div>
 
 ### Customize your High Level Analyzer
 
@@ -41,11 +41,11 @@ Check out our [High Level Analyzer](high-level-analyzer-extensions.md) article t
 
 The software currently has a few built-in measurements already installed and ready to use. The gif below demonstrates how to use them. You can also hold the shift key while dragging across your recorded data to add a measurement without using the sidebar. The use of measurement extensions allows additional custom measurements to be made. 
 
-![Logic 2 measurements](../../.gitbook/assets/use_measurement.gif)
+![Logic 2 measurements](/support-assets/use_measurement.gif)
 
 To see your new measurement in action, take a capture of digital data and add a measurement to it as shown above. You should see the new measurements:
 
-![Measurement metrics](<../../.gitbook/assets/Screen Shot 2020-05-27 at 7.19.26 PM.png>)
+![Measurement metrics](/support-assets/Screen%20Shot%202020-05-27%20at%207.19.26%20PM.png)
 
 ### Customize your Measurement <a href="#customize-your-high-level-analyzer" id="customize-your-high-level-analyzer"></a>
 

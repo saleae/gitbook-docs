@@ -39,4 +39,4 @@ If the software still does not launch after trying the troubleshooting steps, pl
 
 Example:
 
-<figure><img src="../../.gitbook/assets/all_msvcs.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/all_msvcs.png" alt=""><figcaption></figcaption></figure>

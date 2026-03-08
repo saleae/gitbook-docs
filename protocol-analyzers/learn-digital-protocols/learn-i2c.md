@@ -2,11 +2,11 @@ I2C is a very common communication protocol typically used by microcontrollers t
 
 ### **Topology**
 
-<figure><img src="../../.gitbook/assets/Topology (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/Topology%20(1).png" alt=""><figcaption></figcaption></figure>
 
 I2C uses just two wires: a data line called SDA and a clock line called SCL. Even as you add more devices to the bus, there are still only two wires.
 
-<figure><img src="../../.gitbook/assets/Topology2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/Topology2.png" alt=""><figcaption></figcaption></figure>
 
 Both I2C lines are open-drain and are pulled up with a resistor. To put a 1 on the wire, you change your output to high-z. To put a 0 on the wire, pull it low.
 
@@ -22,7 +22,7 @@ With synchronous serial in general (including SPI), the data line is allowed to 
 
 During normal data transfer, the data line may only change when the clock is low.
 
-<figure><img src="../../.gitbook/assets/Sync.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/Sync.png" alt=""><figcaption></figcaption></figure>
 
 Since changing the data line when the clock is high is not allowed during normal data transfer, I2C "reserves" this case and uses it to signal a synchronization event.
 
@@ -32,11 +32,11 @@ There are two ways the data line can change while the clock is high. It can tran
 
 * A START event occurs when the CLK (clock) is high and SDA (data line) falls (1 to 0).
 
-<figure><img src="../../.gitbook/assets/Start.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/Start.png" alt=""><figcaption></figcaption></figure>
 
 * A STOP event occurs when the CLK (clock) is high and SDA (data line) rises (0 to 1).
 
-<figure><img src="../../.gitbook/assets/Stop.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/Stop.png" alt=""><figcaption></figcaption></figure>
 
 ### **Selecting a Slave to Talk To – Without Enable Lines**
 
@@ -52,7 +52,7 @@ In I2C, addresses are 7-bits long.
 
 As long as SDA (data) does not change when CLK (clock) is high, data can be sent on the bus. CLK will go low, SDA will change to a 1 or 0 if it needs to, and then the clock will go high. In I2C, a clock rising edge means that the data line is valid.
 
-<figure><img src="../../.gitbook/assets/Write.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/Write.png" alt=""><figcaption></figcaption></figure>
 
 CLK then goes low again, and the process repeats. During the time that SCK is high, SDA should not change unless the master is trying to signal START or STOP.
 
@@ -64,13 +64,13 @@ Bits are written with the most significant bit first.
 
 When the bus is idle, no one is pulling either line low. They are both pulled up.
 
-<figure><img src="../../.gitbook/assets/Idle.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/Idle.png" alt=""><figcaption></figcaption></figure>
 
 **Start Event**
 
 The master pulls the SDA (data) line low. Since the CLK is still high, this special situation is recognized by anyone listening as a START event. The START event means "listen up in case your name is called."
 
-<figure><img src="../../.gitbook/assets/Stop (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/Stop%20(1).png" alt=""><figcaption></figcaption></figure>
 
 **Address, Read/Write Bit**
 
@@ -80,7 +80,7 @@ The master pulls the clock line low, changes (if required) the data line, and br
 
 The 8th bit is the direction bit. If this bit is a 0, it means this: Hey, device, I'm going to write some data to you. If it is a 1, it means this: Hey, device, please send me some data.
 
-<figure><img src="../../.gitbook/assets/ReadWrite.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/ReadWrite.png" alt=""><figcaption></figcaption></figure>
 
 **Acknowledge**
 
@@ -100,7 +100,7 @@ Data is sent one byte (8 bits) at a time, MSB first. If writing data to the devi
 
 Each byte sent or received is followed by a NAK (leaving the data line high) or ACK (pulling the data line low) by the slave. This acknowledgment bit is the 9th bit.
 
-<figure><img src="../../.gitbook/assets/Byte.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/Byte.png" alt=""><figcaption></figcaption></figure>
 
 In the image above, we send (or receive) the 0b 10101010, followed by an acknowledge.
 
@@ -175,7 +175,7 @@ Often, datasheets will refer to the slave's address as an 8-bit number, which in
 
 Not surprisingly, there is some disagreement as to how the address and direction should be displayed. Therefore, the Saleae I2C analyzer has the following display options:
 
-<figure><img src="../../.gitbook/assets/Address.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/Address.png" alt=""><figcaption></figcaption></figure>
 
 **Reference**
 

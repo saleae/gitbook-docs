@@ -4,7 +4,7 @@ Normally, when the Logic software is installed, the product should simply work w
 
 A common issue in Windows is that the Saleae Logic may show up as a _WestBridge_ or _unidentified_ device in device manager. If this is the case, then there is a problem with the Saleae driver. Please install the driver per the methods listed in this support article.
 
-![Saleae Logic showing up as a WestBridge device](<../../.gitbook/assets/Screen Shot 2020-09-10 at 4.26.44 PM.png>)
+![Saleae Logic showing up as a WestBridge device](/support-assets/Screen%20Shot%202020-09-10%20at%204.26.44%20PM.png)
 
 If the drivers are installed properly, you should see _Saleae Logic X USB Logic Analyzer_ in Device Manager, where "X" is the specific product version (4, 8, Pro 8, Pro 16).
 
@@ -34,7 +34,7 @@ Select the second option for "Browse my computer for driver software."
 
 Use the Browse button to direct the driver wizard to the Drivers folder, which is detailed above under the section titled _Location of Driver Files._
 
-![New Hardware Wizard Installation - Browse to Driver Location](../../.gitbook/assets/imageedit_2_2912895661.png)
+![New Hardware Wizard Installation - Browse to Driver Location](/support-assets/imageedit_2_2912895661.png)
 
 Click Next. If this fails, continue below.
 
@@ -44,7 +44,7 @@ Open the Device Manager. Right-click the Logic device and select Update Driver. 
 
 Click "Let me pick from a list of device drivers on my computer."
 
-![Let me pick from a list of device drivers on my computer](../../.gitbook/assets/imageedit_4_6385420720.png)
+![Let me pick from a list of device drivers on my computer](/support-assets/imageedit_4_6385420720.png)
 
 Next, it will ask you for the device type. Select "Universal Serial Bus Controllers."
 
@@ -52,17 +52,17 @@ This option is only present if no existing driver is installed. If a driver is a
 
 Now you will be presented with a window like shown below. Click the "Have Disk..." button.
 
-![Click "Have Disk..."](../../.gitbook/assets/imageedit_6_7102237241.png)
+![Click "Have Disk..."](/support-assets/imageedit_6_7102237241.png)
 
 This will open the install from the disk window, which will assume that you have inserted an installation disk into drive A with the drivers. Click browse, navigate to the drivers folder, which is detailed above under the section titled _Location of Driver Files_, and select `Saleae.inf`.
 
-![Install From Disk - Click Browse](<../../.gitbook/assets/Screen Shot 2022-03-15 at 12.54.29 PM.png>)
+![Install From Disk - Click Browse](/support-assets/Screen%20Shot%202022-03-15%20at%2012.54.29%20PM.png)
 
 At this point, you should see either just the device you have connected or both Logic and Logic16. See below for details before selecting the device you are using.
 
 If the checkbox for "Show compatible hardware" is checked, only 1 device should be shown. If it is not the correct device, then uncheck it to see all available Saleae drivers, as shown below.
 
-![Uncheck "Show compatible hardware" to list all Logic models](../../.gitbook/assets/imageedit_8_8349875656.png)
+![Uncheck "Show compatible hardware" to list all Logic models](/support-assets/imageedit_8_8349875656.png)
 
 These are all of the drivers that are included with the latest beta software, which you should see in the list when the checkbox for "Show compatible hardware" is not selected.
 
@@ -119,7 +119,7 @@ If at the end of this process you still get an error, please [contact support](h
 
 When the Logic 2 software is opened, a udev rule file is checked. If the udev rule is missing, then an error message will popup to prompt you to install the proper udev rule file. The good news is that, if you see this popup, then our software was able to detect the device. Follow the instructions to open the terminal and run the command to install the udev file.
 
-![](<../../.gitbook/assets/Screen Shot 2020-10-22 at 2.48.48 PM.png>)
+![](/support-assets/Screen%20Shot%202020-10-22%20at%202.48.48%20PM.png)
 
 Instructions: 
 

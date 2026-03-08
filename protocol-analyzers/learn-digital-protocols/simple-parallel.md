@@ -10,7 +10,7 @@ Generally speaking, a parallel bus has multiple data lines and a single clock li
 
 **What Logic Decodes**
 
-<figure><img src="../../.gitbook/assets/Simple-Parallel-Example.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/Simple-Parallel-Example.png" alt=""><figcaption></figcaption></figure>
 
 * Rising edge or falling edge of clock
 * One to eight data lines

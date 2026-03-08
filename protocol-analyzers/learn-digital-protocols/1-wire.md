@@ -17,7 +17,7 @@ As the name implies, 1-Wire has only one wire. The wire provides both power and 
 
 **What Logic Decodes**
 
-<figure><img src="../../.gitbook/assets/1wire.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/1wire.png" alt=""><figcaption></figcaption></figure>
 
 * 1-Wire Reset
 * Presence Pulse

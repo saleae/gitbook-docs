@@ -4,13 +4,13 @@ There are several reasons why channels may be missing in the Logic software. Ple
 
 The appropriate channels should be properly highlighted in the Logic capture settings as shown below.
 
-![Enable channels under Logic's capture settings](../../.gitbook/assets/2018-10-09_1353.png)
+![Enable channels under Logic's capture settings](/support-assets/2018-10-09_1353.png)
 
 #### Show All Channels
 
 Sometimes, channels may be hidden from view even if they are enabled under Logic's capture settings. In this case, simply click the gear icon under any of the visible channels, and click _Show All Channels_.
 
-![Show all channels setting](../../.gitbook/assets/2018-10-09_1359.png)
+![Show all channels setting](/support-assets/2018-10-09_1359.png)
 
 #### Ensure the Proper USB Port is Used
 

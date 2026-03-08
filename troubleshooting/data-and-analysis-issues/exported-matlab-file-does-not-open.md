@@ -8,7 +8,7 @@ Typically, this means the exported file contains too many elements for MATLAB to
 \
 One solution is to export the capture into multiple, smaller MATLAB files. Click 'Options' -> 'Export Data' to bring up the Data Export window. Set the 'Starting Time' and 'Ending Time' values such that you make the MATLAB export smaller than 100,000,000 in the array.
 
-![](../../.gitbook/assets/2018-10-23_1302.png)
+![](/support-assets/2018-10-23_1302.png)
 
 For details on the exported format of MATLAB files, see the article below.
 

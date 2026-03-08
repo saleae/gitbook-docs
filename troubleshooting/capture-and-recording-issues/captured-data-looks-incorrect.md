@@ -23,7 +23,7 @@ If the software is able to capture data, but the captured data looks random or c
 
 Even with the Logic hardware inputs disconnected, the analog capture may look like the image below. The solution is to simply download the [latest version of Logic software](https://www.saleae.com/downloads/). We made some incremental changes to the Logic hardware (no new functionality) that makes it incompatible with Logic software versions prior to 1.2.15.
 
-![](../../.gitbook/assets/2018-09-19_1124.png)
+![](/support-assets/2018-09-19_1124.png)
 
 **Check the Ground Connection**
 

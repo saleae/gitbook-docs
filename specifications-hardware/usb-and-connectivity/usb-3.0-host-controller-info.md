@@ -4,11 +4,11 @@ Our support team may request for your USB host controller information in cases w
 2. Open device manager
 3. Expand the section "Universal Serial bus controllers" and locate any & all USB 3.0 host controllers you find there. For each one, please double click to open the properties window, go to the driver tab, and send us screenshots as shown below.
 
-![Finding USB Host Controller Information](<../../.gitbook/assets/Screen Shot 2021-04-02 at 3.12.57 PM.png>)
+![Finding USB Host Controller Information](/support-assets/Screen%20Shot%202021-04-02%20at%203.12.57%20PM.png)
 
      4\. To better identify your host controller you are using, click the details tab, and select "Hardware Ids" from the property selection. Then take a screenshot. It should look similar to the below image.
 
-![Viewing the Hardware Ids for your Host Controller](../../.gitbook/assets/inline1733780973.png)
+![Viewing the Hardware Ids for your Host Controller](/support-assets/inline1733780973.png)
 
 ## Logic 1.x
 

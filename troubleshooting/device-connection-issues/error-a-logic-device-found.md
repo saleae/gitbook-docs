@@ -2,7 +2,7 @@
 
 > A device was found, but the software was unable to access it. Another instance of the Saleae software may be connected to the device.
 
-<figure><img src="../../.gitbook/assets/win-another-instance.png" alt="" width="500"><figcaption><p>Windows error message</p></figcaption></figure>
+<figure><img src="/support-assets/win-another-instance.png" alt="" width="500"><figcaption><p>Windows error message</p></figcaption></figure>
 
 When the software detects a logic analyzer connected to the PC, it asks the operating system for an exclusive handle to the device. This error message is shown when that request is denied.
 

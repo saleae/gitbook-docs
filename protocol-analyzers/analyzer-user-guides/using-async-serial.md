@@ -1,6 +1,6 @@
 The Saleae software includes a protocol analyzer for asynchronous serial communication.
 
-![Async Serial Decoding in the Logic 2 Software](<../../.gitbook/assets/Screen Shot 2021-07-02 at 3.51.21 PM.png>)
+![Async Serial Decoding in the Logic 2 Software](/support-assets/Screen%20Shot%202021-07-02%20at%203.51.21%20PM.png)
 
 Async serial communication is a very generic term that means any data that is transmitted serially (i.e., one bit at a time). The serial analyzer in the Saleae software is flexible, but it's ultimately designed to only decode serial data that uses the standard start bit and stop bit format. Many other features of the serial analyzer are flexible, though.
 
@@ -8,7 +8,7 @@ Async serial communication is a very generic term that means any data that is tr
 
 Below is a description of each setting and what it does.
 
-![](<../../.gitbook/assets/Screen Shot 2021-07-02 at 3.53.02 PM.png>)
+![](/support-assets/Screen%20Shot%202021-07-02%20at%203.53.02%20PM.png)
 
 #### **Input Channel**
 
@@ -31,7 +31,7 @@ The async serial analyzer lets you select 1 stop bit, 1.5 stop bits, or 2 stop b
 
 Parity is a feature where the serial transmitter includes an extra bit of information after transmitting the data word but before the stop bit that helps the receiver detect possible bit errors caused by line noise. In Logic software, the parity bit is signified by the bolded square dot, as shown in the figure below.
 
-![Example of Even Parity bit, signified by the bolded square dot](<../../.gitbook/assets/Screen Shot 2021-07-02 at 3.59.02 PM.png>)
+![Example of Even Parity bit, signified by the bolded square dot](/support-assets/Screen%20Shot%202021-07-02%20at%203.59.02%20PM.png)
 
 * No parity means no extra bit is transmitted.
 * Even parity means that the total number of binary ones in the data word, including the parity bit, is an even number. For instance, 0b10110101 would have an even parity bit of one because there is an odd number of ones in the data word. An extra one will make the total an even 6 ones.
@@ -62,7 +62,7 @@ Hover your mouse over the fastest 2-bits, and then take the inverse. One way to 
 
 The software will show auto-measurements like shown in the image below. In this case, the inverse measurement is shown to be 114.943 kHz, which is close to the bit rate of 115.200 kBits/s that the DUT was communicating at.
 
-![Measuring the bit rate from your signal via inverse width measurement](<../../.gitbook/assets/Screen Shot 2021-07-02 at 4.02.35 PM.png>)
+![Measuring the bit rate from your signal via inverse width measurement](/support-assets/Screen%20Shot%202021-07-02%20at%204.02.35%20PM.png)
 
 It's best to perform the measurement in several different spots and average the results.
 
@@ -70,9 +70,9 @@ It's best to perform the measurement in several different spots and average the 
 
 As an alternative, you may also use a Baud Rate Estimate extension that was developed and kindly shared by a community user. The extension is available on our Extensions Marketplace.
 
-![Baud Rate Estimate Extension](<../../.gitbook/assets/Screen Shot 2021-07-02 at 4.11.24 PM.png>)
+![Baud Rate Estimate Extension](/support-assets/Screen%20Shot%202021-07-02%20at%204.11.24%20PM.png)
 
-![Baud Rate Estimate metrics as shown by a measurement box](<../../.gitbook/assets/Screen Shot 2021-07-02 at 4.12.58 PM.png>)
+![Baud Rate Estimate metrics as shown by a measurement box](/support-assets/Screen%20Shot%202021-07-02%20at%204.12.58%20PM.png)
 
 In case you are unfamiliar with extensions and measurements, you may refer to the below support articles for more details on these features.
 
@@ -86,7 +86,7 @@ In case you are unfamiliar with extensions and measurements, you may refer to th
   * Make sure to start your capture before serial data transmission has begun.
   * Ensure that your transmitted data contains idle periods of at least 1 transaction wide. Our Async Serial will always resync on the next set of data after the idle period of 1 transaction wide.
 
-![Decoded Data is Offset](<../../.gitbook/assets/Screen Shot 2022-03-03 at 8.23.35 PM.png>)
+![Decoded Data is Offset](/support-assets/Screen%20Shot%202022-03-03%20at%208.23.35%20PM.png)
 
 * How do I decode more than one channel of serial at once, such as RX and TX signals? To do this, add two instances of the Async Serial analyzer. More information on using multiple analyzers can be found below.
 
@@ -102,7 +102,7 @@ In case you are unfamiliar with extensions and measurements, you may refer to th
 2. Auto baud might cause errors and may not be the most accurate method to decode data correctly. It is generally preferred to manually set the baud rate properly.
 3. Check your data to see if parity should be enabled or disabled, and if the parity bit is even or odd. If selected incorrectly, the data will show parity errors. In the figure below, the Async Analyzer parity setting is set to odd parity, while the recorded data show an even parity.
 
-<figure><img src="../../.gitbook/assets/parity_error.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/parity_error.png" alt=""><figcaption></figcaption></figure>
 
 If you're still facing decoding errors, you can compare your signal with a simulated signal generated by our Logic software. You can read more about simulating data below.
 
@@ -116,7 +116,7 @@ A UART (Universal Asynchronous Receiver/Transmitter) is a hardware block most co
 
 Typically, the serial data are organized in the following format:
 
-<figure><img src="../../.gitbook/assets/UART-data.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/UART-data.png" alt=""><figcaption></figcaption></figure>
 
 ## Logic 1.x
 

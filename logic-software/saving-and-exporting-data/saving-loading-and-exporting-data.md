@@ -2,7 +2,7 @@
 
 To save your current capture tab, click File > Save Capture. To open an existing capture file (.sal file format), click File > Open Capture.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-03-20 at 5.11.22 PM.png" alt=""><figcaption><p>Saving and opening captures</p></figcaption></figure>
+<figure><img src="/support-assets/Screenshot%202024-03-20%20at%205.11.22%20PM.png" alt=""><figcaption><p>Saving and opening captures</p></figcaption></figure>
 
 ### Saving & Opening Presets
 
@@ -14,11 +14,11 @@ Please note that when connecting our USB 3.0 Logic analyzers (Logic Pro 8 and Lo
 
 To open the Presets window, click File > Presets from the top menu.
 
-<figure><img src="../../.gitbook/assets/Screenshot 2024-03-20 at 5.13.32 PM.png" alt=""><figcaption><p>Presets Menu Option</p></figcaption></figure>
+<figure><img src="/support-assets/Screenshot%202024-03-20%20at%205.13.32%20PM.png" alt=""><figcaption><p>Presets Menu Option</p></figcaption></figure>
 
 This will open the Presets window below. From here, you can manage capture setting presets for the software. To share your presets with others, you can export your preset and import it into a new PC. Click on the 3 dots to the right of your preset to open up the options menu for that preset. This will allow you to load, rename, export, or delete you preset. To import a preset, click the _Import_ button at the bottom of the Presets window.
 
-![Preset Window](<../../.gitbook/assets/Screen Shot 2021-02-26 at 3.52.26 PM.png>)
+![Preset Window](/support-assets/Screen%20Shot%202021-02-26%20at%203.52.26%20PM.png)
 
 ### Backing Up your Presets or Bulk Transferring Presets
 

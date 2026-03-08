@@ -14,9 +14,9 @@ If the order has already shipped, then the sales tax has already been collected.
 
 For orders shipping to Europe, you may enter your VAT number by clicking on the "VAT exempt" checkbox on our product page and/or cart page below.
 
-![VAT exempt checkbox on the product page](<../.gitbook/assets/Screen Shot 2022-08-03 at 3.15.29 PM.png>)
+![VAT exempt checkbox on the product page](/support-assets/Screen%20Shot%202022-08-03%20at%203.15.29%20PM.png)
 
-![VAT exempt checkbox on the cart page](<../.gitbook/assets/Screen Shot 2020-11-18 at 10.54.53 PM.png>)
+![VAT exempt checkbox on the cart page](/support-assets/Screen%20Shot%202020-11-18%20at%2010.54.53%20PM.png)
 
 
 

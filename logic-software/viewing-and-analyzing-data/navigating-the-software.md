@@ -1,6 +1,6 @@
 The Logic 2 software consists of the following sections:
 
-![](<../../.gitbook/assets/Screen Shot 2020-09-03 at 4.20.26 PM.png>)
+![](/support-assets/Screen%20Shot%202020-09-03%20at%204.20.26%20PM.png)
 
 ### 1. Logic Analyzer Connection Status
 
@@ -18,7 +18,7 @@ Use the Capture Settings panel to enable or disable channels, and to configure t
 
 Click the "+" button to create new capture sessions tabs. This can be useful to manage multiple captures. To rename a tab, click the text within the tab.
 
-![](<../../.gitbook/assets/Screen Shot 2020-09-03 at 5.42.31 PM (1).png>)
+![](/support-assets/Screen%20Shot%202020-09-03%20at%205.42.31%20PM%20(1).png)
 
 ### 4. The Start Button
 
@@ -31,7 +31,7 @@ Click the green "Start" button to begin a data capture.
 
 The side panel buttons offer various ways to configure your logic analyzer settings. More information on these settings can be found in the articles below.
 
-![Side Panel Buttons](<../../.gitbook/assets/Screen Shot 2020-09-23 at 5.02.24 PM.png>)
+![Side Panel Buttons](/support-assets/Screen%20Shot%202020-09-23%20at%205.02.24%20PM.png)
 
 [Device Settings](../capturing-data/capture-settings.md)
 

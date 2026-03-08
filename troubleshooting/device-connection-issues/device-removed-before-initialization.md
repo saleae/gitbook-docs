@@ -1,6 +1,6 @@
 This error message may appear during device operation, or upon connecting your Logic device. This error appears when the Logic app detects that a device gets physically disconnected from the PC during initialization. This could be due to a bad USB connection, a faulty USB host controller driver, a fauly Logic pod, or other unkown reasons which might cause the USB connection to time-out during initialization.
 
-<figure><img src="../../.gitbook/assets/Screenshot (16).png" alt=""><figcaption><p>A device was found, but it was removed before initialization completed</p></figcaption></figure>
+<figure><img src="/support-assets/Screenshot%20(16).png" alt=""><figcaption><p>A device was found, but it was removed before initialization completed</p></figcaption></figure>
 
 ### Troubleshooting
 

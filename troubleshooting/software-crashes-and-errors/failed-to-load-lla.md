@@ -4,22 +4,22 @@ This support article describes some common errors that you may run into when att
 
 Some custom analyzer repositories may provide the MacOS analyzer library file as a `.so` file (rather than a `.dylib` file). If so, you may be greeted with the following error pop up upon attempting to load the analyzer. The fix for this is described in the steps below.
 
-<figure><img src="../../.gitbook/assets/Screen Shot 2022-11-21 at 12.27.07 PM.png" alt=""><figcaption><p>Failed to Load a .so file</p></figcaption></figure>
+<figure><img src="/support-assets/Screen%20Shot%202022-11-21%20at%2012.27.07%20PM.png" alt=""><figcaption><p>Failed to Load a .so file</p></figcaption></figure>
 
 1.  Update the file extension to a `.dylib` file. To do this, right click the .so file, click "Get Info", then change the file extension type to `.dylib` like shown below. When the confirmation pop-up window to change the file type appears, click "Use `.dylib`".
 
-    <figure><img src="../../.gitbook/assets/Screen Shot 2022-11-21 at 12.23.45 PM.png" alt=""><figcaption><p>Change file extension type to .dylib</p></figcaption></figure>
+    <figure><img src="/support-assets/Screen%20Shot%202022-11-21%20at%2012.23.45%20PM.png" alt=""><figcaption><p>Change file extension type to .dylib</p></figcaption></figure>
 
 
 
-    <figure><img src="../../.gitbook/assets/Screen Shot 2022-11-21 at 11.49.11 AM.png" alt=""><figcaption><p>Click "Use .dylib"</p></figcaption></figure>
+    <figure><img src="/support-assets/Screen%20Shot%202022-11-21%20at%2011.49.11%20AM.png" alt=""><figcaption><p>Click "Use .dylib"</p></figcaption></figure>
 2.  Upon loading your new .dylib file into the Logic 2 app, you may be greeted with a new security error from MacOS like shown below.<br>
 
-    <figure><img src="../../.gitbook/assets/Screen Shot 2022-11-21 at 11.49.39 AM.png" alt=""><figcaption><p>.dylib file cannot be verified by MacOS</p></figcaption></figure>
+    <figure><img src="/support-assets/Screen%20Shot%202022-11-21%20at%2011.49.39%20AM.png" alt=""><figcaption><p>.dylib file cannot be verified by MacOS</p></figcaption></figure>
 
     To get around this error, you will need to allow this file through MacOS's security. Navigate to MacOS's System Preferences, and select Security & Privacy. Under the "Allow apps downloaded from..." section, select "Allow Anyway next to the `.dylib` file that was recently blocked by MacOS.<br>
 
-    <figure><img src="../../.gitbook/assets/Screen Shot 2022-11-21 at 11.50.06 AM.png" alt=""><figcaption><p>Allow .dylib analyzer</p></figcaption></figure>
+    <figure><img src="/support-assets/Screen%20Shot%202022-11-21%20at%2011.50.06%20AM.png" alt=""><figcaption><p>Allow .dylib analyzer</p></figcaption></figure>
 
 ### Custom Analyzers Originally Built on Logic 1.x
 
@@ -28,7 +28,7 @@ When first attempting to import a custom analyzer that was originally built for 
 > Failed to load custom analyzer...\
 > Unable to load library...
 
-![Initial Error upon Loading LLA on MacOS](<../../.gitbook/assets/image (19).png>)
+![Initial Error upon Loading LLA on MacOS](/support-assets/image%20(19).png)
 
 1. Open the Terminal (open Spotlight -> search "Terminal" -> press enter)
 2. navigate to the directory containing your custom analyzer (e.g. `cd ~/Downloads/mylla`)
@@ -45,7 +45,7 @@ When attempting to run the Logic 2 software on MacOS, the following error messag
 
 > Failed to load custom analyzer (/Applications/Logic2-x-x-xx.app/Contents/Resources/osx/Analyzer/libmidi\_analyzer.so): Unable to load library
 
-![Failed to load midi analyzer](../../.gitbook/assets/failed-load-analyzer.jpeg)
+![Failed to load midi analyzer](/support-assets/failed-load-analyzer.jpeg)
 
 The workaround we've found is to update to the latest version of MacOS, since our build system for Logic 2 typically targets that. When running an older version of MacOS, the error message above may appear. 
 

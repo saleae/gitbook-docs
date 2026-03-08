@@ -23,7 +23,7 @@ This guide is intended for Windows 10 and Windows 11 users who are having unusua
     * Intel(R) USB 3.1 eXtensible Host Controller - 1.10 (Microsoft)
   * There are usually 1 to 3 of these listed.
 
-<figure><img src="../../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/image%20(24).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 2: Uninstall each USB 3.0 Host Controller
 
@@ -31,9 +31,9 @@ This guide is intended for Windows 10 and Windows 11 users who are having unusua
 * Click "uninstall" on the prompt.
 * Repeat this for each USB 3.0 host controller.
 
-<figure><img src="../../.gitbook/assets/image (25).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/image%20(25).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/image%20(26).png" alt=""><figcaption></figcaption></figure>
 
 ## Step 3: Restart your computer
 

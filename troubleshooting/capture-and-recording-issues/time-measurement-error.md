@@ -14,7 +14,7 @@ _+/- ( time\_period\_s_ 200us ) for the original Logic/Logic16
 
 In the picture below, the arrows indicate when the logic analyzer is sampling the signal. The two waveforms show the two extreme cases in which the logic analyzer will report the same pulse width.
 
-<figure><img src="../../.gitbook/assets/uncertainty_error.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/uncertainty_error.png" alt=""><figcaption></figcaption></figure>
 
 This is a total error (uncertainty) of 2 sample periods, or +/- 1 sample period.
 

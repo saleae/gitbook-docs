@@ -13,7 +13,7 @@ PS/2 is a serial protocol used for communication between a computer and a keyboa
 
 **What Logic Decodes**
 
-<figure><img src="../../.gitbook/assets/PS2 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="/support-assets/PS2%20(1).png" alt=""><figcaption></figcaption></figure>
 
 * Start Bit
 * Command Byte

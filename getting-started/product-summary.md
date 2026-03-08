@@ -5,12 +5,12 @@ Saleae Logic Analyzers consist of the products listed in this section. The produ
 * SAL-00113 Logic Pro 8 Black
 * SAL-00114 Logic Pro 8 Red
 
-<figure><img src="../.gitbook/assets/Logic 8.jpg" alt=""><figcaption><p>Logic 8 / Logic Pro 8</p></figcaption></figure>
+<figure><img src="/support-assets/Logic%208.jpg" alt=""><figcaption><p>Logic 8 / Logic Pro 8</p></figcaption></figure>
 
 * SAL-00115 Logic Pro 16 Black
 * SAL-00116 Logic Pro 16 Red
 
-<figure><img src="../.gitbook/assets/Logic Pro 16.jpg" alt=""><figcaption><p>Logic Pro 16</p></figcaption></figure>
+<figure><img src="/support-assets/Logic%20Pro%2016.jpg" alt=""><figcaption><p>Logic Pro 16</p></figcaption></figure>
 
 **Datasheets & Specifications:**
 

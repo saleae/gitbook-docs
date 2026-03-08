@@ -61,7 +61,7 @@ mResults->CommitResults();
 
 #### Screenshots:
 
-![Once you have added UseFrameV2(), and start Adding FrameV2s, you will see them in the data table like this.](<../../.gitbook/assets/image (11).png>)
+![Once you have added UseFrameV2(), and start Adding FrameV2s, you will see them in the data table like this.](/support-assets/image%20(11).png)
 
 ### API Documentation
 

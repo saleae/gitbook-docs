@@ -12,9 +12,9 @@ Our support team may request you to send your serial number to us to further inv
 2. Click the three dots next to your device name on the top-right
 3. Click Device Info to view the device's calibration status and serial number
 
-<div align="center"><img src="../../.gitbook/assets/device-info.png" alt="Opening the Device Information Window"></div>
+<div align="center"><img src="/support-assets/device-info.png" alt="Opening the Device Information Window"></div>
 
-<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption><p>Device Information window showing calibration status</p></figcaption></figure>
+<figure><img src="/support-assets/image%20(18).png" alt=""><figcaption><p>Device Information window showing calibration status</p></figcaption></figure>
 
 #### Install Calibration via Logic 2 App
 
@@ -37,7 +37,7 @@ In cases when you are not able to download the calibration file from within the 
 5. Take this newly downloaded .cal file to your other offline PC and paste it to a convenient and temporary location, such as your Dekstop.
 6. Open the Logic 2 app and connect your logic analyzer. You should be greeted by a _Device Calibration Error_ popup below. Click Load File and navigate to the .cal file you recently downloaded. Your device should now be calibrated on this PC once the file is loaded.
 
-![Load Calibration File](../../.gitbook/assets/cal-popup-load.png)
+![Load Calibration File](/support-assets/cal-popup-load.png)
 
 #### Where are my Calibration Files stored?
 
@@ -49,7 +49,7 @@ In cases when you are not able to download the calibration file from within the 
 
 When manually downloading the calibration file in Logic 2.x, in rare cases, your browser may open a page that looks like the image below.
 
-![Manual Calibration Access Denied](<../../.gitbook/assets/Screen Shot 2020-06-24 at 12.54.46 PM.png>)
+![Manual Calibration Access Denied](/support-assets/Screen%20Shot%202020-06-24%20at%2012.54.46%20PM.png)
 
 In this case, please submit a [Warranty Request](https://saleae-support.typeform.com/to/E8UPB7) form and we will be happy to help. This may be indicative of hardware failure and we'll most likely want to process a warranty for you.
 

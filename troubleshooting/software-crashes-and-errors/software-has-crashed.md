@@ -10,7 +10,7 @@ If the software simply fails to launch, or crashes immediately upon launching, p
 
 If the software can start properly, but crashes during operation, please first ensure that you are using the latest version of the [Logic 2 software](https://www.saleae.com/downloads/). If that doesn't solve the crashes, please feel free to reach out to us from within the app (if the app allows). We will follow up with your request via email.
 
-![](<../../.gitbook/assets/Screen Shot 2022-01-10 at 6.43.33 PM (1).png>)
+![](/support-assets/Screen%20Shot%202022-01-10%20at%206.43.33%20PM%20(1).png)
 
 When contacting us from within the app, we will be interested in the following information.
 
