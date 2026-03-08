@@ -28,7 +28,7 @@ Changing the Display Radix setting in the Logic software will not change the way
 
 **SMBus, PMBus, & Smart Battery:** Set this to the appropriate protocol you will be decoding. When enabling the "Calculate PEC on packets" setting, the PEC will be shown when the data is decoded.
 
-<figure><img src="/support-assets/Screenshot%202023-07-25%20at%206.16.09%20PM.png" alt=""><figcaption><p>SMBus, PMBus, &#x26; Smart Battery Setting</p></figcaption></figure>
+<figure><img src="/support-assets/Screenshot%202023-07-25%20at%206.16.09%20PM.png" alt=""><figcaption><p>SMBus, PMBus, & Smart Battery Setting</p></figcaption></figure>
 
 ### SMBus Symbol Definitions
 
