@@ -4,6 +4,7 @@
 
 ## ORDERING
 
+  * [Orders & Shipping](ordering-returns/ordering-and-shipping.md)
   * [Get a Quote](ordering-returns/how-do-i-get-a-quote.md)
   * [Place an Online Order](ordering-returns/how-do-i-place-an-order.md)
   * [Place a Purchase Order (PO)](ordering-returns/place-a-purchase-order-po.md)
@@ -32,6 +33,7 @@
 
 ## PRODUCT
 
+  * [Getting Started Overview](getting-started/getting-started.md)
   * [Setup](getting-started/setup.md)
   * [Configure](getting-started/configure.md)
   * [Record](getting-started/record.md)
@@ -57,6 +59,7 @@
   * [Safety & Warranty](specifications-hardware/product-comparison-and-selection/safety-and-warranty.md)
   * [Supported Voltages](specifications-hardware/electrical-characteristics/supported-voltages.md)
   * [Device Calibration](specifications-hardware/electrical-characteristics/device-calibration.md)
+    * [User Guide](logic-software/user-guide.md)
     * [Navigating the Software](logic-software/viewing-and-analyzing-data/navigating-the-software.md)
     * [Connecting the Logic Analyzer](logic-software/capturing-data/connecting-the-logic-hardware.md)
     * [Logic Accessories](logic-software/capturing-data/connecting-accessories.md)
@@ -76,6 +79,7 @@
     * [Keyboard Shortcuts](logic-software/settings-and-preferences/keyboard-shortcuts.md)
     * [Automatic Updates](logic-software/settings-and-preferences/automatic-updates.md)
     * [Message Us Directly](community-contact/message-us-directly.md)
+    * [Protocol Analyzers](protocol-analyzers/protocol-analyzers.md)
     * [Supported Protocols](protocol-analyzers/supported-protocols/supported-protocols.md)
       * [Async Serial Analyzer - User Guide](protocol-analyzers/analyzer-user-guides/using-async-serial.md)
       * [SPI Analyzer - User Guide](protocol-analyzers/analyzer-user-guides/using-spi.md)
@@ -86,6 +90,8 @@
       * [DMX-512 Analyzer - User Guide](protocol-analyzers/analyzer-user-guides/using-dmx-512.md)
       * [SMBus Analyzer - User Guide](protocol-analyzers/analyzer-user-guides/using-the-smbus-analyzer.md)
       * [Decode Differential and High Voltage Data](protocol-analyzers/analyzer-user-guides/decode-differential-and-high-voltage-data.md)
+      * [Extensions, APIs, and SDKs](extensions-api/extensions-apis-and-sdks.md)
+      * [Extensions](extensions-api/extensions/extensions.md)
       * [Extension Installation](extensions-api/extensions/installing-extensions.md)
       * [Create and Use Extensions](extensions-api/extensions/extensions-quickstart.md)
       * [High-Level Analyzer (HLA) Extensions](extensions-api/extensions/high-level-analyzer-extensions.md)
@@ -97,6 +103,7 @@
       * [About Third-Party Extensions](extensions-api/extensions/about-third-party-extensions.md)
       * [Disabling Marketplace Extensions](extensions-api/extensions/disabling-marketplace-extensions.md)
       * [Publish an Extension](extensions-api/extensions/publish-an-extension.md)
+        * [HLA - Analyzer Frame Format](extensions-api/hla-frame-format-reference/analyzer-frame-types.md)
         * [Async Serial - Frame Format](extensions-api/hla-frame-format-reference/serial-analyzer.md)
         * [I2C - Frame Format](extensions-api/hla-frame-format-reference/i2c-analyzer.md)
         * [SPI - Frame Format](extensions-api/hla-frame-format-reference/spi-analyzer.md)
@@ -108,6 +115,7 @@
         * [LIN - Frame Format](extensions-api/hla-frame-format-reference/lin-analyzer.md)
         * [I2S - Frame Format](extensions-api/hla-frame-format-reference/i2s-analyzer.md)
       * [API Documentation](extensions-api/extensions/api-documentation.md)
+      * [Automation API & Analyzer SDK](extensions-api/automation-api/saleae-api-and-sdk.md)
       * [Automation API - Logic 2](extensions-api/automation-api/automation.md)
       * [Automation API - Legacy Logic 1.x](extensions-api/automation-api/automation-legacy-logic1.md)
       * [Protocol Analyzer SDK](extensions-api/protocol-analyzer-sdk/protocol-analyzer-sdk.md)
