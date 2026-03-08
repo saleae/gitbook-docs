@@ -27,17 +27,11 @@ Solder header pins to the TMP102 breakout board, and connect the Nucleo to the T
 
 Download the example code for your IDE:
 
-{% file src="../../.gitbook/assets/i2c_example_arduino.zip" %}
-I2C Example - Arduino
-{% endfile %}
+<a href="/support-assets/i2c_example_arduino.zip" download class="content-ref">I2C Example - Arduino</a>
 
-{% file src="../../.gitbook/assets/i2c_example_mbed.zip" %}
-I2C Example - mbed
-{% endfile %}
+<a href="/support-assets/i2c_example_mbed.zip" download class="content-ref">I2C Example - mbed</a>
 
-{% file src="../../.gitbook/assets/i2c_example_sw4stm32.zip" %}
-I2C Example - SW4STM32
-{% endfile %}
+<a href="/support-assets/i2c_example_sw4stm32.zip" download class="content-ref">I2C Example - SW4STM32</a>
 
 Open the demo in your chosen IDE. Compile the program, and upload it to the Nucleo-F446RE development board.
 

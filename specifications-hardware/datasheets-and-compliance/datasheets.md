@@ -29,7 +29,7 @@ Datasheet: [https://downloads.saleae.com/specs/Logic16+Tech+Specs.pdf](https://d
 
 Datasheet:
 
-{% file src="../../.gitbook/assets/Logic 4 Data Sheet (1).pdf" %}
+<a href="/support-assets/Logic%204%20Data%20Sheet%20(1).pdf" download class="content-ref">Logic 4 Data Sheet.pdf</a>
 
 \
 Fact Sheet: [https://downloads.saleae.com/specs/Logic+4+Product+Fact+Sheet.pdf](https://downloads.saleae.com/specs/Logic+4+Product+Fact+Sheet.pdf)

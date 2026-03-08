@@ -22,7 +22,7 @@ To manually install your drivers on Windows, in case you're running into the iss
   * `C:\Program Files\Saleae LLC\Drivers`
 * In case you don't have a previous installation of the Logic software, we provide the Drivers folder via the download link below.
 
-{% file src="../../.gitbook/assets/Saleae-Logic-Drivers.zip" %}
+<a href="/support-assets/Saleae-Logic-Drivers.zip" download class="content-ref">Saleae-Logic-Drivers.zip</a>
 
 ### Method 1: New Hardware Wizard Installation
 
@@ -139,7 +139,7 @@ In case you run into any issues with installing the udev rule file using the com
 
 1. Download the udev rule file below.
 
-{% file src="../../.gitbook/assets/99-SaleaeLogic.rules" %}
+<a href="/support-assets/99-SaleaeLogic.rules" download class="content-ref">99-SaleaeLogic.rules</a>
 
 2. Copy the file into the rules directory with the following command:\
    `sudo cp 99-SaleaeLogic.rules /etc/udev/rules.d`

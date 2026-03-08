@@ -21,9 +21,7 @@ In this guide, we will walk your through creating an HLA (High Level Analyzer) e
 
 1\. To test the new Sample HLA, capture any protocol data for [one of the supported analyzers](../hla-frame-format-reference/serial-analyzer.md), and add the appropriate protocol analyzer. We've provided an I2C capture below in case you don't have a protocol data recording available.
 
-{% file src="../../.gitbook/assets/I2C.sal" %}
-I2C.sal
-{% endfile %}
+<a href="/support-assets/I2C.sal" download class="content-ref">I2C.sal</a>
 
 2\. Click the Analyzers '+' button to add our Sample HLA. 
 

@@ -25,17 +25,11 @@ Connect the channel 0 and GND wires to the Nucleo board as shown below. Note tha
 
 Download the example code for your IDE:
 
-{% file src="../../.gitbook/assets/analog_example_arduino.zip" %}
-Analog Example - Arduino
-{% endfile %}
+<a href="/support-assets/analog_example_arduino.zip" download class="content-ref">Analog Example - Arduino</a>
 
-{% file src="../../.gitbook/assets/analog_example_mbed.zip" %}
-Analog Example - mbed
-{% endfile %}
+<a href="/support-assets/analog_example_mbed.zip" download class="content-ref">Analog Example - mbed</a>
 
-{% file src="../../.gitbook/assets/analog_example_sw4stm32.zip" %}
-Analog Example - SW4STM32
-{% endfile %}
+<a href="/support-assets/analog_example_sw4stm32.zip" download class="content-ref">Analog Example - SW4STM32</a>
 
 Open the demo in your chosen IDE. Compile the program, and upload it to the Nucleo-F446RE development board. Whenever the board has power, it should begin running the analog example program, which produces a sinewave pattern on pin PA\_4 (Arduino pin A2).
 

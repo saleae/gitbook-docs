@@ -8,7 +8,7 @@ Starting October of 2022, Saleae has released a new hardware revision of our Log
 
 A PDF version of the Legacy Logic 1.x User Guide is available to download below.
 
-{% file src="../../.gitbook/assets/Legacy Logic 1.x User Guide.pdf" %}
+<a href="/support-assets/Legacy%20Logic%201.x%20User%20Guide.pdf" download class="content-ref">Legacy Logic 1.x User Guide.pdf</a>
 
 
 

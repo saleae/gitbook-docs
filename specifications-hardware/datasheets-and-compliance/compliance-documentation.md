@@ -21,19 +21,19 @@ All Saleae products listed below are in compliance with the EU Council Directive
 
 #### Certificates of Conformity (CoC):
 
-{% file src="../../.gitbook/assets/coc_logic_8_electromagnetic_compatibility.pdf" caption="Logic 8 - CoC (2014/30/EU)" %}
+<a href="/support-assets/coc_logic_8_electromagnetic_compatibility.pdf" download class="content-ref">Logic 8 - CoC (2014/30/EU)</a>
 
-{% file src="../../.gitbook/assets/coc_logic_pro_8_electromagnetic_compatibility.pdf" caption="Logic Pro 8 - CoC (2014/30/EU)" %}
+<a href="/support-assets/coc_logic_pro_8_electromagnetic_compatibility.pdf" download class="content-ref">Logic Pro 8 - CoC (2014/30/EU)</a>
 
-{% file src="../../.gitbook/assets/coc_logic_pro_16_electromagnetic_compatibility.pdf" caption="Logic Pro 16 - CoC (2014/30/EU)" %}
+<a href="/support-assets/coc_logic_pro_16_electromagnetic_compatibility.pdf" download class="content-ref">Logic Pro 16 - CoC (2014/30/EU)</a>
 
 #### Test Reports:
 
-{% file src="../../.gitbook/assets/testreport_logic_8_electromagnetic_comp.pdf" caption="Logic 8 - Test Report (2014/30/EU)" %}
+<a href="/support-assets/testreport_logic_8_electromagnetic_comp.pdf" download class="content-ref">Logic 8 - Test Report (2014/30/EU)</a>
 
-{% file src="../../.gitbook/assets/testreport_logic_pro_8_electromagnetic_comp.pdf" caption="Logic Pro 8 - Test Report (2014/30/EU)" %}
+<a href="/support-assets/testreport_logic_pro_8_electromagnetic_comp.pdf" download class="content-ref">Logic Pro 8 - Test Report (2014/30/EU)</a>
 
-{% file src="../../.gitbook/assets/testreport_logic_pro_16_electromagnetic_comp.pdf" caption="Logic Pro 16 - Test Report (2014/30/EU)" %}
+<a href="/support-assets/testreport_logic_pro_16_electromagnetic_comp.pdf" download class="content-ref">Logic Pro 16 - Test Report (2014/30/EU)</a>
 
 ### Low Voltage Directive (2014/35/EU)
 
@@ -43,35 +43,35 @@ All Saleae products listed below are in compliance with the EU Council Directive
 
 #### Certificates of Conformity (CoC):
 
-{% file src="../../.gitbook/assets/coc_logic_8_low_voltage.pdf" caption="Logic 8 - CoC (2014/35/EU)" %}
+<a href="/support-assets/coc_logic_8_low_voltage.pdf" download class="content-ref">Logic 8 - CoC (2014/35/EU)</a>
 
-{% file src="../../.gitbook/assets/coc_logic_pro_8_low_voltage.pdf" caption="Logic Pro 8 - CoC (2014/35/EU)" %}
+<a href="/support-assets/coc_logic_pro_8_low_voltage.pdf" download class="content-ref">Logic Pro 8 - CoC (2014/35/EU)</a>
 
-{% file src="../../.gitbook/assets/coc_logic_pro_16_low_voltage.pdf" caption="Logic Pro 16 - CoC (2014/35/EU)" %}
+<a href="/support-assets/coc_logic_pro_16_low_voltage.pdf" download class="content-ref">Logic Pro 16 - CoC (2014/35/EU)</a>
 
 #### Test Reports:
 
-{% file src="../../.gitbook/assets/testreport_logic_8_low_voltage.pdf" caption="Logic 8 - Test Report (2014/35/EU)" %}
+<a href="/support-assets/testreport_logic_8_low_voltage.pdf" download class="content-ref">Logic 8 - Test Report (2014/35/EU)</a>
 
-{% file src="../../.gitbook/assets/testreport_logic_pro_8_low_voltage.pdf" caption="Logic Pro 8 - Test Report (2014/35/EU)" %}
+<a href="/support-assets/testreport_logic_pro_8_low_voltage.pdf" download class="content-ref">Logic Pro 8 - Test Report (2014/35/EU)</a>
 
-{% file src="../../.gitbook/assets/testreport_logic_pro_16_low_voltage.pdf" caption="Logic Pro 16 - Test Report (2014/35/EU)" %}
+<a href="/support-assets/testreport_logic_pro_16_low_voltage.pdf" download class="content-ref">Logic Pro 16 - Test Report (2014/35/EU)</a>
 
 ### **EU Declaration of Conformity**
 
-{% file src="../../.gitbook/assets/EU_Declaration_of Conformity.pdf" caption="EU Declaration of Conformity" %}
+<a href="/support-assets/EU_Declaration_of%20Conformity.pdf" download class="content-ref">EU Declaration of Conformity</a>
 
 ### **UK Declaration of Conformity**
 
-{% file src="../../.gitbook/assets/uk_declaration_of_conformity.pdf" caption="UK Declaration of Conformity" %}
+<a href="/support-assets/uk_declaration_of_conformity.pdf" download class="content-ref">UK Declaration of Conformity</a>
 
 ## **RoHS Declaration Document**
 
-{% file src="../../.gitbook/assets/rohs_declaration.pdf" caption="RoHS Declaration" %}
+<a href="/support-assets/rohs_declaration.pdf" download class="content-ref">RoHS Declaration</a>
 
 ## **Statement of Volatility**
 
-{% file src="../../.gitbook/assets/saleae_statement_of_volatility.pdf" caption="Saleae Statement of Volatility" %}
+<a href="/support-assets/saleae_statement_of_volatility.pdf" download class="content-ref">Saleae Statement of Volatility</a>
 
 ## Requirements for Additional Compliance Documents?
 

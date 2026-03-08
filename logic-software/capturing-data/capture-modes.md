@@ -2,9 +2,8 @@
 
 The timer mode is the simplest mode of data capture. A pre-defined duration is set by the user and the capture will end once the duration is reached. In the example video below, we set the capture duration to 5s. The recording will stop once 5s is reached.
 
-{% embed url="https://vimeo.com/461183310" %}
-Timer Mode Capture
-{% endembed %}
+<div class="video-embed"><iframe src="https://player.vimeo.com/video/461183310" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+<p class="text-sm text-gray-500 text-center mt-1">Timer Mode Capture</p>
 
 ### Looping Mode
 
@@ -12,9 +11,8 @@ The looping mode allows for a continuous recording into a RAM buffer, the size o
 
 In the example video below, we set the _Memory buffer size_ to 500 MB. Notice that, during the capture, the memory usage does not go above the set _Memory_ value of 500 MB during the continuous recording.
 
-{% embed url="https://vimeo.com/461178867" %}
-Looping Mode Capture
-{% endembed %}
+<div class="video-embed"><iframe src="https://player.vimeo.com/video/461178867" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+<p class="text-sm text-gray-500 text-center mt-1">Looping Mode Capture</p>
 
 ### Trigger Mode
 
@@ -71,8 +69,7 @@ This is due to our Trigger View relying on a new low level analyzer framing form
 
 [analyzer-frame-types](../../extensions-api/hla-frame-format-reference/serial-analyzer.md)
 
-{% embed url="https://vimeo.com/489642936" %}
-Trigger View - SPI Example
-{% endembed %}
+<div class="video-embed"><iframe src="https://player.vimeo.com/video/489642936" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+<p class="text-sm text-gray-500 text-center mt-1">Trigger View - SPI Example</p>
 
 ![Triggering on a protocol frame](<../../.gitbook/assets/Screen Shot 2020-12-04 at 3.10.17 PM.png>)

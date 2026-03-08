@@ -158,7 +158,7 @@ For Async Serial - The last line will not text wrap properly. The last line is c
 
 We use xtermjs for our in-app terminal. According to the xtermjs GitHub issue link below, this seems to be a bug that only affects the last line of text.
 
-{% embed url="https://github.com/xtermjs/xterm.js/issues/3178" %}
+<a href="https://github.com/xtermjs/xterm.js/issues/3178" target="_blank" rel="noopener">https://github.com/xtermjs/xterm.js/issues/3178</a>
 
 If you're running into this issue, please vote/comment on our [idea post here](https://ideas.saleae.com/b/feature-requests/bug-terminal-text-doesnt-reflow-properly-when-panel-is-resized/), which we are using to track this bug.
 

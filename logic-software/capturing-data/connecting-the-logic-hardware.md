@@ -6,9 +6,8 @@
    * Our discontinued products (Original Logic, Logic16, and Logic 4) require at least a USB 2.0 port.
 4. Once connected to the PC, the software will begin configuring the device and the LED on Logic should turn on.
 
-{% embed url="https://vimeo.com/561537772" %}
-Connecting Logic to your PC
-{% endembed %}
+<div class="video-embed"><iframe src="https://player.vimeo.com/video/561537772" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+<p class="text-sm text-gray-500 text-center mt-1">Connecting Logic to your PC</p>
 
 <div class="callout callout-info">
 If connecting Logic Pro 8 or Logic Pro 16 to a USB 2.0 port, please read the article below. You may receive a warning notification from within the software which indicates that the available channels and sampling rate options may be limited.

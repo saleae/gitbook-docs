@@ -22,9 +22,7 @@ The Device SDK, originally used to access raw data in real time, is currently **
 
 This is a library used to access raw data in real time from Saleae devices without the use of our desktop software. Download link below.
 
-{% file src="../../.gitbook/assets/SaleaeDeviceSdk-1.1.14.zip" %}
-Device SDK
-{% endfile %}
+<a href="/support-assets/SaleaeDeviceSdk-1.1.14.zip" download class="content-ref">Device SDK</a>
 
 As of right now, only the Protocol Analyzer SDK and the Socket API support the new devices (Logic 4, Logic 8, Logic Pro 8, Logic Pro 16). Because of the added complexity in handling analog data, we don't currently plan on extending support to the new products using the existing Device SDK approach.
 

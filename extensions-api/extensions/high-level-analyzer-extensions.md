@@ -27,8 +27,7 @@ For the purposes of this document, we will be focusing on `HighLevelAnalyzer.py`
 
 Let's break down the contents of `HighLevelAnalyzer.py` .
 
-{% code title="HighLevelAnalyzer.py" %}
-```python
+```python title="HighLevelAnalyzer.py"
 from saleae.analyzers import HighLevelAnalyzer, AnalyzerFrame, StringSetting, NumberSetting, ChoicesSetting
 
 class MyHla(HighLevelAnalyzer):
@@ -56,7 +55,6 @@ class MyHla(HighLevelAnalyzer):
             'input_type': frame.type
         })
 ```
-{% endcode %}
 
 #### Imports
 
@@ -136,9 +134,7 @@ Now that we've gone over the different parts of an HLA, we will be updating our 
 
 In the Extensions Quickstart you should have downloaded and opened a capture of i2c data. For this quickstart we will be using a capture of Async Serial data that repeats the message "Hello Saleae".
 
-{% file src="../../.gitbook/assets/hla-quickstart (1).zip" %}
-Async Serial Example Data
-{% endfile %}
+<a href="/support-assets/hla-quickstart%20(1).zip" download class="content-ref">Async Serial Example Data</a>
 
 ### Remove Unneeded Code
 
@@ -223,15 +219,13 @@ class MyHla(HighLevelAnalyzer):
 
 Instead of using the hardcoded `'Hl'`, let's replace that with the value of `search_for`:
 
-{% code title="In decode()" %}
-```python
+```python title="In decode()"
 # If the character matches the one we are searching for, output a new frame
 if ch in self.search_for:
     return AnalyzerFrame('mytype', frame.start_time, frame.end_time, {
         'input_type': frame.type
     })
 ```
-{% endcode %}
 
 Now if you can specify the characters to search for in your HLA settings:
 

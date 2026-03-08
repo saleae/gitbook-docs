@@ -6,7 +6,7 @@ Our tutorial video below demonstrates the basics of decoding data using protocol
 * Changing the display radix
 * Navigating using the Data Table
 
-{% embed url="https://www.youtube.com/watch?v=Ak9R4yxQPhs" %}
+<div class="video-embed"><iframe src="https://www.youtube.com/embed/Ak9R4yxQPhs" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ### Protocol Bubble Merging
 

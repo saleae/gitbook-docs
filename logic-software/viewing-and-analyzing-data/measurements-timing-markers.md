@@ -2,9 +2,8 @@
 
 Measurements in the Logic 2 software can be added via the "Timing Markers, Measurements & Notes" side panel button on the right. Once the panel is opened, add a measurement by clicking the "+" button next to "Measurements." Afterwards, you can click and drag across your desired channel and waveform region to add a measurement box. As a shortcut, you can hold SHIFT while clicking and dragging across your waveform to add a measurement box.
 
-{% embed url="https://vimeo.com/511321334" %}
-Adding Measurements
-{% endembed %}
+<div class="video-embed"><iframe src="https://player.vimeo.com/video/511321334" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
+<p class="text-sm text-gray-500 text-center mt-1">Adding Measurements</p>
 
 The measurements that are made (called metrics) depend on the type of data you are measuring (analog or digital) and the installed measurement extensions in the software. 
 

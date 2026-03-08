@@ -80,7 +80,7 @@ This is one of our top requested features for which we would love to work on at 
 
 Our devices do not require periodic recalibration. You can download our statement of calibration below.
 
-{% file src="../../.gitbook/assets/Statement_of_Calibration.pdf" %}
+<a href="/support-assets/Statement_of_Calibration.pdf" download class="content-ref">Statement_of_Calibration.pdf</a>
 
 Specifically, there is no calibration certificate. The devices do undergo a one-time factory calibration process.
 

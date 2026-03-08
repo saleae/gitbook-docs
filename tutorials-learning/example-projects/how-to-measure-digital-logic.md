@@ -23,17 +23,11 @@ Connect the wires to the male header pins on the Nucleo board as shown in the di
 
 Download the example code for your IDE:
 
-{% file src="../../.gitbook/assets/digital_example_arduino.zip" %}
-Digital Example - Arduino
-{% endfile %}
+<a href="/support-assets/digital_example_arduino.zip" download class="content-ref">Digital Example - Arduino</a>
 
-{% file src="../../.gitbook/assets/digital_example_mbed.zip" %}
-Digital Example - mbed
-{% endfile %}
+<a href="/support-assets/digital_example_mbed.zip" download class="content-ref">Digital Example - mbed</a>
 
-{% file src="../../.gitbook/assets/digital_example_sw4stm32.zip" %}
-Digital Example - SW4STM32
-{% endfile %}
+<a href="/support-assets/digital_example_sw4stm32.zip" download class="content-ref">Digital Example - SW4STM32</a>
 
 If you would like to try running the code without installing any IDE, download the mbed example. Plug in your Nucleo board, and it should enumerate as a USB mass storage device on your computer. Unzip the example, and copy the .bin file to the Nucleo drive. The Nucleo board will reset, and the program will begin to run automatically.
 

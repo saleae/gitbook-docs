@@ -6,13 +6,13 @@ The Logic 2 software consists of the following sections:
 
 This button allows you to check your logic analyzer's connection status with the software. Clicking it will allow you to view device information such as the device type, serial number, and calibration status.
 
-{% embed url="https://vimeo.com/454544519" %}
+<div class="video-embed"><iframe src="https://player.vimeo.com/video/454544519" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ### 2. Configuring Input Channels & Setting the Sampling Rate
 
 Use the Capture Settings panel to enable or disable channels, and to configure the sample rate for the configured channels.
 
-{% embed url="https://vimeo.com/454542912" %}
+<div class="video-embed"><iframe src="https://player.vimeo.com/video/454542912" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ### 3. Adding & Renaming Session Tabs
 
@@ -45,7 +45,7 @@ The side panel buttons offer various ways to configure your logic analyzer setti
 
 The time scale for the displayed waveforms can be adjusted to an exact time value per 100 pixels as shown below. This gives the ability to set an exact zoom level, as opposed to using the mouse scroll wheel or using keyboard shortcuts to zoom in and out.
 
-{% embed url="https://vimeo.com/454563327" %}
+<div class="video-embed"><iframe src="https://player.vimeo.com/video/454563327" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
 ### Other Useful Features
 
@@ -57,4 +57,4 @@ Several more useful tasks can be performed from the main software view, such as.
 
 These features are described in our tutorial video below about organizing your workspace.
 
-{% embed url="https://www.youtube.com/watch?v=8BJm2l6arR0" %}
+<div class="video-embed"><iframe src="https://www.youtube.com/embed/8BJm2l6arR0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>

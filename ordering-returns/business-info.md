@@ -14,9 +14,7 @@
 
 Our W-9 Form can be downloaded below.
 
-{% file src="../.gitbook/assets/Saleae W9 Form (1).pdf" %}
-Saleae W9 Form
-{% endfile %}
+<a href="/support-assets/Saleae%20W9%20Form%20(1).pdf" download class="content-ref">Saleae W9 Form</a>
 
 ### Saleae VAT Number Table
 

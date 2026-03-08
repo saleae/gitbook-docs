@@ -6,7 +6,7 @@ Since the Saleae devices only have single-ended inputs and not differential inpu
 
 If you are unable to convert the CAN bus to single-ended, you may still be able to record one side of the CAN pair directly. See below.
 
-{% page-ref page="./decode-differential-and-high-voltage-data.md" %}
+[Decode Differential and High Voltage Data](/support/protocol-analyzers/analyzer-user-guides/decode-differential-and-high-voltage-data)
 
 Once you have recorded the CAN signal and have added the CAN analyzer, there are three settings to select.
 
