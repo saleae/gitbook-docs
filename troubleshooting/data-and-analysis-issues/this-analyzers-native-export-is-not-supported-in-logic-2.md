@@ -1,5 +1,3 @@
-# This Analyzer's Native Export is Not Supported in Logic 2
-
 When attempting to export your analyzer's decoded data, you may notice the following warning pop up.
 
 <figure><img src="../../.gitbook/assets/Screen Shot 2022-09-16 at 4.52.08 PM.png" alt=""><figcaption><p>This analyzer's native export is not supported in Logic 2</p></figcaption></figure>
@@ -14,9 +12,7 @@ This is because of a technical limitation caused by Logic 2's new ability to run
 
 Instead, we recommend users use the data table export for all protocol analyzers, as this produces a much more flexible format. More information on data table export can be found below:
 
-{% content-ref url="../../logic-software/saving-and-exporting-data/exporting-data.md" %}
-[exporting-data.md](../../logic-software/saving-and-exporting-data/exporting-data.md)
-{% endcontent-ref %}
+[Exporting Data](../../logic-software/saving-and-exporting-data/exporting-data.md)
 
 
 

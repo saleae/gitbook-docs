@@ -1,9 +1,3 @@
----
-description: Advanced troubleshooting instructions for unusual USB problems
----
-
-# Reinstall USB Host Controller Drivers
-
 This guide explains how to uninstall your computer's USB 3.0 host controller drivers, allowing them to automatically be re-installed.\
 \
 This process has been shown to solve a handful of unusual USB 3.0 connectivity issues.\

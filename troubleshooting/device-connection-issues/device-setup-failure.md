@@ -1,5 +1,3 @@
-# Error Message: DeviceSetupFailure
-
 In the Logic 2 software, you may encounter a _DeviceSetupFailure_ error message when starting a capture like shown below.
 
 ![DeviceSetupFailure error message](<../../.gitbook/assets/Screen Shot 2020-09-28 at 6.16.23 PM.png>)
@@ -27,6 +25,4 @@ _"We're sorry, but an error occurred when issuing the start command to the devic
 
 As mentioned in the _DeviceSetupFailure_ section above shown in the Logic 2 software, Etron USB host controllers may be the cause of the issue. You can check your USB host controller information from within the Logic 1.x software by following the instructions in the support article below.
 
-{% content-ref url="../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md" %}
-[usb-3.0-host-controller-info.md](../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md)
-{% endcontent-ref %}
+[Finding Your USB 3.0 Host Controller Information](../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md)

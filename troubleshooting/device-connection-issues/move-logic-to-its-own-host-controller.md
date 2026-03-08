@@ -1,10 +1,6 @@
-# Moving Logic to Its Own Host Controller
-
 You may want to move Logic to its own host controller when running into the issue described in the below article.
 
-{% content-ref url="../capture-and-recording-issues/device-not-able-to-keep-up.md" %}
-[device-not-able-to-keep-up.md](../capture-and-recording-issues/device-not-able-to-keep-up.md)
-{% endcontent-ref %}
+[Error Message: ReadTimeout](../capture-and-recording-issues/device-not-able-to-keep-up.md)
 
 To move the logic analyzer to its own host controller, with no other devices on that host controller, your PC will need at least 2 host controllers. Some laptops will only have one. Follow the steps below for your specific operating system.
 
@@ -31,15 +27,15 @@ To move the logic analyzer to its own host controller, with no other devices on 
 
 1.  Open System report. Apple menu -> About this Mac -> System Report.
 
-    &#x20;Select USB under hardware on the left.&#x20;
+     Select USB under hardware on the left. 
 
-    &#x20;Note: Be sure to refresh this after each hardware change.
+     Note: Be sure to refresh this after each hardware change.
 2. Locate Logic. Note: If the software is not running or the LED is not on (for LED models), then the device may appear as Vendor Specific Device. Launch the Saleae software and refresh the view for it to change to the device name.
 3.  Move non-logic analyzer devices to the other host controller when possible.
 
-    &#x20;Doing that with a USB hub is the fastest.&#x20;
+     Doing that with a USB hub is the fastest. 
 
-    &#x20;Note: Some devices might be internal to the Mac and cannot be used.
+     Note: Some devices might be internal to the Mac and cannot be used.
 4. Test Logic performance. Optionally, repeat, putting Logic on the other host(s).
 
 ### **Linux**
@@ -48,7 +44,7 @@ To move the logic analyzer to its own host controller, with no other devices on 
 2. Locate Logic. Note: The original Logic may appear as Lakewood Research.
 3.  Move non-logic analyzer devices to the other host controller when possible.
 
-    &#x20;Doing this with a USB hub is the fastest.&#x20;
+     Doing this with a USB hub is the fastest. 
 
-    &#x20;Make sure to re-run lsusb -t for each port you test.
+     Make sure to re-run lsusb -t for each port you test.
 4. Test Logic performance. Optionally, repeat, putting Logic on the other host(s).

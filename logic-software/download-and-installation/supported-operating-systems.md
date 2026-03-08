@@ -1,5 +1,3 @@
-# Supported Operating Systems
-
 ## Logic 2 Software
 
 The Logic 2 Software is supported in the following operating systems and can be downloaded via the link below.

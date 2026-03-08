@@ -1,5 +1,3 @@
-# Error Message: Out of Memory Exception Was Thrown
-
 The Logic devices and software use your computer's memory as the main sample buffer when recording. Because of this, the software can use large amounts of memory, especially while recording high-speed signals or analog data.
 
 The software will estimate the memory usage on the device settings popover.

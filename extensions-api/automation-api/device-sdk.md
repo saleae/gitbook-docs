@@ -1,5 +1,3 @@
-# Can I Access Raw Data in Real Time?
-
 ### Is Direct RAM Access Supported?
 
 Raw data captured by our logic analyzer is streamed directly to RAM. Accessing this raw data in real time is currently **not supported** by Saleae. We still provide the Device SDK for download for those who have it already running with our Original Logic and Logic16. The Device SDK is not compatible with Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16.
@@ -12,15 +10,15 @@ These plugins are designed to allow you to process digital data, as it is record
 
 However, there is nothing stopping you from doing something else with the data as you process it.
 
-The protocol analyzer SDK doesn't expose access to analog channels. It also doesn't allow random access to the digital data. It is stream based, allowing you to progress through each digital channel forward through the collection. As long as your decoder is able to keep up with the data as it's produced, the access is more or less real time.&#x20;
+The protocol analyzer SDK doesn't expose access to analog channels. It also doesn't allow random access to the digital data. It is stream based, allowing you to progress through each digital channel forward through the collection. As long as your decoder is able to keep up with the data as it's produced, the access is more or less real time. 
 
 Please note however that this API wasn't designed for this purpose, and so, we don't officially support using the SDK in this manner.
 
 ### About our Older Device SDK (Unsupported)
 
-{% hint style="info" %}
+<div class="callout callout-info">
 The Device SDK, originally used to access raw data in real time, is currently **not supported** by Saleae. We still provide the Device SDK for download for those who have it already running with our Original Logic and Logic16. The Device SDK is not compatible with Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16.
-{% endhint %}
+</div>
 
 This is a library used to access raw data in real time from Saleae devices without the use of our desktop software. Download link below.
 

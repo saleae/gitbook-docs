@@ -1,5 +1,3 @@
-# What Sample Rate Settings Are Available? Can I Sample at a Slower Rate?
-
 The maximum sample rates of the Saleae Logic devices will scale down as more analog and digital channels are enabled. In order to save memory on data captures, you can choose a slower sampling rate than the maximum.
 
 For example, Logic 8's digital channels have a maximum sample rate of 100 MSPS on up to 3 channels, 50 MSPS on up to 6 channels, and 40 MSPS on up to 7 channels. Enabling the analog channels will also change the available sample rates of the device.

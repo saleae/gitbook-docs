@@ -1,5 +1,3 @@
-# Can Saleae Products Output Data?
-
 The Saleae logic analyzers can only record data. They do not support outputting or transmitting signals or acting as "bus adapters."
 
 The Saleae products can record and decode communication between existing components, but it can't transmit. If you are looking for this feature, we would suggest looking at products from TotalPhase, which makes a number of bus adapters capable of this operation.

@@ -1,5 +1,3 @@
-# Getting the Console Output
-
 When investigating crashes from the Logic software, we may ask you to provide the console output. This will help us fine potential sources of the crash. Please follow the steps below to obtain the console output from the Logic software.
 
 ### **Windows**
@@ -13,7 +11,7 @@ When investigating crashes from the Logic software, we may ask you to provide th
 ### **Linux and OSX**
 
 * First, make sure the software is closed and the device is unplugged from the computer.
-* Open a terminal and browse to the install directory of Logic.&#x20;
+* Open a terminal and browse to the install directory of Logic. 
   * On OSX: `cd /Applications/Logic.app/Contents/MacOS/`
 * Launch Logic while routing standard out to a file:
   * `./Logic > ~/LogicLog.txt`

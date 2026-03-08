@@ -1,6 +1,4 @@
-# About Third-Party Extensions
-
-Our Extensions Marketplace allows you to publish extensions that you create, or to install extensions published by other members of the community. Extensions are community-written Python modules. Extensions are not installed automatically, except for a few Saleae-created extensions.&#x20;
+Our Extensions Marketplace allows you to publish extensions that you create, or to install extensions published by other members of the community. Extensions are community-written Python modules. Extensions are not installed automatically, except for a few Saleae-created extensions. 
 
 Before installing an extension, please keep in mind the following:
 

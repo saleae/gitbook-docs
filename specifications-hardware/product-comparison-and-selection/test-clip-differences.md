@@ -1,5 +1,3 @@
-# Test Clip Differences - Gen 1 & Gen 2
-
 On our accessories page, you may have noticed 2 versions of our test clips.
 
 * [Test Clips 8-Pack \(Gen 2\)](https://usd.saleae.com/collections/accessories/products/test-clips-93)

@@ -1,8 +1,6 @@
-# Safety & Warranty
-
-{% hint style="warning" %}
+<div class="callout callout-warning">
 Before operating your Saleae Logic product for the first time, please carefully review the safety guidelines below to avoid any injury and damage.
-{% endhint %}
+</div>
 
 ### **Electrical Isolation**
 
@@ -10,9 +8,7 @@ The input channels on Saleae Logic analyzers are not electrically isolated from 
 
 Suggestions for electrical isolation can be found in the link below:
 
-{% content-ref url="../electrical-characteristics/suggestions-for-electrical-isolation.md" %}
-[suggestions-for-electrical-isolation.md](../electrical-characteristics/suggestions-for-electrical-isolation.md)
-{% endcontent-ref %}
+[Electrical Isolation Suggestions](../electrical-characteristics/suggestions-for-electrical-isolation.md)
 
 ### **High Voltage Safety**
 
@@ -20,13 +16,13 @@ Suggestions for electrical isolation can be found in the link below:
 | --------------------------------------------- | --------------- |
 | Logic 4, Logic 8, Logic Pro 8, & Logic Pro 16 | −25V to +25V    |
 
-{% hint style="warning" %}
+<div class="callout callout-warning">
 _**Caution:**_ Connecting one of the input channels to voltages outside this range, even for a very short time, can result in damage to the device.
-{% endhint %}
+</div>
 
-{% hint style="warning" %}
+<div class="callout callout-warning">
 _**Safety Tip:**_ If you're working with high voltages near the absolute maximum limit, first ensure that the wire harnesses are securely attached to your DUT and you've done some basic testing to make sure the clips won't pop off your connections. Afterwards, you can connect the wire harnesses to the logic analyzer.
-{% endhint %}
+</div>
 
 ### **Ground Current Safety**
 
@@ -56,9 +52,9 @@ Since the channels in each Saleae logic analyzer are not electrically isolated f
 
 ### **Identifying if a Ground Loop is Present**
 
-{% hint style="warning" %}
+<div class="callout callout-warning">
 _**Caution:**_ If a ground loop is present, extra care should be taken, as highlighted below, before connecting the logic analyzer ground to the DUT ground.
-{% endhint %}
+</div>
 
 To identify a potential ground loop between the Logic device and the DUT, you could check the resistance between the DUT ground and the Saleae Logic ground. While the Saleae Logic is connected to the PC, if the resistance reads infinite on a multi-meter, then the grounds are isolated. Otherwise, they are connected, and a ground loop exists.
 
@@ -77,9 +73,9 @@ If you are not sure there is a ground loop or would like to perform another test
 
 ### **Identifying if the DUT is Isolated from the PC**
 
-{% hint style="warning" %}
+<div class="callout callout-warning">
 _**Caution:**_ When working in an electrically isolated state, keep in mind that floating grounds can be dangerous to the operator. When operating with equipment with a floating ground, please review and follow appropriate safety measures.
-{% endhint %}
+</div>
 
 The DUT's local ground is isolated from the host PC when one of the following is true:
 
@@ -107,15 +103,11 @@ To isolate the USB 2.0 high-speed connection, you can consider using the [Intona
 
 Saleae products are covered by a 3-year warranty, regardless of where you purchased the product. For more information, see the article below.
 
-{% content-ref url="../../ordering/180-day-return-policy-and-3-year-warranty/" %}
 [180-day-return-policy-and-3-year-warranty](../../ordering/180-day-return-policy-and-3-year-warranty/)
-{% endcontent-ref %}
 
 If you believe your Logic hardware is broken, please follow the troubleshooting steps in the article below.
 
-{% content-ref url="../../ordering-returns/process-a-warranty.md" %}
-[process-a-warranty.md](../../ordering-returns/process-a-warranty.md)
-{% endcontent-ref %}
+[Submit a Warranty Claim](../../ordering-returns/process-a-warranty.md)
 
 
 

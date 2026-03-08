@@ -1,5 +1,3 @@
-# Learn Asynchronous Serial
-
 Asynchronous serial (often called simply "serial") generally refers to single-wire, half-duplex communication where data bits are located at fixed time intervals after a start bit. Instead of using a dedicated clock line, asynchronous serial requires the receiver to sample the incoming signal at specific time intervals after a start bit's leading edge.
 
 ### **Topology – Where Do the Wires Go?**
@@ -299,7 +297,7 @@ If there is a framing error or parity error detected, a red dot will appear wher
 * [Tal Tech Tutorial](http://www.taltech.com/datacollection/articles/serial_intro)
 * [SparkFun Tutorial](https://learn.sparkfun.com/tutorials/serial-communication)
 * [Wikipedia](http://en.wikipedia.org/wiki/Asynchronous_serial_communication)
-* [Parallax Textbook PDF](https://www.google.com/url?sa=t\&rct=j\&q=\&esrc=s\&source=web\&cd=6\&ved=0CFIQFjAF\&url=http%3A%2F%2Fforums.parallax.com%2Fattachment.php%3Fattachmentid%3D72648%26d%3D1282407806\&ei=HZxcUry6K6vYigKWx4CQBA\&usg=AFQjCNGs_caLb8AnQ8HO5-WzaRnSsrnEBA\&cad=rja)
+* [Parallax Textbook PDF](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=6&ved=0CFIQFjAF&url=http%3A%2F%2Fforums.parallax.com%2Fattachment.php%3Fattachmentid%3D72648%26d%3D1282407806&ei=HZxcUry6K6vYigKWx4CQBA&usg=AFQjCNGs_caLb8AnQ8HO5-WzaRnSsrnEBA&cad=rja)
 
 **Example Async Serial Parts**
 

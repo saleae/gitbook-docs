@@ -1,5 +1,3 @@
-# Disabling Marketplace Extensions
-
 In case you don't plan on using Marketplace Extensions with our software and would like to disable access to third party extensions entirely, you may follow the instructions below. This may be common in cases where your IT department does not approve usage of external extensions with our software.
 
 ### Disabling via an Environment Variable

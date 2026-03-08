@@ -1,5 +1,3 @@
-# 'Save Capture' and 'Export Data' is Disabled in the Software
-
 There are two reasons these two options could be disabled.
 
 * No data has been collected.

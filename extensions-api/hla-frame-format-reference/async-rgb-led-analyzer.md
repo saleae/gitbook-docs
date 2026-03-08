@@ -1,5 +1,3 @@
-# Async RGB LED - Frame Format
-
 ## Output Frame Format
 
 ### Frame Type: `"pixel"`

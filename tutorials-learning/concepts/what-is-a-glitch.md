@@ -1,5 +1,3 @@
-# What is a Glitch?
-
 A glitch in data is usually identified by a relatively tiny, and unintentional, pulse in voltage as shown below. This can occur due to radiated noise caused by nearby electronics, noise in the circuit itself, extremely slow rise/fall times in the digital data, poor PCB layout, and many other reasons.
 
 <figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption><p>Glitch in the SCL signal</p></figcaption></figure>
@@ -10,11 +8,9 @@ Glitches can cause protocol analyzers to incorrectly interpret the underlying da
 
 To learn more about our software glitch filter, see our user guide on it below.
 
-{% content-ref url="../../logic-software/viewing-and-analyzing-data/software-glitch-filter.md" %}
-[software-glitch-filter.md](../../logic-software/viewing-and-analyzing-data/software-glitch-filter.md)
-{% endcontent-ref %}
+[Software Glitch Filter](../../logic-software/viewing-and-analyzing-data/software-glitch-filter.md)
 
-### Why is this Useful?&#x20;
+### Why is this Useful? 
 
 Many times, an engineer will record data that may contain unwanted noise in the recording. These glitches can really confuse our protocol analyzers and hinder its ability to decode the underlying data. Enabling the software glitch filter doesn't solve the glitch issue, but instead, helps the protocol analyzer decode the data and do its job properly.
 

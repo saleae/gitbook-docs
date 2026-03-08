@@ -1,5 +1,3 @@
-# CentOS Compatibility Issues
-
 ### CentOS 7
 
 First off, we want to apologize for any trouble you have with running our software on CentOS. Starting with CentOS 7, we've received reports of compatibility issues with our products and software. Our latest Logic 2 software is built using Electron, which is built on Ubuntu. More information on Electron's compatibility with Linux distributions can be found on their website below:
@@ -8,9 +6,7 @@ First off, we want to apologize for any trouble you have with running our softwa
 
 In addition, we don't have the resources to significantly expand the operating systems we officially support. Please see the list of our officially supported operating systems below.
 
-{% content-ref url="../../logic-software/download-and-installation/supported-operating-systems.md" %}
-[supported-operating-systems.md](../../logic-software/download-and-installation/supported-operating-systems.md)
-{% endcontent-ref %}
+[Supported Operating Systems](../../logic-software/download-and-installation/supported-operating-systems.md)
 
 To help us track interest in CentOS support, we would appreciate it if you add your votes and comments here:\
 [https://ideas.saleae.com/b/feature-requests/support-redhat-7-and-or-centos-7-linux](https://ideas.saleae.com/b/feature-requests/support-redhat-7-and-or-centos-7-linux)
@@ -19,9 +15,7 @@ To help us track interest in CentOS support, we would appreciate it if you add y
 
 Our older Logic 1.x software for Linux has some dependencies that are not present on some Linux releases. To accommodate these Linux releases, we provide a compatibility release that includes the missing dependencies. We’ve also modified the included version of our application to link against these libraries instead of the libraries installed on your system. The **compatibility release** download links are included with the main download page below for our older Logic 1.x software.
 
-{% content-ref url="../../logic-software/download-and-installation/older-software-releases.md" %}
-[older-software-releases.md](../../logic-software/download-and-installation/older-software-releases.md)
-{% endcontent-ref %}
+[Logic 1.x Download (Deprecated)](../../logic-software/download-and-installation/older-software-releases.md)
 
 We have tested this release here on Ubuntu 10.04 32-bit and 64-bit, as well as CentOS 6.6 64-bit. We’ve also heard reports from customers that this release works on Debian as well. This solution was based on the instructions found [here](http://forums.debian.net/viewtopic.php?p=546372#p546372).
 

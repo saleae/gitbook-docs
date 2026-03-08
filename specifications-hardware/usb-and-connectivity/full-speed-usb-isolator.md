@@ -1,5 +1,3 @@
-# Can Logic Operate with a Full-Speed USB Isolator?
-
 USB 2.0 full speed is a significantly slower and older USB specification, primarily used by older PC peripherals as well as devices requiring low USB bandwidth, such as USB mice and keyboards. All Saleae devices were designed to operate either over USB 2.0 high speed or USB 3.0 super speed.
 
 The main reason you may want to operate a Saleae device over USB full speed is so the device can be used with an inexpensive USB 2.0 full speed isolator.
@@ -12,9 +10,7 @@ All devices were tested using a USB 1.1 hub. Only the original Logic is able to 
 
 There are USB 2.0 high speed and USB 3.0 super speed isolators now on the market. For recommendations on these, please see this article.
 
-{% content-ref url="../electrical-characteristics/suggestions-for-electrical-isolation.md" %}
-[suggestions-for-electrical-isolation.md](../electrical-characteristics/suggestions-for-electrical-isolation.md)
-{% endcontent-ref %}
+[Electrical Isolation Suggestions](../electrical-characteristics/suggestions-for-electrical-isolation.md)
 
 
 

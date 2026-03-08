@@ -1,5 +1,3 @@
-# Binary Export Format (Digital) - Logic 1.x
-
 The Binary export option in the Saleae software is used to export the captures signals to a binary file. The Binary export option can export either digital samples or analog samples but does not support exporting both to the same file.
 
 The Binary exported file is stored LittleEndian, as is standard for x86 platforms.
@@ -32,13 +30,11 @@ The following Export Format and Binary Settings will produce a binary data expor
 
 ![](../../.gitbook/assets/2019-06-27_1947.png)
 
-### What About Analog Data?&#x20;
+### What About Analog Data? 
 
 Analog binary analog export does contain a basic header before the data sections. You can find full details on the analog binary export format here:
 
-{% content-ref url="./data-export-format-analog-binary.md" %}
-[data-export-format-analog-binary.md](./data-export-format-analog-binary.md)
-{% endcontent-ref %}
+[Binary Export Format (Analog) - Logic 1.x](./data-export-format-analog-binary.md)
 
 
 

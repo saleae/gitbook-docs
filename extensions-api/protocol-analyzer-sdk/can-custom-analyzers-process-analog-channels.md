@@ -1,14 +1,10 @@
-# Can Custom Analyzers Process Analog Channels?
-
 The Analyzer SDK does not have the ability to process analog channels.
 
 If you need the ability to run code against the analog data, the best option is to export that data to a file and then process it in a separate application or script. There are a number of export options in the Saleae software, and the process of capturing and exporting can be automated using out automation socket API.
 
 Socket API details are below.
 
-{% content-ref url="../automation-api/automation.md" %}
-[automation.md](../automation-api/automation.md)
-{% endcontent-ref %}
+[Automation API - Logic 2](../automation-api/automation.md)
 
 If you are a Matlab user, exporting directly to Matlab may be best.
 

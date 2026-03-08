@@ -1,5 +1,3 @@
-# How to Manage Protocol Analyzers when Using the Socket API
-
 The socket API can be used to automate the process of taking a capture, saving it, and exporting protocol results. However, it cannot be used to add, remove, or configure protocol analyzers.
 
 In order to manage protocol analyzers using the socket API, \*.logicsettings files must be used.
@@ -18,8 +16,6 @@ Unfortunately, there is no way to edit the settings individually. If you need to
 
 The analyzer settings are saved in that string. You can either save several \*.logicsettings files to guess which value corresponds to which setting, or you can download the source code to all of the analyzers below:
 
-{% content-ref url="../../../product/user-guide/extensions-apis-and-sdks/saleae-api-and-sdk/protocol-analyzer-sdk/" %}
 [protocol-analyzer-sdk](../../../product/user-guide/extensions-apis-and-sdks/saleae-api-and-sdk/protocol-analyzer-sdk/)
-{% endcontent-ref %}
 
 See AnalyzerSettings::SaveSettings() for details. Be careful when editing the file from your application to preserve all other characters in the file. Also, the length of the string might be serialized in binary, so changing the length of the string could be difficult.

@@ -1,5 +1,3 @@
-# SPI - Frame Format
-
 ## Output Frame Format
 
 ### Frame Type: `"enable"`

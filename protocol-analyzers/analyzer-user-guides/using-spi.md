@@ -1,5 +1,3 @@
-# SPI Analyzer - User Guide
-
 The Saleae software includes a protocol analyzer for the Serial Peripheral Interface (SPI) bus.
 
 ![SPI Decoding in the Logic 2 Software](../../.gitbook/assets/SPI-Example.png)
@@ -18,13 +16,13 @@ Next, select the remaining settings you are using. If you are unsure what settin
 * Bits per transfer. This is almost always 8 bits but can be set up to 64 bits.
 *   Clock polarity
 
-    &#x20; Clock polarity is basically the idle state of the clock in between SPI transactions. Whatever the idle clock state is when the enable signal becomes active, use this value (high or low).
+      Clock polarity is basically the idle state of the clock in between SPI transactions. Whatever the idle clock state is when the enable signal becomes active, use this value (high or low).
 *   Clock phase
 
-    &#x20; Clock phase selects which edge the data is read on. Please note that leading and trailing do not correspond to rising and falling, which can lead to confusion. The leading edge is defined as the first edge on the clock signal after the enable line becomes active. If the clock is idle high, then the leading edge is the falling edge. If the clock is idle low, then the leading edge is the rising edge. This is the edge where data will be read from the data lines.&#x20;
+      Clock phase selects which edge the data is read on. Please note that leading and trailing do not correspond to rising and falling, which can lead to confusion. The leading edge is defined as the first edge on the clock signal after the enable line becomes active. If the clock is idle high, then the leading edge is the falling edge. If the clock is idle low, then the leading edge is the rising edge. This is the edge where data will be read from the data lines. 
 *   Active low/active high enable
 
-    &#x20; Only applies when an enable signal is used. Defines the state of the enable signal when the SPI analyzer will read the data signals.&#x20;
+      Only applies when an enable signal is used. Defines the state of the enable signal when the SPI analyzer will read the data signals. 
 
 ### **Multiple Devices / Enable Signals**
 
@@ -76,9 +74,7 @@ Here's how this is done:
 1. Place a timing marker just before the start of the first valid SPI byte.
 2. Delete the data before the timing marker **(please note this cannot be undone)**. Instructions are provided in the support article below.
 
-{% content-ref url="../../logic-software/viewing-and-analyzing-data/delete-data.md" %}
-[delete-data.md](../../logic-software/viewing-and-analyzing-data/delete-data.md)
-{% endcontent-ref %}
+[Delete Part of your Capture](../../logic-software/viewing-and-analyzing-data/delete-data.md)
 
 
 

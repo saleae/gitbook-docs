@@ -1,5 +1,3 @@
-# Place an Online Order
-
 To place a direct online order with us, please follow the steps below.
 
 * **Navigate** to our [Home page here](https://www.saleae.com/).

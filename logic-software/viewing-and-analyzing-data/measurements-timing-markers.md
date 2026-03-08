@@ -1,5 +1,3 @@
-# Measurements, Timing Markers & Notes
-
 ### Measurements
 
 Measurements in the Logic 2 software can be added via the "Timing Markers, Measurements & Notes" side panel button on the right. Once the panel is opened, add a measurement by clicking the "+" button next to "Measurements." Afterwards, you can click and drag across your desired channel and waveform region to add a measurement box. As a shortcut, you can hold SHIFT while clicking and dragging across your waveform to add a measurement box.
@@ -8,15 +6,13 @@ Measurements in the Logic 2 software can be added via the "Timing Markers, Measu
 Adding Measurements
 {% endembed %}
 
-The measurements that are made (called metrics) depend on the type of data you are measuring (analog or digital) and the installed measurement extensions in the software.&#x20;
+The measurements that are made (called metrics) depend on the type of data you are measuring (analog or digital) and the installed measurement extensions in the software. 
 
 #### Installing More Measurements
 
 The "Clock Stats" and the "Voltage RMS" measurement extensions are installed by default. You can also view and install custom submitted Measurement Extensions via the "Extensions" panel button on the right of the software. More information on this can be found below.
 
-{% content-ref url="../../extensions-api/extensions/installing-extensions.md" %}
-[installing-extensions.md](../../extensions-api/extensions/installing-extensions.md)
-{% endcontent-ref %}
+[Extension Installation](../../extensions-api/extensions/installing-extensions.md)
 
 ### Timing Markers
 

@@ -1,5 +1,3 @@
-# Can These Products Replace an Oscilloscope?
-
 Not exactly. The Saleae products are logic analyzers with analog data logging, not mixed signal oscilloscopes.
 
 The analog inputs on the new Saleae products are lower bandwidth than oscilloscopes. They do not have variable gain and shift inputs, which means the input voltage range is fixed.

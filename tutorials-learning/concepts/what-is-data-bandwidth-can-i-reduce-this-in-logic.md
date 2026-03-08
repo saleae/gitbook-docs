@@ -1,5 +1,3 @@
-# What is Data Bandwidth? Can I Reduce this in Logic?
-
 Data bandwidth refers to the rate at which data is transmitted across a digital line. When discussing Saleae Logic, data bandwidth typically refers to the data rate across the USB cable to the PC.
 
 ### Can I Reduce Logic's USB Bandwidth?
@@ -11,9 +9,7 @@ If needed, there are several methods to reduce Logic's USB bandwidth usage. Sinc
 3. Using Logic through a USB hub
 4. Running into the error message linked below, signaling low bandwidth availability
 
-{% content-ref url="../../troubleshooting/capture-and-recording-issues/device-not-able-to-keep-up.md" %}
-[device-not-able-to-keep-up.md](../../troubleshooting/capture-and-recording-issues/device-not-able-to-keep-up.md)
-{% endcontent-ref %}
+[Error Message: ReadTimeout](../../troubleshooting/capture-and-recording-issues/device-not-able-to-keep-up.md)
 
 ### Situations to Avoid
 

@@ -1,8 +1,6 @@
-# Error Message: Unable to detect WebGL and Other GPU Issues
-
-{% hint style="info" %}
+<div class="callout callout-info">
 We've received reports of Logic 2.3.41 and later versions having incompatibility issues with certain graphics cards released greater than 8 years ago, namely AMD Radeon graphics cards. We're monitoring a list of graphics cards with known incompatiliby issues with our app in the [forum post here](https://ideas.saleae.com/b/feature-requests/support-older-graphics-cards/).
-{% endhint %}
+</div>
 
 Upon launching the Logic 2 software, you may experience an immediate crash, or an error message may appear, stating either of the following:
 
@@ -43,9 +41,7 @@ You may want to try launching an older version of the Logic 2 app, specificall [
 
 If the above solutions fail, you may want to try our older Logic 1.x software downloadable below. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) as well and let us know the tests you have ran, as well as the information we ask for below about your PC. Similar to the previous solution, we don't recommend using this version long term as it is now several versions outdated, but might reveal some clues depending on its behavior.
 
-{% content-ref url="../../logic-software/download-and-installation/older-software-releases.md" %}
-[older-software-releases.md](../../logic-software/download-and-installation/older-software-releases.md)
-{% endcontent-ref %}
+[Logic 1.x Download (Deprecated)](../../logic-software/download-and-installation/older-software-releases.md)
 
 ### Contacting Support
 
@@ -61,9 +57,7 @@ When [contacting us](https://contact.saleae.com/hc/en-us/requests/new), please l
 * Results of the following tests ([WebGL v1](https://webglreport.com/?v=1) and [WebGL v2](https://webglreport.com/?v=2))
 * In case you can launch [Logic 2.3.40](https://ideas.saleae.com/f/changelog/2340/) successfully, please send us your machine ID. Instructions are linked below.
 
-{% content-ref url="../diagnostic-tools/sharing-your-machine-id.md" %}
-[sharing-your-machine-id.md](../diagnostic-tools/sharing-your-machine-id.md)
-{% endcontent-ref %}
+[Getting your Machine ID](../diagnostic-tools/sharing-your-machine-id.md)
 
 
 

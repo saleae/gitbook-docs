@@ -1,5 +1,3 @@
-# Logic Reports Different USB Current Requirements
-
 All Saleae devices are powered from USB.
 
 When first connected, before the Saleae Logic software has connected to the device, the device will stay in an uninitialized state. In that state, the interface descriptor will report a lower USB current requirement.

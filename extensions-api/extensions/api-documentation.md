@@ -1,10 +1,8 @@
-# API Documentation
-
 ## `saleae.data`
 
 ### _class_ saleae.data.GraphTime(datetime: datetime, millisecond=0, \*, microsecond=0, nanosecond=0, picosecond=0)
 
-A high-precision wall clock time.&#x20;
+A high-precision wall clock time. 
 
 The primary way to use this type is to subtract two `GraphTime`s to produce a `GraphTimeDelta`. `GraphTimeDelta`s may be freely added and subtracted from each other, and converted to floating point seconds. They can also be added to or subtracted from `GraphTime`s to produce a suitable offset `GraphTime`.
 

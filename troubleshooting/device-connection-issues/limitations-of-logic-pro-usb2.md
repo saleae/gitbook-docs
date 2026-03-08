@@ -1,5 +1,3 @@
-# Warning Message: Logic Pro is running as a USB 2.0 device
-
 Logic Pro 8 & Logic Pro 16 can both be used with USB 2.0 or USB 3.0 ports. However, there are some restrictions when using them with USB 2.0 ports. In [Logic v2.x](https://ideas.saleae.com/f/changelog/), you will be prompted with the following message.
 
 _Your Logic Pro is running as a USB 2.0 device. The sample rate will be limited and some channels might be disabled. Please verify that your USB cable and USB port support USB 3.0._
@@ -12,15 +10,13 @@ When connected via USB 2.0, Logic Pro 8 & Logic Pro 16 operate with a lower maxi
 
 ### Number of Channels Limitation
 
-In addition, Logic Pro 16 draws slightly more current than what USB 2.0 ports are rated. Because of this, by default, only 8 of the 16 channels are active when connected to a USB 2.0 port.&#x20;
+In addition, Logic Pro 16 draws slightly more current than what USB 2.0 ports are rated. Because of this, by default, only 8 of the 16 channels are active when connected to a USB 2.0 port. 
 
 ### Capture Settings Will Not Persist
 
 When connecting our USB 3.0 Logic analyzers (Logic Pro 8 and Logic Pro 16) via a USB 2.0 cable, capture settings will not persist when closing and re-opening the software. In this case, we recommend saving capture setting presets as described in the support article below.
 
-{% content-ref url="../../logic-software/saving-and-exporting-data/saving-loading-and-exporting-data.md" %}
-[saving-loading-and-exporting-data.md](../../logic-software/saving-and-exporting-data/saving-loading-and-exporting-data.md)
-{% endcontent-ref %}
+[Capture & Preset File Management](../../logic-software/saving-and-exporting-data/saving-loading-and-exporting-data.md)
 
 ## Legacy Information for Logic 1.x Only
 

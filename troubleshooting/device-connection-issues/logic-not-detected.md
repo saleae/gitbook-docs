@@ -1,22 +1,16 @@
-# Logic is Not Detected
-
 ## **Part 1: Troubleshooting the Hardware for Issues**
 
 First, we will want to test if the Logic hardware or the USB cable has issues. We have a set of hardware tests in the support article below for submitting a warranty claim.
 
-{% content-ref url="../../ordering-returns/process-a-warranty.md" %}
-[process-a-warranty.md](../../ordering-returns/process-a-warranty.md)
-{% endcontent-ref %}
+[Submit a Warranty Claim](../../ordering-returns/process-a-warranty.md)
 
 If the device works at least once during the tests described in the support article linked above, it may be a problem that's solvable with software or driver updates. In that case, please proceed to Part 2: Troubleshooting the Connection to the Software below.
 
 ## **Part 2: Troubleshooting the Connection to the Software**
 
-First, if you are troubleshooting Logic Pro 8 or Logic Pro 16, please check the link below to double check its connection to your PC via USB 3.0. &#x20;
+First, if you are troubleshooting Logic Pro 8 or Logic Pro 16, please check the link below to double check its connection to your PC via USB 3.0.  
 
-{% content-ref url="./logic-does-not-connect-over-usb3.md" %}
-[logic-does-not-connect-over-usb3.md](./logic-does-not-connect-over-usb3.md)
-{% endcontent-ref %}
+[Logic Does Not Connect over USB 3.0](./logic-does-not-connect-over-usb3.md)
 
 Please note that the windows driver update check will NOT update USB 3.0 host controller drivers. These are not included in the Windows update driver database and must be manually updated
 
@@ -53,9 +47,7 @@ This is called the software connection procedure. It needs to be repeated in ord
 * We have heard reports of the Logic 2 app failing to detect the Logic hardware, even though the hardware is being successfully detected by the PC via lsusb (i.e. the VID/PID of the Logic hardware appear correct). Launching `sudo Logic --no-sandbox` seems to solves it for these users. For more information, this solution is discussed further in the [forum post here](https://discuss.saleae.com/t/unable-to-start-on-ubuntu-20-04/474).
 * When the Logic 2 app is opened, a udev rule file is checked. If the udev rule is missing, then an error message will popup to prompt you to install the proper udev rule file. Please refer to the support article below, specifically under the section titled _Linux Ubuntu Instructions_, for more information on the solution.
 
-{% content-ref url="../../logic-software/download-and-installation/driver-install.md" %}
-[driver-install.md](../../logic-software/download-and-installation/driver-install.md)
-{% endcontent-ref %}
+[Driver Install](../../logic-software/download-and-installation/driver-install.md)
 
 If neither of the above solve the connection issue, this likely means that the Logic 2 app is able to connect to the device but some error occurs during the connection, and the software silently fails to connect. If the issue persists, please skip to _Contacting Support_ at the bottom of this article.
 
@@ -65,7 +57,7 @@ If neither of the above solve the connection issue, this likely means that the L
 
     This message is shown when the OS denies access to the device. In rare cases, this message could be shown from a false positive. If the software still connects after closing the warning, you can continue normally.
 
-    This situation typically happens for two reasons. First, another instance of Logic is running and has already taken exclusive control of the device.&#x20;
+    This situation typically happens for two reasons. First, another instance of Logic is running and has already taken exclusive control of the device. 
 
     Second, the software does not have permissions to access the device. This is extremely rare, even in the presence of enterprise permission environments. Try running the software as the administrator to see if that works.
 
@@ -86,23 +78,21 @@ If the device fails to re-enumerate after the firmware download completes, the s
 * Start the software. Wait 10 seconds.
 *   Recheck to see if the device is still listed.
 
-    &#x20; On Windows, Device Manager should automatically refresh in a few seconds if the device state changed.
+      On Windows, Device Manager should automatically refresh in a few seconds if the device state changed.
 
-    &#x20; On Linux, rerun lsusb. Is the device still listed? Its name may have changed. Check by VID and PID.
+      On Linux, rerun lsusb. Is the device still listed? Its name may have changed. Check by VID and PID.
 
-    &#x20; On OSX, you must manually refresh system report from the menu since it does not auto-refresh. Check to see if the device is still listed, missing, or if its name has changed to "Saleae Logic...".
+      On OSX, you must manually refresh system report from the menu since it does not auto-refresh. Check to see if the device is still listed, missing, or if its name has changed to "Saleae Logic...".
 
     * If the device is no longer listed, that means the firmware download finished and the device disconnected but never reconnected. If connected to a USB 3.0 port, it could indicate a USB 3.0 host controller or driver issue. If connected to a 3.0 port with a 3.0 cable, it could indicate a host controller issue, a host driver issue, or a USB 3.0 cable issue.
 *   Retest on both USB 3.0 and USB 2.0 ports, with USB 3.0 and USB 2.0 cables, if applicable.
 
-    &#x20; If the device only works over USB 2.0, then it is most likely a host controller driver issue or a USB cable issue.
+      If the device only works over USB 2.0, then it is most likely a host controller driver issue or a USB cable issue.
 
-    &#x20; If the device only works over USB 3.0, or if on one or more computers it does not work over USB 2.0, please contact support, as this may be a new issue.
+      If the device only works over USB 3.0, or if on one or more computers it does not work over USB 2.0, please contact support, as this may be a new issue.
 * Collect more information. Follow the instructions in the article below in the section titled "Steps to Collect Additional Data" to capture the console output of the software, which may contain more information of the issue preventing the device from reconnecting.
 
-{% content-ref url="../software-crashes-and-errors/software-has-crashed.md" %}
-[software-has-crashed.md](../software-crashes-and-errors/software-has-crashed.md)
-{% endcontent-ref %}
+[The Software Crashes](../software-crashes-and-errors/software-has-crashed.md)
 
 **The Device Re-enumerates after Firmware Download, but an Error Immediately Occurs**
 
@@ -126,17 +116,11 @@ Please provide the following information:
        Once you have found the host controller, take note of the full name. Then check the driver version.
 6. Send us your Machine ID, software crash logs, and console output (instructions are provided in the links below).
 
-{% content-ref url="../diagnostic-tools/sharing-your-machine-id.md" %}
-[sharing-your-machine-id.md](../diagnostic-tools/sharing-your-machine-id.md)
-{% endcontent-ref %}
+[Getting your Machine ID](../diagnostic-tools/sharing-your-machine-id.md)
 
-{% content-ref url="../diagnostic-tools/sharing-crash-logs.md" %}
-[sharing-crash-logs.md](../diagnostic-tools/sharing-crash-logs.md)
-{% endcontent-ref %}
+[Getting your Software Crash Logs](../diagnostic-tools/sharing-crash-logs.md)
 
-{% content-ref url="../diagnostic-tools/console-output.md" %}
-[console-output.md](../diagnostic-tools/console-output.md)
-{% endcontent-ref %}
+[Getting the Console Output](../diagnostic-tools/console-output.md)
 
 
 

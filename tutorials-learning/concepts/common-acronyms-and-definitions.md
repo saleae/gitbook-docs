@@ -1,107 +1,105 @@
-# Common Acronyms and Definitions
+*   MSPS 
 
-*   MSPS&#x20;
+      or MS/s
 
-    &#x20; or MS/s
-
-    &#x20; megasamples per second, or millions of samples per second
+      megasamples per second, or millions of samples per second
 *   kSPS
 
-    &#x20; or kS/s
+      or kS/s
 
-    &#x20; kilosamples per second, or thousands of samples per second
+      kilosamples per second, or thousands of samples per second
 *   SPS
 
-    &#x20; or S/s
+      or S/s
 
-    &#x20; samples per second
+      samples per second
 *   V
 
-    &#x20; volt
+      volt
 *   mV
 
-    &#x20; millivolt, or a thousandth of a volt
+      millivolt, or a thousandth of a volt
 *   s
 
-    &#x20; seconds
+      seconds
 *   ms
 
-    &#x20; millisecond, or a thousandth of a second
+      millisecond, or a thousandth of a second
 *   us
 
-    &#x20; microsecond, or a millionth of a second
+      microsecond, or a millionth of a second
 *   ns
 
-    &#x20; nanosecond, or a billionth of a second
+      nanosecond, or a billionth of a second
 *   I2C
 
-    &#x20; Inter-Integrated Circuit
+      Inter-Integrated Circuit
 *   SPI
 
-    &#x20; Serial Peripheral Interface
+      Serial Peripheral Interface
 *   SWI
 
-    &#x20; Single Wire Interface (Atmel)
+      Single Wire Interface (Atmel)
 *   CAN
 
-    &#x20; Controller Area Network
+      Controller Area Network
 *   HDLC
 
-    &#x20; High-level Data Link Control
+      High-level Data Link Control
 *   HDMI CEC
 
-    &#x20; High-Definition Multimedia Interface Consumer Electronics Control
+      High-Definition Multimedia Interface Consumer Electronics Control
 *   I2S
 
-    &#x20; Inter-IC Sound
+      Inter-IC Sound
 *   PCM
 
-    &#x20; Pulse-Code Modulation
+      Pulse-Code Modulation
 *   JTAG
 
-    &#x20; Joint Test Action Group
+      Joint Test Action Group
 *   LIN
 
-    &#x20; Local Interconnect Network
+      Local Interconnect Network
 *   MDIO
 
-    &#x20; Management Data Input/Output
+      Management Data Input/Output
 *   MIDI
 
-    &#x20; Musical Instrument Digital Interface
+      Musical Instrument Digital Interface
 *   SMBus
 
-    &#x20; System Management Bus
+      System Management Bus
 *   SWD
 
-    &#x20; Serial Wire Debug
+      Serial Wire Debug
 *   UNI/O
 
-    &#x20; (not an acronym), a protocol made by Microchip
+      (not an acronym), a protocol made by Microchip
 *   USB LS/FS
 
-    &#x20; Universal Serial Bus Low Speed / Full Speed
+      Universal Serial Bus Low Speed / Full Speed
 *   Baud rate
 
-    &#x20; data rate measured in bits per second
+      data rate measured in bits per second
 *   MSB
 
-    &#x20; most significant bit
+      most significant bit
 *   LSB
 
-    &#x20; least significant bit
+      least significant bit
 *   Parity
 
-    &#x20; additional information added to the data to provide error detection information
+      additional information added to the data to provide error detection information
 *   Processing backlog
 
-    &#x20; In the Saleae software, the data recorded from the device is transformed to the storage format as it is recorded, in near-real time. If the process is unable to keep up with the recording in real time, the processing backlog will grow as unprocessed data are buffered.
+      In the Saleae software, the data recorded from the device is transformed to the storage format as it is recorded, in near-real time. If the process is unable to keep up with the recording in real time, the processing backlog will grow as unprocessed data are buffered.
 *   Trigger backlog
 
-    &#x20; In the Saleae software, when the trigger is used, the processed data are then fed into the trigger in near real-time. If the trigger thread is unable to process the already transformed data in real time, the trigger backlog will grow as processed (but not yet searched) data are buffered.
-*   MHz (Megahertz)&#x20;
+      In the Saleae software, when the trigger is used, the processed data are then fed into the trigger in near real-time. If the trigger thread is unable to process the already transformed data in real time, the trigger backlog will grow as processed (but not yet searched) data are buffered.
+*   MHz (Megahertz) 
 
-    &#x20; Millions of cycles per second. It is a measure of frequency, usually in reference to bandwidth.
+      Millions of cycles per second. It is a measure of frequency, usually in reference to bandwidth.
 *   Protocol Analyzer
 
-    &#x20; A software plugin for the Saleae software that will decode standardized signals into bytes.
+      A software plugin for the Saleae software that will decode standardized signals into bytes.

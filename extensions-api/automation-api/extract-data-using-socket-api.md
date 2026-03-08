@@ -1,5 +1,3 @@
-# How Can I Extract Recorded Data Using Socket API?
-
 The Saleae Logic software's scripting API was designed to allow developers to automate different operations in the Logic software. Unfortunately, it does not provide a nice interface for reading and manipulating captured data out of the box.
 
 To develop an application where you want to automatically capture data and then access it from your custom application, the following process has to be used.
@@ -13,9 +11,7 @@ In the case of exporting analyzer results (such as I2C packets, serial data, etc
 
 More information about the socket API can be found here:
 
-{% content-ref url="./automation.md" %}
-[automation.md](./automation.md)
-{% endcontent-ref %}
+[Automation API - Logic 2](./automation.md)
 
 The first two steps listed above can easily be accomplished by using the sample code provided by the socket API.
 

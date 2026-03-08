@@ -1,5 +1,3 @@
-# Capture Modes
-
 ### Timer Mode
 
 The timer mode is the simplest mode of data capture. A pre-defined duration is set by the user and the capture will end once the duration is reached. In the example video below, we set the capture duration to 5s. The recording will stop once 5s is reached.
@@ -10,7 +8,7 @@ Timer Mode Capture
 
 ### Looping Mode
 
-The looping mode allows for a continuous recording into a RAM buffer, the size of which can be set by the user. Once the RAM buffer is filled, old data is deleted while new data arrives, and the capture can continue indefinitely in a continuous loop. When the capture ends, the data can be trimmed down to a certain length via the _Trim data after stopping_ setting, keeping the most recent data.&#x20;
+The looping mode allows for a continuous recording into a RAM buffer, the size of which can be set by the user. Once the RAM buffer is filled, old data is deleted while new data arrives, and the capture can continue indefinitely in a continuous loop. When the capture ends, the data can be trimmed down to a certain length via the _Trim data after stopping_ setting, keeping the most recent data. 
 
 In the example video below, we set the _Memory buffer size_ to 500 MB. Notice that, during the capture, the memory usage does not go above the set _Memory_ value of 500 MB during the continuous recording.
 
@@ -65,15 +63,13 @@ At the moment, we don't have a way of automatically jumping to trigger point aft
 
 Navigate to the "Analyzers" panel and enable "Trigger View." From there, select the protocol analyzer you would like to trigger on, as well as the query value and holdoff time. HLA results can also be triggered on via this method.
 
-{% hint style="info" %}
+<div class="callout callout-info">
 Please note that Trigger View is only supported for the analyzers listed in the support article link below (Titled _HLA - Analyzer Frame Format_). This means that custom analyzers, including pre-installed analyzers that are not listed, will not work with Trigger View.
 
 This is due to our Trigger View relying on a new low level analyzer framing format that we call “frame v2.” Only a handful of analyzers support “frame v2” at the moment, and these are the analyzers that work with Trigger View. We eventually want to extend Trigger View support to all analyzers in the future. Feel free to vote on this feature request [here](https://ideas.saleae.com/b/feature-requests/trigger-view-support-for-more-analyzers/)!
-{% endhint %}
+</div>
 
-{% content-ref url="../extensions-apis-and-sdks/extensions/analyzer-frame-types/" %}
 [analyzer-frame-types](../extensions-apis-and-sdks/extensions/analyzer-frame-types/)
-{% endcontent-ref %}
 
 {% embed url="https://vimeo.com/489642936" %}
 Trigger View - SPI Example

@@ -1,5 +1,3 @@
-# Device Settings
-
 The Device Settings Panel can be opened up by clicking on the Device Settings icon located on the software's side panel on the right.
 
 ![Device Settings Button](<../../.gitbook/assets/Screen Shot 2021-12-07 at 1.51.02 PM.png>)
@@ -24,7 +22,7 @@ Our tutorial video below demonstrates setting some basic settings such as enabli
 
 ### Channels & Sampling Rate
 
-Individual digital and analog channels can be enabled and disabled as needed. In addition, the sampling rate for digital and analog channels respectively can also be adjusted.&#x20;
+Individual digital and analog channels can be enabled and disabled as needed. In addition, the sampling rate for digital and analog channels respectively can also be adjusted. 
 
 {% embed url="https://vimeo.com/454542912" %}
 Enabling/Disabling Channels
@@ -46,31 +44,25 @@ In the example image below, selecting Digital 125 MS/s will **increase** (<mark 
 
 Logic Pro 8, Logic Pro 16, and our Original Logic16 all feature adjustable voltage thresholds, which can be set via the voltage dropdown setting next to the digital sampling rate setting. The _3.3+ Volts_ setting, for example, will set the voltage threshold to half that value, or 1.65 V. Our other logic analyzer models have a fixed voltage threshold, and therefore do not have this setting. For more information on the voltage setting options and thresholds, see our support article on this below.
 
-{% content-ref url="../../specifications-hardware/electrical-characteristics/supported-voltages.md" %}
-[supported-voltages.md](../../specifications-hardware/electrical-characteristics/supported-voltages.md)
-{% endcontent-ref %}
+[Supported Voltages](../../specifications-hardware/electrical-characteristics/supported-voltages.md)
 
 ### Capture Settings Presets
 
 Capture settings presets can be saved and loaded locally as needed. You can navigate to the support article below for more information on this.
 
-{% content-ref url="../saving-and-exporting-data/saving-loading-and-exporting-data.md" %}
-[saving-loading-and-exporting-data.md](../saving-and-exporting-data/saving-loading-and-exporting-data.md)
-{% endcontent-ref %}
+[Capture & Preset File Management](../saving-and-exporting-data/saving-loading-and-exporting-data.md)
 
 ### Capture Modes - Looping, Timer, & Trigger
 
 For more information on the available capture modes and their specific settings, see the support article below.
 
-{% content-ref url="./capture-modes.md" %}
-[capture-modes.md](./capture-modes.md)
-{% endcontent-ref %}
+[Capture Modes](./capture-modes.md)
 
 ### LED Settings and Color
 
-{% hint style="info" %}
+<div class="callout callout-info">
 Unfortunately this feature is not available in the newer Logic 2 software. If you would like to see this feature implemented, please vote on it [here](https://ideas.saleae.com/b/feature-requests/change-the-led-color-on-the-unit/)!
-{% endhint %}
+</div>
 
 
 

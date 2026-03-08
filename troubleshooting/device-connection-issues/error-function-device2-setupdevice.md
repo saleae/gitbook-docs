@@ -1,5 +1,3 @@
-# Error Function: Device2::SetupDevice
-
 This error only affects Logic software versions 1.2.29 and older and has since been fixed in 1.2.40. Specifically, the logic software will run fine while a logic analyzer is not connected, but the moment a logic analyzer is connected, the Logic software will crash.
 
 To solve this issue, we recommend using the following version of the software.
@@ -7,9 +5,7 @@ To solve this issue, we recommend using the following version of the software.
 * [Logic 2](https://www.saleae.com/downloads/)
 * Logic 1.2.40 (Download link provided below)
 
-{% content-ref url="../../logic-software/download-and-installation/older-software-releases.md" %}
-[older-software-releases.md](../../logic-software/download-and-installation/older-software-releases.md)
-{% endcontent-ref %}
+[Logic 1.x Download (Deprecated)](../../logic-software/download-and-installation/older-software-releases.md)
 
 In case you have any trouble with the solutions above, please [contact us](https://contact.saleae.com/hc/en-us/requests/new) and we can help towards a resolution.
 
@@ -28,9 +24,7 @@ Function: Device2::SetupDevice, Line: 118
 
 The location of the generated crash logs can be found in the support article below.
 
-{% content-ref url="../diagnostic-tools/sharing-crash-logs.md" %}
-[sharing-crash-logs.md](../diagnostic-tools/sharing-crash-logs.md)
-{% endcontent-ref %}
+[Getting your Software Crash Logs](../diagnostic-tools/sharing-crash-logs.md)
 
 We discovered this to be a bug with our logic analyzers in combination with the following processors, OSes, and PC models.
 

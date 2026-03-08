@@ -1,5 +1,3 @@
-# How Do You Pronounce Saleae?
-
 Saleae is pronounced say-lee-a, with the emphasis (stress) on the first syllable, as in SAY-lee-a. As you may have guessed, our customers tend to come up with their own pronunciations, and that's perfectly okay with us. :)
 
 {% embed url="https://vimeo.com/402659429" %}

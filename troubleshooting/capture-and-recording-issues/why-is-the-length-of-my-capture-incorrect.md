@@ -1,6 +1,4 @@
-# Why is the Length of my Capture Incorrect?
-
-In the Timer Capture Mode, the Logic 2 software will typically capture slightly more data than what is specified under the "Stop recording after" setting.&#x20;
+In the Timer Capture Mode, the Logic 2 software will typically capture slightly more data than what is specified under the "Stop recording after" setting. 
 
 For example:
 

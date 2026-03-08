@@ -1,14 +1,10 @@
-# Converting I2S/PCM Captures into Audio
-
 ### Converting Captures into WAV
 
 Unfortunately, our software does not natively support this feature. Currently, a 3rd party tool exists called [PCM2Wav](https://github.com/roel0/PCM2Wav-py), which can help convert Logic captures into WAV files. We did not originally develop this utility, and therefore, It is best advised to contact the original author in case you run into any issues.
 
 In addition, the I2S analyzer source code is available, in case anyone would like to try implementing their own version using our Protocol Analyzer SDK below.
 
-{% content-ref url="../../../product/user-guide/extensions-apis-and-sdks/saleae-api-and-sdk/protocol-analyzer-sdk/" %}
 [protocol-analyzer-sdk](../../../product/user-guide/extensions-apis-and-sdks/saleae-api-and-sdk/protocol-analyzer-sdk/)
-{% endcontent-ref %}
 
 ### Comparing an I2S/PCM Capture with an Existing Audio File
 

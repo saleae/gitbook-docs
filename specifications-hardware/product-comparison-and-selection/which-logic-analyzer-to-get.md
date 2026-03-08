@@ -1,5 +1,3 @@
-# Which Logic Analyzer Should I Get?
-
 Saleae produces four logic analyzers with a range of capabilities. If you are unsure of which one you will need based on the technical specifications alone, you can find common applications and recommendations here.
 
 Please also keep in mind that Saleae offers a 180-day return policy, which includes return shipping. If you decide that you need to upgrade your device or you don't need all the capabilities of the unit you purchased, you have 180 days to change your mind.
@@ -16,11 +14,11 @@ Typical applications where you would need a Logic 8 instead of a Logic 4:
 
 *   Recording more than 4 signals at once. Examples:
 
-    &#x20; A mix of debug IO pins and protocols
+      A mix of debug IO pins and protocols
 
-    &#x20; SPI bus with multiple slave select lines
+      SPI bus with multiple slave select lines
 
-    &#x20; Up to 8 channels of serial
+      Up to 8 channels of serial
 * Recording higher-speed protocols such as USB full speed or JTAG. Logic 8 can sample at up to 100 MHz on 3 channels.
 * Taking higher precision-duty cycle and frequency measurements. When taking precise frequency or duty cycle measurements, significant oversampling is required, preferably 100x or higher.
 * Recording multiple channels of analog such as stereo sound or audio at multiple points of a filter chain.

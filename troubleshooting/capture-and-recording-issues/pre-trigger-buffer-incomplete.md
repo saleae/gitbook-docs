@@ -1,5 +1,3 @@
-# Pre-Trigger Buffer is Incomplete
-
 When the Start button is clicked, the Logic software begins recording data into the pre-trigger buffer until the trigger event occurs.
 
 In cases where the trigger event occurs almost immediately after the Start button is clicked, it may seem that the pre-trigger buffer size setting was ignored and the buffer may look incomplete.

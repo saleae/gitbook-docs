@@ -1,5 +1,3 @@
-# What is RAM? Why Does Logic Use it?
-
 PCs typically contain and use two hardware memory types. That is the _hard disk_ and _RAM_. Because of their inherent properties, they are used for different purposes.
 
 The _hard disk_ is where your programs and files are stored. This memory type will contain much more memory space than RAM, can keep its contents even while powered-off, and is much slower to access its data than RAM. Examples of hard disks include hard disk drives (using a spinning disk), solid-state drives, and USB flash drives.
@@ -28,18 +26,16 @@ The software will estimate the RAM/memory usage on the device settings popover.
 
 ### Analog Data RAM Usage
 
-* RAM usage for analog data depends on (1) the number of analog channels, (2) the analog sampling rate, and (3) the duration of the capture.&#x20;
+* RAM usage for analog data depends on (1) the number of analog channels, (2) the analog sampling rate, and (3) the duration of the capture. 
 * Analog data is sampled and stored at a fixed rate. Therefore, its RAM usage will increase if any of the 3 properties above increase.
 
 ### Digital Data RAM Usage
 
-* RAM usage for digital data depends on (1) the number of digital channels, (2) toggles/sec of incoming data, and (3) the duration of the capture.&#x20;
+* RAM usage for digital data depends on (1) the number of digital channels, (2) toggles/sec of incoming data, and (3) the duration of the capture. 
 * Contrary to analog captures, digital captures will only store data in RAM when a toggle occurs on the digital channel. For this reason, it is typically recommended to sample at the highest digital sampling rate since it will not use any more memory than using a slower digital sampling rate (assuming the same data is captured). Due to this property, keep in mind that capturing very fast data with a large amount of toggles/sec will consume more RAM than digital data that is mostly inactive, keeping the number of digital channels and duration the same.
 
 ### What If my RAM is Not Enough?
 
 Besides modifying the capture settings or buying more RAM, our Socket API automation script allows users to break extremely long captures into a series of shorter captures that are saved to the hard disk. You can read more about how to implement this below.
 
-{% content-ref url="../../logic-software/capturing-data/automate-long-captures.md" %}
-[automate-long-captures.md](../../logic-software/capturing-data/automate-long-captures.md)
-{% endcontent-ref %}
+[Automating Long Overnight Captures](../../logic-software/capturing-data/automate-long-captures.md)

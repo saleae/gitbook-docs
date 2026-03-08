@@ -1,5 +1,3 @@
-# Demo Mode
-
 When a Saleae Logic device is not connected to the PC while the Logic 2 software is running, an option is provided to run the software in Demo Mode. This allows users to test the capabilities of the software without having to own our logic analyzer.
 
 ![Running the software in Demo Mode](<../../.gitbook/assets/Screen Shot 2021-04-13 at 5.17.22 PM.png>)

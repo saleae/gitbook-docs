@@ -1,14 +1,10 @@
-# Device Settings Configuration Tips
-
 The Gen 2 Saleae Logic devices (Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16) are considerably more capable than Gen 1 (Original Logic and Logic16). The new products have inputs that can be used to record analog, digital, or both. On all but Logic 4, this is applicable to every channel on the device. That leads to many more sample rate options, which can be confusing. In some cases, it makes it harder to decide the optimal capture configuration for your application.
 
 Because of this, we get a fair number of questions about how to choose the optimal capture configuration for an application. To help users determine the best setup for them, we're creating this guide. The guide also contains a number of tips for recording with more complex requirements.
 
 Before moving on with this configuration guide, please first review the article below on device settings:
 
-{% content-ref url="./capture-settings.md" %}
-[capture-settings.md](./capture-settings.md)
-{% endcontent-ref %}
+[Device Settings](./capture-settings.md)
 
 Generally, when starting a capture, make sure you record all the channels you have connected in the correct mode (analog or digital). You also need to make sure you record sufficiently fast in order to accurately record the signal and record long enough to locate the event(s) you are interested in.
 

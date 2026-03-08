@@ -1,5 +1,3 @@
-# Analog Waveforms Do Not Appear on Linux
-
 We're sorry for the trouble with this! On Linux specifically, we have found an issue where analog waveforms may not be rendered properly (i.e. the waveform will be invisible, or analog channels will be blank).
 
 ## The Fix <a href="#the-fix-2" id="the-fix-2"></a>

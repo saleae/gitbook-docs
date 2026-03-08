@@ -1,5 +1,3 @@
-# How Do I Differentiate Data in the Export File when Duplicate Analyzers Are Used?
-
 At times, you might want to use duplicate analyzers. For example, two I2C analyzers might be enabled within a single capture, as shown below.
 
 <figure><img src="../../.gitbook/assets/duplicate_analyzers.png" alt=""><figcaption></figcaption></figure>

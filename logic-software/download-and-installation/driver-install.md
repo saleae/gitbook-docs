@@ -1,5 +1,3 @@
-# Driver Install
-
 Normally, when the Logic software is installed, the product should simply work when connected to the PC. In case you run into any issues with this, the drivers may need to be installed manually.
 
 #### Device Shows up as _WestBridge_ or _unidentified device_
@@ -18,9 +16,9 @@ To manually install your drivers on Windows, in case you're running into the iss
 
 * For the Logic 2 software, the Drivers folder is located below:
   * `C:\Program Files\Logic\Drivers`
-* For the legacy Logic 1.x software (standalone), the Drivers folder is located below:&#x20;
+* For the legacy Logic 1.x software (standalone), the Drivers folder is located below: 
   * `<Logic standalone folder>\Drivers\Windows`
-* For the legacy Logic 1.x software (installed), the Drivers folder is located below:&#x20;
+* For the legacy Logic 1.x software (installed), the Drivers folder is located below: 
   * `C:\Program Files\Saleae LLC\Drivers`
 * In case you don't have a previous installation of the Logic software, we provide the Drivers folder via the download link below.
 
@@ -76,9 +74,9 @@ Saleae Logic Start USB Logic Analyzer\
 Saleae Logic USB Logic Analyzer\
 Saleae Logic 16 USB Logic Analyzer
 
-{% hint style="info" %}
+<div class="callout callout-info">
 It's VERY important to select the correct product. Selecting the wrong product will cause our software to download the wrong firmware image, causing undefined behavior.
-{% endhint %}
+</div>
 
 There is some naming confusion here that I would like to clear up.
 
@@ -92,7 +90,7 @@ The original Logic 16, also discontinued in 2014, uses the "Saleae Logic 16 USB 
 
 When connecting Logic to the USB port and starting the Logic software, the Device Manager may show the device as "Logic Pro." This is incorrect, and may cause issues with operation. The solution is to uninstall and reinstall the Logic driver on the PC.
 
-Solution steps if the device incorrectly appears as "Logic Pro" under Device Manager:&#x20;
+Solution steps if the device incorrectly appears as "Logic Pro" under Device Manager: 
 
 1. Close Logic software, but keep the Logic device connected to the PC
 2. Open Device Manager
@@ -114,7 +112,7 @@ If at the end of this process you still get an error, please [contact support](h
 * Any information that may have been displayed when the drivers failed to install.
 * How does the device show up under Device Manager?
 * The driver install logs locations are described below.
-  * On Windows, it should be located below:&#x20;
+  * On Windows, it should be located below: 
     * `C:\WINDOWS\INF\setupapi.dev.log`
 
 ## Linux Ubuntu Instructions
@@ -123,7 +121,7 @@ When the Logic 2 software is opened, a udev rule file is checked. If the udev ru
 
 ![](<../../.gitbook/assets/Screen Shot 2020-10-22 at 2.48.48 PM.png>)
 
-Instructions:&#x20;
+Instructions: 
 
 1. Ensure the Logic app is running and your Logic analyzer is connected
 2. Open terminal

@@ -1,5 +1,3 @@
-# Error Message: StartCommandError
-
 In the Logic 2 software, you may encounter a _StartCommandError_ message when starting a capture like shown below.
 
 ![StartCommandError Message](<../../.gitbook/assets/Screen Shot 2020-10-06 at 5.04.34 PM.png>)

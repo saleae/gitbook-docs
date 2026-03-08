@@ -1,5 +1,3 @@
-# FrameV2 / HLA Support - Analyzer SDK
-
 The C++ analyzer SDK was created before our new, python high level analyzers were introduced.
 
 High level analyzers allow for new analyzers to be created, which instead of processing the raw input signals recorded by the device, instead process frames produced by C++ analyzers.
@@ -100,15 +98,11 @@ Before writing your own HLA, you can test your C++ Analyzer using the "LLA Frame
 
 Check out our HLA data format documentation:
 
-{% content-ref url="../../extensions/analyzer-frame-types/" %}
 [analyzer-frame-types](../../extensions/analyzer-frame-types/)
-{% endcontent-ref %}
 
 Learn more about building HLAs here:
 
-{% content-ref url="../../extensions/high-level-analyzer-extensions/" %}
 [high-level-analyzer-extensions](../../extensions/high-level-analyzer-extensions/)
-{% endcontent-ref %}
 
 ```python
 // In your HLA, you could decode the FrameV2 objects created above like so:

@@ -1,5 +1,3 @@
-# Returns & Warranty
-
 ### **180-Day Return Policy**
 
 The 180-day return policy only applies to products purchased directly from us, either from our website at [www.saleae.com](https://www.saleae.com/) or from a purchase order. In addition to returning our logic analyzers, the return policy can also be used to return [accessories](https://www.saleae.com/accessories).
@@ -16,9 +14,7 @@ The 3-year warranty always applies, regardless of where you purchased the produc
 
 Please follow the instructions in the link below to submit your warranty claim.
 
-{% content-ref url="./process-a-warranty.md" %}
-[process-a-warranty.md](./process-a-warranty.md)
-{% endcontent-ref %}
+[Submit a Warranty Claim](./process-a-warranty.md)
 
 
 

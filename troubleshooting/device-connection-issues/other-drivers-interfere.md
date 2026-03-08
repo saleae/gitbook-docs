@@ -1,16 +1,10 @@
-# Other Drivers Interfere with Logic's Operation
-
 It is possible for other drivers to associate themselves with a Saleae device. This won't necessarily cause problems, but we have seen at least one issue in the past where a conflict prevented proper operation of the device.
 
 Also, it's always a good idea to verify that your USB 3.0 host controller drivers are up to date below.
 
-{% content-ref url="../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md" %}
-[usb-3.0-host-controller-info.md](../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md)
-{% endcontent-ref %}
+[Finding Your USB 3.0 Host Controller Information](../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md)
 
-{% content-ref url="./usb-driver-problem.md" %}
-[usb-driver-problem.md](./usb-driver-problem.md)
-{% endcontent-ref %}
+[Warning Message: Possible USB Host Controller Problem Detected](./usb-driver-problem.md)
 
 We've seen two types of drivers become associated with a Saleae device.
 

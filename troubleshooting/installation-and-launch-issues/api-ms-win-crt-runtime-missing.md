@@ -1,12 +1,8 @@
-# Missing Files: api-ms-win-crt-runtime-l1-1-0.dll or msvcp140.dll
-
 Versions of the Saleae Logic Windows software starting with 1.2.11 require the Microsoft Visual Studio 2015 runtime to be installed in order to work. This is installed automatically when the software is installed. If you are using the standalone version of the software on Windows, it needs to be installed manually.
 
 Details for the standalone installation can be found here:
 
-{% content-ref url="../../logic-software/download-and-installation/standalone-software-info.md" %}
-[standalone-software-info.md](../../logic-software/download-and-installation/standalone-software-info.md)
-{% endcontent-ref %}
+[Standalone Software Information](../../logic-software/download-and-installation/standalone-software-info.md)
 
 If you see either of the below errors, it is possible that the runtime is not installed properly.
 
@@ -25,9 +21,7 @@ If you see either of the below errors, it is possible that the runtime is not in
     After you have installed the runtime, try restarting the computer and running Logic again.
 3. If the above steps don't solve the issue, please try installing and running version 1.2.10 of our software. You can find it below.
 
-{% content-ref url="../../logic-software/download-and-installation/older-software-releases.md" %}
-[older-software-releases.md](../../logic-software/download-and-installation/older-software-releases.md)
-{% endcontent-ref %}
+[Logic 1.x Download (Deprecated)](../../logic-software/download-and-installation/older-software-releases.md)
 
 **Contacting Support for Additional Help**
 

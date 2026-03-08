@@ -1,5 +1,3 @@
-# Viewing I2C Addresses as 8-bit
-
 Our built-in I2C analyzer displays I2C addresses as a 7-bit value + ACK/NAK bit by default.
 
 ![I2C decoded with 7-bit addresses](<../../.gitbook/assets/Screen Shot 2021-01-29 at 4.20.11 PM (1).png>)

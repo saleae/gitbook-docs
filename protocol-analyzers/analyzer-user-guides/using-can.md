@@ -1,5 +1,3 @@
-# CAN Analyzer - User Guide
-
 The Saleae Logic software includes a software protocol analyzer for the CAN protocol.
 
 The Saleae CAN protocol analyzer supports standard and extended CAN identifiers.

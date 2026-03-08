@@ -1,8 +1,6 @@
-# Protocol Analyzer SDK
-
-{% hint style="info" %}
+<div class="callout callout-info">
 Instructions for loading existing custom analyzers into the Logic software can be found here: [Import Custom Low Level Analyzer](./setting-up-developer-directory.md)
-{% endhint %}
+</div>
 
 The Saleae Protocol Analyzer SDK lets you make your own custom protocol analyzers. The framework is very flexible. You can do everything we can do (we use the same SDK). You'll be creating a shared library (.dll for Windows, .so for Linux, or .dylib for MacOS) that will be loaded by the Logic software as a plugin.
 
@@ -27,42 +25,38 @@ Our SampleAnalyzer automatically fetches the latest library files located on our
 
 ### Installing your Custom Analyzers
 
-{% content-ref url="./setting-up-developer-directory.md" %}
-[setting-up-developer-directory.md](./setting-up-developer-directory.md)
-{% endcontent-ref %}
+[Import Custom Low Level Analyzer](./setting-up-developer-directory.md)
 
 ### Pre-Installed Analyzers Source Code
 
 * [1-Wire Analyzer](https://www.github.com/saleae/one-wire-analyzer)
-* [Async Serial Analyzer](https://www.github.com/saleae/serial-analyzer)&#x20;
+* [Async Serial Analyzer](https://www.github.com/saleae/serial-analyzer) 
 * [Addressable LEDs Analyzer](https://www.github.com/saleae/async-rgb-led-analyzer)
 * [Atmel SWI Analyzer](https://www.github.com/saleae/atmel-swi-analyzer)
 * [BISS Analyzer](https://www.github.com/saleae/biss-analyzer)
 * [CAN Analyzer](https://www.github.com/saleae/can-analyzer)
 * [DMX-512 Analyzer](https://www.github.com/saleae/dmx-512-analyzer)
-* [HD44780 Analyzer](https://www.github.com/saleae/hd44780-analyzer)&#x20;
-* [HDLC Analyzer](https://www.github.com/saleae/hdlc-analyzer)&#x20;
-* [HDMI-CEC Analyzer](https://www.github.com/saleae/hdmi-cec-analyzer)&#x20;
-* [I2C Analyzer](https://www.github.com/saleae/i2c-analyzer)&#x20;
-* [I2S Analyzer](https://www.github.com/saleae/i2s-analyzer)&#x20;
-* [JTAG Analyzer](https://www.github.com/saleae/jtag-analyzer)&#x20;
+* [HD44780 Analyzer](https://www.github.com/saleae/hd44780-analyzer) 
+* [HDLC Analyzer](https://www.github.com/saleae/hdlc-analyzer) 
+* [HDMI-CEC Analyzer](https://www.github.com/saleae/hdmi-cec-analyzer) 
+* [I2C Analyzer](https://www.github.com/saleae/i2c-analyzer) 
+* [I2S Analyzer](https://www.github.com/saleae/i2s-analyzer) 
+* [JTAG Analyzer](https://www.github.com/saleae/jtag-analyzer) 
 * [LIN Analyzer](https://www.github.com/saleae/lin-analyzer)
-* [Manchester Analyzer](https://www.github.com/saleae/manchester-analyzer)&#x20;
-* [MDIO Analyzer](https://www.github.com/saleae/mdio-analyzer)&#x20;
-* [MIDI Analyzer](https://www.github.com/saleae/midi-analyzer)&#x20;
-* [Modbus Analyzer](https://www.github.com/saleae/modbus-analyzer)&#x20;
-* [PS2 Keyboard Analyzer](https://www.github.com/saleae/ps2-keyboard-analyzer)&#x20;
-* [Simple Parallel Analyzer](https://www.github.com/saleae/simple-parallel-analyzer)&#x20;
-* [SMBus Analyzer](https://www.github.com/saleae/smbus-analyzer)&#x20;
-* [SPI Analyzer](https://www.github.com/saleae/spi-analyzer)&#x20;
-* [SWD Analyzer](https://www.github.com/saleae/swd-analyzer)&#x20;
+* [Manchester Analyzer](https://www.github.com/saleae/manchester-analyzer) 
+* [MDIO Analyzer](https://www.github.com/saleae/mdio-analyzer) 
+* [MIDI Analyzer](https://www.github.com/saleae/midi-analyzer) 
+* [Modbus Analyzer](https://www.github.com/saleae/modbus-analyzer) 
+* [PS2 Keyboard Analyzer](https://www.github.com/saleae/ps2-keyboard-analyzer) 
+* [Simple Parallel Analyzer](https://www.github.com/saleae/simple-parallel-analyzer) 
+* [SMBus Analyzer](https://www.github.com/saleae/smbus-analyzer) 
+* [SPI Analyzer](https://www.github.com/saleae/spi-analyzer) 
+* [SWD Analyzer](https://www.github.com/saleae/swd-analyzer) 
 * [USB Analyzer](https://www.github.com/saleae/usb-analyzer)
 
 ### Community Shared Analyzers
 
-{% content-ref url="../../community-contact/community-shared-protocols.md" %}
-[community-shared-protocols.md](../../community-contact/community-shared-protocols.md)
-{% endcontent-ref %}
+[Community Shared Analyzers](../../community-contact/community-shared-protocols.md)
 
 ### **Legacy 1.1.14 Release**
 

@@ -1,9 +1,3 @@
----
-description: Learn how to modify your new High Level Analyzer
----
-
-# High-Level Analyzer (HLA) Extensions
-
 This guide assumes that you have familiarity with the [Python](https://www.python.org/) programming language. It is what will be used to customize our HLA. Browse [user shared HLAs](./shared-high-level-analyzers-hlas.md) for own use or inspiration.
 
 ## Overview
@@ -122,19 +116,13 @@ Although we don't have the ability to attach debuggers to Python extensions at t
 
 * Use `print()` statements to print debug messages to our in-app terminal. More information on our in-app terminal can be found below.
 
-{% content-ref url="../../logic-software/viewing-and-analyzing-data/data-table-and-terminal.md" %}
-[data-table-and-terminal.md](../../logic-software/viewing-and-analyzing-data/data-table-and-terminal.md)
-{% endcontent-ref %}
+[Data Table & Terminal View](../../logic-software/viewing-and-analyzing-data/data-table-and-terminal.md)
 
 * Use the Wall Clock Format and Timing Markers to locate the exact frame listed in your error message.
 
-{% content-ref url="../../logic-software/viewing-and-analyzing-data/time-bar-settings.md" %}
-[time-bar-settings.md](../../logic-software/viewing-and-analyzing-data/time-bar-settings.md)
-{% endcontent-ref %}
+[Time Bar Settings](../../logic-software/viewing-and-analyzing-data/time-bar-settings.md)
 
-{% content-ref url="../../logic-software/viewing-and-analyzing-data/measurements-timing-markers.md" %}
-[measurements-timing-markers.md](../../logic-software/viewing-and-analyzing-data/measurements-timing-markers.md)
-{% endcontent-ref %}
+[Measurements, Timing Markers & Notes](../../logic-software/viewing-and-analyzing-data/measurements-timing-markers.md)
 
 * Use the reload source button in the app to quickly re-run your HLA after editing your source code.
 

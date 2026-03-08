@@ -1,12 +1,10 @@
-# XMonad on Linux Causes Issues
-
-{% hint style="info" %}
+<div class="callout callout-info">
 Update: A customer was able to customize the XMonad configuration to fix this. The solution was to add the appropriate rule to the window hooks as per below:
 
 ```
 className =? "Logic" --> doIgnore
 ```
-{% endhint %}
+</div>
 
 ### Issue summary in the past:
 

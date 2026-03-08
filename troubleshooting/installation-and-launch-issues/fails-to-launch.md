@@ -1,5 +1,3 @@
-# The Software Fails to Launch
-
 Upon launching the Logic 2 software, you may experience the following:
 
 * An immediate software crash
@@ -18,9 +16,7 @@ We've received reports of some graphics cards causing immediate crashes when lau
 
 For now, if you feel your graphics card may be the culprit, you may try the troubleshooting steps in the support article below.
 
-{% content-ref url="../software-crashes-and-errors/error-message-unable-to-detect-webgl.md" %}
-[error-message-unable-to-detect-webgl.md](../software-crashes-and-errors/error-message-unable-to-detect-webgl.md)
-{% endcontent-ref %}
+[Error Message: Unable to detect WebGL and Other GPU Issues](../software-crashes-and-errors/error-message-unable-to-detect-webgl.md)
 
 ### Linux Solutions
 
@@ -28,9 +24,7 @@ For now, if you feel your graphics card may be the culprit, you may try the trou
 
 Our list of supported operating systems can be found in the link below. You'll want to ensure you are running a supported version of Ubuntu.
 
-{% content-ref url="../../logic-software/download-and-installation/supported-operating-systems.md" %}
-[supported-operating-systems.md](../../logic-software/download-and-installation/supported-operating-systems.md)
-{% endcontent-ref %}
+[Supported Operating Systems](../../logic-software/download-and-installation/supported-operating-systems.md)
 
 #### 2. Try running the latest version of Logic 2
 
@@ -58,8 +52,8 @@ Try each one of these command line arguments one at time. We've seen a handful o
 If you are attempting to run our Logic 2 software on Linux, take a look at the output of the following commands.
 
 * `./Logic-2.x.xx-master.AppImage --appimage-extract` **(replace "x.xx" with the specific version of Logic 2)**
-* `cd squashfs-root/resources/linux`&#x20;
-* `ldd libgraph_server_shared.so`&#x20;
+* `cd squashfs-root/resources/linux` 
+* `ldd libgraph_server_shared.so` 
 * `ldd -v libgraph_server_shared.so`
 
 Open the generated output file and search for a line similar to the following:
@@ -76,9 +70,7 @@ Depending on your Linux distro, other libraries may be missing which you may nee
 
 Instead, you'll want to install the udev rules file to allow the non-elevated application to work with devices. Instructions for installing the udev rules file can be found in the support article below.
 
-{% content-ref url="../../logic-software/download-and-installation/driver-install.md" %}
-[driver-install.md](../../logic-software/download-and-installation/driver-install.md)
-{% endcontent-ref %}
+[Driver Install](../../logic-software/download-and-installation/driver-install.md)
 
 We've seen GPU issues on Linux where the application will crash on launch due to the GPU process repeatedly crashing on launch.
 

@@ -1,5 +1,3 @@
-# Error Message: A device was found, but the software was unable to access it
-
 ### Windows Error Message
 
 > A device was found, but the software was unable to access it. Another instance of the Saleae software may be connected to the device.

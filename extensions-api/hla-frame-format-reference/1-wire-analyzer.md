@@ -1,5 +1,3 @@
-# 1-Wire - Frame Format
-
 ### Output Frame Format
 
 #### Frame Type: `"reset"`

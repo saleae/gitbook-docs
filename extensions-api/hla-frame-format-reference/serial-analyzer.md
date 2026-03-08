@@ -1,5 +1,3 @@
-# Async Serial - Frame Format
-
 ## Output Frame Format
 
 ### Frame Type: `"data"`

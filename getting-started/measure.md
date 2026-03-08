@@ -1,5 +1,3 @@
-# Measure
-
 Hover your mouse pointer over any signal data to get automatic measurements, such as pulse width, frequency, and analog voltage. You can right-click to hide & show interactive measurements. You can also add measurement windows and timing markers.
 
 {% embed url="https://vimeo.com/452008986" %}

@@ -1,5 +1,3 @@
-# When Is My Card Charged?
-
 The following information applies to orders placed directly on our website at www.saleae.com.
 
 **Direct Credit Card Payments**

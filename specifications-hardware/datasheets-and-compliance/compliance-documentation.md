@@ -1,5 +1,3 @@
-# Compliance Documents - Certificates & Test Reports
-
 All Saleae products listed below are in compliance with the EU Council Directive 2014/30/EU, the Directive 2014/35/EU, and the RoHS Directive.
 
 **Product** // **Part Number**

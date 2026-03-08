@@ -1,5 +1,3 @@
-# Running Logic in a CI Environment on Windows with the SYSTEM Account
-
 If you're setting up a CI environment using the Logic software and hardware, such as with GitLab CI/CD or GitHub Actions, it's common to install a local runner on the machine where the Logic hardware is connected. These runners can run under either a local user account or the Windows SYSTEM account.
 
 When using the SYSTEM account on Windows, there is an additional step required to ensure that Logic runs correctly. This is because the SYSTEM account operates in an environment without a desktop, which can cause issues with the software's GPU process.

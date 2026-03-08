@@ -1,5 +1,3 @@
-# Download
-
 ## Logic 2 Software
 
 ![Logic 2 Software](<../../.gitbook/assets/Screen Shot 2021-12-07 at 12.10.01 PM.png>)
@@ -16,24 +14,20 @@ All previous versions of the Logic 2 software can be found below, including a hi
 
 Instructions for installation and solutions for commonly found errors can be found in the support article below.
 
-{% content-ref url="./sw-installation.md" %}
-[sw-installation.md](./sw-installation.md)
-{% endcontent-ref %}
+[Installation](./sw-installation.md)
 
 ### Do you Provide a Standalone Version for Logic 2?
 
-If you need a standalone version of the Logic 2 app, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) and we may be able to quickly build a copy if time permits.&#x20;
+If you need a standalone version of the Logic 2 app, please [contact support](https://contact.saleae.com/hc/en-us/requests/new) and we may be able to quickly build a copy if time permits. 
 
-{% hint style="info" %}
+<div class="callout callout-info">
 Please be aware of the following requirements for the Windows standalone release:
 
 * The [Microsoft Visual Studio runtime](https://www.microsoft.com/en-us/download/details.aspx?id=48145) needs to be installed before the software will run.
 * If drivers are not already installed from a previous installation of the Logic software, you will need to install the drivers manually. You can find instructions for installing our drivers in the link below.
-{% endhint %}
+</div>
 
-{% content-ref url="./driver-install.md" %}
-[driver-install.md](./driver-install.md)
-{% endcontent-ref %}
+[Driver Install](./driver-install.md)
 
 There are a few reasons we don't want to publish a standalone version of the Logic 2 app:
 

@@ -1,5 +1,3 @@
-# I2S - Frame Format
-
 ## Output Frame Format
 
 ### Frame Type: `"error"`

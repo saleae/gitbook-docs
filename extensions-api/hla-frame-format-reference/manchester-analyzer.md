@@ -1,5 +1,3 @@
-# Manchester - Frame Format
-
 ## Output Frame Format
 
 ### Frame Type: `"data"`

@@ -1,14 +1,10 @@
-# Set an Analyzer Starting Point in your Capture
-
-There are times where you may need to manually set the starting point in time for your protocol analyzer to begin decoding data.&#x20;
+There are times where you may need to manually set the starting point in time for your protocol analyzer to begin decoding data. 
 
 Our protocol analyzers are designed to decode all captured data from beginning to end. Manually setting the starting point for an analyzer may fix issues such as data offsets, especially in cases where your capture begins right in the middle of a data message, which potentially causes errors for decoding the rest of your data.
 
 One way to manually set the starting and ending points for protocol analyzer decoding is to delete portions of your capture as per the instructions below, such that the data that is left over is the relevant data that you need to decode.
 
-{% content-ref url="./delete-data.md" %}
-[delete-data.md](./delete-data.md)
-{% endcontent-ref %}
+[Delete Part of your Capture](./delete-data.md)
 
 ### Why Would I Need to Do This?
 

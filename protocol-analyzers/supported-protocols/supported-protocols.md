@@ -1,5 +1,3 @@
-# Supported Protocols
-
 The Saleae Logic software includes the following protocol analyzers:
 
 * 1-Wire
@@ -38,17 +36,13 @@ We've worked closely with the team at Binho LLC to develop a 3rd party I3C Proto
 
 We provide user guides for a handful of our protocol analyzers, which we have listed in the link below.
 
-{% content-ref url="analyzer-user-guides/" %}
 [analyzer-user-guides](analyzer-user-guides/)
-{% endcontent-ref %}
 
 ### **More Protocol Analyzers**
 
 Some Logic users have created their own protocol analyzers. The following list of analyzers are available but not officially supported by Saleae.
 
-{% content-ref url="../../community-contact/community-shared-protocols.md" %}
-[community-shared-protocols.md](../../community-contact/community-shared-protocols.md)
-{% endcontent-ref %}
+[Community Shared Analyzers](../../community-contact/community-shared-protocols.md)
 
 ### **Do all Saleae logic analyzer models support these protocols?**
 

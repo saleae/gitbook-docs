@@ -1,5 +1,3 @@
-# Extension Installation
-
 There are 2 methods to installing an extension. You can install an extension from within the software via our in-app Extensions Marketplace, or you can install it via local source files on your PC.
 
 ### Extension Installation within the Software
@@ -14,7 +12,7 @@ In some cases, the extensions list may not appear properly within the Extensions
 
 ![](<../../.gitbook/assets/Screen Shot 2020-11-30 at 4.49.54 PM.png>)
 
-1. On a computer where the marketplace loads, click the extension of interest so that it is highlighted. This will open up the extension information within the software.&#x20;
+1. On a computer where the marketplace loads, click the extension of interest so that it is highlighted. This will open up the extension information within the software. 
 2. Click the "Repository" link. This opens the [github.com](http://github.com/) repository for that extension.
 3. Click the green "Code" button, and select download as zip.
 4. Extract the zip file anywhere.

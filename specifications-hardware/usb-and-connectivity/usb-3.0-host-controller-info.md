@@ -1,5 +1,3 @@
-# Finding Your USB 3.0 Host Controller Information
-
 Our support team may request for your USB host controller information in cases where connectivity issues occur. The following instructions show how this can be done.
 
 1. Close the Logic 2 software and connect the logic analyzer. If it is already attached, remove it and reconnect it.
@@ -8,7 +6,7 @@ Our support team may request for your USB host controller information in cases w
 
 ![Finding USB Host Controller Information](<../../.gitbook/assets/Screen Shot 2021-04-02 at 3.12.57 PM.png>)
 
-&#x20;    4\. To better identify your host controller you are using, click the details tab, and select "Hardware Ids" from the property selection. Then take a screenshot. It should look similar to the below image.
+     4\. To better identify your host controller you are using, click the details tab, and select "Hardware Ids" from the property selection. Then take a screenshot. It should look similar to the below image.
 
 ![Viewing the Hardware Ids for your Host Controller](../../.gitbook/assets/inline1733780973.png)
 
@@ -16,9 +14,9 @@ Our support team may request for your USB host controller information in cases w
 
 If you are using the older Logic 1.x software, the USB host controller information can be found from within the software.
 
-{% hint style="info" %}
+<div class="callout callout-info">
 This article only applies to the Logic 1 software, and does not apply to Logic 2. Logic 2 users can get their host controller data from device manager, in the "Universal Serial Bus Controllers" section.
-{% endhint %}
+</div>
 
 On Windows, the latest Saleae software has a feature to automatically retrieve this information.
 
@@ -38,9 +36,7 @@ For support finding the latest driver for your host controller, or on the reques
 
 You can find a complete list of the latest driver releases for Windows 7 below:
 
-{% content-ref url="../../troubleshooting/device-connection-issues/usb-driver-problem.md" %}
-[usb-driver-problem.md](../../troubleshooting/device-connection-issues/usb-driver-problem.md)
-{% endcontent-ref %}
+[Warning Message: Possible USB Host Controller Problem Detected](../../troubleshooting/device-connection-issues/usb-driver-problem.md)
 
 **OS X and Linux**
 

@@ -1,8 +1,6 @@
-# Create and Use Extensions
-
 ## Creating an Extension
 
-In this guide, we will walk your through creating an HLA (High Level Analyzer) extension, however, the process is identical for other types. &#x20;
+In this guide, we will walk your through creating an HLA (High Level Analyzer) extension, however, the process is identical for other types.  
 
 1. Click the 'Extensions' panel button on the right of the software
 
@@ -27,7 +25,7 @@ In this guide, we will walk your through creating an HLA (High Level Analyzer) e
 I2C.sal
 {% endfile %}
 
-2\. Click the Analyzers '+' button to add our Sample HLA.&#x20;
+2\. Click the Analyzers '+' button to add our Sample HLA. 
 
 <div align="center"><img src="../../.gitbook/assets/Screen Shot 2020-06-10 at 8.28.18 PM.png" alt=""></div>
 
@@ -37,13 +35,13 @@ I2C.sal
 
 ### Customize your High Level Analyzer
 
-To edit the Sample HLA (perhaps as a starting point to creating your own HLA), you can click the 'Local' button next to 'Sample HLA' under the Extensions panel. This will open the containing folder for your extension files which you can update for your needs.&#x20;
+To edit the Sample HLA (perhaps as a starting point to creating your own HLA), you can click the 'Local' button next to 'Sample HLA' under the Extensions panel. This will open the containing folder for your extension files which you can update for your needs. 
 
 Check out our [High Level Analyzer](high-level-analyzer-extensions/) article to learn more about customizing your HLA.
 
 ## Using a Measurement Extension
 
-The software currently has a few built-in measurements already installed and ready to use. The gif below demonstrates how to use them. You can also hold the shift key while dragging across your recorded data to add a measurement without using the sidebar. The use of measurement extensions allows additional custom measurements to be made.&#x20;
+The software currently has a few built-in measurements already installed and ready to use. The gif below demonstrates how to use them. You can also hold the shift key while dragging across your recorded data to add a measurement without using the sidebar. The use of measurement extensions allows additional custom measurements to be made. 
 
 ![Logic 2 measurements](../../.gitbook/assets/use_measurement.gif)
 

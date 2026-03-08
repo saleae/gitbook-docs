@@ -1,12 +1,10 @@
-# Automating Long Overnight Captures
-
 ### Issues with Long Overnight Captures (Several Hours or More)
 
-The Logic 2 software does not support streaming captured data to disk. Instead, a single capture has to reside in memory until it is saved and closed.&#x20;
+The Logic 2 software does not support streaming captured data to disk. Instead, a single capture has to reside in memory until it is saved and closed. 
 
 Having said that, our software may not be able to capture for several hours in length with great reliability, or your available memory may not support it. From a product testing point of view, we focus most of our attention on captures that are up to 15 minutes in length, though we do occasionally test for up to 24 hours.
 
-Because of this, you may encounter issues when attempting to leave a capture running overnight, or for several days long. As such, we would recommend the workarounds mentioned in this support article.&#x20;
+Because of this, you may encounter issues when attempting to leave a capture running overnight, or for several days long. As such, we would recommend the workarounds mentioned in this support article. 
 
 #### Contacting Support
 
@@ -15,15 +13,11 @@ If you'd like to report any issues you run into while capturing data spanning se
 * A description of the error you are running into, including any error messages.
 * Your capture settings (or perhaps share your Capture Preset file)
 
-{% content-ref url="../saving-and-exporting-data/saving-loading-and-exporting-data.md" %}
-[saving-loading-and-exporting-data.md](../saving-and-exporting-data/saving-loading-and-exporting-data.md)
-{% endcontent-ref %}
+[Capture & Preset File Management](../saving-and-exporting-data/saving-loading-and-exporting-data.md)
 
-* &#x20;Your Machine ID
+*  Your Machine ID
 
-{% content-ref url="../../troubleshooting/diagnostic-tools/sharing-your-machine-id.md" %}
-[sharing-your-machine-id.md](../../troubleshooting/diagnostic-tools/sharing-your-machine-id.md)
-{% endcontent-ref %}
+[Getting your Machine ID](../../troubleshooting/diagnostic-tools/sharing-your-machine-id.md)
 
 ### Reducing Memory Usage of the Software
 

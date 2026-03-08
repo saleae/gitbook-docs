@@ -1,5 +1,3 @@
-# Can I Share Data Captures with Others?
-
 Can I Share Data Captures with Others?
 
 The Saleae Logic software can save and load captures. Simply use Options -> Save Capture and Options -> Open Capture / Setup from the main options menu in order to load and save \*.logicdata files.
@@ -8,9 +6,7 @@ No device is required to open saved captures. Simply ask the recipient to instal
 
 For more information about version requirements, see below.
 
-{% content-ref url="./open-logicdata-files.md" %}
-[open-logicdata-files.md](./open-logicdata-files.md)
-{% endcontent-ref %}
+[Opening .logicdata Capture Files](./open-logicdata-files.md)
 
 
 

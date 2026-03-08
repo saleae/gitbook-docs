@@ -1,5 +1,3 @@
-# License for the Saleae Logic Software, SDKs, and APIs
-
 Our Saleae Software & SDK License Agreement can be downloaded below.
 
 {% file src="../.gitbook/assets/Saleae Software License Agreement.txt" %}

@@ -1,5 +1,3 @@
-# Learn I2C - Inter-Integrated Circuit
-
 I2C is a very common communication protocol typically used by microcontrollers to communicate with various peripheral ICs, typically on the same PCB. I2C has two wires: a data (SDA) line and a clock (SCL) line. Peripherals on the bus each have their own address. Among other reasons, I2C is attractive because it is highly standardized.
 
 ### **Topology**
@@ -126,15 +124,15 @@ The only reason the STOP event is needed is to tell other master devices that th
 
 ### **The I2C Transaction, Summarized**
 
-1. The master performs a START (or repeated START).&#x20;
-2. The master writes out 7 bits (the address of the slave it wants to talk to).&#x20;
-3. The master writes out one bit, indicating if it wants to write to or read from the slave (0=write to slave, 1=read from slave).&#x20;
-4. The slave, if it exists and is working, replies with an ACK. If the master gets a NAK, it must restart the process (go to step 1).&#x20;
+1. The master performs a START (or repeated START). 
+2. The master writes out 7 bits (the address of the slave it wants to talk to). 
+3. The master writes out one bit, indicating if it wants to write to or read from the slave (0=write to slave, 1=read from slave). 
+4. The slave, if it exists and is working, replies with an ACK. If the master gets a NAK, it must restart the process (go to step 1). 
 5. The master, at its leisure, then reads (or writes) data to/from the slave.
-   * Data are always sent MSB first, 8 bits at a time, followed by 1 acknowledge bit.&#x20;
+   * Data are always sent MSB first, 8 bits at a time, followed by 1 acknowledge bit. 
    * If the master is writing to the slave, it controls both the clock and the data line.
-   * If the master is reading from the slave, it controls the clock line and lets the slave control the data line.&#x20;
-   * If the master received a NAK as the acknowledge bit, it must restart the process (go to step 1).&#x20;
+   * If the master is reading from the slave, it controls the clock line and lets the slave control the data line. 
+   * If the master received a NAK as the acknowledge bit, it must restart the process (go to step 1). 
    * If the slave wants more time, it may hold the clock line low after the master has pulled it low following the acknowledge bit. When the master subsequently releases (floats) the clock line, it must notice that the clock line does not float high and must then wait until the slave releases it and it does become high.
 6. Communication continues, one byte at a time, with the addressed slave and in the direction indicated. To communicate with a different slave or change the direction of data transfer, the master must restart the procedure (go to step 1).
 7. If the master is completely done and wishes to allow other master devices access to the bus, it issues the STOP event.
@@ -199,7 +197,7 @@ Not surprisingly, there is some disagreement as to how the address and direction
 * [Wikipedia](http://en.wikipedia.org/wiki/I%C2%B2C)
 * [I2C Specification 2.1](http://www.nxp.com/documents/user_manual/UM10204.pdf)
 * [SparkFun Tutorial](https://learn.sparkfun.com/tutorials/i2c/introduction)
-* [NXP I2C Overview (video)](http://www.youtube.com/watch?v=BcWixZcZ6JY\&list=PLB1BE22BA36431CFD)
+* [NXP I2C Overview (video)](http://www.youtube.com/watch?v=BcWixZcZ6JY&list=PLB1BE22BA36431CFD)
 
 **Example I2C Parts**
 

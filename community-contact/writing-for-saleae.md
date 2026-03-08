@@ -1,12 +1,8 @@
-# How to Create Project Content for Saleae
-
-Write about your electronics project and get paid!&#x20;
+Write about your electronics project and get paid! 
 
 The support article below lists some past submissions from our community of users who have created project content using our Logic analyzers. Feel free to use them as reference, and check out some unique and amazing electronics projects!
 
-{% content-ref url="./projects.md" %}
-[projects.md](./projects.md)
-{% endcontent-ref %}
+[Community Projects](./projects.md)
 
 ### General Requirements
 
@@ -42,9 +38,9 @@ $200 USD for a project writeup meeting the requirements described here. You can 
 * What equipment did you use on this project?
 * What software tools or websites did you use for this project?
   * Links, pictures?
-* Which components did you use on this project?&#x20;
+* Which components did you use on this project? 
   * Links, pictures?
-* How did you choose the components?&#x20;
+* How did you choose the components? 
 * Why did you choose the components you did?
 * What is the function of the various components?
   * Sketches, drawings?

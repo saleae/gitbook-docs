@@ -1,5 +1,3 @@
-# All Known Issues
-
 * On XMonad, on Linux, popovers stop working properly.
 * Pressing and holding command + R on OSX causes the software to crash because consecutive captures do not completely finish before the next tries to start.
 * HDLC analyzer decodes bits in the wrong order in some cases.
@@ -13,7 +11,7 @@
 * Protocol search may be missing results from the very end of a protocol.
 * On OSX, the software will crash when a device is connected if IOCreatePlugInInterfaceForService returns an error.
 * On Windows, the software will crash when a device is connected if SetupDiGetClassDevs returns an error.
-* On OSX, it's possible to move the software under the top menu bar, making it hard or impossible to retrieve.&#x20;
+* On OSX, it's possible to move the software under the top menu bar, making it hard or impossible to retrieve. 
 * Do not plug a lot of devices into a Linux machine at the same time.
 * On OSX mainly, but other platforms too, when scrolled outside of the data range, the display does not always snap back right away.
 * Sometimes, on Linux, while the original Logic16 is changing voltage modes, removing Logic16 can crash the software.

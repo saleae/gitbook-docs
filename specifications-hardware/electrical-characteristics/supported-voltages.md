@@ -1,5 +1,3 @@
-# Supported Voltages
-
 There are two important specifications to keep in mind when determining what signals can be recorded with the Saleae products and what signals could potentially damage the device.
 
 The first is the supported IO thresholds. These define the voltage thresholds that determine what is recorded as a digital 0 and a digital 1.
@@ -26,9 +24,7 @@ Notes:
 * Recommended IO standards: 5.0V, 3.3V, 2.5V, 1.8V
 * For Logic 8's digital channels, the range between 0.6V and 1.2V results in undefined behavior. For signals that might cross this range slowly (e.g. I2C signals due to its relatively slow rise/fall times caused by its open drain topology), you may want to ensure that the software glitch filter is enabled to filter out any potential glitches that might cause decoding errors.
 
-{% content-ref url="../../logic-software/viewing-and-analyzing-data/software-glitch-filter.md" %}
-[software-glitch-filter.md](../../logic-software/viewing-and-analyzing-data/software-glitch-filter.md)
-{% endcontent-ref %}
+[Software Glitch Filter](../../logic-software/viewing-and-analyzing-data/software-glitch-filter.md)
 
 ### **Logic Pro 8 and Logic Pro 16**
 
@@ -94,7 +90,7 @@ The original Logic16 had two selectable threshold settings. There is approximate
 *   1.8V to 3.6V Setting
 
     * Voltage input low: 0.7V
-    * Voltage input high: 1.5V&#x20;
+    * Voltage input high: 1.5V 
 
 
 *   3.6V to 5.0V Setting

@@ -1,5 +1,3 @@
-# Simple Parallel Analyzer - User Guide
-
 The Saleae Logic software includes a protocol decoder to read clocked (synchronous) parallel bus data. The analyzer supports between 1 and 16 bits of data bus, although realistically, only 15 bits are possible due to the relance of a clock signal taking up one channel. The example image below shows a 4-bit data bus and a clock signal, which requires 5 channels.
 
 ![Simple Parallel Decoding in the Logic 2 Software](../../.gitbook/assets/Simple-Parallel-Example.png)

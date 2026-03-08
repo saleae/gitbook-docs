@@ -1,5 +1,3 @@
-# CAN - Frame Format
-
 ## Output Frame Format
 
 ### Frame Type: `"identifier_field"`

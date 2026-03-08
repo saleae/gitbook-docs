@@ -1,5 +1,3 @@
-# Logic Dimensions
-
 Below are several recommendations for integrating the Saleae devices into new designs.
 
 ### 1. Add Male Headers to your PCB

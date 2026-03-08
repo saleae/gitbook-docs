@@ -1,5 +1,3 @@
-# Error Loading Marketplace Extensions
-
 When clicking on our Extensions button on the side panel, you may come across the error message, "Error loading Marketplace Extensions," like shown below.
 
 ![Error loading Marketplace Extensions](<../../.gitbook/assets/Screen Shot 2022-03-03 at 5.55.21 PM.png>)

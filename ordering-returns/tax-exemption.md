@@ -1,5 +1,3 @@
-# Tax & VAT Exemption
-
 ## Tax Exemption Process for U.S. Orders
 
 1. Please ensure that your tax exemption certificate meets the requirements for your particular state. You can refer to [California's Resale Certificate Requirements](https://www.taxes.ca.gov/Sales_and_Use_Tax/ResaleCertificate.html) as an example.

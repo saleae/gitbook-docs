@@ -1,10 +1,6 @@
-# Installation
-
 Before installing the software, please review the supported operating systems in the link below.
 
-{% content-ref url="./supported-operating-systems.md" %}
-[supported-operating-systems.md](./supported-operating-systems.md)
-{% endcontent-ref %}
+[Supported Operating Systems](./supported-operating-systems.md)
 
 The software is available free of charge, and can be installed on as many machines as you like. The latest release of the Logic 2 software can be downloaded [here](https://www.saleae.com/downloads/)!
 
@@ -55,11 +51,11 @@ Starting in Ubuntu 24.04, many apps now need an AppArmor profile to run properly
       include if exists <local/logic>
     }
     ```
-4. /etc/apparmor.d$ `sudo cat home.ubuntu.applications.logic`&#x20;
+4. /etc/apparmor.d$ `sudo cat home.ubuntu.applications.logic` 
    1. Note: This is to confirm the contents of the file
-5. `sudo apparmor_parser /etc/apparmor.d/home.ubuntu.applications.logic`&#x20;
+5. `sudo apparmor_parser /etc/apparmor.d/home.ubuntu.applications.logic` 
    1. Note: This is to add the new file as an AppArmor profile
-6. `/home/ubuntu/Applications/Logic-x.x.xx-linux-x64.AppImage` &#x20;
+6. `/home/ubuntu/Applications/Logic-x.x.xx-linux-x64.AppImage`  
    1. Note: This will launch the software
    2. Replace `x.x.xx` with your Logic software version
 
@@ -81,9 +77,7 @@ Simply download and run the installer available on our [download page](https://w
 
 In case you run into any installation issues, please refer to the support article below.
 
-{% content-ref url="../../troubleshooting/installation-and-launch-issues/will-not-install.md" %}
-[will-not-install.md](../../troubleshooting/installation-and-launch-issues/will-not-install.md)
-{% endcontent-ref %}
+[Installation Errors](../../troubleshooting/installation-and-launch-issues/will-not-install.md)
 
 
 

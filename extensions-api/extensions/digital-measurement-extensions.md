@@ -1,11 +1,3 @@
----
-description: >-
-  Digital Measurement Extensions for Logic 2 contributed by Saleae and the
-  community
----
-
-# Digital Measurement Extensions
-
 **Usage:** High Level Analyzers Can be installed from within Logic 2 by navigating to 'Extensions' in the right hand menu and selecting 'install' on the extension of your choice. The extensions are listed alphabetically.
 
 #### [Clock Stats ★ 1](https://github.com/saleae/clock-statistics-measurement)

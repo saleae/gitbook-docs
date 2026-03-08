@@ -1,14 +1,10 @@
-# Place a Purchase Order (PO)
-
-{% hint style="info" %}
-In most cases, for a smoother and faster ordering experience, we recommend ordering online through our website at [www.saleae.com](http://www.saleae.com) with a credit/purchasing card, or PayPal. Domestic US online orders completed by 12pm PST on business days ship same day.&#x20;
+<div class="callout callout-info">
+In most cases, for a smoother and faster ordering experience, we recommend ordering online through our website at [www.saleae.com](http://www.saleae.com) with a credit/purchasing card, or PayPal. Domestic US online orders completed by 12pm PST on business days ship same day. 
 
 If you are unable to pay in advance or by credit card/PayPal, we also have distributors world-wide that might be able to accommodate credit payment terms. We've provided a link to our list of distributors below.
-{% endhint %}
+</div>
 
-{% content-ref url="./distributors.md" %}
-[distributors.md](./distributors.md)
-{% endcontent-ref %}
+[Distributors](./distributors.md)
 
 Having mentioned the above note, and in case you are still interested in placing a direct purchase order with us, please ensure your PO meets the requirements below to avoid any processing delays.
 
@@ -17,9 +13,9 @@ Having mentioned the above note, and in case you are still interested in placing
 * Placing a PO is only available for companies who cannot place an order through our website by credit/purchasing card or PayPal.
 * Order total must be at least USD $499.
 * The order must be paid in USD currency.
-* We currently offer Net 30 Term to existing customers with a history of timely payments.&#x20;
+* We currently offer Net 30 Term to existing customers with a history of timely payments. 
 * If this is your first order with us, we will generate a Proforma Invoice for you to Prepay via Wire Transfer. We will ship your order on the first business day after payment is received.
-* Orders placed via PO will be shipped from the US. If the order will be shipping to a country outside the US, there will likely be additional charges for duties and taxes, due on receipt.&#x20;
+* Orders placed via PO will be shipped from the US. If the order will be shipping to a country outside the US, there will likely be additional charges for duties and taxes, due on receipt. 
 
 ### Please Make Sure your PO Includes the Following:
 
@@ -30,13 +26,11 @@ Having mentioned the above note, and in case you are still interested in placing
 * Product Name
 * Quantities, and Prices in USD (Prices can be found in the support article linked below)
 
-{% content-ref url="../specifications-hardware/datasheets-and-compliance/saleae-part-numbers.md" %}
-[saleae-part-numbers.md](../specifications-hardware/datasheets-and-compliance/saleae-part-numbers.md)
-{% endcontent-ref %}
+[Part Numbers, ECCN, HS Codes, and Country of Origin](../specifications-hardware/datasheets-and-compliance/saleae-part-numbers.md)
 
 * Shipping Option: Please either include your FedEx/UPS/DHL Account Number, OR indicate "Saleae Prepay Shipping - Add to Invoice"
 * Email address and contact information for your Accounts Payable Department
-* Payment Term: Prepay via Wire Transfer or Net 30 Days from Date of Invoice&#x20;
+* Payment Term: Prepay via Wire Transfer or Net 30 Days from Date of Invoice 
 
 ### Two Methods for Processing a PO Payment
 
@@ -60,9 +54,7 @@ Having mentioned the above note, and in case you are still interested in placing
 
 Please follow the instructions in the support article below to request a quote.
 
-{% content-ref url="./how-do-i-get-a-quote.md" %}
-[how-do-i-get-a-quote.md](./how-do-i-get-a-quote.md)
-{% endcontent-ref %}
+[Get a Quote](./how-do-i-get-a-quote.md)
 
 
 

@@ -1,12 +1,8 @@
-# Opening .logicdata Capture Files
-
-Capture files that were saved using the older Logic 1.x software will be in `.logicdata` format. Currently, these files can only be opened using the Logic 1.x software. In addition, .logicdata files generated using older versions of the Logic 1.x software can be opened by newer versions of the Logic 1.x software.&#x20;
+Capture files that were saved using the older Logic 1.x software will be in `.logicdata` format. Currently, these files can only be opened using the Logic 1.x software. In addition, .logicdata files generated using older versions of the Logic 1.x software can be opened by newer versions of the Logic 1.x software. 
 
 Please note that backward compatibility is not supported. This means you cannot open newer files with other versions of the software. The Logic 1.x software is available for download below.
 
-{% content-ref url="../download-and-installation/older-software-releases.md" %}
-[older-software-releases.md](../download-and-installation/older-software-releases.md)
-{% endcontent-ref %}
+[Logic 1.x Download (Deprecated)](../download-and-installation/older-software-releases.md)
 
 ### What if I am using the newer Logic 2 app?
 
@@ -18,7 +14,7 @@ Several users have expressed their need for `.logicdata` compatibility in Logic 
 
 ### Workaround
 
-To open both capture file types (`.logicdata` and `.sal`), you will need 2 versions of the Logic software installed.&#x20;
+To open both capture file types (`.logicdata` and `.sal`), you will need 2 versions of the Logic software installed. 
 
 * To open `.logicdata` files - [Logic 1.x Software (latest version)](https://support.saleae.com/logic-software/legacy-software/older-software-releases)
 * To open `.sal` files - [Logic 2 Software (latest version)](https://www.saleae.com/downloads/)

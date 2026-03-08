@@ -1,5 +1,3 @@
-# Error Message: Capture Stopped
-
 Currently, there are 2 categories of error messages under which the capture may end prematurely due to running out of memory.
 
 ### Capture stopped due to insufficient memory

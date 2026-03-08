@@ -1,12 +1,6 @@
----
-description: Learn how to create, modify, and share your own Measurement Extensions
----
-
-# Measurement Extensions
-
-{% hint style="warning" %}
+<div class="callout callout-warning">
 This guide assumes that you have familiarity with the [Python](https://www.python.org/) programming language. It is what will be used to customize our Measurement. Browse user shared [Analog Measurement Extensions](./analog-measurement-extensions.md) and [Digital Measurement Extensions](./digital-measurement-extensions.md) for own use or inspiration.
-{% endhint %}
+</div>
 
 ## Overview
 
@@ -139,18 +133,16 @@ Currently, the `DigitalData` collection will first include the starting time and
 
 The `def measure(self):` function will be called on your class once all data has been passed to `process_data`.  This will only be called once and should return a dictionary with one key for every `requested_measurements` entry that was passed into your class's constructor.
 
-{% hint style="info" %}
+<div class="callout callout-info">
 in the future, we may allow the user to select which metrics to compute. To avoid unnecessary processing, it's recommended to check the `requested_measurements` provided by the constructor before computing or returning those values. However, returning measurements that were not requested is allowed. The results will just be ignored.
-{% endhint %}
+</div>
 
 ## What's Next?
 
 * Browse the Saleae Marketplace in Logic 2 for more ideas and examples of extensions you can create.
 * [Publish your extension](./publish-an-extension.md) to the Saleae Marketplace!
 
-{% content-ref url="./publish-an-extension.md" %}
-[publish-an-extension.md](./publish-an-extension.md)
-{% endcontent-ref %}
+[Publish an Extension](./publish-an-extension.md)
 
 
 

@@ -1,5 +1,3 @@
-# Warning Message: Unsupported Version
-
 Upon opening the Logic 1.x software, you may be prompted with the following warning message. Unfortunately, we've also seen cases where this message may cause the software to crash upon closing it.
 
 _This software version is no longer supported. Please update your software at www.saleae.com._

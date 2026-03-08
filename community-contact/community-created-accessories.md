@@ -1,5 +1,3 @@
-# Community Created Accessories
-
 Several Logic accessories have been made available by our community of users. These are listed below. If you've created an accessory that you'd like to share, [let us know](https://contact.saleae.com/hc/en-us/requests/new)!
 
 ### 3D Logic MSO Desktop Stand

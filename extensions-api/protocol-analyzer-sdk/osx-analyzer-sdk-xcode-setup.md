@@ -1,5 +1,3 @@
-# OSX Analyzer SDK Xcode Setup
-
 This guide was written using the 1.1.32 Analyzer SDK, Xcode version 7.2.1, and OSX 10.10.5. However, it is likely to work with other versions as well.
 
 * Start Xcode
@@ -7,7 +5,7 @@ This guide was written using the 1.1.32 Analyzer SDK, Xcode version 7.2.1, and O
 
 <figure><img src="../../.gitbook/assets/1_-_new_project.png" alt=""><figcaption></figcaption></figure>
 
-* Select "Other" from the left column and "Empty" from the templates list.&#x20;
+* Select "Other" from the left column and "Empty" from the templates list. 
 * Click Next.
 
 <figure><img src="../../.gitbook/assets/2_-_empty_project.png" alt=""><figcaption></figcaption></figure>
@@ -16,7 +14,7 @@ This guide was written using the 1.1.32 Analyzer SDK, Xcode version 7.2.1, and O
 
 <figure><img src="../../.gitbook/assets/2_5_analyzer_name.png" alt=""><figcaption></figcaption></figure>
 
-* The location should be set to the analyzer SDK folder recently downloaded, "SaleaeAnalyzerSdk-1.1.32". Do not create a new folder; that will be done for you by Xcode.&#x20;
+* The location should be set to the analyzer SDK folder recently downloaded, "SaleaeAnalyzerSdk-1.1.32". Do not create a new folder; that will be done for you by Xcode. 
 * Click "Create"
 
 <figure><img src="../../.gitbook/assets/2_75_-_project_location.png" alt=""><figcaption></figcaption></figure>
@@ -146,9 +144,7 @@ This guide was written using the 1.1.32 Analyzer SDK, Xcode version 7.2.1, and O
 
 * Before proceeding, see this article with instructions to configure the software to load your new analyzer.
 
-{% content-ref url="./setting-up-developer-directory.md" %}
-[setting-up-developer-directory.md](./setting-up-developer-directory.md)
-{% endcontent-ref %}
+[Import Custom Low Level Analyzer](./setting-up-developer-directory.md)
 
 * Be sure to select the folder where the debug version of the custom analyzer is saved.
 * Once the Saleae logic software has been configured and has been closed, click Run from Xcode.

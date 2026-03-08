@@ -1,12 +1,10 @@
-# Electrical Isolation Suggestions
-
 None of the Saleae devices electrically isolate the ground of the device under test from the host PC’s USB port ground. For most applications, this merely requires extra care from the user to prevent accidental ground loop short circuits. However, there are applications where electrical isolation between the device under test and the host PC is absolutely required.
 
 ### USB 3.0 SuperSpeed 1kV Isolator
 
-{% hint style="info" %}
+<div class="callout callout-info">
 The ALLDAQ USB 3.0 SuperSpeed Isolator pictured below is no longer available for purchase on our website. We've left it's specifications here for reference. At the moment, this can be purchased [directly from ALLDAQ](https://www.alldaq.com/).
-{% endhint %}
+</div>
 
 ![](../../.gitbook/assets/SAL-00140_8.jpeg)
 

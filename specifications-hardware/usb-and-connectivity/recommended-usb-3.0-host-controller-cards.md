@@ -1,5 +1,3 @@
-# Recommended USB 3.0 Host Controller Cards
-
 We've tested the following USB 3.0 chipsets:
 
 * Intel 7, 8, and 9 series
@@ -15,7 +13,7 @@ All PCI express add-on cards require [PCI express version 2.0](https://en.wikipe
 
 Across all operating systems, besides Intel, Renesas proved to be the most reliable. It was the only non-Intel host that worked immediately on every platform without driver updates.
 
-This was the Renesas card we tested with most recently and strongly recommend: [http://www.amazon.com/gp/product/B008IPXOWU?psc=1\&redirect=true\&ref\_=oh\_aui\_search\_detailpage](http://www.amazon.com/gp/product/B008IPXOWU?psc=1\&redirect=true\&ref\_=oh\_aui\_search\_detailpage)
+This was the Renesas card we tested with most recently and strongly recommend: [http://www.amazon.com/gp/product/B008IPXOWU?psc=1&redirect=true&ref\_=oh\_aui\_search\_detailpage](http://www.amazon.com/gp/product/B008IPXOWU?psc=1&redirect=true&ref\_=oh\_aui\_search\_detailpage)
 
 A note on buying host controllers from Amazon: Because USB 3.0 host controllers all implement a common specification (XHCI), no-name USB 3.0 vendors can easily switch out which host chip they are using based on availability or cost. Usually, people in the reviews will notice this.
 
@@ -25,23 +23,17 @@ We have not yet performed a full evaluation on "ExpressCard" Laptop add on cards
 
 ### Instructions to identify currently installed host controllers
 
-{% content-ref url="./usb-3.0-host-controller-info.md" %}
-[usb-3.0-host-controller-info.md](./usb-3.0-host-controller-info.md)
-{% endcontent-ref %}
+[Finding Your USB 3.0 Host Controller Information](./usb-3.0-host-controller-info.md)
 
 ### Latest driver information
 
-{% content-ref url="../../troubleshooting/device-connection-issues/usb-driver-problem.md" %}
-[usb-driver-problem.md](../../troubleshooting/device-connection-issues/usb-driver-problem.md)
-{% endcontent-ref %}
+[Warning Message: Possible USB Host Controller Problem Detected](../../troubleshooting/device-connection-issues/usb-driver-problem.md)
 
 ### Known Issues with VIA Host Controllers
 
 There is a known issue with corrupting data captures when using Saleae Logic with VIA host controllers. The simple fix is to update the VIA host controller driver. More information on the issue can be found below.
 
-{% content-ref url="../../troubleshooting/capture-and-recording-issues/the-captured-data-is-corrupted.md" %}
-[the-captured-data-is-corrupted.md](../../troubleshooting/capture-and-recording-issues/the-captured-data-is-corrupted.md)
-{% endcontent-ref %}
+[The Captured Data is Corrupted](../../troubleshooting/capture-and-recording-issues/the-captured-data-is-corrupted.md)
 
 
 

@@ -1,5 +1,3 @@
-# Time Measurement Error
-
 There are two primary contributions to error when we measure the time between two pulse edges.
 
 **The first error source is due to time base inaccuracy** or error in the frequency of the sample clock source inside the logic analyzer. That is only significant for measuring long-time durations such as several seconds.

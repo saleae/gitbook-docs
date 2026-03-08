@@ -1,5 +1,3 @@
-# Data Table Shows Incorrect Values
-
 When using low level analyzers (LLAs) such as our Async Serial or SPI analyzer, you may notice issues with how values appear in the data table, specifically while viewing results in decimal format.
 
 ### Known Issues
@@ -26,13 +24,9 @@ In the meantime (and since we don't have a native solution implemented), we have
 
 Instructions to install and use extensions can be found in the links below.
 
-{% content-ref url="../../extensions-api/extensions/installing-extensions.md" %}
-[installing-extensions.md](../../extensions-api/extensions/installing-extensions.md)
-{% endcontent-ref %}
+[Extension Installation](../../extensions-api/extensions/installing-extensions.md)
 
-{% content-ref url="../../extensions-api/extensions/extensions-quickstart.md" %}
-[extensions-quickstart.md](../../extensions-api/extensions/extensions-quickstart.md)
-{% endcontent-ref %}
+[Create and Use Extensions](../../extensions-api/extensions/extensions-quickstart.md)
 
 When the extension is used, new rows in the data table will be created which contain the values produced by the extension. In cases where the issues above are present, the extension will display the proper values. You may subsequently hide the results of the original LLA (in this case, the incorrect results of the Async Serial analyzer) so that only the correct results from the Unsigned Integer Display extension appear.
 
@@ -44,11 +38,11 @@ We apologize for the inconvenience this causes in the meantime.
 
 ## Logic 1.x
 
-{% hint style="info" %}
+<div class="callout callout-info">
 Unfortunately, the Decoded Protocols Panel, in addition to Protocol Search, is no longer available in the Legacy 1.x software due to technical issues. When attempting to enable it in v1.2.40, you will find our note below. Please upgrade to our newer [Logic 2 software](https://www.saleae.com/downloads/) if you need this functionality.
 
 <img src="../../.gitbook/assets/Screen Shot 2022-08-03 at 4.47.39 PM (1).png" alt="" data-size="original">
-{% endhint %}
+</div>
 
 If you are using the older Logic 1.x software, the following troubleshooting guide applies.
 

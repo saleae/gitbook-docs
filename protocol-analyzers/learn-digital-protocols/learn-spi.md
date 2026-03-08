@@ -1,5 +1,3 @@
-# Learn SPI - Serial Peripheral Interface
-
 SPI (serial peripheral interface) is a common application of synchronous serial—where a dedicated clock line indicates when to read one or more data lines. Generally, SPI consists of a single master (typically a microcontroller) and one or more slave devices. In a typical application, there are 4 wires: A clock line, an enable line, a dedicated master-to-slave data line, and a dedicated slave-to-master data line.
 
 ### **SPI and Synchronous Serial**
@@ -69,7 +67,7 @@ While a bus topology like the one shown is very powerful, it requires electrical
 
 ### **The SPI Way**
 
-SPI uses a bus but makes a few compromises to make things very simple.&#x20;
+SPI uses a bus but makes a few compromises to make things very simple. 
 
 <figure><img src="../../.gitbook/assets/SPIWay.png" alt=""><figcaption></figcaption></figure>
 
@@ -117,21 +115,21 @@ Datasheets specify the previously mentioned details in terms of clock polarity (
 
 <figure><img src="../../.gitbook/assets/Polarity.png" alt=""><figcaption></figcaption></figure>
 
-At some point after a slave becomes active, the clock likely will change. If the data on MOSI and MISO should be read on this first edge, the Clock Phase (CPHA) is 0. Alternatively, if data on MOSI and MISO should be read the 2nd time the CLK changes, the Clock Phase (CPHA) is 1.&#x20;
+At some point after a slave becomes active, the clock likely will change. If the data on MOSI and MISO should be read on this first edge, the Clock Phase (CPHA) is 0. Alternatively, if data on MOSI and MISO should be read the 2nd time the CLK changes, the Clock Phase (CPHA) is 1. 
 
 CPOL=0 (the clock starts out low) CPHA=0 (data is valid on the 1st clock edge)
 
 <figure><img src="../../.gitbook/assets/Pol00.png" alt=""><figcaption></figcaption></figure>
 
-CPOL=0 (the clock starts out low) CPHA=1 (data is valid on the 2nd clock edge) &#x20;
+CPOL=0 (the clock starts out low) CPHA=1 (data is valid on the 2nd clock edge)  
 
 <figure><img src="../../.gitbook/assets/Pol01.png" alt=""><figcaption></figcaption></figure>
 
-CPOL=1 (the clock starts out high) CPHA=0 (data is valid on the 1st clock edge) &#x20;
+CPOL=1 (the clock starts out high) CPHA=0 (data is valid on the 1st clock edge)  
 
 <figure><img src="../../.gitbook/assets/Pol10.png" alt=""><figcaption></figcaption></figure>
 
-CPOL=1 (the clock starts out high) CPHA=1 (data is valid on the 2nd clock edge)&#x20;
+CPOL=1 (the clock starts out high) CPHA=1 (data is valid on the 2nd clock edge) 
 
 <figure><img src="../../.gitbook/assets/Pol11 (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -151,13 +149,13 @@ The bit rate is the fastest speed at which the CLK line will operate. This can v
 
 **Bit Order**
 
-Data are sent over the SPI most significant bit first. However, you may find yourself using SPI code or an SPI hardware peripheral with synchronous serial that isn't strictly SPI.&#x20;
+Data are sent over the SPI most significant bit first. However, you may find yourself using SPI code or an SPI hardware peripheral with synchronous serial that isn't strictly SPI. 
 
 <figure><img src="../../.gitbook/assets/BitOrder.png" alt=""><figcaption></figcaption></figure>
 
 **Bits per Transfer/Word**
 
-In most applications, data sent over an SPI are byte-oriented. However, there is no fast rule in this area, so technically, any number of bits could comprise a word. SPI synchronizes using the Enable (or SS) line; there is no delimiter to specify when one word ends and the next begins.&#x20;
+In most applications, data sent over an SPI are byte-oriented. However, there is no fast rule in this area, so technically, any number of bits could comprise a word. SPI synchronizes using the Enable (or SS) line; there is no delimiter to specify when one word ends and the next begins. 
 
 <figure><img src="../../.gitbook/assets/BitPerTrans.png" alt=""><figcaption></figcaption></figure>
 

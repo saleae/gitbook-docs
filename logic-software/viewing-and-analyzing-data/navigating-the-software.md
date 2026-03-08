@@ -1,5 +1,3 @@
-# Navigating the Software
-
 The Logic 2 software consists of the following sections:
 
 ![](<../../.gitbook/assets/Screen Shot 2020-09-03 at 4.20.26 PM.png>)
@@ -24,10 +22,10 @@ Click the "+" button to create new capture sessions tabs. This can be useful to 
 
 ### 4. The Start Button
 
-Click the green "Start" button to begin a data capture.&#x20;
+Click the green "Start" button to begin a data capture. 
 
-* If a logic analyzer is not connected, this button will generate simulation data as if a logic analyzer was collecting real world data.&#x20;
-* If a logic analyzer was connected, then this would begin capturing data from its enabled input channels. After the capture has started, you can stop it before it finishes, which will retain the data to that point.&#x20;
+* If a logic analyzer is not connected, this button will generate simulation data as if a logic analyzer was collecting real world data. 
+* If a logic analyzer was connected, then this would begin capturing data from its enabled input channels. After the capture has started, you can stop it before it finishes, which will retain the data to that point. 
 
 ### 5. Side Panel Buttons
 
@@ -35,21 +33,13 @@ The side panel buttons offer various ways to configure your logic analyzer setti
 
 ![Side Panel Buttons](<../../.gitbook/assets/Screen Shot 2020-09-23 at 5.02.24 PM.png>)
 
-{% content-ref url="../capturing-data/capture-settings.md" %}
-[capture-settings.md](../capturing-data/capture-settings.md)
-{% endcontent-ref %}
+[Device Settings](../capturing-data/capture-settings.md)
 
-{% content-ref url="./using-protocol-analyzers.md" %}
-[using-protocol-analyzers.md](./using-protocol-analyzers.md)
-{% endcontent-ref %}
+[Analyzers](./using-protocol-analyzers.md)
 
-{% content-ref url="./measurements-timing-markers.md" %}
-[measurements-timing-markers.md](./measurements-timing-markers.md)
-{% endcontent-ref %}
+[Measurements, Timing Markers & Notes](./measurements-timing-markers.md)
 
-{% content-ref url="../extensions-apis-and-sdks/extensions/" %}
 [extensions](../extensions-apis-and-sdks/extensions/)
-{% endcontent-ref %}
 
 ### 6. Time Scale Adjustment
 

@@ -1,5 +1,3 @@
-# USB 3.0 Cable Customer Notice (2017)
-
 We don't know exactly when it started, but we know that some units shipped in December 2017 and January 2018 were affected.
 
 We are now including an additional USB 3.0 cable from a good source with units shipping now. This only applies to units shipped directly from Saleae, and it may be a little longer before units shipped from distributors are corrected.

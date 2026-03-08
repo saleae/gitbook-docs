@@ -1,5 +1,3 @@
-# Exported MATLAB File Does Not Open
-
 When trying to open a MATLAB file exported from a capture by the Logic software,  you may run into the following warning message.
 
 ```
@@ -14,9 +12,7 @@ One solution is to export the capture into multiple, smaller MATLAB files. Click
 
 For details on the exported format of MATLAB files, see the article below.
 
-{% content-ref url="../../logic-software/saving-and-exporting-data/matlab-data-export-format.md" %}
-[matlab-data-export-format.md](../../logic-software/saving-and-exporting-data/matlab-data-export-format.md)
-{% endcontent-ref %}
+[MATLAB Data Export Format - Legacy Logic 1.x](../../logic-software/saving-and-exporting-data/matlab-data-export-format.md)
 
 
 

@@ -1,5 +1,3 @@
-# Error Message: Failed to Load Custom Analyzer
-
 This support article describes some common errors that you may run into when attempting to load a custom low level analyzer into the Logic 2 app.
 
 ### Attempting to Load a .so File (Instead of a .dylib File)
@@ -25,7 +23,7 @@ Some custom analyzer repositories may provide the MacOS analyzer library file as
 
 ### Custom Analyzers Originally Built on Logic 1.x
 
-When first attempting to import a custom analyzer that was originally built for Logic 1.x, you may be greeted with a "Failed to Load Custom Analyzer" error like below. The solution for this is described in the steps below, which will change how the custom analyzer library locates the libAnalyzer.dylib library, which has a different relative path than the older Logic 1.x software.&#x20;
+When first attempting to import a custom analyzer that was originally built for Logic 1.x, you may be greeted with a "Failed to Load Custom Analyzer" error like below. The solution for this is described in the steps below, which will change how the custom analyzer library locates the libAnalyzer.dylib library, which has a different relative path than the older Logic 1.x software. 
 
 > Failed to load custom analyzer...\
 > Unable to load library...
@@ -49,7 +47,7 @@ When attempting to run the Logic 2 software on MacOS, the following error messag
 
 ![Failed to load midi analyzer](../../.gitbook/assets/failed-load-analyzer.jpeg)
 
-The workaround we've found is to update to the latest version of MacOS, since our build system for Logic 2 typically targets that. When running an older version of MacOS, the error message above may appear.&#x20;
+The workaround we've found is to update to the latest version of MacOS, since our build system for Logic 2 typically targets that. When running an older version of MacOS, the error message above may appear. 
 
 If you require using an older MacOS version and cannot update for whatever reason, you may delete `libmidi_analyzer.so` from the specified folder to get rid of the error message. This just means that you cannot use the pre-installed MIDI protocol analyzer. So long as you don't plan on analyzing MIDI data, this is OK to do.
 

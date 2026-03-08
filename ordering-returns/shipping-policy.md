@@ -1,5 +1,3 @@
-# Shipping Policy
-
 ### Shipping Options
 
 To check the shipping options available in your country, simply add an item to the cart on [www.saleae.com](https://www.saleae.com/) and select your country. Afterwards, click "Checkout" and enter your shipping information to view the available shipping options and shipping cost.
@@ -12,7 +10,7 @@ We unfortunately do not have the ability to add a shipping account number for on
 
 Saleae regularly ships internationally.
 
-If you are shipping to a country outside the US, there will likely be additional charges for duties and taxes, due on receipt.&#x20;
+If you are shipping to a country outside the US, there will likely be additional charges for duties and taxes, due on receipt. 
 
 In some locations (i.e., most of the EU), we offer the ability to pre-pay import taxes such as VAT. If this is the case, we can charge you the customs fees and it will be clearly indicated in the shopping cart. Afterwards, you will not get a customs bill. You will see what options are available on the cart page.
 

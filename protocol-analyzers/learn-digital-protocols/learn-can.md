@@ -1,5 +1,3 @@
-# Learn CAN – Controller Area Network
-
 CAN (controller area network) is a differential serial bus typically used in automotive and industrial applications for sensor data collection and system control.
 
 ### **Topology**

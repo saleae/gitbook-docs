@@ -1,5 +1,3 @@
-# Distributors
-
 This list contains authorized distributors selling Saleae devices. Please note that most listed distributors ship worldwide. The country shown refers to each company's main office.
 
 ![](https://github.com/saleae/gitbook-docs/assets/143648606/eca04bc3-ace4-4ded-85ce-97f980267c2a)
@@ -9,16 +7,16 @@ This list contains authorized distributors selling Saleae devices. Please note t
 ### Canada
 
 * [Amazon Canada](https://www.amazon.ca/Logic-Pro-Red-Ultra-Portable-Frustration/dp/B074TVSLN1/)
-* [RobotShop](https://www.robotshop.com/search?type=product\&options%5Bprefix%5D=last\&options%5Bunavailable_products%5D=last\&q=saleae)
+* [RobotShop](https://www.robotshop.com/search?type=product&options%5Bprefix%5D=last&options%5Bunavailable_products%5D=last&q=saleae)
 
 ### US
 
-* [Amazon USA](https://www.amazon.com/Logic-Black-Saleae-8-Channel-Analyzer/dp/B0749G85W2/ref=sr_1_1?s=hi\&ie=UTF8\&qid=1516658879\&sr=1-1\&keywords=saleae)
+* [Amazon USA](https://www.amazon.com/Logic-Black-Saleae-8-Channel-Analyzer/dp/B0749G85W2/ref=sr_1_1?s=hi&ie=UTF8&qid=1516658879&sr=1-1&keywords=saleae)
 * [Adafruit Industries](https://www.adafruit.com/?q=Saleae&)
-* [James Electronics LTD (Jameco Electronics)](https://www.jameco.com/shop/KeywordSearchResultView?langId=-1\&storeId=10001\&catalogId=10001\&search_type_c=jamecoall\&freeText=saleae)
+* [James Electronics LTD (Jameco Electronics)](https://www.jameco.com/shop/KeywordSearchResultView?langId=-1&storeId=10001&catalogId=10001&search_type_c=jamecoall&freeText=saleae)
 * [Microchip Technology Inc.](https://www.microchipdirect.com/product/search/all/saleae)
 * [Mouser Electronics, Inc.](https://www.mouser.com/c/?m=Saleae)
-* [RobotShop](https://www.robotshop.com/search?type=product\&options%5Bprefix%5D=last\&options%5Bunavailable_products%5D=last\&q=saleae)
+* [RobotShop](https://www.robotshop.com/search?type=product&options%5Bprefix%5D=last&options%5Bunavailable_products%5D=last&q=saleae)
 * [SparkFun Electronics](https://www.sparkfun.com/search/results?term=saleae)
 * [TestEquity](https://www.testequity.com/brand/Saleae/category/all)
 * [TEquipment](https://www.tequipment.net/search/?F_Keyword=saleae%20logic)
@@ -40,7 +38,7 @@ This list contains authorized distributors selling Saleae devices. Please note t
 ### France
 
 * [Generation Robots](https://www.generationrobots.com/en/83_saleae)
-* [RobotShop](https://eu.robotshop.com/fr/search?type=product\&options%5Bprefix%5D=last\&options%5Bunavailable_products%5D=last\&q=saleae)
+* [RobotShop](https://eu.robotshop.com/fr/search?type=product&options%5Bprefix%5D=last&options%5Bunavailable_products%5D=last&q=saleae)
 
 ### Germany
 
@@ -83,7 +81,7 @@ This list contains authorized distributors selling Saleae devices. Please note t
 
 ### Switzerland
 
-* [Play-Zone GmbH](http://www.play-zone.ch/en/catalogsearch/result/?q=saleae\&x=0\&y=0)
+* [Play-Zone GmbH](http://www.play-zone.ch/en/catalogsearch/result/?q=saleae&x=0&y=0)
 
 ### Turkey
 
@@ -110,9 +108,9 @@ This list contains authorized distributors selling Saleae devices. Please note t
 
 ### China
 
-* [Amazing Tech](https://amazingtech.com.cn/search.php?search_query=saleae\&x=0\&y=0)
+* [Amazing Tech](https://amazingtech.com.cn/search.php?search_query=saleae&x=0&y=0)
 * [Double Dragon Electronics Co., Ltd](http://www.sl.com.cn/)
-* [HANYI Technologies (Shanghai) Co., Ltd](http://www.han-yi-tech.com/products_view.asp?id=585\&clsid=8\&fid=8#a1)
+* [HANYI Technologies (Shanghai) Co., Ltd](http://www.han-yi-tech.com/products_view.asp?id=585&clsid=8&fid=8#a1)
 * [SCE in China](http://www.scedg.com/)
 * [Shanghai GEANT Computer Technology](http://www.geant.com.cn/brandshow?id=219)
 
@@ -127,7 +125,7 @@ This list contains authorized distributors selling Saleae devices. Please note t
 
 ### Japan
 
-* [Akizuki Denshi Tsucho Co., Ltd](http://akizukidenshi.com/catalog/goods/search.aspx?search=x\&keyword=saleae\&image=%8C%9F%8D%F5)
+* [Akizuki Denshi Tsucho Co., Ltd](http://akizukidenshi.com/catalog/goods/search.aspx?search=x&keyword=saleae&image=%8C%9F%8D%F5)
 
 ### Malaysia
 
@@ -138,7 +136,7 @@ This list contains authorized distributors selling Saleae devices. Please note t
 
 * [Amazing Tech](http://amazingtech.com.cn/cn/index.php)
 * [Elecsoft Solution](http://www.elecsoftsolution.com)
-* [Robot R Us](https://robot-r-us.com.sg/?s=saleae\&post_type=product)
+* [Robot R Us](https://robot-r-us.com.sg/?s=saleae&post_type=product)
 
 ### South Africa
 
@@ -147,14 +145,14 @@ This list contains authorized distributors selling Saleae devices. Please note t
 ### South Korea
 
 * [NTREX](https://www.devicemart.co.kr/goods/view?no=14453007)
-* [Oceansky Technology](http://oceansky-technology.com/commerce/advanced_search_result.php?keywords=saleae\&sid=abf33532e1f39dee3759e0f997ad9779\&x=0\&y=0)
-* [Robotscience Mall](http://www.robotscience.kr/goods/search?search_text=saleae\&x=0\&y=0)
-* [Vcreatics](http://www.vctec.co.kr/product/search.html?banner_action=\&keyword=saleae)
+* [Oceansky Technology](http://oceansky-technology.com/commerce/advanced_search_result.php?keywords=saleae&sid=abf33532e1f39dee3759e0f997ad9779&x=0&y=0)
+* [Robotscience Mall](http://www.robotscience.kr/goods/search?search_text=saleae&x=0&y=0)
+* [Vcreatics](http://www.vctec.co.kr/product/search.html?banner_action=&keyword=saleae)
 
 ### Taiwan
 
 * [Eagle Tek](http://www.eagletek.com.tw)
-* [Oceansky Technology](http://oceansky-technology.com/commerce/advanced_search_result.php?keywords=saleae\&sid=abf33532e1f39dee3759e0f997ad9779\&x=0\&y=0)
+* [Oceansky Technology](http://oceansky-technology.com/commerce/advanced_search_result.php?keywords=saleae&sid=abf33532e1f39dee3759e0f997ad9779&x=0&y=0)
 
 ### Thailand
 

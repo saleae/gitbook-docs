@@ -1,5 +1,3 @@
-# Using Saleae Logic Devices with Third-Party Pattern Generators
-
 The Saleae logic analyzers only support data recording and do not have any output mode capability. For application where digital output is required, you will need another device called a digital pattern generator. These devices are used to output pre-defined digital signals on one or more digital channels.
 
 There are many situations where using a pattern generator along with a logic analyzer is beneficial. In general, there are two ways to do this.

@@ -1,5 +1,3 @@
-# What Is the Best Way to Compare Similar Sequences of Protocol Data?
-
 The Saleae software does not have a built-in tool for comparing sequences of protocol data. Instead, we offer the following recommendations.
 
 **Basic Comparisons** First, for rough, quick comparisons between captures with relatively short bursts of repeating protocol data, we recommend saving several sample captures. It's okay if the sequences you want to compare are in the same capture. Then open two or more instances of the Saleae software. Note that there are not currently any features to synchronize viewing multiple captures, so it's probably best to only use two instances. Open a sample capture in each so you have at least one copy of the sequence in each instance. From there, you can view both sequences simultaneously.
@@ -19,15 +17,11 @@ If the sequence you're trying to compare is longer in length or is more complex 
 
 For details on how to export to CSV, see this guide:
 
-{% content-ref url="../../logic-software/saving-and-exporting-data/saving-loading-and-exporting-data.md" %}
-[saving-loading-and-exporting-data.md](../../logic-software/saving-and-exporting-data/saving-loading-and-exporting-data.md)
-{% endcontent-ref %}
+[Capture & Preset File Management](../../logic-software/saving-and-exporting-data/saving-loading-and-exporting-data.md)
 
 Also, be sure to use a display base that is best suited for your data (usually either Hex or ASCII).
 
-{% content-ref url="../../logic-software/viewing-and-analyzing-data/changing-the-display-radix.md" %}
-[changing-the-display-radix.md](../../logic-software/viewing-and-analyzing-data/changing-the-display-radix.md)
-{% endcontent-ref %}
+[Changing the Display Radix (Base)](../../logic-software/viewing-and-analyzing-data/changing-the-display-radix.md)
 
 I recommend copying the contents from each export file into a master Excel document. You may want to start with 1 sheet per export, but eventually, you will want to move many instances of the sequence into the same sheet.
 

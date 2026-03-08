@@ -1,5 +1,3 @@
-# Time Bar Settings
-
 The time bar, located at the top of the software, helps with visualizing the time at which events occur in your capture. Right-clicking on the time bar will allow further configuration options.
 
 ![](<../../.gitbook/assets/Screen Shot 2021-04-02 at 2.32.18 PM.png>)
@@ -17,11 +15,11 @@ The time point at which t=0s occurs can be configured to the following events
 
 * **Wall Clock Time**: Changes the time format to your OS wall clock
 
-{% hint style="info" %}
+<div class="callout callout-info">
 The Wall Clock Time format setting will only show up when you pan the capture all the way to the left (i.e. at the beginning of the capture). When you are zoomed in anywhere else in the capture, the wall clock time will not appear.
 
 We certainly need to improve the way this feature works in such a way to avoid this confusion. If you have any issues with the way it's implemented now, feel free to vote for improvements [here](https://ideas.saleae.com/b/feature-requests/wall-clock-time-seemingly-doesnt-work)!
-{% endhint %}
+</div>
 
 ![Scroll to the beginning of capture to see Wall Clock Time](<../../.gitbook/assets/Screen Shot 2021-04-21 at 5.14.57 PM.png>)
 

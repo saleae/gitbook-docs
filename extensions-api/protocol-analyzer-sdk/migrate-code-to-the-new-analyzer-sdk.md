@@ -1,5 +1,3 @@
-# Migrate Code to the New Analyzer SDK
-
 This information applies for the Analyzer SDK 1.1.14 onwards.
 
 Current custom analyzer code should work with the software without any changes to it.\
@@ -11,9 +9,7 @@ Below is a description of the changes required to include an analyzer's data int
 
 The latest source code to all analyzers can be found below.
 
-{% content-ref url="../protocol-analyzer-sdk/" %}
 [protocol-analyzer-sdk](../protocol-analyzer-sdk/)
-{% endcontent-ref %}
 
 **Update Steps**
 

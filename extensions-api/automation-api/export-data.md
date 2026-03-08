@@ -1,18 +1,14 @@
-# Export Data via Socket API
-
 The following information pertains to our Legacy Socket API Automation utility for the older Logic 1.x software, which can be found below.
 
-{% content-ref url="./automation.md" %}
-[automation.md](./automation.md)
-{% endcontent-ref %}
+[Automation API - Logic 2](./automation.md)
 
 ### Exporting Data Using the Python Wrapper
 
 Below, we show example code specifying the proper parameters for `export_data2()` , which is used for exporting data via Socket API (our automation utility). This function comes from a [3rd party Python Wrapper](https://github.com/ppannuto/python-saleae) for Socket API, which we recommend using for automating our software.
 
-{% hint style="info" %}
+<div class="callout callout-info">
 Note: For exporting data, please use `export_data2().` Currently, `export_data()` is deprecated due to an update that increased the number of export options.
-{% endhint %}
+</div>
 
 #### Common Argument Settings
 
@@ -57,9 +53,9 @@ Note: Only digital channels can support VCD exports.
 
 Below, we show example code specifying the proper parameters for [`export_data2`](https://github.com/saleae/SaleaeSocketApi/blob/master/Doc/Logic%20Socket%20API%20Users%20Guide.md#export-data-2) , which is used for exporting data via Socket API (our automation utility). This function comes from our list of [supported socket commands](https://github.com/saleae/SaleaeSocketApi/blob/master/Doc/Logic%20Socket%20API%20Users%20Guide.md). This is a more direct approach when automating the Logic software.
 
-{% hint style="info" %}
+<div class="callout callout-info">
 Note: For exporting data, please use [`export_data2`](https://github.com/saleae/SaleaeSocketApi/blob/master/Doc/Logic%20Socket%20API%20Users%20Guide.md#export-data-2)  since currently, [`export_data`](https://github.com/saleae/SaleaeSocketApi/blob/master/Doc/Logic%20Socket%20API%20Users%20Guide.md#export-data-deprecated) is deprecated due to an update that increased the number of export options.
-{% endhint %}
+</div>
 
 The general format of the command is as follows:
 

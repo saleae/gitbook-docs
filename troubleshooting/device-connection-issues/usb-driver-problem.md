@@ -1,5 +1,3 @@
-# Warning Message: Possible USB Host Controller Problem Detected
-
 In Windows, the Logic 2 software may generate the following warning message if it detects a possible USB host controller incompatibility.
 
 > Possible USB Host Controller Problem Detected! If you do not experience any connectivity issues with your device, you can safely ignore this message. Select "Do not show again" to hide.
@@ -16,9 +14,7 @@ The two known USB host controller driver combinations with problems (ASMedia hos
 
 if you are running into any connectivity issues, feel free to collect the information about your USB host controller (instructions in the support article below) and contact [Saleae support](https://contact.saleae.com/hc/en-us/requests/new).
 
-{% content-ref url="../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md" %}
-[usb-3.0-host-controller-info.md](../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md)
-{% endcontent-ref %}
+[Finding Your USB 3.0 Host Controller Information](../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md)
 
 #### Troubleshooting your Connection
 
@@ -28,9 +24,9 @@ if you are running into any connectivity issues, feel free to collect the inform
 4. If the connection issue persists even after your computer is restarted, then a driver update may be required.
 5. If there is a driver available for your computer, there is a good chance Windows Update will have it. To check, open Windows Update, and click "View optional updates" and expand "Driver Updates."
 
-{% hint style="warning" %}
+<div class="callout callout-warning">
 If your driver is not shown in the list of "Driver Updates" in Windows Update, then there is no update available from Windows Update. In this case, you should not attempt to force install one of their update packages.
-{% endhint %}
+</div>
 
 ## Latest USB 3.0 Host Controller Drivers
 
@@ -80,17 +76,15 @@ Note: `lsusb` must be run when the Saleae Logic device is connected.
 
 In our older Logic 1.x software, you can identify which USB 3.0 host controller(s) is installed on your system. Most machines will have a single USB 3.0 host controller and two USB 2.0 host controllers. To find the installed host controller(s), please follow the instructions below.
 
-{% content-ref url="../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md" %}
-[usb-3.0-host-controller-info.md](../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md)
-{% endcontent-ref %}
+[Finding Your USB 3.0 Host Controller Information](../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md)
 
 ## Unsupported Operating Systems
 
 ### Windows 7 and Older
 
-{% hint style="warning" %}
+<div class="callout callout-warning">
 Microsoft support for Windows 7 ended on January 14, 2020
-{% endhint %}
+</div>
 
 Most common problems with Logic Pro 8 and Logic Pro 16 on Windows 7 can be solved by simply updating the USB 3.0 host controller drivers manually.
 

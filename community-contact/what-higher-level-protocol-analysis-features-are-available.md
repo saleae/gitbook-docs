@@ -1,5 +1,3 @@
-# What Higher-Level Protocol Analysis Features Are Available?
-
 The Saleae Logic software includes a number of protocol analyzers. Each analyzer has a set of its own settings. Some of those settings affect the decoder results.
 
 In general, all analyzers will display the decoded data directly on the graph above the signal where the transaction occurred.
@@ -18,7 +16,5 @@ In some cases, you may be able to export the results from the protocol analyzer 
 
 It's also possible to modify the source code for the Saleae logic analyzers to accomplish higher-level decoding or add more features.
 
-{% content-ref url="../../../product/user-guide/extensions-apis-and-sdks/saleae-api-and-sdk/protocol-analyzer-sdk/" %}
 [protocol-analyzer-sdk](../../../product/user-guide/extensions-apis-and-sdks/saleae-api-and-sdk/protocol-analyzer-sdk/)
-{% endcontent-ref %}
 

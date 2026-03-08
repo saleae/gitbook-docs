@@ -1,5 +1,3 @@
-# Logic 2 Error Messages
-
 Click on the error code in the table below to learn more about that specific error message.
 
 | Error Code                                                                            | Description                                                                                                                        |
@@ -12,25 +10,17 @@ Click on the error code in the table below to learn more about that specific err
 
 These error messages do not have an error code associated with them. You can learn more in the links below.
 
-{% content-ref url="./error-message-unable-to-detect-webgl.md" %}
-[error-message-unable-to-detect-webgl.md](./error-message-unable-to-detect-webgl.md)
-{% endcontent-ref %}
+[Error Message: Unable to detect WebGL and Other GPU Issues](./error-message-unable-to-detect-webgl.md)
 
-{% content-ref url="../device-connection-issues/limitations-of-logic-pro-usb2.md" %}
-[limitations-of-logic-pro-usb2.md](../device-connection-issues/limitations-of-logic-pro-usb2.md)
-{% endcontent-ref %}
+[Warning Message: Logic Pro is running as a USB 2.0 device](../device-connection-issues/limitations-of-logic-pro-usb2.md)
 
-{% content-ref url="../device-connection-issues/usb-driver-problem.md" %}
-[usb-driver-problem.md](../device-connection-issues/usb-driver-problem.md)
-{% endcontent-ref %}
+[Warning Message: Possible USB Host Controller Problem Detected](../device-connection-issues/usb-driver-problem.md)
 
 ### Sharing your Machine ID
 
 Our support team may require you to send your Machine ID to help us investigate any issues you may be having when using our software. Please refer to the link below to share your Machine ID with us.
 
-{% content-ref url="../diagnostic-tools/sharing-your-machine-id.md" %}
-[sharing-your-machine-id.md](../diagnostic-tools/sharing-your-machine-id.md)
-{% endcontent-ref %}
+[Getting your Machine ID](../diagnostic-tools/sharing-your-machine-id.md)
 
 
 

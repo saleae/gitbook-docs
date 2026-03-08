@@ -1,10 +1,8 @@
-# Submit a Warranty Claim
-
 ## Troubleshooting Steps
 
 If you believe your Logic hardware is broken, please completely perform the troubleshooting steps below and take note of the results so we can verify the source of the problem.
 
-**1. If the Logic analyzer is connected to a device under test, disconnect it.**&#x20;
+**1. If the Logic analyzer is connected to a device under test, disconnect it.** 
 
 * This will rule out the possibility of a common mode ground current interfering with the device. More info below.
 
@@ -12,15 +10,13 @@ If you believe your Logic hardware is broken, please completely perform the trou
 
 * In cases where the software cannot detect the logic analyzer, we need to determine if the PC itself can detect the Logic device. Please follow the steps in the link below.
 
-{% content-ref url="../troubleshooting/diagnostic-tools/pc-detection-test.md" %}
-[pc-detection-test.md](../troubleshooting/diagnostic-tools/pc-detection-test.md)
-{% endcontent-ref %}
+[PC Detection Test](../troubleshooting/diagnostic-tools/pc-detection-test.md)
 
 **3. Test with the Latest Logic 2 Software.**
 
 * [Download Logic 2 here](https://www.saleae.com/downloads/)
 
-**4. Remove any USB hubs, laptop docking stations, and extension cables.**&#x20;
+**4. Remove any USB hubs, laptop docking stations, and extension cables.** 
 
 * Also, remove all other USB devices from your PC. Then, test the device directly on the PC, and on all other USB ports. Logic Pro 8 and Pro 16 require USB 3.0 ports.
 
@@ -36,18 +32,14 @@ If you believe your Logic hardware is broken, please completely perform the trou
 
 * If the VID and PID are incorrect, then the hardware maybe faulty. Stop here and submit a [Warranty Request](https://saleae-support.typeform.com/to/E8UPB7).
 
-{% content-ref url="../troubleshooting/device-connection-issues/the-devices-usb-vid-and-pid-failed.md" %}
-[the-devices-usb-vid-and-pid-failed.md](../troubleshooting/device-connection-issues/the-devices-usb-vid-and-pid-failed.md)
-{% endcontent-ref %}
+[Device USB VID and PID Information](../troubleshooting/device-connection-issues/the-devices-usb-vid-and-pid-failed.md)
 
-**8. If you are troubleshooting Logic Pro 8 or Pro 16, ensure the latest USB 3.0 Host Controller is installed.**&#x20;
+**8. If you are troubleshooting Logic Pro 8 or Pro 16, ensure the latest USB 3.0 Host Controller is installed.** 
 
 * Update the driver, if possible, and run the tests again. The latest host controller drivers are provided in the link below.
 * The windows driver update check will NOT update USB 3.0 host controller drivers. These are not included in the Windows update driver database and must be manually updated.
 
-{% content-ref url="../troubleshooting/device-connection-issues/usb-driver-problem.md" %}
-[usb-driver-problem.md](../troubleshooting/device-connection-issues/usb-driver-problem.md)
-{% endcontent-ref %}
+[Warning Message: Possible USB Host Controller Problem Detected](../troubleshooting/device-connection-issues/usb-driver-problem.md)
 
 ### PC Fails to Detect Logic
 

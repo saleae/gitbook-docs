@@ -1,5 +1,3 @@
-# Linux Shared Memory Crash
-
 This article specifically addresses a Linux crash bug that causes the software to crash on launch, usually until the system is restarted.
 
 Error message in log file:

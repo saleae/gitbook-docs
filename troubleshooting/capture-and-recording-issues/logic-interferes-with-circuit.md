@@ -1,5 +1,3 @@
-# Logic Interferes with My Circuit Operation
-
 All test equipment will have some effect on the signal that it's recording. This effect is usually referred to as loading.
 
 In addition to probe loading, certain types of device failure or partial device failure can cause significantly higher than normal loading. This type of failure is usually limited to only one channel on the device and is covered under the Saleae 3-year warranty.
@@ -16,17 +14,13 @@ If you are recording an open drain bus or another bus topology other than CMOS o
 
 If you notice negative effects on your application when a logic analyzer is applied, first check for ground loops. If the problem is caused by a common mode ground voltage, then the issue will appear the moment a ground pin from Logic is attached to your circuit and not when an input probe is connected. The issue will also only be present when the logic analyzer is attached to the host PC and when the device under test is powered. For more information on ground loops, see this article below.
 
-{% content-ref url="../../specifications-hardware/product-comparison-and-selection/safety-and-warranty.md" %}
-[safety-and-warranty.md](../../specifications-hardware/product-comparison-and-selection/safety-and-warranty.md)
-{% endcontent-ref %}
+[Safety & Warranty](../../specifications-hardware/product-comparison-and-selection/safety-and-warranty.md)
 
 In the absence of a ground loop problem, there could be a problem with one or a few of the inputs on the device. Try using different input channels on the logic analyzer. Also try measuring the resistance between the input pin and the ground pin on the logic analyzer using a multi-meter. If you see a lower resistance than specified for that device, let us know, and we can replace it under warranty.
 
 Please also perform the basic channel functional test described in this article.
 
-{% content-ref url="./captured-data-looks-incorrect.md" %}
-[captured-data-looks-incorrect.md](./captured-data-looks-incorrect.md)
-{% endcontent-ref %}
+[The Captured Data Looks Incorrect](./captured-data-looks-incorrect.md)
 
 **Original Logic Input States**
 
@@ -42,9 +36,7 @@ The original Logic is also the only Saleae device to use pulled up inputs. All o
 
 More information on the inputs of the original Logic can be found below.
 
-{% content-ref url="../../specifications-hardware/electrical-characteristics/supported-voltages.md" %}
-[supported-voltages.md](../../specifications-hardware/electrical-characteristics/supported-voltages.md)
-{% endcontent-ref %}
+[Supported Voltages](../../specifications-hardware/electrical-characteristics/supported-voltages.md)
 
 **Still Unable to Identify the Problem**
 

@@ -1,5 +1,3 @@
-# Software Shows Multiple Logic Analyzers Attached
-
 When no connected logic analyzer is detected by the software, the Software will switch into demo mode. In demo mode, the software will attach four simulations devices:
 
 * Simulated Logic 4

@@ -1,5 +1,3 @@
-# Get a Quote
-
 You can click on the link below to submit a quote request form. Once submitted, please allow some time (typically one business day) and we will reach out to you via email with your quote in PDF format.
 
 * ### [Get a Quote](https://saleae-support.typeform.com/to/WnpOte)
@@ -13,7 +11,7 @@ If the quote request form is somehow not working on your end, please [contact su
 * Email address
 * How will you place your order? (select an option below)
   * Purchase Order (via wire transfer). [Please see requirements here](https://support.saleae.com/ordering-and-shipping/place-a-purchase-order-po).
-  * Online at [www.saleae.com](https://www.google.com/url?q=http://www.saleae.com\&sa=D\&ust=1540340346557000\&usg=AFQjCNHWDUcQbtcB6hb6MAF9xUwaJzjC4A) (via credit card or PayPal)
+  * Online at [www.saleae.com](https://www.google.com/url?q=http://www.saleae.com&sa=D&ust=1540340346557000&usg=AFQjCNHWDUcQbtcB6hb6MAF9xUwaJzjC4A) (via credit card or PayPal)
 * Products and Quantity
 * Shipping City and Country
 * Shipping Option (select an option below)
@@ -33,17 +31,13 @@ If the quote request form is somehow not working on your end, please [contact su
 
 For reference, you may refer to the list of products we sell below.
 
-{% content-ref url="../specifications-hardware/datasheets-and-compliance/saleae-part-numbers.md" %}
-[saleae-part-numbers.md](../specifications-hardware/datasheets-and-compliance/saleae-part-numbers.md)
-{% endcontent-ref %}
+[Part Numbers, ECCN, HS Codes, and Country of Origin](../specifications-hardware/datasheets-and-compliance/saleae-part-numbers.md)
 
 ### Placing a Purchase Order?
 
 If you plan on placing a purchase order, please review the requirements and process below before submitting your quote:
 
-{% content-ref url="./place-a-purchase-order-po.md" %}
-[place-a-purchase-order-po.md](./place-a-purchase-order-po.md)
-{% endcontent-ref %}
+[Place a Purchase Order (PO)](./place-a-purchase-order-po.md)
 
 
 

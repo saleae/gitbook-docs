@@ -1,5 +1,3 @@
-# Extension File Format
-
 Extensions are composed of at least three files, `extension.json`, `readme.md`, and one or more python files. The Logic 2 software uses **Python version 3.8**.
 
 ### extension.json File Layout
@@ -38,7 +36,7 @@ This example is a for a single extension that contains one high level analyzer a
 }
 ```
 
-The `author`, `description`, and `name` properties manage what appears in the Extensions panel where the extensions are managed.&#x20;
+The `author`, `description`, and `name` properties manage what appears in the Extensions panel where the extensions are managed. 
 
 | Property    | Example                       | Description                                                                                                                                           |
 | ----------- | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------- |

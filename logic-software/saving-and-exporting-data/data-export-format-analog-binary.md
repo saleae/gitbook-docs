@@ -1,5 +1,3 @@
-# Binary Export Format (Analog) - Logic 1.x
-
 When exporting analog data, you will have the option to export into a binary file (.bin). Each binary file export has either analog only values or digital only values.
 
 The output file is raw binary in _Little Endian_ order. The file format is as follows:

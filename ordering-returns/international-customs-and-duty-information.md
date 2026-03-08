@@ -1,5 +1,3 @@
-# International Customs and Duty Information
-
 For some countries, mainly EU member countries, Saleae offers the ability to pre-pay customs, which is usually VAT.
 
 Due to the complexity of pre-paying duties and taxes for all other countries, we do not offer the ability to pre-pay duties and taxes, and they will be due on delivery. Duties and taxes are collected differently depending on the destination country for your shipment.

@@ -1,10 +1,6 @@
-# How Can I Compare Two Clock Signals for Synchronization and Drift?
-
 There are several ways to compare two clock signals in a capture. However, before going further, it is recommended to review the worst case channel-to-channel skew introduced by the logic analyzer recording below.
 
-{% content-ref url="../../specifications-hardware/electrical-characteristics/worst-case-channel-skew.md" %}
-[worst-case-channel-skew.md](../../specifications-hardware/electrical-characteristics/worst-case-channel-skew.md)
-{% endcontent-ref %}
+[What Is the Worst Case Channel to Channel Skew?](../../specifications-hardware/electrical-characteristics/worst-case-channel-skew.md)
 
 There are several ways to compare two clock signals.
 
@@ -25,15 +21,15 @@ There are several ways to compare two clock signals.
 
     Use the following CSV settings:
 
-    &#x20; Include column headings
+      Include column headings
 
-    &#x20; Comma delimited
+      Comma delimited
 
-    &#x20; Use timestamps
+      Use timestamps
 
-    &#x20; Output one column for every bit
+      Output one column for every bit
 
-    &#x20; Output one row per change
+      Output one row per change
 * Select Export and save to a CSV file named Channel1.csv or similar.
 * Repeat the process for the second channel.
 

@@ -1,39 +1,33 @@
-# Automation API - Legacy Logic 1.x
-
 ## Legacy Socket API Automation for Logic 1.x
 
-{% hint style="warning" %}
+<div class="callout callout-warning">
 Due to the official release of the newer [Logic 2 Automation API](https://saleae.github.io/logic2-automation/), we have officially ended support for our Legacy Logic 1.x Automation API. We highly recommend existing users who currently use our legacy Automation API automation utility with Logic 1.x to migrate their automation utility to Logic 2 using our new Automation API above. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you need help with that.
-{% endhint %}
+</div>
 
-Our Legacy Automation API (which we called Socket API in the past) allows users to programmatically configure our software and trigger captures, and requires the older Logic 1.x software.&#x20;
+Our Legacy Automation API (which we called Socket API in the past) allows users to programmatically configure our software and trigger captures, and requires the older Logic 1.x software. 
 
 The basic premise is that you can develop an application that connects to this socket server and then sends simple text commands to the software such as "CAPTURE\_TO\_FILE" to trigger specific actions. The software will then respond with "ACK", "NAK", or other information once the command has executed.
 
 In addition, please keep in mind that newer versions of our Logic hardware (after revision 3.0.0) will no longer work with the older Logic 1.x software. If this poses any issues, please [contact us](https://contact.saleae.com/hc/en-us/requests/new). A brief summary of our hardware revisions are described in the support article below.
 
-{% content-ref url="../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md" %}
-[logic-hardware-revisions.md](../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md)
-{% endcontent-ref %}
+[Logic Hardware Revisions](../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md)
 
 ### Prerequisites - Software Settings
 
 * Check that you are using the latest version of our legacy Logic 1.x software below.
 
-{% content-ref url="../../logic-software/download-and-installation/older-software-releases.md" %}
-[older-software-releases.md](../../logic-software/download-and-installation/older-software-releases.md)
-{% endcontent-ref %}
+[Logic 1.x Download (Deprecated)](../../logic-software/download-and-installation/older-software-releases.md)
 
-* We highly recommend suppressing notifications and error messages while running your automation script. These notifications may block normal operation and can be suppressed by starting the application with the command line option `-disablepopups`&#x20;
+* We highly recommend suppressing notifications and error messages while running your automation script. These notifications may block normal operation and can be suppressed by starting the application with the command line option `-disablepopups` 
 * Next, we must enable the scripting socket server. Open Options Menu at the top of the software.
 * Select Preferences
 * Under the Developer Tab, check the box to enable socket server
 * Save Changes
 * Accept firewall changes if the OS requests it
 
-{% hint style="warning" %}
+<div class="callout callout-warning">
 For automated environments, the `-socket` command line option was previously used to automatically enable the scripting socket server. Unfortunately, we cannot recommend this moving forward due to a [known bug](https://github.com/saleae/SaleaeSocketApi/issues/14#issuecomment-656691914). We will fix this in a future release, which will be integrated into [Logic v2](https://discuss.saleae.com/). For now, please use the Preferences Window as shown above to enable the socket server.
-{% endhint %}
+</div>
 
 ### Socket API User's Guide
 
@@ -51,9 +45,7 @@ For simple automation requirements, we suggest using our [Python Sample Applicat
 
 The [Python Sample Application](https://github.com/saleae/python-saleae-cli) implements a very basic form of data export via csv. If more export options are needed, please see the article below:
 
-{% content-ref url="./export-data.md" %}
-[export-data.md](./export-data.md)
-{% endcontent-ref %}
+[Export Data via Socket API](./export-data.md)
 
 You may also send supported socket commands directly via the terminal using the Python wrapper, as shown below. See our [list of supported commands](https://github.com/saleae/SaleaeSocketApi/blob/master/Doc/Logic%20Socket%20API%20Users%20Guide.md).
 
@@ -83,7 +75,7 @@ If you would like to share your application, feel free to send us a link to it o
 
 The Socket API currently supports the raw export feature and the protocol-specific export feature. However, the socket API does not support exporting the protocol search results.
 
-### How Can I Take Long Captures That Cannot Fit into Memory?&#x20;
+### How Can I Take Long Captures That Cannot Fit into Memory? 
 
 The basic process is to use one command over and over again. That command is "CAPUTRE\_TO\_FILE". Once the capture has completed and the file has been saved, the software will reply over the socket "ACK". Then the software is ready to receive a new capture to file command.
 
@@ -113,17 +105,17 @@ To suppress these popups, simply start the application with the command line opt
 
 *   Automating the process of starting a capture with a trigger and exporting the protocol results after the capture
 
-    &#x20; This can be done by either pre-setting the trigger in the software or setting it using the API command SET\_TRIGGER.
+      This can be done by either pre-setting the trigger in the software or setting it using the API command SET\_TRIGGER.
 
-    &#x20; The basic flow to automatically start the capture and export protocol results would look like this:
+      The basic flow to automatically start the capture and export protocol results would look like this:
 
-    &#x20; CAPTURE or CAPTURE\_TO\_FILE
+      CAPTURE or CAPTURE\_TO\_FILE
 
-    &#x20; Call IS\_PROCESSING\_COMPLETE in a loop until it returns TRUE
+      Call IS\_PROCESSING\_COMPLETE in a loop until it returns TRUE
 
-    &#x20; GET\_ANALYZERS and get the index of your analyzer (which can change between captures)
+      GET\_ANALYZERS and get the index of your analyzer (which can change between captures)
 
-    &#x20; EXPORT\_ANALYZER&#x20;
+      EXPORT\_ANALYZER 
 
-    &#x20; Please review the documentation for specific command arguments.
+      Please review the documentation for specific command arguments.
 

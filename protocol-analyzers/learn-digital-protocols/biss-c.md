@@ -1,5 +1,3 @@
-# BiSS C
-
 The BiSS C protocol is typically used for the collection of sensor data and the control of actuators, such as in-machine automation and robotics.
 
 **Top Resources**

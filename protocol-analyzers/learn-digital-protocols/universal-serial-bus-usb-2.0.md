@@ -1,5 +1,3 @@
-# Universal Serial Bus (USB) 2.0
-
 USB 1.1/2.0 uses a single differential serial bus to communicate between a computer and peripheral device. Note that Saleae devices can currently only decode low-speed (1.5Mbps) and full-speed (12Mbps) USB traffic.
 
 **Top Resources**
@@ -12,7 +10,7 @@ USB 1.1/2.0 uses a single differential serial bus to communicate between a compu
 
 * [FTDI Breakout](https://www.sparkfun.com/products/9716)
 * [USB Bit Whacker](https://www.sparkfun.com/products/762)
-* [Pinguino 18F2550 Dev Board](http://anceop.com/?action=page\&param=viewProduct\&id=16278)
+* [Pinguino 18F2550 Dev Board](http://anceop.com/?action=page&param=viewProduct&id=16278)
 
 **What Logic Decodes**
 

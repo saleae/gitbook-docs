@@ -1,5 +1,3 @@
-# I2S / PCM Analyzer - User Guide
-
 The Saleae Logic software includes a software protocol analyzer for the I2S digital audio protocol.
 
 The specification for the I2S audio protocol can be found from Sparkfun's website (document by Philips Semiconductors) below:
@@ -24,9 +22,7 @@ Even when the I2S settings have signed number selected, unsigned numbers may alw
 
 This issue is solved by changing the display radix from ascii to decimal. Although a decimal number is shown, the single quotes indicate that the ascii display mode is active, but the number is considered a non-displayable character (in this case, outside of the low ascii range completely) so the text string defaults to unsigned decimal. Changing the display radix to decimal will show the signed number.
 
-{% content-ref url="../../logic-software/viewing-and-analyzing-data/changing-the-display-radix.md" %}
-[changing-the-display-radix.md](../../logic-software/viewing-and-analyzing-data/changing-the-display-radix.md)
-{% endcontent-ref %}
+[Changing the Display Radix (Base)](../../logic-software/viewing-and-analyzing-data/changing-the-display-radix.md)
 
 #### Analyer Result displays "Error: bits don't divide evenly between subframes"
 
@@ -34,7 +30,7 @@ The analyzer result may also not display the data correctly. An image of the err
 
 <figure><img src="../../.gitbook/assets/I2S-error.png" alt=""><figcaption></figcaption></figure>
 
-In the image above, the data bits are transitioning during the clock falling edge, but the I2S/PCM Analyzer is also set to read on the clock falling edge as shown by the "down" arrows on the clock signal.&#x20;
+In the image above, the data bits are transitioning during the clock falling edge, but the I2S/PCM Analyzer is also set to read on the clock falling edge as shown by the "down" arrows on the clock signal. 
 
 That means the bits are being decoded at the exact moment the bits are changing, which will cause errors and will be very sensitive to changes in the sample rate. Change the I2S/PCM Analyzer setting for CLOCK State to either Rising edge or Falling edge depending on the correct clock edge that your data requires.
 
@@ -44,6 +40,4 @@ That means the bits are being decoded at the exact moment the bits are changing,
 
 For more information on this, please see the link below.
 
-{% content-ref url="./convert-i2s-pcm-to-audio.md" %}
-[convert-i2s-pcm-to-audio.md](./convert-i2s-pcm-to-audio.md)
-{% endcontent-ref %}
+[Converting I2S/PCM Captures into Audio](./convert-i2s-pcm-to-audio.md)

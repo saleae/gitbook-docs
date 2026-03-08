@@ -1,5 +1,3 @@
-# Saleae Business Information
-
 ### Saleae Business Information
 
 | Category                  | Value                                                                                |

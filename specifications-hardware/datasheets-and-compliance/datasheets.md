@@ -1,5 +1,3 @@
-# Datasheets
-
 ## **Datasheet / Fact Sheet**
 
 ### _Logic 8:_

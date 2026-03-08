@@ -1,5 +1,3 @@
-# SMBus Analyzer - User Guide
-
 The Saleae Logic software includes the ability to decode SMBus data. The SMBus Analyzer allows you to decode the SMBDAT and SMBCLK lines with some configuration settings which can change how the data can be viewed.
 
 ### Setting up the SMBus Analyzer
@@ -18,9 +16,9 @@ Then, select the SMBus decode level. This will change the way the decoded captur
 
 **Signals:** This will show the data in single-bit format.
 
-{% hint style="info" %}
+<div class="callout callout-info">
 Changing the Display Radix setting in the Logic software will not change the way the SMBus data is displayed. Instead, you must change the display format using the SMBus decode level setting.
-{% endhint %}
+</div>
 
 <figure><img src="../../.gitbook/assets/Screenshot 2023-07-25 at 6.14.41 PM.png" alt=""><figcaption><p>Signals Decode Level Setting</p></figcaption></figure>
 

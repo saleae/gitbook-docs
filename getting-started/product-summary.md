@@ -1,5 +1,3 @@
-# Product Summary
-
 Saleae Logic Analyzers consist of the products listed in this section. The products below have the capability of recording both digital and analog signals.
 
 * SAL-00111 Logic 8 Black
@@ -16,9 +14,7 @@ Saleae Logic Analyzers consist of the products listed in this section. The produ
 
 **Datasheets & Specifications:**
 
-{% content-ref url="../datasheets-and-specifications/" %}
 [datasheets-and-specifications](../datasheets-and-specifications/)
-{% endcontent-ref %}
 
 **What's In the Box?**
 

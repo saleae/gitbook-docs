@@ -1,12 +1,8 @@
-# What Is the Worst Case Channel to Channel Skew?
-
 Relative to a reference signal, channel-to-channel skew is the variation in time of the position of the rising edge between the two signals. Here is [National Instrument's definition](http://zone.ni.com/reference/en-XX/help/370520K-01/hsdio/fpin\_skew/).
 
 It is also important to understand the concept below.
 
-{% content-ref url="./what-is-asynchronous-sampling.md" %}
-[what-is-asynchronous-sampling.md](./what-is-asynchronous-sampling.md)
-{% endcontent-ref %}
+[What is Asynchronous Sampling?](./what-is-asynchronous-sampling.md)
 
 For Saleae Logic products, the worst case channel to channel skew is 1 sample.
 

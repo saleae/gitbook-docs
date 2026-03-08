@@ -1,5 +1,3 @@
-# How Can I Find the Current Status of My Order?
-
 When an order is placed online, you should immediately receive an email confirmation. If you are missing that confirmation, [contact us](https://contact.saleae.com/hc/en-us/requests/new) and we can help with that.
 
 When your order ships, another email is sent containing the tracking number. If you have already received that email, you may use the tracking link included to monitor your shipment's progress.

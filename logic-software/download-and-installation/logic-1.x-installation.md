@@ -1,12 +1,8 @@
-# Logic 1.x Installation (Deprecated)
-
-{% hint style="warning" %}
+<div class="callout callout-warning">
 Starting October of 2022, Saleae has released a new hardware revision of our Logic analyzers which requires the latest version of the Logic 2 software available [here](https://www.saleae.com/downloads/). This newer revision of the hardware will **no longer work with our legacy Logic 1.x software**.
-{% endhint %}
+</div>
 
-{% content-ref url="../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md" %}
-[logic-hardware-revisions.md](../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md)
-{% endcontent-ref %}
+[Logic Hardware Revisions](../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md)
 
 ## Logic 1.x Software
 
@@ -16,9 +12,7 @@ If you plan on using the older Logic 1.x software, you can follow the instructio
 
 The older Logic 1.x software can be downloaded below. Version 1.2.29 is the last version of Logic 1.x.
 
-{% content-ref url="./older-software-releases.md" %}
-[older-software-releases.md](./older-software-releases.md)
-{% endcontent-ref %}
+[Logic 1.x Download (Deprecated)](./older-software-releases.md)
 
 ### **Installing for Windows**
 
@@ -40,9 +34,7 @@ Download the zip file and extract it. The software will run from this folder. Yo
 
 In addition, The Logic 1.2.18 (and prior) software on Linux requires write permissions to several directories in order to run. More information on this below.
 
-{% content-ref url="../../troubleshooting/platform-specific-issues/linux-permission-requirements-for-logic-software.md" %}
-[linux-permission-requirements-for-logic-software.md](../../troubleshooting/platform-specific-issues/linux-permission-requirements-for-logic-software.md)
-{% endcontent-ref %}
+[Linux Permission Requirements for Logic Software](../../troubleshooting/platform-specific-issues/linux-permission-requirements-for-logic-software.md)
 
 #### Extracting the AppImage (Linux)
 

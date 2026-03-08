@@ -1,5 +1,3 @@
-# Data Table & Terminal View
-
 ## Data Table
 
 ### Overview
@@ -10,9 +8,7 @@ The analyzer data table shows all decoded protocol data in a table format. In ge
 
 To learn more about the different columns that are used for Saleae's built-in analyzers, please refer to the support article below.
 
-{% content-ref url="../extensions-apis-and-sdks/extensions/analyzer-frame-types/" %}
 [analyzer-frame-types](../extensions-apis-and-sdks/extensions/analyzer-frame-types/)
-{% endcontent-ref %}
 
 ### Excluding Analyzers and Columns
 
@@ -20,7 +16,7 @@ By clicking the 3 dots to the right of the search bar, a few options become avai
 
 ![Data Table options via 3 dots](<../../.gitbook/assets/Screen Shot 2021-07-14 at 5.36.33 PM.png>)
 
-* Analyzers can be added or removed to exclude certain analyzers from search results and from appearing in the Data Table.&#x20;
+* Analyzers can be added or removed to exclude certain analyzers from search results and from appearing in the Data Table. 
 * The ability to exclude columns from search become available (while keeping them visible in the Data Table). This is useful for excluding columns that may otherwise pollute your search results, such as the 'Type' column, or boolean columns like 'ack' or 'read'.
 
 ### Show/Hide Columns
@@ -29,7 +25,7 @@ The ability to hide columns altogether is available by right clicking the column
 
 !["Show/Hide Columns" Window via Right Clicking the Data Table Header](<../../.gitbook/assets/Screen Shot 2021-07-14 at 5.47.26 PM.png>)
 
-This also excludes them from the search results and is useful when there are too many columns to comfortably display.&#x20;
+This also excludes them from the search results and is useful when there are too many columns to comfortably display. 
 
 ### Jumping to a Waveform Bubble from the Data Table
 
@@ -88,7 +84,7 @@ Long term, we don't have a solution planned for this yet. The data table has to 
 
 #### Scrollbar Limitations
 
-Currently, the contents of the data table are loaded dynamically depending on which section of the data table is currently in view. This approach has some drawbacks which are especially noticeable when navigating the data table with the scrollbar.&#x20;
+Currently, the contents of the data table are loaded dynamically depending on which section of the data table is currently in view. This approach has some drawbacks which are especially noticeable when navigating the data table with the scrollbar. 
 
 For example, dragging the scrollbar to the bottom will not immediately jump you to the end of the data table. Instead, new data table rows will be loaded dynamically, and the scrollbar position and size will adjust accordingly. Therefore, the scrollbar will not be scaled correctly with reference to the total count of data table rows.
 
@@ -115,9 +111,7 @@ Limitations:
 
 When using low level analyzers (LLAs) such as our Async Serial or SPI analyzer, you may notice issues with how values appear in the data table, specifically while viewing results in decimal format. More information on this can be found in the support article below.
 
-{% content-ref url="../../troubleshooting/data-and-analysis-issues/data-table-shows-incorrect-values.md" %}
-[data-table-shows-incorrect-values.md](../../troubleshooting/data-and-analysis-issues/data-table-shows-incorrect-values.md)
-{% endcontent-ref %}
+[Data Table Shows Incorrect Values](../../troubleshooting/data-and-analysis-issues/data-table-shows-incorrect-values.md)
 
 ## Terminal View
 
@@ -158,7 +152,7 @@ Our in-app terminal view has a scroll-back limit of 10,000 rows. Once the 10,000
 
 #### Terminal RefIow issue when Panel is Resized
 
-This only affects the last line in the terminal, and is noticeable when resizing the side panel.&#x20;
+This only affects the last line in the terminal, and is noticeable when resizing the side panel. 
 
 For Async Serial - The last line will not text wrap properly. The last line is considered as the final stretch of data preceded by a new line or carraige return. For I2C or SPI - the last line is considered after the end of a previous transaction, and will not properly reflow when the side panel is resized. SPI data looks like it completely disappears.
 

@@ -1,5 +1,3 @@
-# Navigating Your Data
-
 In the Logic 2 software, several methods exist for navigating your data. Here are some of the most common methods.
 
 ### Marquee Zoom: Zooming by Drag Select
@@ -8,7 +6,7 @@ Marquee zoom (i.e. zooming in by drag-selecting a region of the waveform) is ava
 
 ![Marquee Zoom](<../../.gitbook/assets/Screen Shot 2022-06-07 at 4.06.58 PM.png>)
 
-* Use `Alt-Drag` for XY Range Zoom&#x20;
+* Use `Alt-Drag` for XY Range Zoom 
 * `Ctrl-Drag Up/Down` for Y (Voltage) Range Zoom
 * `Ctrl-Drag Left/Right` for X (Time) Range Zoom
 
@@ -45,9 +43,7 @@ While hovering over the icon, several Y-axis zoom adjustment options become avai
 
 To view many more ways to navigate your data, you may open the Keyboard Shortcuts menu from within the Logic 2 software. More information on this can be found below.
 
-{% content-ref url="../settings-and-preferences/keyboard-shortcuts.md" %}
-[keyboard-shortcuts.md](../settings-and-preferences/keyboard-shortcuts.md)
-{% endcontent-ref %}
+[Keyboard Shortcuts](../settings-and-preferences/keyboard-shortcuts.md)
 
 
 

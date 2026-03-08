@@ -1,10 +1,6 @@
-# Which Version of the Software Should I Use?
-
 In almost all cases, you should use the latest release of the Saleae software, Logic 2. It can be found here below:
 
-{% content-ref url="./sw-download.md" %}
-[sw-download.md](./sw-download.md)
-{% endcontent-ref %}
+[Download](./sw-download.md)
 
 ## Logic 1.x (older)
 
@@ -12,25 +8,19 @@ In almost all cases, you should use the latest release of the Saleae software, L
 
 The latest version of our older Logic 1.x software can be downloaded below. At the moment, Logic 2 does not support our Automation API. To use the Automation API in the meantime, the older Logic 1.x software is required. We plan to add support for the Automation API into Logic 2 in the future.
 
-{% content-ref url="/broken/pages/-LJVJwNqt3HkI7n8CFy9" %}
 [Broken link](/broken/pages/-LJVJwNqt3HkI7n8CFy9)
-{% endcontent-ref %}
 
 **OS X 10.4 and OS X 10.5**
 
 The last version of the software to support OS X 10.4 and OS X 10.5 was the Logic software version 1.1.15. You can download the special releases for this here:
 
-{% content-ref url="/broken/pages/-LJVLJPftJpamc8HLOiL" %}
 [Broken link](/broken/pages/-LJVLJPftJpamc8HLOiL)
-{% endcontent-ref %}
 
 **OS X 10.6**
 
 The last release of the Saleae software to support OS X 10.6 was 1.1.18, which you can find here:
 
-{% content-ref url="./older-software-releases.md" %}
-[older-software-releases.md](./older-software-releases.md)
-{% endcontent-ref %}
+[Logic 1.x Download (Deprecated)](./older-software-releases.md)
 
 **CentOs**
 

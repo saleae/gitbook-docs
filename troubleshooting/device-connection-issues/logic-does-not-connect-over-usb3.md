@@ -1,5 +1,3 @@
-# Logic Does Not Connect over USB 3.0
-
 The Saleae Logic Pro 8 and Logic Pro 16 are designed to operate over USB 3.0 but can also operate over USB 2.0 at slower speeds. However, when connected to USB 3.0 ports with USB 3.0 cables, they should operate at higher speeds.
 
 In some cases, even the USB 2.0 Saleae devices will not operate properly over USB 3.0 ports. In this situation, please provide the information requested in "Windows USB 3.0 Host Controller Driver Information."
@@ -34,15 +32,11 @@ If you are unable to use the Logic Pro 8 or Logic Pro 16 on USB 3.0 ports at USB
 
 Locate your installed host controller and driver version:
 
-{% content-ref url="../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md" %}
-[usb-3.0-host-controller-info.md](../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md)
-{% endcontent-ref %}
+[Finding Your USB 3.0 Host Controller Information](../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md)
 
 Check for driver updates:
 
-{% content-ref url="./usb-driver-problem.md" %}
-[usb-driver-problem.md](./usb-driver-problem.md)
-{% endcontent-ref %}
+[Warning Message: Possible USB Host Controller Problem Detected](./usb-driver-problem.md)
 
 Original instructions (pre 1.2.5):
 
@@ -50,17 +44,17 @@ Original instructions (pre 1.2.5):
 2. Expand the section "Universal Serial Bus Controllers."
 3.  Locate the USB 3.0 host controller:
 
-    &#x20;Usually contained in the name "USB 3.0 Host Controller"
+     Usually contained in the name "USB 3.0 Host Controller"
 
-    &#x20;xHCI Host Controller
+     xHCI Host Controller
 
-    &#x20;Common host vendors: Intel, VIA, ASMedia, Renesas, NEC, TI, FrescoLogic, ETRON, AMD.
+     Common host vendors: Intel, VIA, ASMedia, Renesas, NEC, TI, FrescoLogic, ETRON, AMD.
 4.  Double-click the host. Send the following information to Saleae support:
 
-    &#x20;Full Name
+     Full Name
 
-    &#x20;From the driver tab: Driver Provider, Driver Date, Driver Version
+     From the driver tab: Driver Provider, Driver Date, Driver Version
 
-    &#x20;On Windows 7, this issue can almost always be solved with a driver update. We will help you locate the latest drivers for your computer.
+     On Windows 7, this issue can almost always be solved with a driver update. We will help you locate the latest drivers for your computer.
 
 In the future, the Saleae software will automatically detect driver issues and provide you with information on how to find newer drivers.

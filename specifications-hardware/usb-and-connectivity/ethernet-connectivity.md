@@ -1,5 +1,3 @@
-# Ethernet Connectivity Suggestions
-
 Although Saleae logic analyzers don't have ethernet connectivity natively built in, external hubs such as the [Silex DS-600 Ethernet-USB hub](https://www.silextechnology.com/connectivity-solutions/device-connectivity/ds-600) can provide a working solution.
 
 Using our logic analyzer over ethernet provides some pros and cons:

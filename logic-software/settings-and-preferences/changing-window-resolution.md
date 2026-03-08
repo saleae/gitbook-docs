@@ -1,5 +1,3 @@
-# Is There a Way to Change the Window Resolution?
-
 With high dpi monitors, applications can be difficult to see and read.
 
 **Windows and MacOS**

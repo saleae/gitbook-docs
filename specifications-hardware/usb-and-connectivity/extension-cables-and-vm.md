@@ -1,5 +1,3 @@
-# Using the Hardware with USB Extension Cables, Through Virtual Machines, or Ethernet Extenders
-
 The Saleae Logic devices have unique USB requirements that can make them hard to use in situations more complex than a basic USB cable connecting the device to the PC.
 
 Unfortunately, that means you might not be able to accomplish the connection topology you would like. Also, Saleae does not officially guarantee that the products will work under all or any of these less traditional connection types.
@@ -22,26 +20,26 @@ We did perform a quick test with the host controllers we had already set up for 
 
 *   [Renesas from optimal shop](http://www.amazon.com/gp/product/B008IPXOWU)
 
-    &#x20; This did not work with an extension.
+      This did not work with an extension.
 
-    &#x20; Otherwise, it's the best choice due to good driver and cross-platform reliability.
+      Otherwise, it's the best choice due to good driver and cross-platform reliability.
 *   [ASMedia 3.1 from ASUS](http://www.amazon.com/gp/product/B00Y7UXJJI)
 
-    &#x20; This did work with an extension.
+      This did work with an extension.
 *   [Via from ORICO](http://www.amazon.com/gp/product/B00A20KIXW)
 
-    &#x20; this did not work with an extension.
+      this did not work with an extension.
 *   [ETRON from syba](http://www.amazon.com/gp/product/B005VAOT2E)
 
-    &#x20; This did work with an extension.
+      This did work with an extension.
 *   [Texas Instruments from SIIG](http://www.siig.com/it-products/usb/adapters/pcie/dp-usb-3-0-4-port-pcie-i-e.html)
 
-    &#x20; This did work with an extension.
+      This did work with an extension.
 
-    &#x20; It's recommended if you need to use an extension cable, second-best after Renesas.
+      It's recommended if you need to use an extension cable, second-best after Renesas.
 *   [Integrated Intel 9 series host on ASRock Motherboard](http://www.newegg.com/Product/Product.aspx?Item=N82E16813157564)
 
-    &#x20; This did work with an extension.
+      This did work with an extension.
 
 A test was performed with a [6.5-foot AmazonBasics USB 3.0 extension cable](http://amzn.com/B00NH134L6) and the USB 3.0 cable included with Saleae Logic Pro devices.
 

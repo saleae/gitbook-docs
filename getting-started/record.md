@@ -1,5 +1,3 @@
-# Record
-
 Click the **Start** **button** to begin recording data from the logic analyzer.
 
 {% embed url="https://vimeo.com/452007101" %}

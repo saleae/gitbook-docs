@@ -1,5 +1,3 @@
-# Logic Accessories
-
 The following accessories and instructions apply to the following Saleae Logic products - Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16.
 
 ### **Wire Harness (Gen 2 Version)**
@@ -63,9 +61,7 @@ When using Logic16 with more than 8 inputs, we recommend connecting the second g
 
 Several Logic accessories have been made available by our community of users. These are listed in the support article below.
 
-{% content-ref url="../../community-contact/community-created-accessories.md" %}
-[community-created-accessories.md](../../community-contact/community-created-accessories.md)
-{% endcontent-ref %}
+[Community Created Accessories](../../community-contact/community-created-accessories.md)
 
 
 

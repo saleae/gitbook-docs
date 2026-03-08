@@ -1,5 +1,3 @@
-# Saving or Loading Anything Crashes the Software
-
 ### Dell Backup and Recovery Compatibility Issue
 
 We have recently discovered a software compatibility issue with our software and Dell Backup and Recovery, a program pre-installed on some Dell computers.

@@ -1,5 +1,3 @@
-# LIN - Frame Format
-
 ## Output Frame Format
 
 ### Frame Type: `"no_frame"`

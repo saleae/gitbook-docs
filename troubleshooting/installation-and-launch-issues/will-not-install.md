@@ -1,5 +1,3 @@
-# Installation Errors
-
 ### The Older Version of Logic Cannot be Removed
 
 The error message upon installation is likely caused by a missing or mis-referenced uninstaller file location. Unfortunately, we're unsure of what exactly causes this error, however we've detailed a solution below.
@@ -10,7 +8,7 @@ Specifically, Microsoft has made available an [Install and Uninstall troubleshoo
 
 ### The Logic Setup Wizard Ended Prematurely
 
-In case you run into the issue below, please try installing the software the command line argument described below to generate a log file (replacing the "x"s with the particular version you are installing).&#x20;
+In case you run into the issue below, please try installing the software the command line argument described below to generate a log file (replacing the "x"s with the particular version you are installing). 
 
 ![Logic 2 Installer Error](<../../.gitbook/assets/image (5).png>)
 
@@ -35,9 +33,7 @@ This is typically solved by performing a Windows Update.
 
 Some users have reported that installing the Saleae drivers manually via the methods listed in the support article below solves various install issues.
 
-{% content-ref url="../../logic-software/download-and-installation/driver-install.md" %}
-[driver-install.md](../../logic-software/download-and-installation/driver-install.md)
-{% endcontent-ref %}
+[Driver Install](../../logic-software/download-and-installation/driver-install.md)
 
 ### Known Issues with Windows 11 Insider Preview Builds
 
@@ -54,7 +50,7 @@ Based on user reports, we believe there may be issues with Windows 11 Insider Pr
 
 For PCs managed by an IT deparment, either through a corporate network or corporate security plan, you may need to reach out to them for further assistance. We've discovered in the past that some installation issues had been solved by modifying an IT policy, particularly ones that affect what root certificates are trusted on the PC.
 
-We would be happy to chat with them directly as well! In this case, feel free to have them [contact us](https://contact.saleae.com/hc/en-us/requests/new).&#x20;
+We would be happy to chat with them directly as well! In this case, feel free to have them [contact us](https://contact.saleae.com/hc/en-us/requests/new). 
 
 ### This Installation Package is Not Supported by this Processor Type
 
@@ -62,9 +58,7 @@ We would be happy to chat with them directly as well! In this case, feel free to
 
 This error message during installation typically occurs when attempting to install the Logic 2 software on a 32-bit processor or operating system. Please note that 32-bit operating systems are not supported by Logic 2.x. For 32-bit support, please refer to Logic 1.x below.
 
-{% content-ref url="../../logic-software/download-and-installation/older-software-releases.md" %}
-[older-software-releases.md](../../logic-software/download-and-installation/older-software-releases.md)
-{% endcontent-ref %}
+[Logic 1.x Download (Deprecated)](../../logic-software/download-and-installation/older-software-releases.md)
 
 
 
@@ -86,9 +80,7 @@ For each item, first perform the test. If the test result is positive (the test 
 * Test: Are you using an unsupported operating system?
 * Corrective Action: Use a supported operating system.
 
-{% content-ref url="../../logic-software/download-and-installation/supported-operating-systems.md" %}
-[supported-operating-systems.md](../../logic-software/download-and-installation/supported-operating-systems.md)
-{% endcontent-ref %}
+[Supported Operating Systems](../../logic-software/download-and-installation/supported-operating-systems.md)
 
 ### **Wrong Installer Downloaded**
 
@@ -98,28 +90,26 @@ For each item, first perform the test. If the test result is positive (the test 
 ### **Anti-Virus False Positive**
 
 * Test: Does your anti-virus detect the logic software or installer as a virus and prevent you from running it?
-*   Corrective Action: First, verify that this is actually a false positive and not an actual issue. Make sure you downloaded the Logic software directly from the [saleae website](https://www.saleae.com/downloads).&#x20;
+*   Corrective Action: First, verify that this is actually a false positive and not an actual issue. Make sure you downloaded the Logic software directly from the [saleae website](https://www.saleae.com/downloads). 
 
-    &#x20; You can also test the download against other anti-virus programs using the online service [Virus Total](https://www.virustotal.com/).
+      You can also test the download against other anti-virus programs using the online service [Virus Total](https://www.virustotal.com/).
 
-    &#x20; If this is just a false positive, you can either manually ignore the file if your anti-virus allows it, or you can disable your anti-virus.&#x20;
+      If this is just a false positive, you can either manually ignore the file if your anti-virus allows it, or you can disable your anti-virus. 
 
-    &#x20; We typically see false positives with AVG. You can find the [1.2.2 virus total results here](https://www.virustotal.com/en/file/9b9fc726f45a206a52aef9695d309bc0ee7ce583e4c06577f0b4875fe81207ee/analysis/1435262948/).
+      We typically see false positives with AVG. You can find the [1.2.2 virus total results here](https://www.virustotal.com/en/file/9b9fc726f45a206a52aef9695d309bc0ee7ce583e4c06577f0b4875fe81207ee/analysis/1435262948/).
 
 ### **Logic Software Installer Fails with Error on Windows**
 
 * Test: Attempt to install the Logic software using the downloaded installer for your platform.
 *   Corrective Action: Try using the "standalone" version of the software. The download link can be found below the normal installer downloads.
 
-    &#x20; The "standalone" version of the software does not need to be installed. Simply extract it and run Logic.exe.
+      The "standalone" version of the software does not need to be installed. Simply extract it and run Logic.exe.
 
-    &#x20; Please note that the installer normally handles driver installation. You may need to manually install the driver if you use the standalone version. The driver files are included with the standalone download.
+      Please note that the installer normally handles driver installation. You may need to manually install the driver if you use the standalone version. The driver files are included with the standalone download.
 
-    &#x20; You can find all the download links for the latest beta, including the standalone releases below.
+      You can find all the download links for the latest beta, including the standalone releases below.
 
-{% content-ref url="../../logic-software/download-and-installation/older-software-releases.md" %}
-[older-software-releases.md](../../logic-software/download-and-installation/older-software-releases.md)
-{% endcontent-ref %}
+[Logic 1.x Download (Deprecated)](../../logic-software/download-and-installation/older-software-releases.md)
 
 ### **The Saleae Drivers Are Preventing the Software from Installing**
 
@@ -127,21 +117,19 @@ For each item, first perform the test. If the test result is positive (the test 
 * Corrective Action: Download the standalone version of the software as described above. Then attempt a manual driver install using the new hardware/update driver wizard.
 * If the same error persists during the manual driver install, please check the driver install help found below.
 
-{% content-ref url="../../logic-software/download-and-installation/driver-install.md" %}
-[driver-install.md](../../logic-software/download-and-installation/driver-install.md)
-{% endcontent-ref %}
+[Driver Install](../../logic-software/download-and-installation/driver-install.md)
 
 ### **The Software Will Not Launch (All Platforms)**
 
 * Test: When trying to run the software, nothing happens. The software does not appear. No error message is displayed.
 * Corrective Action: Try deleting the settings file called settings.xml, which may have become corrupt.
 
-{% hint style="info" %}
+<div class="callout callout-info">
 Before you can find and delete settings.xml...
 
 * On Windows - Showing hidden files and folders should be enabled. [Instructions Here](https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files)
 * On OSX - Showing the Library folder should be enabled. [Instructions Here](https://discussions.apple.com/thread/8137224?answerId=8137224021#8137224021)
-{% endhint %}
+</div>
 
 *   It can be located here:\
     On Vista/7/8/10:

@@ -1,5 +1,3 @@
-# Error Message: The application was unable to start correctly (0xc0000005)
-
 This article addresses a specific issue that affects a small number of Windows users. Specifically, the software will crash on launch, generating an "APPCRASH" error message. On launch, a Windows error report window will appear with the heading "Saleae Logic Software has stopped working." This window has an option to expand problem details. There, the "Problem Event Name" will be set to "APPCRASH," and the "Exception Code" will likely be 0xc0000005.
 
 The problem is most likely caused by a compatibility issue with another installed program, possibly one of the following:
@@ -16,9 +14,7 @@ This affects all releases of our software after and including version 1.1.21. Re
 
 Version 1.1.20 is very old and does not support the current hardware products (Logic 4, Logic 8, Logic Pro 8, Logic Pro 16). Older versions of our software can be downloaded below.
 
-{% content-ref url="../../logic-software/download-and-installation/older-software-releases.md" %}
-[older-software-releases.md](../../logic-software/download-and-installation/older-software-releases.md)
-{% endcontent-ref %}
+[Logic 1.x Download (Deprecated)](../../logic-software/download-and-installation/older-software-releases.md)
 
 **Steps to Verify That a Compatability Issue Is Preventing the Software to Launch**
 
@@ -35,9 +31,7 @@ If the 1.1.20 software runs but the 1.1.34 software does not, that indicates tha
 4. Try running the software as the administrator.
 5. Download the "Windows 32 bit standalone" version of the latest software here and test it. Before running Logic.exe, you will need to install the included Microsoft visual studio runtime.
 
-{% content-ref url="/broken/pages/-LJVJwNqt3HkI7n8CFy9" %}
 [Broken link](/broken/pages/-LJVJwNqt3HkI7n8CFy9)
-{% endcontent-ref %}
 
 **Contacting Support for Additional Help**
 

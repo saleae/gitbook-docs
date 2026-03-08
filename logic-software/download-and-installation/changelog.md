@@ -1,21 +1,15 @@
-# Logic 1.x Changelog (Deprecated)
-
-{% hint style="warning" %}
+<div class="callout callout-warning">
 Starting October of 2022, Saleae has released a new hardware revision of our Logic analyzers which requires the latest version of the Logic 2 software available [here](https://www.saleae.com/downloads/). This newer revision of the hardware will **no longer work with our legacy Logic 1.x software**.
-{% endhint %}
+</div>
 
-{% content-ref url="../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md" %}
-[logic-hardware-revisions.md](../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md)
-{% endcontent-ref %}
+[Logic Hardware Revisions](../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md)
 
 Changes in 1.2.40:
 
 1. Adds support for revision 3.0.0 Logic hardware. More information on hardware revisions can be found in the link below.
 2. Remove support for Decoded Protocols panel / table due to technical issues. You will notice that the checkbox for it is grayed out under Preferences > Capture.
 
-{% content-ref url="../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md" %}
-[logic-hardware-revisions.md](../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md)
-{% endcontent-ref %}
+[Logic Hardware Revisions](../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md)
 
 Changes in 1.2.29 Beta:
 
@@ -33,7 +27,7 @@ Changes in 1.2.27 Beta:
 Bug Fixes:
 
 1. rolled out auto-update for MacOS and Linux
-2. JTAG analyzer no longer crashes the software for extremely long Shift IR/DR sequences, usually from FPGA bitstreams.&#x20;
+2. JTAG analyzer no longer crashes the software for extremely long Shift IR/DR sequences, usually from FPGA bitstreams. 
 
 Changes in 1.2.26 Beta:
 
@@ -175,7 +169,7 @@ Bug Fixes:
 2. Analyzer core - fixed bug in ConvertToSignedNumber that broke down for 32 bit or wider sgined words (I2S analyzer was affected)
 3. Instantaneous measurement settings were not completely saved due to serialization issue
 4. HDLC Analyzer - issue with CRCs and escape bytes fixed
-5. Export bugs fixed when exporting digital data from a mixed-mode capture, when the LCM of the analog and digital sample rates was larger than the digital sample rate. CSV and binary export modes affected, timestamps and sample numbers.&#x20;
+5. Export bugs fixed when exporting digital data from a mixed-mode capture, when the LCM of the analog and digital sample rates was larger than the digital sample rate. CSV and binary export modes affected, timestamps and sample numbers. 
 
 Changes in 1.2.14:
 
@@ -190,13 +184,13 @@ Other changes:
 
 1. Console output now indicates if the socket server was able to successfully bind to the listening port - useful for debugging issues with the scripting API.
 2. The device ID on the device calibration tab is now copy & paste-able.
-3. Modbus analyzer - now properly supports all parity modes, and added indicators for stop bit and parity bits.&#x20;
+3. Modbus analyzer - now properly supports all parity modes, and added indicators for stop bit and parity bits. 
 
 Changes in 1.2.13:
 
 Bug Fixes:
 
-1. Fixed bug on MacOS - if an error occurred when a device was connected, the device would not reconnect after subsequent attempts until the software was restarted.&#x20;
+1. Fixed bug on MacOS - if an error occurred when a device was connected, the device would not reconnect after subsequent attempts until the software was restarted. 
 2. Fixed bug on MacOS - on the latest MacOS release, on some computers, the device would not reliably connect to the software on each attempt.
 3. Fixed bug when loading setups - software would crash when loading a setup file that used channels that were not currently enabled, under specific but common circumstances.
 4. Fixed bug when loading setups - the enabled channels of Logic Pro 16 would not load when the device was plugged in over USB 2.0.
@@ -241,7 +235,7 @@ Big Fixes:
 2. bug fix - LIN analyzer. fixed identification of long break fields that occur after an incomplete packet.
 3. bug fix - loading files. now file extension case is ignored.
 4. bug fix - link in preferences for "more info" in host controllers was broken.
-5. Linux build system - updated to Ubuntu 14, reduced dependencies.&#x20;
+5. Linux build system - updated to Ubuntu 14, reduced dependencies. 
 
 Changes in 1.2.9:
 
@@ -282,7 +276,7 @@ Bug Fixes:
 2. Fixed issue introduced in 1.2.6, crash on Windows when launched in full screen mode.
 3. Added scroll bar to preferences dialog so the window does not grow vertically with the number of installed USB hosts
 4. Fixed bug in USB analyzer search results - no longer missing data bytes in search results
-5. Fixed analog \&amp; digital Mixed CSV export - previously there were serious issues with this export format
+5. Fixed analog &amp; digital Mixed CSV export - previously there were serious issues with this export format
 6. Fixed bug in CSV export of just analog data - header was missing
 7. Added support for socket API to NAK when file load failed
 
@@ -294,7 +288,7 @@ Changes in 1.2.6:
 
 Bug Fixes:
 
-1. Fixed set of bugs regarding mixed mode (analog \&amp; digital) captures where the digital sample rate was not an integer multiple of the analog sample rate. Significant changes.
+1. Fixed set of bugs regarding mixed mode (analog &amp; digital) captures where the digital sample rate was not an integer multiple of the analog sample rate. Significant changes.
 2. Fixed set of bugs regarding the trigger, where certain trigger combinations could crash the software
 3. Fixed bug in Logic that would cause the software to crash when the trigger condition was found and certain analyzers were active
 4. Fixed crash when SWD analyzer ran on a capture started using a trigger
@@ -365,7 +359,7 @@ Bug Fixes:
 8. Fixed crash when Socket API client disconnected before response was sent
 9. If socket API capture to file fails to write to the file due to a permissions error, it NAKs instead of ACKs now
 10. fixed pulse width trigger issue, will now trigger if no max pulse length is specified, and the pulse never ends.
-11. fixed bug in Socket API get analyzers \&amp; export functions. proper indexes now used
+11. fixed bug in Socket API get analyzers &amp; export functions. proper indexes now used
 12. Fixed bug in ARM SWD analyzer
 13. Fixed voltage measurement bug
 14. fixed data export issue not respecting start time when a trigger was used to create the capture
@@ -443,7 +437,7 @@ Changes in 1.2.2:
 
 Changes in v1.2.1: (Linux and Mac only)
 
-1. OSX Specific Changes:&#x20;
+1. OSX Specific Changes: 
    1. UI performance is greatly improved!
    2. Software no longer flickers on newer versions of OSX
    3. Screenshots now work on newer versions of OSX
@@ -452,7 +446,7 @@ Changes in v1.2.1: (Linux and Mac only)
    6. Added support for scrolling left and right with a trackpad, as well as smooth trackpad control.
    7. OSX build system updated to Yosemite
    8. Added better crash reporting details to OSX
-2. Linux Specific Changes:&#x20;
+2. Linux Specific Changes: 
    1. Created new compatibility release for systems with older standard libraries, allowing us to continue to use more modern compilers while maintaining better backwards compatibility. (feedback welcome)
    2. Added feature to allow successful USB 3.0 captures with older kernels (3.3 and older) This feature is in testing, and requires command line options. Please contact support for assistance if you are trying to use USB 3.0 ports on systems with older kernels.
    3. Fixed underlying windowing issue that required window manager specific fixes. Software no longer switches on window manager.

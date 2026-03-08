@@ -1,5 +1,3 @@
-# How to View and Debug Firmware Variables, State, and Function Calls
-
 Here are several suggestions for performing more advanced firmware debugging using Saleae logic analyzers and microcontrollers. All require that you have the ability to control one or more IO pins from firmware that can then be recorded by Logic.
 
 Common applications:
@@ -49,6 +47,4 @@ Logic analyzers are already very useful for decoding protocol data, verifying ti
 
 Keep in mind that the Saleae Logic devices can record at high speeds for considerable lengths of time when little activity is present on the bus. In most cases, you should be able to record for minutes or even hours to thoroughly test your design. In some cases, it may be helpful to set up long recordings of your device's operation. For long-term recording or to automate captures, you can use our socket API below.
 
-{% content-ref url="../../logic-software/capturing-data/automate-long-captures.md" %}
-[automate-long-captures.md](../../logic-software/capturing-data/automate-long-captures.md)
-{% endcontent-ref %}
+[Automating Long Overnight Captures](../../logic-software/capturing-data/automate-long-captures.md)

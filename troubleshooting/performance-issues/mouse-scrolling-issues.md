@@ -1,5 +1,3 @@
-# Mouse Scrolling Issues
-
 There have been some reports of the following mouse model(s) showing odd behavior while using its scroll wheel in the Logic 2 app.
 
 * Logitech MX Master 3
@@ -13,7 +11,7 @@ It seems that switching to another application, using the scroll wheel in that a
 
 ### Known Workaround
 
-If you experience the above behavior (or something similar), please verify if your mouse has dedicated software that allows you to customize and change its settings.&#x20;
+If you experience the above behavior (or something similar), please verify if your mouse has dedicated software that allows you to customize and change its settings. 
 
 For example, the Logitech MX Master 3 and MX Anywhere 3S has software called _Logitech Options_, which provides an option for “smooth scrolling.” Users have reported that enabling this setting solves their scrolling issues. You may need to experiment with the settings available for your specific mouse.
 
