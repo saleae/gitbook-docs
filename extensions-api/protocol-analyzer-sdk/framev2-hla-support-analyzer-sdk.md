@@ -98,11 +98,11 @@ Before writing your own HLA, you can test your C++ Analyzer using the "LLA Frame
 
 Check out our HLA data format documentation:
 
-[analyzer-frame-types](../hla-frame-format-reference/serial-analyzer.md)
+[analyzer-frame-types](/support/extensions-api/hla-frame-format-reference/serial-analyzer)
 
 Learn more about building HLAs here:
 
-[high-level-analyzer-extensions](../extensions/high-level-analyzer-extensions.md)
+[high-level-analyzer-extensions](/support/extensions-api/extensions/high-level-analyzer-extensions)
 
 ```python
 // In your HLA, you could decode the FrameV2 objects created above like so:

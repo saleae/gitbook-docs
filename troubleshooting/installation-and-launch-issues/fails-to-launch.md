@@ -16,7 +16,7 @@ We've received reports of some graphics cards causing immediate crashes when lau
 
 For now, if you feel your graphics card may be the culprit, you may try the troubleshooting steps in the support article below.
 
-[Error Message: Unable to detect WebGL and Other GPU Issues](../software-crashes-and-errors/error-message-unable-to-detect-webgl.md)
+[Error Message: Unable to detect WebGL and Other GPU Issues](/support/troubleshooting/software-crashes-and-errors/error-message-unable-to-detect-webgl)
 
 ### Linux Solutions
 
@@ -24,7 +24,7 @@ For now, if you feel your graphics card may be the culprit, you may try the trou
 
 Our list of supported operating systems can be found in the link below. You'll want to ensure you are running a supported version of Ubuntu.
 
-[Supported Operating Systems](../../logic-software/download-and-installation/supported-operating-systems.md)
+[Supported Operating Systems](/support/logic-software/download-and-installation/supported-operating-systems)
 
 #### 2. Try running the latest version of Logic 2
 
@@ -70,7 +70,7 @@ Depending on your Linux distro, other libraries may be missing which you may nee
 
 Instead, you'll want to install the udev rules file to allow the non-elevated application to work with devices. Instructions for installing the udev rules file can be found in the support article below.
 
-[Driver Install](../../logic-software/download-and-installation/driver-install.md)
+[Driver Install](/support/logic-software/download-and-installation/driver-install)
 
 We've seen GPU issues on Linux where the application will crash on launch due to the GPU process repeatedly crashing on launch.
 

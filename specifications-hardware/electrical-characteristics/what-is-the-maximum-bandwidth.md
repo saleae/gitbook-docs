@@ -1,6 +1,6 @@
 The maximum bandwidth of a signal you can record with our Logic analyzers can be found in their respective datasheets linked below.
 
-[Datasheets](../datasheets-and-compliance/datasheets.md)
+[Datasheets](/support/specifications-hardware/datasheets-and-compliance/datasheets)
 
 Please note that the maximum digital and analog bandwidths listed in our datasheets assumes that the maximum sampling rate available for that device is used.
 

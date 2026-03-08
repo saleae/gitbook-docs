@@ -8,7 +8,7 @@ The analyzer data table shows all decoded protocol data in a table format. In ge
 
 To learn more about the different columns that are used for Saleae's built-in analyzers, please refer to the support article below.
 
-[analyzer-frame-types](../../extensions-api/hla-frame-format-reference/serial-analyzer.md)
+[analyzer-frame-types](/support/extensions-api/hla-frame-format-reference/serial-analyzer)
 
 ### Excluding Analyzers and Columns
 
@@ -77,7 +77,7 @@ This happens rarely, and is a known issue at the moment. The root problem is tha
 There are two main options in the short term to work around this.
 
 1. If you only need to read data from a single analyzer, and not multiple analyzers combined into one export, then you can use our older, analyzer-specific export option. The format is a little different, but it's consistent. Instructions can be found below, under the _Exporting Analyzer Results_ section\
-   [Exporting Data](../saving-and-exporting-data/exporting-data.md)
+   [Exporting Data](/support/logic-software/saving-and-exporting-data/exporting-data)
 2. We usually use a CSV parsing library that makes it easy to access values by header name, like pandas for python, where we can simply use string names for stuff like \["address"] and it will grab data from the correct column. This makes it easy to parse the export format independent of column order.
 
 Long term, we don't have a solution planned for this yet. The data table has to handle many different columns from different analyzers, including custom user created analyzers. We would like to add the ability to manually re-order the columns, or we could perhaps automatically keep them in alphabetical order, but I'm not sure any of these solutions will be that helpful. Ultimately, I think we may want to expand analyzers to allow them to control their column order, however that won't address the case where analyzers of different types are added, especially if some of their columns overlap.
@@ -111,7 +111,7 @@ Limitations:
 
 When using low level analyzers (LLAs) such as our Async Serial or SPI analyzer, you may notice issues with how values appear in the data table, specifically while viewing results in decimal format. More information on this can be found in the support article below.
 
-[Data Table Shows Incorrect Values](../../troubleshooting/data-and-analysis-issues/data-table-shows-incorrect-values.md)
+[Data Table Shows Incorrect Values](/support/troubleshooting/data-and-analysis-issues/data-table-shows-incorrect-values)
 
 ## Terminal View
 

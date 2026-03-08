@@ -13,11 +13,11 @@ If you'd like to report any issues you run into while capturing data spanning se
 * A description of the error you are running into, including any error messages.
 * Your capture settings (or perhaps share your Capture Preset file)
 
-[Capture & Preset File Management](../saving-and-exporting-data/saving-loading-and-exporting-data.md)
+[Capture & Preset File Management](/support/logic-software/saving-and-exporting-data/saving-loading-and-exporting-data)
 
 *  Your Machine ID
 
-[Getting your Machine ID](../../troubleshooting/diagnostic-tools/sharing-your-machine-id.md)
+[Getting your Machine ID](/support/troubleshooting/diagnostic-tools/sharing-your-machine-id)
 
 ### Reducing Memory Usage of the Software
 

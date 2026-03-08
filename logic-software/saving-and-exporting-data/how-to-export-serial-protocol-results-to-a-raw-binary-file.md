@@ -12,7 +12,7 @@ If you would prefer to export a binary file whose contents are strictly the valu
      SaleaeUtility.cmd \path\to\input\file.csv \path\to\output\file.bin
 5. Done!
 
-[Changing the Display Radix (Base)](../viewing-and-analyzing-data/changing-the-display-radix.md)
+[Changing the Display Radix (Base)](/support/logic-software/viewing-and-analyzing-data/changing-the-display-radix)
 
-[Capture & Preset File Management](./saving-loading-and-exporting-data.md)
+[Capture & Preset File Management](/support/logic-software/saving-and-exporting-data/saving-loading-and-exporting-data)
 

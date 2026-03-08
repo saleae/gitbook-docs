@@ -9,7 +9,7 @@ Below is a description of the changes required to include an analyzer's data int
 
 The latest source code to all analyzers can be found below.
 
-[protocol-analyzer-sdk](protocol-analyzer-sdk.md)
+[protocol-analyzer-sdk](/support/extensions-api/protocol-analyzer-sdk/protocol-analyzer-sdk)
 
 **Update Steps**
 

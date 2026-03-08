@@ -38,4 +38,4 @@ The software will estimate the RAM/memory usage on the device settings popover.
 
 Besides modifying the capture settings or buying more RAM, our Socket API automation script allows users to break extremely long captures into a series of shorter captures that are saved to the hard disk. You can read more about how to implement this below.
 
-[Automating Long Overnight Captures](../../logic-software/capturing-data/automate-long-captures.md)
+[Automating Long Overnight Captures](/support/logic-software/capturing-data/automate-long-captures)

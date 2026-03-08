@@ -26,7 +26,7 @@ Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if the red
 * Did your Saleae Logic previously work on your PC?
 * Share the following screenshot of your USB host controller with us.
 
-[Finding Your USB 3.0 Host Controller Information](../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md)
+[Finding Your USB 3.0 Host Controller Information](/support/specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info)
 
 
 

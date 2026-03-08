@@ -29,5 +29,5 @@ Each Saleae unit comes with all the necessary probes, wire harnesses, and a USB 
 
 No additional accessories are required to get started. If you are interested in recommendations for additional accessories, please review this article:
 
-[What Accessories Should I Purchase with My Device?](./what-accessories-if-any-should-i-purchase-with-my-device.md)
+[What Accessories Should I Purchase with My Device?](/support/getting-started/what-accessories-if-any-should-i-purchase-with-my-device)
 

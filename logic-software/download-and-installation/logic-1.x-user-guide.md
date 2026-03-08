@@ -2,7 +2,7 @@
 Starting October of 2022, Saleae has released a new hardware revision of our Logic analyzers which requires the latest version of the Logic 2 software available [here](https://www.saleae.com/downloads/). This newer revision of the hardware will **no longer work with our legacy Logic 1.x software**.
 </div>
 
-[Logic Hardware Revisions](../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md)
+[Logic Hardware Revisions](/support/specifications-hardware/datasheets-and-compliance/logic-hardware-revisions)
 
 #### Logic 1.x User Guide (PDF Format)
 

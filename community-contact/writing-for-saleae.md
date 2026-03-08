@@ -2,7 +2,7 @@ Write about your electronics project and get paid!
 
 The support article below lists some past submissions from our community of users who have created project content using our Logic analyzers. Feel free to use them as reference, and check out some unique and amazing electronics projects!
 
-[Community Projects](./projects.md)
+[Community Projects](/support/community-contact/projects)
 
 ### General Requirements
 

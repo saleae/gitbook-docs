@@ -24,13 +24,13 @@ In cases where you plan on capturing large amounts of data (usually greater than
 
 Instructions for saving/loading a preset and saving captures can be found below.
 
-[Capture & Preset File Management](../../logic-software/saving-and-exporting-data/saving-loading-and-exporting-data.md)
+[Capture & Preset File Management](/support/logic-software/saving-and-exporting-data/saving-loading-and-exporting-data)
 
 ### Workaround #2
 
 Another workaround would be to trim your capture such that the amount of decoded data you are working with is greatly reduced. Instructions for trimming your capture can be found below. Please remember to save a copy of your original capture, preferably with all analyzers removed.
 
-[Delete Part of your Capture](../../logic-software/viewing-and-analyzing-data/delete-data.md)
+[Delete Part of your Capture](/support/logic-software/viewing-and-analyzing-data/delete-data)
 
 
 

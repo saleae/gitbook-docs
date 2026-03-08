@@ -14,7 +14,7 @@ This affects all releases of our software after and including version 1.1.21. Re
 
 Version 1.1.20 is very old and does not support the current hardware products (Logic 4, Logic 8, Logic Pro 8, Logic Pro 16). Older versions of our software can be downloaded below.
 
-[Logic 1.x Download (Deprecated)](../../logic-software/download-and-installation/older-software-releases.md)
+[Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
 
 **Steps to Verify That a Compatability Issue Is Preventing the Software to Launch**
 

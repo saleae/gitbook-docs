@@ -26,6 +26,6 @@ manager.close()
 
 The export format documentation and python parsing samples can be found in the support article below:
 
-[Binary Export Format - Version 0](./binary-export-format-logic-2.md)
+[Binary Export Format - Version 0](/support/logic-software/saving-and-exporting-data/binary-export-format-logic-2)
 
 Ideally, we would love to provide a .sal-into-.bin translation through an API of the Logic 2 app. That way, we can change our internal file format to our hearts content without needing to make a public API & documentation release each time we do that. We’re currently tracking this feature request here, so feel free to add your comments and votes to it: [Provide .sal file translation through an API - Logic 2 - Ideas and Feature Requests - Saleae](https://ideas.saleae.com/b/feature-requests/provide-info-on-the-sal-file-format/)

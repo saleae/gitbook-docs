@@ -24,7 +24,7 @@ Notes:
 * Recommended IO standards: 5.0V, 3.3V, 2.5V, 1.8V
 * For Logic 8's digital channels, the range between 0.6V and 1.2V results in undefined behavior. For signals that might cross this range slowly (e.g. I2C signals due to its relatively slow rise/fall times caused by its open drain topology), you may want to ensure that the software glitch filter is enabled to filter out any potential glitches that might cause decoding errors.
 
-[Software Glitch Filter](../../logic-software/viewing-and-analyzing-data/software-glitch-filter.md)
+[Software Glitch Filter](/support/logic-software/viewing-and-analyzing-data/software-glitch-filter)
 
 ### **Logic Pro 8 and Logic Pro 16**
 

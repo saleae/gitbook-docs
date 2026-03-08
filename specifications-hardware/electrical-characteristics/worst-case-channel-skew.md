@@ -2,7 +2,7 @@ Relative to a reference signal, channel-to-channel skew is the variation in time
 
 It is also important to understand the concept below.
 
-[What is Asynchronous Sampling?](./what-is-asynchronous-sampling.md)
+[What is Asynchronous Sampling?](/support/specifications-hardware/electrical-characteristics/what-is-asynchronous-sampling)
 
 For Saleae Logic products, the worst case channel to channel skew is 1 sample.
 

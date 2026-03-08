@@ -10,7 +10,7 @@ All devices were tested using a USB 1.1 hub. Only the original Logic is able to 
 
 There are USB 2.0 high speed and USB 3.0 super speed isolators now on the market. For recommendations on these, please see this article.
 
-[Electrical Isolation Suggestions](../electrical-characteristics/suggestions-for-electrical-isolation.md)
+[Electrical Isolation Suggestions](/support/specifications-hardware/electrical-characteristics/suggestions-for-electrical-isolation)
 
 
 

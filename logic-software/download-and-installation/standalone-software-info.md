@@ -4,7 +4,7 @@ Currently, only the older Logic 1.x software offers a standalone version. If you
 
 The standalone version of the older Logic 1.x software can be useful in many different situations and can be downloaded below.
 
-[Logic 1.x Download (Deprecated)](./older-software-releases.md)
+[Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
 
 It does not need to be installed and can be run directly by executing Logic.exe from inside of the standalone folder.
 

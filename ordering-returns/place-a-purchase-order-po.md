@@ -4,7 +4,7 @@ In most cases, for a smoother and faster ordering experience, we recommend order
 If you are unable to pay in advance or by credit card/PayPal, we also have distributors world-wide that might be able to accommodate credit payment terms. We've provided a link to our list of distributors below.
 </div>
 
-[Distributors](./distributors.md)
+[Distributors](/support/ordering-returns/distributors)
 
 Having mentioned the above note, and in case you are still interested in placing a direct purchase order with us, please ensure your PO meets the requirements below to avoid any processing delays.
 
@@ -26,7 +26,7 @@ Having mentioned the above note, and in case you are still interested in placing
 * Product Name
 * Quantities, and Prices in USD (Prices can be found in the support article linked below)
 
-[Part Numbers, ECCN, HS Codes, and Country of Origin](../specifications-hardware/datasheets-and-compliance/saleae-part-numbers.md)
+[Part Numbers, ECCN, HS Codes, and Country of Origin](/support/specifications-hardware/datasheets-and-compliance/saleae-part-numbers)
 
 * Shipping Option: Please either include your FedEx/UPS/DHL Account Number, OR indicate "Saleae Prepay Shipping - Add to Invoice"
 * Email address and contact information for your Accounts Payable Department
@@ -54,7 +54,7 @@ Having mentioned the above note, and in case you are still interested in placing
 
 Please follow the instructions in the support article below to request a quote.
 
-[Get a Quote](./how-do-i-get-a-quote.md)
+[Get a Quote](/support/ordering-returns/how-do-i-get-a-quote)
 
 
 

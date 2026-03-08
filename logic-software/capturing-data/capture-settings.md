@@ -41,19 +41,19 @@ In the example image below, selecting Digital 125 MS/s will **increase** (<mark 
 
 Logic Pro 8, Logic Pro 16, and our Original Logic16 all feature adjustable voltage thresholds, which can be set via the voltage dropdown setting next to the digital sampling rate setting. The _3.3+ Volts_ setting, for example, will set the voltage threshold to half that value, or 1.65 V. Our other logic analyzer models have a fixed voltage threshold, and therefore do not have this setting. For more information on the voltage setting options and thresholds, see our support article on this below.
 
-[Supported Voltages](../../specifications-hardware/electrical-characteristics/supported-voltages.md)
+[Supported Voltages](/support/specifications-hardware/electrical-characteristics/supported-voltages)
 
 ### Capture Settings Presets
 
 Capture settings presets can be saved and loaded locally as needed. You can navigate to the support article below for more information on this.
 
-[Capture & Preset File Management](../saving-and-exporting-data/saving-loading-and-exporting-data.md)
+[Capture & Preset File Management](/support/logic-software/saving-and-exporting-data/saving-loading-and-exporting-data)
 
 ### Capture Modes - Looping, Timer, & Trigger
 
 For more information on the available capture modes and their specific settings, see the support article below.
 
-[Capture Modes](./capture-modes.md)
+[Capture Modes](/support/logic-software/capturing-data/capture-modes)
 
 ### LED Settings and Color
 

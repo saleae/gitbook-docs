@@ -9,7 +9,7 @@ Please note that the Logic software communicates with our servers in the followi
 * Crash Reports - Our software allows you to enable crash reporting. When enabled, crash reports are automatically uploaded to us. You will be prompted to enable this when you run the software for the first time, and this setting can be changed at any time in the Preferences menu.
 * Device ID - Each time Logic is used on a new PC, its unique device ID is collected to download the calibration file for that particular device. You can learn more about this in the link below:
 
-[Device Calibration](../../specifications-hardware/electrical-characteristics/device-calibration.md)
+[Device Calibration](/support/specifications-hardware/electrical-characteristics/device-calibration)
 
 * Software Updates - By default, new software updates are automatically downloaded. You can disable automatic downloads in the Preferences menu.
 * Usage Statistics - If this setting is enabled, usage statistics are sent to our servers. Please remember that captured data is never sent to us. You will be prompted to enable this when you run the software for the first time, and this setting can be changed at any time in the Preferences menu.

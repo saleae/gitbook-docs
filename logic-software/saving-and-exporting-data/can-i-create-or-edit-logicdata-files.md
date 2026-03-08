@@ -4,7 +4,7 @@ That is because the files are generated with boost binary serialization and cont
 
 If you need to get data out of the logic software, we recommend using the export features. You can find more information in our user guide below.
 
-[Capture & Preset File Management](./saving-loading-and-exporting-data.md)
+[Capture & Preset File Management](/support/logic-software/saving-and-exporting-data/saving-loading-and-exporting-data)
 
 
 

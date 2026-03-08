@@ -11,7 +11,7 @@ When in this mode, common characters such as alpha-numeric characters and punctu
 
 * In many cases, ASCII is not the ideal display radix. You can change the display radix by following the instructions here:
 
-[Changing the Display Radix (Base)](./changing-the-display-radix.md)
+[Changing the Display Radix (Base)](/support/logic-software/viewing-and-analyzing-data/changing-the-display-radix)
 
 * One of the most helpful display bases when dealing with mixed ASCII text and raw data is "ASCII & Hex," which will display both values for each byte.
 * Sometimes you might be in ASCII mode but not realize it. ASCII mode can look like decimal mode when dealing with values greater than 8 bits. If you see single quotes around your decimal numbers, you are actually still in ASCII mode. I recommend switching to decimal or hexadecimal to avoid issues displaying smaller numbers.

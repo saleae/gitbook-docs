@@ -12,7 +12,7 @@ One solution is to export the capture into multiple, smaller MATLAB files. Click
 
 For details on the exported format of MATLAB files, see the article below.
 
-[MATLAB Data Export Format - Legacy Logic 1.x](../../logic-software/saving-and-exporting-data/matlab-data-export-format.md)
+[MATLAB Data Export Format - Legacy Logic 1.x](/support/logic-software/saving-and-exporting-data/matlab-data-export-format)
 
 
 

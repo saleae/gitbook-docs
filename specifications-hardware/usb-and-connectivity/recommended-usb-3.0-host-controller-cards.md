@@ -23,17 +23,17 @@ We have not yet performed a full evaluation on "ExpressCard" Laptop add on cards
 
 ### Instructions to identify currently installed host controllers
 
-[Finding Your USB 3.0 Host Controller Information](./usb-3.0-host-controller-info.md)
+[Finding Your USB 3.0 Host Controller Information](/support/specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info)
 
 ### Latest driver information
 
-[Warning Message: Possible USB Host Controller Problem Detected](../../troubleshooting/device-connection-issues/usb-driver-problem.md)
+[Warning Message: Possible USB Host Controller Problem Detected](/support/troubleshooting/device-connection-issues/usb-driver-problem)
 
 ### Known Issues with VIA Host Controllers
 
 There is a known issue with corrupting data captures when using Saleae Logic with VIA host controllers. The simple fix is to update the VIA host controller driver. More information on the issue can be found below.
 
-[The Captured Data is Corrupted](../../troubleshooting/capture-and-recording-issues/the-captured-data-is-corrupted.md)
+[The Captured Data is Corrupted](/support/troubleshooting/capture-and-recording-issues/the-captured-data-is-corrupted)
 
 
 

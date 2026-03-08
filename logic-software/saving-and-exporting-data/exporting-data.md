@@ -36,7 +36,7 @@ To export your individual analyzer results, click the 3 dots next to the particu
 
 For some analyzers (namely MDIO, CAN, and LIN), you will run into an error popup that prevents you from exporting the analyzer from the analyzer's drop down menu. In this case, we recommend exporting via the data table instead. More information on this behavior can be found below.
 
-[This Analyzer's Native Export is Not Supported in Logic 2](../../troubleshooting/data-and-analysis-issues/this-analyzers-native-export-is-not-supported-in-logic-2.md)
+[This Analyzer's Native Export is Not Supported in Logic 2](/support/troubleshooting/data-and-analysis-issues/this-analyzers-native-export-is-not-supported-in-logic-2)
 
 ## Community Shared Export File Parser
 

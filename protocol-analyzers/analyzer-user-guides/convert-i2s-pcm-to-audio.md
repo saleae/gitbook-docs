@@ -4,7 +4,7 @@ Unfortunately, our software does not natively support this feature. Currently, a
 
 In addition, the I2S analyzer source code is available, in case anyone would like to try implementing their own version using our Protocol Analyzer SDK below.
 
-[protocol-analyzer-sdk](../../extensions-api/protocol-analyzer-sdk/protocol-analyzer-sdk.md)
+[protocol-analyzer-sdk](/support/extensions-api/protocol-analyzer-sdk/protocol-analyzer-sdk)
 
 ### Comparing an I2S/PCM Capture with an Existing Audio File
 

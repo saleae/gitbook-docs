@@ -18,7 +18,7 @@ We plan to improve the performance of our software, but in the meantime, here ar
 2. Export only a few channels
 3. Export to binary rather than CSV. We also have a sample python script to read binary data (provided in the link below, at the bottom of the article).
 
-[Binary Export Format - Version 0](../../logic-software/saving-and-exporting-data/binary-export-format-logic-2.md)
+[Binary Export Format - Version 0](/support/logic-software/saving-and-exporting-data/binary-export-format-logic-2)
 
 ### How Many Digital Transitions are in my Captured Data? <a href="#how-many-digital-transitions-are-in-my-captured-data" id="how-many-digital-transitions-are-in-my-captured-data"></a>
 
@@ -32,6 +32,6 @@ Since export performance is related to how many digital transitions occur in you
 
 An alternative approach (much faster and produces a smaller file) would be to export to a binary file. More details on the binary file format can be found in the link below.
 
-[Binary Export Format - Version 0](../../logic-software/saving-and-exporting-data/binary-export-format-logic-2.md)
+[Binary Export Format - Version 0](/support/logic-software/saving-and-exporting-data/binary-export-format-logic-2)
 
 ![Exporting to a Binary File](/support-assets/Screen%20Shot%202021-04-12%20at%206.30.44%20PM.png)

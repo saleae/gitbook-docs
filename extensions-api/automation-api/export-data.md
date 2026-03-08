@@ -1,6 +1,6 @@
 The following information pertains to our Legacy Socket API Automation utility for the older Logic 1.x software, which can be found below.
 
-[Automation API - Logic 2](./automation.md)
+[Automation API - Logic 2](/support/extensions-api/automation-api/automation)
 
 ### Exporting Data Using the Python Wrapper
 

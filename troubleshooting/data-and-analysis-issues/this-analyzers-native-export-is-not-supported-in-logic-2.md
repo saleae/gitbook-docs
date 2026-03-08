@@ -12,7 +12,7 @@ This is because of a technical limitation caused by Logic 2's new ability to run
 
 Instead, we recommend users use the data table export for all protocol analyzers, as this produces a much more flexible format. More information on data table export can be found below:
 
-[Exporting Data](../../logic-software/saving-and-exporting-data/exporting-data.md)
+[Exporting Data](/support/logic-software/saving-and-exporting-data/exporting-data)
 
 
 

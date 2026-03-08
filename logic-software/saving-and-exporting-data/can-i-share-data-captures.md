@@ -6,7 +6,7 @@ No device is required to open saved captures. Simply ask the recipient to instal
 
 For more information about version requirements, see below.
 
-[Opening .logicdata Capture Files](./open-logicdata-files.md)
+[Opening .logicdata Capture Files](/support/logic-software/saving-and-exporting-data/open-logicdata-files)
 
 
 

@@ -8,7 +8,7 @@ For each item, first perform the test. If the test result is positive (the test 
 
 If the issue you are experiencing is that some or all of your capture attempts immediately fail with the error message shown in the link below, please read the below article.
 
-[Error Message: ReadTimeout](./device-not-able-to-keep-up.md)
+[Error Message: ReadTimeout](/support/troubleshooting/capture-and-recording-issues/device-not-able-to-keep-up)
 
 ### The Captured Data is Corrupted
 
@@ -17,7 +17,7 @@ If the software is able to capture data, but the captured data looks random or c
 1. Make sure the software detects the Logic hardware properly (the top bar of the software should display "Connected").
 2. Check your USB Host Controller driver. There is a known issue with VIA USB host controllers. See below.
 
-[The Captured Data is Corrupted](./the-captured-data-is-corrupted.md)
+[The Captured Data is Corrupted](/support/troubleshooting/capture-and-recording-issues/the-captured-data-is-corrupted)
 
 ### The Analog Capture Looks Extremely Noisy
 
@@ -100,7 +100,7 @@ Please verify the following:
 
 * Test: First, check the supported IO standards for the Logic analyzer that you are using below.
 
-[Supported Voltages](../../specifications-hardware/electrical-characteristics/supported-voltages.md)
+[Supported Voltages](/support/specifications-hardware/electrical-characteristics/supported-voltages)
 
 * Verify that the logic high voltage is above the logic high threshold, and make sure that the logic low voltage (usually 0 volts) is below the logic low threshold voltage of the device.
 * Some of the Saleae devices have selectable IO thresholds. First, try the IO threshold that best matches your application, but if it does not appear correct, also try other threshold settings.
@@ -110,12 +110,12 @@ Please verify the following:
 
 If your digital capture looks correct but the analog capture does not, please see this article:
 
-[The Digital and Analog Recording on the Same Channel Appear Different](./digital-and-analog-appear-different.md)
+[The Digital and Analog Recording on the Same Channel Appear Different](/support/troubleshooting/capture-and-recording-issues/digital-and-analog-appear-different)
 
 See this article for more information about the maximum digital and analog bandwidth for each device:
 
-[What Is the Maximum Bandwidth of Logic?](../../specifications-hardware/electrical-characteristics/what-is-the-maximum-bandwidth.md)
+[What Is the Maximum Bandwidth of Logic?](/support/specifications-hardware/electrical-characteristics/what-is-the-maximum-bandwidth)
 
 For more information about the bandwidth requirements for any given signal, please see this article:
 
-[What Sampling Rate Should I Use?](../../logic-software/capturing-data/what-sample-rate-is-required.md)
+[What Sampling Rate Should I Use?](/support/logic-software/capturing-data/what-sample-rate-is-required)

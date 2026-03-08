@@ -1,6 +1,6 @@
 The vertical resolution (ADC bits) depends on the product used. For more information about the frequency resolution of the products, see below.
 
-[What Is the Maximum Bandwidth of Logic?](./what-is-the-maximum-bandwidth.md)
+[What Is the Maximum Bandwidth of Logic?](/support/specifications-hardware/electrical-characteristics/what-is-the-maximum-bandwidth)
 
 ### Logic 4
 

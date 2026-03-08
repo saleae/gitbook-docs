@@ -24,7 +24,7 @@ The Saleae Logic software includes the following protocol analyzers:
 * SWD (ARM Serial Wire Debug)
 * Synchronous Parallel
 * USB Low Speed and Full Speed
-* [+50 More Commmunity Shared Protocols](../../community-contact/community-shared-protocols.md)
+* [+50 More Commmunity Shared Protocols](/support/community-contact/community-shared-protocols)
 
 ### I3C Protocol Analyzer (3rd Party)
 
@@ -36,13 +36,13 @@ We've worked closely with the team at Binho LLC to develop a 3rd party I3C Proto
 
 We provide user guides for a handful of our protocol analyzers, which we have listed in the link below.
 
-[analyzer-user-guides](../analyzer-user-guides/using-spi.md)
+[analyzer-user-guides](/support/protocol-analyzers/analyzer-user-guides/using-spi)
 
 ### **More Protocol Analyzers**
 
 Some Logic users have created their own protocol analyzers. The following list of analyzers are available but not officially supported by Saleae.
 
-[Community Shared Analyzers](../../community-contact/community-shared-protocols.md)
+[Community Shared Analyzers](/support/community-contact/community-shared-protocols)
 
 ### **Do all Saleae logic analyzer models support these protocols?**
 

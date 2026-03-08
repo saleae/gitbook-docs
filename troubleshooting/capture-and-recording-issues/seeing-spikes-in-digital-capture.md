@@ -2,7 +2,7 @@ There are several reasons that noise may appear in your capture. In some cases, 
 
 The rest of this article discusses different noise sources and potential solutions to remove it. You can learn more about the software glitch filter below.
 
-[Software Glitch Filter](../../logic-software/viewing-and-analyzing-data/software-glitch-filter.md)
+[Software Glitch Filter](/support/logic-software/viewing-and-analyzing-data/software-glitch-filter)
 
 **Sources of Noise**
 
@@ -29,4 +29,4 @@ The analog inputs are filtered at a much lower bandwidth through an anti-aliasin
 
 If the above solutions don't help, then you may be experiencing a more extreme case of crosstalk. Please review the article below for further troubleshooting steps as well as information to send to support.
 
-[Troubleshooting Signal Crosstalk](./crosstalk.md)
+[Troubleshooting Signal Crosstalk](/support/troubleshooting/capture-and-recording-issues/crosstalk)

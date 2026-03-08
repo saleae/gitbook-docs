@@ -1,6 +1,6 @@
 Each Saleae logic analyzer comes complete with all the accessories needed to fully utilize it—wire harnesses, clips, a USB cable, and a carry case. The complete list of what's included can be found below.
 
-[What Is Included with the Product?](./what-is-included.md)
+[What Is Included with the Product?](/support/getting-started/what-is-included)
 
 However, if you would like to purchase additional accessories, you can find the complete listing here: [https://www.saleae.com/accessories](https://www.saleae.com/accessories)
 

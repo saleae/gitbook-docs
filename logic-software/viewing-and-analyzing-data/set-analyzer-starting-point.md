@@ -4,7 +4,7 @@ Our protocol analyzers are designed to decode all captured data from beginning t
 
 One way to manually set the starting and ending points for protocol analyzer decoding is to delete portions of your capture as per the instructions below, such that the data that is left over is the relevant data that you need to decode.
 
-[Delete Part of your Capture](./delete-data.md)
+[Delete Part of your Capture](/support/logic-software/viewing-and-analyzing-data/delete-data)
 
 ### Why Would I Need to Do This?
 

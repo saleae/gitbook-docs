@@ -2,7 +2,7 @@
 
 First, we will want to test if the Logic hardware or the USB cable has issues. We have a set of hardware tests in the support article below for submitting a warranty claim.
 
-[Submit a Warranty Claim](../../ordering-returns/process-a-warranty.md)
+[Submit a Warranty Claim](/support/ordering-returns/process-a-warranty)
 
 If the device works at least once during the tests described in the support article linked above, it may be a problem that's solvable with software or driver updates. In that case, please proceed to Part 2: Troubleshooting the Connection to the Software below.
 
@@ -10,7 +10,7 @@ If the device works at least once during the tests described in the support arti
 
 First, if you are troubleshooting Logic Pro 8 or Logic Pro 16, please check the link below to double check its connection to your PC via USB 3.0.  
 
-[Logic Does Not Connect over USB 3.0](./logic-does-not-connect-over-usb3.md)
+[Logic Does Not Connect over USB 3.0](/support/troubleshooting/device-connection-issues/logic-does-not-connect-over-usb3)
 
 Please note that the windows driver update check will NOT update USB 3.0 host controller drivers. These are not included in the Windows update driver database and must be manually updated
 
@@ -47,7 +47,7 @@ This is called the software connection procedure. It needs to be repeated in ord
 * We have heard reports of the Logic 2 app failing to detect the Logic hardware, even though the hardware is being successfully detected by the PC via lsusb (i.e. the VID/PID of the Logic hardware appear correct). Launching `sudo Logic --no-sandbox` seems to solves it for these users. For more information, this solution is discussed further in the [forum post here](https://discuss.saleae.com/t/unable-to-start-on-ubuntu-20-04/474).
 * When the Logic 2 app is opened, a udev rule file is checked. If the udev rule is missing, then an error message will popup to prompt you to install the proper udev rule file. Please refer to the support article below, specifically under the section titled _Linux Ubuntu Instructions_, for more information on the solution.
 
-[Driver Install](../../logic-software/download-and-installation/driver-install.md)
+[Driver Install](/support/logic-software/download-and-installation/driver-install)
 
 If neither of the above solve the connection issue, this likely means that the Logic 2 app is able to connect to the device but some error occurs during the connection, and the software silently fails to connect. If the issue persists, please skip to _Contacting Support_ at the bottom of this article.
 
@@ -92,7 +92,7 @@ If the device fails to re-enumerate after the firmware download completes, the s
       If the device only works over USB 3.0, or if on one or more computers it does not work over USB 2.0, please contact support, as this may be a new issue.
 * Collect more information. Follow the instructions in the article below in the section titled "Steps to Collect Additional Data" to capture the console output of the software, which may contain more information of the issue preventing the device from reconnecting.
 
-[The Software Crashes](../software-crashes-and-errors/software-has-crashed.md)
+[The Software Crashes](/support/troubleshooting/software-crashes-and-errors/software-has-crashed)
 
 **The Device Re-enumerates after Firmware Download, but an Error Immediately Occurs**
 
@@ -116,11 +116,11 @@ Please provide the following information:
        Once you have found the host controller, take note of the full name. Then check the driver version.
 6. Send us your Machine ID, software crash logs, and console output (instructions are provided in the links below).
 
-[Getting your Machine ID](../diagnostic-tools/sharing-your-machine-id.md)
+[Getting your Machine ID](/support/troubleshooting/diagnostic-tools/sharing-your-machine-id)
 
-[Getting your Software Crash Logs](../diagnostic-tools/sharing-crash-logs.md)
+[Getting your Software Crash Logs](/support/troubleshooting/diagnostic-tools/sharing-crash-logs)
 
-[Getting the Console Output](../diagnostic-tools/console-output.md)
+[Getting the Console Output](/support/troubleshooting/diagnostic-tools/console-output)
 
 
 

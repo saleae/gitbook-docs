@@ -17,11 +17,11 @@ If the sequence you're trying to compare is longer in length or is more complex 
 
 For details on how to export to CSV, see this guide:
 
-[Capture & Preset File Management](../../logic-software/saving-and-exporting-data/saving-loading-and-exporting-data.md)
+[Capture & Preset File Management](/support/logic-software/saving-and-exporting-data/saving-loading-and-exporting-data)
 
 Also, be sure to use a display base that is best suited for your data (usually either Hex or ASCII).
 
-[Changing the Display Radix (Base)](../../logic-software/viewing-and-analyzing-data/changing-the-display-radix.md)
+[Changing the Display Radix (Base)](/support/logic-software/viewing-and-analyzing-data/changing-the-display-radix)
 
 I recommend copying the contents from each export file into a master Excel document. You may want to start with 1 sheet per export, but eventually, you will want to move many instances of the sequence into the same sheet.
 

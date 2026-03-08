@@ -11,7 +11,7 @@ In the case of exporting analyzer results (such as I2C packets, serial data, etc
 
 More information about the socket API can be found here:
 
-[Automation API - Logic 2](./automation.md)
+[Automation API - Logic 2](/support/extensions-api/automation-api/automation)
 
 The first two steps listed above can easily be accomplished by using the sample code provided by the socket API.
 

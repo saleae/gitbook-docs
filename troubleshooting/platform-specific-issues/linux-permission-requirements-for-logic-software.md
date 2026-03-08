@@ -2,7 +2,7 @@ The Logic 2 software is provided in an AppImage format, which contains all the f
 
 For information on how to run this file properly, please see the support article below and navigate to the Linux section.
 
-[Installation](../../logic-software/download-and-installation/sw-installation.md)
+[Installation](/support/logic-software/download-and-installation/sw-installation)
 
 ## Logic 1.x
 

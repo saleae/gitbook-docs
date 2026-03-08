@@ -2,9 +2,9 @@ It is possible for other drivers to associate themselves with a Saleae device. T
 
 Also, it's always a good idea to verify that your USB 3.0 host controller drivers are up to date below.
 
-[Finding Your USB 3.0 Host Controller Information](../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md)
+[Finding Your USB 3.0 Host Controller Information](/support/specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info)
 
-[Warning Message: Possible USB Host Controller Problem Detected](./usb-driver-problem.md)
+[Warning Message: Possible USB Host Controller Problem Detected](/support/troubleshooting/device-connection-issues/usb-driver-problem)
 
 We've seen two types of drivers become associated with a Saleae device.
 

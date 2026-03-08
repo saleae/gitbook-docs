@@ -10,13 +10,13 @@ The basic premise is that you can develop an application that connects to this s
 
 In addition, please keep in mind that newer versions of our Logic hardware (after revision 3.0.0) will no longer work with the older Logic 1.x software. If this poses any issues, please [contact us](https://contact.saleae.com/hc/en-us/requests/new). A brief summary of our hardware revisions are described in the support article below.
 
-[Logic Hardware Revisions](../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md)
+[Logic Hardware Revisions](/support/specifications-hardware/datasheets-and-compliance/logic-hardware-revisions)
 
 ### Prerequisites - Software Settings
 
 * Check that you are using the latest version of our legacy Logic 1.x software below.
 
-[Logic 1.x Download (Deprecated)](../../logic-software/download-and-installation/older-software-releases.md)
+[Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
 
 * We highly recommend suppressing notifications and error messages while running your automation script. These notifications may block normal operation and can be suppressed by starting the application with the command line option `-disablepopups` 
 * Next, we must enable the scripting socket server. Open Options Menu at the top of the software.
@@ -45,7 +45,7 @@ For simple automation requirements, we suggest using our [Python Sample Applicat
 
 The [Python Sample Application](https://github.com/saleae/python-saleae-cli) implements a very basic form of data export via csv. If more export options are needed, please see the article below:
 
-[Export Data via Socket API](./export-data.md)
+[Export Data via Socket API](/support/extensions-api/automation-api/export-data)
 
 You may also send supported socket commands directly via the terminal using the Python wrapper, as shown below. See our [list of supported commands](https://github.com/saleae/SaleaeSocketApi/blob/master/Doc/Logic%20Socket%20API%20Users%20Guide.md).
 

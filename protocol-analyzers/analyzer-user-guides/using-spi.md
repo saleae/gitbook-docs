@@ -74,7 +74,7 @@ Here's how this is done:
 1. Place a timing marker just before the start of the first valid SPI byte.
 2. Delete the data before the timing marker **(please note this cannot be undone)**. Instructions are provided in the support article below.
 
-[Delete Part of your Capture](../../logic-software/viewing-and-analyzing-data/delete-data.md)
+[Delete Part of your Capture](/support/logic-software/viewing-and-analyzing-data/delete-data)
 
 
 

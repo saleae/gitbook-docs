@@ -12,7 +12,7 @@ This might help determine which extension is somehow causing this error message 
 
 Instructions for how to uninstall an extension is described in the article below.
 
-[Extension Installation](../../extensions-api/extensions/installing-extensions.md)
+[Extension Installation](/support/extensions-api/extensions/installing-extensions)
 
 #### Manually Install the Two Default Extensions
 

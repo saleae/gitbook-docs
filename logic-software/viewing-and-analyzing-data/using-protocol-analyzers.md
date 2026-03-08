@@ -28,7 +28,7 @@ In case an analyzer is producing incorrect results, or in case an analyzer has g
 
 The glitch filter is designed to help remove noise picked up in the digital recording. This can be especially useful when using protocol analyzers, since present noise may prevent proper decoding of digital data. More information on enabling the glitch filter can be found below.
 
-[Software Glitch Filter](./software-glitch-filter.md)
+[Software Glitch Filter](/support/logic-software/viewing-and-analyzing-data/software-glitch-filter)
 
 
 

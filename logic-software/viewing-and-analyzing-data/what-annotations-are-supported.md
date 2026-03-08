@@ -16,7 +16,7 @@ We don't have a note annotation but would like to add one. In the meantime, I re
 
 Annotations are covered in the user's guide below:
 
-[Measurements, Timing Markers & Notes](./measurements-timing-markers.md)
+[Measurements, Timing Markers & Notes](/support/logic-software/viewing-and-analyzing-data/measurements-timing-markers)
 
 
 

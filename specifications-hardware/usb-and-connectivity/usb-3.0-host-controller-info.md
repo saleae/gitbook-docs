@@ -36,7 +36,7 @@ For support finding the latest driver for your host controller, or on the reques
 
 You can find a complete list of the latest driver releases for Windows 7 below:
 
-[Warning Message: Possible USB Host Controller Problem Detected](../../troubleshooting/device-connection-issues/usb-driver-problem.md)
+[Warning Message: Possible USB Host Controller Problem Detected](/support/troubleshooting/device-connection-issues/usb-driver-problem)
 
 **OS X and Linux**
 

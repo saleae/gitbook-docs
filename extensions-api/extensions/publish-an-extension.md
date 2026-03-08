@@ -6,7 +6,7 @@ Before publishing your extension, you will need to have the following completed.
 
 * You have finished developing your extension and are ready to share it. You can follow along with our Extensions Quickstart guide below as a starting point.
 
-[Create and Use Extensions](./extensions-quickstart.md)
+[Create and Use Extensions](/support/extensions-api/extensions/extensions-quickstart)
 
 * Your extension must be uploaded to a [GitHub](https://github.com/) repository.
 * You must [create a release](https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository) for your extension.

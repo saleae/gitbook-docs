@@ -16,6 +16,6 @@ Unfortunately, there is no way to edit the settings individually. If you need to
 
 The analyzer settings are saved in that string. You can either save several \*.logicsettings files to guess which value corresponds to which setting, or you can download the source code to all of the analyzers below:
 
-[protocol-analyzer-sdk](../protocol-analyzer-sdk/protocol-analyzer-sdk.md)
+[protocol-analyzer-sdk](/support/extensions-api/protocol-analyzer-sdk/protocol-analyzer-sdk)
 
 See AnalyzerSettings::SaveSettings() for details. Be careful when editing the file from your application to preserve all other characters in the file. Also, the length of the string might be serialized in binary, so changing the length of the string could be difficult.

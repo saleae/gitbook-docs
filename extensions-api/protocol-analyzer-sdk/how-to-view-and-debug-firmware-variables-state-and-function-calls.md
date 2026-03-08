@@ -47,4 +47,4 @@ Logic analyzers are already very useful for decoding protocol data, verifying ti
 
 Keep in mind that the Saleae Logic devices can record at high speeds for considerable lengths of time when little activity is present on the bus. In most cases, you should be able to record for minutes or even hours to thoroughly test your design. In some cases, it may be helpful to set up long recordings of your device's operation. For long-term recording or to automate captures, you can use our socket API below.
 
-[Automating Long Overnight Captures](../../logic-software/capturing-data/automate-long-captures.md)
+[Automating Long Overnight Captures](/support/logic-software/capturing-data/automate-long-captures)

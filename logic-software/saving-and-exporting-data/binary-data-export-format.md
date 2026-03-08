@@ -34,7 +34,7 @@ The following Export Format and Binary Settings will produce a binary data expor
 
 Analog binary analog export does contain a basic header before the data sections. You can find full details on the analog binary export format here:
 
-[Binary Export Format (Analog) - Logic 1.x](./data-export-format-analog-binary.md)
+[Binary Export Format (Analog) - Logic 1.x](/support/logic-software/saving-and-exporting-data/data-export-format-analog-binary)
 
 
 

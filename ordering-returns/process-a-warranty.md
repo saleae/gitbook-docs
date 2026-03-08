@@ -10,7 +10,7 @@ If you believe your Logic hardware is broken, please completely perform the trou
 
 * In cases where the software cannot detect the logic analyzer, we need to determine if the PC itself can detect the Logic device. Please follow the steps in the link below.
 
-[PC Detection Test](../troubleshooting/diagnostic-tools/pc-detection-test.md)
+[PC Detection Test](/support/troubleshooting/diagnostic-tools/pc-detection-test)
 
 **3. Test with the Latest Logic 2 Software.**
 
@@ -32,14 +32,14 @@ If you believe your Logic hardware is broken, please completely perform the trou
 
 * If the VID and PID are incorrect, then the hardware maybe faulty. Stop here and submit a [Warranty Request](https://saleae-support.typeform.com/to/E8UPB7).
 
-[Device USB VID and PID Information](../troubleshooting/device-connection-issues/the-devices-usb-vid-and-pid-failed.md)
+[Device USB VID and PID Information](/support/troubleshooting/device-connection-issues/the-devices-usb-vid-and-pid-failed)
 
 **8. If you are troubleshooting Logic Pro 8 or Pro 16, ensure the latest USB 3.0 Host Controller is installed.** 
 
 * Update the driver, if possible, and run the tests again. The latest host controller drivers are provided in the link below.
 * The windows driver update check will NOT update USB 3.0 host controller drivers. These are not included in the Windows update driver database and must be manually updated.
 
-[Warning Message: Possible USB Host Controller Problem Detected](../troubleshooting/device-connection-issues/usb-driver-problem.md)
+[Warning Message: Possible USB Host Controller Problem Detected](/support/troubleshooting/device-connection-issues/usb-driver-problem)
 
 ### PC Fails to Detect Logic
 

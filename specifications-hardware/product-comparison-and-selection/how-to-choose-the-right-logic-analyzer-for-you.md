@@ -2,7 +2,7 @@ When choosing a logic analyzer to purchase, there are some capabilities and spec
 
 You can find datasheets for the Saleae logic analyzers below.
 
-[Datasheets](../datasheets-and-compliance/datasheets.md)
+[Datasheets](/support/specifications-hardware/datasheets-and-compliance/datasheets)
 
 We encourage you to look online for more information and compare the Saleae products against other available logic analyzers.
 

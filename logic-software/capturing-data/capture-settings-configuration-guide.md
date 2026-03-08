@@ -4,7 +4,7 @@ Because of this, we get a fair number of questions about how to choose the optim
 
 Before moving on with this configuration guide, please first review the article below on device settings:
 
-[Device Settings](./capture-settings.md)
+[Device Settings](/support/logic-software/capturing-data/capture-settings)
 
 Generally, when starting a capture, make sure you record all the channels you have connected in the correct mode (analog or digital). You also need to make sure you record sufficiently fast in order to accurately record the signal and record long enough to locate the event(s) you are interested in.
 

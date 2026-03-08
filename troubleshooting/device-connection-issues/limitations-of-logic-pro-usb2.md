@@ -16,7 +16,7 @@ In addition, Logic Pro 16 draws slightly more current than what USB 2.0 ports ar
 
 When connecting our USB 3.0 Logic analyzers (Logic Pro 8 and Logic Pro 16) via a USB 2.0 cable, capture settings will not persist when closing and re-opening the software. In this case, we recommend saving capture setting presets as described in the support article below.
 
-[Capture & Preset File Management](../../logic-software/saving-and-exporting-data/saving-loading-and-exporting-data.md)
+[Capture & Preset File Management](/support/logic-software/saving-and-exporting-data/saving-loading-and-exporting-data)
 
 ## Legacy Information for Logic 1.x Only
 

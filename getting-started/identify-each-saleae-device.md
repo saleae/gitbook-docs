@@ -30,7 +30,7 @@ Note: "Red" or "Black" is not written on the device. This refers to the enclosur
 
 A complete list of product numbers and names, including accessories, can be found below.
 
-[Part Numbers, ECCN, HS Codes, and Country of Origin](../specifications-hardware/datasheets-and-compliance/saleae-part-numbers.md)
+[Part Numbers, ECCN, HS Codes, and Country of Origin](/support/specifications-hardware/datasheets-and-compliance/saleae-part-numbers)
 
 **Product Images**
 

@@ -9,7 +9,7 @@ If needed, there are several methods to reduce Logic's USB bandwidth usage. Sinc
 3. Using Logic through a USB hub
 4. Running into the error message linked below, signaling low bandwidth availability
 
-[Error Message: ReadTimeout](../../troubleshooting/capture-and-recording-issues/device-not-able-to-keep-up.md)
+[Error Message: ReadTimeout](/support/troubleshooting/capture-and-recording-issues/device-not-able-to-keep-up)
 
 ### Situations to Avoid
 

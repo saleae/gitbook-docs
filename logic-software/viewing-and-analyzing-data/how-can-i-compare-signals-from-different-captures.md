@@ -15,7 +15,7 @@ Currently, the best way to compare signals from two or more captures is as follo
 
 For some analyses, it may be easier to export data from each capture to a separate CSV file and then compare the data sets using third-party software, like Microsoft Excel.
 
-[Exporting Data](../saving-and-exporting-data/exporting-data.md)
+[Exporting Data](/support/logic-software/saving-and-exporting-data/exporting-data)
 
 
 

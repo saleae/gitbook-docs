@@ -33,13 +33,13 @@ The side panel buttons offer various ways to configure your logic analyzer setti
 
 ![Side Panel Buttons](/support-assets/Screen%20Shot%202020-09-23%20at%205.02.24%20PM.png)
 
-[Device Settings](../capturing-data/capture-settings.md)
+[Device Settings](/support/logic-software/capturing-data/capture-settings)
 
-[Analyzers](./using-protocol-analyzers.md)
+[Analyzers](/support/logic-software/viewing-and-analyzing-data/using-protocol-analyzers)
 
-[Measurements, Timing Markers & Notes](./measurements-timing-markers.md)
+[Measurements, Timing Markers & Notes](/support/logic-software/viewing-and-analyzing-data/measurements-timing-markers)
 
-[extensions](../../extensions-api/extensions/installing-extensions.md)
+[extensions](/support/extensions-api/extensions/installing-extensions)
 
 ### 6. Time Scale Adjustment
 

@@ -4,7 +4,7 @@ Simulation mode allows potential users to explore the features of the software b
 
 You can read more about simulation mode below.
 
-[Demo Mode](../../logic-software/capturing-data/demo-mode.md)
+[Demo Mode](/support/logic-software/capturing-data/demo-mode)
 
 
 

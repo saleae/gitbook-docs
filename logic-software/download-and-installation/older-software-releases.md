@@ -2,7 +2,7 @@
 Starting October of 2022, Saleae has released a new hardware revision of our Logic analyzers which requires the latest version of the Logic 2 software available [here](https://www.saleae.com/downloads/). This newer revision of the hardware will **no longer work with our legacy Logic 1.x software**.
 </div>
 
-[Logic Hardware Revisions](../../specifications-hardware/datasheets-and-compliance/logic-hardware-revisions.md)
+[Logic Hardware Revisions](/support/specifications-hardware/datasheets-and-compliance/logic-hardware-revisions)
 
 ## Logic 1.2.40
 
@@ -20,7 +20,7 @@ Please be aware of the following requirements for the Windows standalone release
 * If drivers are not already installed from a previous installation of the Logic software, you will need to install the drivers manually. You can find instructions for installing our drivers in the link below.
 </div>
 
-[Driver Install](./driver-install.md)
+[Driver Install](/support/logic-software/download-and-installation/driver-install)
 
 Mac OS X 10.8+\
 [https://downloads.saleae.com/logic/1.2.40/Logic-1.2.40-MacOS.dmg](https://downloads.saleae.com/logic/1.2.40/Logic-1.2.40-MacOS.dmg)
@@ -52,7 +52,7 @@ Unfortunately, the Decoded Protocols Panel, in addition to Protocol Search, is n
 
 We released a temporary fix for processor incompatibilies mentioned in the support article below. The fixes have been implemented in v1.2.40, however, you may still need to use the temporary release versions mentioned below (v1.2.35 for Windows and v1.2.33 for MacOS) if you require using the Decoded Protocols Panel, which is not included in v1.2.40 due to technical issues.
 
-[Error Function: Device2::SetupDevice](../../troubleshooting/device-connection-issues/error-function-device2-setupdevice.md)
+[Error Function: Device2::SetupDevice](/support/troubleshooting/device-connection-issues/error-function-device2-setupdevice)
 
 * Windows: [Logic-1.2.35](https://downloads.saleae.com/betas/1.2.35/Logic-1.2.35-win64.zip)
 * MacOS: [Logic-1.2.33](https://downloads.saleae.com/betas/1.2.33/Logic-1.2.33-MacOS.dmg)
@@ -88,7 +88,7 @@ When launching 1.2.29, you may see an "Unsupported Version" notice like shown be
 
 If you see this notice, please start the software using the instructions in the support article below.
 
-[Warning Message: Unsupported Version](../../troubleshooting/software-crashes-and-errors/unsupported-version.md)
+[Warning Message: Unsupported Version](/support/troubleshooting/software-crashes-and-errors/unsupported-version)
 
 ### **1.2.28 Beta Download**
 

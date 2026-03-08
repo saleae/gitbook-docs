@@ -41,7 +41,7 @@ You may want to try launching an older version of the Logic 2 app, specificall [
 
 If the above solutions fail, you may want to try our older Logic 1.x software downloadable below. Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) as well and let us know the tests you have ran, as well as the information we ask for below about your PC. Similar to the previous solution, we don't recommend using this version long term as it is now several versions outdated, but might reveal some clues depending on its behavior.
 
-[Logic 1.x Download (Deprecated)](../../logic-software/download-and-installation/older-software-releases.md)
+[Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
 
 ### Contacting Support
 
@@ -57,7 +57,7 @@ When [contacting us](https://contact.saleae.com/hc/en-us/requests/new), please l
 * Results of the following tests ([WebGL v1](https://webglreport.com/?v=1) and [WebGL v2](https://webglreport.com/?v=2))
 * In case you can launch [Logic 2.3.40](https://ideas.saleae.com/f/changelog/2340/) successfully, please send us your machine ID. Instructions are linked below.
 
-[Getting your Machine ID](../diagnostic-tools/sharing-your-machine-id.md)
+[Getting your Machine ID](/support/troubleshooting/diagnostic-tools/sharing-your-machine-id)
 
 
 

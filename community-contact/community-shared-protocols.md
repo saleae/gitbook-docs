@@ -59,7 +59,7 @@ The following analyzers are not officially supported nor developed by Saleae, bu
 
 The instructions for installing an analyzer is described in the article below.
 
-[Import Custom Low Level Analyzer](../extensions-api/protocol-analyzer-sdk/setting-up-developer-directory.md)
+[Import Custom Low Level Analyzer](/support/extensions-api/protocol-analyzer-sdk/setting-up-developer-directory)
 
 In case the library file (.dll, .so, or .dylib depending on your OS) is not provided in the respective GitHub repository, then you will need to build it.
 
@@ -67,7 +67,7 @@ In case the library file (.dll, .so, or .dylib depending on your OS) is not prov
 
 Some of the community analyzers listed above are distributed as source code (not including the required library file) and will require our Protocol Analyzer SDK in the article below to compile it and build the appropriate library file for that analyzer.
 
-[protocol-analyzer-sdk](../extensions-api/protocol-analyzer-sdk/protocol-analyzer-sdk.md)
+[protocol-analyzer-sdk](/support/extensions-api/protocol-analyzer-sdk/protocol-analyzer-sdk)
 
 ### Community Shared Protocol Tools
 

@@ -1,8 +1,8 @@
-This guide assumes that you have familiarity with the [Python](https://www.python.org/) programming language. It is what will be used to customize our HLA. Browse [user shared HLAs](./shared-high-level-analyzers-hlas.md) for own use or inspiration.
+This guide assumes that you have familiarity with the [Python](https://www.python.org/) programming language. It is what will be used to customize our HLA. Browse [user shared HLAs](/support/extensions-api/extensions/shared-high-level-analyzers-hlas) for own use or inspiration.
 
 ## Overview
 
-This guide assumes [you have generated](./extensions-quickstart.md) a new High-Level Analyzer. In this guide you will learn about:
+This guide assumes [you have generated](/support/extensions-api/extensions/extensions-quickstart) a new High-Level Analyzer. In this guide you will learn about:
 
 1. The files included in the HLA template extension and what they are.
 2. The different parts of `HighLevelAnalyzer.py`.
@@ -17,7 +17,7 @@ In your new High Level Analyzer (HLA) extension folder you will find 3 files:
 * `extension.json`
   * Every extension must have this file in its root directory.
   * Contains metadata about the extension, and the HLAs and Measurement scripts that are included with the extension.
-  * See [Extension File Format](./extension-file-format.md) for more information.
+  * See [Extension File Format](/support/extensions-api/extensions/extension-file-format) for more information.
 * `HighLevelAnalyzer.py`
   * Python source code for your HLA.
 
@@ -64,7 +64,7 @@ from saleae.analyzers import HighLevelAnalyzer, AnalyzerFrame, StringSetting, Nu
 
 #### Declaration and Settings
 
-All HLAs must subclass [HighLevelAnalyzer](./api-documentation.md#class-saleae-analyzers-highlevelanalyzer), and additionally output [AnalyzerFrames](./api-documentation.md#class-saleae-analyzers-analyzerframe-type-str-start_time-saleae-data-timing-graphtime-end_time-saleae-data-timing-graphtime-data-dict-none). The `Setting` classes are included so we can specify settings options within the Logic 2 UI.
+All HLAs must subclass [HighLevelAnalyzer](/support/extensions-api/extensions/api-documentation#class-saleae-analyzers-highlevelanalyzer), and additionally output [AnalyzerFrames](/support/extensions-api/extensions/api-documentation#class-saleae-analyzers-analyzerframe-type-str-start_time-saleae-data-timing-graphtime-end_time-saleae-data-timing-graphtime-data-dict-none). The `Setting` classes are included so we can specify settings options within the Logic 2 UI.
 
 ```python
 class MyHla(HighLevelAnalyzer):
@@ -114,13 +114,13 @@ Although we don't have the ability to attach debuggers to Python extensions at t
 
 * Use `print()` statements to print debug messages to our in-app terminal. More information on our in-app terminal can be found below.
 
-[Data Table & Terminal View](../../logic-software/viewing-and-analyzing-data/data-table-and-terminal.md)
+[Data Table & Terminal View](/support/logic-software/viewing-and-analyzing-data/data-table-and-terminal)
 
 * Use the Wall Clock Format and Timing Markers to locate the exact frame listed in your error message.
 
-[Time Bar Settings](../../logic-software/viewing-and-analyzing-data/time-bar-settings.md)
+[Time Bar Settings](/support/logic-software/viewing-and-analyzing-data/time-bar-settings)
 
-[Measurements, Timing Markers & Notes](../../logic-software/viewing-and-analyzing-data/measurements-timing-markers.md)
+[Measurements, Timing Markers & Notes](/support/logic-software/viewing-and-analyzing-data/measurements-timing-markers)
 
 * Use the reload source button in the app to quickly re-run your HLA after editing your source code.
 
@@ -168,9 +168,9 @@ Our HLA (top) is outputting a frame for every frame from the input analyzer (bot
 
 ### Understanding the Input Frames
 
-The goal is to search for a message within the input analyzer, but first we need to understand what frames the input analyzer (Async Serial in this case) produces so we can know what frames will be passed into the `decode(frame:` [`AnalyzerFrame`](./api-documentation.md#class-saleae-analyzers-highlevelanalyzer)`)` function.
+The goal is to search for a message within the input analyzer, but first we need to understand what frames the input analyzer (Async Serial in this case) produces so we can know what frames will be passed into the `decode(frame:` [`AnalyzerFrame`](/support/extensions-api/extensions/api-documentation#class-saleae-analyzers-highlevelanalyzer)`)` function.
 
-The frame formats are documented under [Analyzer Frame Types](../hla-frame-format-reference/serial-analyzer.md), where we can find [Async Serial](../hla-frame-format-reference/serial-analyzer.md).
+The frame formats are documented under [Analyzer Frame Types](/support/extensions-api/hla-frame-format-reference/serial-analyzer), where we can find [Async Serial](/support/extensions-api/hla-frame-format-reference/serial-analyzer).
 
 The Async Serial output is simple - it only outputs one frame type, `data`, with 3 fields: `data` , `error`, and `address`. The serial data we are looking at will not be configured to produce frames with the `address` field, so we can ignore that.
 
@@ -320,7 +320,7 @@ The final output after reloading:
 
 ## What's Next?
 
-* Find out about other analyzers and the AnalyzerFrames they output in the [Analyzer Frame Types](../hla-frame-format-reference/serial-analyzer.md) documentation.
-* Use the [API Documentation](./api-documentation.md) as a reference.
+* Find out about other analyzers and the AnalyzerFrames they output in the [Analyzer Frame Types](/support/extensions-api/hla-frame-format-reference/serial-analyzer) documentation.
+* Use the [API Documentation](/support/extensions-api/extensions/api-documentation) as a reference.
 * Browse the Saleae Marketplace in Logic 2 for more ideas and examples of extensions you can create.
-* [Publish your extension](./publish-an-extension.md) to the Saleae Marketplace!
+* [Publish your extension](/support/extensions-api/extensions/publish-an-extension) to the Saleae Marketplace!

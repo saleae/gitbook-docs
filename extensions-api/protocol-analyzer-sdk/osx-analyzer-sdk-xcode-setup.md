@@ -144,7 +144,7 @@ This guide was written using the 1.1.32 Analyzer SDK, Xcode version 7.2.1, and O
 
 * Before proceeding, see this article with instructions to configure the software to load your new analyzer.
 
-[Import Custom Low Level Analyzer](./setting-up-developer-directory.md)
+[Import Custom Low Level Analyzer](/support/extensions-api/protocol-analyzer-sdk/setting-up-developer-directory)
 
 * Be sure to select the folder where the debug version of the custom analyzer is saved.
 * Once the Saleae logic software has been configured and has been closed, click Run from Xcode.

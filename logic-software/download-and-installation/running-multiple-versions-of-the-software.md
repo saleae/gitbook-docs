@@ -4,11 +4,11 @@ Look for stand-alone versions of the software and older versions belo:
 
 ### Logic 2
 
-[Download](./sw-download.md)
+[Download](/support/logic-software/download-and-installation/sw-download)
 
 ### Logic 1.x (Legacy)
 
-[Logic 1.x Download (Deprecated)](./older-software-releases.md)
+[Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
 
 
 

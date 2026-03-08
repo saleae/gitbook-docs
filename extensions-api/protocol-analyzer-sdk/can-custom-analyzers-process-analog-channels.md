@@ -4,7 +4,7 @@ If you need the ability to run code against the analog data, the best option is 
 
 Socket API details are below.
 
-[Automation API - Logic 2](../automation-api/automation.md)
+[Automation API - Logic 2](/support/extensions-api/automation-api/automation)
 
 If you are a Matlab user, exporting directly to Matlab may be best.
 

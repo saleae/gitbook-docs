@@ -16,7 +16,7 @@ This error message may appear during device operation, or upon connecting your L
 
 6\. Try manually installing the Saleae drivers via the instructions in the below support article.
 
-[Driver Install](../../logic-software/download-and-installation/driver-install.md)
+[Driver Install](/support/logic-software/download-and-installation/driver-install)
 
 7\. In some cases, this issue can be resolved by uninstalling the USB 3 host controller driver, and allowing Windows to automatically re-install the same driver during a reboot. Specifically, this may solve the problem for users with the  Intel USB 3.1 eXtensible Host Controller, like the one shown in the image below. If you have an Intel based USB 3 host controller,  first navigate to the USB host controller driver from Device Manager and double click it to open the properties window, (be sure it's the Intel eXtensible Host Controller) then uninstall the driver by clicking "Uninstall Device" under the Driver tab in the device properties, and restart the PC. Once restarted, Windows will automatically re-install the same driver, and in many cases, this resolved the connectivity issue with our devices.
 
@@ -30,7 +30,7 @@ If the error message persists, please [contact us](https://contact.saleae.com/hc
 
 2\. Share your USB host controller information like shown in the support article below. Screenshots would be great.
 
-[Finding Your USB 3.0 Host Controller Information](../../specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info.md)
+[Finding Your USB 3.0 Host Controller Information](/support/specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info)
 
 3\. Share your crash logs with us. To collect logs on windows, you can run the application from the console like so:\
 `cd "\Program Files\Logic"`\
@@ -40,11 +40,11 @@ The logs will be printed directly to the console while the application is runnin
 
 4\. Let us know which specific Saleae Logic model you own. You can refer to the support article below.
 
-[How to Identify Each Saleae Device](../../getting-started/identify-each-saleae-device.md)
+[How to Identify Each Saleae Device](/support/getting-started/identify-each-saleae-device)
 
 5\. Share your Machine ID.
 
-[Getting your Machine ID](../diagnostic-tools/sharing-your-machine-id.md)
+[Getting your Machine ID](/support/troubleshooting/diagnostic-tools/sharing-your-machine-id)
 
 
 

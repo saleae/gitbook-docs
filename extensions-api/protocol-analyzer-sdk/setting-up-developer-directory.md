@@ -36,7 +36,7 @@ Once the folder location containing your custom analyzer is specified, save the 
 
 If you're running the app on MacOS, you may run into a "Failed to Load Custom Analyzer" error message upon startup when the app attempts to load your `.dylib` (or provided `.so`) low level analyzer. The fixes for this are described in the support article below.
 
-[Error Message: Failed to Load Custom Analyzer](../../troubleshooting/software-crashes-and-errors/failed-to-load-lla.md)
+[Error Message: Failed to Load Custom Analyzer](/support/troubleshooting/software-crashes-and-errors/failed-to-load-lla)
 
 
 

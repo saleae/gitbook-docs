@@ -2,5 +2,5 @@ You can set the logic analyzer to begin recording only when it sees a particular
 
 <div class="video-embed"><iframe src="https://player.vimeo.com/video/452011694" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
-To learn more, see the [Capture Modes](../logic-software/capturing-data/capture-modes.md) section of the User Guide.
+To learn more, see the [Capture Modes](/support/logic-software/capturing-data/capture-modes) section of the User Guide.
 

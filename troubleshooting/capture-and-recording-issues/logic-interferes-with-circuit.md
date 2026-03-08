@@ -14,13 +14,13 @@ If you are recording an open drain bus or another bus topology other than CMOS o
 
 If you notice negative effects on your application when a logic analyzer is applied, first check for ground loops. If the problem is caused by a common mode ground voltage, then the issue will appear the moment a ground pin from Logic is attached to your circuit and not when an input probe is connected. The issue will also only be present when the logic analyzer is attached to the host PC and when the device under test is powered. For more information on ground loops, see this article below.
 
-[Safety & Warranty](../../specifications-hardware/product-comparison-and-selection/safety-and-warranty.md)
+[Safety & Warranty](/support/specifications-hardware/product-comparison-and-selection/safety-and-warranty)
 
 In the absence of a ground loop problem, there could be a problem with one or a few of the inputs on the device. Try using different input channels on the logic analyzer. Also try measuring the resistance between the input pin and the ground pin on the logic analyzer using a multi-meter. If you see a lower resistance than specified for that device, let us know, and we can replace it under warranty.
 
 Please also perform the basic channel functional test described in this article.
 
-[The Captured Data Looks Incorrect](./captured-data-looks-incorrect.md)
+[The Captured Data Looks Incorrect](/support/troubleshooting/capture-and-recording-issues/captured-data-looks-incorrect)
 
 **Original Logic Input States**
 
@@ -36,7 +36,7 @@ The original Logic is also the only Saleae device to use pulled up inputs. All o
 
 More information on the inputs of the original Logic can be found below.
 
-[Supported Voltages](../../specifications-hardware/electrical-characteristics/supported-voltages.md)
+[Supported Voltages](/support/specifications-hardware/electrical-characteristics/supported-voltages)
 
 **Still Unable to Identify the Problem**
 

@@ -4,7 +4,7 @@ This support article refers to a feature available in our older Logic 1.x softwa
 Unfortunately, this feature is not yet available in our current Logic 2 software. Vote for it [here!](https://ideas.saleae.com/b/feature-requests/trigg-on-signal-state-low-high-after-x-time/)
 </div>
 
-[Logic 1.x Download (Deprecated)](../../logic-software/download-and-installation/older-software-releases.md)
+[Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
 
 The pulse width trigger in the Saleae Logic software has extra features to allow it to be used to detect events other than pulses.
 

@@ -33,7 +33,7 @@ This is typically solved by performing a Windows Update.
 
 Some users have reported that installing the Saleae drivers manually via the methods listed in the support article below solves various install issues.
 
-[Driver Install](../../logic-software/download-and-installation/driver-install.md)
+[Driver Install](/support/logic-software/download-and-installation/driver-install)
 
 ### Known Issues with Windows 11 Insider Preview Builds
 
@@ -58,7 +58,7 @@ We would be happy to chat with them directly as well! In this case, feel free to
 
 This error message during installation typically occurs when attempting to install the Logic 2 software on a 32-bit processor or operating system. Please note that 32-bit operating systems are not supported by Logic 2.x. For 32-bit support, please refer to Logic 1.x below.
 
-[Logic 1.x Download (Deprecated)](../../logic-software/download-and-installation/older-software-releases.md)
+[Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
 
 
 
@@ -80,7 +80,7 @@ For each item, first perform the test. If the test result is positive (the test 
 * Test: Are you using an unsupported operating system?
 * Corrective Action: Use a supported operating system.
 
-[Supported Operating Systems](../../logic-software/download-and-installation/supported-operating-systems.md)
+[Supported Operating Systems](/support/logic-software/download-and-installation/supported-operating-systems)
 
 ### **Wrong Installer Downloaded**
 
@@ -109,7 +109,7 @@ For each item, first perform the test. If the test result is positive (the test 
 
       You can find all the download links for the latest beta, including the standalone releases below.
 
-[Logic 1.x Download (Deprecated)](../../logic-software/download-and-installation/older-software-releases.md)
+[Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
 
 ### **The Saleae Drivers Are Preventing the Software from Installing**
 
@@ -117,7 +117,7 @@ For each item, first perform the test. If the test result is positive (the test 
 * Corrective Action: Download the standalone version of the software as described above. Then attempt a manual driver install using the new hardware/update driver wizard.
 * If the same error persists during the manual driver install, please check the driver install help found below.
 
-[Driver Install](../../logic-software/download-and-installation/driver-install.md)
+[Driver Install](/support/logic-software/download-and-installation/driver-install)
 
 ### **The Software Will Not Launch (All Platforms)**
 

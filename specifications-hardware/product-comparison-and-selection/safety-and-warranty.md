@@ -8,7 +8,7 @@ The input channels on Saleae Logic analyzers are not electrically isolated from 
 
 Suggestions for electrical isolation can be found in the link below:
 
-[Electrical Isolation Suggestions](../electrical-characteristics/suggestions-for-electrical-isolation.md)
+[Electrical Isolation Suggestions](/support/specifications-hardware/electrical-characteristics/suggestions-for-electrical-isolation)
 
 ### **High Voltage Safety**
 
@@ -103,11 +103,11 @@ To isolate the USB 2.0 high-speed connection, you can consider using the [Intona
 
 Saleae products are covered by a 3-year warranty, regardless of where you purchased the product. For more information, see the article below.
 
-[180-day-return-policy-and-3-year-warranty](../../ordering-returns/180-day-return-policy-and-3-year-warranty.md)
+[180-day-return-policy-and-3-year-warranty](/support/ordering-returns/180-day-return-policy-and-3-year-warranty)
 
 If you believe your Logic hardware is broken, please follow the troubleshooting steps in the article below.
 
-[Submit a Warranty Claim](../../ordering-returns/process-a-warranty.md)
+[Submit a Warranty Claim](/support/ordering-returns/process-a-warranty)
 
 
 

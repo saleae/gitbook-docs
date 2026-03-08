@@ -10,7 +10,7 @@ If the quote request form is somehow not working on your end, please [contact su
 
 * Email address
 * How will you place your order? (select an option below)
-  * Purchase Order (via wire transfer). [Please see requirements here](place-a-purchase-order-po.md).
+  * Purchase Order (via wire transfer). [Please see requirements here](/support/ordering-returns/place-a-purchase-order-po).
   * Online at [www.saleae.com](https://www.google.com/url?q=http://www.saleae.com&sa=D&ust=1540340346557000&usg=AFQjCNHWDUcQbtcB6hb6MAF9xUwaJzjC4A) (via credit card or PayPal)
 * Products and Quantity
 * Shipping City and Country
@@ -31,13 +31,13 @@ If the quote request form is somehow not working on your end, please [contact su
 
 For reference, you may refer to the list of products we sell below.
 
-[Part Numbers, ECCN, HS Codes, and Country of Origin](../specifications-hardware/datasheets-and-compliance/saleae-part-numbers.md)
+[Part Numbers, ECCN, HS Codes, and Country of Origin](/support/specifications-hardware/datasheets-and-compliance/saleae-part-numbers)
 
 ### Placing a Purchase Order?
 
 If you plan on placing a purchase order, please review the requirements and process below before submitting your quote:
 
-[Place a Purchase Order (PO)](./place-a-purchase-order-po.md)
+[Place a Purchase Order (PO)](/support/ordering-returns/place-a-purchase-order-po)
 
 
 

@@ -19,7 +19,7 @@ In this guide, we will walk your through creating an HLA (High Level Analyzer) e
 
 ## Using a High Level Analyzer Extension
 
-1\. To test the new Sample HLA, capture any protocol data for [one of the supported analyzers](../hla-frame-format-reference/serial-analyzer.md), and add the appropriate protocol analyzer. We've provided an I2C capture below in case you don't have a protocol data recording available.
+1\. To test the new Sample HLA, capture any protocol data for [one of the supported analyzers](/support/extensions-api/hla-frame-format-reference/serial-analyzer), and add the appropriate protocol analyzer. We've provided an I2C capture below in case you don't have a protocol data recording available.
 
 <a href="/support-assets/I2C.sal" download class="content-ref">I2C.sal</a>
 
@@ -35,7 +35,7 @@ In this guide, we will walk your through creating an HLA (High Level Analyzer) e
 
 To edit the Sample HLA (perhaps as a starting point to creating your own HLA), you can click the 'Local' button next to 'Sample HLA' under the Extensions panel. This will open the containing folder for your extension files which you can update for your needs. 
 
-Check out our [High Level Analyzer](high-level-analyzer-extensions.md) article to learn more about customizing your HLA.
+Check out our [High Level Analyzer](/support/extensions-api/extensions/high-level-analyzer-extensions) article to learn more about customizing your HLA.
 
 ## Using a Measurement Extension
 
@@ -51,4 +51,4 @@ To see your new measurement in action, take a capture of digital data and add a 
 
 ‌To edit the Sample Measurement, you can click the 'Local' button next to 'Sample Measurement' under the Extensions panel. This will open the containing folder for your extension files which you can update for your needs.‌
 
-Check out our [Measurement](measurement-extensions.md) article to learn more about customizing your Measurement.
+Check out our [Measurement](/support/extensions-api/extensions/measurement-extensions) article to learn more about customizing your Measurement.

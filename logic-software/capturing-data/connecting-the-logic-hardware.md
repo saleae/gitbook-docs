@@ -13,7 +13,7 @@
 If connecting Logic Pro 8 or Logic Pro 16 to a USB 2.0 port, please read the article below. You may receive a warning notification from within the software which indicates that the available channels and sampling rate options may be limited.
 </div>
 
-[Warning Message: Logic Pro is running as a USB 2.0 device](../../troubleshooting/device-connection-issues/limitations-of-logic-pro-usb2.md)
+[Warning Message: Logic Pro is running as a USB 2.0 device](/support/troubleshooting/device-connection-issues/limitations-of-logic-pro-usb2)
 
 
 

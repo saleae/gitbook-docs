@@ -2,7 +2,7 @@
 
 If you have finished developing a custom Low Level Analyzer (LLA) using our Protocol Analyzer SDK and would like to make it available to our community of users, we would love to post your work to our list of Community Shared Analyzers in the link below!
 
-[Community Shared Analyzers](../../community-contact/community-shared-protocols.md)
+[Community Shared Analyzers](/support/community-contact/community-shared-protocols)
 
 Please [contact us](https://contact.saleae.com/hc/en-us/requests/new) if you are interested in having your LLA featured in the list above.
 

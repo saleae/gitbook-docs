@@ -43,7 +43,7 @@ While hovering over the icon, several Y-axis zoom adjustment options become avai
 
 To view many more ways to navigate your data, you may open the Keyboard Shortcuts menu from within the Logic 2 software. More information on this can be found below.
 
-[Keyboard Shortcuts](../settings-and-preferences/keyboard-shortcuts.md)
+[Keyboard Shortcuts](/support/logic-software/settings-and-preferences/keyboard-shortcuts)
 
 
 
