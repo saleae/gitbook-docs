@@ -37,7 +37,7 @@ Windows 10 & Windows 8.1/8 use a new Microsoft-created USB 3.0 driver that suppo
 * **Intel USB 3.1 eXtensible Host Controller (Driver Date: Nov 2020)**
   * We've received reports of some issues with the November version of Intel's USB 3.1 eXtensible Host Controller. Please check Windows Update if it reports any optional updates available for your USB host controller as shown in the image below.
 
-![Checking Optional Updates via Windows Update](https://saleae.zendesk.com/attachments/token/fcYxfgZC6hdieaYnpboSwoLk6/?name=Screen+Shot+2021-05-18+at+5.50.50+PM.png)
+![Checking Optional Updates via Windows Update](/support-assets/ext-295a5ed15c-Screen-Shot-2021-05-18-at-5.50.50-PM.png)
 
 * **ASMedia USB 3.0 or 3.1 Host Controller**
   * We recommend downloading the latest version available from your USB card or motherboard vendor

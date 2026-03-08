@@ -63,12 +63,12 @@ Search for any query and delete that query in the Decoded Protocols window searc
 
 Type any search query:
 
-<div align="center"><img src="https://trello-attachments.s3.amazonaws.com/55f0a61a10f9f592573a4205/5965299353583cef619d2e15/96e8d9b7d7d0a3be6a70501be97b9799/TypeSearch.png" alt="Type Search"></div>
+<div align="center"><img src="/support-assets/ext-86ec59005b-TypeSearch.png" alt="Type Search"></div>
 
 Delete the search query to reload the window contents:
 
-<div align="center"><img src="https://trello-attachments.s3.amazonaws.com/55f0a61a10f9f592573a4205/5965299353583cef619d2e15/5cfdb9019c7613999ee638120e0ed5f3/ClearSearch.png" alt="Clear Search"></div>
+<div align="center"><img src="/support-assets/ext-dc410b88de-ClearSearch.png" alt="Clear Search"></div>
 
 You can also export analyzer results individually by clicking on the gear icon next to the analyzer and selecting "export to text/csv file." This export method doesn't have any issues but will only let you export one analyzer at a time.
 
-<div align="center"><img src="https://trello-attachments.s3.amazonaws.com/55f0a61a10f9f592573a4205/5965299353583cef619d2e15/71e25d7fb6e02459d56feb795b7a2b9e/ExportAnalyzer.png" alt="Export Window"></div>
+<div align="center"><img src="/support-assets/ext-00479d67a7-ExportAnalyzer.png" alt="Export Window"></div>

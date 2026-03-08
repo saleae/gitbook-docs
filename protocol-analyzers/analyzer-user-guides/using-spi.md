@@ -86,19 +86,19 @@ If using the older Logic 1.x software, the following information applies.
 
 First, add the timing marker by clicking the A1 button on the right side of the screen. Then click on the graph at the location where you would like to place it, as shown here:
 
-![](https://trello-attachments.s3.amazonaws.com/5849c1dba38920d68e9733a1/983x224/fbc91d4d609e7172001e7317a9f83bbf/spi_marker.png)
+![](/support-assets/ext-826041c53e-spi_marker.png)
 
 Next, open the SPI analyzer settings menu and select "Re-run starting at timing marker...". From that list, select the timing marker you just placed.
 
 Screenshots:
 
-![](https://trello-attachments.s3.amazonaws.com/5849c1dba38920d68e9733a1/327x308/6f7490b8faa9c50e70505e5acd95797b/spi_menu.png)
+![](/support-assets/ext-bb565d3e22-spi_menu.png)
 
-![](https://trello-attachments.s3.amazonaws.com/5849c1dba38920d68e9733a1/269x203/1c8a98c69e38c2ffa2af6d706d9f43cb/spi_select_marker.png)
+![](/support-assets/ext-8b360333de-spi_select_marker.png)
 
 After a moment, the SPI analyzer will automatically reprocess the capture. The data should now be aligned correctly, as shown here:
 
-![](https://trello-attachments.s3.amazonaws.com/5849c1dba38920d68e9733a1/735x230/76d9f1a07444eced8720f5be5d163c79/spi_finished.png)
+![](/support-assets/ext-1dc379a25a-spi_finished.png)
 
 ### **Other Common Issues**
 

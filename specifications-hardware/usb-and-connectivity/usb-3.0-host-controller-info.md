@@ -22,15 +22,15 @@ On Windows, the latest Saleae software has a feature to automatically retrieve t
 
 First, open the options menu and select Preferences.
 
-![step 1](https://trello-attachments.s3.amazonaws.com/563d3abc67746253014c107d/404x485/fb02ebb5c1352866ab71c72e163dff8a/1.png)
+![step 1](/support-assets/ext-abbb440b96-1.png)
 
 Second, navigate to the USB Host Controllers tab.
 
-![step 2](https://trello-attachments.s3.amazonaws.com/563d3abc67746253014c107d/452x164/ae613075e67baf0ad947137e98a1e9c8/2.png)
+![step 2](/support-assets/ext-5c457eeeda-2.png)
 
 There, you will find a list of all USB host controllers installed in your system. Note: The "Status: Up to date" message is not accurate and is just a placeholder until we add automatic detection in a future software update.
 
-![step 3](https://trello-attachments.s3.amazonaws.com/563d3abc67746253014c107d/453x538/02a7c817c78a31cdab50f31092a55b91/3.png)
+![step 3](/support-assets/ext-068e281102-3.png)
 
 For support finding the latest driver for your host controller, or on the request of support, please take a screenshot of the contents of this tab and send it to [Saleae support](/contact).
 
