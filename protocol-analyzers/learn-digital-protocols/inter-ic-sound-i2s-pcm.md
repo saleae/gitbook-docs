@@ -17,7 +17,7 @@ I2S is a synchronous serial bus used for digital audio. It typically consists of
 
 **What Logic Decodes**
 
-<figure><img src="../../../.gitbook/assets/i2s.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/i2s.png" alt=""><figcaption></figcaption></figure>
 
 * Serial Clock
 * World Select Line (WS)

@@ -20,7 +20,7 @@ On Linux, the software does not properly support display scaling out of the box.
 
 First, check to see what the current display scaling is set to in your display settings. Below is a screenshot of this taken from Ubuntu 14.04.
 
-<figure><img src="../../../.gitbook/assets/Ubuntu_Scaling.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Ubuntu_Scaling.png" alt=""><figcaption></figcaption></figure>
 
 Then, you will need to launch the Logic software from the terminal after setting this environment variable to the same value the display is currently using.
 

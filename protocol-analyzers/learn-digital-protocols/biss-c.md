@@ -17,7 +17,7 @@ The BiSS C protocol is typically used for the collection of sensor data and the 
 
 **What Logic Decodes**
 
-<figure><img src="../../../.gitbook/assets/BiSSC.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/BiSSC.png" alt=""><figcaption></figcaption></figure>
 
 * Clock MA Sync
 * Slave Ack

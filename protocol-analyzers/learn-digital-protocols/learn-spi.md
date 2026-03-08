@@ -14,11 +14,11 @@ Serial (as opposed to parallel) means one bit (1 or 0) is placed on the bus (wir
 
 When we talked about asynchronous serial, recall that the receiver was responsible for figuring out exactly when a bit should be read from the bus. To do this, we used a timer and kept track of how much time had elapsed. At certain time intervals, we would record what was on the bus.
 
-<figure><img src="../../../.gitbook/assets/SyncAsync.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SyncAsync.png" alt=""><figcaption></figcaption></figure>
 
 With synchronous serial, things are more straightforward. We are explicitly told when we should read the data line. To do this, another wire is added (for a total of 2 wires). This other wire, called the clock line, tells us when to read the data line.
 
-<figure><img src="../../../.gitbook/assets/SyncAsync1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SyncAsync1.png" alt=""><figcaption></figcaption></figure>
 
 ### **How the Clock Line Tells Us When to Read the Data Line**
 
@@ -28,7 +28,7 @@ There are several ways in which the clock line could tell us when to read the da
 
 The rising edge (also called positive edge or posedge) is when the state changes from a low to a high (0 to 1). The falling edge (also called negative edge or negedge) is when the state changes from a high to a low (1 to 0).
 
-<figure><img src="../../../.gitbook/assets/RiseFall.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/RiseFall.jpg" alt=""><figcaption></figcaption></figure>
 
 In SPI, data are only ever valid (should be read) on either the rising or falling edge. Which one it is—rising or falling edge—depends on the implementation. For existing parts and systems, you'll have to look it up (typically in a datasheet). In some applications, you may have the flexibility to use either (you'll need to pick one), and then make sure everyone sticks to the standard.
 
@@ -48,15 +48,15 @@ In practice, shift registers are often used in the implementation of SPI.
 
 There are many possible ways in which a synchronous serial could be used with more than two devices. One simple way is that each pair of devices that needs to communicate has dedicated connections. Notice, however, that the number of connections you need grows geometrically. So this isn't a great solution.
 
-<figure><img src="../../../.gitbook/assets/DataClock.jpg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/DataClock.jpg" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/ThreeDevice.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ThreeDevice.png" alt=""><figcaption></figcaption></figure>
 
 ### **Bus**
 
 A bus is a collection of wires shared by many devices.
 
-<figure><img src="../../../.gitbook/assets/FiveDevice.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/FiveDevice.png" alt=""><figcaption></figcaption></figure>
 
 Notice that a bus uses far fewer connections. However, there are some limitations:
 
@@ -71,7 +71,7 @@ While a bus topology like the one shown is very powerful, it requires electrical
 
 SPI uses a bus but makes a few compromises to make things very simple.&#x20;
 
-<figure><img src="../../../.gitbook/assets/SPIWay.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/SPIWay.png" alt=""><figcaption></figcaption></figure>
 
 ### **Only One Master**
 
@@ -115,25 +115,25 @@ SPI leaves a couple things unspecified. For example, should a slave read the MOS
 
 Datasheets specify the previously mentioned details in terms of clock polarity (CPOL) and clock phase (CPHA). An additional complication is that the slave must generate output data on MOSI such that its data will be valid when the master reads it in accordance with its own CLK signal. That is a little backward. Clock polarity (CPOL) is the state of the clock at the moment a slave's enable line becomes active. CPOL=0 means that the clock is low (0) as the slave becomes enabled. CPOL=1 means the clock is high (1) when the slave becomes enabled.
 
-<figure><img src="../../../.gitbook/assets/Polarity.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Polarity.png" alt=""><figcaption></figcaption></figure>
 
 At some point after a slave becomes active, the clock likely will change. If the data on MOSI and MISO should be read on this first edge, the Clock Phase (CPHA) is 0. Alternatively, if data on MOSI and MISO should be read the 2nd time the CLK changes, the Clock Phase (CPHA) is 1.&#x20;
 
 CPOL=0 (the clock starts out low) CPHA=0 (data is valid on the 1st clock edge)
 
-<figure><img src="../../../.gitbook/assets/Pol00.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Pol00.png" alt=""><figcaption></figcaption></figure>
 
 CPOL=0 (the clock starts out low) CPHA=1 (data is valid on the 2nd clock edge) &#x20;
 
-<figure><img src="../../../.gitbook/assets/Pol01.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Pol01.png" alt=""><figcaption></figcaption></figure>
 
 CPOL=1 (the clock starts out high) CPHA=0 (data is valid on the 1st clock edge) &#x20;
 
-<figure><img src="../../../.gitbook/assets/Pol10.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Pol10.png" alt=""><figcaption></figcaption></figure>
 
 CPOL=1 (the clock starts out high) CPHA=1 (data is valid on the 2nd clock edge)&#x20;
 
-<figure><img src="../../../.gitbook/assets/Pol11 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Pol11 (1).png" alt=""><figcaption></figcaption></figure>
 
 **SPI Variations / Settings**
 
@@ -141,9 +141,9 @@ CPOL=1 (the clock starts out high) CPHA=1 (data is valid on the 2nd clock edge)&
 
 The SPI variations you'll typically need to worry the most about is the clock polarity and clock phase discussed above.
 
-<figure><img src="../../../.gitbook/assets/PolPhase.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/PolPhase.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/PolPhase1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/PolPhase1.png" alt=""><figcaption></figcaption></figure>
 
 **Bit Rate**
 
@@ -153,19 +153,19 @@ The bit rate is the fastest speed at which the CLK line will operate. This can v
 
 Data are sent over the SPI most significant bit first. However, you may find yourself using SPI code or an SPI hardware peripheral with synchronous serial that isn't strictly SPI.&#x20;
 
-<figure><img src="../../../.gitbook/assets/BitOrder.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/BitOrder.png" alt=""><figcaption></figcaption></figure>
 
 **Bits per Transfer/Word**
 
 In most applications, data sent over an SPI are byte-oriented. However, there is no fast rule in this area, so technically, any number of bits could comprise a word. SPI synchronizes using the Enable (or SS) line; there is no delimiter to specify when one word ends and the next begins.&#x20;
 
-<figure><img src="../../../.gitbook/assets/BitPerTrans.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/BitPerTrans.png" alt=""><figcaption></figcaption></figure>
 
 **Enable/Slave Select Polarity**
 
 SPI applications typically use logic 0 as the active state for the enable line. For synchronous serial more generally, this could easily be the other way around.
 
-<figure><img src="../../../.gitbook/assets/Enable.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Enable.png" alt=""><figcaption></figcaption></figure>
 
 **Some Good Resources**
 

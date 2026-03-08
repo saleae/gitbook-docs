@@ -12,7 +12,7 @@ Starting October of 2022, Saleae has released a new hardware revision of our Log
 
 If you plan on using the older Logic 1.x software, you can follow the instructions below.
 
-![](<../../../.gitbook/assets/Screen Shot 2020-09-03 at 7.00.12 PM.png>)
+![](<../../.gitbook/assets/Screen Shot 2020-09-03 at 7.00.12 PM.png>)
 
 The older Logic 1.x software can be downloaded below. Version 1.2.29 is the last version of Logic 1.x.
 
@@ -32,7 +32,7 @@ You can try running the standalone version of the software, which does not need 
 
 Simply download, double-click, and drag the Logic software into the Application folder. It is the same as other Mac software you have installed in the past.
 
-<figure><img src="../../../.gitbook/assets/osx_install.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/osx_install.png" alt=""><figcaption></figcaption></figure>
 
 ### **Installing for Linux**
 

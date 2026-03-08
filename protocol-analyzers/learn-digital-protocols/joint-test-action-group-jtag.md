@@ -10,7 +10,7 @@ JTAG (Joint Test Action Group) is often used to program and debug microcontrolle
 
 **What Logic Decodes**
 
-<figure><img src="../../../.gitbook/assets/JTAG.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/JTAG.png" alt=""><figcaption></figcaption></figure>
 
 * TAP state machine states
 * Data from TDI data line

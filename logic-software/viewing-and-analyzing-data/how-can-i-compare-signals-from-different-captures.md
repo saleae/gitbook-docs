@@ -11,7 +11,7 @@ Currently, the best way to compare signals from two or more captures is as follo
   * Place a timing marker pair in each capture, with the approximate distance between the timing markers equal to the amount of data you would like on screen at once (the desired zoom level).
   * Zoom in to the range defined by the timing marker pair by double-clicking on the "Go to pair" arrow button in the Timing Markers panel like shown in the image below. Do this for both instances of the software.
 
-<figure><img src="../../../.gitbook/assets/Screenshot 2023-07-21 at 7.00.19 PM.png" alt=""><figcaption><p>Double click to zoom into the timing marker pair</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot 2023-07-21 at 7.00.19 PM.png" alt=""><figcaption><p>Double click to zoom into the timing marker pair</p></figcaption></figure>
 
 * Once the zoom levels are matched, you can use the up and down keys on the keyboard to zoom in and out while maintaining a constant integer multiple of zoom from the original zoom to make it easier to maintain the same zoom level in each capture.
 

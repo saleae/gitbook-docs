@@ -20,7 +20,7 @@ The Saleae I2S analyzer does not support any Mono formats.
 
 Even when the I2S settings have signed number selected, unsigned numbers may always be shown.
 
-<figure><img src="../../../../.gitbook/assets/unsigned_issue.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/unsigned_issue.png" alt=""><figcaption></figcaption></figure>
 
 This issue is solved by changing the display radix from ascii to decimal. Although a decimal number is shown, the single quotes indicate that the ascii display mode is active, but the number is considered a non-displayable character (in this case, outside of the low ascii range completely) so the text string defaults to unsigned decimal. Changing the display radix to decimal will show the signed number.
 
@@ -32,13 +32,13 @@ This issue is solved by changing the display radix from ascii to decimal. Althou
 
 The analyzer result may also not display the data correctly. An image of the error is provided below.
 
-<figure><img src="../../../../.gitbook/assets/I2S-error.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/I2S-error.png" alt=""><figcaption></figcaption></figure>
 
 In the image above, the data bits are transitioning during the clock falling edge, but the I2S/PCM Analyzer is also set to read on the clock falling edge as shown by the "down" arrows on the clock signal.&#x20;
 
 That means the bits are being decoded at the exact moment the bits are changing, which will cause errors and will be very sensitive to changes in the sample rate. Change the I2S/PCM Analyzer setting for CLOCK State to either Rising edge or Falling edge depending on the correct clock edge that your data requires.
 
-<figure><img src="../../../../.gitbook/assets/Screen Shot 2023-01-30 at 4.55.55 PM.png" alt=""><figcaption><p>CLOCK State Rising Edge and Falling Edge setting</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-01-30 at 4.55.55 PM.png" alt=""><figcaption><p>CLOCK State Rising Edge and Falling Edge setting</p></figcaption></figure>
 
 ### Converting I2S/PCM Captures into WAV Files
 

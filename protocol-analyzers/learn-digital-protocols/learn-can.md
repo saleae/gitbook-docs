@@ -12,17 +12,17 @@ The CAN bus itself is a single long cable with CAN nodes connected very close to
 
 Yes:
 
-<figure><img src="../../../.gitbook/assets/Yes.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Yes.png" alt=""><figcaption></figcaption></figure>
 
 No:
 
-<figure><img src="../../../.gitbook/assets/No.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/No.png" alt=""><figcaption></figcaption></figure>
 
 ### **Electrical**
 
 The cable consists of a single differential pair, typically twisted, with a characteristic impedance of 120 ohms. The far ends of the cable are terminated with 120-ohm resistors.
 
-<figure><img src="../../../.gitbook/assets/Electrical (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Electrical (1).png" alt=""><figcaption></figcaption></figure>
 
 Typically, a ground wire is also provided. To prevent ground loops and reference voltage differences, it should be the only ground reference used. Some CAN transceivers are isolated to get around this limitation. Power is also commonly provided. A connector is not part of the physical layer specification, but the DB9 connector is common.
 
@@ -38,7 +38,7 @@ In the recessive state, no node (CAN device) drives the bus. Since both ends of 
 
 In the dominant state, one end of the differential pair, called CANL, is pulled low, while the other end, CANH, is pulled high (generally 5V or 3.3V). Naturally, that overrides the recessive state, and thus the name.
 
-<figure><img src="../../../.gitbook/assets/Dominant.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Dominant.png" alt=""><figcaption></figcaption></figure>
 
 ### **Similarity to Single-Ended, Pulled-Up Bus**
 
@@ -60,9 +60,9 @@ The dominant state on the CAN bus is there where there is voltage (5 or 3.3V) ac
 
 Notice that once you are on the microcontroller side, the IO voltages do match the logical states (positive logic). In other words, on the microcontroller side, 0V is logic 0, and 5/3.3V is logic 1. It looks very similar to the CMOS-level serial since the idle state is 1.
 
-<figure><img src="../../../.gitbook/assets/States1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/States1.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../../.gitbook/assets/States2.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/States2.png" alt=""><figcaption></figcaption></figure>
 
 ### **Bits on the Bus**
 
@@ -86,15 +86,15 @@ If 5 zeros are sent in a row, CAN requires that a 1 be sent next. That extra bit
 
 If 5 ones are sent in a row, CAN requires that a 0 be sent next. That extra bit will be thrown away by the receiver.
 
-<figure><img src="../../../.gitbook/assets/BitStuffing.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/BitStuffing.png" alt=""><figcaption></figcaption></figure>
 
 Remember that even if the next bit in the data would cause the needed transition, the receiver won't know that. You must insert the extra bit.
 
-<figure><img src="../../../.gitbook/assets/BitStuffing1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/BitStuffing1.png" alt=""><figcaption></figcaption></figure>
 
 There is one gotcha worth mentioning. 0 0 0 0 0 will be followed by a stuffed 1. Let's say another 4 1s then follow. Does that count as 5 ones or 4? It counts as 5—so yes, we would then stuff a 0. Remember that the point is to limit the time you can go without seeing a transition.
 
-<figure><img src="../../../.gitbook/assets/Bitstuffing3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Bitstuffing3.png" alt=""><figcaption></figcaption></figure>
 
 If a receiver received 6 consecutive bits in a row, that is considered an error, and it throws away any subsequent data.
 
@@ -118,7 +118,7 @@ A single bit, the RTR (remote transmission request) bit determines if a frame is
 
 **Standard (11-Bit ID) Frames**
 
-<figure><img src="../../../.gitbook/assets/StandardFrames.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/StandardFrames.png" alt=""><figcaption></figcaption></figure>
 
 **SOF Bit**
 
@@ -166,7 +166,7 @@ The END of frame is simply a sequence of 7 recessive bits. This provides padding
 
 **Extended (29-Bit ID) Frames**
 
-<figure><img src="../../../.gitbook/assets/ExtendedFrames.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/ExtendedFrames.png" alt=""><figcaption></figcaption></figure>
 
 **SOF Bit**
 

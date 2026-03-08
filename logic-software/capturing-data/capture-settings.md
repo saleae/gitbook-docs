@@ -2,7 +2,7 @@
 
 The Device Settings Panel can be opened up by clicking on the Device Settings icon located on the software's side panel on the right.
 
-![Device Settings Button](<../../../.gitbook/assets/Screen Shot 2021-12-07 at 1.51.02 PM.png>)
+![Device Settings Button](<../../.gitbook/assets/Screen Shot 2021-12-07 at 1.51.02 PM.png>)
 
 From this panel, several settings can be configured, such as:
 
@@ -40,7 +40,7 @@ When both digital and analog channels are enabled, changing the sampling rate fo
 
 In the example image below, selecting Digital 125 MS/s will **increase** (<mark style="color:green;">**↑**</mark>) the Analog sampling rate to 6.25 MS/s from its current setting. In addition, selecting Digital 6.25 MS/s will **decrease** (<mark style="color:red;">**↓**</mark>) the Analog sampling rate to 1.5625 MS/s from its current setting.
 
-![Digital Sampling Rate Selections may Change the Analog Sampling Rate](<../../../.gitbook/assets/Screen Shot 2022-04-25 at 7.12.41 PM.png>)
+![Digital Sampling Rate Selections may Change the Analog Sampling Rate](<../../.gitbook/assets/Screen Shot 2022-04-25 at 7.12.41 PM.png>)
 
 ### Digital Voltage Setting
 

@@ -138,7 +138,7 @@ Although we don't have the ability to attach debuggers to Python extensions at t
 
 * Use the reload source button in the app to quickly re-run your HLA after editing your source code.
 
-!["Reload Extension" button](<../../../../../.gitbook/assets/Screen Shot 2021-07-28 at 5.40.27 PM.png>)
+!["Reload Extension" button](<../../.gitbook/assets/Screen Shot 2021-07-28 at 5.40.27 PM.png>)
 
 ## Example - Writing an HLA to search for a value
 
@@ -148,7 +148,7 @@ Now that we've gone over the different parts of an HLA, we will be updating our 
 
 In the Extensions Quickstart you should have downloaded and opened a capture of i2c data. For this quickstart we will be using a capture of Async Serial data that repeats the message "Hello Saleae".
 
-{% file src="../../../../../.gitbook/assets/hla-quickstart (1).zip" %}
+{% file src="../../.gitbook/assets/hla-quickstart (1).zip" %}
 Async Serial Example Data
 {% endfile %}
 
@@ -178,7 +178,7 @@ class MyHla(HighLevelAnalyzer):
 
 If you open the example data from above and add this analyzer, selecting the Async Serial analyzer as input, you should see the following when zooming in:
 
-![](<../../../../../.gitbook/assets/hla-quickstart (1).png>)
+![](<../../.gitbook/assets/hla-quickstart (1).png>)
 
 Our HLA (top) is outputting a frame for every frame from the input analyzer (bottom), and displaying their types.
 
@@ -218,11 +218,11 @@ Now that we we understand the input data, let's update our HLA to search for the
 
 After applying the changes, you can open the menu for your HLA and select `Reload Source Files` to reload your HLA:
 
-![](../../../../../.gitbook/assets/hla-quickstart-reload.png)
+![](../../.gitbook/assets/hla-quickstart-reload.png)
 
 You should now only see HLA frames where the Async Serial frame is an `H` or `l`:
 
-![](../../../../../.gitbook/assets/hla-quickstart-search.png)
+![](../../.gitbook/assets/hla-quickstart-search.png)
 
 ### Replace the hardcoded search with a setting
 
@@ -247,11 +247,11 @@ if ch in self.search_for:
 
 Now if you can specify the characters to search for in your HLA settings:
 
-![Click Edit to show the settings](../../../../../.gitbook/assets/hla-quickstart-edit.png)
+![Click Edit to show the settings](../../.gitbook/assets/hla-quickstart-edit.png)
 
-![Set the "Search For" setting](../../../../../.gitbook/assets/hla-quickstart-settings.png)
+![Set the "Search For" setting](../../.gitbook/assets/hla-quickstart-settings.png)
 
-![Now only the values 'S' and 'H' have frames](../../../../../.gitbook/assets/hla-quickstart-searching-for-settings.png)
+![Now only the values 'S' and 'H' have frames](../../.gitbook/assets/hla-quickstart-searching-for-settings.png)
 
 #### Updating the display string
 
@@ -277,7 +277,7 @@ if ch in self.search_for:
 
 After reloading your HLA you should see the new display strings:
 
-![That's a lot more descriptive!](../../../../../.gitbook/assets/hla-quickstart-display-string.png)
+![That's a lot more descriptive!](../../.gitbook/assets/hla-quickstart-display-string.png)
 
 #### Using time
 
@@ -334,7 +334,7 @@ And lastly, add an entry in `result_types` for our new `AnalyzerFrame` type `'no
 
 The final output after reloading:
 
-![](../../../../../.gitbook/assets/hla-quickstart-nomatch.png)
+![](../../.gitbook/assets/hla-quickstart-nomatch.png)
 
 ## What's Next?
 

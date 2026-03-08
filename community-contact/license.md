@@ -2,7 +2,7 @@
 
 Our Saleae Software & SDK License Agreement can be downloaded below.
 
-{% file src="../../.gitbook/assets/Saleae Software License Agreement.txt" %}
+{% file src="../.gitbook/assets/Saleae Software License Agreement.txt" %}
 Saleae software and analyzer SDK license file
 {% endfile %}
 

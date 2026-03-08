@@ -15,13 +15,13 @@ To move the logic analyzer to its own host controller, with no other devices on 
 3. Locate your Logic device under the section "Universal Serial Bus Controllers" in Device Manager
 4.  Select your Logic device, so it is highlighted<br>
 
-    <figure><img src="../../../.gitbook/assets/select-logic-device.png" alt=""><figcaption><p>Select your Logic device</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/select-logic-device.png" alt=""><figcaption><p>Select your Logic device</p></figcaption></figure>
 5.  From the view menu, select "View devices by connection (Note, your Logic device needs to be selected when you do this, otherwise it will be lost in the tree view)<br>
 
-    <figure><img src="../../../.gitbook/assets/view-by-connection.png" alt=""><figcaption><p>View Devices by connection</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/view-by-connection.png" alt=""><figcaption><p>View Devices by connection</p></figcaption></figure>
 6.  The view will transform, but your Logic device should be still selected. Now trace the tree view up to locate the USB eXtensible host controller that is associated with it.<br>
 
-    <figure><img src="../../../.gitbook/assets/locate-usb-extensible.png" alt=""><figcaption><p>Locate the USB eXtensible Host Controller Associated with your Logic</p></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/locate-usb-extensible.png" alt=""><figcaption><p>Locate the USB eXtensible Host Controller Associated with your Logic</p></figcaption></figure>
 7. Note which host controller it is (USB 3.1 or USB 3.2)
 8. From the view menu, change back to "Devices by type"
 9. Move the your Logic device to a new USB port

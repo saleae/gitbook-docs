@@ -6,7 +6,7 @@
 
 The analyzer data table shows all decoded protocol data in a table format. In general, the search functionality allows you to search for content in any column, except for the 'Start' and 'Duration' columns.
 
-![The Analyzer Data Table Displaying I2C data](<../../../.gitbook/assets/Screen Shot 2021-07-14 at 5.33.57 PM.png>)
+![The Analyzer Data Table Displaying I2C data](<../../.gitbook/assets/Screen Shot 2021-07-14 at 5.33.57 PM.png>)
 
 To learn more about the different columns that are used for Saleae's built-in analyzers, please refer to the support article below.
 
@@ -18,7 +18,7 @@ To learn more about the different columns that are used for Saleae's built-in an
 
 By clicking the 3 dots to the right of the search bar, a few options become available.
 
-![Data Table options via 3 dots](<../../../.gitbook/assets/Screen Shot 2021-07-14 at 5.36.33 PM.png>)
+![Data Table options via 3 dots](<../../.gitbook/assets/Screen Shot 2021-07-14 at 5.36.33 PM.png>)
 
 * Analyzers can be added or removed to exclude certain analyzers from search results and from appearing in the Data Table.&#x20;
 * The ability to exclude columns from search become available (while keeping them visible in the Data Table). This is useful for excluding columns that may otherwise pollute your search results, such as the 'Type' column, or boolean columns like 'ack' or 'read'.
@@ -27,7 +27,7 @@ By clicking the 3 dots to the right of the search bar, a few options become avai
 
 The ability to hide columns altogether is available by right clicking the column label in the Data Table.
 
-!["Show/Hide Columns" Window via Right Clicking the Data Table Header](<../../../.gitbook/assets/Screen Shot 2021-07-14 at 5.47.26 PM.png>)
+!["Show/Hide Columns" Window via Right Clicking the Data Table Header](<../../.gitbook/assets/Screen Shot 2021-07-14 at 5.47.26 PM.png>)
 
 This also excludes them from the search results and is useful when there are too many columns to comfortably display.&#x20;
 
@@ -35,13 +35,13 @@ This also excludes them from the search results and is useful when there are too
 
 You can jump to a specific decoded bubble above the waveform from the data table by hovering your mouse over the data table row of interest. An "arrow" icon will appear to the right of the data table row while hovering over it. Click on the "arrow" icon to have the waveform view jump to the appropriate waveform bubble of interest.
 
-<figure><img src="../../../.gitbook/assets/Screen Shot 2023-01-26 at 3.18.47 PM.png" alt=""><figcaption><p>Jumping to a Waveform Bubble from the Data Table</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-01-26 at 3.18.47 PM.png" alt=""><figcaption><p>Jumping to a Waveform Bubble from the Data Table</p></figcaption></figure>
 
 ### Jumping to a Data Table Row from the Waveform
 
 You can jump to a specific row in the data table by hovering your mouse over a decoded bubble above the waveform as shown in the image below. A keyboard shortcut (OS-specific) will appear to allow you to perform this action.
 
-![Jumping to a Row in the Data Table](<../../../.gitbook/assets/Screen Shot 2021-04-07 at 3.40.30 PM.png>)
+![Jumping to a Row in the Data Table](<../../.gitbook/assets/Screen Shot 2021-04-07 at 3.40.30 PM.png>)
 
 ### Display Radix Information
 
@@ -123,7 +123,7 @@ When using low level analyzers (LLAs) such as our Async Serial or SPI analyzer, 
 
 A terminal view is available by clicking the "Terminal" button at the top-right of the data table. This allows you to view your data in a terminal-like display format.
 
-![Terminal View showing I2C data](<../../../.gitbook/assets/Screen Shot 2021-07-14 at 5.53.44 PM.png>)
+![Terminal View showing I2C data](<../../.gitbook/assets/Screen Shot 2021-07-14 at 5.53.44 PM.png>)
 
 ### Limitations of Terminal View
 
@@ -131,7 +131,7 @@ A terminal view is available by clicking the "Terminal" button at the top-right 
 
 Currently, our terminal view does not output results in time order if more than one analyzer is outputting data to the terminal. Instead, our terminal view will group the output results by analyzer. We've received requests for adding support for ensuring time order when using multple analyzers. Please feel free to share your feedback on this in the feature request post here: [Feature Request - Terminal Messages to be Timeline Ordered](https://ideas.saleae.com/b/feature-requests/terminal-messages-to-be-timeline-synced/)
 
-![Toolip for this behavior from within the app](<../../../.gitbook/assets/Screen Shot 2022-04-08 at 6.12.38 PM.png>)
+![Toolip for this behavior from within the app](<../../.gitbook/assets/Screen Shot 2022-04-08 at 6.12.38 PM.png>)
 
 #### Scroll-back Limit
 
@@ -144,15 +144,15 @@ Our in-app terminal view has a scroll-back limit of 10,000 rows. Once the 10,000
 
 * **Async Serial & Manchester** - will always attempt to display in ASCII format. If the ASCII opcode doesn't exist, then it will be displayed in hex, separated by backslashes (\\) as shown below. Notice that the first set of opcodes (0 to 0x1F) do not exist and are therefore displayed as hex. As the opcode increments and become valid, ASCII characters are displayed.
 
-![Async Serial Terminal View Example](<../../../.gitbook/assets/Screen Shot 2021-09-10 at 5.21.15 PM.png>)
+![Async Serial Terminal View Example](<../../.gitbook/assets/Screen Shot 2021-09-10 at 5.21.15 PM.png>)
 
 * **I2C** - will display addresses and data, as well as read/write status, as shown below.
 
-![I2C Terminal View Example](<../../../.gitbook/assets/Screen Shot 2021-09-10 at 5.20.12 PM.png>)
+![I2C Terminal View Example](<../../.gitbook/assets/Screen Shot 2021-09-10 at 5.20.12 PM.png>)
 
 * **SPI** - will display in hex in the format `MOSI / MISO` .
 
-![SPI Terminal View Example](<../../../.gitbook/assets/Screen Shot 2021-09-10 at 5.23.44 PM.png>)
+![SPI Terminal View Example](<../../.gitbook/assets/Screen Shot 2021-09-10 at 5.23.44 PM.png>)
 
 * **For all other analyzers** - content will be displayed as shown in the data table.
 
@@ -174,7 +174,7 @@ Our intention was for the terminal to respond appropriately to '\r' (CR, carriag
 
 To work around this in the meantime, we have released an extension via our Extensions Marketplace called "Carriage Return to Line Feed Converter."
 
-<figure><img src="../../../.gitbook/assets/Screen Shot 2023-01-17 at 6.10.56 PM.png" alt=""><figcaption><p>Carriage Return to Line Feed Converter Extension</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screen Shot 2023-01-17 at 6.10.56 PM.png" alt=""><figcaption><p>Carriage Return to Line Feed Converter Extension</p></figcaption></figure>
 
 
 

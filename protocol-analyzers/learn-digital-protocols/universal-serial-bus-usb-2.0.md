@@ -16,7 +16,7 @@ USB 1.1/2.0 uses a single differential serial bus to communicate between a compu
 
 **What Logic Decodes**
 
-<figure><img src="../../../.gitbook/assets/USB1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/USB1.png" alt=""><figcaption></figcaption></figure>
 
 * Sync
 * Setup

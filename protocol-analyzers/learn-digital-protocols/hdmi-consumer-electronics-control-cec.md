@@ -16,7 +16,7 @@ CEC (Consumer Electronics Control) is a one-wire serial bus connected via HDMI a
 
 **What Logic Decodes**
 
-<figure><img src="../../../.gitbook/assets/HDMI.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/HDMI.png" alt=""><figcaption></figcaption></figure>
 
 * Start Sequence
 * 10-bit Header Blocks

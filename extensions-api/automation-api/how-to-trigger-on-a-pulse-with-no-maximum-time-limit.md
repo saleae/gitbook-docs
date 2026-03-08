@@ -16,7 +16,7 @@ Specifically, the maximum pulse length time can be set to "n/a", and in that mod
 
 The trigger will immediately fire at that point. It will not wait for the pulse to end with another edge if the maximum pulse width time is set to "n/a".
 
-<figure><img src="../../../.gitbook/assets/trigger_na.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/trigger_na.png" alt=""><figcaption></figcaption></figure>
 
 This can be particularly useful to trigger when a process stops. Previously, the pulse width trigger required an ending edge to trigger, even if there was no maximum pulse width time. However, to support this, the trigger was modified, and the "n/a" option was added.
 

@@ -17,6 +17,6 @@ Based on our tests, we have discovered the following limitations when using Sale
 
 These resulting limitations were gathered using the following test setup.
 
-![Test Setup with DS-600 Ethernet-USB Hub](../../../.gitbook/assets/ethernet-usb.png)
+![Test Setup with DS-600 Ethernet-USB Hub](../../.gitbook/assets/ethernet-usb.png)
 
 We've received feedback to create an ethernet-based logic analyzer. We are considering this for future generations of the hardware, so feel free to vote/comment your requirements on our ideas page [here](https://ideas.saleae.com/b/feature-requests/ethernet-based-logic-analyzer/)!

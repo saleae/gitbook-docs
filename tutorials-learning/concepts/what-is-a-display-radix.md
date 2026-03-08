@@ -10,7 +10,7 @@ Below is an example of the same data represented in different radices in Logic s
 
 Binary is a numeric representation using only 0s and 1s (also can be called _lows_ and _highs_). Binary is the means by which digital electronics communicate to each other. In the image below, the white dots represent the 1s and 0s, and you will notice a _Least Significant Bit Sent First_ ordering, meaning the digits are read backwards from left to right. This is typically the most common way serial data is transmitted across a data line.
 
-![Data in binary](../../.gitbook/assets/2018-10-09\_1141.png)
+![Data in binary](../../.gitbook/assets/2018-10-09_1141.png)
 
 #### Hexadecimal (hex, base 16)
 
@@ -18,13 +18,13 @@ The same data can be represented in hexadecimal format. At first, it may look un
 
 To convert binary to hexadecimal, you simply clump the binary digits into groups of 4 (notice how we already clump the binary data into groups of 4 in the Logic software above). Each group of 4 binary digits can be converted into a single hexadecimal digit. Take a look at the Radix Conversion Table below this article to see the conversions.
 
-![Data in hexadecimal](../../.gitbook/assets/2018-10-09\_1142.png)
+![Data in hexadecimal](../../.gitbook/assets/2018-10-09_1142.png)
 
 #### Decimal (dec, base 10)
 
 Decimal is the way we've always learned to count. Notice how conversion from binary to decimal is not as easy as converting from binary to hexadecimal. This is the reason why engineers typically prefer to communicate in hexadecimal when referring to digital electronics.
 
-![Data in decimal](../../.gitbook/assets/2018-10-09\_1143.png)
+![Data in decimal](../../.gitbook/assets/2018-10-09_1143.png)
 
 #### ASCII
 
@@ -34,7 +34,7 @@ In engineering terms, ASCII (American Standard Code for Information Interchange)
 
 Every added protocol analyzer can be configured with a different display radix as shown below.
 
-![](../../.gitbook/assets/2018-10-09\_1148.png)
+![](../../.gitbook/assets/2018-10-09_1148.png)
 
 If you prefer to set a _Global_ radix that all protocol analyzers will adhere to, then you can change it under _Options_ > _Display Radix_.
 
@@ -42,7 +42,7 @@ If you prefer to set a _Global_ radix that all protocol analyzers will adhere to
 
 Radix values can be searched one word at a time under the Decoded Protocols window on the bottom-right of the software. Only one word can be searched for at a time. We are aware that there is a massive need in searching for multiple words at a time, but unfortunately, this is not yet implemented. [Please vote for that idea here!](https://ideas.saleae.com/ideas/SALEAE-I-406)
 
-![Searching for a radix value](../../.gitbook/assets/2018-10-09\_1211.png)
+![Searching for a radix value](../../.gitbook/assets/2018-10-09_1211.png)
 
 ### Radix Conversion Table
 

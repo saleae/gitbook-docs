@@ -8,7 +8,7 @@ None of the Saleae devices electrically isolate the ground of the device under t
 The ALLDAQ USB 3.0 SuperSpeed Isolator pictured below is no longer available for purchase on our website. We've left it's specifications here for reference. At the moment, this can be purchased [directly from ALLDAQ](https://www.alldaq.com/).
 {% endhint %}
 
-![](../../../.gitbook/assets/SAL-00140_8.jpeg)
+![](../../.gitbook/assets/SAL-00140_8.jpeg)
 
 * 1 kV continuous isolation (data and power)
 * SuperSpeed ​​USB 3.0 - 5 Gbps

@@ -14,9 +14,9 @@ Our tutorial video below demonstrates the basics of decoding data using protocol
 
 When zooming out, we've implemented a feature that merges seperate protocol bubble results into a single protocol bubble. The decoded data in the newly merged bubble will be displayed in sequential order. A number will also appear on the left side of the bubble. This number indicates how many protocol bubbles were merged together.
 
-![Protocol Bubbles Separated - Zoomed In](<../../../.gitbook/assets/Screen Shot 2021-10-26 at 3.50.43 PM.png>)
+![Protocol Bubbles Separated - Zoomed In](<../../.gitbook/assets/Screen Shot 2021-10-26 at 3.50.43 PM.png>)
 
-![Protocol Bubbles Merged - Zoomed out](<../../../.gitbook/assets/Screen Shot 2021-10-26 at 3.46.55 PM.png>)
+![Protocol Bubbles Merged - Zoomed out](<../../.gitbook/assets/Screen Shot 2021-10-26 at 3.46.55 PM.png>)
 
 ### Troubleshooting Analyzer Issues
 
@@ -24,7 +24,7 @@ When zooming out, we've implemented a feature that merges seperate protocol bubb
 
 In case an analyzer is producing incorrect results, or in case an analyzer has gotten stuck processing data, one solution might be to restart the analyzer. This will have the same effect as deleting and re-adding the analyzer, and may allow the analyzer to get unstuck from a bad state. To restart the analyzer, click on the three dots next to the analyzer and select "Restart." [Contact us](https://contact.saleae.com/hc/en-us/requests/new) if this occurs as this may be a bug in the analyzer.
 
-![](../../../.gitbook/assets/Analyzer_restart.png)
+![](../../.gitbook/assets/Analyzer_restart.png)
 
 #### 2. Filtering Glitches from your Capture Data
 
