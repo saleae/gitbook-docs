@@ -1,9 +1,6 @@
 <div class="callout callout-info">
-<p>Update: A customer was able to customize the XMonad configuration to fix this. The solution was to add the appropriate rule to the window hooks as per below:
-
-``<code>
-className =? "Logic" --> doIgnore
-</code>``</p>
+<p>Update: A customer was able to customize the XMonad configuration to fix this. The solution was to add the appropriate rule to the window hooks as per below:</p>
+<pre data-language="plaintext"><code>className =? "Logic" --> doIgnore</code></pre>
 </div>
 
 ### Issue summary in the past:

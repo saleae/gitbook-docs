@@ -21,10 +21,11 @@ Instructions for installation and solutions for commonly found errors can be fou
 If you need a standalone version of the Logic 2 app, please [contact support](/contact) and we may be able to quickly build a copy if time permits. 
 
 <div class="callout callout-info">
-<p>Please be aware of the following requirements for the Windows standalone release:
-
-* The <a href="https://www.microsoft.com/en-us/download/details.aspx?id=48145">Microsoft Visual Studio runtime</a> needs to be installed before the software will run.
-* If drivers are not already installed from a previous installation of the Logic software, you will need to install the drivers manually. You can find instructions for installing our drivers in the link below.</p>
+<p>Please be aware of the following requirements for the Windows standalone release:</p>
+<ul>
+<li>The <a href="https://www.microsoft.com/en-us/download/details.aspx?id=48145">Microsoft Visual Studio runtime</a> needs to be installed before the software will run.</li>
+<li>If drivers are not already installed from a previous installation of the Logic software, you will need to install the drivers manually. You can find instructions for installing our drivers in the link below.</li>
+</ul>
 </div>
 
 <a class="content-ref" href="/support/logic-software/download-and-installation/driver-install">Driver Install</a>

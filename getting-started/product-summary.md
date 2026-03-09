@@ -14,7 +14,7 @@ Saleae Logic Analyzers consist of the products listed in this section. The produ
 
 **Datasheets & Specifications:**
 
-<a class="content-ref" href="/support/specifications-hardware/datasheets-and-compliance/datasheets">Datasheets</a>
+<a class="content-ref" href="/support/product/datasheets-and-specifications">Datasheets & Specifications</a>
 
 **What’s In the Box?**
 

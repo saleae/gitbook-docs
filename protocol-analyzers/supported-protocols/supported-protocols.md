@@ -36,7 +36,7 @@ We’ve worked closely with the team at Binho LLC to develop a 3rd party I3C Pro
 
 We provide user guides for a handful of our protocol analyzers, which we have listed in the link below.
 
-<a class="content-ref" href="/support/protocol-analyzers/analyzer-user-guides/using-spi">SPI Analyzer - User Guide</a>
+<a class="content-ref" href="/support/product/user-guide/protocol-analyzers/analyzer-user-guides">Analyzer User Guides</a>
 
 ### **More Protocol Analyzers**
 

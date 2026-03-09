@@ -7,9 +7,8 @@
 ### **RS-232, RS-485, and RS-422**
 
 <div class="callout callout-info">
-<p>Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16 can be used to read and decode RS-232, RS-485, and RS-422 data up to +/- 25V.
-
-Our older Gen1 products (Original Logic and Logic16) have a 0V to 5V absolute maximum range. Therefore, neither product can be used to measure signals outside of this range. That limits its usage for directly recording RS-232, RS-485, and RS-422, which exceed this range in many cases.</p>
+<p>Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16 can be used to read and decode RS-232, RS-485, and RS-422 data up to +/- 25V.</p>
+<p>Our older Gen1 products (Original Logic and Logic16) have a 0V to 5V absolute maximum range. Therefore, neither product can be used to measure signals outside of this range. That limits its usage for directly recording RS-232, RS-485, and RS-422, which exceed this range in many cases.</p>
 </div>
 
 * All four of the new Saleae devices include over-voltage protection to +/- 25 volts. It’s perfectly safe to connect any signal up to this range directly to its inputs.

@@ -2,7 +2,7 @@ DMX512 (Digital MultipleX) is a protocol used to control lighting and special ef
 
 **Top Resources**
 
-* [Wikipedia](http://en.wikipedia.org/wiki/DMX512)
+* [Wikipedia](https://en.wikipedia.org/wiki/DMX512)
 * [DMX512 Fundamentals (Lutron)](http://www.lutron.com/en-US/Education-Training/Documents/DMX%20webinar_7-29-2010.pdf)
 * [DMX 101 Handbook (PDF)](http://www.elationlighting.com/dmx-101-hand-book)
 

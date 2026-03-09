@@ -1,7 +1,6 @@
 <div class="callout callout-info">
-<p>In most cases, for a smoother and faster ordering experience, we recommend ordering online through our website at <a href="https://www.saleae.com">www.saleae.com</a> with a credit/purchasing card, or PayPal. Domestic US online orders completed by 12pm PST on business days ship same day. 
-
-If you are unable to pay in advance or by credit card/PayPal, we also have distributors world-wide that might be able to accommodate credit payment terms. We’ve provided a link to our list of distributors below.</p>
+<p>In most cases, for a smoother and faster ordering experience, we recommend ordering online through our website at <a href="https://www.saleae.com">www.saleae.com</a> with a credit/purchasing card, or PayPal. Domestic US online orders completed by 12pm PST on business days ship same day.</p>
+<p>If you are unable to pay in advance or by credit card/PayPal, we also have distributors world-wide that might be able to accommodate credit payment terms. We’ve provided a link to our list of distributors below.</p>
 </div>
 
 <a class="content-ref" href="/support/ordering-returns/distributors">Distributors</a>

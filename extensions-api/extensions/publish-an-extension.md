@@ -24,9 +24,8 @@ You can take a look at an [example GitHub repository](https://github.com/timreye
 <div align="left"><img src="/support-assets/Screen%20Shot%202020-06-11%20at%208.52.44%20PM.png" alt=""></div>
 
 <div class="callout callout-info">
-<p>If clicking the Publish button doesn’t open your browser, you can manually reach our Extensions Marketplace Publish site via the link below:
-
-<a href="https://marketplace.saleae.com/publish">https://marketplace.saleae.com/publish</a></p>
+<p>If clicking the Publish button doesn’t open your browser, you can manually reach our Extensions Marketplace Publish site via the link below:</p>
+<p><a href="https://marketplace.saleae.com/publish">https://marketplace.saleae.com/publish</a></p>
 </div>
 
 3\. Afterwards, you’ll be taken to a new page to authorize Saleae Marketplace to access your GitHub account. 

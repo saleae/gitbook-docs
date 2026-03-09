@@ -98,7 +98,7 @@ Before writing your own HLA, you can test your C++ Analyzer using the "LLA Frame
 
 Check out our HLA data format documentation:
 
-<a class="content-ref" href="/support/extensions-api/hla-frame-format-reference/serial-analyzer">Async Serial - Frame Format</a>
+<a class="content-ref" href="/support/extensions-api/hla-frame-format-reference/analyzer-frame-types">HLA - Analyzer Frame Format</a>
 
 Learn more about building HLAs here:
 

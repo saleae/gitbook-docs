@@ -2,7 +2,7 @@ As the name implies, 1-Wire has only one wire. The wire provides both power and 
 
 **Top Resources**
 
-* [Wikipedia Article](http://en.wikipedia.org/wiki/1-Wire)
+* [Wikipedia Article](https://en.wikipedia.org/wiki/1-Wire)
 * [Maxim 1-Wire Tutorial Video](http://www.maximintegrated.com/products/1-wire/flash/overview/)
 * [Arduino Tutorial](http://playground.arduino.cc/Learning/OneWire)
 * [Atmel 1-Wire Tutorial](http://www.atmel.com/images/doc2579.pdf)

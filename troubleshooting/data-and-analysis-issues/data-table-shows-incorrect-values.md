@@ -39,9 +39,8 @@ We apologize for the inconvenience this causes in the meantime.
 ## Logic 1.x
 
 <div class="callout callout-info">
-<p>Unfortunately, the Decoded Protocols Panel, in addition to Protocol Search, is no longer available in the Legacy 1.x software due to technical issues. When attempting to enable it in v1.2.40, you will find our note below. Please upgrade to our newer <a href="https://www.saleae.com/downloads/">Logic 2 software</a> if you need this functionality.
-
-<img src="/support-assets/Screen%20Shot%202022-08-03%20at%204.47.39%20PM%20(1).png" alt="" data-size="original"></p>
+<p>Unfortunately, the Decoded Protocols Panel, in addition to Protocol Search, is no longer available in the Legacy 1.x software due to technical issues. When attempting to enable it in v1.2.40, you will find our note below. Please upgrade to our newer <a href="https://www.saleae.com/downloads/">Logic 2 software</a> if you need this functionality.</p>
+<img src="/support-assets/Screen%20Shot%202022-08-03%20at%204.47.39%20PM%20(1).png" alt="" data-size="original">
 </div>
 
 If you are using the older Logic 1.x software, the following troubleshooting guide applies.

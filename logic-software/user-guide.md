@@ -9,7 +9,7 @@
 
 <a href="/support/specifications-hardware/electrical-characteristics/device-calibration" class="content-ref">Device Calibration</a>
 
-<a href="/support/product/user-guide/using-logic" class="content-ref">using logic</a>
+<a href="/support/product/user-guide/using-logic" class="content-ref">Using Logic</a>
 
 
 

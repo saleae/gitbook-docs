@@ -17,11 +17,11 @@ Suggestions for electrical isolation can be found in the link below:
 | Logic 4, Logic 8, Logic Pro 8, & Logic Pro 16 | −25V to +25V    |
 
 <div class="callout callout-warning">
-<em><strong>Caution:</strong></em> Connecting one of the input channels to voltages outside this range, even for a very short time, can result in damage to the device.
+<p><em><strong>Caution:</strong></em> Connecting one of the input channels to voltages outside this range, even for a very short time, can result in damage to the device.</p>
 </div>
 
 <div class="callout callout-warning">
-<em><strong>Safety Tip:</strong></em> If you’re working with high voltages near the absolute maximum limit, first ensure that the wire harnesses are securely attached to your DUT and you’ve done some basic testing to make sure the clips won’t pop off your connections. Afterwards, you can connect the wire harnesses to the logic analyzer.
+<p><em><strong>Safety Tip:</strong></em> If you’re working with high voltages near the absolute maximum limit, first ensure that the wire harnesses are securely attached to your DUT and you’ve done some basic testing to make sure the clips won’t pop off your connections. Afterwards, you can connect the wire harnesses to the logic analyzer.</p>
 </div>
 
 ### **Ground Current Safety**
@@ -53,7 +53,7 @@ Since the channels in each Saleae logic analyzer are not electrically isolated f
 ### **Identifying if a Ground Loop is Present**
 
 <div class="callout callout-warning">
-<em><strong>Caution:</strong></em> If a ground loop is present, extra care should be taken, as highlighted below, before connecting the logic analyzer ground to the DUT ground.
+<p><em><strong>Caution:</strong></em> If a ground loop is present, extra care should be taken, as highlighted below, before connecting the logic analyzer ground to the DUT ground.</p>
 </div>
 
 To identify a potential ground loop between the Logic device and the DUT, you could check the resistance between the DUT ground and the Saleae Logic ground. While the Saleae Logic is connected to the PC, if the resistance reads infinite on a multi-meter, then the grounds are isolated. Otherwise, they are connected, and a ground loop exists.
@@ -74,7 +74,7 @@ If you are not sure there is a ground loop or would like to perform another test
 ### **Identifying if the DUT is Isolated from the PC**
 
 <div class="callout callout-warning">
-<em><strong>Caution:</strong></em> When working in an electrically isolated state, keep in mind that floating grounds can be dangerous to the operator. When operating with equipment with a floating ground, please review and follow appropriate safety measures.
+<p><em><strong>Caution:</strong></em> When working in an electrically isolated state, keep in mind that floating grounds can be dangerous to the operator. When operating with equipment with a floating ground, please review and follow appropriate safety measures.</p>
 </div>
 
 The DUT’s local ground is isolated from the host PC when one of the following is true:

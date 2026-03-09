@@ -179,7 +179,7 @@ Not surprisingly, there is some disagreement as to how the address and direction
 
 **Reference**
 
-| [Wikipedia](http://en.wikipedia.org/wiki/I%C2%B2C) | [I2C Specification 2.1](http://www.nxp.com/documents/user_manual/UM10204.pdf) |
+| [Wikipedia](https://en.wikipedia.org/wiki/I%C2%B2C) | [I2C Specification 2.1](https://www.nxp.com/documents/user_manual/UM10204.pdf) |
 | -------------------------------------------------- | ----------------------------------------------------------------------------- |
 
 **Example I2C Devices**
@@ -194,10 +194,10 @@ Not surprisingly, there is some disagreement as to how the address and direction
 
 **Top Resources**
 
-* [Wikipedia](http://en.wikipedia.org/wiki/I%C2%B2C)
-* [I2C Specification 2.1](http://www.nxp.com/documents/user_manual/UM10204.pdf)
+* [Wikipedia](https://en.wikipedia.org/wiki/I%C2%B2C)
+* [I2C Specification 2.1](https://www.nxp.com/documents/user_manual/UM10204.pdf)
 * [SparkFun Tutorial](https://learn.sparkfun.com/tutorials/i2c/introduction)
-* [NXP I2C Overview (video)](http://www.youtube.com/watch?v=BcWixZcZ6JY&list=PLB1BE22BA36431CFD)
+* [NXP I2C Overview (video)](https://www.youtube.com/watch?v=BcWixZcZ6JY&list=PLB1BE22BA36431CFD)
 
 **Example I2C Parts**
 

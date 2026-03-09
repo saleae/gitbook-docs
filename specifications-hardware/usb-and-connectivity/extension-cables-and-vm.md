@@ -18,18 +18,18 @@ For USB 3.0 connectivity, signal integrity plays a very important role. The USB 
 
 We did perform a quick test with the host controllers we had already set up for testing with Windows 8.1. Keep in mind that we’re not sure if it reflects the quality of the host controller or just the PCB layout of the final vendor.
 
-*   [Renesas from optimal shop](http://www.amazon.com/gp/product/B008IPXOWU)
+*   [Renesas from optimal shop](https://www.amazon.com/gp/product/B008IPXOWU)
 
       This did not work with an extension.
 
       Otherwise, it’s the best choice due to good driver and cross-platform reliability.
-*   [ASMedia 3.1 from ASUS](http://www.amazon.com/gp/product/B00Y7UXJJI)
+*   [ASMedia 3.1 from ASUS](https://www.amazon.com/gp/product/B00Y7UXJJI)
 
       This did work with an extension.
-*   [Via from ORICO](http://www.amazon.com/gp/product/B00A20KIXW)
+*   [Via from ORICO](https://www.amazon.com/gp/product/B00A20KIXW)
 
       this did not work with an extension.
-*   [ETRON from syba](http://www.amazon.com/gp/product/B005VAOT2E)
+*   [ETRON from syba](https://www.amazon.com/gp/product/B005VAOT2E)
 
       This did work with an extension.
 *   [Texas Instruments from SIIG](http://www.siig.com/it-products/usb/adapters/pcie/dp-usb-3-0-4-port-pcie-i-e.html)

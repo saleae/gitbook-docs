@@ -4,4 +4,4 @@ The Saleae Manchester analyzer also includes differential Manchester bi-phase sp
 
 **Resources**
 
-* [Wikipedia](http://en.wikipedia.org/wiki/Manchester_code)
+* [Wikipedia](https://en.wikipedia.org/wiki/Manchester_code)

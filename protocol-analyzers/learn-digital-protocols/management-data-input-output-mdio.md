@@ -2,7 +2,7 @@ MDIO is a two-wire serial used to read and write the contents of registers in a 
 
 **Top Resources**
 
-* [Wikipedia](http://en.wikipedia.org/wiki/Management_Data_Input/Output)
+* [Wikipedia](https://en.wikipedia.org/wiki/Management_Data_Input/Output)
 * [Total Phase Tutorial](http://www.totalphase.com/support/kb/10042/)
 * [Accessing Control Registers (MDIO)](http://www.latticesemi.com/~/media/Documents/ReferenceDesigns/MDIOPeripheral-WISHBONECompatible-Documentation.PDF?document_id=36310)
 

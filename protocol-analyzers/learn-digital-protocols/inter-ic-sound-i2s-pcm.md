@@ -2,7 +2,7 @@ I2S is a synchronous serial bus used for digital audio. It typically consists of
 
 **Top Resources**
 
-* [Wikipedia](http://en.wikipedia.org/wiki/I%C2%B2S)
+* [Wikipedia](https://en.wikipedia.org/wiki/I%C2%B2S)
 * [SparkFun I2S Spec](https://www.sparkfun.com/datasheets/BreakoutBoards/I2SBUS.pdf)
 * [I2S to MSP430 Tutorial](http://www.ti.com/lit/an/slaa449a/slaa449a.pdf)
 

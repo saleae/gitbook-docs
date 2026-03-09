@@ -64,10 +64,11 @@ Please try the following solutions first before contacting support.
 * Delete the settings.xml file. It may be corrupt. See instructions below.
 
 <div class="callout callout-info">
-<p>Before you can find and delete settings.xml, make the file visible first.
-
-* On Windows - Showing hidden files and folders should be enabled. <a href="https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files">Instructions Here</a>
-* On OSX - Showing the Library folder should be enabled. <a href="https://discussions.apple.com/thread/8137224?answerId=8137224021#8137224021">Instructions Here</a></p>
+<p>Before you can find and delete settings.xml, make the file visible first.</p>
+<ul>
+<li>On Windows - Showing hidden files and folders should be enabled. <a href="https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files">Instructions Here</a></li>
+<li>On OSX - Showing the Library folder should be enabled. <a href="https://discussions.apple.com/thread/8137224?answerId=8137224021#8137224021">Instructions Here</a></li>
+</ul>
 </div>
 
 The settings.xml file can be located below.

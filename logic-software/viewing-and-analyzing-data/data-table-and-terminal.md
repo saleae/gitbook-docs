@@ -8,7 +8,7 @@ The analyzer data table shows all decoded protocol data in a table format. In ge
 
 To learn more about the different columns that are used for Saleae’s built-in analyzers, please refer to the support article below.
 
-<a class="content-ref" href="/support/extensions-api/hla-frame-format-reference/serial-analyzer">Async Serial - Frame Format</a>
+<a class="content-ref" href="/support/extensions-api/hla-frame-format-reference/analyzer-frame-types">HLA - Analyzer Frame Format</a>
 
 ### Excluding Analyzers and Columns
 

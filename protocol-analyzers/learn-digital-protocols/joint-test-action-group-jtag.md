@@ -2,7 +2,7 @@ JTAG (Joint Test Action Group) is often used to program and debug microcontrolle
 
 **Top Resources**
 
-* [Wikipedia](http://en.wikipedia.org/wiki/Joint_Test_Action_Group)
+* [Wikipedia](https://en.wikipedia.org/wiki/Joint_Test_Action_Group)
 * [A Technical Overview](http://www.xjtag.com/support-jtag/jtag-technical-guide.php)
 * [About Boundary Scan](http://www.jtag.com/en/content/about-boundary-scan)
 

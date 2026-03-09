@@ -230,23 +230,23 @@ Note that that the frame identifier is thus related to the priority of the frame
 
 **References**
 
-| [Wikipedia](http://en.wikipedia.org/wiki/Controller_area_network) | [Texas Instruments](http://focus.ti.com/lit/an/slla270/slla270.pdf) | [BOSCH CAN Specification 2.0](http://esd.cs.ucr.edu/webres/can20.pdf) |
+| [Wikipedia](https://en.wikipedia.org/wiki/Controller_area_network) | [Texas Instruments](https://focus.ti.com/lit/an/slla270/slla270.pdf) | [BOSCH CAN Specification 2.0](https://esd.cs.ucr.edu/webres/can20.pdf) |
 | ----------------------------------------------------------------- | ------------------------------------------------------------------- | --------------------------------------------------------------------- |
 
 **Example CAN Devices**
 
-| [Microchip MCP2515 stand-alone CAN Controller](http://ww1.microchip.com/downloads/en/DeviceDoc/21801F.pdf) | [Microchip PIC18F66K80 Microcontroller Family with CAN](http://ww1.microchip.com/downloads/en/DeviceDoc/39977c.pdf) | [TI SN65HVF230 3.3V CAN Transceiver](http://focus.ti.com/lit/ds/symlink/sn65hvd230.pdf) |
+| [Microchip MCP2515 stand-alone CAN Controller](https://ww1.microchip.com/downloads/en/DeviceDoc/21801F.pdf) | [Microchip PIC18F66K80 Microcontroller Family with CAN](https://ww1.microchip.com/downloads/en/DeviceDoc/39977c.pdf) | [TI SN65HVF230 3.3V CAN Transceiver](https://focus.ti.com/lit/ds/symlink/sn65hvd230.pdf) |
 | ---------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- |
 
 ### Further Reading
 
 **Top Resources**
 
-* [Wikipedia](http://en.wikipedia.org/wiki/Controller_area_network)
-* [Bosch CAN Specification 2.0](http://esd.cs.ucr.edu/webres/can20.pdf)
+* [Wikipedia](https://en.wikipedia.org/wiki/Controller_area_network)
+* [Bosch CAN Specification 2.0](https://esd.cs.ucr.edu/webres/can20.pdf)
 
 **Example CAN Parts**
 
-* [Stand-alone CAN Controller](http://ww1.microchip.com/downloads/en/DeviceDoc/21801F.pdf)
-* [PIC18F66K80 with CAN](http://ww1.microchip.com/downloads/en/DeviceDoc/39977c.pdf)
-* [TI 3.3V CAN Transceiver](http://focus.ti.com/lit/ds/symlink/sn65hvd230.pdf)
+* [Stand-alone CAN Controller](https://ww1.microchip.com/downloads/en/DeviceDoc/21801F.pdf)
+* [PIC18F66K80 with CAN](https://ww1.microchip.com/downloads/en/DeviceDoc/39977c.pdf)
+* [TI 3.3V CAN Transceiver](https://focus.ti.com/lit/ds/symlink/sn65hvd230.pdf)

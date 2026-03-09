@@ -244,7 +244,7 @@ While you can, in principle, use the microcontroller’s data sheet to exactly p
 
 **Bit Rate**
 
-Bit rate is the number of bits per second being sent. Note: This is also often called baud rate, but that is a term that actually is more relevant to modems and typically misused. It does not actually mean bits per second ([http://en.wikipedia.org/wiki/Baud](http://en.wikipedia.org/wiki/Baud)).
+Bit rate is the number of bits per second being sent. Note: This is also often called baud rate, but that is a term that actually is more relevant to modems and typically misused. It does not actually mean bits per second ([https://en.wikipedia.org/wiki/Baud](https://en.wikipedia.org/wiki/Baud)).
 
 You can figure out what the bit rate is by recording some data and then measuring how wide the stop bit is.
 
@@ -296,7 +296,7 @@ If there is a framing error or parity error detected, a red dot will appear wher
 
 * [Tal Tech Tutorial](http://www.taltech.com/datacollection/articles/serial_intro)
 * [SparkFun Tutorial](https://learn.sparkfun.com/tutorials/serial-communication)
-* [Wikipedia](http://en.wikipedia.org/wiki/Asynchronous_serial_communication)
+* [Wikipedia](https://en.wikipedia.org/wiki/Asynchronous_serial_communication)
 * [Parallax Textbook PDF](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=6&ved=0CFIQFjAF&url=http%3A%2F%2Fforums.parallax.com%2Fattachment.php%3Fattachmentid%3D72648%26d%3D1282407806&ei=HZxcUry6K6vYigKWx4CQBA&usg=AFQjCNGs_caLb8AnQ8HO5-WzaRnSsrnEBA&cad=rja)
 
 **Example Async Serial Parts**

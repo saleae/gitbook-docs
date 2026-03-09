@@ -2,7 +2,7 @@ CEC (Consumer Electronics Control) is a one-wire serial bus connected via HDMI a
 
 **Top Resources**
 
-* [Wikipedia](http://en.wikipedia.org/wiki/Consumer_Electronics_Control#CEC)
+* [Wikipedia](https://en.wikipedia.org/wiki/Consumer_Electronics_Control#CEC)
 * [CEC White Paper](http://www.quantumdata.com/pdf/CEC_White_Paper.pdf)
 * [XBMC Wiki](http://wiki.xbmc.org/index.php?title=CEC)
 * [Respberry Pi Forum](http://www.raspberrypi.org/phpBB3/viewtopic.php?f=35&t=15749)

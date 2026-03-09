@@ -1,9 +1,7 @@
 <div class="callout callout-info">
-<p>The Logic 2 binary and CSV export file formats are being updated to support new Saleae products. 
-
-Existing products, including Logic 8, Logic Pro 8, and Logic Pro 16, still use the original binary export (version 0), however those will be updated to support the new export format soon.
-
-Version 0 of the binary export, still in use for Logic 8, Logic Pro 8, and Logic Pro 16, is documented in the support article here: <a href="/support/logic-software/saving-and-exporting-data/binary-export-format-logic-2">binary-export-format-logic-2.md</a></p>
+<p>The Logic 2 binary and CSV export file formats are being updated to support new Saleae products.</p>
+<p>Existing products, including Logic 8, Logic Pro 8, and Logic Pro 16, still use the original binary export (version 0), however those will be updated to support the new export format soon.</p>
+<p>Version 0 of the binary export, still in use for Logic 8, Logic Pro 8, and Logic Pro 16, is documented in the support article here: <a href="/support/logic-software/saving-and-exporting-data/binary-export-format-logic-2">binary-export-format-logic-2.md</a></p>
 </div>
 
 ## Binary Export Format (Version 1)

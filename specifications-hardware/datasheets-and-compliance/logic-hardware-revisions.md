@@ -8,9 +8,8 @@
 * Revision 0.0.0 - This is the original launch revision of the hardware.
 
 <div class="callout callout-info">
-<p>The main difference between most major hardware revisions is the FPGA or ADC used, which has no impact on end user functionality or signal quality. 
-
-Additionally, a newly manufactured device may be tagged with a previous revision. For example, if it uses an FPGA from a previous hardware revision, we may tag it with that revision number.</p>
+<p>The main difference between most major hardware revisions is the FPGA or ADC used, which has no impact on end user functionality or signal quality.</p>
+<p>Additionally, a newly manufactured device may be tagged with a previous revision. For example, if it uses an FPGA from a previous hardware revision, we may tag it with that revision number.</p>
 </div>
 
 ### Checking your Device’s Hardware Revision

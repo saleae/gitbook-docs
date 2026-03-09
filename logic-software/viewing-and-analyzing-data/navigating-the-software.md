@@ -39,7 +39,7 @@ The side panel buttons offer various ways to configure your logic analyzer setti
 
 <a class="content-ref" href="/support/logic-software/viewing-and-analyzing-data/measurements-timing-markers">Measurements, Timing Markers & Notes</a>
 
-<a class="content-ref" href="/support/extensions-api/extensions/installing-extensions">Extension Installation</a>
+<a class="content-ref" href="/support/extensions-api/extensions/extensions">Extensions</a>
 
 ### 6. Time Scale Adjustment
 

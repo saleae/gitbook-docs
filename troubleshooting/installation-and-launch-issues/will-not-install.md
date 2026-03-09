@@ -125,10 +125,11 @@ For each item, first perform the test. If the test result is positive (the test 
 * Corrective Action: Try deleting the settings file called settings.xml, which may have become corrupt.
 
 <div class="callout callout-info">
-<p>Before you can find and delete settings.xml…
-
-* On Windows - Showing hidden files and folders should be enabled. <a href="https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files">Instructions Here</a>
-* On OSX - Showing the Library folder should be enabled. <a href="https://discussions.apple.com/thread/8137224?answerId=8137224021#8137224021">Instructions Here</a></p>
+<p>Before you can find and delete settings.xml…</p>
+<ul>
+<li>On Windows - Showing hidden files and folders should be enabled. <a href="https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files">Instructions Here</a></li>
+<li>On OSX - Showing the Library folder should be enabled. <a href="https://discussions.apple.com/thread/8137224?answerId=8137224021#8137224021">Instructions Here</a></li>
+</ul>
 </div>
 
 *   It can be located here:\

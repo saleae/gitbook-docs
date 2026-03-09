@@ -13,7 +13,7 @@ All PCI express add-on cards require [PCI express version 2.0](https://en.wikipe
 
 Across all operating systems, besides Intel, Renesas proved to be the most reliable. It was the only non-Intel host that worked immediately on every platform without driver updates.
 
-This was the Renesas card we tested with most recently and strongly recommend: [http://www.amazon.com/gp/product/B008IPXOWU?psc=1&redirect=true&ref\_=oh\_aui\_search\_detailpage](http://www.amazon.com/gp/product/B008IPXOWU?psc=1&redirect=true&ref\_=oh\_aui\_search\_detailpage)
+This was the Renesas card we tested with most recently and strongly recommend: [https://www.amazon.com/gp/product/B008IPXOWU?psc=1&redirect=true&ref\_=oh\_aui\_search\_detailpage](https://www.amazon.com/gp/product/B008IPXOWU?psc=1&redirect=true&ref\_=oh\_aui\_search\_detailpage)
 
 A note on buying host controllers from Amazon: Because USB 3.0 host controllers all implement a common specification (XHCI), no-name USB 3.0 vendors can easily switch out which host chip they are using based on availability or cost. Usually, people in the reviews will notice this.
 

@@ -167,7 +167,7 @@ SPI applications typically use logic 0 as the active state for the enable line. 
 
 **Some Good Resources**
 
-| [Wikipedia](http://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus) | [Microchip SPI Presentation](http://ww1.microchip.com/downloads/en/devicedoc/spi.pdf) | [EE Times SPI Article](http://www.eetimes.com/discussion/beginner-s-corner/4023908/Introduction-to-Serial-Peripheral-Interface) |
+| [Wikipedia](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus) | [Microchip SPI Presentation](https://ww1.microchip.com/downloads/en/devicedoc/spi.pdf) | [EE Times SPI Article](https://www.eetimes.com/discussion/beginner-s-corner/4023908/Introduction-to-Serial-Peripheral-Interface) |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
 
 **Example Parts That Use SPI**
@@ -181,8 +181,8 @@ SPI applications typically use logic 0 as the active state for the enable line. 
 
 **Top Resources**
 
-* [Wikipedia](http://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
-* [Microchip SPI Presentation](http://ww1.microchip.com/downloads/en/devicedoc/spi.pdf)
+* [Wikipedia](https://en.wikipedia.org/wiki/Serial_Peripheral_Interface_Bus)
+* [Microchip SPI Presentation](https://ww1.microchip.com/downloads/en/devicedoc/spi.pdf)
 
 **Example SPI Parts**
 

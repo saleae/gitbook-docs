@@ -22,6 +22,6 @@ If you are located outside the US but cannot easily purchase a cable from a loca
 
 **To get a replacement USB 3.0 cable directly from US, please send your shipping address and telephone number to** [**Saleae support**](/contact)**.**
 
-We are currently recommending this replacement cable from Amazon: [http://www.amazon.com/AmazonBasics-USB-3-0-Cable-Micro-B/dp/B00NH12R1O](http://www.amazon.com/AmazonBasics-USB-3-0-Cable-Micro-B/dp/B00NH12R1O)
+We are currently recommending this replacement cable from Amazon: [https://www.amazon.com/AmazonBasics-USB-3-0-Cable-Micro-B/dp/B00NH12R1O](https://www.amazon.com/AmazonBasics-USB-3-0-Cable-Micro-B/dp/B00NH12R1O)
 
 In all cases, either the 3-ft., 6-ft., or 9-ft. cable solved the reported issue so far.

@@ -2,7 +2,7 @@ USB 1.1/2.0 uses a single differential serial bus to communicate between a compu
 
 **Top Resources**
 
-* [Wikipedia](http://en.wikipedia.org/wiki/USB#USB_1.x)
+* [Wikipedia](https://en.wikipedia.org/wiki/USB#USB_1.x)
 * [USB Tutorial](http://www.maximintegrated.com/app-notes/index.mvp/id/1822)
 * [USB Brief Tutorial](http://www.computer-solutions.co.uk/info/Embedded_tutorials/usb_tutorial.htm)
 

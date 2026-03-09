@@ -2,9 +2,9 @@ LIN (Local Interconnect Network) is used for communication between components in
 
 **Top Resources**
 
-* [Wikipedia](http://en.wikipedia.org/wiki/Local_Interconnect_Network)
+* [Wikipedia](https://en.wikipedia.org/wiki/Local_Interconnect_Network)
 * [LIN Fundamentals (.pdf)](http://ece.eng.wayne.edu/~smahmud/ECECourses/ECE5620/Notes/LIN_Protocol.pdf)
-* [LIN Explained (YouTube)](http://www.youtube.com/watch?v=M1VI9wITmA4)
+* [LIN Explained (YouTube)](https://www.youtube.com/watch?v=M1VI9wITmA4)
 * [National Instruments](http://www.ni.com/white-paper/9733/en/)
 
 **Example LIN Parts**

@@ -3,7 +3,7 @@ The BiSS C protocol is typically used for the collection of sensor data and the 
 **Top Resources**
 
 * [BiSS Saleae Analyzer Guide](http://biss-interface.com/download/biss-an-18/)
-* [Wikipedia](http://en.wikipedia.org/wiki/BiSS_interface)
+* [Wikipedia](https://en.wikipedia.org/wiki/BiSS_interface)
 * [BiSS Protocol Description](http://biss-interface.com/download/biss-c-protocol-description-english/)
 
 **Example BiSS C Parts**

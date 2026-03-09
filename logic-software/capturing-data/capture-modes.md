@@ -62,12 +62,11 @@ At the moment, we don’t have a way of automatically jumping to trigger point a
 Navigate to the "Analyzers" panel and enable "Trigger View." From there, select the protocol analyzer you would like to trigger on, as well as the query value and holdoff time. HLA results can also be triggered on via this method.
 
 <div class="callout callout-info">
-<p>Please note that Trigger View is only supported for the analyzers listed in the support article link below (Titled <em>HLA - Analyzer Frame Format</em>). This means that custom analyzers, including pre-installed analyzers that are not listed, will not work with Trigger View.
-
-This is due to our Trigger View relying on a new low level analyzer framing format that we call “frame v2.” Only a handful of analyzers support “frame v2” at the moment, and these are the analyzers that work with Trigger View. We eventually want to extend Trigger View support to all analyzers in the future. Feel free to vote on this feature request <a href="https://ideas.saleae.com">here</a>!</p>
+<p>Please note that Trigger View is only supported for the analyzers listed in the support article link below (Titled <em>HLA - Analyzer Frame Format</em>). This means that custom analyzers, including pre-installed analyzers that are not listed, will not work with Trigger View.</p>
+<p>This is due to our Trigger View relying on a new low level analyzer framing format that we call “frame v2.” Only a handful of analyzers support “frame v2” at the moment, and these are the analyzers that work with Trigger View. We eventually want to extend Trigger View support to all analyzers in the future. Feel free to vote on this feature request <a href="https://ideas.saleae.com">here</a>!</p>
 </div>
 
-<a class="content-ref" href="/support/extensions-api/hla-frame-format-reference/serial-analyzer">Async Serial - Frame Format</a>
+<a class="content-ref" href="/support/extensions-api/hla-frame-format-reference/analyzer-frame-types">HLA - Analyzer Frame Format</a>
 
 <div class="video-embed"><iframe src="https://player.vimeo.com/video/489642936" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 <p class="text-sm text-gray-500 text-center mt-1">Trigger View - SPI Example</p>

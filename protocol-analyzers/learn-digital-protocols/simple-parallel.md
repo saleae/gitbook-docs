@@ -2,7 +2,7 @@ Generally speaking, a parallel bus has multiple data lines and a single clock li
 
 **Top Resources**
 
-* [Wikipedia](http://en.wikipedia.org/wiki/Parallel_communication)
+* [Wikipedia](https://en.wikipedia.org/wiki/Parallel_communication)
 
 **Example Simple Parallel Parts**
 

@@ -1,7 +1,6 @@
 <div class="callout callout-info">
-<p>This documentation is for binary export version 0, which is still in use for Logic 8, Logic Pro 8, and Logic Pro 16. Upcoming products use version 1, which is documented in the support article here: <a href="/support/logic-software/saving-and-exporting-data/binary-and-csv-export-formats-2025-update">binary-and-csv-export-formats-2025-update.md</a>
-
-Logic 8, Logic Pro 8, and Logic Pro 16 exports will be updated to use the new version 1 binary export format soon, but for now, they only support the original version, version 0.</p>
+<p>This documentation is for binary export version 0, which is still in use for Logic 8, Logic Pro 8, and Logic Pro 16. Upcoming products use version 1, which is documented in the support article here: <a href="/support/logic-software/saving-and-exporting-data/binary-and-csv-export-formats-2025-update">binary-and-csv-export-formats-2025-update.md</a></p>
+<p>Logic 8, Logic Pro 8, and Logic Pro 16 exports will be updated to use the new version 1 binary export format soon, but for now, they only support the original version, version 0.</p>
 </div>
 
 The binary file format summarized in this support article pertains to binary files exported via exporting raw data described in the support article linked below.

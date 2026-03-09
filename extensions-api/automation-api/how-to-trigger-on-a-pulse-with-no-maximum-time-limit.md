@@ -1,7 +1,6 @@
 <div class="callout callout-info">
-<p>This support article refers to a feature available in our older Logic 1.x software (which is no longer officiall supported). The download link for it is available below.
-
-Unfortunately, this feature is not yet available in our current Logic 2 software. Vote for it <a href="https://ideas.saleae.com">here!</a></p>
+<p>This support article refers to a feature available in our older Logic 1.x software (which is no longer officiall supported). The download link for it is available below.</p>
+<p>Unfortunately, this feature is not yet available in our current Logic 2 software. Vote for it <a href="https://ideas.saleae.com">here!</a></p>
 </div>
 
 <a class="content-ref" href="/support/logic-software/download-and-installation/older-software-releases">Logic 1.x Download (Deprecated)</a>
