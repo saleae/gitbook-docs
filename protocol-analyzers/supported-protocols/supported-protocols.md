@@ -32,12 +32,6 @@ We’ve worked closely with the team at Binho LLC to develop a 3rd party I3C Pro
 
 ![I3C Analyzer running on Logic 2](/support-assets/i3c-analyzer-in-action.gif)
 
-### Analyzer User Guides
-
-We provide user guides for a handful of our protocol analyzers, which we have listed in the link below.
-
-<a class="content-ref" href="/support/product/user-guide/protocol-analyzers/analyzer-user-guides">Analyzer User Guides</a>
-
 ### **More Protocol Analyzers**
 
 Some Logic users have created their own protocol analyzers. The following list of analyzers are available but not officially supported by Saleae.

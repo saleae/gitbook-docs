@@ -12,10 +12,6 @@ Saleae Logic Analyzers consist of the products listed in this section. The produ
 
 <figure><img src="/support-assets/Logic%20Pro%2016.jpg" alt=""><figcaption><p>Logic Pro 16</p></figcaption></figure>
 
-**Datasheets & Specifications:**
-
-<a class="content-ref" href="/support/product/datasheets-and-specifications">Datasheets & Specifications</a>
-
 **What’s In the Box?**
 
 * Logic 8 includes: Saleae Logic 8 USB Logic Analyzer, 2x 4-Channel Wire Harnesses, 16x Micro-Gripper Hooks, Saleae Carrying Case, USB 2.0 Micro Cable, & the Getting Started Card
