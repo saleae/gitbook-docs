@@ -28,15 +28,15 @@ Having said that, we always create a new entry on the final digital sample, mean
 
 ### Exporting Analyzer Results
 
-To export your individual analyzer results, click the 3 dots next to the particular analyzer you'd like to export data for. Then click "Export to TXT/CSV." You will be greeted with an OS prompt to save your export file.
+To export your individual analyzer results, click the 3 dots next to the particular analyzer you’d like to export data for. Then click "Export to TXT/CSV." You will be greeted with an OS prompt to save your export file.
 
 ![Exporting Analyzer Results](/support-assets/export-analyzer.png)
 
-#### This Analyzer's Native Export is Not Supported in Logic 2 - Warning Popup
+#### This Analyzer’s Native Export is Not Supported in Logic 2 - Warning Popup
 
-For some analyzers (namely MDIO, CAN, and LIN), you will run into an error popup that prevents you from exporting the analyzer from the analyzer's drop down menu. In this case, we recommend exporting via the data table instead. More information on this behavior can be found below.
+For some analyzers (namely MDIO, CAN, and LIN), you will run into an error popup that prevents you from exporting the analyzer from the analyzer’s drop down menu. In this case, we recommend exporting via the data table instead. More information on this behavior can be found below.
 
-[This Analyzer's Native Export is Not Supported in Logic 2](/support/troubleshooting/data-and-analysis-issues/this-analyzers-native-export-is-not-supported-in-logic-2)
+<a class="content-ref" href="/support/troubleshooting/data-and-analysis-issues/this-analyzers-native-export-is-not-supported-in-logic-2">This Analyzer’s Native Export is Not Supported in Logic 2</a>
 
 ## Community Shared Export File Parser
 

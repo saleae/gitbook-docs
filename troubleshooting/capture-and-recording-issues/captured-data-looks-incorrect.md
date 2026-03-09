@@ -8,7 +8,7 @@ For each item, first perform the test. If the test result is positive (the test 
 
 If the issue you are experiencing is that some or all of your capture attempts immediately fail with the error message shown in the link below, please read the below article.
 
-[Error Message: ReadTimeout](/support/troubleshooting/capture-and-recording-issues/device-not-able-to-keep-up)
+<a class="content-ref" href="/support/troubleshooting/capture-and-recording-issues/device-not-able-to-keep-up">Error Message: ReadTimeout</a>
 
 ### The Captured Data is Corrupted
 
@@ -17,7 +17,7 @@ If the software is able to capture data, but the captured data looks random or c
 1. Make sure the software detects the Logic hardware properly (the top bar of the software should display "Connected").
 2. Check your USB Host Controller driver. There is a known issue with VIA USB host controllers. See below.
 
-[The Captured Data is Corrupted](/support/troubleshooting/capture-and-recording-issues/the-captured-data-is-corrupted)
+<a class="content-ref" href="/support/troubleshooting/capture-and-recording-issues/the-captured-data-is-corrupted">The Captured Data is Corrupted</a>
 
 ### The Analog Capture Looks Extremely Noisy
 
@@ -55,7 +55,7 @@ Please verify the following:
 
       You can end the capture early if you finish before the capture completes. If you are unable to finish testing all the channels within the capture time, either repeat the process faster or extend the capture time.
 
-      In the capture, verify that each channel is initially low (high in the case of the original Logic.) Verify that only one channel goes high at a time and that the channels go high in order from 0 to the last channel. Make sure that none of the high pulses are out of order, such as channel 2 going high before channel 1. Note that since the original Logic's inputs are pulled up internally and the test is performed with ground, the pulses in question should be low and not high. If the device used has analog channels, make sure the analog channels display the same behavior.
+      In the capture, verify that each channel is initially low (high in the case of the original Logic.) Verify that only one channel goes high at a time and that the channels go high in order from 0 to the last channel. Make sure that none of the high pulses are out of order, such as channel 2 going high before channel 1. Note that since the original Logic’s inputs are pulled up internally and the test is performed with ground, the pulses in question should be low and not high. If the device used has analog channels, make sure the analog channels display the same behavior.
 * Corrective Action: Any issues in the recorded capture could indicate damaged input buffers, shorted channels, or other problems. If any results found are unexpected, please [contact support](/contact) about a warranty repair or replacement. 
 
 **Verify That the Load Impedance of the Logic Analyzer Will Not Interfere with Your Circuit**
@@ -67,7 +67,7 @@ Please verify the following:
 
 *   Test: Check to see how your device under test is powered, and check to see how the host PC is powered. Then check for other devices connecting from the host PC to the device under test.
 
-      None of the Saleae devices are electrically isolated. That means that the ground pins on the Saleae device are connected to the USB ground. When you connect the logic analyzer to the device, you will effectively connect the device's ground to the PC's ground. If your device and PC are powered from AC main power, they will probably already be common grounded. In this scenario, if the ground pin from the logic analyzer is connected to any voltage other than ground on your device, ground current will occur and can potentially damage your device under test, the Logic analyzer, or the host PC, or harm the user.
+      None of the Saleae devices are electrically isolated. That means that the ground pins on the Saleae device are connected to the USB ground. When you connect the logic analyzer to the device, you will effectively connect the device’s ground to the PC’s ground. If your device and PC are powered from AC main power, they will probably already be common grounded. In this scenario, if the ground pin from the logic analyzer is connected to any voltage other than ground on your device, ground current will occur and can potentially damage your device under test, the Logic analyzer, or the host PC, or harm the user.
 *   Corrective Action: Avoid ground loops. If this is not possible, use extra care to ensure that the ground pin from the Logic analyzer is only connected to the same ground reference on your device under test.
 
       If you are unable to avoid common mode ground voltage or require isolation, please consider this digital isolation evaluation kit: [http://www.digikey.com/product-detail/en/SI84XXISO-KIT/336-1765-ND/2170672](http://www.digikey.com/product-detail/en/SI84XXISO-KIT/336-1765-ND/2170672)
@@ -100,7 +100,7 @@ Please verify the following:
 
 * Test: First, check the supported IO standards for the Logic analyzer that you are using below.
 
-[Supported Voltages](/support/specifications-hardware/electrical-characteristics/supported-voltages)
+<a class="content-ref" href="/support/specifications-hardware/electrical-characteristics/supported-voltages">Supported Voltages</a>
 
 * Verify that the logic high voltage is above the logic high threshold, and make sure that the logic low voltage (usually 0 volts) is below the logic low threshold voltage of the device.
 * Some of the Saleae devices have selectable IO thresholds. First, try the IO threshold that best matches your application, but if it does not appear correct, also try other threshold settings.
@@ -110,12 +110,12 @@ Please verify the following:
 
 If your digital capture looks correct but the analog capture does not, please see this article:
 
-[The Digital and Analog Recording on the Same Channel Appear Different](/support/troubleshooting/capture-and-recording-issues/digital-and-analog-appear-different)
+<a class="content-ref" href="/support/troubleshooting/capture-and-recording-issues/digital-and-analog-appear-different">The Digital and Analog Recording on the Same Channel Appear Different</a>
 
 See this article for more information about the maximum digital and analog bandwidth for each device:
 
-[What Is the Maximum Bandwidth of Logic?](/support/specifications-hardware/electrical-characteristics/what-is-the-maximum-bandwidth)
+<a class="content-ref" href="/support/specifications-hardware/electrical-characteristics/what-is-the-maximum-bandwidth">What Is the Maximum Bandwidth of Logic?</a>
 
 For more information about the bandwidth requirements for any given signal, please see this article:
 
-[What Sampling Rate Should I Use?](/support/logic-software/capturing-data/what-sample-rate-is-required)
+<a class="content-ref" href="/support/logic-software/capturing-data/what-sample-rate-is-required">What Sampling Rate Should I Use?</a>

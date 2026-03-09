@@ -1,6 +1,6 @@
 ## I2C Communication Overview
 
-I2C communication involves two roles: a master and a slave. The master initiates and controls the communication, while the slave responds to the master's requests. Data transmission on the I2C bus is organized into transactions, each starting with a START condition and ending with a STOP condition. Each transaction begins with a 7-bit address and comprises one or more data bytes, with each byte followed by an acknowledgment from the receiver.
+I2C communication involves two roles: a master and a slave. The master initiates and controls the communication, while the slave responds to the master’s requests. Data transmission on the I2C bus is organized into transactions, each starting with a START condition and ending with a STOP condition. Each transaction begins with a 7-bit address and comprises one or more data bytes, with each byte followed by an acknowledgment from the receiver.
 
 ### I2C Frame Evaluation
 

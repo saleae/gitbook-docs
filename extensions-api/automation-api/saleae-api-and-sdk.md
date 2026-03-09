@@ -16,9 +16,7 @@ Our Automation API is intended to make it easy for the Logic 2 software to be co
 #### About Legacy Logic 1.x Support
 
 <div class="callout callout-warning">
-
-Due to the official release of the newer [Logic 2 Automation API](https://saleae.github.io/logic2-automation/), we have officially ended support for our Legacy Logic 1.x Automation API. We highly recommend existing users who currently use our legacy Socket API automation utility in the past with Logic 1.x to migrate their automation utility to Logic 2 using our new Automation API above. Please [contact us](/contact) if you need help with that.
-
+<p>Due to the official release of the newer <a href="https://saleae.github.io/logic2-automation/">Logic 2 Automation API</a>, we have officially ended support for our Legacy Logic 1.x Automation API. We highly recommend existing users who currently use our legacy Socket API automation utility in the past with Logic 1.x to migrate their automation utility to Logic 2 using our new Automation API above. Please <a href="/contact">contact us</a> if you need help with that.</p>
 </div>
 
 A link to our Legacy Logic 1.x Automation Utility is provided below for reference.

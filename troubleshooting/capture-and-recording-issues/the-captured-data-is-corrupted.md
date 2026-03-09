@@ -1,11 +1,11 @@
 If you are seeing issues with corrupt data in your recording, please check your host controller driver version using the instructions in the link below.
 
-[Finding Your USB 3.0 Host Controller Information](/support/specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info)
+<a class="content-ref" href="/support/specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info">Finding Your USB 3.0 Host Controller Information</a>
 
 ### Known Issues with VIA USB Host Controllers
 
 We have seen issues in the past when using our Logic analyzers with **VIA USB Host Controllers**. Specifically, the digital recordings may look like randomly transitioning data times, usually when recording at higher sampling rates. Updating the host controller driver seemed to solve it in most cases. Please try this using the link below if you have not already done so.
 
-[Warning Message: Possible USB Host Controller Problem Detected](/support/troubleshooting/device-connection-issues/usb-driver-problem)
+<a class="content-ref" href="/support/troubleshooting/device-connection-issues/usb-driver-problem">Warning Message: Possible USB Host Controller Problem Detected</a>
 
-If you don't own a VIA host controller, and are still seeing issues with corrupted capture data, please [contact support](/contact) and include the screenshot of your USB 3.0 Host Controller information, as well as screenshots and explanations of the corrupted captures.
+If you don’t own a VIA host controller, and are still seeing issues with corrupted capture data, please [contact support](/contact) and include the screenshot of your USB 3.0 Host Controller information, as well as screenshots and explanations of the corrupted captures.

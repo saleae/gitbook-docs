@@ -10,17 +10,17 @@ Click on the error code in the table below to learn more about that specific err
 
 These error messages do not have an error code associated with them. You can learn more in the links below.
 
-[Error Message: Unable to detect WebGL and Other GPU Issues](/support/troubleshooting/software-crashes-and-errors/error-message-unable-to-detect-webgl)
+<a class="content-ref" href="/support/troubleshooting/software-crashes-and-errors/error-message-unable-to-detect-webgl">Error Message: Unable to detect WebGL and Other GPU Issues</a>
 
-[Warning Message: Logic Pro is running as a USB 2.0 device](/support/troubleshooting/device-connection-issues/limitations-of-logic-pro-usb2)
+<a class="content-ref" href="/support/troubleshooting/device-connection-issues/limitations-of-logic-pro-usb2">Warning Message: Logic Pro is running as a USB 2.0 device</a>
 
-[Warning Message: Possible USB Host Controller Problem Detected](/support/troubleshooting/device-connection-issues/usb-driver-problem)
+<a class="content-ref" href="/support/troubleshooting/device-connection-issues/usb-driver-problem">Warning Message: Possible USB Host Controller Problem Detected</a>
 
 ### Sharing your Machine ID
 
 Our support team may require you to send your Machine ID to help us investigate any issues you may be having when using our software. Please refer to the link below to share your Machine ID with us.
 
-[Getting your Machine ID](/support/troubleshooting/diagnostic-tools/sharing-your-machine-id)
+<a class="content-ref" href="/support/troubleshooting/diagnostic-tools/sharing-your-machine-id">Getting your Machine ID</a>
 
 
 

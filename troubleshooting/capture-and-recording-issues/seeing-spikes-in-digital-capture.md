@@ -2,7 +2,7 @@ There are several reasons that noise may appear in your capture. In some cases, 
 
 The rest of this article discusses different noise sources and potential solutions to remove it. You can learn more about the software glitch filter below.
 
-[Software Glitch Filter](/support/logic-software/viewing-and-analyzing-data/software-glitch-filter)
+<a class="content-ref" href="/support/logic-software/viewing-and-analyzing-data/software-glitch-filter">Software Glitch Filter</a>
 
 **Sources of Noise**
 
@@ -20,13 +20,13 @@ The analog inputs are filtered at a much lower bandwidth through an anti-aliasin
 * Different IO standards: Whenever possible, make sure you are using the best available IO voltage setting on the device for your application. Logic Pro 8, Logic Pro 16, and the original Logic16 have adjustable input modes.
 * In the case of cross talk, try physically separating the wires in the wire harness so they do not run close to each other. Also, connect more ground signals.
 * Use shorter logic probes. If you can make your own leads connecting to the logic analyzer, you could dramatically shorten the wire between the signal source and the logic analyzer.
-* When analyzing signals to a particular chip or in a particular board area, connect the logic analyzer's ground probe(s) to a probe point that is spatially near the signals of interest. Connecting to a ground probe point far away from the signals of interest may add unintentional parasitics in your measurement loop, which can cause glitches to appear in measurements.
+* When analyzing signals to a particular chip or in a particular board area, connect the logic analyzer’s ground probe(s) to a probe point that is spatially near the signals of interest. Connecting to a ground probe point far away from the signals of interest may add unintentional parasitics in your measurement loop, which can cause glitches to appear in measurements.
 * Slow the sample rate. Generally, the glitches on the bus are actually much smaller than 1 sample. Sampling slower dramatically reduces the probability that a glitch will be recorded when sampling, but it will not completely eliminate it.
 * For especially noisy signals, you can create your own analog low pass filter network and place it before the input of the logic analyzer.
 * The current software includes a user selectable glitch filter. You can enter the width of the smallest allowable event, and all smaller events will be filtered out. Generally, noise and glitches picked up by the units is only 1 sample wide, which is actually above the maximum rated bandwidth for any given sample rate, making it particularly easy to filter out without affecting your data. More information can be found in our Software Glitch Filter article (link at the top of this article).
 
 **What If Noise Is Still Present after the Above Steps?**
 
-If the above solutions don't help, then you may be experiencing a more extreme case of crosstalk. Please review the article below for further troubleshooting steps as well as information to send to support.
+If the above solutions don’t help, then you may be experiencing a more extreme case of crosstalk. Please review the article below for further troubleshooting steps as well as information to send to support.
 
-[Troubleshooting Signal Crosstalk](/support/troubleshooting/capture-and-recording-issues/crosstalk)
+<a class="content-ref" href="/support/troubleshooting/capture-and-recording-issues/crosstalk">Troubleshooting Signal Crosstalk</a>

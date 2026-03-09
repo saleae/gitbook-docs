@@ -35,7 +35,7 @@ If your PCB has .100-inch headers that break out signals you need to examine, yo
 
 ### **Ultra-Fine Pitch and Other Difficulties**
 
-In many situations, it may be difficult to connect Logic directly to your signal. Generally, in these situations, you'll want to solder a wire (typically wire-wrap wire) to an exposed pin, trace, or via, and then use Logic's test clip to connect to that wire. Alternately, you can invest in some extremely small pitch test clips such as these: [Test clips - Grabbers, Hooks](https://www.digikey.com/products/en/test-and-measurement/test-clips-grabbers-hooks/620?k=micro%20gripper)
+In many situations, it may be difficult to connect Logic directly to your signal. Generally, in these situations, you’ll want to solder a wire (typically wire-wrap wire) to an exposed pin, trace, or via, and then use Logic’s test clip to connect to that wire. Alternately, you can invest in some extremely small pitch test clips such as these: [Test clips - Grabbers, Hooks](https://www.digikey.com/products/en/test-and-measurement/test-clips-grabbers-hooks/620?k=micro%20gripper)
 
 ## Gen 1 Logic Accessories
 
@@ -61,7 +61,7 @@ When using Logic16 with more than 8 inputs, we recommend connecting the second g
 
 Several Logic accessories have been made available by our community of users. These are listed in the support article below.
 
-[Community Created Accessories](/support/community-contact/community-created-accessories)
+<a class="content-ref" href="/support/community-contact/community-created-accessories">Community Created Accessories</a>
 
 
 

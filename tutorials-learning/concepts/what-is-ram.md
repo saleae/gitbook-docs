@@ -6,7 +6,7 @@ On the other hand, _RAM_ (short for Random Access Memory) is reserved for progra
 
 ### Why Does Logic Use RAM to Store Capture Data?
 
-If hard disks contain much more memory space than RAM, then it would make sense for Logic to utilize the hard disk when capturing data, right? Well, not exactly...
+If hard disks contain much more memory space than RAM, then it would make sense for Logic to utilize the hard disk when capturing data, right? Well, not exactly…
 
 Logic captures data at such a fast rate that it requires nearly instant access to PC memory in order to save the incoming data stream properly. If we direct the Logic software to stream its data directly to the hard disk during a data capture, the incoming data would simply overflow and have no where to go since typical hard disk speeds cannot support the speed of incoming data from Logic.
 
@@ -38,4 +38,4 @@ The software will estimate the RAM/memory usage on the device settings popover.
 
 Besides modifying the capture settings or buying more RAM, our Socket API automation script allows users to break extremely long captures into a series of shorter captures that are saved to the hard disk. You can read more about how to implement this below.
 
-[Automating Long Overnight Captures](/support/logic-software/capturing-data/automate-long-captures)
+<a class="content-ref" href="/support/logic-software/capturing-data/automate-long-captures">Automating Long Overnight Captures</a>

@@ -1,7 +1,7 @@
 ## Legacy Socket API Automation for Logic 1.x
 
 <div class="callout callout-warning">
-Due to the official release of the newer [Logic 2 Automation API](https://saleae.github.io/logic2-automation/), we have officially ended support for our Legacy Logic 1.x Automation API. We highly recommend existing users who currently use our legacy Automation API automation utility with Logic 1.x to migrate their automation utility to Logic 2 using our new Automation API above. Please [contact us](/contact) if you need help with that.
+<p>Due to the official release of the newer <a href="https://saleae.github.io/logic2-automation/">Logic 2 Automation API</a>, we have officially ended support for our Legacy Logic 1.x Automation API. We highly recommend existing users who currently use our legacy Automation API automation utility with Logic 1.x to migrate their automation utility to Logic 2 using our new Automation API above. Please <a href="/contact">contact us</a> if you need help with that.</p>
 </div>
 
 Our Legacy Automation API (which we called Socket API in the past) allows users to programmatically configure our software and trigger captures, and requires the older Logic 1.x software. 
@@ -10,13 +10,13 @@ The basic premise is that you can develop an application that connects to this s
 
 In addition, please keep in mind that newer versions of our Logic hardware (after revision 3.0.0) will no longer work with the older Logic 1.x software. If this poses any issues, please [contact us](/contact). A brief summary of our hardware revisions are described in the support article below.
 
-[Logic Hardware Revisions](/support/specifications-hardware/datasheets-and-compliance/logic-hardware-revisions)
+<a class="content-ref" href="/support/specifications-hardware/datasheets-and-compliance/logic-hardware-revisions">Logic Hardware Revisions</a>
 
 ### Prerequisites - Software Settings
 
 * Check that you are using the latest version of our legacy Logic 1.x software below.
 
-[Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
+<a class="content-ref" href="/support/logic-software/download-and-installation/older-software-releases">Logic 1.x Download (Deprecated)</a>
 
 * We highly recommend suppressing notifications and error messages while running your automation script. These notifications may block normal operation and can be suppressed by starting the application with the command line option `-disablepopups` 
 * Next, we must enable the scripting socket server. Open Options Menu at the top of the software.
@@ -26,14 +26,14 @@ In addition, please keep in mind that newer versions of our Logic hardware (afte
 * Accept firewall changes if the OS requests it
 
 <div class="callout callout-warning">
-For automated environments, the `-socket` command line option was previously used to automatically enable the scripting socket server. Unfortunately, we cannot recommend this moving forward due to a [known bug](https://github.com/saleae/SaleaeSocketApi/issues/14#issuecomment-656691914). We will fix this in a future release, which will be integrated into [Logic v2](https://discuss.saleae.com/). For now, please use the Preferences Window as shown above to enable the socket server.
+<p>For automated environments, the <code>-socket</code> command line option was previously used to automatically enable the scripting socket server. Unfortunately, we cannot recommend this moving forward due to a <a href="https://github.com/saleae/SaleaeSocketApi/issues/14#issuecomment-656691914">known bug</a>. We will fix this in a future release, which will be integrated into <a href="https://discuss.saleae.com/">Logic v2</a>. For now, please use the Preferences Window as shown above to enable the socket server.</p>
 </div>
 
-### Socket API User's Guide
+### Socket API User’s Guide
 
 The document below lists the supported commands using our automation utility.
 
-* [Logic Socket API User's Guide](https://github.com/saleae/SaleaeSocketApi/blob/master/Doc/Logic%20Socket%20API%20Users%20Guide.md)
+* [Logic Socket API User’s Guide](https://github.com/saleae/SaleaeSocketApi/blob/master/Doc/Logic%20Socket%20API%20Users%20Guide.md)
 
 ### Python Wrapper - Automation Method #1
 
@@ -45,7 +45,7 @@ For simple automation requirements, we suggest using our [Python Sample Applicat
 
 The [Python Sample Application](https://github.com/saleae/python-saleae-cli) implements a very basic form of data export via csv. If more export options are needed, please see the article below:
 
-[Export Data via Socket API](/support/extensions-api/automation-api/export-data)
+<a class="content-ref" href="/support/extensions-api/automation-api/export-data">Export Data via Socket API</a>
 
 You may also send supported socket commands directly via the terminal using the Python wrapper, as shown below. See our [list of supported commands](https://github.com/saleae/SaleaeSocketApi/blob/master/Doc/Logic%20Socket%20API%20Users%20Guide.md).
 
@@ -81,7 +81,7 @@ The basic process is to use one command over and over again. That command is "CA
 
 **Importing the Captured Data for Processing**
 
-First, use the EXPORT\_DATA2 function to export the capture to a format that's the easiest for you to process. Binary export is recommended for dense, long captures, but the CSV format could be easier to parse if you are not used to working with raw binary files.
+First, use the EXPORT\_DATA2 function to export the capture to a format that’s the easiest for you to process. Binary export is recommended for dense, long captures, but the CSV format could be easier to parse if you are not used to working with raw binary files.
 
 The export command will ACK once the export is complete. After that, you will need to load the exported file and parse it how you see fit.
 
@@ -95,7 +95,7 @@ You may also want to automate the process of exporting the decoded protocol data
 
 When running an automated script, you will want to prevent standard dialogs from appearing that block normal operation. These dialogs include:
 
-* Capture failure message (can't keep up, failed to start, etc.)
+* Capture failure message (can’t keep up, failed to start, etc.)
 * Error reporter
 * Out of memory exception message
 

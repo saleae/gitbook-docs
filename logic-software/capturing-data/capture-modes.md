@@ -30,7 +30,7 @@ In addition to the edge/pulse trigger which is set on a single digital channel, 
 
 #### Memory Buffer Setting
 
-In Trigger mode, while waiting for the trigger during a capture, Logic will continue using the PC's RAM in a continuous loop. The Memory buffer size setting limits the amount of RAM usage for this process. Similar to Looping mode, once the RAM buffer is filled, old data is deleted while new data arrives, and the capture will continue indefinitely until the trigger condition is met.
+In Trigger mode, while waiting for the trigger during a capture, Logic will continue using the PC’s RAM in a continuous loop. The Memory buffer size setting limits the amount of RAM usage for this process. Similar to Looping mode, once the RAM buffer is filled, old data is deleted while new data arrives, and the capture will continue indefinitely until the trigger condition is met.
 
 Please make sure to size the "Memory buffer size" appropriately from within the capture settings panel, such that your PC does not run out of memory while waiting for a trigger.
 
@@ -55,19 +55,19 @@ Two options exist for jumping to a trigger point after your capture is complete:
 
 ![Clicking on the Trigger icon will jump the view to the trigger point](/support-assets/Screen%20Shot%202021-09-08%20at%208.56.14%20PM.png)
 
-At the moment, we don't have a way of automatically jumping to trigger point after a capture. If this is a feature you would like added, please vote for it in the idea post [here](https://ideas.saleae.com)!
+At the moment, we don’t have a way of automatically jumping to trigger point after a capture. If this is a feature you would like added, please vote for it in the idea post [here](https://ideas.saleae.com)!
 
 ### Trigger View - Triggering on a Protocol Result
 
 Navigate to the "Analyzers" panel and enable "Trigger View." From there, select the protocol analyzer you would like to trigger on, as well as the query value and holdoff time. HLA results can also be triggered on via this method.
 
 <div class="callout callout-info">
-Please note that Trigger View is only supported for the analyzers listed in the support article link below (Titled _HLA - Analyzer Frame Format_). This means that custom analyzers, including pre-installed analyzers that are not listed, will not work with Trigger View.
+<p>Please note that Trigger View is only supported for the analyzers listed in the support article link below (Titled <em>HLA - Analyzer Frame Format</em>). This means that custom analyzers, including pre-installed analyzers that are not listed, will not work with Trigger View.
 
-This is due to our Trigger View relying on a new low level analyzer framing format that we call “frame v2.” Only a handful of analyzers support “frame v2” at the moment, and these are the analyzers that work with Trigger View. We eventually want to extend Trigger View support to all analyzers in the future. Feel free to vote on this feature request [here](https://ideas.saleae.com)!
+This is due to our Trigger View relying on a new low level analyzer framing format that we call “frame v2.” Only a handful of analyzers support “frame v2” at the moment, and these are the analyzers that work with Trigger View. We eventually want to extend Trigger View support to all analyzers in the future. Feel free to vote on this feature request <a href="https://ideas.saleae.com">here</a>!</p>
 </div>
 
-[analyzer-frame-types](/support/extensions-api/hla-frame-format-reference/serial-analyzer)
+<a class="content-ref" href="/support/extensions-api/hla-frame-format-reference/serial-analyzer">Async Serial - Frame Format</a>
 
 <div class="video-embed"><iframe src="https://player.vimeo.com/video/489642936" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 <p class="text-sm text-gray-500 text-center mt-1">Trigger View - SPI Example</p>

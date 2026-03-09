@@ -1,10 +1,10 @@
 <div class="callout callout-info">
-This support article refers to a feature available in our older Logic 1.x software (which is no longer officiall supported). The download link for it is available below.
+<p>This support article refers to a feature available in our older Logic 1.x software (which is no longer officiall supported). The download link for it is available below.
 
-Unfortunately, this feature is not yet available in our current Logic 2 software. Vote for it [here!](https://ideas.saleae.com)
+Unfortunately, this feature is not yet available in our current Logic 2 software. Vote for it <a href="https://ideas.saleae.com">here!</a></p>
 </div>
 
-[Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
+<a class="content-ref" href="/support/logic-software/download-and-installation/older-software-releases">Logic 1.x Download (Deprecated)</a>
 
 The pulse width trigger in the Saleae Logic software has extra features to allow it to be used to detect events other than pulses.
 
@@ -16,4 +16,4 @@ The trigger will immediately fire at that point. It will not wait for the pulse 
 
 This can be particularly useful to trigger when a process stops. Previously, the pulse width trigger required an ending edge to trigger, even if there was no maximum pulse width time. However, to support this, the trigger was modified, and the "n/a" option was added.
 
-Note: The pulse width trigger still requires that initial edge. If you're just looking for a period of inactivity, it will still work as long as there is some activity in your capture. If there is no activity in the capture, just turn off the trigger and capture.
+Note: The pulse width trigger still requires that initial edge. If you’re just looking for a period of inactivity, it will still work as long as there is some activity in your capture. If there is no activity in the capture, just turn off the trigger and capture.

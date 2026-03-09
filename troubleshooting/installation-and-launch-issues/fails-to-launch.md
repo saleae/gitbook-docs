@@ -8,23 +8,23 @@ You might also see the following message when running Logic 2 from the terminal.
 
 * `(electron) The default value of app.allowRendererProcessReuse is deprecated, it is currently "false". It will change to be "true" in Electron 9.`
 
-We've highlighted some potential causes and solutions below.
+We’ve highlighted some potential causes and solutions below.
 
 ### Unsupported Graphics Cards
 
-We've received reports of some graphics cards causing immediate crashes when launching the Logic 2 software. We're currently logging a list of graphics cards that have been reported to crash the app in the [forum post here](https://ideas.saleae.com). Based on the list of graphics cards we have gathered, it seems that graphics cards released more than 8 years ago has some issues with running our software, but we don't have conclusive evidence yet.
+We’ve received reports of some graphics cards causing immediate crashes when launching the Logic 2 software. We’re currently logging a list of graphics cards that have been reported to crash the app in the [forum post here](https://ideas.saleae.com). Based on the list of graphics cards we have gathered, it seems that graphics cards released more than 8 years ago has some issues with running our software, but we don’t have conclusive evidence yet.
 
 For now, if you feel your graphics card may be the culprit, you may try the troubleshooting steps in the support article below.
 
-[Error Message: Unable to detect WebGL and Other GPU Issues](/support/troubleshooting/software-crashes-and-errors/error-message-unable-to-detect-webgl)
+<a class="content-ref" href="/support/troubleshooting/software-crashes-and-errors/error-message-unable-to-detect-webgl">Error Message: Unable to detect WebGL and Other GPU Issues</a>
 
 ### Linux Solutions
 
 #### 1. Ensure you are running a supported version of Ubuntu
 
-Our list of supported operating systems can be found in the link below. You'll want to ensure you are running a supported version of Ubuntu.
+Our list of supported operating systems can be found in the link below. You’ll want to ensure you are running a supported version of Ubuntu.
 
-[Supported Operating Systems](/support/logic-software/download-and-installation/supported-operating-systems)
+<a class="content-ref" href="/support/logic-software/download-and-installation/supported-operating-systems">Supported Operating Systems</a>
 
 #### 2. Try running the latest version of Logic 2
 
@@ -42,7 +42,7 @@ If you see this error message, try launching the software with the `--no-sandbox
 
 #### **4. Launch the app with `--disable-gpu` or `--in-process-gpu`**
 
-Try each one of these command line arguments one at time. We've seen a handful of launch crashes where the Chromium GPU process repeatedly fails to start, causing the app to give up and exit. If you see a console message like "GPU process isn't usable. Goodbye.", this might fix it.
+Try each one of these command line arguments one at time. We’ve seen a handful of launch crashes where the Chromium GPU process repeatedly fails to start, causing the app to give up and exit. If you see a console message like "GPU process isn’t usable. Goodbye.", this might fix it.
 
 * `./Logic-2.*-master.AppImage --disable-gpu`
 * `./Logic-2.*-master.AppImage --in-process-gpu`
@@ -68,11 +68,11 @@ Depending on your Linux distro, other libraries may be missing which you may nee
 
 #### 6. Avoid launching the software with root permissions
 
-Instead, you'll want to install the udev rules file to allow the non-elevated application to work with devices. Instructions for installing the udev rules file can be found in the support article below.
+Instead, you’ll want to install the udev rules file to allow the non-elevated application to work with devices. Instructions for installing the udev rules file can be found in the support article below.
 
-[Driver Install](/support/logic-software/download-and-installation/driver-install)
+<a class="content-ref" href="/support/logic-software/download-and-installation/driver-install">Driver Install</a>
 
-We've seen GPU issues on Linux where the application will crash on launch due to the GPU process repeatedly crashing on launch.
+We’ve seen GPU issues on Linux where the application will crash on launch due to the GPU process repeatedly crashing on launch.
 
 **7. On Fedora, try installing `libxcrypt-compat`**
 
@@ -82,13 +82,13 @@ Although Fedora is not an operating system that we officially support, [a user o
 
 **8. FUSE issues with Logic 2 on Ubuntu 22.04**
 
-We package the Logic 2 software using AppImage, which depends on FUSE 2.x. Ubuntu 22.04 and other recent distributions have removed FUSE 2.x by default, replacing it with FUSE 3.x, which is not compatible with AppImages. We're looking into a simple long term solution, but in the meantime, simply installing FUSE 2.x should solve the problem. For more details and distro-specific instructions, please check the AppImage FUSE install documentation linked below:
+We package the Logic 2 software using AppImage, which depends on FUSE 2.x. Ubuntu 22.04 and other recent distributions have removed FUSE 2.x by default, replacing it with FUSE 3.x, which is not compatible with AppImages. We’re looking into a simple long term solution, but in the meantime, simply installing FUSE 2.x should solve the problem. For more details and distro-specific instructions, please check the AppImage FUSE install documentation linked below:
 
 * [https://docs.appimage.org/user-guide/troubleshooting/fuse.html](https://docs.appimage.org/user-guide/troubleshooting/fuse.html)
 
 **9. Contacting Support**
 
-In case the solutions above don't help, please [contact us](/contact) and send us the output of the commands generated from step 3 above.
+In case the solutions above don’t help, please [contact us](/contact) and send us the output of the commands generated from step 3 above.
 
 ### Windows 10 Solutions
 
@@ -98,8 +98,8 @@ Be sure to select the x64 version if you are using a 64-bit version of Windows. 
 
 ### MacOS Solutions
 
-On MacOS, you may see the `Error Connecting to Socket` message when attempting to start the Logic 2 app while disconnected from the internet. This is unintentional, as the app was designed to be able to run while offline. [In the forum post here](https://discuss.saleae.com/t/failed-to-start-without-network/1682/6), we've found that localhost may not resolve on your machine when disconnected from the internet.
+On MacOS, you may see the `Error Connecting to Socket` message when attempting to start the Logic 2 app while disconnected from the internet. This is unintentional, as the app was designed to be able to run while offline. [In the forum post here](https://discuss.saleae.com/t/failed-to-start-without-network/1682/6), we’ve found that localhost may not resolve on your machine when disconnected from the internet.
 
-The workaround is to take a look at your `/etc/hosts` file and to check if it contains the following line. If it’s missing, you'll want to add that line back and that should solve the issue.
+The workaround is to take a look at your `/etc/hosts` file and to check if it contains the following line. If it’s missing, you’ll want to add that line back and that should solve the issue.
 
 `127.0.0.1       localhost`

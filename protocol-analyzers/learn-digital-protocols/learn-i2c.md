@@ -28,7 +28,7 @@ Since changing the data line when the clock is high is not allowed during normal
 
 There are two ways the data line can change while the clock is high. It can transition from 0 to 1 while the clock is high, or it can transition from 1 to 0. In I2C, these each mean something specific.
 
-### **START and STOP – I2C's Synchronization Events**
+### **START and STOP – I2C’s Synchronization Events**
 
 * A START event occurs when the CLK (clock) is high and SDA (data line) falls (1 to 0).
 
@@ -42,9 +42,9 @@ There are two ways the data line can change while the clock is high. It can tran
 
 With the SPI bus, the master has individual enable lines for each slave, allowing it to specify exactly which one it wanted to talk with.
 
-Instead, I2C uses addresses. Here's how it works:
+Instead, I2C uses addresses. Here’s how it works:
 
-Every slave device on the bus has an address. These addresses are assigned by NXP and vary with the type of device (eeproms, DACs, sensors, etc.). Sometimes, devices have a few pins that can be used to slightly change their address. You can look up your device's address in its datasheet.
+Every slave device on the bus has an address. These addresses are assigned by NXP and vary with the type of device (eeproms, DACs, sensors, etc.). Sometimes, devices have a few pins that can be used to slightly change their address. You can look up your device’s address in its datasheet.
 
 In I2C, addresses are 7-bits long.
 
@@ -78,17 +78,17 @@ Next, the master writes out 7 address bits (most significant first, as with all 
 
 The master pulls the clock line low, changes (if required) the data line, and brings the clock line high, writing the first bit. Then the clock line is pulled low again, and the process repeats.
 
-The 8th bit is the direction bit. If this bit is a 0, it means this: Hey, device, I'm going to write some data to you. If it is a 1, it means this: Hey, device, please send me some data.
+The 8th bit is the direction bit. If this bit is a 0, it means this: Hey, device, I’m going to write some data to you. If it is a 1, it means this: Hey, device, please send me some data.
 
 <figure><img src="/support-assets/ReadWrite.png" alt=""><figcaption></figcaption></figure>
 
 **Acknowledge**
 
-At this point, the master has written out 8 bits. The first 7 bits are the slave's address, and the 8th bit is if it will be writing data to the slave or reading data from it.
+At this point, the master has written out 8 bits. The first 7 bits are the slave’s address, and the 8th bit is if it will be writing data to the slave or reading data from it.
 
 If there actually is device on the bus that has the particular address and is actually paying attention, that device will write the next bit (the 9th bit) as a zero.
 
-Here is the way it works: The master lets the data line float (1). If a slave wants to acknowledge, it pulls down the data line (0). On the positive edge of the clock, the master checks the data line. If it's a 1, no device has acknowledged (a NAK). If it's a 0, then the device we addressed has heard us and is ready to move on to the next step.
+Here is the way it works: The master lets the data line float (1). If a slave wants to acknowledge, it pulls down the data line (0). On the positive edge of the clock, the master checks the data line. If it’s a 1, no device has acknowledged (a NAK). If it’s a 0, then the device we addressed has heard us and is ready to move on to the next step.
 
 **Data Transfer**
 
@@ -120,7 +120,7 @@ A repeated START is simply a START that has been preceded by another START witho
 
 If there is only one master, then STOP and repeated START are functionally identical. Regardless, if a slave detects a START or a repeated START, it must start paying attention and listening to the address that will follow.
 
-The only reason the STOP event is needed is to tell other master devices that the current master is done using the bus. We'll discuss multiple masters a little further on.
+The only reason the STOP event is needed is to tell other master devices that the current master is done using the bus. We’ll discuss multiple masters a little further on.
 
 ### **The I2C Transaction, Summarized**
 
@@ -171,7 +171,7 @@ Here is how 10-bit addresses are used:
 
 Imagine you are using a microcontroller to write out the 7-bit address and direction bit to initiate talking with a slave device. If using a I2C peripheral (or subroutine), you would load it with a single byte, with the address and direction bit combined.
 
-Often, datasheets will refer to the slave's address as an 8-bit number, which includes the direction bit. Don't be confused. The address is really just 7 bits long.
+Often, datasheets will refer to the slave’s address as an 8-bit number, which includes the direction bit. Don’t be confused. The address is really just 7 bits long.
 
 Not surprisingly, there is some disagreement as to how the address and direction should be displayed. Therefore, the Saleae I2C analyzer has the following display options:
 

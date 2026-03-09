@@ -1,15 +1,15 @@
 Data bandwidth refers to the rate at which data is transmitted across a digital line. When discussing Saleae Logic, data bandwidth typically refers to the data rate across the USB cable to the PC.
 
-### Can I Reduce Logic's USB Bandwidth?
+### Can I Reduce Logic’s USB Bandwidth?
 
-If needed, there are several methods to reduce Logic's USB bandwidth usage. Since PCs typically have a limit to its total available bandwidth for all USB-connected devices, reducing Logic's USB bandwidth may be necessary in the following cases:
+If needed, there are several methods to reduce Logic’s USB bandwidth usage. Since PCs typically have a limit to its total available bandwidth for all USB-connected devices, reducing Logic’s USB bandwidth may be necessary in the following cases:
 
 1. Saving memory usage on captures
 2. Using Logic alongside other high bandwidth USB devices
 3. Using Logic through a USB hub
 4. Running into the error message linked below, signaling low bandwidth availability
 
-[Error Message: ReadTimeout](/support/troubleshooting/capture-and-recording-issues/device-not-able-to-keep-up)
+<a class="content-ref" href="/support/troubleshooting/capture-and-recording-issues/device-not-able-to-keep-up">Error Message: ReadTimeout</a>
 
 ### Situations to Avoid
 
@@ -29,6 +29,6 @@ When capturing only analog channels, reducing the sampling rate will reduce the 
 
 #### Digital and Analog Captures
 
-When capturing both digital and analog channels in the same capture, the selection of the sampling rate combination **does not** change the USB bandwidth usage of Logic. In order to reduce Logic's USB bandwidth usage in this case, you will need to lower the Performance percentage setting. This will decrease speeds of the available sampling rate combinations, and therefore, also decreases the memory usage of captures.
+When capturing both digital and analog channels in the same capture, the selection of the sampling rate combination **does not** change the USB bandwidth usage of Logic. In order to reduce Logic’s USB bandwidth usage in this case, you will need to lower the Performance percentage setting. This will decrease speeds of the available sampling rate combinations, and therefore, also decreases the memory usage of captures.
 
 ![Reducing USB bandwidth usage via Performance setting](/support-assets/2018-10-09_1339.png)

@@ -1,6 +1,6 @@
 Saleae produces four logic analyzers with a range of capabilities. If you are unsure of which one you will need based on the technical specifications alone, you can find common applications and recommendations here.
 
-Please also keep in mind that Saleae offers a 180-day return policy, which includes return shipping. If you decide that you need to upgrade your device or you don't need all the capabilities of the unit you purchased, you have 180 days to change your mind.
+Please also keep in mind that Saleae offers a 180-day return policy, which includes return shipping. If you decide that you need to upgrade your device or you don’t need all the capabilities of the unit you purchased, you have 180 days to change your mind.
 
 **All Products**
 
@@ -8,7 +8,7 @@ Please also keep in mind that Saleae offers a 180-day return policy, which inclu
 
 **Logic 8**
 
-The Saleae Logic 8 is a considerable jump in technical capabilities over the Logic 4. Not only does the channel count double, but the number of analog inputs goes from 1 to 8, and the digital and analog sample rates dramatically increase. Logic 8 is a good bet if you're not sure what requirements you will have in the future.
+The Saleae Logic 8 is a considerable jump in technical capabilities over the Logic 4. Not only does the channel count double, but the number of analog inputs goes from 1 to 8, and the digital and analog sample rates dramatically increase. Logic 8 is a good bet if you’re not sure what requirements you will have in the future.
 
 Typical applications where you would need a Logic 8 instead of a Logic 4:
 
@@ -41,10 +41,10 @@ Special features of the Logic Pro devices:
 
 The Saleae Logic Pro 16 is the flagship logic analyzer from Saleae. It has similar technical specifications to the Logic Pro 8, but with 16 channels, all of which support operating as digital inputs, analog inputs, or both.
 
-In addition to being able to record up to 4 digital channels at 500 MSPS, it's also able to record all 16 inputs at 100 MSPS at one time.
+In addition to being able to record up to 4 digital channels at 500 MSPS, it’s also able to record all 16 inputs at 100 MSPS at one time.
 
-The additional channels mean it's unlikely that you will run out of available inputs, which can save time and frustration when recording only small sets of signals one at a time would be required. It also allows you to record up to 15-bit parallel clocked protocols, which is especially useful for recording 8-bit parallel interfaces where other products would only be able to support up to 7 data bits and one clock bit.
+The additional channels mean it’s unlikely that you will run out of available inputs, which can save time and frustration when recording only small sets of signals one at a time would be required. It also allows you to record up to 15-bit parallel clocked protocols, which is especially useful for recording 8-bit parallel interfaces where other products would only be able to support up to 7 data bits and one clock bit.
 
 **Still not sure? Just ask us!**
 
-If you're still not sure which unit will meet your needs, just write in with a description of your application. Please include any technical information that you already have about your design, and we can provide feedback.
+If you’re still not sure which unit will meet your needs, just write in with a description of your application. Please include any technical information that you already have about your design, and we can provide feedback.

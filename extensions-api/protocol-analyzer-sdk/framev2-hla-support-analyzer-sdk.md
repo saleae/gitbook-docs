@@ -14,8 +14,8 @@ Additionally, FrameV2 objects replace the original Frame objects in the data tab
 
 **Requirements:**
 
-1. Make sure you're using the latest version of the Analyzer SDK. The newest version of the Analyzer SDK contains the new public method `UseFrameV2` in the Analyzer.h header file.
-2. Make sure you're using the Latest Logic software, 2.3.43 or newer. Note, analyzers that support FrameV2 cannot be loaded in older versions of the application.
+1. Make sure you’re using the latest version of the Analyzer SDK. The newest version of the Analyzer SDK contains the new public method `UseFrameV2` in the Analyzer.h header file.
+2. Make sure you’re using the Latest Logic software, 2.3.43 or newer. Note, analyzers that support FrameV2 cannot be loaded in older versions of the application.
 3. This example assumes you already have a working C++ Analyzer, and just want to add FrameV2 support.
 
 #### Usage example:
@@ -94,15 +94,15 @@ void AddByteArray( const char* key, const U8* data, U64 length );
 
 ### Usage from an HLA
 
-Before writing your own HLA, you can test your C++ Analyzer using the "LLA Frame V2 Tester" available in the marketplace. It's a simple utility which converts the key value pairs from the connected C++ analyzer into JSON objects, for easy inspection.
+Before writing your own HLA, you can test your C++ Analyzer using the "LLA Frame V2 Tester" available in the marketplace. It’s a simple utility which converts the key value pairs from the connected C++ analyzer into JSON objects, for easy inspection.
 
 Check out our HLA data format documentation:
 
-[analyzer-frame-types](/support/extensions-api/hla-frame-format-reference/serial-analyzer)
+<a class="content-ref" href="/support/extensions-api/hla-frame-format-reference/serial-analyzer">Async Serial - Frame Format</a>
 
 Learn more about building HLAs here:
 
-[high-level-analyzer-extensions](/support/extensions-api/extensions/high-level-analyzer-extensions)
+<a class="content-ref" href="/support/extensions-api/extensions/high-level-analyzer-extensions">High-Level Analyzer (HLA) Extensions</a>
 
 ```python
 // In your HLA, you could decode the FrameV2 objects created above like so:

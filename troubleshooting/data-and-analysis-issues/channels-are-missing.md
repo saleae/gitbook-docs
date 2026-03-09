@@ -4,11 +4,11 @@ There are several reasons why channels may be missing in the Logic software. Ple
 
 The appropriate channels should be properly highlighted in the Logic capture settings as shown below.
 
-![Enable channels under Logic's capture settings](/support-assets/2018-10-09_1353.png)
+![Enable channels under Logic’s capture settings](/support-assets/2018-10-09_1353.png)
 
 #### Show All Channels
 
-Sometimes, channels may be hidden from view even if they are enabled under Logic's capture settings. In this case, simply click the gear icon under any of the visible channels, and click _Show All Channels_.
+Sometimes, channels may be hidden from view even if they are enabled under Logic’s capture settings. In this case, simply click the gear icon under any of the visible channels, and click _Show All Channels_.
 
 ![Show all channels setting](/support-assets/2018-10-09_1359.png)
 
@@ -25,6 +25,6 @@ Sometimes, channels may be hidden from view even if they are enabled under Logic
 
 Logic Pro 8 and Logic Pro 16 can be used with USB 2.0 ports under certain limitations as described in the article below.
 
-[Warning Message: Logic Pro is running as a USB 2.0 device](/support/troubleshooting/device-connection-issues/limitations-of-logic-pro-usb2)
+<a class="content-ref" href="/support/troubleshooting/device-connection-issues/limitations-of-logic-pro-usb2">Warning Message: Logic Pro is running as a USB 2.0 device</a>
 
 When used with a USB 2.0 port, Logic Pro 16 will only have 8 channels available, as opposed to having 16 channels available when used with a USB 3.0 port.

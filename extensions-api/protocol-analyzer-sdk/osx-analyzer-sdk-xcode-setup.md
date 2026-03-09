@@ -51,12 +51,12 @@ This guide was written using the 1.1.32 Analyzer SDK, Xcode version 7.2.1, and O
 
 <figure><img src="/support-assets/8_-_library_settings.png" alt=""><figcaption></figcaption></figure>
 
-* Next, we need to add the source files. Click File -> Add Files to ""...
+* Next, we need to add the source files. Click File -> Add Files to ""…
 * Note: If this is disabled, it is because you do not have the project selected in the Project Navigator.
 
 <figure><img src="/support-assets/8_5_-_add_files_menu.png" alt=""><figcaption></figcaption></figure>
 
-* Browse to the source folder in the Xcode project folder and select it. Don't select the contents. Be sure to select the folder itself.
+* Browse to the source folder in the Xcode project folder and select it. Don’t select the contents. Be sure to select the folder itself.
 * Select "Create groups" in the "Added folders" section.
 * Click Add.
 
@@ -92,7 +92,7 @@ This guide was written using the 1.1.32 Analyzer SDK, Xcode version 7.2.1, and O
 
 <figure><img src="/support-assets/12_-_add_library_part_1.png" alt=""><figcaption></figcaption></figure>
 
-* Click "Add Other...".
+* Click "Add Other…".
 
 <figure><img src="/support-assets/13_-_add_library_part_2.png" alt=""><figcaption></figcaption></figure>
 
@@ -104,14 +104,14 @@ This guide was written using the 1.1.32 Analyzer SDK, Xcode version 7.2.1, and O
 <figure><img src="/support-assets/14_-_add_library_part_3.png" alt=""><figcaption></figcaption></figure>
 
 * At this point, you should build the project so the resulting library will be created.
-*   It's worth mentioning that new Xcode versions do not save build outputs in the project directory. Instead, the default output directory looks like this:
+*   It’s worth mentioning that new Xcode versions do not save build outputs in the project directory. Instead, the default output directory looks like this:
 
     \~/Library/Developer/Xcode/DerivedData
 * You may want to change it. **The following steps are optional.**
 
 **Optional: Change build output folder**
 
-* Optional Step 1: From the file menu, select "Project Settings...".
+* Optional Step 1: From the file menu, select "Project Settings…".
 
 <figure><img src="/support-assets/optional_-_project_settings_-_edit_products_folder_menu.png" alt=""><figcaption></figcaption></figure>
 
@@ -120,14 +120,14 @@ This guide was written using the 1.1.32 Analyzer SDK, Xcode version 7.2.1, and O
 
 <figure><img src="/support-assets/optional_-_Project_Settings.png" alt=""><figcaption></figcaption></figure>
 
-* That's it for the optional steps.
+* That’s it for the optional steps.
 * Next, we will set up debugging for the project. Be sure to have the latest Saleae Logic Software installed.
-* On the "Product" menu at the top of the screen, select "Scheme" -> "Edit Scheme..."
+* On the "Product" menu at the top of the screen, select "Scheme" -> "Edit Scheme…"
 
 <figure><img src="/support-assets/15_-_edit_scheme.png" alt=""><figcaption></figcaption></figure>
 
 * Make sure "Run" is selected on the left.
-* Under "Executable" select "Other...".
+* Under "Executable" select "Other…".
 
 <figure><img src="/support-assets/16_-_debug_launch_app_menu.png" alt=""><figcaption></figcaption></figure>
 
@@ -144,7 +144,7 @@ This guide was written using the 1.1.32 Analyzer SDK, Xcode version 7.2.1, and O
 
 * Before proceeding, see this article with instructions to configure the software to load your new analyzer.
 
-[Import Custom Low Level Analyzer](/support/extensions-api/protocol-analyzer-sdk/setting-up-developer-directory)
+<a class="content-ref" href="/support/extensions-api/protocol-analyzer-sdk/setting-up-developer-directory">Import Custom Low Level Analyzer</a>
 
 * Be sure to select the folder where the debug version of the custom analyzer is saved.
 * Once the Saleae logic software has been configured and has been closed, click Run from Xcode.
@@ -154,7 +154,7 @@ This guide was written using the 1.1.32 Analyzer SDK, Xcode version 7.2.1, and O
 
 <figure><img src="/support-assets/19_-_logic_software_add_analyzer_menu.png" alt=""><figcaption></figcaption></figure>
 
-* Here is your fresh new analyzer, now added to the software. Note that our breakpoint hasn't fired yet. If you had captured data previously, it might fire now, since analyzers will automatically start processing if they are added to an existing analyzer.
+* Here is your fresh new analyzer, now added to the software. Note that our breakpoint hasn’t fired yet. If you had captured data previously, it might fire now, since analyzers will automatically start processing if they are added to an existing analyzer.
 
 <figure><img src="/support-assets/20_-_analyzer_in_Logic.png" alt=""><figcaption></figcaption></figure>
 

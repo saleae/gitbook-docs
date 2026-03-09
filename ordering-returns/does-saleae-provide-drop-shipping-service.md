@@ -1,8 +1,8 @@
-We don't offer discounts for drop-shipping. Generally, we prefer distributors who will handle all items related to shipping, handling, and stocking.
+We don’t offer discounts for drop-shipping. Generally, we prefer distributors who will handle all items related to shipping, handling, and stocking.
 
 You can view more about our discount options below:
 
-[Discounts](/support/ordering-returns/what-discounts-are-available)
+<a class="content-ref" href="/support/ordering-returns/what-discounts-are-available">Discounts</a>
 
 
 

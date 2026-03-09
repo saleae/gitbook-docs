@@ -14,7 +14,7 @@ If you believe that the Logic hardware is the source of crosstalk issues, please
 
 ### Suggestions to Avoid Crosstalk
 
-* You may try twisting together your Logic input channel's wire with its dedicated ground wire. Logic Pro 16, Logic Pro 8, Logic 8, and Logic 4 all have input channels with their own dedicated ground wires.
+* You may try twisting together your Logic input channel’s wire with its dedicated ground wire. Logic Pro 16, Logic Pro 8, Logic 8, and Logic 4 all have input channels with their own dedicated ground wires.
 * If possible, you may want to spread out the channel usage as well (e.g. use only CH1, 3, 5, and 7).
 
 ### Contacting Saleae About Crosstalk Issues

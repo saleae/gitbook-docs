@@ -1,6 +1,6 @@
-Upon opening the Logic 1.x software, you may be prompted with the following warning message. Unfortunately, we've also seen cases where this message may cause the software to crash upon closing it.
+Upon opening the Logic 1.x software, you may be prompted with the following warning message. Unfortunately, we’ve also seen cases where this message may cause the software to crash upon closing it.
 
-_This software version is no longer supported. Please update your software at www.saleae.com._
+_This software version is no longer supported. Please update your software at [www.saleae.com](https://www.saleae.com)._
 
 ![Unsupported Version Warning Message](/support-assets/Screen%20Shot%202020-08-03%20at%205.35.31%20PM%20(1).png)
 
@@ -21,4 +21,4 @@ On Ubuntu Linux & MacOS, the launch argument to bypass the warning message will 
 
 ### Why does this Warning Message Exist?
 
-If the software is unable to reach our API (either the PC is offline or goes through a strict firewall), it defaults to a 24 month timer. Once the timer is reached (meaning the PC hasn't been able to reach our API for 24 months), the error message will pop up, notifying the user to download the latest version.
+If the software is unable to reach our API (either the PC is offline or goes through a strict firewall), it defaults to a 24 month timer. Once the timer is reached (meaning the PC hasn’t been able to reach our API for 24 months), the error message will pop up, notifying the user to download the latest version.

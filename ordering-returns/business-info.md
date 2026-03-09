@@ -18,11 +18,11 @@ Our W-9 Form can be downloaded below.
 
 ### Saleae VAT Number Table
 
-The Saleae VAT number you refer to will depend on what country the order was shipped to. Please see the table below. Usually, Saleae's VAT number is needed for tax purposes, so please ensure you refer to the correct one. Please [contact us](/contact) for any questions.
+The Saleae VAT number you refer to will depend on what country the order was shipped to. Please see the table below. Usually, Saleae’s VAT number is needed for tax purposes, so please ensure you refer to the correct one. Please [contact us](/contact) for any questions.
 
 * [Verify our VAT number here](https://ec.europa.eu/taxation\_customs/vies/)
 
-| For Orders Delivered To...   | Saleae VAT Number |
+| For Orders Delivered To…   | Saleae VAT Number |
 | ---------------------------- | ----------------- |
 | Czech Republic               | CZ684355461       |
 | Germany                      | DE315984287       |

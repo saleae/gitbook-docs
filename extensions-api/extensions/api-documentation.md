@@ -88,7 +88,7 @@ The number of samples contained in this instance.
 
 #### slice\_samples(slice: slice) -> saleae.data.AnalogData
 
-Allows creating an AnalogData from a subset of this one's samples.
+Allows creating an AnalogData from a subset of this one’s samples.
 
 #### samples
 

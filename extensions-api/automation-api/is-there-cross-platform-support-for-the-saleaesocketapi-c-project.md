@@ -16,6 +16,6 @@ Once .Net core is installed and working, follow these instructions:
 4. Run "dotnet run".
 5. The sample app will automatically connect to the software and start a capture. Once the capture is finished, the console app will say "Done!" and you can press any key to exit.
 
-That's it! This is a very rough port, and a few changes need to be made off the official GitHub project. Once we are able, we will port the official GitHub project so it can run using both .NET core and the standard .NET framework.
+That’s it! This is a very rough port, and a few changes need to be made off the official GitHub project. Once we are able, we will port the official GitHub project so it can run using both .NET core and the standard .NET framework.
 
 Note: This has only been tested on Windows and Ubuntu 14.04. If you have any problems, please contact Saleae support.

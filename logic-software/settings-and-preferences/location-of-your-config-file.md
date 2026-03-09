@@ -1,7 +1,7 @@
-Your Logic software's settings are stored in a config.json file. This config file can be found in the location below.
+Your Logic software’s settings are stored in a config.json file. This config file can be found in the location below.
 
 <div class="callout callout-info">
-On Windows, please note that you will need to [**show hidden files, folders, and drives**](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-97fbc472-c603-9d90-91d0-1166d1d9f4b5#WindowsVersion=Windows_10) to see your AppData folder.
+<p>On Windows, please note that you will need to <a href="https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-97fbc472-c603-9d90-91d0-1166d1d9f4b5#WindowsVersion=Windows_10"><strong>show hidden files, folders, and drives</strong></a> to see your AppData folder.</p>
 </div>
 
 ```
@@ -15,6 +15,6 @@ On Linux Ubuntu:
 
 This config file also contains all of your Logic Presets that you have configured in the software. More information on Logic Presets can be found in the link below.
 
-[Capture & Preset File Management](/support/logic-software/saving-and-exporting-data/saving-loading-and-exporting-data)
+<a class="content-ref" href="/support/logic-software/saving-and-exporting-data/saving-loading-and-exporting-data">Capture & Preset File Management</a>
 
 You may want to backup your config file in case you wanted to backup all of the Logic Presets that you have created. This will also allow you to transfer all of your Logic Presets to another PC.

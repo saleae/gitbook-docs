@@ -25,7 +25,7 @@ Logic 2 comes with [23 built-in protocol analyzers](/support/protocol-analyzers/
 
 ### [Logic 2 Automation (Python)](https://saleae.github.io/logic2-automation/)
 
-The Logic 2 Automation API allows you to record, analyze, export, and save captures using Saleae's Logic 2 software and USB Logic Analyzers (Logic 8, Pro 8, and Pro 16). Saleae provides a python library, as well as direct gRPC ([https://grpc.io/](https://grpc.io/))  support, which can be used directly from any gRPC supported language (C#, C++, Java, Javascript, Go, etc.)
+The Logic 2 Automation API allows you to record, analyze, export, and save captures using Saleae’s Logic 2 software and USB Logic Analyzers (Logic 8, Pro 8, and Pro 16). Saleae provides a python library, as well as direct gRPC ([https://grpc.io/](https://grpc.io/))  support, which can be used directly from any gRPC supported language (C#, C++, Java, Javascript, Go, etc.)
 
 ### [Logic MSO Automation (Python)](https://docs.saleae.com/mso-api/)
 

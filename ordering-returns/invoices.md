@@ -4,7 +4,7 @@ If you are unable to locate that email or if you placed an order over the phone 
 
 When requesting an invoice, please provide as much of the following information as possible to help us locate your order.
 
-* Was the order placed with a PO, over the phone, or online at www.saleae.com?
+* Was the order placed with a PO, over the phone, or online at [www.saleae.com](https://www.saleae.com)?
 * Any ID number(s) you can locate from the order
 * The email address from the order
 * The company name or purchaser name for the order

@@ -20,13 +20,13 @@ To convert binary to hexadecimal, you simply clump the binary digits into groups
 
 #### Decimal (dec, base 10)
 
-Decimal is the way we've always learned to count. Notice how conversion from binary to decimal is not as easy as converting from binary to hexadecimal. This is the reason why engineers typically prefer to communicate in hexadecimal when referring to digital electronics.
+Decimal is the way we’ve always learned to count. Notice how conversion from binary to decimal is not as easy as converting from binary to hexadecimal. This is the reason why engineers typically prefer to communicate in hexadecimal when referring to digital electronics.
 
 ![Data in decimal](/support-assets/2018-10-09_1143.png)
 
 #### ASCII
 
-In engineering terms, ASCII (American Standard Code for Information Interchange) is technically not a radix, or numerical format, but instead is a way to represent binary into keyboard keys strokes. We've included it under our Radix settings anyways since we have no where else to put this setting!
+In engineering terms, ASCII (American Standard Code for Information Interchange) is technically not a radix, or numerical format, but instead is a way to represent binary into keyboard keys strokes. We’ve included it under our Radix settings anyways since we have no where else to put this setting!
 
 ### Display Radix Setting in Logic Software
 
@@ -44,7 +44,7 @@ Radix values can be searched one word at a time under the Decoded Protocols wind
 
 ### Radix Conversion Table
 
-| Binary (0b...) | Hexadecimal (0x...) | Decimal |
+| Binary (0b…) | Hexadecimal (0x…) | Decimal |
 | -------------- | ------------------- | ------- |
 | 0b 0000        | 0x0                 | 0       |
 | 0b 0001        | 0x1                 | 1       |

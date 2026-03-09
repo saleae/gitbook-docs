@@ -5,7 +5,7 @@ To solve this issue, we recommend using the following version of the software.
 * [Logic 2](https://www.saleae.com/downloads/)
 * Logic 1.2.40 (Download link provided below)
 
-[Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
+<a class="content-ref" href="/support/logic-software/download-and-installation/older-software-releases">Logic 1.x Download (Deprecated)</a>
 
 In case you have any trouble with the solutions above, please [contact us](/contact) and we can help towards a resolution.
 
@@ -24,7 +24,7 @@ Function: Device2::SetupDevice, Line: 118
 
 The location of the generated crash logs can be found in the support article below.
 
-[Getting your Software Crash Logs](/support/troubleshooting/diagnostic-tools/sharing-crash-logs)
+<a class="content-ref" href="/support/troubleshooting/diagnostic-tools/sharing-crash-logs">Getting your Software Crash Logs</a>
 
 We discovered this to be a bug with our logic analyzers in combination with the following processors, OSes, and PC models.
 

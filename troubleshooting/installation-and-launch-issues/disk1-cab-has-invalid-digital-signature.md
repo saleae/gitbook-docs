@@ -1,8 +1,8 @@
 <div class="callout callout-info">
-This support article pertains to the older Logic 1.x software. We recommend using the newer [Logic 2 software](https://www.saleae.com/downloads/) to avoid this error.
+<p>This support article pertains to the older Logic 1.x software. We recommend using the newer <a href="https://www.saleae.com/downloads/">Logic 2 software</a> to avoid this error.</p>
 </div>
 
-When installing the older Logic 1.x software, the following error message may appear: "A file that is required cannot be installed because the cabinet file \[...]\disk1.cab has an invalid digital signature. This may indicate that the cabinet file is corrupt."
+When installing the older Logic 1.x software, the following error message may appear: "A file that is required cannot be installed because the cabinet file \[…]\disk1.cab has an invalid digital signature. This may indicate that the cabinet file is corrupt."
 
 **Solutions**
 
@@ -11,7 +11,7 @@ When installing the older Logic 1.x software, the following error message may ap
 * Make sure the computer is up-to-date. That is good practice and is likely to resolve this issue.
 * Use the standalone version of the Logic 1.x software. That allows you to skip the installation process, bypassing this issue. You can download the latest version of the standalone software below.
 
-[Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
+<a class="content-ref" href="/support/logic-software/download-and-installation/older-software-releases">Logic 1.x Download (Deprecated)</a>
 
 **Contacting Support for Additional Help**
 

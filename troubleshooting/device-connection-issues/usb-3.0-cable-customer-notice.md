@@ -1,4 +1,4 @@
-We don't know exactly when it started, but we know that some units shipped in December 2017 and January 2018 were affected.
+We don’t know exactly when it started, but we know that some units shipped in December 2017 and January 2018 were affected.
 
 We are now including an additional USB 3.0 cable from a good source with units shipping now. This only applies to units shipped directly from Saleae, and it may be a little longer before units shipped from distributors are corrected.
 
@@ -10,7 +10,7 @@ The following behavior has been observed:
 
 The issue appears to be borderline, which is why it does not affect all users. In some cases, changing ports or hubs will solve the problem.
 
-We're still doing an investigation now. In the meantime, if you are experiencing any problems with a new Logic Pro 8 or Logic Pro 16 on some or all computers, please contact us.
+We’re still doing an investigation now. In the meantime, if you are experiencing any problems with a new Logic Pro 8 or Logic Pro 16 on some or all computers, please contact us.
 
 If you are located inside the US, we can ship you a replacement USB 3.0 cable directly.
 

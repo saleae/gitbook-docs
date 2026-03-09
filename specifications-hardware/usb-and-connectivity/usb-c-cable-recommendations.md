@@ -1,6 +1,6 @@
 ### Purchasing from our Website
 
-If you require a USB-C to Micro-USB 3.0 cable, you can purchase one from our website's [accessories page here](https://www.saleae.com/collections/accessories)! These cables can be especially handy when connecting Logic to a laptop that only has USB-C connectors available.
+If you require a USB-C to Micro-USB 3.0 cable, you can purchase one from our website’s [accessories page here](https://www.saleae.com/collections/accessories)! These cables can be especially handy when connecting Logic to a laptop that only has USB-C connectors available.
 
 ### Third Party Recommendations for Shorter Length Cables
 

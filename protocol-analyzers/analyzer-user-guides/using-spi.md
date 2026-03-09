@@ -12,7 +12,7 @@ Add the SPI analyzer to your capture. There are a number of settings for the ana
 
 Next, select the remaining settings you are using. If you are unsure what settings are used for the data you captured, you can either visually identify them or you can guess and check.
 
-* MSB/LSB first. If you can't check which mode your data uses, you may need to guess.
+* MSB/LSB first. If you can’t check which mode your data uses, you may need to guess.
 * Bits per transfer. This is almost always 8 bits but can be set up to 64 bits.
 *   Clock polarity
 
@@ -26,7 +26,7 @@ Next, select the remaining settings you are using. If you are unsure what settin
 
 ### **Multiple Devices / Enable Signals**
 
-When you have multiple devices on the same SPI bus, you will have multiple enable signals, one for each slave device. To decode data from each slave device, simply add more SPI analyzers. It's perfectly fine for all SPI analyzers to share the same clock, the MISO, and MOSI signals. Note that the GUI will indicate that those channels are already in use, but that does not mean you can't use them.
+When you have multiple devices on the same SPI bus, you will have multiple enable signals, one for each slave device. To decode data from each slave device, simply add more SPI analyzers. It’s perfectly fine for all SPI analyzers to share the same clock, the MISO, and MOSI signals. Note that the GUI will indicate that those channels are already in use, but that does not mean you can’t use them.
 
 **Different Settings for MISO and MOSI**
 
@@ -69,12 +69,12 @@ Here are the two most common causes of this:
 
 This is easy to fix. You will need to tell the SPI analyzer where the valid SPI data starts in the capture. The analyzer will then use that as the new starting point of the capture and decode data from that location.
 
-Here's how this is done:
+Here’s how this is done:
 
 1. Place a timing marker just before the start of the first valid SPI byte.
 2. Delete the data before the timing marker **(please note this cannot be undone)**. Instructions are provided in the support article below.
 
-[Delete Part of your Capture](/support/logic-software/viewing-and-analyzing-data/delete-data)
+<a class="content-ref" href="/support/logic-software/viewing-and-analyzing-data/delete-data">Delete Part of your Capture</a>
 
 
 
@@ -88,7 +88,7 @@ First, add the timing marker by clicking the A1 button on the right side of the 
 
 ![](/support-assets/ext-826041c53e-spi_marker.png)
 
-Next, open the SPI analyzer settings menu and select "Re-run starting at timing marker...". From that list, select the timing marker you just placed.
+Next, open the SPI analyzer settings menu and select "Re-run starting at timing marker…". From that list, select the timing marker you just placed.
 
 Screenshots:
 

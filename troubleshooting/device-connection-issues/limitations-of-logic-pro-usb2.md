@@ -16,13 +16,13 @@ In addition, Logic Pro 16 draws slightly more current than what USB 2.0 ports ar
 
 When connecting our USB 3.0 Logic analyzers (Logic Pro 8 and Logic Pro 16) via a USB 2.0 cable, capture settings will not persist when closing and re-opening the software. In this case, we recommend saving capture setting presets as described in the support article below.
 
-[Capture & Preset File Management](/support/logic-software/saving-and-exporting-data/saving-loading-and-exporting-data)
+<a class="content-ref" href="/support/logic-software/saving-and-exporting-data/saving-loading-and-exporting-data">Capture & Preset File Management</a>
 
 ## Legacy Information for Logic 1.x Only
 
 On our older [Logic software v1.x](/downloads), you can manually override the USB 2.0 power restriction to allow 16 channels.
 
-If you're sure the port that you are using can supply at least 700mA of current, then you can manually enable the second bank in the preferences dialog.
+If you’re sure the port that you are using can supply at least 700mA of current, then you can manually enable the second bank in the preferences dialog.
 
 <figure><img src="/support-assets/usb3_power.png" alt=""><figcaption></figcaption></figure>
 

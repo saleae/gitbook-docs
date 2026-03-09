@@ -10,6 +10,6 @@ The unlabeled black wires are ground (GND), and the signal wires are labeled 0-7
 
 ![](/support-assets/saleae_annotated_pins%20(1).png)
 
-Build your test circuit, connect at least one ground wire to your circuit's ground node, and connect one or more signal wires to the nodes you wish to measure. Note that all ground pins are shorted internally. Therefore, only one ground pin needs to be connected to your test circuit at a minimum.
+Build your test circuit, connect at least one ground wire to your circuit’s ground node, and connect one or more signal wires to the nodes you wish to measure. Note that all ground pins are shorted internally. Therefore, only one ground pin needs to be connected to your test circuit at a minimum.
 
 ![](/support-assets/saleae_example_circuit%20(1)%20(1)%20(1)%20(1).jpg)

@@ -2,11 +2,11 @@ Versions of the Saleae Logic Windows software starting with 1.2.11 require the M
 
 Details for the standalone installation can be found here:
 
-[Standalone Software Information](/support/logic-software/download-and-installation/standalone-software-info)
+<a class="content-ref" href="/support/logic-software/download-and-installation/standalone-software-info">Standalone Software Information</a>
 
 If you see either of the below errors, it is possible that the runtime is not installed properly.
 
-* "The program can't start because api-ms-win-crt-runtime-l1-1-0.dll is missing from your computer."
+* "The program can’t start because api-ms-win-crt-runtime-l1-1-0.dll is missing from your computer."
 * "The program can’t start because vcruntime140.dll is missing from your computer."
 
 **Troubleshooting Steps**
@@ -19,9 +19,9 @@ If you see either of the below errors, it is possible that the runtime is not in
     Be sure to select the x64 version if you are using a 64-bit version of Windows.
 
     After you have installed the runtime, try restarting the computer and running Logic again.
-3. If the above steps don't solve the issue, please try installing and running version 1.2.10 of our software. You can find it below.
+3. If the above steps don’t solve the issue, please try installing and running version 1.2.10 of our software. You can find it below.
 
-[Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
+<a class="content-ref" href="/support/logic-software/download-and-installation/older-software-releases">Logic 1.x Download (Deprecated)</a>
 
 **Contacting Support for Additional Help**
 

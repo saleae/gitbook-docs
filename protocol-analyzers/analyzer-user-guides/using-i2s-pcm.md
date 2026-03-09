@@ -1,6 +1,6 @@
 The Saleae Logic software includes a software protocol analyzer for the I2S digital audio protocol.
 
-The specification for the I2S audio protocol can be found from Sparkfun's website (document by Philips Semiconductors) below:
+The specification for the I2S audio protocol can be found from Sparkfun’s website (document by Philips Semiconductors) below:
 
 [I2S bus specification](https://www.sparkfun.com/datasheets/BreakoutBoards/I2SBUS.pdf)
 
@@ -22,9 +22,9 @@ Even when the I2S settings have signed number selected, unsigned numbers may alw
 
 This issue is solved by changing the display radix from ascii to decimal. Although a decimal number is shown, the single quotes indicate that the ascii display mode is active, but the number is considered a non-displayable character (in this case, outside of the low ascii range completely) so the text string defaults to unsigned decimal. Changing the display radix to decimal will show the signed number.
 
-[Changing the Display Radix (Base)](/support/logic-software/viewing-and-analyzing-data/changing-the-display-radix)
+<a class="content-ref" href="/support/logic-software/viewing-and-analyzing-data/changing-the-display-radix">Changing the Display Radix (Base)</a>
 
-#### Analyer Result displays "Error: bits don't divide evenly between subframes"
+#### Analyer Result displays "Error: bits don’t divide evenly between subframes"
 
 The analyzer result may also not display the data correctly. An image of the error is provided below.
 
@@ -40,4 +40,4 @@ That means the bits are being decoded at the exact moment the bits are changing,
 
 For more information on this, please see the link below.
 
-[Converting I2S/PCM Captures into Audio](/support/protocol-analyzers/analyzer-user-guides/convert-i2s-pcm-to-audio)
+<a class="content-ref" href="/support/protocol-analyzers/analyzer-user-guides/convert-i2s-pcm-to-audio">Converting I2S/PCM Captures into Audio</a>

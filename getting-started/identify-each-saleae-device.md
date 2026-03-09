@@ -2,9 +2,9 @@ On the back of every product is the name of the product.
 
 Logic 4, 8, Pro 8, and Pro 16 feature an embossed Saleae logo on the top. On the back, the Saleae logo is laser etched, along with the name of the product. Each of these four products is available in red or black and feature all-aluminum enclosures with metal feet.
 
-For the Logic16, now usually referred to as the original Logic16, there is no logo on the top, but it does feature a green LED. On the back, Logic16 includes the name "Logic16" and the website www.saleae.com.
+For the Logic16, now usually referred to as the original Logic16, there is no logo on the top, but it does feature a green LED. On the back, Logic16 includes the name "Logic16" and the website [www.saleae.com](https://www.saleae.com).
 
-For the Logic, now usually referred to as the original Logic, there is also no logo on the top, and the device does not have an LED. The back of the unit includes the name "Logic" and the website www.saleae.com.
+For the Logic, now usually referred to as the original Logic, there is also no logo on the top, and the device does not have an LED. The back of the unit includes the name "Logic" and the website [www.saleae.com](https://www.saleae.com).
 
 The original Logic has gone through several enclosure variations. All are black anodized aluminum. The original enclosure design was all aluminum, with the name and website laser etched on the back (the side with the visible screws). Newer versions included a rubber base, which includes the name and website as part of the mold, the same as the original Logic16.
 
@@ -12,7 +12,7 @@ There can be understandable confusion between the original Logic and the new Log
 
 **Product Names and Product Part Numbers**
 
-The official Saleae part number is not listed on the device. Just the device's name is shown. Below is a list showing each product name and part number.
+The official Saleae part number is not listed on the device. Just the device’s name is shown. Below is a list showing each product name and part number.
 
 * SAL-00109    Logic 4 Black
 * SAL-00110    Logic 4 Red
@@ -30,7 +30,7 @@ Note: "Red" or "Black" is not written on the device. This refers to the enclosur
 
 A complete list of product numbers and names, including accessories, can be found below.
 
-[Part Numbers, ECCN, HS Codes, and Country of Origin](/support/specifications-hardware/datasheets-and-compliance/saleae-part-numbers)
+<a class="content-ref" href="/support/specifications-hardware/datasheets-and-compliance/saleae-part-numbers">Part Numbers, ECCN, HS Codes, and Country of Origin</a>
 
 **Product Images**
 

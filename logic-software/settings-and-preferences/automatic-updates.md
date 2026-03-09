@@ -18,4 +18,4 @@ In case you are interested in disabling automatic updates entirely (for example,
 
 *  `SALEAE_DISABLE_UPDATE_CHECK` 
 
-If you set this environment variable to `1`, the application won't check for updates at all. You could set this in a `.bashrc` file, or use a launcher script to always start the Logic 2 software with this variable set.
+If you set this environment variable to `1`, the application won’t check for updates at all. You could set this in a `.bashrc` file, or use a launcher script to always start the Logic 2 software with this variable set.

@@ -1,4 +1,4 @@
-Although we don't support this yet, it's certainly something we will want to support in the future. We're currently tracking the feature request [here](https://ideas.saleae.com), so feel free to vote and comment on it!
+Although we don’t support this yet, it’s certainly something we will want to support in the future. We’re currently tracking the feature request [here](https://ideas.saleae.com), so feel free to vote and comment on it!
 
 ### Workaround
 
@@ -19,4 +19,4 @@ In this example, the user wanted to add protobuf analysis capabilities to their 
 >
 > Note that `/packages/install/location` is the directory where you installed the packages, not the path to the package itself.
 
-One caveat is that you can't publish extensions to our Extensions Marketplace if it uses external Python packages, mainly because they won't work on other users' PCs. Therefore, external Python package usage is limited to local use only until we add proper support for it.
+One caveat is that you can’t publish extensions to our Extensions Marketplace if it uses external Python packages, mainly because they won’t work on other users' PCs. Therefore, external Python package usage is limited to local use only until we add proper support for it.

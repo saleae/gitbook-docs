@@ -1,4 +1,4 @@
-This list contains authorized distributors selling Saleae devices. Please note that most listed distributors ship worldwide. The country shown refers to each company's main office.
+This list contains authorized distributors selling Saleae devices. Please note that most listed distributors ship worldwide. The country shown refers to each company’s main office.
 
 ![](/support-assets/ext-5b5086c364-eca04bc3-ace4-4ded-85ce-97f980267c2a.png)
 

@@ -12,7 +12,7 @@ If the drivers are installed properly, you should see _Saleae Logic X USB Logic 
 
 ### Location of Driver Files
 
-To manually install your drivers on Windows, in case you're running into the issue above, or if you are using the standalone version of our software which doesn't install drivers automatically, you will need access to the driver files. There are several ways of obtaining them mentioned below.
+To manually install your drivers on Windows, in case you’re running into the issue above, or if you are using the standalone version of our software which doesn’t install drivers automatically, you will need access to the driver files. There are several ways of obtaining them mentioned below.
 
 * For the Logic 2 software, the Drivers folder is located below:
   * `C:\Program Files\Logic\Drivers`
@@ -20,7 +20,7 @@ To manually install your drivers on Windows, in case you're running into the iss
   * `<Logic standalone folder>\Drivers\Windows`
 * For the legacy Logic 1.x software (installed), the Drivers folder is located below: 
   * `C:\Program Files\Saleae LLC\Drivers`
-* In case you don't have a previous installation of the Logic software, we provide the Drivers folder via the download link below.
+* In case you don’t have a previous installation of the Logic software, we provide the Drivers folder via the download link below.
 
 <a href="/support-assets/Saleae-Logic-Drivers.zip" download class="content-ref">Saleae-Logic-Drivers.zip</a>
 
@@ -50,9 +50,9 @@ Next, it will ask you for the device type. Select "Universal Serial Bus Controll
 
 This option is only present if no existing driver is installed. If a driver is already installed, this step will be skipped.
 
-Now you will be presented with a window like shown below. Click the "Have Disk..." button.
+Now you will be presented with a window like shown below. Click the "Have Disk…" button.
 
-![Click "Have Disk..."](/support-assets/imageedit_6_7102237241.png)
+![Click "Have Disk…"](/support-assets/imageedit_6_7102237241.png)
 
 This will open the install from the disk window, which will assume that you have inserted an installation disk into drive A with the drivers. Click browse, navigate to the drivers folder, which is detailed above under the section titled _Location of Driver Files_, and select `Saleae.inf`.
 
@@ -75,7 +75,7 @@ Saleae Logic USB Logic Analyzer\
 Saleae Logic 16 USB Logic Analyzer
 
 <div class="callout callout-info">
-It's VERY important to select the correct product. Selecting the wrong product will cause our software to download the wrong firmware image, causing undefined behavior.
+<p>It’s VERY important to select the correct product. Selecting the wrong product will cause our software to download the wrong firmware image, causing undefined behavior.</p>
 </div>
 
 There is some naming confusion here that I would like to clear up.
@@ -151,4 +151,4 @@ In case you run into any issues with installing the udev rule file using the com
 7. Open the Logic app
 8. If at this point, the udev rule has still not installed properly, please disconnect your Logic device and restart your PC and test again afterwards.
 
-In case the above steps don't help, please [contact support](/contact) and send us the command line output from the udev rull install commands above.
+In case the above steps don’t help, please [contact support](/contact) and send us the command line output from the udev rull install commands above.

@@ -1,4 +1,4 @@
-We've received a few recent reports of export speed being slow when exporting raw data to a csv file. Unfortunately, exporting to a csv file has its limits, and the time it takes to process the data depends on the following:
+We’ve received a few recent reports of export speed being slow when exporting raw data to a csv file. Unfortunately, exporting to a csv file has its limits, and the time it takes to process the data depends on the following:
 
 * Number of digital transitions in your data
 * Number of analog samples in your data
@@ -6,7 +6,7 @@ We've received a few recent reports of export speed being slow when exporting ra
 
 ### Performance Expectations
 
-We might be able to squeeze out a bit more performance in terms of speed, though due to the csv file format itself, the speed increase may be in the order of a few 10s of percent. We wouldn't be able to drastically increase the speed by 10x.
+We might be able to squeeze out a bit more performance in terms of speed, though due to the csv file format itself, the speed increase may be in the order of a few 10s of percent. We wouldn’t be able to drastically increase the speed by 10x.
 
 ### Troubleshooting Steps
 
@@ -18,7 +18,7 @@ We plan to improve the performance of our software, but in the meantime, here ar
 2. Export only a few channels
 3. Export to binary rather than CSV. We also have a sample python script to read binary data (provided in the link below, at the bottom of the article).
 
-[Binary Export Format - Version 0](/support/logic-software/saving-and-exporting-data/binary-export-format-logic-2)
+<a class="content-ref" href="/support/logic-software/saving-and-exporting-data/binary-export-format-logic-2">Binary Export Format - Version 0</a>
 
 ### How Many Digital Transitions are in my Captured Data? <a href="#how-many-digital-transitions-are-in-my-captured-data" id="how-many-digital-transitions-are-in-my-captured-data"></a>
 
@@ -32,6 +32,6 @@ Since export performance is related to how many digital transitions occur in you
 
 An alternative approach (much faster and produces a smaller file) would be to export to a binary file. More details on the binary file format can be found in the link below.
 
-[Binary Export Format - Version 0](/support/logic-software/saving-and-exporting-data/binary-export-format-logic-2)
+<a class="content-ref" href="/support/logic-software/saving-and-exporting-data/binary-export-format-logic-2">Binary Export Format - Version 0</a>
 
 ![Exporting to a Binary File](/support-assets/Screen%20Shot%202021-04-12%20at%206.30.44%20PM.png)

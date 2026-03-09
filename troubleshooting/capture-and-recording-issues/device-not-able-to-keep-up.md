@@ -4,7 +4,7 @@ When attempting to capture data, you may encounter a ReadTimeout error message: 
 
 ### Why Does the Error Message Appear?
 
-The Saleae Logic produces data at a fixed rate and can't tolerate periodic delays between read requests because the device side buffer space is limited. This error message shows up when the device side buffer has run out of memory caused by delays on the USB line during data capture. The Original Logic is the most sensitive to this issue. The newer products (Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16) have significantly larger device side stream buffers and should have no problem with this.
+The Saleae Logic produces data at a fixed rate and can’t tolerate periodic delays between read requests because the device side buffer space is limited. This error message shows up when the device side buffer has run out of memory caused by delays on the USB line during data capture. The Original Logic is the most sensitive to this issue. The newer products (Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16) have significantly larger device side stream buffers and should have no problem with this.
 
 ### **If the Error Occurs Immediately after Clicking 'Start'**
 
@@ -21,13 +21,13 @@ This may indicate a potentially different issue and could be caused by one of th
 * If you are using a laptop, ensure it is plugged in, as running it on battery power may be limiting USB performance.
 * Try removing any USB hubs between Logic and the host PC.
 * Try removing any USB extension cables. We recommend using the supplied USB cable, or using a USB cable that is as short as possible to avoid any issues with signal integrity.
-* Try using the device on other USB ports. If you're using one of the USB 2.0 products, try all the ports on the PC since that will test with all host controllers.
+* Try using the device on other USB ports. If you’re using one of the USB 2.0 products, try all the ports on the PC since that will test with all host controllers.
 * Try reconnecting Logic to the PC.
 * Test the device on another PC to help rule out a hardware problem.
-* If using the newer Logic products, disable all analog channels, enable a single digital channel, and note the maximum digital sampling rate that can capture data consistently without the error. Capturing analog data at any sampling rate maximizes the bandwidth usage capability of Logic, so we want to disable analog to effectively lower Logic's USB bandwidth usage.
+* If using the newer Logic products, disable all analog channels, enable a single digital channel, and note the maximum digital sampling rate that can capture data consistently without the error. Capturing analog data at any sampling rate maximizes the bandwidth usage capability of Logic, so we want to disable analog to effectively lower Logic’s USB bandwidth usage.
 * If on USB 2.0, try moving all attached devices to one host controller so Logic has its own host controller. Try both host controllers since one may perform better than the other. Instructions to test this are below.
 
-[Moving Logic to Its Own Host Controller](/support/troubleshooting/device-connection-issues/move-logic-to-its-own-host-controller)
+<a class="content-ref" href="/support/troubleshooting/device-connection-issues/move-logic-to-its-own-host-controller">Moving Logic to Its Own Host Controller</a>
 
 * If a USB hub is required to use your Logic analyzer (for example, your PC only has USB-C ports and you require a USB-C hub), please try disabling USB selective suspend. An example in Windows is shown below via right clicking your USB hub in Device Manager and clicking Properties. Then navigate to the Power Management tab and you will find an options to "Allow the computer to turn off this device to save power." Uncheck this option.
 
@@ -42,16 +42,16 @@ If the error persists after trying the troubleshooting steps, please [contact su
 * What OS you are using, the version of that OS, and if it is 32-bit or 64-bit
 * The host controller(s) installed in your system, including the driver version. See the article below for instructions on how to find it.
 
-[Finding Your USB 3.0 Host Controller Information](/support/specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info)
+<a class="content-ref" href="/support/specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info">Finding Your USB 3.0 Host Controller Information</a>
 
-* Screenshots or a detailed description of the error message(s) you're seeing in the software
+* Screenshots or a detailed description of the error message(s) you’re seeing in the software
 * Description of how often the failure is occurring and if there is any pattern to the issue
 
 ## **Considerations for the Original Logic**
 
 * On some computers, the Original Logic might not be able to consistently capture at its maximum sample rate of 24 MSPS or even at 16 MSPS. However, on most computers, the device should be able to reliably capture at 12 MSPS. This is due to its small device side buffer.
 
-If, even after trying the above recommendations, your Original Logic can't record consistently faster than 12 MSPS, you may want to consider one of the following options:
+If, even after trying the above recommendations, your Original Logic can’t record consistently faster than 12 MSPS, you may want to consider one of the following options:
 
 * Add a new host controller to your PC, either a PCI express card or a laptop ExpressCard.
 * Upgrade to a newer Saleae product that has larger device side buffers.

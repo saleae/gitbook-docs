@@ -1,5 +1,5 @@
 <div class="callout callout-info">
-If the Saleae Logic LED blinks red while connected to a MacOS computer, please contact us right away. Usually, this indicates faulty hardware.
+<p>If the Saleae Logic LED blinks red while connected to a MacOS computer, please contact us right away. Usually, this indicates faulty hardware.</p>
 </div>
 
 If the Saleae Logic LED blinks red, then the firmware did not load properly. The firmware is loaded to the Logic hardware every time it is connected to the PC and when the Logic software is started. You will notice a percentage indicator at the top of the software while the firmware is loaded.
@@ -15,7 +15,7 @@ The red LED blinking could be caused by several factors listed below.
 * Ensure you are running the [latest version of the Logic software](https://www.saleae.com/downloads/).
 * Test Logic on another PC. This may help rule out a potential hardware issue.
 * Test another USB cable.
-* Test all USB ports on your PC. We've seen issues where certain ports (usually front PC ports) cause issues due to the length of wires used to reach the PC's motherboard.
+* Test all USB ports on your PC. We’ve seen issues where certain ports (usually front PC ports) cause issues due to the length of wires used to reach the PC’s motherboard.
 
 ### Contacting Support
 
@@ -26,7 +26,7 @@ Please [contact us](/contact) if the red LED continues to blink even after tryin
 * Did your Saleae Logic previously work on your PC?
 * Share the following screenshot of your USB host controller with us.
 
-[Finding Your USB 3.0 Host Controller Information](/support/specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info)
+<a class="content-ref" href="/support/specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info">Finding Your USB 3.0 Host Controller Information</a>
 
 
 

@@ -12,17 +12,17 @@ As the analyzer searches the data for the trigger event, it also continues to bu
 
 That all works normally as long as the software is able to search the recorded data as fast as it is streamed to the PC, which is called running in real time.
 
-However, in some cases, usually on slower PCs or on fast PCs when the sample rate is high and the recorded data density is very high, the trigger search system can't keep up with how fast data are arriving from the device. The trigger search system keeps working, but it gets behind, creating a backlog of data.
+However, in some cases, usually on slower PCs or on fast PCs when the sample rate is high and the recorded data density is very high, the trigger search system can’t keep up with how fast data are arriving from the device. The trigger search system keeps working, but it gets behind, creating a backlog of data.
 
-This backlog of data is data that has been recorded from the logic analyzer and streamed from the PC but hasn't been searched yet for the trigger condition. If this backlog continues to linearly grow as more time passes, which is usually the case when the software isn't able to search fast enough, the memory usage on the PC will also linearly grow.
+This backlog of data is data that has been recorded from the logic analyzer and streamed from the PC but hasn’t been searched yet for the trigger condition. If this backlog continues to linearly grow as more time passes, which is usually the case when the software isn’t able to search fast enough, the memory usage on the PC will also linearly grow.
 
 There is no limit on this. The longer the software continues to search for the trigger, the more the backlog will grow and the more the memory usage will increase until the computer runs out of memory and the disk is no longer able to swap fast enough. In this case, our software tries to detect that the system is out of memory and stop the capture with the "out of memory exception was thrown" and automatically end the capture.
 
-[Error Message: Out of Memory Exception Was Thrown](/support/troubleshooting/software-crashes-and-errors/error-out-of-memory-exception)
+<a class="content-ref" href="/support/troubleshooting/software-crashes-and-errors/error-out-of-memory-exception">Error Message: Out of Memory Exception Was Thrown</a>
 
 However, not all computers and operating systems behave the same way. In the worst case, the software will become unresponsive and will need to be manually halted.
 
-This is a particular concern when taking a capture with a trigger that does not occur frequently. It's important to note that even if the trigger search can't run in real time, as long as the trigger event occurs quickly after starting the capture (within a few seconds), everything will be fine. However, if the trigger backlog is rapidly growing, then the system may run out of memory before the trigger condition can be found.
+This is a particular concern when taking a capture with a trigger that does not occur frequently. It’s important to note that even if the trigger search can’t run in real time, as long as the trigger event occurs quickly after starting the capture (within a few seconds), everything will be fine. However, if the trigger backlog is rapidly growing, then the system may run out of memory before the trigger condition can be found.
 
 **How to Monitor the Backlog Status**
 
@@ -30,7 +30,7 @@ During the capture, press the "More Detail" link on the capture progress dialog.
 
 <figure><img src="/support-assets/backlog%20(1).png" alt=""><figcaption></figcaption></figure>
 
-* "Waiting for trigger..." indicates that the software has not yet detected the trigger condition. Once the trigger has been detected, the dialog information changes.
+* "Waiting for trigger…" indicates that the software has not yet detected the trigger condition. Once the trigger has been detected, the dialog information changes.
 * Digital Samples Collected: This is the total number of digital samples that have been recorded by the device since the start of the capture.
 * Sample Processing Backlog: Before the recorded digital data can be searched for the trigger, it first needs to be transformed into the data format used by the Saleae software. This backlog indicates if the sample processing system is or is not able to keep up with the capture in real time.
 * Trigger Search Backlog: This is the trigger search backlog and indicates if the trigger search system is able to keep up or not.

@@ -34,7 +34,7 @@ Additionally, direct purchase orders (POs) that are processed via email will alw
 
 Saleae observes the typical United States holidays and does not ship on the following days:
 
-* New Year's Day (January 1)
+* New Year’s Day (January 1)
 * Memorial Day (last Monday in May)
 * Independence Day (July 4)
 * Labor Day (first Monday in September)

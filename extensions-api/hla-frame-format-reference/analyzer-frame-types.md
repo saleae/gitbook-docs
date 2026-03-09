@@ -14,7 +14,7 @@ Python High Level Analyzers allow users to write custom code that processes the 
 
 ### Adding HLA Support for More Analyzers
 
-We've released documentation on our FrameV2 API below, which can be used to add HLA support for any low level analyzer that is not listed above, including custom analyzers that were created using our Protocol Analyzer SDK.
+We’ve released documentation on our FrameV2 API below, which can be used to add HLA support for any low level analyzer that is not listed above, including custom analyzers that were created using our Protocol Analyzer SDK.
 
 <a href="/support/extensions-api/protocol-analyzer-sdk/framev2-hla-support-analyzer-sdk" class="content-ref">FrameV2 / HLA Support - Analyzer SDK</a>
 

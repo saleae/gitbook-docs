@@ -4,7 +4,7 @@ The Logic 2 software consists of the following sections:
 
 ### 1. Logic Analyzer Connection Status
 
-This button allows you to check your logic analyzer's connection status with the software. Clicking it will allow you to view device information such as the device type, serial number, and calibration status.
+This button allows you to check your logic analyzer’s connection status with the software. Clicking it will allow you to view device information such as the device type, serial number, and calibration status.
 
 <div class="video-embed"><iframe src="https://player.vimeo.com/video/454544519" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen loading="lazy"></iframe></div>
 
@@ -33,13 +33,13 @@ The side panel buttons offer various ways to configure your logic analyzer setti
 
 ![Side Panel Buttons](/support-assets/Screen%20Shot%202020-09-23%20at%205.02.24%20PM.png)
 
-[Device Settings](/support/logic-software/capturing-data/capture-settings)
+<a class="content-ref" href="/support/logic-software/capturing-data/capture-settings">Device Settings</a>
 
-[Analyzers](/support/logic-software/viewing-and-analyzing-data/using-protocol-analyzers)
+<a class="content-ref" href="/support/logic-software/viewing-and-analyzing-data/using-protocol-analyzers">Analyzers</a>
 
-[Measurements, Timing Markers & Notes](/support/logic-software/viewing-and-analyzing-data/measurements-timing-markers)
+<a class="content-ref" href="/support/logic-software/viewing-and-analyzing-data/measurements-timing-markers">Measurements, Timing Markers & Notes</a>
 
-[extensions](/support/extensions-api/extensions/installing-extensions)
+<a class="content-ref" href="/support/extensions-api/extensions/installing-extensions">Extension Installation</a>
 
 ### 6. Time Scale Adjustment
 
@@ -49,7 +49,7 @@ The time scale for the displayed waveforms can be adjusted to an exact time valu
 
 ### Other Useful Features
 
-Several more useful tasks can be performed from the main software view, such as...
+Several more useful tasks can be performed from the main software view, such as…
 
 * Renaming Channels
 * Reordering, Resizing, & Scaling Channels

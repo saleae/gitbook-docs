@@ -12,7 +12,7 @@ Note: Bits where channels are not present will remain 0.
 
 The downshifting option can be a little confusing.
 
-Let's say you are exporting channels 0, 3, 4, 5, and 7 and you are using a 16-bit word size. Without downshifting enabled, that would simply match each bit in the 16-bit word to a channel where unused channels would stay blank, like this: 0b00000000X0XXX00X. Where X contains channel data. 0b--------7-543--0 (or like this, where "-" is always zero, and a number represents the bitstate of that channel.) Downshifting will shift channels to fill in any zeros, like so: 0b00000000000XXXXX 0b-----------75430
+Let’s say you are exporting channels 0, 3, 4, 5, and 7 and you are using a 16-bit word size. Without downshifting enabled, that would simply match each bit in the 16-bit word to a channel where unused channels would stay blank, like this: 0b00000000X0XXX00X. Where X contains channel data. 0b--------7-543--0 (or like this, where "-" is always zero, and a number represents the bitstate of that channel.) Downshifting will shift channels to fill in any zeros, like so: 0b00000000000XXXXX 0b-----------75430
 
 Then, when exporting every sample, you will end with a binary file that has a size in bytes of (word size in bytes \* sample count). There is no header or other data in the file, and it can easily be read by any library that supports reading and writing binary files.
 
@@ -34,7 +34,7 @@ The following Export Format and Binary Settings will produce a binary data expor
 
 Analog binary analog export does contain a basic header before the data sections. You can find full details on the analog binary export format here:
 
-[Binary Export Format (Analog) - Logic 1.x](/support/logic-software/saving-and-exporting-data/data-export-format-analog-binary)
+<a class="content-ref" href="/support/logic-software/saving-and-exporting-data/data-export-format-analog-binary">Binary Export Format (Analog) - Logic 1.x</a>
 
 
 

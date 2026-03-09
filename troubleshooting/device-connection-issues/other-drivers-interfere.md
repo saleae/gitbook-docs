@@ -1,12 +1,12 @@
-It is possible for other drivers to associate themselves with a Saleae device. This won't necessarily cause problems, but we have seen at least one issue in the past where a conflict prevented proper operation of the device.
+It is possible for other drivers to associate themselves with a Saleae device. This won’t necessarily cause problems, but we have seen at least one issue in the past where a conflict prevented proper operation of the device.
 
-Also, it's always a good idea to verify that your USB 3.0 host controller drivers are up to date below.
+Also, it’s always a good idea to verify that your USB 3.0 host controller drivers are up to date below.
 
-[Finding Your USB 3.0 Host Controller Information](/support/specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info)
+<a class="content-ref" href="/support/specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info">Finding Your USB 3.0 Host Controller Information</a>
 
-[Warning Message: Possible USB Host Controller Problem Detected](/support/troubleshooting/device-connection-issues/usb-driver-problem)
+<a class="content-ref" href="/support/troubleshooting/device-connection-issues/usb-driver-problem">Warning Message: Possible USB Host Controller Problem Detected</a>
 
-We've seen two types of drivers become associated with a Saleae device.
+We’ve seen two types of drivers become associated with a Saleae device.
 
 * Software USB protocol analyzers
 * Specialized high current USB port drivers
@@ -19,9 +19,9 @@ Navigate to the driver tab. Click the button "driver details"
 
 Note the files listed in the "driver files" list.
 
-<div align="center"><figure><img src="/support-assets/driver_file_list.png" alt=""><figcaption></figcaption></figure></div>
+<figure><img src="/support-assets/driver_file_list.png" alt=""><figcaption></figcaption></figure>
 
-These four drivers are part of the WinUSB driver, which all Saleae devices use on all versions of Windows. Note that 4 files are listed - if not all 4 drivers are listed, that's OK.
+These four drivers are part of the WinUSB driver, which all Saleae devices use on all versions of Windows. Note that 4 files are listed - if not all 4 drivers are listed, that’s OK.
 
 * winusb.sys
 * WdfCoInstaller01007.dll

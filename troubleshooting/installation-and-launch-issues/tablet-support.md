@@ -2,5 +2,5 @@ The Saleae Logic software does install and run on Windows 10 tablets. Most featu
 
 The Saleae Logic software currently does not support Windows RT tablets. You can read more about our supported operating systems here:
 
-[Supported Operating Systems](/support/logic-software/download-and-installation/supported-operating-systems)
+<a class="content-ref" href="/support/logic-software/download-and-installation/supported-operating-systems">Supported Operating Systems</a>
 

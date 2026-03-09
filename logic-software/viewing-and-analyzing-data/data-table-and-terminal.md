@@ -6,9 +6,9 @@ The analyzer data table shows all decoded protocol data in a table format. In ge
 
 ![The Analyzer Data Table Displaying I2C data](/support-assets/Screen%20Shot%202021-07-14%20at%205.33.57%20PM.png)
 
-To learn more about the different columns that are used for Saleae's built-in analyzers, please refer to the support article below.
+To learn more about the different columns that are used for Saleae’s built-in analyzers, please refer to the support article below.
 
-[analyzer-frame-types](/support/extensions-api/hla-frame-format-reference/serial-analyzer)
+<a class="content-ref" href="/support/extensions-api/hla-frame-format-reference/serial-analyzer">Async Serial - Frame Format</a>
 
 ### Excluding Analyzers and Columns
 
@@ -76,11 +76,11 @@ This happens rarely, and is a known issue at the moment. The root problem is tha
 
 There are two main options in the short term to work around this.
 
-1. If you only need to read data from a single analyzer, and not multiple analyzers combined into one export, then you can use our older, analyzer-specific export option. The format is a little different, but it's consistent. Instructions can be found below, under the _Exporting Analyzer Results_ section\
+1. If you only need to read data from a single analyzer, and not multiple analyzers combined into one export, then you can use our older, analyzer-specific export option. The format is a little different, but it’s consistent. Instructions can be found below, under the _Exporting Analyzer Results_ section\
    [Exporting Data](/support/logic-software/saving-and-exporting-data/exporting-data)
 2. We usually use a CSV parsing library that makes it easy to access values by header name, like pandas for python, where we can simply use string names for stuff like \["address"] and it will grab data from the correct column. This makes it easy to parse the export format independent of column order.
 
-Long term, we don't have a solution planned for this yet. The data table has to handle many different columns from different analyzers, including custom user created analyzers. We would like to add the ability to manually re-order the columns, or we could perhaps automatically keep them in alphabetical order, but I'm not sure any of these solutions will be that helpful. Ultimately, I think we may want to expand analyzers to allow them to control their column order, however that won't address the case where analyzers of different types are added, especially if some of their columns overlap.
+Long term, we don’t have a solution planned for this yet. The data table has to handle many different columns from different analyzers, including custom user created analyzers. We would like to add the ability to manually re-order the columns, or we could perhaps automatically keep them in alphabetical order, but I’m not sure any of these solutions will be that helpful. Ultimately, I think we may want to expand analyzers to allow them to control their column order, however that won’t address the case where analyzers of different types are added, especially if some of their columns overlap.
 
 #### Scrollbar Limitations
 
@@ -93,7 +93,7 @@ Workarounds:
 * The End and Home keys can be used to instantly jump to the end or beginning of the data table respectively.
 * You can jump directly to a data table row from the waveform. Details on this are described in a section of this support article above.
 
-In case this is something you'd like us to improve, please vote for [this feature request](https://ideas.saleae.com)!
+In case this is something you’d like us to improve, please vote for [this feature request](https://ideas.saleae.com)!
 
 #### Search Limitations
 
@@ -103,15 +103,15 @@ In general, the search system is case-insensitive. If you would like to use case
 
 Limitations:
 
-* The 'Start' and 'Duration' columns can't be searched.
+* The 'Start' and 'Duration' columns can’t be searched.
 * when searching data shown in hexadecimal or binary, searching for a hex or binary number starting with '0x' or '0b' will force the search to match the beginning of the number. However, searching for '0', 'x', or '0x' by itself will not match the hex or binary prefix. This is a departure from the normal "search for what you see" functionality, but will eliminate accidental searches which may match with all rows of an analyzer.
-* when searching a byte array data type (like MISO, MOSI, and many other analyzer result types) that are displayed in the ASCII display radix, you may see dot characters ('.') in positions where the data isn't a displayable ASCII character. These characters cannot be searched for. Only ASCII characters can be searched. For example, if a cell displays 'ab...yz' you can search for 'a', 'b', 'ab', 'y', 'z', and 'yz' to match it, but you can't search for 'ab...yz' because the dot ('.') characters are unmatchable.
+* when searching a byte array data type (like MISO, MOSI, and many other analyzer result types) that are displayed in the ASCII display radix, you may see dot characters ('.') in positions where the data isn’t a displayable ASCII character. These characters cannot be searched for. Only ASCII characters can be searched. For example, if a cell displays 'ab…yz' you can search for 'a', 'b', 'ab', 'y', 'z', and 'yz' to match it, but you can’t search for 'ab…yz' because the dot ('.') characters are unmatchable.
 
 #### The Data Table May Show Incorrect Values
 
 When using low level analyzers (LLAs) such as our Async Serial or SPI analyzer, you may notice issues with how values appear in the data table, specifically while viewing results in decimal format. More information on this can be found in the support article below.
 
-[Data Table Shows Incorrect Values](/support/troubleshooting/data-and-analysis-issues/data-table-shows-incorrect-values)
+<a class="content-ref" href="/support/troubleshooting/data-and-analysis-issues/data-table-shows-incorrect-values">Data Table Shows Incorrect Values</a>
 
 ## Terminal View
 
@@ -123,7 +123,7 @@ A terminal view is available by clicking the "Terminal" button at the top-right 
 
 #### Terminal Output is not in Time Order
 
-Currently, our terminal view does not output results in time order if more than one analyzer is outputting data to the terminal. Instead, our terminal view will group the output results by analyzer. We've received requests for adding support for ensuring time order when using multple analyzers. Please feel free to share your feedback on this in the feature request post here: [Feature Request - Terminal Messages to be Timeline Ordered](https://ideas.saleae.com)
+Currently, our terminal view does not output results in time order if more than one analyzer is outputting data to the terminal. Instead, our terminal view will group the output results by analyzer. We’ve received requests for adding support for ensuring time order when using multple analyzers. Please feel free to share your feedback on this in the feature request post here: [Feature Request - Terminal Messages to be Timeline Ordered](https://ideas.saleae.com)
 
 ![Toolip for this behavior from within the app](/support-assets/Screen%20Shot%202022-04-08%20at%206.12.38%20PM.png)
 
@@ -136,7 +136,7 @@ Our in-app terminal view has a scroll-back limit of 10,000 rows. Once the 10,000
 
 #### Radix Display within the Terminal
 
-* **Async Serial & Manchester** - will always attempt to display in ASCII format. If the ASCII opcode doesn't exist, then it will be displayed in hex, separated by backslashes (\\) as shown below. Notice that the first set of opcodes (0 to 0x1F) do not exist and are therefore displayed as hex. As the opcode increments and become valid, ASCII characters are displayed.
+* **Async Serial & Manchester** - will always attempt to display in ASCII format. If the ASCII opcode doesn’t exist, then it will be displayed in hex, separated by backslashes (\\) as shown below. Notice that the first set of opcodes (0 to 0x1F) do not exist and are therefore displayed as hex. As the opcode increments and become valid, ASCII characters are displayed.
 
 ![Async Serial Terminal View Example](/support-assets/Screen%20Shot%202021-09-10%20at%205.21.15%20PM.png)
 
@@ -160,7 +160,7 @@ We use xtermjs for our in-app terminal. According to the xtermjs GitHub issue li
 
 <a href="https://github.com/xtermjs/xterm.js/issues/3178" target="_blank" rel="noopener">https://github.com/xtermjs/xterm.js/issues/3178</a>
 
-If you're running into this issue, please vote/comment on our [idea post here](https://ideas.saleae.com), which we are using to track this bug.
+If you’re running into this issue, please vote/comment on our [idea post here](https://ideas.saleae.com), which we are using to track this bug.
 
 #### Terminal Text Seems to be Missing
 

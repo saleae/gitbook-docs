@@ -2,7 +2,7 @@ Although the digital and analog inputs for each channel share the same input sig
 
 Logic Pro 8 and Logic Pro 16 use comparators in the digital signal path. The Logic 8 and Logic 4 use simpler buffer chips and do not have selectable voltage thresholds.
 
-The digital signal first passes through a low pass filter to attenuate pulses that are significantly smaller than the device's maximum digital bandwidth. This helps eliminate high-frequency noise that is above the bandwidth of the device from getting into the capture.
+The digital signal first passes through a low pass filter to attenuate pulses that are significantly smaller than the device’s maximum digital bandwidth. This helps eliminate high-frequency noise that is above the bandwidth of the device from getting into the capture.
 
 After that filter, the input is connected to a digital comparator, which is also fed with a selectable reference voltage. In the case of Logic 8 or Logic 4, a digital buffer chip is used. That signal is finally passed into the FPGA where it is sampled at the internal sample rate of the device (500 MSPS for Pro devices, 100 MSPS for Logic 8). In the case of Logic 4, no FPGA is used, and the data is sampled using the latch feature of the digital buffer IC.
 

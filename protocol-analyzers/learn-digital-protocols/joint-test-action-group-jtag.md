@@ -1,4 +1,4 @@
-JTAG (Joint Test Action Group) is often used to program and debug microcontrollers, embedded systems, FPGAs, and much more. It has a wide range of capabilities and is supported by a large amount of hardware. It's extremely flexible and can be used for many other purposes. When using the JTAG analyzer, make sure you are sampling at least 4 times faster than the clock speed to accurately capture the data.
+JTAG (Joint Test Action Group) is often used to program and debug microcontrollers, embedded systems, FPGAs, and much more. It has a wide range of capabilities and is supported by a large amount of hardware. It’s extremely flexible and can be used for many other purposes. When using the JTAG analyzer, make sure you are sampling at least 4 times faster than the clock speed to accurately capture the data.
 
 **Top Resources**
 

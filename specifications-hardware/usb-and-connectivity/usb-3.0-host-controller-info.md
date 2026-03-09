@@ -15,7 +15,7 @@ Our support team may request for your USB host controller information in cases w
 If you are using the older Logic 1.x software, the USB host controller information can be found from within the software.
 
 <div class="callout callout-info">
-This article only applies to the Logic 1 software, and does not apply to Logic 2. Logic 2 users can get their host controller data from device manager, in the "Universal Serial Bus Controllers" section.
+<p>This article only applies to the Logic 1 software, and does not apply to Logic 2. Logic 2 users can get their host controller data from device manager, in the "Universal Serial Bus Controllers" section.</p>
 </div>
 
 On Windows, the latest Saleae software has a feature to automatically retrieve this information.
@@ -36,7 +36,7 @@ For support finding the latest driver for your host controller, or on the reques
 
 You can find a complete list of the latest driver releases for Windows 7 below:
 
-[Warning Message: Possible USB Host Controller Problem Detected](/support/troubleshooting/device-connection-issues/usb-driver-problem)
+<a class="content-ref" href="/support/troubleshooting/device-connection-issues/usb-driver-problem">Warning Message: Possible USB Host Controller Problem Detected</a>
 
 **OS X and Linux**
 

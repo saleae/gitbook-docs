@@ -15,7 +15,7 @@ If the quote request form is somehow not working on your end, please [contact su
 * Products and Quantity
 * Shipping City and Country
 * Shipping Option (select an option below)
-  * Use Saleae's shipping account - shipping costs will be added to the quote
+  * Use Saleae’s shipping account - shipping costs will be added to the quote
   * Use your own shipping account (only via PO)
 
 #### Optional Information
@@ -31,13 +31,13 @@ If the quote request form is somehow not working on your end, please [contact su
 
 For reference, you may refer to the list of products we sell below.
 
-[Part Numbers, ECCN, HS Codes, and Country of Origin](/support/specifications-hardware/datasheets-and-compliance/saleae-part-numbers)
+<a class="content-ref" href="/support/specifications-hardware/datasheets-and-compliance/saleae-part-numbers">Part Numbers, ECCN, HS Codes, and Country of Origin</a>
 
 ### Placing a Purchase Order?
 
 If you plan on placing a purchase order, please review the requirements and process below before submitting your quote:
 
-[Place a Purchase Order (PO)](/support/ordering-returns/place-a-purchase-order-po)
+<a class="content-ref" href="/support/ordering-returns/place-a-purchase-order-po">Place a Purchase Order (PO)</a>
 
 
 

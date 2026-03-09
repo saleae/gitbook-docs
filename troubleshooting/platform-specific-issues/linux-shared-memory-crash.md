@@ -43,7 +43,7 @@ Alternatively, the problem can be solved by manually removing the shared memory 
     key        shmid      owner      perms      bytes      nattch     status
     0x3b020040 4849684    root       600        4          1
     ```
-3.  Locate the semaphore. The semaphore used by the Logic software is harder to identify. Odds are that it will be the only root-owned semaphore in the list. If it's not, you might want to try closing all other applications that are running as root.
+3.  Locate the semaphore. The semaphore used by the Logic software is harder to identify. Odds are that it will be the only root-owned semaphore in the list. If it’s not, you might want to try closing all other applications that are running as root.
 
     ```
     ------ Semaphore Arrays --------
@@ -60,8 +60,8 @@ Alternatively, the problem can be solved by manually removing the shared memory 
 
 ## Solution #3
 
-Removing the following files from the /tmp directory may solve the issue (Note that the "..." in the file names below represents a unique 40 character hexadecimal code).
+Removing the following files from the /tmp directory may solve the issue (Note that the "…" in the file names below represents a unique 40 character hexadecimal code).
 
-* /tmp/qipc\_sharedmemory\_qlipper...
-* /tmp/qipc\_systemsem\_qlipper...
-* /tmp/qipc\_systemsem\_sharedmemorylogicinstancecount...
+* /tmp/qipc\_sharedmemory\_qlipper…
+* /tmp/qipc\_systemsem\_qlipper…
+* /tmp/qipc\_systemsem\_sharedmemorylogicinstancecount…

@@ -1,16 +1,16 @@
 <div class="callout callout-info">
-This documentation is for binary export version 0, which is still in use for Logic 8, Logic Pro 8, and Logic Pro 16. Upcoming products use version 1, which is documented in the support article here: [binary-and-csv-export-formats-2025-update.md](/support/logic-software/saving-and-exporting-data/binary-and-csv-export-formats-2025-update)
+<p>This documentation is for binary export version 0, which is still in use for Logic 8, Logic Pro 8, and Logic Pro 16. Upcoming products use version 1, which is documented in the support article here: <a href="/support/logic-software/saving-and-exporting-data/binary-and-csv-export-formats-2025-update">binary-and-csv-export-formats-2025-update.md</a>
 
-Logic 8, Logic Pro 8, and Logic Pro 16 exports will be updated to use the new version 1 binary export format soon, but for now, they only support the original version, version 0.
+Logic 8, Logic Pro 8, and Logic Pro 16 exports will be updated to use the new version 1 binary export format soon, but for now, they only support the original version, version 0.</p>
 </div>
 
 The binary file format summarized in this support article pertains to binary files exported via exporting raw data described in the support article linked below.
 
-[Exporting Data](/support/logic-software/saving-and-exporting-data/exporting-data)
+<a class="content-ref" href="/support/logic-software/saving-and-exporting-data/exporting-data">Exporting Data</a>
 
 If you were looking into converting your .sal capture file into the binary file format described in the support article, you can refer to the support article linked below.
 
-[Is the .sal File Format Documented?](/support/logic-software/saving-and-exporting-data/sal-file-format)
+<a class="content-ref" href="/support/logic-software/saving-and-exporting-data/sal-file-format">Is the .sal File Format Documented?</a>
 
 ## Binary Export Format (Version 0)
 
@@ -244,6 +244,6 @@ A community user has generously shared their C-based binary parser for digital c
 
 If you are using Logic 1.x, please refer to the articles below.
 
-[Binary Export Format (Digital) - Logic 1.x](/support/logic-software/saving-and-exporting-data/binary-data-export-format)
+<a class="content-ref" href="/support/logic-software/saving-and-exporting-data/binary-data-export-format">Binary Export Format (Digital) - Logic 1.x</a>
 
-[Binary Export Format (Analog) - Logic 1.x](/support/logic-software/saving-and-exporting-data/data-export-format-analog-binary)
+<a class="content-ref" href="/support/logic-software/saving-and-exporting-data/data-export-format-analog-binary">Binary Export Format (Analog) - Logic 1.x</a>

@@ -2,7 +2,7 @@ On Windows Vista through Windows 10, the older software (up to and including 1.1
 
 #### **Clicking the Options Button Underneath the 'X'**
 
-If you can't see the options menu button because your theme is set to white, try clicking about a quarter inch below the 'X' button on the window title.
+If you can’t see the options menu button because your theme is set to white, try clicking about a quarter inch below the 'X' button on the window title.
 
 ![](/support-assets/2019-08-27_1742.png)
 

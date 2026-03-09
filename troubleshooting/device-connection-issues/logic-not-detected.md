@@ -2,15 +2,15 @@
 
 First, we will want to test if the Logic hardware or the USB cable has issues. We have a set of hardware tests in the support article below for submitting a warranty claim.
 
-[Submit a Warranty Claim](/support/ordering-returns/process-a-warranty)
+<a class="content-ref" href="/support/ordering-returns/process-a-warranty">Submit a Warranty Claim</a>
 
-If the device works at least once during the tests described in the support article linked above, it may be a problem that's solvable with software or driver updates. In that case, please proceed to Part 2: Troubleshooting the Connection to the Software below.
+If the device works at least once during the tests described in the support article linked above, it may be a problem that’s solvable with software or driver updates. In that case, please proceed to Part 2: Troubleshooting the Connection to the Software below.
 
 ## **Part 2: Troubleshooting the Connection to the Software**
 
 First, if you are troubleshooting Logic Pro 8 or Logic Pro 16, please check the link below to double check its connection to your PC via USB 3.0.  
 
-[Logic Does Not Connect over USB 3.0](/support/troubleshooting/device-connection-issues/logic-does-not-connect-over-usb3)
+<a class="content-ref" href="/support/troubleshooting/device-connection-issues/logic-does-not-connect-over-usb3">Logic Does Not Connect over USB 3.0</a>
 
 Please note that the windows driver update check will NOT update USB 3.0 host controller drivers. These are not included in the Windows update driver database and must be manually updated
 
@@ -47,7 +47,7 @@ This is called the software connection procedure. It needs to be repeated in ord
 * We have heard reports of the Logic 2 app failing to detect the Logic hardware, even though the hardware is being successfully detected by the PC via lsusb (i.e. the VID/PID of the Logic hardware appear correct). Launching `sudo Logic --no-sandbox` seems to solves it for these users. For more information, this solution is discussed further in the [forum post here](https://discuss.saleae.com/t/unable-to-start-on-ubuntu-20-04/474).
 * When the Logic 2 app is opened, a udev rule file is checked. If the udev rule is missing, then an error message will popup to prompt you to install the proper udev rule file. Please refer to the support article below, specifically under the section titled _Linux Ubuntu Instructions_, for more information on the solution.
 
-[Driver Install](/support/logic-software/download-and-installation/driver-install)
+<a class="content-ref" href="/support/logic-software/download-and-installation/driver-install">Driver Install</a>
 
 If neither of the above solve the connection issue, this likely means that the Logic 2 app is able to connect to the device but some error occurs during the connection, and the software silently fails to connect. If the issue persists, please skip to _Contacting Support_ at the bottom of this article.
 
@@ -62,7 +62,7 @@ If neither of the above solve the connection issue, this likely means that the L
     Second, the software does not have permissions to access the device. This is extremely rare, even in the presence of enterprise permission environments. Try running the software as the administrator to see if that works.
 
     Finally, this message can also be shown if there is a more serious USB issue. If this message is shown at the same time as the message "Please unplug, and then reconnect your device," it likely indicates a problem with either the USB cable or the USB host controller.
-*   On Linux, if you see the message "A Logic device was found, but there was a problem connecting to it, it is probably because you don't have permissions to access it. Take a look in the drivers folder for instructions, or run this program as root (i.e., use sudo from the command line). This could also be caused by having multiple instances of the Logic software running. Let us know if you still have problems.
+*   On Linux, if you see the message "A Logic device was found, but there was a problem connecting to it, it is probably because you don’t have permissions to access it. Take a look in the drivers folder for instructions, or run this program as root (i.e., use sudo from the command line). This could also be caused by having multiple instances of the Logic software running. Let us know if you still have problems.
 
     This could happen due to several reasons.
 
@@ -72,7 +72,7 @@ If neither of the above solve the connection issue, this likely means that the L
 
 **The Device Fails to Re-enumerate after Firmware Download**
 
-If the device fails to re-enumerate after the firmware download completes, the software will not display any messages. To detect this situation, you need to monitor the device's appearance in Device Manager or something similar before and after the software starts up. Please run the following procedure.
+If the device fails to re-enumerate after the firmware download completes, the software will not display any messages. To detect this situation, you need to monitor the device’s appearance in Device Manager or something similar before and after the software starts up. Please run the following procedure.
 
 * Follow the procedure in the section "PC Detection of the Device over USB" and locate the device in Device Manager (Windows), lsusb (Linux), or system report (OSX).
 * Start the software. Wait 10 seconds.
@@ -82,7 +82,7 @@ If the device fails to re-enumerate after the firmware download completes, the s
 
       On Linux, rerun lsusb. Is the device still listed? Its name may have changed. Check by VID and PID.
 
-      On OSX, you must manually refresh system report from the menu since it does not auto-refresh. Check to see if the device is still listed, missing, or if its name has changed to "Saleae Logic...".
+      On OSX, you must manually refresh system report from the menu since it does not auto-refresh. Check to see if the device is still listed, missing, or if its name has changed to "Saleae Logic…".
 
     * If the device is no longer listed, that means the firmware download finished and the device disconnected but never reconnected. If connected to a USB 3.0 port, it could indicate a USB 3.0 host controller or driver issue. If connected to a 3.0 port with a 3.0 cable, it could indicate a host controller issue, a host driver issue, or a USB 3.0 cable issue.
 *   Retest on both USB 3.0 and USB 2.0 ports, with USB 3.0 and USB 2.0 cables, if applicable.
@@ -92,7 +92,7 @@ If the device fails to re-enumerate after the firmware download completes, the s
       If the device only works over USB 3.0, or if on one or more computers it does not work over USB 2.0, please contact support, as this may be a new issue.
 * Collect more information. Follow the instructions in the article below in the section titled "Steps to Collect Additional Data" to capture the console output of the software, which may contain more information of the issue preventing the device from reconnecting.
 
-[The Software Crashes](/support/troubleshooting/software-crashes-and-errors/software-has-crashed)
+<a class="content-ref" href="/support/troubleshooting/software-crashes-and-errors/software-has-crashed">The Software Crashes</a>
 
 **The Device Re-enumerates after Firmware Download, but an Error Immediately Occurs**
 
@@ -116,11 +116,11 @@ Please provide the following information:
        Once you have found the host controller, take note of the full name. Then check the driver version.
 6. Send us your Machine ID, software crash logs, and console output (instructions are provided in the links below).
 
-[Getting your Machine ID](/support/troubleshooting/diagnostic-tools/sharing-your-machine-id)
+<a class="content-ref" href="/support/troubleshooting/diagnostic-tools/sharing-your-machine-id">Getting your Machine ID</a>
 
-[Getting your Software Crash Logs](/support/troubleshooting/diagnostic-tools/sharing-crash-logs)
+<a class="content-ref" href="/support/troubleshooting/diagnostic-tools/sharing-crash-logs">Getting your Software Crash Logs</a>
 
-[Getting the Console Output](/support/troubleshooting/diagnostic-tools/console-output)
+<a class="content-ref" href="/support/troubleshooting/diagnostic-tools/console-output">Getting the Console Output</a>
 
 
 

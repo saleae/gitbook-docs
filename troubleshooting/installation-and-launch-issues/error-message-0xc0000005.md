@@ -14,7 +14,7 @@ This affects all releases of our software after and including version 1.1.21. Re
 
 Version 1.1.20 is very old and does not support the current hardware products (Logic 4, Logic 8, Logic Pro 8, Logic Pro 16). Older versions of our software can be downloaded below.
 
-[Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
+<a class="content-ref" href="/support/logic-software/download-and-installation/older-software-releases">Logic 1.x Download (Deprecated)</a>
 
 **Steps to Verify That a Compatability Issue Is Preventing the Software to Launch**
 
@@ -26,7 +26,7 @@ If the 1.1.20 software runs but the 1.1.34 software does not, that indicates tha
 **Steps to Fix the Problem**
 
 1. Try disabling anti-virus programs and then relaunch the software.
-2. If you are using disk encryption software, see if there is a way to exclude the Saleae Logic software folder from encryption. (Note: Microsoft's integrated disk encryption is not likely to cause this problem; only 3rd-party tools have been known to cause these issues.)
+2. If you are using disk encryption software, see if there is a way to exclude the Saleae Logic software folder from encryption. (Note: Microsoft’s integrated disk encryption is not likely to cause this problem; only 3rd-party tools have been known to cause these issues.)
 3. Check for any running debuggers (visual studio, etc.) and close them. Try again.
 4. Try running the software as the administrator.
 5. Download the "Windows 32 bit standalone" version of the latest software here and test it. Before running Logic.exe, you will need to install the included Microsoft visual studio runtime.

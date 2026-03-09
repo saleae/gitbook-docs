@@ -1,4 +1,4 @@
-The Device Settings Panel can be opened up by clicking on the Device Settings icon located on the software's side panel on the right.
+The Device Settings Panel can be opened up by clicking on the Device Settings icon located on the software’s side panel on the right.
 
 ![Device Settings Button](/support-assets/Screen%20Shot%202021-12-07%20at%201.51.02%20PM.png)
 
@@ -42,24 +42,24 @@ In the example image below, selecting Digital 125 MS/s will **increase** (<mark 
 
 Logic Pro 8, Logic Pro 16, and our Original Logic16 all feature adjustable voltage thresholds, which can be set via the voltage dropdown setting next to the digital sampling rate setting. The _3.3+ Volts_ setting, for example, will set the voltage threshold to half that value, or 1.65 V. Our other logic analyzer models have a fixed voltage threshold, and therefore do not have this setting. For more information on the voltage setting options and thresholds, see our support article on this below.
 
-[Supported Voltages](/support/specifications-hardware/electrical-characteristics/supported-voltages)
+<a class="content-ref" href="/support/specifications-hardware/electrical-characteristics/supported-voltages">Supported Voltages</a>
 
 ### Capture Settings Presets
 
 Capture settings presets can be saved and loaded locally as needed. You can navigate to the support article below for more information on this.
 
-[Capture & Preset File Management](/support/logic-software/saving-and-exporting-data/saving-loading-and-exporting-data)
+<a class="content-ref" href="/support/logic-software/saving-and-exporting-data/saving-loading-and-exporting-data">Capture & Preset File Management</a>
 
 ### Capture Modes - Looping, Timer, & Trigger
 
 For more information on the available capture modes and their specific settings, see the support article below.
 
-[Capture Modes](/support/logic-software/capturing-data/capture-modes)
+<a class="content-ref" href="/support/logic-software/capturing-data/capture-modes">Capture Modes</a>
 
 ### LED Settings and Color
 
 <div class="callout callout-info">
-Unfortunately this feature is not available in the newer Logic 2 software. If you would like to see this feature implemented, please vote on it [here](https://ideas.saleae.com)!
+<p>Unfortunately this feature is not available in the newer Logic 2 software. If you would like to see this feature implemented, please vote on it <a href="https://ideas.saleae.com">here</a>!</p>
 </div>
 
 

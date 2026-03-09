@@ -1,8 +1,8 @@
 <div class="callout callout-info">
-While testing these issues during the development between 1.2.3 and 1.2.5, we noticed that some of these issues dissipated after updating to OS X 10.10.5 and 10.11. The software release 1.2.5 also goes a long way to improve the reliability of the new products. The OS X update had the biggest impact on the original Logic's maximum sample rate, allowing us to reliably capture for more than 10 seconds on the original Logic at 24 MSPS. Some captures for 60 seconds did fail early, but most completed, which is the expected performance.
+<p>While testing these issues during the development between 1.2.3 and 1.2.5, we noticed that some of these issues dissipated after updating to OS X 10.10.5 and 10.11. The software release 1.2.5 also goes a long way to improve the reliability of the new products. The OS X update had the biggest impact on the original Logic’s maximum sample rate, allowing us to reliably capture for more than 10 seconds on the original Logic at 24 MSPS. Some captures for 60 seconds did fail early, but most completed, which is the expected performance.</p>
 </div>
 
-We've recently noticed a spike in crashes or sampling errors on our OSX software, which we are working on fixing now.
+We’ve recently noticed a spike in crashes or sampling errors on our OSX software, which we are working on fixing now.
 
 1.  Occasional crashes with the new products when pressing "Start," usually after a number of previous captures.
 
@@ -17,7 +17,7 @@ We've recently noticed a spike in crashes or sampling errors on our OSX software
      We are working on a software and firmware update right now that will eliminate this problem. It will be released in the next update.
 2.  Crashes when connecting the original Logic to the software on OS X.
 
-     We've recently seen a new crash in our USB connection code on a number of OS X computers. This crash is platform-specific and will not appear on other platforms.
+     We’ve recently seen a new crash in our USB connection code on a number of OS X computers. This crash is platform-specific and will not appear on other platforms.
 
      We suspect an update to OS X has caused one of the IOKit USB functions we call during the connection process to return an error, which our software does not currently handle.
 

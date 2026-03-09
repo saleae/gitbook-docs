@@ -1,13 +1,13 @@
 The maximum bandwidth of a signal you can record with our Logic analyzers can be found in their respective datasheets linked below.
 
-[Datasheets](/support/specifications-hardware/datasheets-and-compliance/datasheets)
+<a class="content-ref" href="/support/specifications-hardware/datasheets-and-compliance/datasheets">Datasheets</a>
 
 Please note that the maximum digital and analog bandwidths listed in our datasheets assumes that the maximum sampling rate available for that device is used.
 
 Additionally, we provide some general rules below:
 
-* When recording signals using Logic's digital channels, you should select a sampling rate that is at least 4 times faster than the recorded signal's bandwidth.
-* When recording signals using Logic's analog channels, you should select a sampling rate that is at least 10 times faster than the recorded signal's bandwidth.
+* When recording signals using Logic’s digital channels, you should select a sampling rate that is at least 4 times faster than the recorded signal’s bandwidth.
+* When recording signals using Logic’s analog channels, you should select a sampling rate that is at least 10 times faster than the recorded signal’s bandwidth.
 * There is an exception however. Specifically, for Logic Pro 8 and Logic Pro 16, when a digital channel is configured with a sampling rate of 500 MSPS, the maximum bandwidth is 100 MHz digital (not 125 MHz) due to hardware limitations.
 
 **About Maximum Sampling Rates**

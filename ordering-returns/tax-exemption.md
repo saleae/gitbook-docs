@@ -1,6 +1,6 @@
 ## Tax Exemption Process for U.S. Orders
 
-1. Please ensure that your tax exemption certificate meets the requirements for your particular state. You can refer to [California's Resale Certificate Requirements](https://www.taxes.ca.gov/Sales_and_Use_Tax/ResaleCertificate.html) as an example.
+1. Please ensure that your tax exemption certificate meets the requirements for your particular state. You can refer to [California’s Resale Certificate Requirements](https://www.taxes.ca.gov/Sales_and_Use_Tax/ResaleCertificate.html) as an example.
 2. Before placing your online order at [www.saleae.com](https://www.saleae.com/), please [contact us](/contact) and let us know you would like sales tax removed on future orders. Include an attachment of your tax exemption certificate.
 3. Our support team will reply within 1 business day after the tax exemption certificate is submitted.
 4. After approval, your future orders on [www.saleae.com](https://www.saleae.com/) will be tax-exempt when using the email you have provided to us.

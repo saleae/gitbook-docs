@@ -12,7 +12,7 @@ The output file is raw binary in _Little Endian_ order. The file format is as fo
 
 **32-bit float array** for the second channel – Every sample for this channel will be exported here.
 
-....
+…
 
 **32-bit float array** for the last channel:
 
@@ -29,7 +29,7 @@ f2d7 7a3e 0000 a040 0000 a040 0000 a040\
 0000 a040 0000 a040 0000 a040 0000 a040\
 0000 a040 0000 a040 0000 a040 0000 a040
 
-...
+…
 
 There are 0x0000000000051554 (Decimal: 333140) samples.
 

@@ -14,18 +14,18 @@ The two known USB host controller driver combinations with problems (ASMedia hos
 
 if you are running into any connectivity issues, feel free to collect the information about your USB host controller (instructions in the support article below) and contact [Saleae support](/contact).
 
-[Finding Your USB 3.0 Host Controller Information](/support/specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info)
+<a class="content-ref" href="/support/specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info">Finding Your USB 3.0 Host Controller Information</a>
 
 #### Troubleshooting your Connection
 
-1. Once you've found your USB 3.0 Host Controller Information, check to see if your Saleae Logic device is in the device manager list.
+1. Once you’ve found your USB 3.0 Host Controller Information, check to see if your Saleae Logic device is in the device manager list.
 2. Open the Logic 2 software, and check to see if the device connects. If not, check to see if the device has disappeared from device manager.
 3. Please restart your computer to see if the connection issue persists.
 4. If the connection issue persists even after your computer is restarted, then a driver update may be required.
 5. If there is a driver available for your computer, there is a good chance Windows Update will have it. To check, open Windows Update, and click "View optional updates" and expand "Driver Updates."
 
 <div class="callout callout-warning">
-If your driver is not shown in the list of "Driver Updates" in Windows Update, then there is no update available from Windows Update. In this case, you should not attempt to force install one of their update packages.
+<p>If your driver is not shown in the list of "Driver Updates" in Windows Update, then there is no update available from Windows Update. In this case, you should not attempt to force install one of their update packages.</p>
 </div>
 
 ## Latest USB 3.0 Host Controller Drivers
@@ -35,7 +35,7 @@ If your driver is not shown in the list of "Driver Updates" in Windows Update, t
 Windows 10 & Windows 8.1/8 use a new Microsoft-created USB 3.0 driver that supports all USB 3.0 host controllers. This driver works extremely well, and it is the recommended driver for all USB 3.0 host controllers with the exception of the following host controllers
 
 * **Intel USB 3.1 eXtensible Host Controller (Driver Date: Nov 2020)**
-  * We've received reports of some issues with the November version of Intel's USB 3.1 eXtensible Host Controller. Please check Windows Update if it reports any optional updates available for your USB host controller as shown in the image below.
+  * We’ve received reports of some issues with the November version of Intel’s USB 3.1 eXtensible Host Controller. Please check Windows Update if it reports any optional updates available for your USB host controller as shown in the image below.
 
 ![Checking Optional Updates via Windows Update](/support-assets/ext-295a5ed15c-Screen-Shot-2021-05-18-at-5.50.50-PM.png)
 
@@ -76,14 +76,14 @@ Note: `lsusb` must be run when the Saleae Logic device is connected.
 
 In our older Logic 1.x software, you can identify which USB 3.0 host controller(s) is installed on your system. Most machines will have a single USB 3.0 host controller and two USB 2.0 host controllers. To find the installed host controller(s), please follow the instructions below.
 
-[Finding Your USB 3.0 Host Controller Information](/support/specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info)
+<a class="content-ref" href="/support/specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info">Finding Your USB 3.0 Host Controller Information</a>
 
 ## Unsupported Operating Systems
 
 ### Windows 7 and Older
 
 <div class="callout callout-warning">
-Microsoft support for Windows 7 ended on January 14, 2020
+<p>Microsoft support for Windows 7 ended on January 14, 2020</p>
 </div>
 
 Most common problems with Logic Pro 8 and Logic Pro 16 on Windows 7 can be solved by simply updating the USB 3.0 host controller drivers manually.

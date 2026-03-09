@@ -1,4 +1,4 @@
-All test equipment will have some effect on the signal that it's recording. This effect is usually referred to as loading.
+All test equipment will have some effect on the signal that it’s recording. This effect is usually referred to as loading.
 
 In addition to probe loading, certain types of device failure or partial device failure can cause significantly higher than normal loading. This type of failure is usually limited to only one channel on the device and is covered under the Saleae 3-year warranty.
 
@@ -14,13 +14,13 @@ If you are recording an open drain bus or another bus topology other than CMOS o
 
 If you notice negative effects on your application when a logic analyzer is applied, first check for ground loops. If the problem is caused by a common mode ground voltage, then the issue will appear the moment a ground pin from Logic is attached to your circuit and not when an input probe is connected. The issue will also only be present when the logic analyzer is attached to the host PC and when the device under test is powered. For more information on ground loops, see this article below.
 
-[Safety & Warranty](/support/specifications-hardware/product-comparison-and-selection/safety-and-warranty)
+<a class="content-ref" href="/support/specifications-hardware/product-comparison-and-selection/safety-and-warranty">Safety & Warranty</a>
 
 In the absence of a ground loop problem, there could be a problem with one or a few of the inputs on the device. Try using different input channels on the logic analyzer. Also try measuring the resistance between the input pin and the ground pin on the logic analyzer using a multi-meter. If you see a lower resistance than specified for that device, let us know, and we can replace it under warranty.
 
 Please also perform the basic channel functional test described in this article.
 
-[The Captured Data Looks Incorrect](/support/troubleshooting/capture-and-recording-issues/captured-data-looks-incorrect)
+<a class="content-ref" href="/support/troubleshooting/capture-and-recording-issues/captured-data-looks-incorrect">The Captured Data Looks Incorrect</a>
 
 **Original Logic Input States**
 
@@ -32,11 +32,11 @@ The easiest way to connect and disconnect Logic from your device under test is t
 
 The other Saleae devices do not have significantly different loading when unpowered.
 
-The original Logic is also the only Saleae device to use pulled up inputs. All other Saleae devices have inputs that are pulled to ground. This could cause issues with a circuit that relies on very weak pull-down resistors or when the circuit needs to correctly detect a high-Z state. In these cases, modifications to the circuit may be required. For instance, an extra pull-down resistor could be added to counteract the original Logic's pull-ups.
+The original Logic is also the only Saleae device to use pulled up inputs. All other Saleae devices have inputs that are pulled to ground. This could cause issues with a circuit that relies on very weak pull-down resistors or when the circuit needs to correctly detect a high-Z state. In these cases, modifications to the circuit may be required. For instance, an extra pull-down resistor could be added to counteract the original Logic’s pull-ups.
 
 More information on the inputs of the original Logic can be found below.
 
-[Supported Voltages](/support/specifications-hardware/electrical-characteristics/supported-voltages)
+<a class="content-ref" href="/support/specifications-hardware/electrical-characteristics/supported-voltages">Supported Voltages</a>
 
 **Still Unable to Identify the Problem**
 

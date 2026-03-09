@@ -10,7 +10,7 @@ Our tutorial video below demonstrates the basics of decoding data using protocol
 
 ### Protocol Bubble Merging
 
-When zooming out, we've implemented a feature that merges seperate protocol bubble results into a single protocol bubble. The decoded data in the newly merged bubble will be displayed in sequential order. A number will also appear on the left side of the bubble. This number indicates how many protocol bubbles were merged together.
+When zooming out, we’ve implemented a feature that merges seperate protocol bubble results into a single protocol bubble. The decoded data in the newly merged bubble will be displayed in sequential order. A number will also appear on the left side of the bubble. This number indicates how many protocol bubbles were merged together.
 
 ![Protocol Bubbles Separated - Zoomed In](/support-assets/Screen%20Shot%202021-10-26%20at%203.50.43%20PM.png)
 
@@ -28,7 +28,7 @@ In case an analyzer is producing incorrect results, or in case an analyzer has g
 
 The glitch filter is designed to help remove noise picked up in the digital recording. This can be especially useful when using protocol analyzers, since present noise may prevent proper decoding of digital data. More information on enabling the glitch filter can be found below.
 
-[Software Glitch Filter](/support/logic-software/viewing-and-analyzing-data/software-glitch-filter)
+<a class="content-ref" href="/support/logic-software/viewing-and-analyzing-data/software-glitch-filter">Software Glitch Filter</a>
 
 
 

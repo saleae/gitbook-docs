@@ -1,4 +1,4 @@
-We've tested the following USB 3.0 chipsets:
+We’ve tested the following USB 3.0 chipsets:
 
 * Intel 7, 8, and 9 series
 * VIA
@@ -23,17 +23,17 @@ We have not yet performed a full evaluation on "ExpressCard" Laptop add on cards
 
 ### Instructions to identify currently installed host controllers
 
-[Finding Your USB 3.0 Host Controller Information](/support/specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info)
+<a class="content-ref" href="/support/specifications-hardware/usb-and-connectivity/usb-3.0-host-controller-info">Finding Your USB 3.0 Host Controller Information</a>
 
 ### Latest driver information
 
-[Warning Message: Possible USB Host Controller Problem Detected](/support/troubleshooting/device-connection-issues/usb-driver-problem)
+<a class="content-ref" href="/support/troubleshooting/device-connection-issues/usb-driver-problem">Warning Message: Possible USB Host Controller Problem Detected</a>
 
 ### Known Issues with VIA Host Controllers
 
 There is a known issue with corrupting data captures when using Saleae Logic with VIA host controllers. The simple fix is to update the VIA host controller driver. More information on the issue can be found below.
 
-[The Captured Data is Corrupted](/support/troubleshooting/capture-and-recording-issues/the-captured-data-is-corrupted)
+<a class="content-ref" href="/support/troubleshooting/capture-and-recording-issues/the-captured-data-is-corrupted">The Captured Data is Corrupted</a>
 
 
 

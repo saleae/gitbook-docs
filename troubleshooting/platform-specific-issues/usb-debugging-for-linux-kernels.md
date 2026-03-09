@@ -14,7 +14,7 @@ When running a capture, the Saleae Logic analyzer device streams capture data ov
 
 In order to reduce the likelihood of this from happening, the PC keeps a certain amount of read requests in the queue at all times. As reads complete, more read requests are queued. By default, at any time there are about one-third of a second’s worth of read requests queued at any given moment.
 
-In order to queue a read request, its read buffer needs to be allocated before it can be queued. That means that at all times, there is about one-third of a second's worth of USB transfer buffers pre-allocated.
+In order to queue a read request, its read buffer needs to be allocated before it can be queued. That means that at all times, there is about one-third of a second’s worth of USB transfer buffers pre-allocated.
 
 At the highest throughput, that’s about 83 MB of RAM—not that much, really.
 

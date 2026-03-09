@@ -1,5 +1,5 @@
 <div class="callout callout-warning">
-This guide assumes that you have familiarity with the [Python](https://www.python.org/) programming language. It is what will be used to customize our Measurement. Browse user shared [Analog Measurement Extensions](/support/extensions-api/extensions/analog-measurement-extensions) and [Digital Measurement Extensions](/support/extensions-api/extensions/digital-measurement-extensions) for own use or inspiration.
+<p>This guide assumes that you have familiarity with the <a href="https://www.python.org/">Python</a> programming language. It is what will be used to customize our Measurement. Browse user shared <a href="/support/extensions-api/extensions/analog-measurement-extensions">Analog Measurement Extensions</a> and <a href="/support/extensions-api/extensions/digital-measurement-extensions">Digital Measurement Extensions</a> for own use or inspiration.</p>
 </div>
 
 ## Overview
@@ -92,7 +92,7 @@ Immediately after construction, the function `def process_data(self, data):` wil
 
 The Saleae Logic software stores collected data in chunks. To keep python processing performant, the Logic software passes these blocks, or sections of these blocks, one at a time to your measurement. If the requested measurement range does not line up with the internal block storage, the objects passed to python will already be adjusted to the measurement range, so no work needs to be done to handle this condition.
 
-This makes it impossible to know exactly how much data will be needed for the given measurement range the first time `process_data` is called. Be sure to update the internal state of your class in such a way that this isn't a problem. For example, when computing the average analog value over a range, it would be best to hold the sum of all values passed to `process_data` and the total count of samples in data members, and only compute the average in the `measure` function.
+This makes it impossible to know exactly how much data will be needed for the given measurement range the first time `process_data` is called. Be sure to update the internal state of your class in such a way that this isn’t a problem. For example, when computing the average analog value over a range, it would be best to hold the sum of all values passed to `process_data` and the total count of samples in data members, and only compute the average in the `measure` function.
 
 #### Process Analog Measurements
 
@@ -100,7 +100,7 @@ For analog measurements, `data` is an instance of `AnalogData`, which is an `ite
 
 `samples` is a [numpy](https://numpy.org/) [ndarray](https://docs.scipy.org/doc/numpy/reference/arrays.ndarray.html). For information handling this type, please refer to the numpy documentation.
 
-The `process_data` function should not return a value. Instead, it should update the internal state of your class, such that the `measure` function can produce your measurement's results.
+The `process_data` function should not return a value. Instead, it should update the internal state of your class, such that the `measure` function can produce your measurement’s results.
 
 #### Process Digital Measurements
 
@@ -131,18 +131,18 @@ Currently, the `DigitalData` collection will first include the starting time and
 
 ### Measure
 
-The `def measure(self):` function will be called on your class once all data has been passed to `process_data`.  This will only be called once and should return a dictionary with one key for every `requested_measurements` entry that was passed into your class's constructor.
+The `def measure(self):` function will be called on your class once all data has been passed to `process_data`.  This will only be called once and should return a dictionary with one key for every `requested_measurements` entry that was passed into your class’s constructor.
 
 <div class="callout callout-info">
-in the future, we may allow the user to select which metrics to compute. To avoid unnecessary processing, it's recommended to check the `requested_measurements` provided by the constructor before computing or returning those values. However, returning measurements that were not requested is allowed. The results will just be ignored.
+<p>in the future, we may allow the user to select which metrics to compute. To avoid unnecessary processing, it’s recommended to check the <code>requested_measurements</code> provided by the constructor before computing or returning those values. However, returning measurements that were not requested is allowed. The results will just be ignored.</p>
 </div>
 
-## What's Next?
+## What’s Next?
 
 * Browse the Saleae Marketplace in Logic 2 for more ideas and examples of extensions you can create.
 * [Publish your extension](/support/extensions-api/extensions/publish-an-extension) to the Saleae Marketplace!
 
-[Publish an Extension](/support/extensions-api/extensions/publish-an-extension)
+<a class="content-ref" href="/support/extensions-api/extensions/publish-an-extension">Publish an Extension</a>
 
 
 

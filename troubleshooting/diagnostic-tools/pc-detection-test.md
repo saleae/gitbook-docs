@@ -8,13 +8,13 @@ In cases where the software cannot detect the logic analyzer, we need to determi
 
 4\. If the PC detects the Logic device properly, open the Logic software. If the Logic software still does not detect your device, then the hardware is likely OK and this may be a software issue. Proceed to _Part 2: Troubleshooting the Connection to the Software_, found in the support article linked below.
 
-[Logic is Not Detected](/support/troubleshooting/device-connection-issues/logic-not-detected)
+<a class="content-ref" href="/support/troubleshooting/device-connection-issues/logic-not-detected">Logic is Not Detected</a>
 
 ### **Windows:** 
 
 Open Device Manager. Expand the section "Universal Serial Bus controllers" and check for "Saleae Logic X USB Logic Analyzer" where "X" is the specific product version (4, 8, Pro 8, Pro 16, etc.). If "unidentified device" or "Westbridge" appears, then there is a problem with the Saleae driver. In these cases, please follow the instructions in the support article below to re-install your Saleae driver.
 
-[Driver Install](/support/logic-software/download-and-installation/driver-install)
+<a class="content-ref" href="/support/logic-software/download-and-installation/driver-install">Driver Install</a>
 
 ![Device Manager](/support-assets/DeviceManagerBorder.png)
 
@@ -22,7 +22,7 @@ Open Device Manager. Expand the section "Universal Serial Bus controllers" and c
 
 First, connect your Logic analyzer. \
 \
-Next, open "System Report" by opening the Apple menu and selecting "About this Mac," and then select "More Info..." Afterwards, scroll down and select "System Report..." In the new window, select Hardware > USB. **It's important to connect your Logic analyzer first before opening "System Report", since "System Report" may not dynamically update it's list of connected device if a USB device is connected while it's open.**\
+Next, open "System Report" by opening the Apple menu and selecting "About this Mac," and then select "More Info…" Afterwards, scroll down and select "System Report…" In the new window, select Hardware > USB. **It’s important to connect your Logic analyzer first before opening "System Report", since "System Report" may not dynamically update it’s list of connected device if a USB device is connected while it’s open.**\
 \
 **Please make sure the Logic Software is not running** running when checking this. Otherwise, the device will not appear with the relevant information we are looking for.
 
@@ -40,6 +40,6 @@ On Apple-silicon based Macbooks, a "Vender-Specific Device" should be listed in 
 
 Run `lsusb` from the command line. Check for any device name containing "Saleae" or a VID and PID that matches one of our Logic products. You can refer to the VID/PIDs of our devices in the support article below for reference.
 
-[Device USB VID and PID Information](/support/troubleshooting/device-connection-issues/the-devices-usb-vid-and-pid-failed)
+<a class="content-ref" href="/support/troubleshooting/device-connection-issues/the-devices-usb-vid-and-pid-failed">Device USB VID and PID Information</a>
 
 ![Linux Terminal - lsusb](/support-assets/Screen%20Shot%202022-06-10%20at%204.13.16%20PM.png)

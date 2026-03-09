@@ -3,7 +3,7 @@ None of the Saleae devices electrically isolate the ground of the device under t
 ### USB 3.0 SuperSpeed 1kV Isolator
 
 <div class="callout callout-info">
-The ALLDAQ USB 3.0 SuperSpeed Isolator pictured below is no longer available for purchase on our website. We've left it's specifications here for reference. At the moment, this can be purchased [directly from ALLDAQ](https://www.alldaq.com/).
+<p>The ALLDAQ USB 3.0 SuperSpeed Isolator pictured below is no longer available for purchase on our website. We’ve left it’s specifications here for reference. At the moment, this can be purchased <a href="https://www.alldaq.com/">directly from ALLDAQ</a>.</p>
 </div>
 
 ![](/support-assets/SAL-00140_8.jpeg)
@@ -26,7 +26,7 @@ You can also fully isolate the host PC and all other attached peripherals from o
 
 ### USB 2.0 Isolator
 
-There is one [USB 2.0 high-speed isolator](https://intona.eu/en/products/) on the market that we've tested it here, and it works very well.
+There is one [USB 2.0 high-speed isolator](https://intona.eu/en/products/) on the market that we’ve tested it here, and it works very well.
 
 Unfortunately, there is one limitation. It can only provide 300mA of current to the downstream port, which is less than the standard 500mA from USB 2.0 ports. This is not a problem for Logic 4 or Logic 8. However, Logic Pro 8 and Logic Pro 16 will require the USB 3.0 Super-Speed Isolator mentioned above.
 

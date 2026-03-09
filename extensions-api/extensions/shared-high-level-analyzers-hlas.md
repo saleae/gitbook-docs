@@ -30,7 +30,7 @@
 
 **Version:** 0.1.0\
 **Author:** Rani Horev\
-**Description:** Parse AdaFruit's Seesaw modules data
+**Description:** Parse AdaFruit’s Seesaw modules data
 
 **Extensions:**
 
@@ -658,7 +658,7 @@ Manufacturer seems to be ZOYI/Zotek, Model ZTY.
 
 **Version:** 1.0.0\
 **Author:** Yaniv Wolfus\
-**Description:** Analzyer for SPI transceivers. Currently supports the stm32wl's transceiver.
+**Description:** Analzyer for SPI transceivers. Currently supports the stm32wl’s transceiver.
 
 **Extensions:**
 
@@ -898,7 +898,7 @@ Manufacturer seems to be ZOYI/Zotek, Model ZTY.
 #### [R/C Protocol Analyzer ★ 0](https://github.com/vinbedded/Logic_RC_Protocol_Analyzer)
 
 **Version:** 0.0.1\
-**Author:** Vincent D'Alessandro\
+**Author:** Vincent D’Alessandro\
 **Description:** Analyzer for R/C bus protocols
 
 **Extensions:**

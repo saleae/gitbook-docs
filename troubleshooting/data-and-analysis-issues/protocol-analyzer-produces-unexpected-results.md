@@ -28,11 +28,11 @@ Finally, submit all this to [support](/contact). Our online form supports attach
 
       Looking at a clocked (synchronous) protocol? If you see missing decoded words or the byte alignment gets offset (words are not starting/stopping on the correct bit), there could be single sample wide glitches appearing near the clock edges. Check all the edges to see if they have clock arrow markers on them. If one clock edge is missing the arrow marker, zoom in on that edge as far as it will go. You might find two clock edges right next to each other, causing an offset in the results. That can be resolved using the software glitch filter below.
 
-[Software Glitch Filter](/support/logic-software/viewing-and-analyzing-data/software-glitch-filter)
+<a class="content-ref" href="/support/logic-software/viewing-and-analyzing-data/software-glitch-filter">Software Glitch Filter</a>
 
 *   Logic analyzer capture begins after communication starts, and protocol analyzer is unable to re-synchronize.
 
-      Some protocols with specific packet structures, such as CAN or 1-wire, require that the beginning of a packet be recorded before the rest of the packet's contents are decoded. The analyzer in this case may not decode any results until the second packet in the capture.
+      Some protocols with specific packet structures, such as CAN or 1-wire, require that the beginning of a packet be recorded before the rest of the packet’s contents are decoded. The analyzer in this case may not decode any results until the second packet in the capture.
 *   End of packet is cut off.
 
       In some cases, the entire packet needs to be present in order for the decoding to work. In most of these cases, the analyzer may have settings for lower levels of decoding, such as byte level instead of packet level. The Atmel SWI analyzer and USB analyzer both have features like this.

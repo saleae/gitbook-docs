@@ -20,7 +20,7 @@ This switch would cause the analyzer to generate frames in one of the following 
 
 Our recommendation is to architect your analyzer to always compute all of these result sets. Then, simply switch where and when frames are pushed back based on this selection.
 
-Another useful feature from this is offering different export formats. Each decoding layer will need to support a different export format, so it's a good opportunity to tailor each mode's export format.
+Another useful feature from this is offering different export formats. Each decoding layer will need to support a different export format, so it’s a good opportunity to tailor each mode’s export format.
 
 In all cases, the display will produce one on-screen bubble for each frame. The protocol search feature allows N lines per protocol frame. Although the export function is technically open-ended, most implementations involve iterating over frames.
 

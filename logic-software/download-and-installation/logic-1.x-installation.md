@@ -1,8 +1,8 @@
 <div class="callout callout-warning">
-Starting October of 2022, Saleae has released a new hardware revision of our Logic analyzers which requires the latest version of the Logic 2 software available [here](https://www.saleae.com/downloads/). This newer revision of the hardware will **no longer work with our legacy Logic 1.x software**.
+<p>Starting October of 2022, Saleae has released a new hardware revision of our Logic analyzers which requires the latest version of the Logic 2 software available <a href="https://www.saleae.com/downloads/">here</a>. This newer revision of the hardware will <strong>no longer work with our legacy Logic 1.x software</strong>.</p>
 </div>
 
-[Logic Hardware Revisions](/support/specifications-hardware/datasheets-and-compliance/logic-hardware-revisions)
+<a class="content-ref" href="/support/specifications-hardware/datasheets-and-compliance/logic-hardware-revisions">Logic Hardware Revisions</a>
 
 ## Logic 1.x Software
 
@@ -12,7 +12,7 @@ If you plan on using the older Logic 1.x software, you can follow the instructio
 
 The older Logic 1.x software can be downloaded below. Version 1.2.29 is the last version of Logic 1.x.
 
-[Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
+<a class="content-ref" href="/support/logic-software/download-and-installation/older-software-releases">Logic 1.x Download (Deprecated)</a>
 
 ### **Installing for Windows**
 
@@ -34,7 +34,7 @@ Download the zip file and extract it. The software will run from this folder. Yo
 
 In addition, The Logic 1.2.18 (and prior) software on Linux requires write permissions to several directories in order to run. More information on this below.
 
-[Linux Permission Requirements for Logic Software](/support/troubleshooting/platform-specific-issues/linux-permission-requirements-for-logic-software)
+<a class="content-ref" href="/support/troubleshooting/platform-specific-issues/linux-permission-requirements-for-logic-software">Linux Permission Requirements for Logic Software</a>
 
 #### Extracting the AppImage (Linux)
 
@@ -50,4 +50,4 @@ or
 
 ### **Installing for Linux – Driver**
 
-Before using the software with Logic hardware, you'll need to give the application permission to access the device (otherwise you'll have to launch the application with sudo). To do this, unplug any attached Logic device(s). From the command line, navigate to the _Driver_ folder and run the script _installdriver.sh_.
+Before using the software with Logic hardware, you’ll need to give the application permission to access the device (otherwise you’ll have to launch the application with sudo). To do this, unplug any attached Logic device(s). From the command line, navigate to the _Driver_ folder and run the script _installdriver.sh_.

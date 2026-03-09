@@ -1,7 +1,7 @@
-Usually, if the interior of the port is blue in color or there is a USB SS logo on the port, it's a USB 3.0 port. However, there are some exceptions to that:
+Usually, if the interior of the port is blue in color or there is a USB SS logo on the port, it’s a USB 3.0 port. However, there are some exceptions to that:
 
 * Custom built PCs: If the computer was built with an aftermarket computer chassis, then there is no guarantee that the blue ports on the case are USB 3.0.
-* The ports are downstream of a USB 2.0 port or hub. For instance, if you're connecting to a USB 3.0 hub, those ports might not be 3.0 if the hub is connected to a 2.0 port.
+* The ports are downstream of a USB 2.0 port or hub. For instance, if you’re connecting to a USB 3.0 hub, those ports might not be 3.0 if the hub is connected to a 2.0 port.
 
 Fortunately, there is a way to verify if a port is really USB 3.0 or 2.0. The following instructions are for Windows 7:
 

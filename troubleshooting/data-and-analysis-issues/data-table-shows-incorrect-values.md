@@ -2,11 +2,11 @@ When using low level analyzers (LLAs) such as our Async Serial or SPI analyzer, 
 
 ### Known Issues
 
-The known issues with the data table are as follows. These are certainly things we want to fix natively from within the app, but unfortunately can't prioritize at the moment. In the meantime, we have a workaround described at the bottom of this article which utilizes an extension that is available via our in-app Extension Marketplace. More details on this workaround is described below.
+The known issues with the data table are as follows. These are certainly things we want to fix natively from within the app, but unfortunately can’t prioritize at the moment. In the meantime, we have a workaround described at the bottom of this article which utilizes an extension that is available via our in-app Extension Marketplace. More details on this workaround is described below.
 
 #### Decimal values appear as signed rather than unsigned
 
-In the image below, you will notice that the Async Serial decoded results above the waveform (unsigned values) do not match the values appearing in the data table (signed values). Our data table unfortunately doesn't have a schema to tell if a value is signed or unsigned. Everything in the way we handle data tables are all as signed values.
+In the image below, you will notice that the Async Serial decoded results above the waveform (unsigned values) do not match the values appearing in the data table (signed values). Our data table unfortunately doesn’t have a schema to tell if a value is signed or unsigned. Everything in the way we handle data tables are all as signed values.
 
 ![Data Table Values Appear as Signed](/support-assets/Screen%20Shot%202022-01-19%20at%206.53.06%20PM.png)
 
@@ -18,15 +18,15 @@ In the image below, you will notice that the values in the data table appear as 
 
 ### Workaround
 
-In the meantime (and since we don't have a native solution implemented), we have published a Marketplace Extension available from within the app called "Unsigned Integer Display."
+In the meantime (and since we don’t have a native solution implemented), we have published a Marketplace Extension available from within the app called "Unsigned Integer Display."
 
 ![Unsigned Integer Display Extension](/support-assets/cb0225a3117bb898451fbedc7e3435cf8aefbd07.png)
 
 Instructions to install and use extensions can be found in the links below.
 
-[Extension Installation](/support/extensions-api/extensions/installing-extensions)
+<a class="content-ref" href="/support/extensions-api/extensions/installing-extensions">Extension Installation</a>
 
-[Create and Use Extensions](/support/extensions-api/extensions/extensions-quickstart)
+<a class="content-ref" href="/support/extensions-api/extensions/extensions-quickstart">Create and Use Extensions</a>
 
 When the extension is used, new rows in the data table will be created which contain the values produced by the extension. In cases where the issues above are present, the extension will display the proper values. You may subsequently hide the results of the original LLA (in this case, the incorrect results of the Async Serial analyzer) so that only the correct results from the Unsigned Integer Display extension appear.
 
@@ -39,9 +39,9 @@ We apologize for the inconvenience this causes in the meantime.
 ## Logic 1.x
 
 <div class="callout callout-info">
-Unfortunately, the Decoded Protocols Panel, in addition to Protocol Search, is no longer available in the Legacy 1.x software due to technical issues. When attempting to enable it in v1.2.40, you will find our note below. Please upgrade to our newer [Logic 2 software](https://www.saleae.com/downloads/) if you need this functionality.
+<p>Unfortunately, the Decoded Protocols Panel, in addition to Protocol Search, is no longer available in the Legacy 1.x software due to technical issues. When attempting to enable it in v1.2.40, you will find our note below. Please upgrade to our newer <a href="https://www.saleae.com/downloads/">Logic 2 software</a> if you need this functionality.
 
-<img src="/support-assets/Screen%20Shot%202022-08-03%20at%204.47.39%20PM%20(1).png" alt="" data-size="original">
+<img src="/support-assets/Screen%20Shot%202022-08-03%20at%204.47.39%20PM%20(1).png" alt="" data-size="original"></p>
 </div>
 
 If you are using the older Logic 1.x software, the following troubleshooting guide applies.
@@ -55,7 +55,7 @@ This bug introduces the following issues:
 * Decoded messages are missing or out of order for a handful of entries under the Decoded Protocols window in the bottom-right corner of the Logic software.
 * If there are errors in the Decoded Protocols window, exporting the data from this window will show the same errors.
 
-We are working on a fix for this, but unfortunately, we don't have a timeline yet. In the meantime, please use the workarounds below.
+We are working on a fix for this, but unfortunately, we don’t have a timeline yet. In the meantime, please use the workarounds below.
 
 **Temporary Workarounds**
 
@@ -63,12 +63,12 @@ Search for any query and delete that query in the Decoded Protocols window searc
 
 Type any search query:
 
-<div align="center"><img src="/support-assets/ext-86ec59005b-TypeSearch.png" alt="Type Search"></div>
+<img src="/support-assets/ext-86ec59005b-TypeSearch.png" alt="Type Search">
 
 Delete the search query to reload the window contents:
 
-<div align="center"><img src="/support-assets/ext-dc410b88de-ClearSearch.png" alt="Clear Search"></div>
+<img src="/support-assets/ext-dc410b88de-ClearSearch.png" alt="Clear Search">
 
-You can also export analyzer results individually by clicking on the gear icon next to the analyzer and selecting "export to text/csv file." This export method doesn't have any issues but will only let you export one analyzer at a time.
+You can also export analyzer results individually by clicking on the gear icon next to the analyzer and selecting "export to text/csv file." This export method doesn’t have any issues but will only let you export one analyzer at a time.
 
-<div align="center"><img src="/support-assets/ext-00479d67a7-ExportAnalyzer.png" alt="Export Window"></div>
+<img src="/support-assets/ext-00479d67a7-ExportAnalyzer.png" alt="Export Window">

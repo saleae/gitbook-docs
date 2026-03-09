@@ -13,7 +13,7 @@ Fortunately, the `analyzer_db` directories are cleared upon restarting the softw
 
 ### Workaround #1
 
-In cases where you plan on capturing large amounts of data (usually greater than 1 hour's worth of a capture, but can be much less when the decoded data is dense), we recommend the following workaround to have more control over the disk space used during captures:
+In cases where you plan on capturing large amounts of data (usually greater than 1 hour’s worth of a capture, but can be much less when the decoded data is dense), we recommend the following workaround to have more control over the disk space used during captures:
 
 1. Save a preset with your protocol analyzer added with your preferred settings
 2. Remove all protocol analyzers before starting your capture
@@ -24,13 +24,13 @@ In cases where you plan on capturing large amounts of data (usually greater than
 
 Instructions for saving/loading a preset and saving captures can be found below.
 
-[Capture & Preset File Management](/support/logic-software/saving-and-exporting-data/saving-loading-and-exporting-data)
+<a class="content-ref" href="/support/logic-software/saving-and-exporting-data/saving-loading-and-exporting-data">Capture & Preset File Management</a>
 
 ### Workaround #2
 
 Another workaround would be to trim your capture such that the amount of decoded data you are working with is greatly reduced. Instructions for trimming your capture can be found below. Please remember to save a copy of your original capture, preferably with all analyzers removed.
 
-[Delete Part of your Capture](/support/logic-software/viewing-and-analyzing-data/delete-data)
+<a class="content-ref" href="/support/logic-software/viewing-and-analyzing-data/delete-data">Delete Part of your Capture</a>
 
 
 

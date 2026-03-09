@@ -1,5 +1,5 @@
 <div class="callout callout-warning">
-Before operating your Saleae Logic product for the first time, please carefully review the safety guidelines below to avoid any injury and damage.
+<p>Before operating your Saleae Logic product for the first time, please carefully review the safety guidelines below to avoid any injury and damage.</p>
 </div>
 
 ### **Electrical Isolation**
@@ -8,7 +8,7 @@ The input channels on Saleae Logic analyzers are not electrically isolated from 
 
 Suggestions for electrical isolation can be found in the link below:
 
-[Electrical Isolation Suggestions](/support/specifications-hardware/electrical-characteristics/suggestions-for-electrical-isolation)
+<a class="content-ref" href="/support/specifications-hardware/electrical-characteristics/suggestions-for-electrical-isolation">Electrical Isolation Suggestions</a>
 
 ### **High Voltage Safety**
 
@@ -17,11 +17,11 @@ Suggestions for electrical isolation can be found in the link below:
 | Logic 4, Logic 8, Logic Pro 8, & Logic Pro 16 | −25V to +25V    |
 
 <div class="callout callout-warning">
-_**Caution:**_ Connecting one of the input channels to voltages outside this range, even for a very short time, can result in damage to the device.
+<em><strong>Caution:</strong></em> Connecting one of the input channels to voltages outside this range, even for a very short time, can result in damage to the device.
 </div>
 
 <div class="callout callout-warning">
-_**Safety Tip:**_ If you're working with high voltages near the absolute maximum limit, first ensure that the wire harnesses are securely attached to your DUT and you've done some basic testing to make sure the clips won't pop off your connections. Afterwards, you can connect the wire harnesses to the logic analyzer.
+<em><strong>Safety Tip:</strong></em> If you’re working with high voltages near the absolute maximum limit, first ensure that the wire harnesses are securely attached to your DUT and you’ve done some basic testing to make sure the clips won’t pop off your connections. Afterwards, you can connect the wire harnesses to the logic analyzer.
 </div>
 
 ### **Ground Current Safety**
@@ -32,19 +32,19 @@ The user should be cautious of this when the logic analyzer is used in the prese
 
 #### Common Ways a Ground Loop Can Exist:
 
-* Other USB devices (such as programmers) are connected to the DUT, or the DUT itself is plugged into the USB port on your computer. In addition to the logic analyzer's ground connection, the DUT's ground is also connected to the PC's ground through another USB port.
-* Non-isolated power supplies Most AC power supplies with 3-prong plugs will short the MAINS earth ground pin to the power supply ground output. That includes your PC's ground. If your DUT is powered from a 3-prong wall power supply and your PC is also plugged in, that will form another ground path. Keep in mind that if you're using a laptop that's not plugged in, even an attached external monitor or printer will create a ground loop.
+* Other USB devices (such as programmers) are connected to the DUT, or the DUT itself is plugged into the USB port on your computer. In addition to the logic analyzer’s ground connection, the DUT’s ground is also connected to the PC’s ground through another USB port.
+* Non-isolated power supplies Most AC power supplies with 3-prong plugs will short the MAINS earth ground pin to the power supply ground output. That includes your PC’s ground. If your DUT is powered from a 3-prong wall power supply and your PC is also plugged in, that will form another ground path. Keep in mind that if you’re using a laptop that’s not plugged in, even an attached external monitor or printer will create a ground loop.
 
 #### Common Ways Damage Can Occur:
 
-* When connecting or disconnecting probes, one of the ground probes from the logic analyzer is accidentally brushed against a power supply pin on the DUT, such as +5V. If there are no other ground paths between the DUT and the PC, nothing will happen. However, if there is a ground path, then current will flow from that voltage supply through the logic analyzer's ground pin, through the USB cable and the host PC, and then through the secondary ground connection—either MAIN earth ground or another USB port, back to the ground on the DUT. Basically, that is the same as shorting out the voltage supply on your DUT, but it uses the logic analyzer and your host PC as the short circuit, which could damage all components in the loop.
-* What if the DUT's ground reference isn't at the same voltage as the ground loop connection? For instance, if your circuit is powered by a bipolar power supply used to produce +10 volts and -10 volts, and then your circuit uses the -10 volt rail as its ground voltage, but there exists a ground loop through MAINS earth ground to the power supply's 0 volt output, then effectively the ground on your DUT is actually -10 volts relative to the host PC. Connecting Logic will immediately short out the DUT power supply and potentially damage all devices present in the loop.
+* When connecting or disconnecting probes, one of the ground probes from the logic analyzer is accidentally brushed against a power supply pin on the DUT, such as +5V. If there are no other ground paths between the DUT and the PC, nothing will happen. However, if there is a ground path, then current will flow from that voltage supply through the logic analyzer’s ground pin, through the USB cable and the host PC, and then through the secondary ground connection—either MAIN earth ground or another USB port, back to the ground on the DUT. Basically, that is the same as shorting out the voltage supply on your DUT, but it uses the logic analyzer and your host PC as the short circuit, which could damage all components in the loop.
+* What if the DUT’s ground reference isn’t at the same voltage as the ground loop connection? For instance, if your circuit is powered by a bipolar power supply used to produce +10 volts and -10 volts, and then your circuit uses the -10 volt rail as its ground voltage, but there exists a ground loop through MAINS earth ground to the power supply’s 0 volt output, then effectively the ground on your DUT is actually -10 volts relative to the host PC. Connecting Logic will immediately short out the DUT power supply and potentially damage all devices present in the loop.
 
 ### **Testing Multiple DUTs**
 
 In some cases, you need to record signals from multiple devices under test simultaneously with the same logic analyzer. This can be done safely, but it is important to review how both devices are powered before connecting the logic analyzer.
 
-Since the channels in each Saleae logic analyzer are not electrically isolated from each other, all devices will need to share a common ground. If the devices under test already share a common ground, then you're all set. However, if they are floating relative each other (meaning their grounds are not directly or indirectly connected to each other), or if there is a common mode voltage setup between them, then the additional steps below are required:
+Since the channels in each Saleae logic analyzer are not electrically isolated from each other, all devices will need to share a common ground. If the devices under test already share a common ground, then you’re all set. However, if they are floating relative each other (meaning their grounds are not directly or indirectly connected to each other), or if there is a common mode voltage setup between them, then the additional steps below are required:
 
 * If one or both of the devices under test are floating, do they need to be floating? In order to record with a logic analyzer, they will need to be common grounded to each other AND to the PC to which the logic analyzer is connected. This also means MAINS earth ground in most cases.
 * If one of the boards is powered from another with a ground difference such as a large negative voltage supply, then it is NOT safe to connect the logic analyzers to both devices. In addition, it is not sufficient to isolate the USB connection or the test PC from the devices. The inputs themselves need to be isolated between the device under test and the logic analyzer for at least one of the two devices under test. Please see the SI labs isolation development kit at the bottom of this article for input channel isolation.
@@ -53,7 +53,7 @@ Since the channels in each Saleae logic analyzer are not electrically isolated f
 ### **Identifying if a Ground Loop is Present**
 
 <div class="callout callout-warning">
-_**Caution:**_ If a ground loop is present, extra care should be taken, as highlighted below, before connecting the logic analyzer ground to the DUT ground.
+<em><strong>Caution:</strong></em> If a ground loop is present, extra care should be taken, as highlighted below, before connecting the logic analyzer ground to the DUT ground.
 </div>
 
 To identify a potential ground loop between the Logic device and the DUT, you could check the resistance between the DUT ground and the Saleae Logic ground. While the Saleae Logic is connected to the PC, if the resistance reads infinite on a multi-meter, then the grounds are isolated. Otherwise, they are connected, and a ground loop exists.
@@ -74,10 +74,10 @@ If you are not sure there is a ground loop or would like to perform another test
 ### **Identifying if the DUT is Isolated from the PC**
 
 <div class="callout callout-warning">
-_**Caution:**_ When working in an electrically isolated state, keep in mind that floating grounds can be dangerous to the operator. When operating with equipment with a floating ground, please review and follow appropriate safety measures.
+<em><strong>Caution:</strong></em> When working in an electrically isolated state, keep in mind that floating grounds can be dangerous to the operator. When operating with equipment with a floating ground, please review and follow appropriate safety measures.
 </div>
 
-The DUT's local ground is isolated from the host PC when one of the following is true:
+The DUT’s local ground is isolated from the host PC when one of the following is true:
 
 * The DUT is battery-powered and has no other electrical connections to the host PC or devices powered from MAINS power.
 * The DUT is powered from an isolated power supply that does NOT short MAINS earth ground to the output ground. Bench top supplies with a separate green earth ground terminal do this. USB wall adapters also do this. Common AC power adapters (chargers, "wall warts") with 2-prong plugs are also isolated. Most power supplies do have transformers that can provide isolation if implemented properly.
@@ -103,11 +103,11 @@ To isolate the USB 2.0 high-speed connection, you can consider using the [Intona
 
 Saleae products are covered by a 3-year warranty, regardless of where you purchased the product. For more information, see the article below.
 
-[180-day-return-policy-and-3-year-warranty](/support/ordering-returns/180-day-return-policy-and-3-year-warranty)
+<a class="content-ref" href="/support/ordering-returns/180-day-return-policy-and-3-year-warranty">Returns & Warranty</a>
 
 If you believe your Logic hardware is broken, please follow the troubleshooting steps in the article below.
 
-[Submit a Warranty Claim](/support/ordering-returns/process-a-warranty)
+<a class="content-ref" href="/support/ordering-returns/process-a-warranty">Submit a Warranty Claim</a>
 
 
 

@@ -1,15 +1,15 @@
 <div class="callout callout-warning">
-Starting October of 2022, Saleae has released a new hardware revision of our Logic analyzers which requires the latest version of the Logic 2 software available [here](https://www.saleae.com/downloads/). This newer revision of the hardware will **no longer work with our legacy Logic 1.x software**.
+<p>Starting October of 2022, Saleae has released a new hardware revision of our Logic analyzers which requires the latest version of the Logic 2 software available <a href="https://www.saleae.com/downloads/">here</a>. This newer revision of the hardware will <strong>no longer work with our legacy Logic 1.x software</strong>.</p>
 </div>
 
-[Logic Hardware Revisions](/support/specifications-hardware/datasheets-and-compliance/logic-hardware-revisions)
+<a class="content-ref" href="/support/specifications-hardware/datasheets-and-compliance/logic-hardware-revisions">Logic Hardware Revisions</a>
 
 Changes in 1.2.40:
 
 1. Adds support for revision 3.0.0 Logic hardware. More information on hardware revisions can be found in the link below.
 2. Remove support for Decoded Protocols panel / table due to technical issues. You will notice that the checkbox for it is grayed out under Preferences > Capture.
 
-[Logic Hardware Revisions](/support/specifications-hardware/datasheets-and-compliance/logic-hardware-revisions)
+<a class="content-ref" href="/support/specifications-hardware/datasheets-and-compliance/logic-hardware-revisions">Logic Hardware Revisions</a>
 
 Changes in 1.2.29 Beta:
 
@@ -210,7 +210,7 @@ Bug Fixes:
 3. Fixed bug when exporting all channels of analog, over all time, when no digital channels were present. Only affected Socket API.
 4. Fixed bug in Analyzer SDK Advance functions. It would break when moving more than 32 bits forward without changes due to U32 overflow.
 5. Fixed bug in SPI analyzer that would crash the software if long periods of inactivity were recorded.
-6. added extra check if thread should exit to SPI anayzer to fix issue where one particular caoture couldn't abort the SPI analyzer due to a specific data pattern.
+6. added extra check if thread should exit to SPI anayzer to fix issue where one particular caoture couldn’t abort the SPI analyzer due to a specific data pattern.
 7. Linux - statically link OpenSSL, now working properly on Fedora and other distros.
 8. Windows - now including a copy of OpenSSL for QT, solving an unknown issue for several customers.
 
@@ -218,10 +218,10 @@ Changes in 1.2.11:
 
 1. UNI/O analyzer working again.
 2. UNIO analyzer - fixed issue where reset pulses would not be detected if the analyzer was not in the initial state.
-3. Added exit check to USB analyzer - previously the USB analyzer couldn't be removed or restarted until it was done processing.
+3. Added exit check to USB analyzer - previously the USB analyzer couldn’t be removed or restarted until it was done processing.
 4. Fixed two issues in I2C analyzer in regards to missing ACK/NAK fields.
 5. bug fix - bookmark display time was not offset for the trigger sample.
-6. Fixed bug in timing marker names. It used to roll around like this: A,B,C...X,Y,Z,AA and then get stuck back at a single B due to a sorting problem. Now fixed.
+6. Fixed bug in timing marker names. It used to roll around like this: A,B,C…X,Y,Z,AA and then get stuck back at a single B due to a sorting problem. Now fixed.
 7. Linux - fixed race condition that would cause the save capture progress dialog to never close when saving exceptionally small files
 8. Linux: added "-workingdir" command line option to set file read/write location. The directory must already exist. Usage: ./Logic -workingdir \~/saleae
 9. Updated UI framework to latest version.
@@ -242,7 +242,7 @@ Changes in 1.2.9:
 Bug Fixes:
 
 1. Fixed issue with instantaneous measurement - when measuring the width of the last digital pulse in the capture, the measurement would either fail to display or it would falsely interpret the end of the capture as a transition.
-2. We now dual-sign the Windows installer, using both a SHA-1 and SHA 256 signature algorithm. This allows the installer to function properly on older versions of Windows (XP and Vista do not recognize SHA256 signatures) as well as the latest version of Microsoft's Edge browser.
+2. We now dual-sign the Windows installer, using both a SHA-1 and SHA 256 signature algorithm. This allows the installer to function properly on older versions of Windows (XP and Vista do not recognize SHA256 signatures) as well as the latest version of Microsoft’s Edge browser.
 
 New Features:
 
@@ -364,7 +364,7 @@ Bug Fixes:
 13. Fixed voltage measurement bug
 14. fixed data export issue not respecting start time when a trigger was used to create the capture
 15. Fixed bug where it was possible for the software to open partially off screen
-16. Fixed OSX crash when the application would be AppNap'ed (TM) while capturing
+16. Fixed OSX crash when the application would be AppNap’ed (TM) while capturing
 17. Fixed bug where on OSX the software would crash if launched by double-clicking a \*.logicsettings file
 
 Changes in 1.2.3:
@@ -490,7 +490,7 @@ Bugs fixed in 1.1.32:
 4. Fix for: Unable to drag the software across multiple monitors set up vertically.
 5. Linux core file dumps are now compressed before uploaded.
 6. Added option to upload usage statistics.
-7. Fix for: Search string doesn't get erased or used after you click "show all results".
+7. Fix for: Search string doesn’t get erased or used after you click "show all results".
 8. Fix for: High CPU utilization with protocol search
 9. Fix for: Threading bugs on protocol search
 10. Fix for: Software crashes if you copy analyzers from tab to tab in most cases
@@ -499,12 +499,12 @@ Bugs fixed in 1.1.32:
 13. Fix for: Software crashes when trying to load a .logicsettings file with more number of channels than currently active in the software
 14. Fix for: Sometimes the timing display shows: "0 ms : 0 s : 200 us" the ms and s are swapped.
 15. LED improvement - added off option.
-16. Fix for: After saving a capture, the tab note doesn't change to the file name.
+16. Fix for: After saving a capture, the tab note doesn’t change to the file name.
 17. Analyzer SDK updated to work with latest version of software
 
 **Bugs Fixed in 1.1.31:**
 
-Fix for bug that caused search results to be empty when one of the analyzers were disabled All analyzers have search results now. Fix for - Duplicate results in SPI “Decoded Protocols” Fix for - Search string doesn't get erased or used after you click "show all results". Fix for - Software crashes when lowering sample rate automatically ( after the dialog box pops up ) Enabling and disabling channels will retain channel names Fix for - Software crashes sometimes when the capture is stopped at near end of completion LED settings has an OFF option Fix for - After saving a capture, the tab note doesn't change to the file name. Exporting only analog channels now works. Exporting of calibrated voltages is now supported for .csv files. Exporting data between timing markers is now supported. Fixed bug that would cause the software to freeze when loading a session. Updated Socket API to work with all supported function calls in SDK. Fixed bug where a measurement would not disappear when you hide the channel it was placed on. Fixed bug in OSX calibration where samples were not being lined up at all. Instantaneous measurement now shows up in screenshots created in the software. Channels names are now saved even when the channel no longer exists for the currently selected device. Measurements now default their name to the name of the channel they are placed on. Fix for - CPU utilization maxes out when Search is enabled. USB 3.0 support now working on Linux Added feature to enable all 16 channels of Logic Pro 16 when connected over USB 2.0. (note, this may require a powered USB 2.0 hub. Details in software preferences)
+Fix for bug that caused search results to be empty when one of the analyzers were disabled All analyzers have search results now. Fix for - Duplicate results in SPI “Decoded Protocols” Fix for - Search string doesn’t get erased or used after you click "show all results". Fix for - Software crashes when lowering sample rate automatically ( after the dialog box pops up ) Enabling and disabling channels will retain channel names Fix for - Software crashes sometimes when the capture is stopped at near end of completion LED settings has an OFF option Fix for - After saving a capture, the tab note doesn’t change to the file name. Exporting only analog channels now works. Exporting of calibrated voltages is now supported for .csv files. Exporting data between timing markers is now supported. Fixed bug that would cause the software to freeze when loading a session. Updated Socket API to work with all supported function calls in SDK. Fixed bug where a measurement would not disappear when you hide the channel it was placed on. Fixed bug in OSX calibration where samples were not being lined up at all. Instantaneous measurement now shows up in screenshots created in the software. Channels names are now saved even when the channel no longer exists for the currently selected device. Measurements now default their name to the name of the channel they are placed on. Fix for - CPU utilization maxes out when Search is enabled. USB 3.0 support now working on Linux Added feature to enable all 16 channels of Logic Pro 16 when connected over USB 2.0. (note, this may require a powered USB 2.0 hub. Details in software preferences)
 
 **Bugs Fixed in 1.1.30**
 
@@ -541,7 +541,7 @@ Fix for bug that caused search results to be empty when one of the analyzers wer
 7. Fixed bug with performance option no longer a valid message.
 8. Fixed analyzer simulation crash bug for Logic 8 and the pro devices.
 9. Fixed bug where changing the capture settings after capturing with an analyzer caused crashes.
-10. Fixed bug where double-clicking a logicdata file didn't open that file.
+10. Fixed bug where double-clicking a logicdata file didn’t open that file.
 11. Fixed bug where double-clicking the stop capture button crashed the software.
 12. Fixed bug where software would crash if non-ASCII characters were in protocol search path.
 13. Fixed analyzer simulation crash bug for all new products.
@@ -560,7 +560,7 @@ Fix for bug that caused search results to be empty when one of the analyzers wer
 **Bug Fixes in 1.1.25**
 
 1. Logic 16 5V support has been re-implemented.
-2. XFCE desktop where you couldn't edit timing duration.
+2. XFCE desktop where you couldn’t edit timing duration.
 3. Linux crash when run as root.
 
 **Bugs Fixed in 1.1.24**

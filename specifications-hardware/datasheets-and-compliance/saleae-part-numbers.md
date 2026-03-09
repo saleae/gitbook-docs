@@ -7,7 +7,7 @@ The United States defines products using its Harmonized Tariff Schedule (HTS). A
 * Unless otherwise specified, the CoO is Taiwan
 
 <div class="callout callout-info">
-Note: The prices shown below are in USD currency. When placing an online order, the currency may be converted depending on the destination country.
+<p>Note: The prices shown below are in USD currency. When placing an online order, the currency may be converted depending on the destination country.</p>
 </div>
 
 ## Saleae Logic Analyzers

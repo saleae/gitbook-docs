@@ -17,7 +17,7 @@ Then, select the SMBus decode level. This will change the way the decoded captur
 **Signals:** This will show the data in single-bit format.
 
 <div class="callout callout-info">
-Changing the Display Radix setting in the Logic software will not change the way the SMBus data is displayed. Instead, you must change the display format using the SMBus decode level setting.
+<p>Changing the Display Radix setting in the Logic software will not change the way the SMBus data is displayed. Instead, you must change the display format using the SMBus decode level setting.</p>
 </div>
 
 <figure><img src="/support-assets/Screenshot%202023-07-25%20at%206.14.41%20PM.png" alt=""><figcaption><p>Signals Decode Level Setting</p></figcaption></figure>

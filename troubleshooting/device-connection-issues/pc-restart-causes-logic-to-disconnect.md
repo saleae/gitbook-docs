@@ -1,7 +1,7 @@
 When restarting or rebooting your PC while Logic is connected, the USB cable may need to be reconnected in order to re-establish connection to the PC and to the Logic software. If the USB cable is not reconnected upon restarting your PC, you may notice the following behaviors:
 
 * Windows may display the message "USB device not recognized"
-* The Logic 2 software may show the message "Connect Saleae Device", indicating that the Logic's connection was not recognized
+* The Logic 2 software may show the message "Connect Saleae Device", indicating that the Logic’s connection was not recognized
 * The LED on your Logic may be off
 
 ### Some Background Information

@@ -3,13 +3,13 @@ This information applies for the Analyzer SDK 1.1.14 onwards.
 Current custom analyzer code should work with the software without any changes to it.\
 It only has to be built against the new analyzer library shipped with the new software.
 
-However, code changes required to be made with the new SDK will include the analyzer's data in the Decoded Protocols (search) results.
+However, code changes required to be made with the new SDK will include the analyzer’s data in the Decoded Protocols (search) results.
 
-Below is a description of the changes required to include an analyzer's data into the search results. The example below is based on Serial Analyzer's source code.
+Below is a description of the changes required to include an analyzer’s data into the search results. The example below is based on Serial Analyzer’s source code.
 
 The latest source code to all analyzers can be found below.
 
-[protocol-analyzer-sdk](/support/extensions-api/protocol-analyzer-sdk/protocol-analyzer-sdk)
+<a class="content-ref" href="/support/extensions-api/protocol-analyzer-sdk/protocol-analyzer-sdk">Protocol Analyzer SDK</a>
 
 **Update Steps**
 

@@ -6,7 +6,7 @@ The first category is caused by a normal memory limit as per the error message b
 
 > Capture stopped due to insufficient memory. Increase memory buffer in device setting sidebar if possible. Analyzer data might not appear.
 
-Specifically, your buffer length simply wasn't large enough to hold the entire capture length selected. This error affects timer mode and trigger mode. To solve this, you will need to increase the memory buffer size from within the Capture Settings panel.
+Specifically, your buffer length simply wasn’t large enough to hold the entire capture length selected. This error affects timer mode and trigger mode. To solve this, you will need to increase the memory buffer size from within the Capture Settings panel.
 
 ### Capture stopped because backlogged data exceeded capture buffer size
 

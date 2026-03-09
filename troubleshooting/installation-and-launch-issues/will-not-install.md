@@ -1,10 +1,10 @@
 ### The Older Version of Logic Cannot be Removed
 
-The error message upon installation is likely caused by a missing or mis-referenced uninstaller file location. Unfortunately, we're unsure of what exactly causes this error, however we've detailed a solution below.
+The error message upon installation is likely caused by a missing or mis-referenced uninstaller file location. Unfortunately, we’re unsure of what exactly causes this error, however we’ve detailed a solution below.
 
 <figure><img src="/support-assets/imageedit_4_3546198021.png" alt=""><figcaption><p>The Older Version of Logic Cannot be Removed</p></figcaption></figure>
 
-Specifically, Microsoft has made available an [Install and Uninstall troubleshooter](https://support.microsoft.com/en-us/topic/fix-problems-that-block-programs-from-being-installed-or-removed-cca7d1b6-65a9-3d98-426b-e9f927e1eb4d) which might help. The troubleshooter should provide steps for you to follow, and you'll want to locate the our software from the list of available software to uninstall. Once you've uninstalled it via this method, you may attempt to re-install the latest version of our Logic software.
+Specifically, Microsoft has made available an [Install and Uninstall troubleshooter](https://support.microsoft.com/en-us/topic/fix-problems-that-block-programs-from-being-installed-or-removed-cca7d1b6-65a9-3d98-426b-e9f927e1eb4d) which might help. The troubleshooter should provide steps for you to follow, and you’ll want to locate the our software from the list of available software to uninstall. Once you’ve uninstalled it via this method, you may attempt to re-install the latest version of our Logic software.
 
 ### The Logic Setup Wizard Ended Prematurely
 
@@ -33,22 +33,22 @@ This is typically solved by performing a Windows Update.
 
 Some users have reported that installing the Saleae drivers manually via the methods listed in the support article below solves various install issues.
 
-[Driver Install](/support/logic-software/download-and-installation/driver-install)
+<a class="content-ref" href="/support/logic-software/download-and-installation/driver-install">Driver Install</a>
 
 ### Known Issues with Windows 11 Insider Preview Builds
 
-Installation issues on Windows 11 are typically caused when you are running on an Insider Preview build of Windows 11. We're currently tracking issue reports of this in the [bug report here](https://ideas.saleae.com).
+Installation issues on Windows 11 are typically caused when you are running on an Insider Preview build of Windows 11. We’re currently tracking issue reports of this in the [bug report here](https://ideas.saleae.com).
 
-Based on user reports, we believe there may be issues with Windows 11 Insider Preview buils that prevent our driver's signature from being validated, similar to the Windows issue we share above. We haven't figured out why this happens exactly, but the following workarounds might solve this for you.
+Based on user reports, we believe there may be issues with Windows 11 Insider Preview buils that prevent our driver’s signature from being validated, similar to the Windows issue we share above. We haven’t figured out why this happens exactly, but the following workarounds might solve this for you.
 
 #### Solutions
 
-* Opting out of the Insider Preview build and reverting back to a normal, stable build of Windows 11 seems to have solved this issue for most users. Microsoft has provided instructions on how to leave their Insider program [here](https://insider.windows.com/en-us/leave-program). As of the writing on this support article section, it doesn't look like there is an immediate method for unenrolling your PC from an Insider Preview build besides completing a clean installation of Windows.
+* Opting out of the Insider Preview build and reverting back to a normal, stable build of Windows 11 seems to have solved this issue for most users. Microsoft has provided instructions on how to leave their Insider program [here](https://insider.windows.com/en-us/leave-program). As of the writing on this support article section, it doesn’t look like there is an immediate method for unenrolling your PC from an Insider Preview build besides completing a clean installation of Windows.
 * Another user seems to have solved this issue by starting Windows with the option to load unsigned drivers. You can refer to their [forum post here](https://discuss.saleae.com/t/logic-2-3-37-failed-to-install-on-windows-11/1191/12).
 
 ### Reaching out to your IT Deparment
 
-For PCs managed by an IT deparment, either through a corporate network or corporate security plan, you may need to reach out to them for further assistance. We've discovered in the past that some installation issues had been solved by modifying an IT policy, particularly ones that affect what root certificates are trusted on the PC.
+For PCs managed by an IT deparment, either through a corporate network or corporate security plan, you may need to reach out to them for further assistance. We’ve discovered in the past that some installation issues had been solved by modifying an IT policy, particularly ones that affect what root certificates are trusted on the PC.
 
 We would be happy to chat with them directly as well! In this case, feel free to have them [contact us](/contact). 
 
@@ -58,7 +58,7 @@ We would be happy to chat with them directly as well! In this case, feel free to
 
 This error message during installation typically occurs when attempting to install the Logic 2 software on a 32-bit processor or operating system. Please note that 32-bit operating systems are not supported by Logic 2.x. For 32-bit support, please refer to Logic 1.x below.
 
-[Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
+<a class="content-ref" href="/support/logic-software/download-and-installation/older-software-releases">Logic 1.x Download (Deprecated)</a>
 
 
 
@@ -80,7 +80,7 @@ For each item, first perform the test. If the test result is positive (the test 
 * Test: Are you using an unsupported operating system?
 * Corrective Action: Use a supported operating system.
 
-[Supported Operating Systems](/support/logic-software/download-and-installation/supported-operating-systems)
+<a class="content-ref" href="/support/logic-software/download-and-installation/supported-operating-systems">Supported Operating Systems</a>
 
 ### **Wrong Installer Downloaded**
 
@@ -109,7 +109,7 @@ For each item, first perform the test. If the test result is positive (the test 
 
       You can find all the download links for the latest beta, including the standalone releases below.
 
-[Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
+<a class="content-ref" href="/support/logic-software/download-and-installation/older-software-releases">Logic 1.x Download (Deprecated)</a>
 
 ### **The Saleae Drivers Are Preventing the Software from Installing**
 
@@ -117,7 +117,7 @@ For each item, first perform the test. If the test result is positive (the test 
 * Corrective Action: Download the standalone version of the software as described above. Then attempt a manual driver install using the new hardware/update driver wizard.
 * If the same error persists during the manual driver install, please check the driver install help found below.
 
-[Driver Install](/support/logic-software/download-and-installation/driver-install)
+<a class="content-ref" href="/support/logic-software/download-and-installation/driver-install">Driver Install</a>
 
 ### **The Software Will Not Launch (All Platforms)**
 
@@ -125,10 +125,10 @@ For each item, first perform the test. If the test result is positive (the test 
 * Corrective Action: Try deleting the settings file called settings.xml, which may have become corrupt.
 
 <div class="callout callout-info">
-Before you can find and delete settings.xml...
+<p>Before you can find and delete settings.xml…
 
-* On Windows - Showing hidden files and folders should be enabled. [Instructions Here](https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files)
-* On OSX - Showing the Library folder should be enabled. [Instructions Here](https://discussions.apple.com/thread/8137224?answerId=8137224021#8137224021)
+* On Windows - Showing hidden files and folders should be enabled. <a href="https://support.microsoft.com/en-us/help/14201/windows-show-hidden-files">Instructions Here</a>
+* On OSX - Showing the Library folder should be enabled. <a href="https://discussions.apple.com/thread/8137224?answerId=8137224021#8137224021">Instructions Here</a></p>
 </div>
 
 *   It can be located here:\

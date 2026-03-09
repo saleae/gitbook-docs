@@ -13,13 +13,13 @@ An example is shown below for how a 4-bit data bus and a clock signal will be de
 
 ![Decoding Parallel Data into Hex](/support-assets/Decoding-Data.png)
 
-Keep in mind that this isn't the "state" mode you may have seen in other logic analyzers. All Saleae units operate by over-sampling only and do not support a state/external clock mode. That means you will need to sample at least 4 times faster than the parallel clock frequency.
+Keep in mind that this isn’t the "state" mode you may have seen in other logic analyzers. All Saleae units operate by over-sampling only and do not support a state/external clock mode. That means you will need to sample at least 4 times faster than the parallel clock frequency.
 
 ### Analyzer Settings
 
-The settings for the parallel analyzer are described in this section. First, for all unused data bits, change the selected channel to "None". For instance, if you're using a 4-bit data bus, change D4-D15 to "None" in the settings as shown below.
+The settings for the parallel analyzer are described in this section. First, for all unused data bits, change the selected channel to "None". For instance, if you’re using a 4-bit data bus, change D4-D15 to "None" in the settings as shown below.
 
-<div align="center"><img src="/support-assets/settings.png" alt=""></div>
+<img src="/support-assets/settings.png" alt="">
 
 Then, correctly assign the data bits you are using to the corresponding channels.
 

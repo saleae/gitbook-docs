@@ -16,7 +16,7 @@ In some cases, the extensions list may not appear properly within the Extensions
 2. Click the "Repository" link. This opens the [github.com](http://github.com/) repository for that extension.
 3. Click the green "Code" button, and select download as zip.
 4. Extract the zip file anywhere.
-5. In the Logic 2 software, on the Extensions panel, click the "three-dots" menu icon, select "Load Existing Extension..." and select the downloaded extension.json file.
+5. In the Logic 2 software, on the Extensions panel, click the "three-dots" menu icon, select "Load Existing Extension…" and select the downloaded extension.json file.
 
 ![](/support-assets/Screen%20Shot%202020-11-30%20at%204.52.09%20PM.png)
 

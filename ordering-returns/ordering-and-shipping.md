@@ -1,14 +1,14 @@
 
 Ready to **purchase your own Saleae Logic?** Place an order or request a quote below!
 
-[Place an Online Order](/support/ordering-returns/how-do-i-place-an-order)
+<a class="content-ref" href="/support/ordering-returns/how-do-i-place-an-order">Place an Online Order</a>
 
-[Get a Quote](/support/ordering-returns/how-do-i-get-a-quote)
+<a class="content-ref" href="/support/ordering-returns/how-do-i-get-a-quote">Get a Quote</a>
 
 
 Do you have a preferred distributor? Check our list of **official distributors** below!
 
-[Distributors](/support/ordering-returns/distributors)
+<a class="content-ref" href="/support/ordering-returns/distributors">Distributors</a>
 
 
 

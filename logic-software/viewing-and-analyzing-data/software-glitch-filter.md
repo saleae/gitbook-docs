@@ -2,12 +2,12 @@ The Logic software includes a feature to suppress short digital pulses in the re
 
 There are several sources of noise in digital captures. You can learn more about them below.
 
-[Why Am I Seeing Spikes in the Digital Capture?](/support/troubleshooting/capture-and-recording-issues/seeing-spikes-in-digital-capture)
+<a class="content-ref" href="/support/troubleshooting/capture-and-recording-issues/seeing-spikes-in-digital-capture">Why Am I Seeing Spikes in the Digital Capture?</a>
 
 ### Enabling the Glitch Filter
 
 <div class="callout callout-info">
-Please note that the glitch filter must be configured before the capture is taken. The glitch filter is considered a pre-capture setting and cannot be modified after the capture is completed.
+<p>Please note that the glitch filter must be configured before the capture is taken. The glitch filter is considered a pre-capture setting and cannot be modified after the capture is completed.</p>
 </div>
 
 You can find the glitch filter settings via the 'Device Settings' panel button to the right of the software. You will need to click the slider and add the appropriate channels to enable it.
@@ -24,6 +24,6 @@ The glitch filter is purely a software filter on top of the recorded data. Using
 
 Please note that the Logic Pro devices have narrow hysteresis thresholds, which can cause noise around transitions in some cases. When using lower voltage thresholds with larger swing signals, noise on the signal when it is in the low state can easily be picked up by the Saleae devices, even when the normal receiver of the signal rejects it. More information on our devices' voltage thresholds can be found in the support article below.
 
-[Supported Voltages](/support/specifications-hardware/electrical-characteristics/supported-voltages)
+<a class="content-ref" href="/support/specifications-hardware/electrical-characteristics/supported-voltages">Supported Voltages</a>
 
 The glitch filter can be set for any individual digital channel. We recommend only adding the filter to channels where noise is a problem. The glitch filter will reject all pulses narrower than the specified width.

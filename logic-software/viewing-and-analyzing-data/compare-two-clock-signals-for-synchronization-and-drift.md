@@ -1,6 +1,6 @@
 There are several ways to compare two clock signals in a capture. However, before going further, it is recommended to review the worst case channel-to-channel skew introduced by the logic analyzer recording below.
 
-[What Is the Worst Case Channel to Channel Skew?](/support/specifications-hardware/electrical-characteristics/worst-case-channel-skew)
+<a class="content-ref" href="/support/specifications-hardware/electrical-characteristics/worst-case-channel-skew">What Is the Worst Case Channel to Channel Skew?</a>
 
 There are several ways to compare two clock signals.
 

@@ -43,7 +43,7 @@ The `author`, `description`, and `name` properties manage what appears in the Ex
 | version     | "0.0.1"                       | The version if this extension. Increase this when publishing updates in order to allow users to update.                                               |
 | apiVersion  | "1.0.0"                       | The Saleae API version used. This should remain "1.0.0" until we make changes to the extension API.                                                   |
 | author      | "Mark Garrison"               | Your name                                                                                                                                             |
-| description | "Utilities to measure I2C..." | A one line description for display in the marketplace                                                                                                 |
+| description | "Utilities to measure I2C…" | A one line description for display in the marketplace                                                                                                 |
 | name        | "I2C Utilities"               | The name of the extension package, for display. Note - this does not have to match the names of the individual extensions, which are shown elsewhere. |
 | extensions  | see below                     | An object with one key per high level analyzer or measurement.                                                                                        |
 

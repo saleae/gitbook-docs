@@ -25,7 +25,7 @@ For the purposes of this document, we will be focusing on `HighLevelAnalyzer.py`
 
 ## HighLevelAnalyzer.py Breakdown
 
-Let's break down the contents of `HighLevelAnalyzer.py` .
+Let’s break down the contents of `HighLevelAnalyzer.py` .
 
 ```python title="HighLevelAnalyzer.py"
 from saleae.analyzers import HighLevelAnalyzer, AnalyzerFrame, StringSetting, NumberSetting, ChoicesSetting
@@ -110,17 +110,17 @@ This is where the bulk of the work will be done. This function is called every t
 
 ## HLA Debugging Tips
 
-Although we don't have the ability to attach debuggers to Python extensions at the moment, here are some suggestions to help debug your HLA.
+Although we don’t have the ability to attach debuggers to Python extensions at the moment, here are some suggestions to help debug your HLA.
 
 * Use `print()` statements to print debug messages to our in-app terminal. More information on our in-app terminal can be found below.
 
-[Data Table & Terminal View](/support/logic-software/viewing-and-analyzing-data/data-table-and-terminal)
+<a class="content-ref" href="/support/logic-software/viewing-and-analyzing-data/data-table-and-terminal">Data Table & Terminal View</a>
 
 * Use the Wall Clock Format and Timing Markers to locate the exact frame listed in your error message.
 
-[Time Bar Settings](/support/logic-software/viewing-and-analyzing-data/time-bar-settings)
+<a class="content-ref" href="/support/logic-software/viewing-and-analyzing-data/time-bar-settings">Time Bar Settings</a>
 
-[Measurements, Timing Markers & Notes](/support/logic-software/viewing-and-analyzing-data/measurements-timing-markers)
+<a class="content-ref" href="/support/logic-software/viewing-and-analyzing-data/measurements-timing-markers">Measurements, Timing Markers & Notes</a>
 
 * Use the reload source button in the app to quickly re-run your HLA after editing your source code.
 
@@ -128,7 +128,7 @@ Although we don't have the ability to attach debuggers to Python extensions at t
 
 ## Example - Writing an HLA to search for a value
 
-Now that we've gone over the different parts of an HLA, we will be updating our example HLA to search for a value from an Async Serial analyzer.
+Now that we’ve gone over the different parts of an HLA, we will be updating our example HLA to search for a value from an Async Serial analyzer.
 
 ### Example Data
 
@@ -138,7 +138,7 @@ In the Extensions Quickstart you should have downloaded and opened a capture of 
 
 ### Remove Unneeded Code
 
-To start, let's remove most of the code from the example HLA, and replace the settings with a single `search_for` setting, which we will be using later.
+To start, let’s remove most of the code from the example HLA, and replace the settings with a single `search_for` setting, which we will be using later.
 
 ```python
 from saleae.analyzers import HighLevelAnalyzer, AnalyzerFrame, StringSetting
@@ -170,7 +170,7 @@ Our HLA (top) is outputting a frame for every frame from the input analyzer (bot
 
 The goal is to search for a message within the input analyzer, but first we need to understand what frames the input analyzer (Async Serial in this case) produces so we can know what frames will be passed into the `decode(frame:` [`AnalyzerFrame`](/support/extensions-api/extensions/api-documentation#class-saleae-analyzers-highlevelanalyzer)`)` function.
 
-The frame formats are documented under [Analyzer Frame Types](/support/extensions-api/hla-frame-format-reference/serial-analyzer), where we can find [Async Serial](/support/extensions-api/hla-frame-format-reference/serial-analyzer).
+The frame formats are documented under [Analyzer Frame Types](/support/extensions-api/hla-frame-format-reference/analyzer-frame-types), where we can find [Async Serial](/support/extensions-api/hla-frame-format-reference/serial-analyzer).
 
 The Async Serial output is simple - it only outputs one frame type, `data`, with 3 fields: `data` , `error`, and `address`. The serial data we are looking at will not be configured to produce frames with the `address` field, so we can ignore that.
 
@@ -182,7 +182,7 @@ To recap, the `decode(frame)` function in our HLA will be called once for each f
 
 ### Updating \`decode()\` to search for "H" or "l"
 
-Now that we we understand the input data, let's update our HLA to search for the character `"H"`.
+Now that we we understand the input data, let’s update our HLA to search for the character `"H"`.
 
 ```python
     def decode(self, frame: AnalyzerFrame):
@@ -217,7 +217,7 @@ class MyHla(HighLevelAnalyzer):
     search_for = StringSetting()
 ```
 
-Instead of using the hardcoded `'Hl'`, let's replace that with the value of `search_for`:
+Instead of using the hardcoded `'Hl'`, let’s replace that with the value of `search_for`:
 
 ```python title="In decode()"
 # If the character matches the one we are searching for, output a new frame
@@ -259,13 +259,13 @@ if ch in self.search_for:
 
 After reloading your HLA you should see the new display strings:
 
-![That's a lot more descriptive!](/support-assets/hla-quickstart-display-string.png)
+![That’s a lot more descriptive!](/support-assets/hla-quickstart-display-string.png)
 
 #### Using time
 
-`AnalyzerFrame`s include a `start_time` and `end_time`. These get passed as the second and third parameter of `AnalyzerFrame`, and can be used to control the time span of a frame. Let's use it to fill in the gaps between the matching frames.
+`AnalyzerFrame`s include a `start_time` and `end_time`. These get passed as the second and third parameter of `AnalyzerFrame`, and can be used to control the time span of a frame. Let’s use it to fill in the gaps between the matching frames.
 
-Let's add a `__init__()` to initialize the 2 time variables we will use to track the span of time that doesn't have a match:
+Let’s add a `__init__()` to initialize the 2 time variables we will use to track the span of time that doesn’t have a match:
 
 ```python
 def __init__(self):
@@ -318,9 +318,9 @@ The final output after reloading:
 
 ![](/support-assets/hla-quickstart-nomatch.png)
 
-## What's Next?
+## What’s Next?
 
-* Find out about other analyzers and the AnalyzerFrames they output in the [Analyzer Frame Types](/support/extensions-api/hla-frame-format-reference/serial-analyzer) documentation.
+* Find out about other analyzers and the AnalyzerFrames they output in the [Analyzer Frame Types](/support/extensions-api/hla-frame-format-reference/analyzer-frame-types) documentation.
 * Use the [API Documentation](/support/extensions-api/extensions/api-documentation) as a reference.
 * Browse the Saleae Marketplace in Logic 2 for more ideas and examples of extensions you can create.
 * [Publish your extension](/support/extensions-api/extensions/publish-an-extension) to the Saleae Marketplace!

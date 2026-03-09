@@ -6,4 +6,4 @@ In your message to us, feel free to include your shipping information below:
 * Address
 * Phone number
 
-Please note that there may be restrictions for shipping to certain countries, but we'll let you know about it in our reply.
+Please note that there may be restrictions for shipping to certain countries, but we’ll let you know about it in our reply.

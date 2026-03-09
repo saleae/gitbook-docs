@@ -1,8 +1,8 @@
 <div class="callout callout-info">
-Instructions for loading existing custom analyzers into the Logic software can be found here: [Import Custom Low Level Analyzer](/support/extensions-api/protocol-analyzer-sdk/setting-up-developer-directory)
+<p>Instructions for loading existing custom analyzers into the Logic software can be found here: <a href="/support/extensions-api/protocol-analyzer-sdk/setting-up-developer-directory">Import Custom Low Level Analyzer</a></p>
 </div>
 
-The Saleae Protocol Analyzer SDK lets you make your own custom protocol analyzers. The framework is very flexible. You can do everything we can do (we use the same SDK). You'll be creating a shared library (.dll for Windows, .so for Linux, or .dylib for MacOS) that will be loaded by the Logic software as a plugin.
+The Saleae Protocol Analyzer SDK lets you make your own custom protocol analyzers. The framework is very flexible. You can do everything we can do (we use the same SDK). You’ll be creating a shared library (.dll for Windows, .so for Linux, or .dylib for MacOS) that will be loaded by the Logic software as a plugin.
 
 While there are many advantages to providing the SDK in this format, implementation of a custom protocol will probably take an experienced C++ developer at least a full day, and possibly up to a week, to complete. You will want to have had considerable programming experience, probably significant C++ experience, before taking it on.
 
@@ -25,7 +25,7 @@ Our SampleAnalyzer automatically fetches the latest library files located on our
 
 ### Installing your Custom Analyzers
 
-[Import Custom Low Level Analyzer](/support/extensions-api/protocol-analyzer-sdk/setting-up-developer-directory)
+<a class="content-ref" href="/support/extensions-api/protocol-analyzer-sdk/setting-up-developer-directory">Import Custom Low Level Analyzer</a>
 
 ### Pre-Installed Analyzers Source Code
 
@@ -56,9 +56,9 @@ Our SampleAnalyzer automatically fetches the latest library files located on our
 
 ### Community Shared Analyzers
 
-[Community Shared Analyzers](/support/community-contact/community-shared-protocols)
+<a class="content-ref" href="/support/community-contact/community-shared-protocols">Community Shared Analyzers</a>
 
 ### **Legacy 1.1.14 Release**
 
-* [Saleae Analyzer SDK 1.1.14](http://downloads.saleae.com/SDK/SaleaeAnalyzerSdk-1.1.14.zip) (includes User's Guide)
+* [Saleae Analyzer SDK 1.1.14](http://downloads.saleae.com/SDK/SaleaeAnalyzerSdk-1.1.14.zip) (includes User’s Guide)
 * [Saleae Analyzer Source Code 1.1.14](http://downloads.saleae.com/SDK/Saleae%20Analyzer%20Source%201.1.14.zip) (the source code for all our analyzers)

@@ -1,21 +1,21 @@
 <div class="callout callout-info">
-Please review the supported IO voltage thresholds of the product you are using as well as its over-voltage protection. The details for each product can be found below.
+<p>Please review the supported IO voltage thresholds of the product you are using as well as its over-voltage protection. The details for each product can be found below.</p>
 </div>
 
-[Supported Voltages](/support/specifications-hardware/electrical-characteristics/supported-voltages)
+<a class="content-ref" href="/support/specifications-hardware/electrical-characteristics/supported-voltages">Supported Voltages</a>
 
 ### **RS-232, RS-485, and RS-422**
 
 <div class="callout callout-info">
-Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16 can be used to read and decode RS-232, RS-485, and RS-422 data up to +/- 25V.
+<p>Logic 4, Logic 8, Logic Pro 8, and Logic Pro 16 can be used to read and decode RS-232, RS-485, and RS-422 data up to +/- 25V.
 
-Our older Gen1 products (Original Logic and Logic16) have a 0V to 5V absolute maximum range. Therefore, neither product can be used to measure signals outside of this range. That limits its usage for directly recording RS-232, RS-485, and RS-422, which exceed this range in many cases.
+Our older Gen1 products (Original Logic and Logic16) have a 0V to 5V absolute maximum range. Therefore, neither product can be used to measure signals outside of this range. That limits its usage for directly recording RS-232, RS-485, and RS-422, which exceed this range in many cases.</p>
 </div>
 
 * All four of the new Saleae devices include over-voltage protection to +/- 25 volts. It’s perfectly safe to connect any signal up to this range directly to its inputs.
 * The original Logic and Logic16 cannot be directly connected to these signals. They also have over-voltage protection, but it was not designed to be used with these signals continuously. Either use a voltage divider or a dedicated line transceiver/receiver to convert these signals to CMOS/TTL levels.
 * When recording any of these signals, it is important to properly connect the ground from the logic analyzer to either the ground of the transmitter or the receiver. Do not connect ground to one of the signal wires, as this could damage your equipment. Neither RS-232, RS-485, nor RS-422 are isolated, which means that all transmitters and receivers on the bus must share the same ground to operate. In most cases, a ground wire is included in the bus wiring, which could be tapped with Logic. Otherwise, you will need to find another ground connection nearby to connect to.
-* For RS-422 and RS-485, it's generally not necessary to record both the + and - signals. In most cases, recording only one-half of the differential pair is sufficient. However, it's usually a good idea to record both sides, at least at first, to evaluate the differences in the recording quality of the two signals. Because the threshold voltage of the logic analyzer is not matched properly for differential signals, it's likely that one side of the differential pair will have a cleaner recording than the other.
+* For RS-422 and RS-485, it’s generally not necessary to record both the + and - signals. In most cases, recording only one-half of the differential pair is sufficient. However, it’s usually a good idea to record both sides, at least at first, to evaluate the differences in the recording quality of the two signals. Because the threshold voltage of the logic analyzer is not matched properly for differential signals, it’s likely that one side of the differential pair will have a cleaner recording than the other.
 
 ### **12V and 24V TTL Logic**
 
@@ -26,7 +26,7 @@ Our older Gen1 products (Original Logic and Logic16) have a 0V to 5V absolute ma
     This may work for most applications. However, keep in mind that the logic threshold (the trip-point voltage that determines if the input is a logic 0 or a logic 1) is very low compared to a 12-volt signal. If your signal does not swing all the way to ground or has a very slow transition speed, it may skew the results or simply not read correctly. In these cases, you may want to use a resistor divider to reduce the voltage level, so the trip point will appear to be higher relative to your signal. Keep the bandwidth requirements and Logic’s input capacity in mind when creating a resistor divider.
 *   Connecting to higher voltage signals with the original Logic or Logic16.
 
-    Logic's and Logic16's inputs operate up to 5 volts and have over-voltage protection to protect against short transients up to higher voltages. However, neither product can be directly connected to signals outside the 0V to 5V range.
+    Logic’s and Logic16’s inputs operate up to 5 volts and have over-voltage protection to protect against short transients up to higher voltages. However, neither product can be directly connected to signals outside the 0V to 5V range.
 
     To connect Logic to a higher voltage signal, you have several options. In the general case, the best solution is to use a level shifting IC or adapter to convert to a lower voltage.
 
@@ -43,7 +43,7 @@ Our older Gen1 products (Original Logic and Logic16) have a 0V to 5V absolute ma
 
 ### **ECL (Emitter Coupled Logic)**
 
-ECL logic swings between -1.75 volts (logic low) and -0.9 volts (logic high). Because none of the Saleae products offer threshold options below ground, ECL cannot be directly recorded with digital inputs. The Logic Pro devices can record these signals in analog, but only at very low bandwidths, and the recorded signal can only be viewed in analog—protocol analyzers and digital measurements can't be applied.
+ECL logic swings between -1.75 volts (logic low) and -0.9 volts (logic high). Because none of the Saleae products offer threshold options below ground, ECL cannot be directly recorded with digital inputs. The Logic Pro devices can record these signals in analog, but only at very low bandwidths, and the recorded signal can only be viewed in analog—protocol analyzers and digital measurements can’t be applied.
 
 ### **PECL (Positive Emitter Coupled Logic)**
 

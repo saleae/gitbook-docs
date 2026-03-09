@@ -125,15 +125,15 @@
 
 ***
 
-#### [Fan RPM's ★ 0](https://github.com/cklopotic/fanRPMs)
+#### [Fan RPM’s ★ 0](https://github.com/cklopotic/fanRPMs)
 
 **Version:** 0.0.1\
 **Author:** Cory Klopotic\
-**Description:** Measures the RPM's from a fan using the fan's TACH signal. TACH signal goes low 2 times per revolution.
+**Description:** Measures the RPM’s from a fan using the fan’s TACH signal. TACH signal goes low 2 times per revolution.
 
 **Extensions:**
 
-* **Fan RPM's**: Type: DigitalMeasurement
+* **Fan RPM’s**: Type: DigitalMeasurement
   * Metrics:
     * RPM: RPM (RPM)
 

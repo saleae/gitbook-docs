@@ -1,4 +1,4 @@
-The following information applies to orders placed directly on our website at www.saleae.com.
+The following information applies to orders placed directly on our website at [www.saleae.com](https://www.saleae.com).
 
 **Direct Credit Card Payments**
 
@@ -10,7 +10,7 @@ If your shipment does not ship within 7 days of the order placement, that author
 
 When you place your order with PayPal express checkout, we only authorize your PayPal account. When your order ships, we charge against that authorization. Unlike direct payments, however, when that authorization expires, there is no way for us to charge your order without customer intervention. PayPal authorizations usually expire about 29 days after the original order was placed. There is no way for us to extend the authorization window, and reauthorizations do not change the original authorization expiration date.
 
-In order for us to ship your order after the 29-day window, we will contact you with instructions. We will send you a link that will redirect you to PayPal's website where you can quickly make a new payment for the order. We will authorize and charge your account and then ship your order.
+In order for us to ship your order after the 29-day window, we will contact you with instructions. We will send you a link that will redirect you to PayPal’s website where you can quickly make a new payment for the order. We will authorize and charge your account and then ship your order.
 
 **Payment Declined at the Time of Shipping**
 

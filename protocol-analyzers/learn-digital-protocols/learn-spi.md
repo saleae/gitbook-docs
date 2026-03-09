@@ -2,7 +2,7 @@ SPI (serial peripheral interface) is a common application of synchronous serial�
 
 ### **SPI and Synchronous Serial**
 
-SPI is a particular type of synchronous serial. We'll start by discussing the characteristics of synchronous serial.
+SPI is a particular type of synchronous serial. We’ll start by discussing the characteristics of synchronous serial.
 
 ### **Serial vs. Parallel**
 
@@ -28,15 +28,15 @@ The rising edge (also called positive edge or posedge) is when the state changes
 
 <figure><img src="/support-assets/RiseFall.jpg" alt=""><figcaption></figcaption></figure>
 
-In SPI, data are only ever valid (should be read) on either the rising or falling edge. Which one it is—rising or falling edge—depends on the implementation. For existing parts and systems, you'll have to look it up (typically in a datasheet). In some applications, you may have the flexibility to use either (you'll need to pick one), and then make sure everyone sticks to the standard.
+In SPI, data are only ever valid (should be read) on either the rising or falling edge. Which one it is—rising or falling edge—depends on the implementation. For existing parts and systems, you’ll have to look it up (typically in a datasheet). In some applications, you may have the flexibility to use either (you’ll need to pick one), and then make sure everyone sticks to the standard.
 
 ### **Synchronization – Which Bit Belongs to Which Byte?**
 
-We know when to read a bit, but how do we know which bit we are reading? In other words, how do we synchronize? The most straightforward way to synchronize is to use a third wire. Ahead of time, we decide that a rising (or falling) edge of that wire will be our synchronization event. Typically, this wire is called enable or reset (but it's the same idea.) It allows the different parts of a system to synchronize—to revert to a known starting state.
+We know when to read a bit, but how do we know which bit we are reading? In other words, how do we synchronize? The most straightforward way to synchronize is to use a third wire. Ahead of time, we decide that a rising (or falling) edge of that wire will be our synchronization event. Typically, this wire is called enable or reset (but it’s the same idea.) It allows the different parts of a system to synchronize—to revert to a known starting state.
 
 ### **Enable and Disable**
 
-The enable line is used for synchronization, but it usually also serves another purpose. Its state (0 or 1) indicates if something should be enabled or disabled. For example, maybe you don't need a particular device to be running all the time. You may be able to disable it, putting it into a low power mode. In SPI, that has the added benefit of choosing which device you want to talk to. You simply disable all the devices except the one you want to talk to.
+The enable line is used for synchronization, but it usually also serves another purpose. Its state (0 or 1) indicates if something should be enabled or disabled. For example, maybe you don’t need a particular device to be running all the time. You may be able to disable it, putting it into a low power mode. In SPI, that has the added benefit of choosing which device you want to talk to. You simply disable all the devices except the one you want to talk to.
 
 ### **A Simple Implementation of Synchronous Serial – the Shift Register**
 
@@ -44,7 +44,7 @@ In practice, shift registers are often used in the implementation of SPI.
 
 ### **Point-to-Point Connection**
 
-There are many possible ways in which a synchronous serial could be used with more than two devices. One simple way is that each pair of devices that needs to communicate has dedicated connections. Notice, however, that the number of connections you need grows geometrically. So this isn't a great solution.
+There are many possible ways in which a synchronous serial could be used with more than two devices. One simple way is that each pair of devices that needs to communicate has dedicated connections. Notice, however, that the number of connections you need grows geometrically. So this isn’t a great solution.
 
 <figure><img src="/support-assets/DataClock.jpg" alt=""><figcaption></figcaption></figure>
 
@@ -63,7 +63,7 @@ Notice that a bus uses far fewer connections. However, there are some limitation
 * A device needs some way of knowing if someone is already talking on the bus.
 * The bus needs to recover from potential conflicts and have a way to figure out who gets to go first.
 
-While a bus topology like the one shown is very powerful, it requires electrical- and protocol-level complexity to deal with the issues raised above. It's not ideal for very cheap and simple devices.
+While a bus topology like the one shown is very powerful, it requires electrical- and protocol-level complexity to deal with the issues raised above. It’s not ideal for very cheap and simple devices.
 
 ### **The SPI Way**
 
@@ -73,7 +73,7 @@ SPI uses a bus but makes a few compromises to make things very simple.
 
 ### **Only One Master**
 
-In SPI, only one of the devices is in charge. It alone decides who can talk on the bus. Furthermore, devices can only talk to the master device; they can't talk to each other.
+In SPI, only one of the devices is in charge. It alone decides who can talk on the bus. Furthermore, devices can only talk to the master device; they can’t talk to each other.
 
 ### **The Lowly Slaves**
 
@@ -85,7 +85,7 @@ In SPI, the master uses an enable line for each and every slave. In this way, th
 
 ### **SS or EN**
 
-In SPI, the enable line is usually called SS (slave select) or EN (enable). It's all the same thing.
+In SPI, the enable line is usually called SS (slave select) or EN (enable). It’s all the same thing.
 
 ### **Enable (EN or SS) Is Active Low**
 
@@ -107,11 +107,11 @@ Since this is synchronous serial, there needs to be a clock, which is typically 
 
 **The Unspecified Details**
 
-SPI leaves a couple things unspecified. For example, should a slave read the MOSI line on CLK's rising edge or its falling edge? An additional complication is that the slave must generate output data on MOSI such that its data will be valid when the master reads it in accordance with its own CLK signal. That is a little backward.
+SPI leaves a couple things unspecified. For example, should a slave read the MOSI line on CLK’s rising edge or its falling edge? An additional complication is that the slave must generate output data on MOSI such that its data will be valid when the master reads it in accordance with its own CLK signal. That is a little backward.
 
 **Clock Polarity and Phase – CPOL and CPHA**
 
-Datasheets specify the previously mentioned details in terms of clock polarity (CPOL) and clock phase (CPHA). An additional complication is that the slave must generate output data on MOSI such that its data will be valid when the master reads it in accordance with its own CLK signal. That is a little backward. Clock polarity (CPOL) is the state of the clock at the moment a slave's enable line becomes active. CPOL=0 means that the clock is low (0) as the slave becomes enabled. CPOL=1 means the clock is high (1) when the slave becomes enabled.
+Datasheets specify the previously mentioned details in terms of clock polarity (CPOL) and clock phase (CPHA). An additional complication is that the slave must generate output data on MOSI such that its data will be valid when the master reads it in accordance with its own CLK signal. That is a little backward. Clock polarity (CPOL) is the state of the clock at the moment a slave’s enable line becomes active. CPOL=0 means that the clock is low (0) as the slave becomes enabled. CPOL=1 means the clock is high (1) when the slave becomes enabled.
 
 <figure><img src="/support-assets/Polarity.png" alt=""><figcaption></figcaption></figure>
 
@@ -137,7 +137,7 @@ CPOL=1 (the clock starts out high) CPHA=1 (data is valid on the 2nd clock edge)
 
 **Clock Polarity and Clock Phase**
 
-The SPI variations you'll typically need to worry the most about is the clock polarity and clock phase discussed above.
+The SPI variations you’ll typically need to worry the most about is the clock polarity and clock phase discussed above.
 
 <figure><img src="/support-assets/PolPhase.png" alt=""><figcaption></figcaption></figure>
 
@@ -149,7 +149,7 @@ The bit rate is the fastest speed at which the CLK line will operate. This can v
 
 **Bit Order**
 
-Data are sent over the SPI most significant bit first. However, you may find yourself using SPI code or an SPI hardware peripheral with synchronous serial that isn't strictly SPI. 
+Data are sent over the SPI most significant bit first. However, you may find yourself using SPI code or an SPI hardware peripheral with synchronous serial that isn’t strictly SPI. 
 
 <figure><img src="/support-assets/BitOrder.png" alt=""><figcaption></figcaption></figure>
 

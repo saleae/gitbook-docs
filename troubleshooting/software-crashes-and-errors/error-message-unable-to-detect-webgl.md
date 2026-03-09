@@ -1,5 +1,5 @@
 <div class="callout callout-info">
-We've received reports of Logic 2.3.41 and later versions having incompatibility issues with certain graphics cards released greater than 8 years ago, namely AMD Radeon graphics cards. We're monitoring a list of graphics cards with known incompatiliby issues with our app in the [forum post here](https://ideas.saleae.com).
+<p>We’ve received reports of Logic 2.3.41 and later versions having incompatibility issues with certain graphics cards released greater than 8 years ago, namely AMD Radeon graphics cards. We’re monitoring a list of graphics cards with known incompatiliby issues with our app in the <a href="https://ideas.saleae.com">forum post here</a>.</p>
 </div>
 
 Upon launching the Logic 2 software, you may experience an immediate crash, or an error message may appear, stating either of the following:
@@ -15,7 +15,7 @@ Upon launching the Logic 2 software, you may experience an immediate crash, or a
 
 ### Solution #1 - Update you GPU Driver
 
-Please navigate to your GPU hardware's support page and download/install the latest driver update for your GPU. This seemed to solve some reports of this issue, especially for older GPU hardware.
+Please navigate to your GPU hardware’s support page and download/install the latest driver update for your GPU. This seemed to solve some reports of this issue, especially for older GPU hardware.
 
 ### Solution #2 - Launch from Command Line with Launch Arguments
 
@@ -26,7 +26,7 @@ cd C:\Program Files\Logic
 Logic.exe --disable-gpu
 ```
 
-If the above argument doesn't solve it, try the `--in-process-gpu` command line argument. On Windows, it would be like so:
+If the above argument doesn’t solve it, try the `--in-process-gpu` command line argument. On Windows, it would be like so:
 
 ```
 cd C:\Program Files\Logic
@@ -35,13 +35,13 @@ Logic.exe --in-process-gpu
 
 ### Solution #3 - Try Logic 2.3.40
 
-You may want to try launching an older version of the Logic 2 app, specificall [Logic 2.3.40](https://ideas.saleae.com/changelog/2340/). As mentioned above, we've received reports of Logic 2.3.41 and later versions having incompatibility issues with certain graphics cards. We don't recommend using this version long term as it is now several versions outdated, but might reveal some clues depending on its behavior.
+You may want to try launching an older version of the Logic 2 app, specificall [Logic 2.3.40](https://ideas.saleae.com/changelog/2340/). As mentioned above, we’ve received reports of Logic 2.3.41 and later versions having incompatibility issues with certain graphics cards. We don’t recommend using this version long term as it is now several versions outdated, but might reveal some clues depending on its behavior.
 
 ### Solution #4 - Try Logic 1.x
 
-If the above solutions fail, you may want to try our older Logic 1.x software downloadable below. Please [contact us](/contact) as well and let us know the tests you have ran, as well as the information we ask for below about your PC. Similar to the previous solution, we don't recommend using this version long term as it is now several versions outdated, but might reveal some clues depending on its behavior.
+If the above solutions fail, you may want to try our older Logic 1.x software downloadable below. Please [contact us](/contact) as well and let us know the tests you have ran, as well as the information we ask for below about your PC. Similar to the previous solution, we don’t recommend using this version long term as it is now several versions outdated, but might reveal some clues depending on its behavior.
 
-[Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
+<a class="content-ref" href="/support/logic-software/download-and-installation/older-software-releases">Logic 1.x Download (Deprecated)</a>
 
 ### Contacting Support
 
@@ -57,7 +57,7 @@ When [contacting us](/contact), please let us know the following information abo
 * Results of the following tests ([WebGL v1](https://webglreport.com/?v=1) and [WebGL v2](https://webglreport.com/?v=2))
 * In case you can launch [Logic 2.3.40](https://ideas.saleae.com/changelog/2340/) successfully, please send us your machine ID. Instructions are linked below.
 
-[Getting your Machine ID](/support/troubleshooting/diagnostic-tools/sharing-your-machine-id)
+<a class="content-ref" href="/support/troubleshooting/diagnostic-tools/sharing-your-machine-id">Getting your Machine ID</a>
 
 
 

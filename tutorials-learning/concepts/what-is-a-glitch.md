@@ -4,15 +4,15 @@ A glitch in data is usually identified by a relatively tiny, and unintentional, 
 
 ### The Software Glitch Filter to the Rescue
 
-Glitches can cause protocol analyzers to incorrectly interpret the underlying data. Because of this, Saleae Logic offers a software glitch filter to "hide" unwanted glitches from being visible. Please be careful - this doesn't mean the glitches have gone away. It simply means we are "hiding" them from view so that our protocol analyzers can properly do their job. Many times, when a protocol analyzer doesn't seem to be decoding properly, looking for glitches to filter can be a useful first step to debug the issue.
+Glitches can cause protocol analyzers to incorrectly interpret the underlying data. Because of this, Saleae Logic offers a software glitch filter to "hide" unwanted glitches from being visible. Please be careful - this doesn’t mean the glitches have gone away. It simply means we are "hiding" them from view so that our protocol analyzers can properly do their job. Many times, when a protocol analyzer doesn’t seem to be decoding properly, looking for glitches to filter can be a useful first step to debug the issue.
 
 To learn more about our software glitch filter, see our user guide on it below.
 
-[Software Glitch Filter](/support/logic-software/viewing-and-analyzing-data/software-glitch-filter)
+<a class="content-ref" href="/support/logic-software/viewing-and-analyzing-data/software-glitch-filter">Software Glitch Filter</a>
 
 ### Why is this Useful? 
 
-Many times, an engineer will record data that may contain unwanted noise in the recording. These glitches can really confuse our protocol analyzers and hinder its ability to decode the underlying data. Enabling the software glitch filter doesn't solve the glitch issue, but instead, helps the protocol analyzer decode the data and do its job properly.
+Many times, an engineer will record data that may contain unwanted noise in the recording. These glitches can really confuse our protocol analyzers and hinder its ability to decode the underlying data. Enabling the software glitch filter doesn’t solve the glitch issue, but instead, helps the protocol analyzer decode the data and do its job properly.
 
 ### Try Using the Glitch Filter
 

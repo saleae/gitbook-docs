@@ -22,9 +22,9 @@ Notes:
 
 * The 1.2V input voltage high spec allows Logic 8 to be used directly with the CAN low channel of 3.3V CAN.
 * Recommended IO standards: 5.0V, 3.3V, 2.5V, 1.8V
-* For Logic 8's digital channels, the range between 0.6V and 1.2V results in undefined behavior. For signals that might cross this range slowly (e.g. I2C signals due to its relatively slow rise/fall times caused by its open drain topology), you may want to ensure that the software glitch filter is enabled to filter out any potential glitches that might cause decoding errors.
+* For Logic 8’s digital channels, the range between 0.6V and 1.2V results in undefined behavior. For signals that might cross this range slowly (e.g. I2C signals due to its relatively slow rise/fall times caused by its open drain topology), you may want to ensure that the software glitch filter is enabled to filter out any potential glitches that might cause decoding errors.
 
-[Software Glitch Filter](/support/logic-software/viewing-and-analyzing-data/software-glitch-filter)
+<a class="content-ref" href="/support/logic-software/viewing-and-analyzing-data/software-glitch-filter">Software Glitch Filter</a>
 
 ### **Logic Pro 8 and Logic Pro 16**
 
@@ -81,7 +81,7 @@ The original Logic also has a fixed input voltage threshold.
 
 Note: Over-voltage protection is not meant for continuous operation outside of -0.5V to 5.25V. That makes the device unsuitable for safe, direct recording of RS-232 and similar standards.
 
-The original Logic is the only Saleae device to have internally pulled up inputs. All other Saleae devices had an internal resistance to ground. The original Logic's inputs float at about 2.4 volts, with over 100 K ohms of pull-up resistance, producing a very small pull-up effect.
+The original Logic is the only Saleae device to have internally pulled up inputs. All other Saleae devices had an internal resistance to ground. The original Logic’s inputs float at about 2.4 volts, with over 100 K ohms of pull-up resistance, producing a very small pull-up effect.
 
 ### **First-Generation Logic16**
 

@@ -6,13 +6,13 @@ This calibration data is not stored on the device. Instead, it is stored on our 
 
 #### Checking Calibration Status & Device Serial Number
 
-Our support team may request you to send your serial number to us to further investigate your device's calibration status. We may also have you check your device's calibration status as reported by your software below.
+Our support team may request you to send your serial number to us to further investigate your device’s calibration status. We may also have you check your device’s calibration status as reported by your software below.
 
 1. Click the Device Settings Panel Button on the right
 2. Click the three dots next to your device name on the top-right
-3. Click Device Info to view the device's calibration status and serial number
+3. Click Device Info to view the device’s calibration status and serial number
 
-<div align="center"><img src="/support-assets/device-info.png" alt="Opening the Device Information Window"></div>
+<img src="/support-assets/device-info.png" alt="Opening the Device Information Window">
 
 <figure><img src="/support-assets/image%20(18).png" alt=""><figcaption><p>Device Information window showing calibration status</p></figcaption></figure>
 
@@ -51,7 +51,7 @@ When manually downloading the calibration file in Logic 2.x, in rare cases, your
 
 ![Manual Calibration Access Denied](/support-assets/Screen%20Shot%202020-06-24%20at%2012.54.46%20PM.png)
 
-In this case, please submit a [Warranty Request](https://saleae-support.typeform.com/to/E8UPB7) form and we will be happy to help. This may be indicative of hardware failure and we'll most likely want to process a warranty for you.
+In this case, please submit a [Warranty Request](https://saleae-support.typeform.com/to/E8UPB7) form and we will be happy to help. This may be indicative of hardware failure and we’ll most likely want to process a warranty for you.
 
 #### **Transferring the Calibration File from One PC to Another**
 
@@ -72,7 +72,7 @@ In case you want to check if there is an updated calibration file available, ple
 
 #### Can I Manually Adjust Calibration Values for my Logic Device?
 
-This is one of our top requested features for which we would love to work on at some point. However, a proper implementation is a long way off. In the meantime, we have a workaround which will allow users to adjust their calibration file's analog gain & offset manually by a Python script. More information about this can be found below:
+This is one of our top requested features for which we would love to work on at some point. However, a proper implementation is a long way off. In the meantime, we have a workaround which will allow users to adjust their calibration file’s analog gain & offset manually by a Python script. More information about this can be found below:
 
 * [Discuss Forum - Quick calibration hack to adjust channel gain and offset](https://discuss.saleae.com/t/quick-calibration-hack-to-adjust-channel-gain-and-offset)
 

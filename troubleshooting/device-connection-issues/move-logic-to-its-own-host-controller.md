@@ -1,6 +1,6 @@
 You may want to move Logic to its own host controller when running into the issue described in the below article.
 
-[Error Message: ReadTimeout](/support/troubleshooting/capture-and-recording-issues/device-not-able-to-keep-up)
+<a class="content-ref" href="/support/troubleshooting/capture-and-recording-issues/device-not-able-to-keep-up">Error Message: ReadTimeout</a>
 
 To move the logic analyzer to its own host controller, with no other devices on that host controller, your PC will need at least 2 host controllers. Some laptops will only have one. Follow the steps below for your specific operating system.
 
@@ -21,7 +21,7 @@ To move the logic analyzer to its own host controller, with no other devices on 
 7. Note which host controller it is (USB 3.1 or USB 3.2)
 8. From the view menu, change back to "Devices by type"
 9. Move the your Logic device to a new USB port
-10. Repeat the process from step 3, until you've checked every port on your computer
+10. Repeat the process from step 3, until you’ve checked every port on your computer
 
 ### **OS X**
 

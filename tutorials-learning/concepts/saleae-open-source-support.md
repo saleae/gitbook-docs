@@ -1,4 +1,4 @@
-I'm generally a fan of community developed software, especially when it's hosted on GitHub. However, this is not a good option in our case.
+I’m generally a fan of community developed software, especially when it’s hosted on GitHub. However, this is not a good option in our case.
 
 First and foremost, we believe that the software provides the biggest value of the Saleae products. When you buy a product, the price includes the software. The software is one of the main things that sets us apart from the competition. Open-sourcing the software would give that edge away, and we think it could possibly even end our business.
 
@@ -8,7 +8,7 @@ Right now, you can download the source code for the Saleae protocol analyzers. T
 
 In the future, though, we want to adopt a wider plugin system where it will be possible to implement measurements, new channel displays, new annotations, and more. Then we will open-source the modules the software ships with so they can be used as a starting point for new custom features. That way, the feature set of the software can grow much faster.
 
-This new plugin system, however, will require substantial changes to the software architecture. We have already been performing early evaluations of it. It's a very ambitious and exciting idea and one I hope we can commit to soon.
+This new plugin system, however, will require substantial changes to the software architecture. We have already been performing early evaluations of it. It’s a very ambitious and exciting idea and one I hope we can commit to soon.
 
 In the meantime, we are not able to open-source any other components of the current software, including the USB layer and device layer libraries.
 

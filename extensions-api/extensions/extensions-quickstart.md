@@ -10,26 +10,26 @@ In this guide, we will walk your through creating an HLA (High Level Analyzer) e
 3\. Under 'Generate from template', choose the type of extension you would like to create. For this example, we will create a High Level Analyzer.\
 4\. _**(Optional)**_ Click 'Additional Information' to fill in information about your extension.
 
-<div align="center"><img src="/support-assets/Screen%20Shot%202020-06-10%20at%208.29.50%20PM.png" alt=""></div>
+<img src="/support-assets/Screen%20Shot%202020-06-10%20at%208.29.50%20PM.png" alt="">
 
-5\. Click 'Save As...' to save and select your location.\
+5\. Click 'Save As…' to save and select your location.\
 6\. You should now see your new extension listed as 'Local' in the software.
 
-<div align="center"><img src="/support-assets/Screen%20Shot%202020-06-10%20at%208.29.13%20PM.png" alt=""></div>
+<img src="/support-assets/Screen%20Shot%202020-06-10%20at%208.29.13%20PM.png" alt="">
 
 ## Using a High Level Analyzer Extension
 
-1\. To test the new Sample HLA, capture any protocol data for [one of the supported analyzers](/support/extensions-api/hla-frame-format-reference/serial-analyzer), and add the appropriate protocol analyzer. We've provided an I2C capture below in case you don't have a protocol data recording available.
+1\. To test the new Sample HLA, capture any protocol data for [one of the supported analyzers](/support/extensions-api/hla-frame-format-reference/analyzer-frame-types), and add the appropriate protocol analyzer. We’ve provided an I2C capture below in case you don’t have a protocol data recording available.
 
 <a href="/support-assets/I2C.sal" download class="content-ref">I2C.sal</a>
 
 2\. Click the Analyzers '+' button to add our Sample HLA. 
 
-<div align="center"><img src="/support-assets/Screen%20Shot%202020-06-10%20at%208.28.18%20PM.png" alt=""></div>
+<img src="/support-assets/Screen%20Shot%202020-06-10%20at%208.28.18%20PM.png" alt="">
 
 3\. In the settings popup, select 'I2C' under Input Analyzer. For the rest of the settings, you can leave them as default and click 'Finish'. Once you add the HLA, you can see it as a virtual channel as shown in the image below.
 
-<div align="center"><img src="/support-assets/Screen%20Shot%202020-06-10%20at%208.24.29%20PM.png" alt=""></div>
+<img src="/support-assets/Screen%20Shot%202020-06-10%20at%208.24.29%20PM.png" alt="">
 
 ### Customize your High Level Analyzer
 

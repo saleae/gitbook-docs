@@ -1,4 +1,4 @@
-Publishing your extension to the Saleae Marketplace will make it readily available to anyone who uses our software. With your help, we're hoping to provide a growing list of feature extensions that our users can benefit from!
+Publishing your extension to the Saleae Marketplace will make it readily available to anyone who uses our software. With your help, we’re hoping to provide a growing list of feature extensions that our users can benefit from!
 
 ### Prerequisites
 
@@ -6,7 +6,7 @@ Before publishing your extension, you will need to have the following completed.
 
 * You have finished developing your extension and are ready to share it. You can follow along with our Extensions Quickstart guide below as a starting point.
 
-[Create and Use Extensions](/support/extensions-api/extensions/extensions-quickstart)
+<a class="content-ref" href="/support/extensions-api/extensions/extensions-quickstart">Create and Use Extensions</a>
 
 * Your extension must be uploaded to a [GitHub](https://github.com/) repository.
 * You must [create a release](https://help.github.com/en/github/administering-a-repository/managing-releases-in-a-repository) for your extension.
@@ -15,7 +15,7 @@ You can take a look at an [example GitHub repository](https://github.com/timreye
 
 ### Publishing an Extension
 
-1\. Once you've finished developing your extension, click 'Publish' under the Extensions panel for your extension.
+1\. Once you’ve finished developing your extension, click 'Publish' under the Extensions panel for your extension.
 
 <div align="left"><img src="/support-assets/Screen%20Shot%202020-06-10%20at%208.40.05%20PM.png" alt=""></div>
 
@@ -24,15 +24,15 @@ You can take a look at an [example GitHub repository](https://github.com/timreye
 <div align="left"><img src="/support-assets/Screen%20Shot%202020-06-11%20at%208.52.44%20PM.png" alt=""></div>
 
 <div class="callout callout-info">
-If clicking the Publish button doesn't open your browser, you can manually reach our Extensions Marketplace Publish site via the link below:
+<p>If clicking the Publish button doesn’t open your browser, you can manually reach our Extensions Marketplace Publish site via the link below:
 
-[https://marketplace.saleae.com/publish](https://marketplace.saleae.com/publish)
+<a href="https://marketplace.saleae.com/publish">https://marketplace.saleae.com/publish</a></p>
 </div>
 
-3\. Afterwards, you'll be taken to a new page to authorize Saleae Marketplace to access your GitHub account. 
+3\. Afterwards, you’ll be taken to a new page to authorize Saleae Marketplace to access your GitHub account. 
 
 <div class="callout callout-info">
-If clicking "Submit" takes you to an error page on GitHub's website, please ensure you are logged in with an account that has administrator permissions over the repository you are attempting to publish. Also, if the repository is part of an organization, there may be some policies for the organization that might be causing the error.
+<p>If clicking "Submit" takes you to an error page on GitHub’s website, please ensure you are logged in with an account that has administrator permissions over the repository you are attempting to publish. Also, if the repository is part of an organization, there may be some policies for the organization that might be causing the error.</p>
 </div>
 
 4\. Click 'Authorize' and you should immediately receive an email confirming that your extension has been added to the Marketplace. The web page should also confirm that your extension was submitted successfully.

@@ -6,17 +6,17 @@ First, determine the bandwidths of the signal(s) you will record. Signals like S
 
 Audio signals have a minimum bandwidth of 22 kHz. When measuring things like battery voltage over time, usually very low bandwidths are required (less than 1 Hz). Switching power supplies usually lie in the 10s of kHz to 1 MHz range.
 
-Once you have identified the bandwidth requirements, multiply them by the above factors to determine the minimum sample rates. Then understand which product is capable of these sample rates. Don't forget to take into account the number of signals you will need to record at once. Most of the Saleae devices have a trade-off for higher sample rates on fewer channels, so if you need to record a large number of signals at once, make sure you verify the sample rate options with that channel count below.
+Once you have identified the bandwidth requirements, multiply them by the above factors to determine the minimum sample rates. Then understand which product is capable of these sample rates. Don’t forget to take into account the number of signals you will need to record at once. Most of the Saleae devices have a trade-off for higher sample rates on fewer channels, so if you need to record a large number of signals at once, make sure you verify the sample rate options with that channel count below.
 
-[What Is the Maximum Bandwidth of Logic?](/support/specifications-hardware/electrical-characteristics/what-is-the-maximum-bandwidth)
+<a class="content-ref" href="/support/specifications-hardware/electrical-characteristics/what-is-the-maximum-bandwidth">What Is the Maximum Bandwidth of Logic?</a>
 
-Also, don't forget to check the digital IO voltage levels and the analog input voltage range of each product below.
+Also, don’t forget to check the digital IO voltage levels and the analog input voltage range of each product below.
 
-[Supported Voltages](/support/specifications-hardware/electrical-characteristics/supported-voltages)
+<a class="content-ref" href="/support/specifications-hardware/electrical-characteristics/supported-voltages">Supported Voltages</a>
 
 Finally, if you need to record for more than 30 seconds at a time, consult this article regarding maximum buffer size below.
 
-[How Long Can I Record Data?](/support/logic-software/capturing-data/how-long-can-i-record-data)
+<a class="content-ref" href="/support/logic-software/capturing-data/how-long-can-i-record-data">How Long Can I Record Data?</a>
 
 **Examples**
 

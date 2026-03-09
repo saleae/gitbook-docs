@@ -28,7 +28,7 @@ The Saleae Logic software includes the following protocol analyzers:
 
 ### I3C Protocol Analyzer (3rd Party)
 
-We've worked closely with the team at Binho LLC to develop a 3rd party I3C Protocol Analyzer plugin for our Saleae Logic software! This plugin is developed by Binho LLC and will require a paid license to use it within our software. If you're interested in more details, [please contact us here](/contact)!
+We’ve worked closely with the team at Binho LLC to develop a 3rd party I3C Protocol Analyzer plugin for our Saleae Logic software! This plugin is developed by Binho LLC and will require a paid license to use it within our software. If you’re interested in more details, [please contact us here](/contact)!
 
 ![I3C Analyzer running on Logic 2](/support-assets/i3c-analyzer-in-action.gif)
 
@@ -36,13 +36,13 @@ We've worked closely with the team at Binho LLC to develop a 3rd party I3C Proto
 
 We provide user guides for a handful of our protocol analyzers, which we have listed in the link below.
 
-[analyzer-user-guides](/support/protocol-analyzers/analyzer-user-guides/using-spi)
+<a class="content-ref" href="/support/protocol-analyzers/analyzer-user-guides/using-spi">SPI Analyzer - User Guide</a>
 
 ### **More Protocol Analyzers**
 
 Some Logic users have created their own protocol analyzers. The following list of analyzers are available but not officially supported by Saleae.
 
-[Community Shared Analyzers](/support/community-contact/community-shared-protocols)
+<a class="content-ref" href="/support/community-contact/community-shared-protocols">Community Shared Analyzers</a>
 
 ### **Do all Saleae logic analyzer models support these protocols?**
 
@@ -50,6 +50,6 @@ Yes. However, you will need to use a device with sufficient bandwidth to record 
 
 ### What Happened to the UNI/O Analyzer?
 
-Unfortunately, we have not yet ported the UNI/O analyzer from Logic v1 into the newer Logic v2 software. Specifically, it requires separate API functions that we simply haven't had the chance to implement yet. It's not on the roadmap at the moment, though we would like to gauge user interest in this before we commit to it, as porting this analyzer into Logic v2 would require quite a bit of work as compared to porting our other analyzers.
+Unfortunately, we have not yet ported the UNI/O analyzer from Logic v1 into the newer Logic v2 software. Specifically, it requires separate API functions that we simply haven’t had the chance to implement yet. It’s not on the roadmap at the moment, though we would like to gauge user interest in this before we commit to it, as porting this analyzer into Logic v2 would require quite a bit of work as compared to porting our other analyzers.
 
 You can vote for this idea [here](https://ideas.saleae.com).

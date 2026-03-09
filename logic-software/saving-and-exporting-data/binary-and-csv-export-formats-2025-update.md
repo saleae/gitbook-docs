@@ -1,9 +1,9 @@
 <div class="callout callout-info">
-The Logic 2 binary and CSV export file formats are being updated to support new Saleae products. 
+<p>The Logic 2 binary and CSV export file formats are being updated to support new Saleae products. 
 
 Existing products, including Logic 8, Logic Pro 8, and Logic Pro 16, still use the original binary export (version 0), however those will be updated to support the new export format soon.
 
-Version 0 of the binary export, still in use for Logic 8, Logic Pro 8, and Logic Pro 16, is documented in the support article here: [binary-export-format-logic-2.md](/support/logic-software/saving-and-exporting-data/binary-export-format-logic-2)
+Version 0 of the binary export, still in use for Logic 8, Logic Pro 8, and Logic Pro 16, is documented in the support article here: <a href="/support/logic-software/saving-and-exporting-data/binary-export-format-logic-2">binary-export-format-logic-2.md</a></p>
 </div>
 
 ## Binary Export Format (Version 1)
@@ -57,7 +57,7 @@ for each chunk in chunk_count:
 
 * Each chunk represents a continuous segment of data
 * Gaps between chunks indicate missing data, usually due to channels being turned off, but can also occur if USB bandwidth is saturated
-* State alternates with each transition (initial\_state → !initial\_state → initial\_state...)
+* State alternates with each transition (initial\_state → !initial\_state → initial\_state…)
 
 #### Analog Binary Format (Version 1)
 

@@ -1,6 +1,6 @@
 You may contact us directly through the Logic 2 software via the messaging icon at the bottom right.
 
-From here you can...
+From here you can…
 
 * Ask a question on our forum
 * Suggest a feature

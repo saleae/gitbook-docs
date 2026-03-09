@@ -2,7 +2,7 @@ Capture files that were saved using the older Logic 1.x software will be in `.lo
 
 Please note that backward compatibility is not supported. This means you cannot open newer files with other versions of the software. The Logic 1.x software is available for download below.
 
-[Logic 1.x Download (Deprecated)](/support/logic-software/download-and-installation/older-software-releases)
+<a class="content-ref" href="/support/logic-software/download-and-installation/older-software-releases">Logic 1.x Download (Deprecated)</a>
 
 ### What if I am using the newer Logic 2 app?
 

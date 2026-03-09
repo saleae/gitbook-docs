@@ -8,16 +8,16 @@ Because of this, you may encounter issues when attempting to leave a capture run
 
 #### Contacting Support
 
-If you'd like to report any issues you run into while capturing data spanning several hours in length or more, please [contact us](/contact) with the information below.
+If you’d like to report any issues you run into while capturing data spanning several hours in length or more, please [contact us](/contact) with the information below.
 
 * A description of the error you are running into, including any error messages.
 * Your capture settings (or perhaps share your Capture Preset file)
 
-[Capture & Preset File Management](/support/logic-software/saving-and-exporting-data/saving-loading-and-exporting-data)
+<a class="content-ref" href="/support/logic-software/saving-and-exporting-data/saving-loading-and-exporting-data">Capture & Preset File Management</a>
 
 *  Your Machine ID
 
-[Getting your Machine ID](/support/troubleshooting/diagnostic-tools/sharing-your-machine-id)
+<a class="content-ref" href="/support/troubleshooting/diagnostic-tools/sharing-your-machine-id">Getting your Machine ID</a>
 
 ### Reducing Memory Usage of the Software
 

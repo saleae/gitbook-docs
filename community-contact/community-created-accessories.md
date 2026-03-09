@@ -1,4 +1,4 @@
-Several Logic accessories have been made available by our community of users. These are listed below. If you've created an accessory that you'd like to share, [let us know](/contact)!
+Several Logic accessories have been made available by our community of users. These are listed below. If you’ve created an accessory that you’d like to share, [let us know](/contact)!
 
 ### 3D Logic MSO Desktop Stand
 

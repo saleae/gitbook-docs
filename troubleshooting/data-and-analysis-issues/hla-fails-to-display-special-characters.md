@@ -9,7 +9,7 @@ Although this is currently an issue we need to address, we do have a workaround 
 
  `"Value: {{{ data.value }}}"`
 
-We've also noted a few forum posts below, as some users have provided examples for how they have implemented this workaround.
+We’ve also noted a few forum posts below, as some users have provided examples for how they have implemented this workaround.
 
 * [Discuss Forum - Extension Output Message Format](https://discuss.saleae.com/t/extension-output-message-format/1021)
 * [Discuss Forum - Issue Rendering HLA Messages in the Overlay](https://discuss.saleae.com/t/issue-rendering-hla-messages-in-the-overlay/1209)

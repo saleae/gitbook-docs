@@ -1,10 +1,10 @@
 Operating system requirements can be found below:
 
-[Supported Operating Systems](/support/logic-software/download-and-installation/supported-operating-systems)
+<a class="content-ref" href="/support/logic-software/download-and-installation/supported-operating-systems">Supported Operating Systems</a>
 
-The Saleae logic analyzers do not have specific hardware requirements. The software is able to run on low-end equipment. However, the PC's performance and memory will limit the maximum recording length. Details about that can be found below:
+The Saleae logic analyzers do not have specific hardware requirements. The software is able to run on low-end equipment. However, the PC’s performance and memory will limit the maximum recording length. Details about that can be found below:
 
-[How Long Can I Record Data?](/support/logic-software/capturing-data/how-long-can-i-record-data)
+<a class="content-ref" href="/support/logic-software/capturing-data/how-long-can-i-record-data">How Long Can I Record Data?</a>
 
 All products require at least USB 2.0 to operate. The Saleae Logic Pro 8 and Saleae Logic Pro 16 both are USB 3.0 devices and require USB 3.0 to operate at their advertised speeds. Both devices can operate over USB 2.0 with reduced performance. Logic Pro 16 requires more current than a USB 2.0 port can provide, so it can only be used with 8 inputs when connected over USB 2.0 without additional power.
 

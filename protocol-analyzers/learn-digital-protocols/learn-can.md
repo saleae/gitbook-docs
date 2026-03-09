@@ -4,9 +4,9 @@ CAN (controller area network) is a differential serial bus typically used in aut
 
 The Controller Area Network is a bus that can connect many devices, called nodes. When a node sends data on the bus, it broadcasts it. It identifies itself, but not the recipient. Only one node may be transmitted on the bus at a time.
 
-The CAN specification didn't originally define the physical layer, but since then, a standard has been adopted and is in wide use.
+The CAN specification didn’t originally define the physical layer, but since then, a standard has been adopted and is in wide use.
 
-The CAN bus itself is a single long cable with CAN nodes connected very close to the cable. For instance, you wouldn't have any cables coming off the main cable, just very short "stubs" to connect to each device.
+The CAN bus itself is a single long cable with CAN nodes connected very close to the cable. For instance, you wouldn’t have any cables coming off the main cable, just very short "stubs" to connect to each device.
 
 Yes:
 
@@ -48,7 +48,7 @@ Since the CAN bus is a differential pair, typically a CAN transceiver is employe
 
 On the microcontroller side, there are typically two connections: an input and an output. The output always reports the state of the CAN bus—0 for dominant, 1 for recessive.
 
-The CAN transceiver's input is how you tell the transceiver to actually talk on the bus. A 0 will cause the transceiver to assert a dominant state on the bus, and a 1 will cause a recessive state.
+The CAN transceiver’s input is how you tell the transceiver to actually talk on the bus. A 0 will cause the transceiver to assert a dominant state on the bus, and a 1 will cause a recessive state.
 
 ### **Logic States**
 
@@ -64,13 +64,13 @@ Notice that once you are on the microcontroller side, the IO voltages do match t
 
 ### **Bits on the Bus**
 
-Bits are put on the bus in the same manner as RS-232 style asynchronous serial—each bit has a certain time on the bus before the next one's turn. The bit rate can vary, but 1Mbit is common (1µs per bit).
+Bits are put on the bus in the same manner as RS-232 style asynchronous serial—each bit has a certain time on the bus before the next one’s turn. The bit rate can vary, but 1Mbit is common (1µs per bit).
 
 **Idle**
 
 When no nodes are transmitting, the bus is idle. That is the recessive state.
 
-A transmission starts when a node asserts a dominant state on the bus. The first bit is the SOF (start of frame) bit and is analogous to the start bit in RS-232 style serial. Additional bits follow. We'll talk about the structure of this data a little further down.
+A transmission starts when a node asserts a dominant state on the bus. The first bit is the SOF (start of frame) bit and is analogous to the start bit in RS-232 style serial. Additional bits follow. We’ll talk about the structure of this data a little further down.
 
 **Asynchronous Serial and Timing Drift**
 
@@ -86,11 +86,11 @@ If 5 ones are sent in a row, CAN requires that a 0 be sent next. That extra bit 
 
 <figure><img src="/support-assets/BitStuffing.png" alt=""><figcaption></figcaption></figure>
 
-Remember that even if the next bit in the data would cause the needed transition, the receiver won't know that. You must insert the extra bit.
+Remember that even if the next bit in the data would cause the needed transition, the receiver won’t know that. You must insert the extra bit.
 
 <figure><img src="/support-assets/BitStuffing1.png" alt=""><figcaption></figcaption></figure>
 
-There is one gotcha worth mentioning. 0 0 0 0 0 will be followed by a stuffed 1. Let's say another 4 1s then follow. Does that count as 5 ones or 4? It counts as 5—so yes, we would then stuff a 0. Remember that the point is to limit the time you can go without seeing a transition.
+There is one gotcha worth mentioning. 0 0 0 0 0 will be followed by a stuffed 1. Let’s say another 4 1s then follow. Does that count as 5 ones or 4? It counts as 5—so yes, we would then stuff a 0. Remember that the point is to limit the time you can go without seeing a transition.
 
 <figure><img src="/support-assets/Bitstuffing3.png" alt=""><figcaption></figcaption></figure>
 
@@ -98,7 +98,7 @@ If a receiver received 6 consecutive bits in a row, that is considered an error,
 
 **CAN Frames**
 
-Everything in CAN is sent in a frame (or message). This is essentially a packet. It consists of the sender's unique ID, some flags, some data, and a CRC.
+Everything in CAN is sent in a frame (or message). This is essentially a packet. It consists of the sender’s unique ID, some flags, some data, and a CRC.
 
 **Standard and Extended Frames**
 
@@ -108,9 +108,9 @@ The identifier of a given node must be unique on the bus.
 
 **DATA and REMOTE Frames**
 
-A DATA frame's identifier is that of the sender (transmitter). The frame can contain up to 8 bytes of data.
+A DATA frame’s identifier is that of the sender (transmitter). The frame can contain up to 8 bytes of data.
 
-A REMOTE frame's identifier is that of another device—a device that the sender is requesting data from. REMOTE frames do not contain any data bytes.
+A REMOTE frame’s identifier is that of another device—a device that the sender is requesting data from. REMOTE frames do not contain any data bytes.
 
 A single bit, the RTR (remote transmission request) bit determines if a frame is DATA or REMOTE.
 

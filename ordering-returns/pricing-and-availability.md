@@ -2,13 +2,13 @@
 
 You can find the pricing and part numbers for all of our products in the support article below. The pricing in the support article is shown in USD currency. However, if we are shipping to a country outside of the United States, we recommend referring to the **Availability** section below to determine if you will be charged in your local currency, as well as the cost of shipping and taxes in your local currency.
 
-[Part Numbers, ECCN, HS Codes, and Country of Origin](/support/specifications-hardware/datasheets-and-compliance/saleae-part-numbers)
+<a class="content-ref" href="/support/specifications-hardware/datasheets-and-compliance/saleae-part-numbers">Part Numbers, ECCN, HS Codes, and Country of Origin</a>
 
 ### Shipping and Taxes
 
 To check the cost of shipping and taxes, follow the steps in the support article below to place an online order. When you reach the Checkout page, enter your contact information and shipping address and click "Continue to shipping method" to reach the "Shipping method" page. From there, you can select your preferred shipping method and can view the shipping cost and taxes.
 
-[Place an Online Order](/support/ordering-returns/how-do-i-place-an-order)
+<a class="content-ref" href="/support/ordering-returns/how-do-i-place-an-order">Place an Online Order</a>
 
 <figure><img src="/support-assets/Screen%20Shot%202022-10-12%20at%201.35.16%20PM.png" alt=""><figcaption><p>Shipping and Tax Charges during Checkout</p></figcaption></figure>
 

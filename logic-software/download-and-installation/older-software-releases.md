@@ -1,8 +1,8 @@
 <div class="callout callout-warning">
-Starting October of 2022, Saleae has released a new hardware revision of our Logic analyzers which requires the latest version of the Logic 2 software available [here](https://www.saleae.com/downloads/). This newer revision of the hardware will **no longer work with our legacy Logic 1.x software**.
+<p>Starting October of 2022, Saleae has released a new hardware revision of our Logic analyzers which requires the latest version of the Logic 2 software available <a href="https://www.saleae.com/downloads/">here</a>. This newer revision of the hardware will <strong>no longer work with our legacy Logic 1.x software</strong>.</p>
 </div>
 
-[Logic Hardware Revisions](/support/specifications-hardware/datasheets-and-compliance/logic-hardware-revisions)
+<a class="content-ref" href="/support/specifications-hardware/datasheets-and-compliance/logic-hardware-revisions">Logic Hardware Revisions</a>
 
 ## Logic 1.2.40
 
@@ -14,13 +14,13 @@ Windows 64-bit standalone release:\
 [https://downloads.saleae.com/logic/1.2.40/Logic-1.2.40-Windows.zip](https://downloads.saleae.com/logic/1.2.40/Logic-1.2.40-Windows.zip)
 
 <div class="callout callout-info">
-Please be aware of the following requirements for the Windows standalone release:
+<p>Please be aware of the following requirements for the Windows standalone release:
 
-* The [Microsoft Visual Studio runtime](https://www.microsoft.com/en-us/download/details.aspx?id=48145) needs to be installed before the software will run.
-* If drivers are not already installed from a previous installation of the Logic software, you will need to install the drivers manually. You can find instructions for installing our drivers in the link below.
+* The <a href="https://www.microsoft.com/en-us/download/details.aspx?id=48145">Microsoft Visual Studio runtime</a> needs to be installed before the software will run.
+* If drivers are not already installed from a previous installation of the Logic software, you will need to install the drivers manually. You can find instructions for installing our drivers in the link below.</p>
 </div>
 
-[Driver Install](/support/logic-software/download-and-installation/driver-install)
+<a class="content-ref" href="/support/logic-software/download-and-installation/driver-install">Driver Install</a>
 
 Mac OS X 10.8+\
 [https://downloads.saleae.com/logic/1.2.40/Logic-1.2.40-MacOS.dmg](https://downloads.saleae.com/logic/1.2.40/Logic-1.2.40-MacOS.dmg)
@@ -52,7 +52,7 @@ Unfortunately, the Decoded Protocols Panel, in addition to Protocol Search, is n
 
 We released a temporary fix for processor incompatibilies mentioned in the support article below. The fixes have been implemented in v1.2.40, however, you may still need to use the temporary release versions mentioned below (v1.2.35 for Windows and v1.2.33 for MacOS) if you require using the Decoded Protocols Panel, which is not included in v1.2.40 due to technical issues.
 
-[Error Function: Device2::SetupDevice](/support/troubleshooting/device-connection-issues/error-function-device2-setupdevice)
+<a class="content-ref" href="/support/troubleshooting/device-connection-issues/error-function-device2-setupdevice">Error Function: Device2::SetupDevice</a>
 
 * Windows: [Logic-1.2.35](https://downloads.saleae.com/betas/1.2.35/Logic-1.2.35-win64.zip)
 * MacOS: [Logic-1.2.33](https://downloads.saleae.com/betas/1.2.33/Logic-1.2.33-MacOS.dmg)
@@ -88,7 +88,7 @@ When launching 1.2.29, you may see an "Unsupported Version" notice like shown be
 
 If you see this notice, please start the software using the instructions in the support article below.
 
-[Warning Message: Unsupported Version](/support/troubleshooting/software-crashes-and-errors/unsupported-version)
+<a class="content-ref" href="/support/troubleshooting/software-crashes-and-errors/unsupported-version">Warning Message: Unsupported Version</a>
 
 ### **1.2.28 Beta Download**
 
