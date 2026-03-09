@@ -6,25 +6,9 @@ In almost all cases, you should use the latest release of the Saleae software, L
 
 #### Logic 1.x Beta
 
-The latest version of our older Logic 1.x software can be downloaded below. At the moment, Logic 2 does not support our Automation API. To use the Automation API in the meantime, the older Logic 1.x software is required. We plan to add support for the Automation API into Logic 2 in the future.
-
-<a class="content-ref" href="/support/getting-help/troubleshooting/technical-faq/broken/pages/-LJVJwNqt3HkI7n8CFy9"> LJVJwNqt3HkI7n8CFy9</a>
-
-**OS X 10.4 and OS X 10.5**
-
-The last version of the software to support OS X 10.4 and OS X 10.5 was the Logic software version 1.1.15. You can download the special releases for this here:
-
-<a class="content-ref" href="/support/getting-help/troubleshooting/technical-faq/broken/pages/-LJVLJPftJpamc8HLOiL"> LJVLJPftJpamc8HLOiL</a>
-
-**OS X 10.6**
-
-The last release of the Saleae software to support OS X 10.6 was 1.1.18, which you can find here:
+The latest version of our older Logic 1.x software can be downloaded here: 
 
 <a class="content-ref" href="/support/logic-software/download-and-installation/older-software-releases">Logic 1.x Download (Deprecated)</a>
-
-**CentOs**
-
-Due to unknown issues with the QT 5 upgrade, we were unable to maintain support for CentOs 6.x and future releases. The last version of our software to use QT 4 was 1.1.34, and a special compatibility release was made that runs on CentOs 6.x. Be sure to get the compatibility release.
 
 **Other General Notes**
 

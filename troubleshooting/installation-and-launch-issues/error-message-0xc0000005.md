@@ -29,9 +29,6 @@ If the 1.1.20 software runs but the 1.1.34 software does not, that indicates tha
 2. If you are using disk encryption software, see if there is a way to exclude the Saleae Logic software folder from encryption. (Note: Microsoft’s integrated disk encryption is not likely to cause this problem; only 3rd-party tools have been known to cause these issues.)
 3. Check for any running debuggers (visual studio, etc.) and close them. Try again.
 4. Try running the software as the administrator.
-5. Download the "Windows 32 bit standalone" version of the latest software here and test it. Before running Logic.exe, you will need to install the included Microsoft visual studio runtime.
-
-<a class="content-ref" href="/support/getting-help/troubleshooting/broken/pages/-LJVJwNqt3HkI7n8CFy9"> LJVJwNqt3HkI7n8CFy9</a>
 
 **Contacting Support for Additional Help**
 
