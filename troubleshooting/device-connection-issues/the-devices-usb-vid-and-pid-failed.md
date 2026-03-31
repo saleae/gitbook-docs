@@ -10,6 +10,7 @@ Here are the correct VID and PID pairs for each products found in the Saleae dri
 | Logic 8        | VID 0x21A9, PID 0x1004 |
 | Logic Pro 8    | VID 0x21A9, PID 0x1005 |
 | Logic Pro 16   | VID 0x21A9, PID 0x1006 |
+| Logic MSO      | VID 0x21A9, PID 0x1007 |
 
 **How to Check the VID and PID Pair**
 
