@@ -29,6 +29,7 @@ The following analyzers are not officially supported nor developed by Saleae, bu
 * [MIPI RFFE v2 ★ 16](https://github.com/blargony/RFFEAnalyzer)
 * [MSP430 Bi-Spy-wire (BSW) Analyzer ★ 0](https://github.com/bigjosh/BSWAnalyzer)
 * [N64 Controller ★ 13](https://github.com/lunixbochs/n64-saleae-logic)
+* [NEMA/ATC SDLC Analyzer ★ 0](https://github.com/wxinix/SdlcAnalyzer)
 * [NAND (JEDEC / ONFI) Analyzer ★ 13](https://github.com/shuffle2/NandAnalyzer)
 * [NEC IR Remote Control ★ 49](https://github.com/LiveOverflow/NECAnalyzer) (developed by [LiveOverflow](https://github.com/LiveOverflow))
 * [NEC IR Remote Control ★ 16](https://github.com/kodizhuk/Salae-Logic-NEC-Analyzer) (developed by [kodizhuk](https://github.com/kodizhuk))
