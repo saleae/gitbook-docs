@@ -198,6 +198,7 @@
 * [Electrical Characteristics]()
   * [Supported Voltages](specifications-hardware/electrical-characteristics/supported-voltages.md)
   * [Device Calibration](specifications-hardware/electrical-characteristics/device-calibration.md)
+  * [Logic MSO Calibration Verification](specifications-hardware/electrical-characteristics/logic-mso-calibration-verification.md)
   * [Resolution of the Analog Inputs](specifications-hardware/electrical-characteristics/resolution-of-the-analog-inputs.md)
   * [Can I Change the Voltage Range of the Analog Inputs?](specifications-hardware/electrical-characteristics/can-i-change-the-voltage-range-of-the-analog-inputs.md)
   * [Is It Possible to Adjust the Logic Thresholds for the Digital Inputs?](specifications-hardware/electrical-characteristics/adjusting-thresholds.md)
