@@ -4,6 +4,7 @@ The following analyzers are not officially supported nor developed by Saleae, bu
 
 * [Anybus CompactCom SPI ★ 9](https://github.com/hms-networks/AbccSpiAnalyzer)
 * [APDU ★ 12](https://github.com/zwizwa/sl-apdu)
+* [ARINC 429 Analyzer ★ 0](https://github.com/prajwaltr93/Saleae-ARINC-429-Analyzer)
 * [Async Serial (Dual channel & Packet detection) ★ 0](https://github.com/martonmiklos/dual-channel-packetiser-serial-analyzer)
 * [CAN-FD ★ 8](https://github.com/acosmith/Saleae_CAN-FD_Analyser) (developed by [acosmith](https://github.com/acosmith))
 * [CAN-FD ★ 30](https://github.com/pierremolinaro/canfd-plugin-for-saleae-logic-analyzer) (developed by [pierremolinaro](https://github.com/pierremolinaro))
