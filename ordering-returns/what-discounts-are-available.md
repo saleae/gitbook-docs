@@ -1,8 +1,6 @@
 ### Saleae Discounts
 
-We offer various discount options for our Logic products. For more details and to check if you qualify, [click here](https://blog.saleae.com/saleae-discounts/).
-
-To apply for a discount code, please [click here](https://saleae-support.typeform.com/to/G5P39W).
+We offer reduced pricing for students, educators, non-commercial enthusiasts, and early-stage hardware startups and independent contractors. To see if you qualify and to apply for a discount code, visit our [Discounts page](https://www.saleae.com/discounts).
 
 ### Quantity Discounts
 
