@@ -31,6 +31,10 @@ This list contains authorized distributors selling Saleae devices. Please note t
 
 * [Antratek Electronics](https://www.antratek.com/catalogsearch/result/?q=saleae)
 
+### Denmark
+
+* [Antratek Electronics](https://www.antratek.dk/catalogsearch/result/?q=saleae)
+
 ### Finland
 
 * [Elgood Partco - The Electronics Shop](https://www.partco.fi/fi/2487-logiikka-analysaattorit#/valmistaja-saleae)
