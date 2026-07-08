@@ -1,5 +1,6 @@
 Need an idea for an electronics project? Want to check out some cool gizmos that our community of users have built using our Logic analyzers? We’ve got a list of some cool projects below!
 
+* [Pulsar Modular Radio Communication System](https://grokepeer.github.io/Pulsar/)
 * [DOOM on Pulse Oximeter](https://barbulescurobert.github.io/DOOM-on-Pulse-Oximeter/)
 * [UP Karting Battery Pack](https://up-karting.github.io/pages/local-projects/bms_pcb/bms_pcb.html)
 * [SLIP Analyzer for Saleae Logic 2](https://www.gabevso.dev/posts/saleae_hla/)
