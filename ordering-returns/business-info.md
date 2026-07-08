@@ -2,7 +2,7 @@
 
 | Category                  | Value                                                                                |
 | ------------------------- | ------------------------------------------------------------------------------------ |
-| Address                   | <p>Saleae, Inc.<br>408 N Canal St<br>Unit A <br>South San Francisco, CA<br>94080</p> |
+| Address                   | <p>Saleae, Inc.<br>90 S Spruce Ave<br>Suite J<br>South San Francisco, CA<br>94080</p> |
 | Phone                     | +1 (510) 984-2463                                                                    |
 | U.S. Tax ID Number        | 35-2530870                                                                           |
 | Unique Entity ID (UEI)    | YLV3BL7JC9K5                                                                         |
