@@ -1,5 +1,12 @@
 Several Logic accessories have been made available by our community of users. These are listed below. If you’ve created an accessory that you’d like to share, [let us know](/contact)!
 
+### Original Logic Bottom Cover Replacement
+
+* Created by [bootsector](https://www.printables.com/@bootsector_5033389)
+* Printables Download: [https://www.printables.com/model/1764595-saleae-logic-bottom-cover-replacement](https://www.printables.com/model/1764595-saleae-logic-bottom-cover-replacement)
+
+![Original Logic Bottom Cover Replacement by bootsector](/support-assets/logic-bottom-cover-replacement.jpg)
+
 ### 3D Logic MSO Desktop Stand
 
 * created by [Wietsman](https://discuss.saleae.com/u/wietsman/summary) from our [Discuss Forum](https://discuss.saleae.com/t/3d-logic-mso-desktop-stand/3554)
