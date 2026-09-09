@@ -71,7 +71,7 @@ All Saleae products listed below are in compliance with the EU Council Directive
 
 ## **Statement of Volatility**
 
-<a href="/support-assets/Saleae_Statement_of_Volatility_2026.pdf" download class="content-ref">Saleae Statement of Volatility</a>
+<a href="/support-assets/Saleae_Statement_of_Volatility_2026-07.pdf" download class="content-ref">Saleae Statement of Volatility</a>
 
 ## Requirements for Additional Compliance Documents?
 
